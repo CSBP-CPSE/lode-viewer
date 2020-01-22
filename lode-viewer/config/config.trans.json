@@ -18,6 +18,13 @@
 		"fr" : "La proximité aux transports en commun indique l'accès aux transports en communs en considérant la distance de marche du centroïde du bloc de dissémination aux arrêts d'autobus (jusqu'à une distance de 1 km), où un poids est attribué à chacun des arrêts en fonction du nombre total d'autobus qui passent par cet arrêt entre 7-10 am les jours de la semaine."
 	},
     "legend": [{
+            "color": [110, 50, 100],
+            "label": {
+                "en": "GTFS data not available",
+                "fr": "Données GTFS non-disponibles"
+            },
+			"value": ["any", ["==", ["get", "CMAUID"], "442"], ["==", ["get", "CMAUID"], "522"]]
+        },{
             "color": [200, 200, 200],
             "label": {
                 "en": "Not available",
