@@ -1,0 +1,14 @@
+{
+	"base" : ["./config/config.source.json", "./config/config.population.json"],
+	"proximity" : ["./config/config.close.json", 
+				   "./config/config.child.json",
+				   "./config/config.edupri.json", 
+				   "./config/config.edusec.json",
+				   "./config/config.empl.json",
+				   "./config/config.groc.json", 
+				   "./config/config.health.json", 
+				   "./config/config.library.json", 
+				   "./config/config.parks.json", 
+				   "./config/config.pharm.json", 
+				   "./config/config.trans.json"]
+}

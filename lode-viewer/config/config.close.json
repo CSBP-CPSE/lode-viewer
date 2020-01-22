@@ -1,0 +1,59 @@
+{
+    "id": "close",
+    "style": "mapbox://styles/deil-leid/ck5ot96hp1ceq1ijy73bpyvo5",
+    "layers": [{
+            "id": "db"
+        }
+    ],
+    "title": {
+        "en": "DB Close By (Need to rename)",
+        "fr": "DB Close By (Need to rename)"
+    },
+    "subtitle": {
+        "en": "(preliminary experimental results)",
+        "fr": "(résultats expérimentaux préliminaires)"
+    },
+    "description": {
+        "en": "Need a proper description.",
+        "fr": "Need a proper description."
+    },
+    "legend": [{
+            "color": [145, 207, 96],
+            "label": {
+                "en": "Very Close",
+                "fr": "Très Proche"
+            },
+            "value": ["==", ["get", "very.close"], 1]
+        }, {
+            "color": [217, 239, 139],
+            "label": {
+                "en": "Close",
+                "fr": "Proche"
+            },
+            "value": ["==", ["get", "close"], 1]
+        }, {
+            "color": [254, 224, 139],
+            "label": {
+                "en": "Far",
+                "fr": "Éloigné"
+            },
+            "value": ["==", ["get", "close"], 0]
+        }, {
+            "color": [255, 255, 255]
+        }
+    ],
+    "fields": [{
+            "id": "DBUID",
+            "label": {
+                "en": "Dissemination block",
+                "fr": "Bloc de diffusion"
+            }
+        }, {
+            "id": "CSDUID",
+            "label": {
+                "en": "Census Subdivision",
+                "fr": "Sous-division de recensement"
+            }
+        }
+    ]
+}

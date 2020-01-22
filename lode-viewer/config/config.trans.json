@@ -1,0 +1,100 @@
+{
+	"id" : "trans",
+    "style": "mapbox://styles/deil-leid/ck5mirmwz1r8i1ipm7dduvbgw",
+    "layers": [{
+            "id": "db"
+        }
+    ],
+    "title": {
+        "en": "Proximity to Public Transit Trips",
+        "fr": "Proximité aux voyages de transport en commun"
+    },
+    "subtitle": {
+        "en": "(preliminary experimental results)",
+        "fr": "(résultats expérimentaux préliminaires)"
+    },
+	"description": {
+		"en" : "Proximity to transit measures access to public transit by considering walking distance from dissemination block centroids to bus stop locations (up to a maximum distance of 1 km), where each bus stop is weighted by the total number of buses that pass through that stop between the hours of 7–10 am on a weekday.",
+		"fr" : "La proximité aux transports en commun indique l'accès aux transports en communs en considérant la distance de marche du centroïde du bloc de dissémination aux arrêts d'autobus (jusqu'à une distance de 1 km), où un poids est attribué à chacun des arrêts en fonction du nombre total d'autobus qui passent par cet arrêt entre 7-10 am les jours de la semaine."
+	},
+    "legend": [{
+            "color": [200, 200, 200],
+            "label": {
+                "en": "Not available",
+                "fr": "Non-disponible"
+            },
+			"value": ["==", ["get", "trans.idx"], null]
+        }, {
+            "color": [255, 255, 255],
+            "label": {
+                "en": "Equal to 0.000",
+                "fr": "Égal à 0.000"
+            },
+			"value": ["==", ["get", "trans.idx"], 0]
+        }, {
+            "color": [215, 48, 39],
+            "label": {
+                "en": "Between 0.000 and 0.0028",
+                "fr": "Entre 0.000 et 0.0028"
+            },
+			"value": ["<=", ["get", "trans.idx"], 0.0028]
+        }, {
+            "color": [252, 141, 89],
+            "label": {
+                "en": "Between 0.0028 and 0.0069",
+                "fr": "Entre 0.0028 et 0.0069"
+            },
+			"value": ["<=", ["get", "trans.idx"], 0.0069]
+        }, {
+            "color": [254, 224, 139],
+            "label": {
+                "en": "Between 0.0069 and 0.0133",
+                "fr": "Entre 0.0069 et 0.0133"
+            },
+			"value": ["<=", ["get", "trans.idx"], 0.0133]
+        }, {
+            "color": [217, 239, 139],
+            "label": {
+                "en": "Between 0.0133 and 0.0275",
+                "fr": "Entre 0.0133 et 0.0275"
+            },
+			"value": ["<=", ["get", "trans.idx"], 0.0275]
+        }, {
+            "color": [145, 207, 96],
+            "label": {
+                "en": "Between 0.0275 and 1.000",
+                "fr": "Entre 0.0275 et 1.000"
+            },
+			"value": ["<=", ["get", "trans.idx"], 1.000]
+        }, {
+			"color": [200, 200, 200]
+		}
+    ],
+    "fields": [{
+            "id": "DBUID",
+            "label": {
+                "en": "Dissemination block",
+                "fr": "Bloc de diffusion"
+            }
+        }, {
+            "id": "CSDUID",
+            "label": {
+                "en": "Census Subdivision",
+                "fr": "Sous-division de recensement"
+            }
+        }, {
+            "id": "CMAUID",
+            "label": {
+                "en": "Census Metropolitan Area",
+                "fr": "Région métropolitaine de recensement"
+            }
+        }, {
+            "id": "trans.idx",
+            "label": {
+                "en": "Proximity to public transit trip",
+                "fr": "Proximité aux voyages de transport en commun"
+            },
+            "fixed": 4
+        }
+    ]
+}

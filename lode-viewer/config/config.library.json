@@ -1,0 +1,94 @@
+{
+	"id" : "library",
+    "style": "mapbox://styles/deil-leid/ck5mitgsp1ony1inkjj6l5szn",
+    "layers": [{
+            "id": "db"
+        }
+    ],
+    "title": {
+        "en": "Proximity to Libraries",
+        "fr": "Proximité aux Bibliothèques"
+    },
+    "subtitle": {
+        "en": "(preliminary experimental results)",
+        "fr": "(résultats expérimentaux préliminaires)"
+    },
+	"description": {
+		"en" : "Proximity to libraries measures access to public libraries by considering walking distance from dissemination block centroids to library locations (up to a maximum distance of 1 km).",
+		"fr" : "La proximité aux bibliothèques indique l'accès aux bibliothèques en considérant la distance de marche du centroïde du bloc de dissémination aux bibliothèques (jusqu'à une distance de 1 km)."
+	},
+    "legend": [{
+            "color": [200, 200, 200],
+            "label": {
+                "en": "Not available",
+                "fr": "Non-disponible"
+            },
+			"value": ["==", ["get", "lib.idx"], null]
+        }, {
+            "color": [255, 255, 255],
+            "label": {
+                "en": "Equal to 0.000",
+                "fr": "Égal à 0.000"
+            },
+			"value": ["==", ["get", "lib.idx"], 0]
+        }, {
+            "color": [215, 48, 39],
+            "label": {
+                "en": "Between 0.000 and 0.0161",
+                "fr": "Entre 0.000 et 0.0161"
+            },
+			"value": ["<=", ["get", "lib.idx"], 0.0161]
+        }, {
+            "color": [252, 141, 89],
+            "label": {
+                "en": "Between 0.0161 and 0.0209",
+                "fr": "Entre 0.0161 et 0.0209"
+            },
+			"value": ["<=", ["get", "lib.idx"], 0.0209]
+        }, {
+            "color": [254, 224, 139],
+            "label": {
+                "en": "Between 0.0209 and 0.0303",
+                "fr": "Entre 0.0209 et 0.0303"
+            },
+			"value": ["<=", ["get", "lib.idx"], 0.0303]
+        }, {
+            "color": [217, 239, 139],
+            "label": {
+                "en": "Between 0.0303 and 0.0477",
+                "fr": "Entre 0.0303 et 0.0477"
+            },
+			"value": ["<=", ["get", "lib.idx"], 0.0477]
+        }, {
+            "color": [145, 207, 96],
+            "label": {
+                "en": "Between 0.0477 and 1.000",
+                "fr": "Entre 0.0477 et 1.000"
+            },
+			"value": ["<=", ["get", "lib.idx"], 1.000]
+        }, {
+			"color": [200, 200, 200]
+		}
+    ],
+    "fields": [{
+            "id": "DBUID",
+            "label": {
+                "en": "Dissemination block",
+                "fr": "Bloc de diffusion"
+            }
+        }, {
+            "id": "CSDUID",
+            "label": {
+                "en": "Census Subdivision",
+                "fr": "Sous-division de recensement"
+            }
+        }, {
+            "id": "lib.idx",
+            "label": {
+                "en": "Proximity to libraries",
+                "fr": "Proximité aux bibliothèques"
+            },
+            "fixed": 4
+        }
+    ]
+}

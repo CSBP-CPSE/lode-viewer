@@ -1,0 +1,93 @@
+{
+    "id": "source",
+    "style": "mapbox://styles/deil-leid/ck36tlip73asa1cn6of81gugz",
+    "layers": [{
+            "id": "bc"
+        }, {
+            "id": "ab"
+        }, {
+            "id": "sk"
+        }, {
+            "id": "mb"
+        }, {
+            "id": "on"
+        }, {
+            "id": "qc"
+        }, {
+            "id": "pe"
+        }, {
+            "id": "ns"
+        }, {
+            "id": "nb"
+        }, {
+            "id": "nl"
+        }, {
+            "id": "nt"
+        }, {
+            "id": "nu"
+        }, {
+            "id": "yt"
+        }
+    ],
+    "title": {
+        "en": "Data Provenance",
+        "fr": "Source des données"
+    },
+    "description": {
+        "en": "This map shows the provenance of each bulding footprints (Microsoft Image Processing or Statistics Canada's Open Database of Buildings).",
+        "fr": "Cette carte affiche l'origine de chacune des empreintes de bâtiments (Traitement d'image Microsoft ou la Base de données ouverte de bâtiments de Statistique Canada)."
+    },
+    "legend": [{
+            "color": [77, 148, 242],
+            "label": {
+                "en": "Microsoft",
+                "fr": "Microsoft"
+            },
+            "value": ["==", ["get", "Data_prov"], "Microsoft"]
+        }, {
+            "color": [240, 82, 43],
+            "label": {
+                "en": "Statistics Canada (ODB)",
+                "fr": "Statistique Canada (BDOI)"
+            }
+        }
+    ],
+    "fields": [{
+            "id": "Data_prov",
+            "label": {
+                "en": "Origin",
+                "fr": "Source"
+            }
+        }, {
+            "id": "PRUID",
+            "label": {
+                "en": "PR",
+                "fr": "PR"
+            }
+        }, {
+            "id": "CDUID",
+            "label": {
+                "en": "CD",
+                "fr": "DR"
+            }
+        }, {
+            "id": "CSDUID",
+            "label": {
+                "en": "CSD",
+                "fr": "SDR"
+            }
+        }, {
+            "id": "DAUID",
+            "label": {
+                "en": "DA",
+                "fr": "AD"
+            }
+        }, {
+            "id": "DBUID",
+            "label": {
+                "en": "DB",
+                "fr": "BD"
+            }
+        }
+    ]
+}

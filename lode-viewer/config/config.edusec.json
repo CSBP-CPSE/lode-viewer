@@ -1,0 +1,94 @@
+{
+    "id": "edusec",
+    "style": "mapbox://styles/deil-leid/ck5miy21b0r0e1ik3fz4acr3d",
+    "layers": [{
+            "id": "db"
+        }
+    ],
+    "title": {
+        "en": "Proximity to Secondary Education Facilities",
+        "fr": "Proximité aux établissements d'éducation secondaire"
+    },
+    "subtitle": {
+        "en": "(preliminary experimental results)",
+        "fr": "(résultats expérimentaux préliminaires)"
+    },
+    "description": {
+        "en": "Proximity to secondary schools measures access to public secondary schools by considering walking distance from dissemination block centroids to school locations (up to a maximum distance of 1.5 km).",
+        "fr": "La proximité aux écoles secondaires indique l'accès aux écoles secondaires publiques en considérant la distance de marche du centroïde du bloc de dissémination aux écoles (jusqu'à une distance de 1.5 km)."
+    },
+    "legend": [{
+            "color": [200, 200, 200],
+            "label": {
+                "en": "Not available",
+                "fr": "Non-disponible"
+            },
+            "value": ["==", ["get", "edusec.idx"], null]
+        }, {
+            "color": [255, 255, 255],
+            "label": {
+                "en": "Equal to 0.000",
+                "fr": "Égal à 0.000"
+            },
+            "value": ["==", ["get", "edusec.idx"], 0]
+        }, {
+            "color": [215, 48, 39],
+            "label": {
+                "en": "Between 0.000 and 0.0132",
+                "fr": "Entre 0.000 et 0.0132"
+            },
+            "value": ["<", ["get", "edusec.idx"], 0.0132]
+        }, {
+            "color": [252, 141, 89],
+            "label": {
+                "en": "Between 0.0132 and 0.0234",
+                "fr": "Entre 0.0132 et 0.0234"
+            },
+            "value": ["<", ["get", "edusec.idx"], 0.0234]
+        }, {
+            "color": [254, 224, 139],
+            "label": {
+                "en": "Between 0.0234 and 0.038",
+                "fr": "Entre 0.0234 et 0.038"
+            },
+            "value": ["<", ["get", "edusec.idx"], 0.038]
+        }, {
+            "color": [217, 239, 139],
+            "label": {
+                "en": "Between 0.038 and 0.0639",
+                "fr": "Entre 0.038 et 0.0639"
+            },
+            "value": ["<", ["get", "edusec.idx"], 0.0639]
+        }, {
+            "color": [254, 224, 139],
+            "label": {
+                "en": "Between 0.0639 and 1.000",
+                "fr": "Entre 0.0639 et 1.000"
+            },
+            "value": ["<", ["get", "edusec.idx"], 1.000]
+        }, {
+            "color": [200, 200, 200]
+        }
+    ],
+    "fields": [{
+            "id": "DBUID",
+            "label": {
+                "en": "Dissemination block",
+                "fr": "Bloc de diffusion"
+            }
+        }, {
+            "id": "CSDUID",
+            "label": {
+                "en": "Census Subdivision",
+                "fr": "Sous-division de recensement"
+            }
+        }, {
+            "id": "edusec.idx",
+            "label": {
+                "en": "Proximity to secondary education facilities",
+                "fr": "Proximité aux établissements d'éducation secondaires"
+            },
+            "fixed": 4
+        }
+    ]
+}

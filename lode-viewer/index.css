@@ -1,0 +1,284 @@
+html, html .mapboxgl-map {
+	font: 13px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 1.1em;
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+button {
+	cursor : pointer;
+}
+
+input[type="radio"] {
+  margin-top: -3px;
+  vertical-align: middle;
+}
+
+label[for],
+input[type="radio"],
+.mapboxgl-canvas {
+	cursor : pointer;
+}
+
+.mapboxgl-ctrl-top-right .mapboxgl-ctrl-group .mapboxgl-ctrl {
+	float:none;
+    margin: 10px;
+}
+
+.hidden {
+	display:none;
+}
+
+.control-label {
+	font-weight : bold;
+}
+
+.toc .toc-item > *, 
+.legend .legend-item > * {
+	display : inline-block;	
+	vertical-align : middle;
+	margin : 1px;
+}
+
+.legend .legend-container > *,
+.toc .toc-container > * {
+	margin-left : 8px;
+}
+
+.toc .toc-container {
+	margin-top : 5px;
+}
+
+.toc .toc-container > * {
+	display : block;	
+	cursor : pointer;
+} 
+
+.legend .legend-item .legend-icon {
+	width : 15px;
+	height : 15px;
+	margin-right : 5px;
+}
+
+.opacity .opacity-slider {
+	text-align:center;
+}
+
+.opacity .opacity-slider > input {
+	width:90%;
+	cursor : pointer;
+}
+
+/*** tooltip ***/
+.tooltip {
+	position: absolute;
+    padding: 5px;
+    border-radius: 4px;
+    pointer-events: none;
+	opacity : 0;
+	z-index: 10000;
+    background: white;
+    max-width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 2px;
+}
+
+.tooltip .tooltip-title {
+	font-weight : bold;
+}
+
+.tooltip .tooltip-line > * {
+	display:inline-block;
+	vertical-align : middle;
+	margin-left:3px;
+	margin-right:3px;
+}
+
+.tooltip .legend, .tooltip .legend rect {
+	width:12px;
+	height:2px;
+}
+
+/*** popup ***/
+.popup {
+	z-index:5000;
+	background-color : rgba(20,30,40,0.65);
+}
+
+.modal.popup {
+	position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.popup .popup-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	
+    overflow-y: auto;
+	
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: -5px 5px 15px rgba(1, 1, 1, 0.5);
+	
+    max-width: 400px;
+    max-height: 500px;
+	
+    display: flex;	
+    flex-direction: column;
+}
+
+.popup .popup-body {
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.popup button.close {
+    font-size: 28px;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    right: 20px;
+    line-height: 30px;
+    top: 4px;
+    z-index: 1;
+    background: white;
+    border-radius: 30px;
+}
+
+.popup button.close:focus {
+    outline-style: dashed;
+    outline-color: white;
+	outline-width: 1px;
+}
+
+.popup p.warning  {
+	color: #c00d0d;
+	font-style : italic;
+}
+
+.popup .wip-container {
+	display:table;
+}
+
+.popup .wip-container > * {
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.popup .wip-container img {
+    margin-right : 8px;
+	width : 60px;
+	height : 60px;
+}
+
+.popup .continue-container {
+	margin-top : 8px;
+}
+
+.popup .continue-container,
+.popup .logo-container {
+    text-align: center;
+}
+
+.popup .logo {
+    width: 250px;
+}
+
+.popup h1 {
+	font-size : 18px;
+}
+
+.popup button.continue {
+	background-color: #bae2ed;
+    font-weight: bold;
+    color: #36494f;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    box-shadow: -2px 2px 3px rgba(1, 1, 1, 0.5);
+}
+
+
+.popup.maps .popup-container {	
+    max-height: 280px;
+    min-height: 250px;
+}
+
+.maps-control button img {
+    width: 22px;
+    height: 22px;
+    padding: 4px;
+}
+
+/*  Everything that's a list should use the same styles */
+.bookmarks .bookmarks-header-container > *,
+.maps .maps-header-container > * {
+	display : inline-block;
+	vertical-align : middle;
+}
+
+.bookmarks .bookmarks-header,
+.maps .maps-header {
+    margin: 0;
+	font-size : 18px;
+}
+
+.bookmarks .bookmarks-header-icon,
+.maps .maps-header-icon {
+	width: 24px;
+    height: 24px;
+    padding: 4px;
+	margin-right: 10px;
+}
+
+.bookmarks .bookmarks-list,
+.maps .maps-list {
+    list-style: none;
+    padding: 0;
+    border: dotted 1px silver;
+}
+
+.bookmarks .bookmarks-list .bookmarks-list-item,
+.maps .maps-list .maps-list-item {
+	cursor: pointer;
+    font-size: 1.1em;
+    padding: 4px;
+}
+
+.bookmarks .bookmarks-list .bookmarks-list-item:nth-child(odd),
+.maps .maps-list .maps-list-item:nth-child(odd) {
+	background-color : #ffffff;
+}
+.bookmarks .bookmarks-list .bookmarks-list-item:nth-child(even),
+.maps .maps-list .maps-list-item:nth-child(even) {
+	background-color : #efefef;
+}
+
+.bookmarks .bookmarks-list .bookmarks-list-item:hover,
+.maps .maps-list .maps-list-item:hover { 
+	background-color : #edf3ff;
+}
+
+.bookmarks .bookmarks-description,
+.maps .maps-description {
+	margin: 0px 10px 0px 10px;
+}
+
+.download .link {
+    color: #007396;
+    text-decoration: none;
+}
