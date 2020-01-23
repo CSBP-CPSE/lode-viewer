@@ -6,36 +6,36 @@
         }
     ],
     "title": {
-        "en": "DB Close By (Need to rename)",
-        "fr": "DB Close By (Need to rename)"
+        "en": "Close By Neighborhoods",
+        "fr": "Proximité de quartier"
     },
     "subtitle": {
         "en": "(preliminary experimental results)",
         "fr": "(résultats expérimentaux préliminaires)"
     },
     "description": {
-        "en": "Need a proper description.",
-        "fr": "Need a proper description."
+        "en": "A close-by neighborhood/locality is defined as one that has a grocery store (1km walking distance), a pharmacy (1km walking distance), a health facility (3km driving distance), a childcare facility (1.5km walking distance), a primary school (1.5km walking distance), a library (1.5km walking distance), a public transit stop (1km walking distance), and employment (10km driving distance).",
+        "fr": "Un quartier à proximité est défini comme ayant une épicerie (1km distance de marche), une pharmacie (1km distance de marche), un établissement de santé (3km distance en voiture), un service de garde (1.5km distance de marche), une école primaire (1.5km distance de marche), une bibliothèque (1.5km distance de marche), un arrêt de transport en commun (1km distance de marche), et un lieu de travail (10km distance en voiture)."
     },
     "legend": [{
             "color": [145, 207, 96],
             "label": {
-                "en": "Very Close",
-                "fr": "Très Proche"
+                "en": "Very close proximity",
+                "fr": "Très haute proximité"
             },
             "value": ["==", ["get", "very.close"], 1]
         }, {
             "color": [217, 239, 139],
             "label": {
-                "en": "Close",
-                "fr": "Proche"
+                "en": "Close proximity",
+                "fr": "Haute proximité"
             },
             "value": ["==", ["get", "close"], 1]
         }, {
             "color": [254, 224, 139],
             "label": {
-                "en": "Far",
-                "fr": "Éloigné"
+                "en": "Low proximity",
+                "fr": "Faible proximité"
             },
             "value": ["==", ["get", "close"], 0]
         }, {
