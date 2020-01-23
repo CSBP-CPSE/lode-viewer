@@ -11,12 +11,6 @@ export default class Splash extends Popup {
 			this.onBtnClose_Click(ev);			
 		}.bind(this));
 	}
-	
-	onBtnClose_Click(ev) {
-		super.onBtnClose_Click(ev);
-		
-		this.d.Resolve();
-	}
 		
 	Show() {		
 		super.Show();
@@ -24,6 +18,12 @@ export default class Splash extends Popup {
 		this.d = Core.Defer();
 		
 		return this.d.promise;
+	}
+	
+	Hide() {
+		super.Hide();
+		
+		this.d.Resolve();
 	}
 	
 	Template() {
