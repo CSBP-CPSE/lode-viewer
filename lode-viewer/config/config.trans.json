@@ -23,7 +23,7 @@
                 "en": "GTFS data not available",
                 "fr": "Données GTFS non-disponibles"
             },
-			"value": ["any", ["==", ["get", "CMAUID"], "442"], ["==", ["get", "CMAUID"], "522"]]
+			"value": ["==", ["get", "GTFS"], 0]
         },{
             "color": [200, 200, 200],
             "label": {
@@ -100,6 +100,13 @@
             "label": {
                 "en": "Proximity to public transit trip",
                 "fr": "Proximité aux voyages de transport en commun"
+            },
+            "fixed": 4
+        }, {
+            "id": "GTFS",
+            "label": {
+                "en": "GTFS available",
+                "fr": "GTFS disponible"
             },
             "fixed": 4
         }

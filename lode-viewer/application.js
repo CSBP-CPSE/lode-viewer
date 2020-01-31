@@ -23,6 +23,10 @@ export default class ProxApp {
 		var token = "pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg";
 
 		this.map = Factory.Map("map", token, this.config.Style, [Store.Lng, Store.Lat], Store.Zoom);
+		// this.search = Factory.SearchControl(Core.Nls("Search_Placeholder"));
+
+		// Add top-left search bar
+		// this.map.AddControl(this.search, "top-left");
 
 		// Adding basic controls to map
 		this.map.AddControl(Factory.NavigationControl(), "top-left");
@@ -37,6 +41,8 @@ export default class ProxApp {
 		this.map.On("MoveEnd", this.OnMapMoveEnd_Handler.bind(this));
 		this.map.On("ZoomEnd", this.OnMapZoomEnd_Handler.bind(this));
 		this.map.On("Click", this.OnMapClick_Handler.bind(this));
+		
+		// this.search.On("Change", this.OnSearchChange_Handler.bind(this));
 	}
 	
 	AddMenu() {
@@ -136,5 +142,9 @@ export default class ProxApp {
 		var html = Other.HTMLize(ev.features[0].properties, this.config.Fields, Core.Nls("Map_Not_Available"));
 		
 		this.map.InfoPopup(ev.lngLat, html);
+	}
+	
+	OnSearchChange_Handler(ev) {
+		debugger;
 	}
 }

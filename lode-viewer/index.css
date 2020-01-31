@@ -24,6 +24,10 @@ input[type="radio"] {
   vertical-align: middle;
 }
 
+input {
+	font: 13px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
 label[for],
 input[type="radio"],
 .mapboxgl-canvas {
@@ -276,6 +280,18 @@ input[type="radio"],
 .bookmarks .bookmarks-description,
 .maps .maps-description {
 	margin: 0px 10px 0px 10px;
+}
+
+.search .search-input {
+	width: 300px;
+	border: none;
+    padding: 0px 8px;
+    height: 30px;
+    font-style: italic;
+    border-radius: 4px;
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
 .download .link {
