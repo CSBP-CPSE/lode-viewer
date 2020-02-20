@@ -24,8 +24,27 @@ input[type="radio"] {
   vertical-align: middle;
 }
 
-input {
+input, datalist {
 	font: 13px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+:not(li):focus {
+	box-shadow: 0 0 3px 2px rgba(47, 151, 255, 0.65) !important;
+	-moz-box-shadow: 0 0 3px 2px rgba(47, 151, 255, 0.65) !important;
+	-webkit-box-shadow: 0 0 3px 2px rgba(47, 151, 255, 0.65) !important;
+	outline : none !important;
+}
+
+.mapboxgl-ctrl-icon.mapboxgl-ctrl-fullscreen {
+	background-image : url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath d='M 5 4 C 4.5 4 4 4.5 4 5 L 4 6 L 4 9 L 4.5 9 L 5.7773438 7.296875 C 6.7771319 8.0602131 7.835765 8.9565728 8.890625 10 C 7.8257121 11.0633 6.7761791 11.951675 5.78125 12.707031 L 4.5 11 L 4 11 L 4 15 C 4 15.5 4.5 16 5 16 L 9 16 L 9 15.5 L 7.2734375 14.205078 C 8.0428931 13.187886 8.9395441 12.133481 9.9609375 11.068359 C 11.042371 12.14699 11.942093 13.2112 12.707031 14.21875 L 11 15.5 L 11 16 L 14 16 L 15 16 C 15.5 16 16 15.5 16 15 L 16 14 L 16 11 L 15.5 11 L 14.205078 12.726562 C 13.177985 11.949617 12.112718 11.043577 11.037109 10.009766 C 12.151856 8.981061 13.224345 8.0798624 14.228516 7.3046875 L 15.5 9 L 16 9 L 16 5 C 16 4.5 15.5 4 15 4 L 11 4 L 11 4.5 L 12.703125 5.7773438 C 11.932647 6.7864834 11.026693 7.8554712 9.9707031 8.9199219 C 8.9584739 7.8204943 8.0698767 6.7627188 7.3046875 5.7714844 L 9 4.5 L 9 4 L 6 4 L 5 4 z '/%3E %3C/svg%3E")
+}
+
+.mapboxgl-ctrl {
+	transform : initial;
+}
+
+.mapboxgl-ctrl-group {
+    overflow: initial;
 }
 
 label[for],
@@ -163,12 +182,6 @@ input[type="radio"],
     border-radius: 30px;
 }
 
-.popup button.close:focus {
-    outline-style: dashed;
-    outline-color: white;
-	outline-width: 1px;
-}
-
 .popup p.warning  {
 	color: #c00d0d;
 	font-style : italic;
@@ -223,9 +236,8 @@ input[type="radio"],
 }
 
 .maps-control button img {
-    width: 22px;
-    height: 22px;
-    padding: 4px;
+    width: 20px;
+    height: 20px;
 }
 
 /*  Everything that's a list should use the same styles */
@@ -282,19 +294,92 @@ input[type="radio"],
 	margin: 0px 10px 0px 10px;
 }
 
-.search .search-input {
-	width: 300px;
-	border: none;
-    padding: 0px 8px;
+.download .link {
+    color: #007396;
+    text-decoration: none;
+}
+
+.search-control {
+    overflow: visible;
+    transform: none;
+}
+
+.search-control, 
+.search-control .typeahead .input {
     height: 30px;
-    font-style: italic;
-    border-radius: 4px;
+}
+
+
+.search-control .typeahead {
+    position: absolute;
+}
+
+.typeahead.collapsed ul{
+	display:none;
+}
+
+.typeahead:not(.collapsed) ul,
+.typeahead .input { 
     -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
-.download .link {
-    color: #007396;
-    text-decoration: none;
+.typeahead.collapsed .input {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.typeahead .input {
+	border: none;
+	padding : 0px 8px;
+	
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.typeahead .input,
+.typeahead ul,
+.typeahead li {
+	width : 350px;
+	cursor: pointer;
+}
+
+.search-control .typeahead li {
+	padding : 3px 8px;
+}
+
+.search-control .typeahead li:not(:first-child) {
+	border-top : solid thin rgba(0, 0, 0, 0.1);
+}
+
+.bookmarks .bookmarks-list .bookmarks-list-item:focus,
+.maps .maps-list .maps-list-item:focus,
+.search-control .typeahead li:hover,
+.search-control .typeahead li.active {
+	background-color : rgba(70,137,194,1);
+	color : #fff;
+	font-weight : bold;
+}
+
+
+
+
+.search-control .typeahead ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+    width: 100%;
+	
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+	
+    position: absolute;
+    z-index: 5000;
+	
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 400px;
 }

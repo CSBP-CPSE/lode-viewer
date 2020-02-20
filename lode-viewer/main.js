@@ -35,8 +35,12 @@ function Start(results) {
 	var p2 = Net.JSON(`./config/config.bookmarks.json`).then(value => {
 		config.bookmarks = value.result.items;
 	});
+	
+	var p3 = Net.JSON(`./config/config.search.json`).then(value => {
+		config.search = value.result;
+	});
 		
-	Promise.all([p1, p2]).then(results => {
+	Promise.all([p1, p2, p3]).then(results => {
 		var app = new Application(config);
 	});
 }

@@ -29,7 +29,7 @@ export default class Splash extends Popup {
 	Template() {
 		return "<div handle='root' class='popup modal'>" +
 				  "<div class='popup-container'>" +
-					  "<button class='close' handle='close'>×</button>" +
+					  "<button class='close' handle='close' title='nls(Splash_CloseContinue)'>×</button>" +
 					  "<div class='popup-body' handle='body'>" + 
 						  "<h1>nls(Splash_LODE_Title)</h1>" + 
 						  "<hr>" + 
@@ -47,7 +47,7 @@ export default class Splash extends Popup {
 							"<div>nls(Splash_WIP)</div>" + 
 						"</div>" +
 						"<div class='continue-container'>" + 
-					      "<button class='continue' handle='continue'>nls(Splash_Continue)</button>" +
+					      "<button class='continue' handle='continue' title='nls(Splash_CloseContinue)'>nls(Splash_Continue)</button>" +
 					    "</div>" +
 					  "</div>" +
 				  "</div>" +

@@ -11,55 +11,53 @@ export default class ProxApp {
 	constructor(config) {		
 		this.maps = config.maps;
 		this.bookmarks = config.bookmarks;
+		this.search = config.search;
 
 		this.config = this.maps[Store.Map];
 		
 		if (!this.config) this.config = Util.FirstProperty(this.maps);
 		
-		this.Initialize();
-	}
-	
-	Initialize() {	
-		var token = "pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg";
-
-		this.map = Factory.Map("map", token, this.config.Style, [Store.Lng, Store.Lat], Store.Zoom);
-		// this.search = Factory.SearchControl(Core.Nls("Search_Placeholder"));
-
-		// Add top-left search bar
-		// this.map.AddControl(this.search, "top-left");
-
-		// Adding basic controls to map
-		this.map.AddControl(Factory.NavigationControl(), "top-left");
-		this.map.AddControl(Factory.ScaleControl("metric"));
-		
-		// Adding custom group controls
+		this.AddMap();	
+		this.AddSearch();	
+		this.AddBaseControls();		
 		this.AddGroup();
 		this.AddMenu();
-
+	}
+	
+	AddMap() {
+		var token = "pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg";
+		var token2 = "sk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrNmNheGc4MTFhY3IzbW56dGRud3d5cTkifQ.thkLSPhvTVBjMy8QOZoTiA";
+		
+		this.map = Factory.Map("map", token, this.config.Style, [Store.Lng, Store.Lat], Store.Zoom);
+		
 		// Hooking up all events
 		this.map.On("StyleChanged", this.OnMapStyleChanged_Handler.bind(this));
 		this.map.On("MoveEnd", this.OnMapMoveEnd_Handler.bind(this));
 		this.map.On("ZoomEnd", this.OnMapZoomEnd_Handler.bind(this));
 		this.map.On("Click", this.OnMapClick_Handler.bind(this));
-		
-		// this.search.On("Change", this.OnSearchChange_Handler.bind(this));
 	}
 	
-	AddMenu() {
-		// Top-left menu below navigation
-		this.list = Factory.MapsListControl(this.maps);
-		this.bookmarks = Factory.BookmarksControl(this.bookmarks);
+	AddBaseControls() {
+		var fullscreen = Factory.FullscreenControl();
+		var navigation = Factory.NavigationControl(false, true);
+		var scale = Factory.ScaleControl("metric");
 		
-		this.menu = Factory.MenuControl();
+		this.map.AddControl(fullscreen, "top-left");
+		this.map.AddControl(navigation, "top-left");
+		this.map.AddControl(scale);
 		
-		this.menu.AddPopupButton("maps", "assets/layers.png", Core.Nls("Maps_Title"), this.list);
-		this.menu.AddPopupButton("bookmarks", "assets/bookmarks.png", Core.Nls("Bookmarks_Title"), this.bookmarks);
+		fullscreen._controlContainer.firstChild.title = Core.Nls("FullScreen_Title");
+		navigation._zoomInButton.title = Core.Nls("Navigation_ZoomIn_Title");
+		navigation._zoomOutButton.title = Core.Nls("Navigation_ZoomOut_Title");
+	}
+	
+	AddSearch() {
+		var search = Factory.SearchControl(this.search.items, Core.Nls("Search_Placeholder"), Core.Nls("Search_Title"));
 		
-		this.map.AddControl(this.menu, "top-left");
+		// Add top-left search bar
+		this.map.AddControl(search, "top-left");
 		
-		this.list.On("MapSelected", this.OnListSelected_Handler.bind(this));
-		
-		this.bookmarks.On("BookmarkSelected", this.OnBookmarkSelected_Handler.bind(this));
+		search.On("Change", this.OnSearchChange_Handler.bind(this));
 	}
 	
 	AddGroup() {
@@ -73,16 +71,41 @@ export default class ProxApp {
 		
 		if (this.config.HasLayer(Store.Layer)) this.group.toc.SelectItem(Store.Layer);
 		
+		Dom.ToggleCss(this.group.toc.Node("root"), "hidden", !this.config.TOC);
+		
 		this.map.AddControl(Factory.Group(this.group));
+		
+		this.group.opacity.title = Core.Nls("Toc_Opacity_Title");
 		
 		this.group.opacity.On("OpacityChanged", this.OnLegend_OpacityChanged.bind(this));
 		this.group.toc.On("LayerVisibility", this.OnTOC_LayerVisibility.bind(this));
 	}
 	
+	AddMenu() {
+		// Top-left menu below navigation
+		var list = Factory.MapsListControl(this.maps);
+		var bookmarks = Factory.BookmarksControl(this.bookmarks);
+		
+		this.menu = Factory.MenuControl();
+		
+		this.menu.AddButton("home", "assets/globe.png", Core.Nls("Home_Title"), this.OnHomeClick_Handler.bind(this));
+		this.menu.AddPopupButton("maps", "assets/layers.png", Core.Nls("Maps_Title"), list);
+		this.menu.AddPopupButton("bookmarks", "assets/bookmarks.png", Core.Nls("Bookmarks_Title"), bookmarks);
+		
+		this.map.AddControl(this.menu, "top-left");
+		
+		list.On("MapSelected", this.OnListSelected_Handler.bind(this));
+		bookmarks.On("BookmarkSelected", this.OnBookmarkSelected_Handler.bind(this));
+	}
+		
 	OnLegend_OpacityChanged(ev) {		
 		Store.Opacity = ev.opacity;
 		
-		this.map.Choropleth(this.config.LayerIDs, this.config.Legend, this.group.opacity.opacity);
+		this.map.Choropleth(this.config.LayerIDs, 'fill-color', this.config.Legend, this.group.opacity.opacity);
+	}
+	
+	OnHomeClick_Handler(ev) {
+		this.map.FitBounds([[-173.457, 41.846], [-17.324, 75.848]]);
 	}
 	
 	OnBookmarkSelected_Handler(ev) {
@@ -124,7 +147,7 @@ export default class ProxApp {
 		if (this.config.HasLayer(Store.Layer)) this.map.ShowLayer(Store.Layer);
 		
 		this.map.SetClickableLayers(this.config.LayerIDs);
-		this.map.Choropleth(this.config.LayerIDs, this.config.Legend, this.group.opacity.opacity)
+		this.map.Choropleth(this.config.LayerIDs, 'fill-color', this.config.Legend, this.group.opacity.opacity)
 	}
 	
 	OnMapMoveEnd_Handler(ev) {		
@@ -144,7 +167,16 @@ export default class ProxApp {
 		this.map.InfoPopup(ev.lngLat, html);
 	}
 	
-	OnSearchChange_Handler(ev) {
-		debugger;
+	OnSearchChange_Handler(ev) {		
+		var legend = [{
+			color : this.search.color,
+			value : ["==", ["get", this.search.field], ev.item.id]
+		}, {
+			color : [255, 255, 255, 0]
+		}]
+		
+		this.map.Choropleth([this.search.layer], 'line-color', legend, this.group.opacity.opacity);
+		
+		this.map.FitBounds(ev.item.extent, { padding:30, animate:false });
 	}
 }
