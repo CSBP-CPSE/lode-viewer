@@ -49,6 +49,10 @@ export default class ProxApp {
 		fullscreen._controlContainer.firstChild.title = Core.Nls("FullScreen_Title");
 		navigation._zoomInButton.title = Core.Nls("Navigation_ZoomIn_Title");
 		navigation._zoomOutButton.title = Core.Nls("Navigation_ZoomOut_Title");
+		
+		fullscreen._controlContainer.firstChild.removeAttribute("aria-label");
+		navigation._zoomInButton.removeAttribute("aria-label");
+		navigation._zoomOutButton.removeAttribute("aria-label");
 	}
 	
 	AddSearch() {
@@ -58,6 +62,8 @@ export default class ProxApp {
 		this.map.AddControl(search, "top-left");
 		
 		search.On("Change", this.OnSearchChange_Handler.bind(this));
+		
+		search.Node("typeahead").Node("input").focus();
 	}
 	
 	AddGroup() {
