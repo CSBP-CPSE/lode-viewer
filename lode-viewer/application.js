@@ -4,6 +4,7 @@ import Core from "../basic-tools/tools/core.js";
 import Net from "../basic-tools/tools/net.js";
 import Util from "../basic-tools/tools/util.js";
 import Dom from "../basic-tools/tools/dom.js";
+import Table from "../basic-tools/components/table.js";
 import Store from "./store.js";
 
 export default class ProxApp { 
@@ -22,6 +23,7 @@ export default class ProxApp {
 		this.AddBaseControls();		
 		this.AddGroup();
 		this.AddMenu();
+		this.AddTable();
 	}
 	
 	AddMap() {
@@ -103,7 +105,14 @@ export default class ProxApp {
 		list.On("MapSelected", this.OnListSelected_Handler.bind(this));
 		bookmarks.On("BookmarkSelected", this.OnBookmarkSelected_Handler.bind(this));
 	}
+	
+	AddTable() {
+		debugger;
 		
+		var node = Dom.Node(document.body, '#table');
+		var table = new Table(node);
+	}
+	
 	OnLegend_OpacityChanged(ev) {		
 		Store.Opacity = ev.opacity;
 		
