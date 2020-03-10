@@ -15,7 +15,7 @@ export default class ProxApp {
 		this.search = config.search;
 
 		this.config = this.maps[Store.Map];
-		
+
 		if (!this.config) this.config = Util.FirstProperty(this.maps);
 		
 		this.AddMap();	
@@ -27,23 +27,44 @@ export default class ProxApp {
 
 
 
-
+			/*
 		var csvData
+		var currId
+		currId = 1001240
+		var currFileName
 
+
+
+		var genFileName = function(ev){
+			var summery = ev.result
+			//console.log(summery)
+			var id_str = currId.toString()
+			var num = summery[id_str]
+			var name =  id_str + "_" + num
+			console.log("file name is " + name)
+		}
+
+
+		var pp = Net.JSON(`http://localhost:82/lode-viewer/data/summary.json`);
 		var p = Net.Request(`http://localhost:82/lode-viewer/data/6205033_1.csv`)
+ 
+
 		
 		var success = function(ev) {
-			//console.log(csvData)
+			console.log(csvData)
 			return ev.result
 		}  
+
+		pp.then(genFileName, failure)
 
 		 
 		var populateTable = function(csvArray){
 
 			let tableRef = document.getElementById('myTable');
-			table.border = "1";
+			//console.log("num of col " + csvArray.length)
 
 			var columnCount = csvArray[0].length;
+
 			//Add the header row.
 	        var row = tableRef.insertRow(-1);
 	        for (var i = 0; i < columnCount; i++) {
@@ -81,8 +102,10 @@ export default class ProxApp {
 			console.log("error!");
 		}
 
-		p.then(success, failure).then(processData).then(populateTable);
+		p.then(success, failure).then(processData).then(populateTable); */
 
+
+ 
 	}
 
 
@@ -104,28 +127,7 @@ export default class ProxApp {
 	}
 
 
-
-	loadHandler(event) {
-		var csv = event.target.result;
-		processData(csv);
-	}
-
-
-	processData(csv) {
-		var allTextLines = csv.split(/\r\n|\n/);
-		var lines = [];
-		for (var i=0; i<allTextLines.length; i++) {
-			var data = allTextLines[i].split(';');
-			var tarr = [];
-			for (var j=0; j<data.length; j++) {
-				tarr.push(data[j]);
-				lines.push(tarr);
-			}
-			console.log(lines);
-		}
-	}
-	
-
+ 
 
 
 
@@ -149,6 +151,9 @@ export default class ProxApp {
 		navigation._zoomInButton.removeAttribute("aria-label");
 		navigation._zoomOutButton.removeAttribute("aria-label");
 	}
+
+
+
 	
 	AddSearch() {
 		var search = Factory.SearchControl(this.search.items, Core.Nls("Search_Placeholder"), Core.Nls("Search_Title"));
@@ -283,6 +288,10 @@ export default class ProxApp {
 		}, {
 			color : [255, 255, 255, 0]
 		}]
+
+		//console.log("search item:" + ev.item.id)
+		this.table.UpdateTable(ev.item.id)
+
 		
 		this.map.Choropleth([this.search.layer], 'line-color', legend, this.group.opacity.opacity);
 		
