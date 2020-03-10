@@ -102,17 +102,12 @@ export default class ProxApp {
 			console.log("error!");
 		}
 
-		p.then(success, failure).then(processData).then(populateTable); */
-
-
- 
+		p.then(success, failure).then(processData).then(populateTable); */ 
 	}
 
 
 
 
-
-	
 	AddMap() {
 		var token = "pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg";
 		var token2 = "sk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrNmNheGc4MTFhY3IzbW56dGRud3d5cTkifQ.thkLSPhvTVBjMy8QOZoTiA";
@@ -125,12 +120,6 @@ export default class ProxApp {
 		this.map.On("ZoomEnd", this.OnMapZoomEnd_Handler.bind(this));
 		this.map.On("Click", this.OnMapClick_Handler.bind(this));
 	}
-
-
- 
-
-
-
 
 
 
@@ -154,7 +143,6 @@ export default class ProxApp {
 
 
 
-	
 	AddSearch() {
 		var search = Factory.SearchControl(this.search.items, Core.Nls("Search_Placeholder"), Core.Nls("Search_Title"));
 		
@@ -165,6 +153,8 @@ export default class ProxApp {
 		
 		search.Node("typeahead").Node("input").focus();
 	}
+
+
 	
 	AddGroup() {
 		// Top-right group for toc, legend, etc.		
