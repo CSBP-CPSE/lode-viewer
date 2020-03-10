@@ -8,11 +8,22 @@ body {
 	padding: 0;
 }
 
+#map, #table {
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
 #map {
-	position: absolute;
+    position: relative;
+    width: 800px;
+    height: 600px;
+	
+    /*
+    position: absolute;
 	top: 0;
 	bottom: 0;
 	width: 100%;
+    */
 }
 
 button {

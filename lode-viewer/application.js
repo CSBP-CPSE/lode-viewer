@@ -24,7 +24,71 @@ export default class ProxApp {
 		this.AddGroup();
 		this.AddMenu();
 		this.AddTable();
+
+
+
+
+		var csvData
+
+		var p = Net.Request(`http://localhost:82/lode-viewer/data/6205033_1.csv`)
+		
+		var success = function(ev) {
+			//console.log(csvData)
+			return ev.result
+		}  
+
+		 
+		var populateTable = function(csvArray){
+
+			let tableRef = document.getElementById('myTable');
+			table.border = "1";
+
+			var columnCount = csvArray[0].length;
+			//Add the header row.
+	        var row = tableRef.insertRow(-1);
+	        for (var i = 0; i < columnCount; i++) {
+	            var headerCell = document.createElement("TH");
+	            headerCell.innerHTML = csvArray[0][i];
+	            row.appendChild(headerCell);
+	        }
+        //Add the data rows.
+        for (var i = 1; i < csvArray.length; i++) {
+            row = tableRef.insertRow(-1);
+            for (var j = 0; j < columnCount; j++) {
+                var cell = row.insertCell(-1);
+                cell.innerHTML = csvArray[i][j];
+            }
+        }
+		}
+
+
+		var processData = function(csv) {
+			var allTextLines = csv.split(/\r\n|\n/);
+			var lines = [];
+			for (var i=0; i<allTextLines.length; i++) {
+				var data = allTextLines[i].split(',');
+				var tarr = [];
+				for (var j=0; j<data.length; j++) {
+					tarr.push(data[j]);
+				}
+				lines.push(tarr);
+			}
+			//console.log(lines);
+			return lines
+		}
+
+		var failure = function(ev) {
+			console.log("error!");
+		}
+
+		p.then(success, failure).then(processData).then(populateTable);
+
 	}
+
+
+
+
+
 	
 	AddMap() {
 		var token = "pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg";
@@ -38,7 +102,36 @@ export default class ProxApp {
 		this.map.On("ZoomEnd", this.OnMapZoomEnd_Handler.bind(this));
 		this.map.On("Click", this.OnMapClick_Handler.bind(this));
 	}
+
+
+
+	loadHandler(event) {
+		var csv = event.target.result;
+		processData(csv);
+	}
+
+
+	processData(csv) {
+		var allTextLines = csv.split(/\r\n|\n/);
+		var lines = [];
+		for (var i=0; i<allTextLines.length; i++) {
+			var data = allTextLines[i].split(';');
+			var tarr = [];
+			for (var j=0; j<data.length; j++) {
+				tarr.push(data[j]);
+				lines.push(tarr);
+			}
+			console.log(lines);
+		}
+	}
 	
+
+
+
+
+
+
+
 	AddBaseControls() {
 		var fullscreen = Factory.FullscreenControl();
 		var navigation = Factory.NavigationControl(false, true);
@@ -107,11 +200,12 @@ export default class ProxApp {
 	}
 	
 	AddTable() {
-		debugger;
-		
 		var node = Dom.Node(document.body, '#table');
-		var table = new Table(node);
+		
+		this.table = new Table(node);
 	}
+
+
 	
 	OnLegend_OpacityChanged(ev) {		
 		Store.Opacity = ev.opacity;
@@ -193,5 +287,7 @@ export default class ProxApp {
 		this.map.Choropleth([this.search.layer], 'line-color', legend, this.group.opacity.opacity);
 		
 		this.map.FitBounds(ev.item.extent, { padding:30, animate:false });
+	
+		// this.table.UpdateTable(content);
 	}
 }
