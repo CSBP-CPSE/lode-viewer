@@ -34,6 +34,7 @@ export default class ProxApp {
 		this.map.On("MoveEnd", this.OnMapMoveEnd_Handler.bind(this));
 		this.map.On("ZoomEnd", this.OnMapZoomEnd_Handler.bind(this));
 		this.map.On("Click", this.OnMapClick_Handler.bind(this));
+
 	}
 
 	AddBaseControls() {
@@ -106,7 +107,11 @@ export default class ProxApp {
 	AddTable() {
 		var node = Dom.Node(document.body, 'main');
 		
-		this.table = new Table(node, { summary:this.config.table });
+		this.table = new Table(node, { summary:this.config.table, currId: 0, currFile: 0 });
+		//this.table.Node('tablePrev').addEventListener("click", this.table.handlePerv);
+		//this.table.Node('tableNext').addEventListener("click", this.table.handleNext);
+		this.table.Node('tablePrev').addEventListener('click', this.table.handlePerv.bind(this.table));
+		this.table.Node('tableNext').addEventListener('click', this.table.handleNext.bind(this.table));
 	}
 	
 	OnLegend_OpacityChanged(ev) {		
@@ -187,7 +192,7 @@ export default class ProxApp {
 		}]
 
 		//console.log("search item:" + ev.item.id)
-		this.table.UpdateTable(ev.item.id)
+		this.table.UpdateTable(ev.item.id, 0)
 
 		
 		this.map.Choropleth([this.config.search.layer], 'line-color', legend, this.group.opacity.opacity);

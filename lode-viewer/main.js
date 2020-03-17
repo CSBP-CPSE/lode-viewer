@@ -44,7 +44,7 @@ function Start(results) {
 		config.table = value.result;
 	});
 		
-	Promise.all([p1, p2, p3]).then(results => {
+	Promise.all([p1, p2, p3, p4]).then(results => {
 		var app = new Application(config);
 	});
 }

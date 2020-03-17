@@ -5,6 +5,8 @@ import Net from "../basic-tools/tools/net.js";
 import Util from "../basic-tools/tools/util.js";
 
 export default Core.Templatable("Basic.Components.Table", class Table extends Templated {
+
+ 
 	
 	set caption(value) { this.Node('caption').innerHTML = value; }
 
@@ -12,11 +14,15 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 		super(container, options);
 		
 		this.summary = options.summary;
+		this.currId = 0;
+		this.currFile = 0;
 	}
 
 	Template() {
 		return "<div class='table-widget'>" + 
 				  "<h2>nls(Table_Title)</h2>" +
+				  "<button handle='tablePrev'>Previous</button>"+
+				  "<button handle='tableNext'>Next</button>"+
 				  "<table handle='table' summary='nls(Table_Summary)'>" +
 				     "<thead>" + 
 				        "<tr>" + 
@@ -38,6 +44,10 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 				  "</table>" + 
 			   "</div>"
 	}
+
+
+
+
 
 	GetDataFileUrl(file) {
 		var url = window.location.href.split("/");
@@ -81,8 +91,18 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 	* id : the DBUID that was used in the search bar
 	* Return : none
 	*/
-	UpdateTable(id) {
-		var url = this.GetDataFileUrl("data/" + id + "_1.csv");	
+	UpdateTable(id, fileId) {
+		console.log("This.currId before " + this.currId)
+		this.currId = id
+		console.log("This.currId " + this.currId)
+		//console.log("This.currFile before if" + this.currFile)
+		if(fileId == 0){this.currFile = 1}
+		else {this.currFile = fileId} 
+		//console.log("This.currFile AFTER if" + this.currFile)	
+
+
+		//var url = this.GetDataFileUrl("data/" + id + "_1.csv");
+		var url = this.GetDataFileUrl("data/" + id + "_" + this.currFile +".csv");	
 		
 		Net.Request(url).then(ev => {
 			var data = Util.parseCsv(ev.result);
@@ -90,4 +110,28 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 			this.Populate(data);
 		}, this.OnAsyncFailure);
 	}
+
+
+
+	handlePerv() {
+		//console.log("Previous clicked")
+		//console.log("this.currFile " + this.currFile)
+		//console.log("this.currId " + this.currId)
+		if(this.currFile > 1){
+			this.UpdateTable(this.currId,this.currFile-1)
+		}
+		//this.UpdateTable(3520005,2)
+	}
+
+
+	handleNext() {
+		//console.log("Next clicked")
+		//console.log("id = "+this.currId)
+		//console.log("max_file = " + this.GetMaxFiles(this.currId))
+		//console.log("currFile" + this.currFile)
+		if(this.currFile > 0 && this.currFile < this.GetMaxFiles(this.currId)){
+			this.UpdateTable(this.currId,this.currFile+1)
+		} 
+	}
+
 })
