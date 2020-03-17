@@ -112,6 +112,8 @@ export default class ProxApp {
 		//this.table.Node('tableNext').addEventListener("click", this.table.handleNext);
 		this.table.Node('tablePrev').addEventListener('click', this.table.handlePerv.bind(this.table));
 		this.table.Node('tableNext').addEventListener('click', this.table.handleNext.bind(this.table));
+		this.table.Node('tableWidget').style.visibility = 'hidden';
+		this.table.Node('textWidget').style.visibility = 'visible';
 	}
 	
 	OnLegend_OpacityChanged(ev) {		

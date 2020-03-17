@@ -19,10 +19,14 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 	}
 
 	Template() {
-		return "<div class='table-widget'>" + 
+		return "<div handle='textWidget'>" +
+					"<h2 >Please select a CSD using the search bar to show DB level data for that CSD.</h2>" +
+				"</div>"+
+				"<div handle='tableWidget' class='table-widget'>" + 
 				  "<h2>nls(Table_Title)</h2>" +
-				  "<button handle='tablePrev'>Previous</button>"+
-				  "<button handle='tableNext'>Next</button>"+
+				  "<button handle='tablePrev' disabled>Previous</button>"+
+				  "<label handle = 'pageNumber'>Page number/Total pages</label>"+ 
+				  "<button handle='tableNext' disabled>Next</button>"+
 				  "<table handle='table' summary='nls(Table_Summary)'>" +
 				     "<thead>" + 
 				        "<tr>" + 
@@ -92,9 +96,10 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 	* Return : none
 	*/
 	UpdateTable(id, fileId) {
-		console.log("This.currId before " + this.currId)
+		//console.log("This.currId before " + this.currId)
+		this.toggleTable()
 		this.currId = id
-		console.log("This.currId " + this.currId)
+		//console.log("This.currId " + this.currId)
 		//console.log("This.currFile before if" + this.currFile)
 		if(fileId == 0){this.currFile = 1}
 		else {this.currFile = fileId} 
@@ -109,6 +114,9 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 			
 			this.Populate(data);
 		}, this.OnAsyncFailure);
+
+		this.Node('pageNumber').innerHTML = "Page " + this.currFile + " of " + this.GetMaxFiles(this.currId)
+		this.toggleButtons(this.currFile, this.GetMaxFiles(this.currId))
 	}
 
 
@@ -119,8 +127,8 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 		//console.log("this.currId " + this.currId)
 		if(this.currFile > 1){
 			this.UpdateTable(this.currId,this.currFile-1)
+			this.toggleButtons(this.currFile, this.GetMaxFiles(this.currId))
 		}
-		//this.UpdateTable(3520005,2)
 	}
 
 
@@ -131,7 +139,32 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 		//console.log("currFile" + this.currFile)
 		if(this.currFile > 0 && this.currFile < this.GetMaxFiles(this.currId)){
 			this.UpdateTable(this.currId,this.currFile+1)
+			this.toggleButtons(this.currFile, this.GetMaxFiles(this.currId))
 		} 
 	}
+
+	toggleButtons(fileNum, maxFileNum){
+		if(fileNum <=1 && this.Node('tablePrev').disabled == false) {this.Node('tablePrev').disabled = true}
+		if(fileNum >1 && this.Node('tablePrev').disabled == true) {this.Node('tablePrev').disabled = false}
+		if(fileNum >= maxFileNum && this.Node('tableNext').disabled == false) {this.Node('tableNext').disabled = true}
+		if(fileNum <maxFileNum && this.Node('tableNext').disabled == true) {this.Node('tableNext').disabled = false}
+	}
+	
+	toggleTable(){
+		/*
+		console.log("tableWidget is ") + this.Node('tableWidget').style.visibility;
+		if(this.Node('tableWidget').style.visibility === 'hidden' &&  this.Node('textWidget').style.visibility ==='visible'){
+			this.Node('tableWidget').style.visibility = 'visible';
+			this.Node('textWidget').style.visibility = 'hidden';
+		} */
+		if(this.Node('tableWidget').style.visibility === 'hidden'){
+			this.Node('tableWidget').style.visibility = 'visible';
+		}
+		if(this.Node('textWidget').style.visibility === 'visible'){
+			this.Node('textWidget').style.visibility = 'hidden';
+		}
+	}
+
+
 
 })
