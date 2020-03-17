@@ -6,7 +6,7 @@ import Util from "../basic-tools/tools/util.js";
 
 export default Core.Templatable("Basic.Components.Table", class Table extends Templated {
 	
-	set caption(value) { this.Node('caption').innerHMTL = value; }
+	set caption(value) { this.Node('caption').innerHTML = value; }
 
 	constructor(container, options) {	
 		super(container, options);
