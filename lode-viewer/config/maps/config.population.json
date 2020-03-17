@@ -50,29 +50,29 @@
         }, {
             "color": [255, 255, 204],
             "label": {
-                "en": "Between 0 and 1.5",
-                "fr": "Entre 0 et 1.5"
+                "en": "From 0 to 1.5",
+                "fr": "De 0 à 1.5"
             },
             "value": ["<", ["/", ["get", "population"], ["get", "buildings"]], 1.5]
         }, {
             "color": [161, 218, 180],
             "label": {
-                "en": "Between 1.5 and 3",
-                "fr": "Entre 1.5 et 3"
+                "en": "From 1.5 to 3",
+                "fr": "De 1.5 à 3"
             },
             "value": ["<", ["/", ["get", "population"], ["get", "buildings"]], 3]
         }, {
             "color": [65, 182, 196],
             "label": {
-                "en": "Between 3 and 7",
-                "fr": "Entre 3 et 7"
+                "en": "From 3 to 7",
+                "fr": "De 3 à 7"
             },
             "value": ["<", ["/", ["get", "population"], ["get", "buildings"]], 7]
         }, {
             "color": [44, 127, 184],
             "label": {
-                "en": "Between 7 and 20",
-                "fr": "Entre 7 et 20"
+                "en": "From 7 to 20",
+                "fr": "De 7 à 20"
             },
             "value": ["<", ["/", ["get", "population"], ["get", "buildings"]], 20]
         }, {

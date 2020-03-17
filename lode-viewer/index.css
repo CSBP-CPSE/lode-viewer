@@ -53,9 +53,32 @@ input[type="radio"],
 	cursor : pointer;
 }
 
-.mapboxgl-ctrl-top-right .mapboxgl-ctrl-group .mapboxgl-ctrl {
+.mapboxgl-ctrl-group .mapboxgl-ctrl.legend {
+	margin : 0px;
+}
+
+.mapboxgl-ctrl-group .mapboxgl-ctrl.legend > *,
+.mapboxgl-ctrl-group .mapboxgl-ctrl.opacity,
+.mapboxgl-ctrl-group .mapboxgl-ctrl.download {
+    margin: 5px 10px;
+}
+
+.mapboxgl-ctrl-group .mapboxgl-ctrl.legend .legend-banner {
+    padding: 6px 10px 6px 10px;
+    border-radius: 4px 4px 0px 0px;
+	background: #26374a;
+	color: white;
+    margin: 0;
+}
+
+.mapboxgl-ctrl-group .mapboxgl-ctrl.legend .legend-subtitle {
+    font-size: 0.85em;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.mapboxgl-ctrl-group .mapboxgl-ctrl {
 	float:none;
-    margin: 10px;
 }
 
 .hidden {

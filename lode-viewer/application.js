@@ -48,11 +48,11 @@ export default class ProxApp {
 		this.map.AddControl(navigation, "top-left");
 		this.map.AddControl(scale);
 		
-		fullscreen._controlContainer.firstChild.title = Core.Nls("FullScreen_Title");
+		fullscreen.title = Core.Nls("FullScreen_Title");
+		
 		navigation._zoomInButton.title = Core.Nls("Navigation_ZoomIn_Title");
 		navigation._zoomOutButton.title = Core.Nls("Navigation_ZoomOut_Title");
 		
-		fullscreen._controlContainer.firstChild.removeAttribute("aria-label");
 		navigation._zoomInButton.removeAttribute("aria-label");
 		navigation._zoomOutButton.removeAttribute("aria-label");
 	}
@@ -71,10 +71,11 @@ export default class ProxApp {
 	AddGroup() {
 		// Top-right group for toc, legend, etc.		
 		this.group = {
-			legend : Factory.LegendControl(this.config.Legend, this.config.Title, this.config.Subtitle),
+			legend : Factory.LegendControl(this.config.Legend, this.config.Title, this.config.Banner, this.config.Subtitle),
 			toc : Factory.TocControl(this.config.TOC),
-			opacity : Factory.OpacityControl(Store.Opacity)
+			opacity : Factory.OpacityControl(Store.Opacity),
 			// download : Factory.DownloadControl(Net.FilePath("/assets/proximity-measures.csv"))
+			download : Factory.DownloadControl(null)
 		}
 		
 		if (this.config.HasLayer(Store.Layer)) this.group.toc.SelectItem(Store.Layer);
@@ -96,19 +97,17 @@ export default class ProxApp {
 		
 		this.menu = Factory.MenuControl();
 		
-		this.menu.AddButton("home", "assets/globe.png", Core.Nls("Home_Title"), this.OnHomeClick_Handler.bind(this));
-		this.menu.AddPopupButton("maps", "assets/layers.png", Core.Nls("Maps_Title"), list);
-		this.menu.AddPopupButton("bookmarks", "assets/bookmarks.png", Core.Nls("Bookmarks_Title"), bookmarks);
-		
 		this.map.AddControl(this.menu, "top-left");
+		
+		this.menu.AddButton("home", "assets/globe.png", Core.Nls("Home_Title"), this.OnHomeClick_Handler.bind(this));
+		this.menu.AddPopupButton("maps", "assets/layers.png", Core.Nls("Maps_Title"), list, this.map.Container);
+		this.menu.AddPopupButton("bookmarks", "assets/bookmarks.png", Core.Nls("Bookmarks_Title"), bookmarks, this.map.Container);
 		
 		list.On("MapSelected", this.OnListSelected_Handler.bind(this));
 		bookmarks.On("BookmarkSelected", this.OnBookmarkSelected_Handler.bind(this));
 	}
 	
 	AddTable() {
-		debugger;
-		
 		var node = Dom.Node(document.body, '#table');
 		var table = new Table(node);
 	}
@@ -141,7 +140,7 @@ export default class ProxApp {
 		
 		this.config = ev.map;
 		
-		this.group.legend.Reload(this.config.Legend, this.config.Title, this.config.Subtitle);
+		this.group.legend.Reload(this.config.Legend, this.config.Title, this.config.Banner, this.config.Subtitle);
 		this.group.toc.Reload(this.config.TOC, Store.Layer);
 		
 		if (this.config.HasLayer(Store.Layer)) this.group.toc.SelectItem(Store.Layer);

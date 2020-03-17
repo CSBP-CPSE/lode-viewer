@@ -6,16 +6,20 @@
         }
     ],
     "title": {
-        "en": "Proximity to Public Transit Trips",
-        "fr": "Proximité aux voyages de transport en commun"
+        "en": "Proximity to public transit",
+        "fr": "Proximité au transport en commun"
+    },
+    "banner": {
+        "en": "Experimental statistics",
+        "fr": "Statistiques expérimentales"
     },
     "subtitle": {
-        "en": "(preliminary experimental results)",
-        "fr": "(résultats expérimentaux préliminaires)"
+        "en": "Normalized index by quintile",
+        "fr": "Indice normalisé par quintile"
     },
 	"description": {
-		"en" : "Proximity to transit measures access to public transit by considering walking distance from dissemination block centroids to bus stop locations (up to a maximum distance of 1 km), where each bus stop is weighted by the total number of buses that pass through that stop between the hours of 7–10 am on a weekday.",
-		"fr" : "La proximité aux transports en commun indique l'accès aux transports en communs en considérant la distance de marche du centroïde du bloc de dissémination aux arrêts d'autobus (jusqu'à une distance de 1 km), où un poids est attribué à chacun des arrêts en fonction du nombre total d'autobus qui passent par cet arrêt entre 7-10 am les jours de la semaine."
+		"en" : "Proximity to public transit measures access to public transit by considering walking distance from dissemination block centroids to bus stop locations (up to a maximum distance of 1 km), where each bus stop is weighted by the total number of buses that pass through that stop From the hours of 7–10 am on a weekday.",
+		"fr" : "La proximité au transport en commun indique l'accès aux transport en commun en considérant la distance de marche du centroïde du bloc de dissémination aux arrêts d'autobus (jusqu'à une distance de 1 km), où un poids est attribué à chacun des arrêts en fonction du nombre total d'autobus qui passent par cet arrêt De 7-10 am les jours de la semaine."
 	},
     "legend": [{
             "color": [110, 50, 100],
@@ -27,50 +31,43 @@
         },{
             "color": [200, 200, 200],
             "label": {
-                "en": "Not available",
-                "fr": "Non-disponible"
+                "en": "Beyond 1km walking distance",
+                "fr": "Plus de 1 km à pied"
             },
 			"value": ["==", ["get", "trans.idx"], null]
         }, {
-            "color": [255, 255, 255],
-            "label": {
-                "en": "Equal to 0.000",
-                "fr": "Égal à 0.000"
-            },
-			"value": ["==", ["get", "trans.idx"], 0]
-        }, {
             "color": [215, 48, 39],
             "label": {
-                "en": "Between 0.000 and 0.0028",
-                "fr": "Entre 0.000 et 0.0028"
+                "en": "From 0.000 to 0.003",
+                "fr": "De 0.000 à 0.003"
             },
-			"value": ["<=", ["get", "trans.idx"], 0.0028]
+			"value": ["<=", ["get", "trans.idx"], 0.003]
         }, {
             "color": [252, 141, 89],
             "label": {
-                "en": "Between 0.0028 and 0.0069",
-                "fr": "Entre 0.0028 et 0.0069"
+                "en": "From 0.003 to 0.007",
+                "fr": "De 0.003 à 0.007"
             },
-			"value": ["<=", ["get", "trans.idx"], 0.0069]
+			"value": ["<=", ["get", "trans.idx"], 0.007]
         }, {
             "color": [254, 224, 139],
             "label": {
-                "en": "Between 0.0069 and 0.0133",
-                "fr": "Entre 0.0069 et 0.0133"
+                "en": "From 0.007 to 0.013",
+                "fr": "De 0.007 à 0.013"
             },
-			"value": ["<=", ["get", "trans.idx"], 0.0133]
+			"value": ["<=", ["get", "trans.idx"], 0.013]
         }, {
             "color": [217, 239, 139],
             "label": {
-                "en": "Between 0.0133 and 0.0275",
-                "fr": "Entre 0.0133 et 0.0275"
+                "en": "From 0.013 to 0.028",
+                "fr": "De 0.013 à 0.028"
             },
-			"value": ["<=", ["get", "trans.idx"], 0.0275]
+			"value": ["<=", ["get", "trans.idx"], 0.028]
         }, {
             "color": [145, 207, 96],
             "label": {
-                "en": "Between 0.0275 and 1.000",
-                "fr": "Entre 0.0275 et 1.000"
+                "en": "From 0.028 to 1.000",
+                "fr": "De 0.028 à 1.000"
             },
 			"value": ["<=", ["get", "trans.idx"], 1.000]
         }, {

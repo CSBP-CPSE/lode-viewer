@@ -16,6 +16,10 @@ export default class Configuration {
 		return this.title;
 	}
 	
+	get Banner() {
+		return this.banner;
+	}
+	
 	get Subtitle() {
 		return this.subtitle;
 	}
@@ -93,6 +97,7 @@ export default class Configuration {
 		this.style = null;
 		this.layers = null;
 		this.title = null;
+		this.banner = null;
 		this.subtitle = null;
 		this.description = null;
 		this.legend = null;
@@ -114,6 +119,7 @@ export default class Configuration {
 		c.id = json.id;
 		c.style = json.style;
 		c.title = json.title && json.title[Core.locale] || null;
+		c.banner = json.banner && json.banner[Core.locale] || null;
 		c.subtitle = json.subtitle && json.subtitle[Core.locale] || null;
 		c.description = json.description && json.description[Core.locale] || null;
 		c.layers = json.layers || null;

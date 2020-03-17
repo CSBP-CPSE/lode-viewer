@@ -6,16 +6,16 @@
         }
     ],
     "title": {
-        "en": "Close By Neighborhoods",
-        "fr": "Proximité de quartier"
+        "en": "High proximity neighborhood",
+        "fr": "Quartier à haute proximité"
     },
-    "subtitle": {
-        "en": "(preliminary experimental results)",
-        "fr": "(résultats expérimentaux préliminaires)"
+    "banner": {
+        "en": "Experimental statistics",
+        "fr": "Statistiques expérimentales"
     },
     "description": {
-        "en": "A close-by neighborhood/locality is defined as one that has a grocery store (1km walking distance), a pharmacy (1km walking distance), a health facility (3km driving distance), a childcare facility (1.5km walking distance), a primary school (1.5km walking distance), a library (1.5km walking distance), a public transit stop (1km walking distance), and employment (10km driving distance).",
-        "fr": "Un quartier à proximité est défini comme ayant une épicerie (1km distance de marche), une pharmacie (1km distance de marche), un établissement de santé (3km distance en voiture), un service de garde (1.5km distance de marche), une école primaire (1.5km distance de marche), une bibliothèque (1.5km distance de marche), un arrêt de transport en commun (1km distance de marche), et un lieu de travail (10km distance en voiture)."
+        "en": "A high proximity neighborhood/locality is defined as one that has a grocery store (1km walking distance), a pharmacy (1km walking distance), a health facility (3km driving distance), a childcare facility (1.5km walking distance), a primary school (1.5km walking distance), a library (1.5km walking distance), a public transit stop (1km walking distance), to employment (10km driving distance).",
+        "fr": "Un quartier à haute proximité est défini comme ayant une épicerie (1km distance de marche), une pharmacie (1km distance de marche), un établissement de santé (3km distance en voiture), un service de garde (1.5km distance de marche), une école primaire (1.5km distance de marche), une bibliothèque (1.5km distance de marche), un arrêt de transport en commun (1km distance de marche), et un lieu de travail (10km distance en voiture)."
     },
     "legend": [{
             "color": [84, 179, 10],
@@ -23,7 +23,7 @@
                 "en": "Very close proximity",
                 "fr": "Très haute proximité"
             },
-            "value": ["==", ["get", "very.close"], 1]
+            "value": ["==", ["get", "close"], 2]
         }, {
             "color": [217, 239, 139],
             "label": {

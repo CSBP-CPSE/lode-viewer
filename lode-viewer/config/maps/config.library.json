@@ -6,12 +6,16 @@
         }
     ],
     "title": {
-        "en": "Proximity to Libraries",
-        "fr": "Proximité aux Bibliothèques"
+        "en": "Proximity to libraries",
+        "fr": "Proximité aux bibliothèques"
+    },
+    "banner": {
+        "en": "Experimental statistics",
+        "fr": "Statistiques expérimentales"
     },
     "subtitle": {
-        "en": "(preliminary experimental results)",
-        "fr": "(résultats expérimentaux préliminaires)"
+        "en": "Normalized index by quintile",
+        "fr": "Indice normalisé par quintile"
     },
 	"description": {
 		"en" : "Proximity to libraries measures access to public libraries by considering walking distance from dissemination block centroids to library locations (up to a maximum distance of 1.5 km).",
@@ -20,50 +24,43 @@
     "legend": [{
             "color": [200, 200, 200],
             "label": {
-                "en": "Not available",
-                "fr": "Non-disponible"
+                "en": "Beyond 1km walking distance",
+                "fr": "Plus de 1.5 km à pied"
             },
 			"value": ["==", ["get", "lib.idx"], null]
         }, {
-            "color": [255, 255, 255],
-            "label": {
-                "en": "Equal to 0.000",
-                "fr": "Égal à 0.000"
-            },
-			"value": ["==", ["get", "lib.idx"], 0]
-        }, {
             "color": [215, 48, 39],
             "label": {
-                "en": "Between 0.000 and 0.0161",
-                "fr": "Entre 0.000 et 0.0161"
+                "en": "From 0.000 to 0.016",
+                "fr": "De 0.000 à 0.016"
             },
-			"value": ["<=", ["get", "lib.idx"], 0.0161]
+			"value": ["<=", ["get", "lib.idx"], 0.016]
         }, {
             "color": [252, 141, 89],
             "label": {
-                "en": "Between 0.0161 and 0.0209",
-                "fr": "Entre 0.0161 et 0.0209"
+                "en": "From 0.016 to 0.021",
+                "fr": "De 0.016 à 0.021"
             },
-			"value": ["<=", ["get", "lib.idx"], 0.0209]
+			"value": ["<=", ["get", "lib.idx"], 0.021]
         }, {
             "color": [254, 224, 139],
             "label": {
-                "en": "Between 0.0209 and 0.0303",
-                "fr": "Entre 0.0209 et 0.0303"
+                "en": "From 0.021 to 0.030",
+                "fr": "De 0.021 à 0.030"
             },
-			"value": ["<=", ["get", "lib.idx"], 0.0303]
+			"value": ["<=", ["get", "lib.idx"], 0.030]
         }, {
             "color": [217, 239, 139],
             "label": {
-                "en": "Between 0.0303 and 0.0477",
-                "fr": "Entre 0.0303 et 0.0477"
+                "en": "From 0.030 to 0.048",
+                "fr": "De 0.030 à 0.048"
             },
-			"value": ["<=", ["get", "lib.idx"], 0.0477]
+			"value": ["<=", ["get", "lib.idx"], 0.048]
         }, {
             "color": [145, 207, 96],
             "label": {
-                "en": "Between 0.0477 and 1.000",
-                "fr": "Entre 0.0477 et 1.000"
+                "en": "From 0.048 to 1.000",
+                "fr": "De 0.048 à 1.000"
             },
 			"value": ["<=", ["get", "lib.idx"], 1.000]
         }, {

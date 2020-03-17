@@ -6,12 +6,16 @@
         }
     ],
     "title": {
-        "en": "Proximity to Pharmacies",
+        "en": "Proximity to pharmacies",
         "fr": "Proximité aux pharmacies"
     },
+    "banner": {
+        "en": "Experimental statistics",
+        "fr": "Statistiques expérimentales"
+    },
     "subtitle": {
-        "en": "(preliminary experimental results)",
-        "fr": "(résultats expérimentaux préliminaires)"
+        "en": "Normalized index by quintile",
+        "fr": "Indice normalisé par quintile"
     },
     "description": {
         "en": "Proximity to pharmacies measures access to pharmacies by considering walking distance from dissemination block centroids to pharmacies (up to a maximum distance of 1 km).",
@@ -20,50 +24,43 @@
     "legend": [{
             "color": [200, 200, 200],
             "label": {
-                "en": "Not available",
-                "fr": "Non-disponible"
+                "en": "Beyond 1km walking distance",
+                "fr": "Plus de 1 km à pied"
             },
             "value": ["==", ["get", "pharm.idx"], null]
-        }, {
-            "color": [255, 255, 255],
-            "label": {
-                "en": "Equal to 0.000",
-                "fr": "Égal à 0.000"
-            },
-            "value": ["==", ["get", "pharm.idx"], 0]
-        }, {
+        },  {
             "color": [215, 48, 39],
             "label": {
-                "en": "Between 0.000 and 0.0184",
-                "fr": "Entre 0.000 et 0.0184"
+                "en": "From 0.000 to 0.018",
+                "fr": "De 0.000 à 0.018"
             },
-            "value": ["<=", ["get", "pharm.idx"], 0.0184]
+            "value": ["<=", ["get", "pharm.idx"], 0.018]
         }, {
             "color": [252, 141, 89],
             "label": {
-                "en": "Between 0.0184 and 0.0297",
-                "fr": "Entre 0.0184 et 0.0297"
+                "en": "From 0.018 to 0.030",
+                "fr": "De 0.018 à 0.030"
             },
-            "value": ["<=", ["get", "pharm.idx"], 0.0297]
+            "value": ["<=", ["get", "pharm.idx"], 0.030]
         }, {
             "color": [254, 224, 139],
             "label": {
-                "en": "Between 0.0297 and 0.0477",
-                "fr": "Entre 0.0297 et 0.0477"
+                "en": "From 0.030 to 0.048",
+                "fr": "De 0.030 à 0.048"
             },
-            "value": ["<=", ["get", "pharm.idx"], 0.0477]
+            "value": ["<=", ["get", "pharm.idx"], 0.048]
         }, {
             "color": [217, 239, 139],
             "label": {
-                "en": "Between 0.0477 and 0.0857",
-                "fr": "Entre 0.0477 et 0.0857"
+                "en": "From 0.048 to 0.086",
+                "fr": "De 0.048 à 0.086"
             },
-            "value": ["<=", ["get", "pharm.idx"], 0.0857]
+            "value": ["<=", ["get", "pharm.idx"], 0.086]
         }, {
             "color": [145, 207, 96],
             "label": {
-                "en": "Between 0.0857 and 1.000",
-                "fr": "Entre 0.0857 et 1.000"
+                "en": "From 0.086 to 1.000",
+                "fr": "De 0.086 à 1.000"
             },
             "value": ["<=", ["get", "pharm.idx"], 1.000]
         }, {
