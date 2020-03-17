@@ -8,9 +8,10 @@ body {
 	padding: 0;
 }
 
-#map, #table {
+main {
     margin-left: 50%;
     transform: translate(-50%);
+    width: 800px;
 }
 
 #map {
@@ -373,9 +374,6 @@ input[type="radio"],
 	font-weight : bold;
 }
 
-
-
-
 .search-control .typeahead ul {
     list-style-type: none;
     padding: 0;
@@ -393,4 +391,36 @@ input[type="radio"],
     overflow-y: auto;
     overflow-x: hidden;
     max-height: 400px;
+}
+
+.table-widget table {
+	background : white;
+    border-collapse: collapse;
+}
+
+.table-widget table thead tr {
+
+}
+
+.table-widget table tr {
+	border-bottom : solid thin silver;
+}
+
+.table-widget table tr:nth-child(even) {
+    background: #f5f4f4;
+}
+
+.table-widget table thead {
+    background: #505256;
+    color: white;
+}
+
+.table-widget table tbody tr td:not(:first-child) {
+	text-align:right;
+}
+
+.table-widget table td,
+.table-widget table th {
+	padding:5px;
+    font-weight: normal;
 }
