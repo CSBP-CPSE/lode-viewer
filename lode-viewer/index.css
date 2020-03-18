@@ -252,10 +252,13 @@ input[type="radio"],
     box-shadow: -2px 2px 3px rgba(1, 1, 1, 0.5);
 }
 
-
 .popup.maps .popup-container {	
     max-height: 280px;
     min-height: 250px;
+}
+
+.popup-bookmarks .popup-container {
+    max-width: 600px;
 }
 
 .maps-control button img {
@@ -274,6 +277,7 @@ input[type="radio"],
 .maps .maps-header {
     margin: 0;
 	font-size : 18px;
+    padding-right: 30px;
 }
 
 .bookmarks .bookmarks-header-icon,

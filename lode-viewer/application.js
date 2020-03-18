@@ -125,8 +125,7 @@ export default class ProxApp {
 	OnBookmarkSelected_Handler(ev) {
 		this.menu.Button("bookmarks").popup.Hide();
 		
-		this.map.Center = ev.item.center;		
-		this.map.Zoom = ev.item.zoom;	
+		this.map.FitBounds(ev.item.extent, { animate:false });
 	}
 		
 	OnListSelected_Handler(ev) {
