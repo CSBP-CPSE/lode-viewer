@@ -8,11 +8,23 @@ body {
 	padding: 0;
 }
 
+main {
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 800px;
+}
+
 #map {
-	position: absolute;
+    position: relative;
+    width: 800px;
+    height: 600px;
+	
+    /*
+    position: absolute;
 	top: 0;
 	bottom: 0;
 	width: 100%;
+    */
 }
 
 button {
@@ -389,9 +401,6 @@ input[type="radio"],
 	font-weight : bold;
 }
 
-
-
-
 .search-control .typeahead ul {
     list-style-type: none;
     padding: 0;
@@ -409,4 +418,68 @@ input[type="radio"],
     overflow-y: auto;
     overflow-x: hidden;
     max-height: 400px;
+}
+
+.table-widget table {
+	background : white;
+    border-collapse: collapse;
+}
+
+.table-widget table thead tr {
+
+}
+
+.table-widget table tr {
+	border-bottom : solid thin silver;
+}
+
+.table-widget table tr:nth-child(even) {
+    background: #f5f4f4;
+}
+
+.table-widget table thead {
+	background: #26374a;
+    color: white;
+}
+
+.table-widget table tbody tr td:not(:first-child) {
+	text-align:right;
+}
+
+.table-widget table td,
+.table-widget table th {
+	padding:5px;
+    font-weight: normal;
+}
+
+.table-widget button {
+  background: #26374a;
+  color: white;
+  padding: 10px;
+  border: 2px solid;
+  font-size: 17px;
+  margin:5px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+.table-widget label {
+  background: white;  
+  color: black;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  margin:5px;
+  margin-right: 10px;
+}
+
+.table-widget button:disabled {
+  background:SlateGrey;
+  color: white;
+  padding: 10px;
+  border: 2px solid;
+  font-size: 17px;
+  margin:5px;
+  margin-left: 0px;
+  font-weight: bold;
 }
