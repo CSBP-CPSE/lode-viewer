@@ -172,12 +172,18 @@ input[type="radio"],
 	background-color : rgba(20,30,40,0.65);
 }
 
-.modal.popup {
+.modal.popup.absolute {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.modal.popup.fixed {
 	position: fixed;
     left: 0px;
     top: 0px;
     bottom: 0px;
-    right: 0px;
+    right: 0px; 
 }
 
 .popup .popup-container {

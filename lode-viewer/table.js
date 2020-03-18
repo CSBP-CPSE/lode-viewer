@@ -107,7 +107,7 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 		var url = this.GetDataFileUrl(file);	
 		
 		Net.Request(url).then(ev => {
-			var data = Util.parseCsv(ev.result);
+			var data = Util.ParseCsv(ev.result);
 			
 			this.Populate(data);
 			
