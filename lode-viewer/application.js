@@ -108,12 +108,6 @@ export default class ProxApp {
 		var node = Dom.Node(document.body, 'main');
 		
 		this.table = new Table(node, { summary:this.config.table, currId: 0, currFile: 0 });
-		//this.table.Node('tablePrev').addEventListener("click", this.table.handlePerv);
-		//this.table.Node('tableNext').addEventListener("click", this.table.handleNext);
-		this.table.Node('tablePrev').addEventListener('click', this.table.handlePerv.bind(this.table));
-		this.table.Node('tableNext').addEventListener('click', this.table.handleNext.bind(this.table));
-		this.table.Node('tableWidget').style.visibility = 'hidden';
-		this.table.Node('textWidget').style.visibility = 'visible';
 	}
 	
 	OnLegend_OpacityChanged(ev) {		
@@ -193,9 +187,7 @@ export default class ProxApp {
 			color : [255, 255, 255, 0]
 		}]
 
-		//console.log("search item:" + ev.item.id)
-		this.table.UpdateTable(ev.item.id, 0)
-
+		this.table.UpdateTable(ev.item.id);
 		
 		this.map.Choropleth([this.config.search.layer], 'line-color', legend, this.group.opacity.opacity);
 		

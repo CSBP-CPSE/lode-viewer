@@ -421,22 +421,37 @@ input[type="radio"],
 
 .table-widget table td,
 .table-widget table th {
-	padding:5px;
-    font-weight: normal;
+    padding: 5px 4px;
+	font-weight: normal;
 }
 
 .table-widget button {
-  background: #26374a;
-  color: white;
-  padding: 10px;
-  border: 2px solid;
-  font-size: 17px;
-  margin:5px;
-  margin-left: 0px;
-  font-weight: bold;
+	width: 32px;
+	height: 32px;
+	background: #26374a;
+	border: none;
+    border-radius: 4px;
 }
 
-.table-widget label {
+.table-widget button img {
+    width: 20px;
+    height: 20px;
+}
+
+.table-widget button:disabled {
+	background:SlateGrey;
+}
+
+.table-widget button img,
+.table-widget .navigation > * {
+	vertical-align : middle;
+}
+
+.table-widget .navigation  {
+	margin-bottom : 10px;
+}
+
+.table-widget .current {
   background: white;  
   color: black;
   border-radius: 4px;
@@ -444,15 +459,4 @@ input[type="radio"],
   font-size: 15px;
   margin:5px;
   margin-right: 10px;
-}
-
-.table-widget button:disabled {
-  background:SlateGrey;
-  color: white;
-  padding: 10px;
-  border: 2px solid;
-  font-size: 17px;
-  margin:5px;
-  margin-left: 0px;
-  font-weight: bold;
 }
