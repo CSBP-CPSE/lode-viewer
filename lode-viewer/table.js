@@ -92,13 +92,14 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 	* id : the DBUID that was used in the search bar
 	* Return : none
 	*/
-	UpdateTable(id) {
+	UpdateTable(id, page) {
 		//var active = document.activeElement;
 		// Disable buttons while data is being retrieved, prevent abusive clicking
 		// TODO : Probably not necessary
 		// this.DisableButtons();
 		
 		// Set current DB
+		this.current.page = page || 1;
 		this.current.id = id;
 		this.current.max = this.summary[id] || 1;
 
@@ -138,13 +139,13 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 	OnButtonPrev_Handler(ev) {
 		this.current.page--;
 		
-		this.UpdateTable(this.current.id);
+		this.UpdateTable(this.current.id, this.current.page);
 	}
 
 	OnButtonNext_Handler(ev) {
 		this.current.page++;
 		
-		this.UpdateTable(this.current.id);
+		this.UpdateTable(this.current.id, this.current.page);
 	}
 	
 	OnAsyncFailure(ev) {
