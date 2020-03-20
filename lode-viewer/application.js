@@ -34,25 +34,16 @@ export default class ProxApp {
 		this.map.On("MoveEnd", this.OnMapMoveEnd_Handler.bind(this));
 		this.map.On("ZoomEnd", this.OnMapZoomEnd_Handler.bind(this));
 		this.map.On("Click", this.OnMapClick_Handler.bind(this));
-
 	}
 
 	AddBaseControls() {
-		var fullscreen = Factory.FullscreenControl();
-		var navigation = Factory.NavigationControl(false, true);
+		var fullscreen = Factory.FullscreenControl(Core.Nls("FullScreen_Title"));
+		var navigation = Factory.NavigationControl(false, true, Core.Nls("Navigation_ZoomIn_Title"), Core.Nls("Navigation_ZoomOut_Title"));
 		var scale = Factory.ScaleControl("metric");
 		
 		this.map.AddControl(fullscreen, "top-left");
 		this.map.AddControl(navigation, "top-left");
 		this.map.AddControl(scale);
-		
-		fullscreen.title = Core.Nls("FullScreen_Title");
-		
-		navigation._zoomInButton.title = Core.Nls("Navigation_ZoomIn_Title");
-		navigation._zoomOutButton.title = Core.Nls("Navigation_ZoomOut_Title");
-		
-		navigation._zoomInButton.removeAttribute("aria-label");
-		navigation._zoomOutButton.removeAttribute("aria-label");
 	}
 
 	AddSearch() {

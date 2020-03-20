@@ -452,6 +452,14 @@ input[type="radio"],
 	text-align:right;
 }
 
+.table-widget table tbody tr td:not(:last-child) {
+	border-right:solid thin silver;
+}
+
+.table-widget table thead tr th:not(:last-child) {
+	border-right:solid thin white;
+}
+
 .table-widget table td,
 .table-widget table th {
     padding: 5px 4px;
