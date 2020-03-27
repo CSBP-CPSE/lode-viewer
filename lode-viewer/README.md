@@ -1,13 +1,11 @@
-# LodeViewer
+# Proximity Viewer
 
-A Web Viewer for LODE Data, including the Open Database of Buildings (ODB). The viewer currently provides maps for different indicators. 
+A Web Viewer for the proximity measures (mostly). 
 
-Population to Building : https://csbp-cpse.github.io/lode-viewer/index-en.html?app=population<br>
-Proximity Measures : https://csbp-cpse.github.io/lode-viewer/index-en.html?app=proximity
+https://csbp-cpse.github.io/web-mapping-prd/proximity-viewer/index-en.html
 
 ---------------------------------------------------------------------
 
-Une visionneuse pour les données de l'ECDO, incluant la base de données ouvertes de bâtiments (ODB). La visionneuse offre présentement des cartes pour plusieurs indicateurs. 
+Une visionneuse pour les données de proximité (majoritairement). 
 
-Population à Bâtiment : https://csbp-cpse.github.io/lode-viewer/index-fr.html?app=population<br>
-Mesures de proximité : https://csbp-cpse.github.io/lode-viewer/index-fr.html?app=proximity
+https://csbp-cpse.github.io/web-mapping-prd/proximity-viewer/index-fr.html
