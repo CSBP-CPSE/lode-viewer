@@ -17,12 +17,8 @@ Net.JSON(`./config/config.nls.json`).then(value => {
 	Promise.all([p1, p2]).then(Start);
 });
 
-function Start(results) {	
-	var id = Net.GetUrlParameter("app");
-	var maps = results[1].result;
-	var app = maps[id] || maps["base"];
-	
-	var defs = app.map(m => Net.JSON(m));
+function Start(results) {		
+	var defs = results[1].result.map(m => Net.JSON(m));
 	
 	var config = {}
 	

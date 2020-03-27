@@ -58,25 +58,17 @@ export default class ProxApp {
 	}
 
 	AddGroup() {
-		// Top-right group for toc, legend, etc.		
+		// Top-right group for legend, etc.		
 		this.group = {
 			legend : Factory.LegendControl(this.current.Legend, this.current.Title, this.current.Subtitle),
-			toc : Factory.TocControl(this.current.TOC),
 			opacity : Factory.OpacityControl(Store.Opacity),
 			// download : Factory.DownloadControl(Net.FilePath("/assets/proximity-measures.csv"))
 			download : Factory.DownloadControl(null)
 		}
-		
-		if (this.current.HasLayer(Store.Layer)) this.group.toc.SelectItem(Store.Layer);
-		
-		Dom.ToggleCss(this.group.toc.Node("root"), "hidden", !this.current.TOC);
-		
+						
 		this.map.AddControl(Factory.Group(this.group));
-		
-		this.group.opacity.title = Core.Nls("Toc_Opacity_Title");
-		
+				
 		this.group.opacity.On("OpacityChanged", this.OnLegend_OpacityChanged.bind(this));
-		this.group.toc.On("LayerVisibility", this.OnTOC_LayerVisibility.bind(this));
 	}
 	
 	AddMenu() {
@@ -130,23 +122,9 @@ export default class ProxApp {
 		this.current = ev.map;
 		
 		this.group.legend.Reload(this.current.Legend, this.current.Title, this.current.Subtitle);
-		this.group.toc.Reload(this.current.TOC, Store.Layer);
-		
-		if (this.current.HasLayer(Store.Layer)) this.group.toc.SelectItem(Store.Layer);
-		
-		Dom.ToggleCss(this.group.toc.Node("root"), "hidden", !this.current.TOC);
 	}
-	
-	OnTOC_LayerVisibility(ev) {
-		this.map.HideLayer(Store.Layer);
-				
-		Store.Layer = ev.layer;
 		
-		this.map.ShowLayer(Store.Layer);
-	}
-	
 	OnMapStyleChanged_Handler(ev) {
-		// TODO : Issue here, this.config.TOC doesn't meant the layer is available
 		if (this.current.HasLayer(Store.Layer)) this.map.ShowLayer(Store.Layer);
 		
 		this.map.SetClickableLayers(this.current.LayerIDs);
