@@ -11,7 +11,10 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 	constructor(container, options) {	
 		super(container, options);
 		
+		this.path = options.path;
 		this.summary = options.summary;
+		this.fields = options.fields;
+		this.title = options.title;
 		
 		this.current = {
 			item : null,
@@ -19,34 +22,25 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 			max : null
 		}
 
+		// this.Node("description").innerHTML = options.description;
+
 		this.Node('prev').addEventListener('click', this.OnButtonPrev_Handler.bind(this));
 		this.Node('next').addEventListener('click', this.OnButtonNext_Handler.bind(this));
+		
+		this.fields.forEach(f => this.AddHeader(f.label));
 	}
 
 	Template() {
 		return "<div class='table-widget'>" +
-				  "<h2 handle='title'>nls(Table_Title_Temp)</h2>" +
+				  "<h2 handle='title'>nls(Table_Title_Default)</h2>" +
 				  
-			      "<div id='prx-table' handle='message' class='table-message'>nls(Table_Message)</div>"+
+			      "<div id='lode-table' handle='message' class='table-message'>nls(Table_Message)</div>"+
 				  
 			      "<div handle='table' class='table-container hidden'>" + 
-					 "<summary>nls(Table_Summary)</summary>" +
+					 "<summary handle='description'></summary>" +
 				     "<table>" +
 				        "<thead>" + 
-				           "<tr>" + 
-						      "<th>nls(Table_Field_DBUID)</th>" + 
-						      "<th>nls(Table_Field_empl.idx)</th>" + 
-						      "<th>nls(Table_Field_pharm.idx)</th>" + 
-						      "<th>nls(Table_Field_child.idx)</th>" + 
-						      "<th>nls(Table_Field_health.idx)</th>" + 
-						      "<th>nls(Table_Field_groc.idx)</th>" + 
-						      "<th>nls(Table_Field_edupri.idx)</th>" + 
-						      "<th>nls(Table_Field_edusec.idx)</th>" + 
-						      "<th>nls(Table_Field_lib.idx)</th>" + 
-						      "<th>nls(Table_Field_parks.idx)</th>" + 
-						      "<th>nls(Table_Field_trans.idx)</th>" + 
-						      "<th>nls(Table_Field_close)</th>" + 
-						   "</tr>" + 
+				           "<tr handle='header'></tr>" + 
 				        "</thead>" +
 				        "<tbody handle='body'></tbody>" + 
 				     "</table>" + 
@@ -59,6 +53,10 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 			   "</div>"
 	}
 
+	AddHeader(label) {
+		Dom.Create("th", { innerHTML:label }, this.Node("header"));
+	}
+
 	GetDataFileUrl(file) {
 		var url = window.location.href.split("/");
 		
@@ -69,9 +67,7 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 	}
 
 	//Update the table content with the correct data of the DBU
-	Populate(item, data) {
-		this.Node("title").innerHTML = Core.Nls("Table_Title", [item.label]);
-		
+	Populate(item, data) {		
 		Dom.Empty(this.Node('body'));
 
 		data.shift();
@@ -100,13 +96,24 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 		// Set current DB
 		this.current.page = page || 1;
 		this.current.item = item;
-		this.current.max = this.summary[item.id] || 1;
-
+		this.current.max = this.summary[item.id] || 0;
+		
+		this.Node("title").innerHTML =  Util.Format(this.title, [item.label]);
+		
+		if (this.current.max == 0) {
+			this.Node("message").innerHTML = Core.Nls("Table_No_Data");
+			
+			Dom.AddCss(this.Node("table"), "hidden");
+			Dom.RemoveCss(this.Node("message"), "hidden");
+			
+			return;
+		};
+		
 		// Get CSV file for selected DB. Extension is json because of weird server configuration. Content is csv.		
-		var file = `data/${this.current.item.id}_${this.current.page}.json`;
+		var file = `${this.path}\\${this.current.item.id}_${this.current.page}.json`;
 		var url = this.GetDataFileUrl(file);	
 		
-		return Net.Request(url).then(ev => {
+		Net.Request(url).then(ev => {
 			var data = Util.ParseCsv(ev.result);
 			
 			this.Populate(item, data);
@@ -118,7 +125,6 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 			
 			Dom.ToggleCss(this.Node("message"), "hidden", true);
 			Dom.ToggleCss(this.Node("table"), "hidden", false);
-			
 		}, this.OnAsyncFailure);
 	}
 

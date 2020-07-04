@@ -32,12 +32,8 @@ function Start(results) {
 	var p3 = Net.JSON(`./config/config.search.json`).then(value => {
 		config.search = value.result;
 	});
-	
-	var p4 = Net.JSON(`./config/config.table.json`).then(value => {
-		config.table = value.result;
-	});
 		
-	Promise.all([p1, p2, p3, p4]).then(results => {
+	Promise.all([p1, p2, p3]).then(results => {
 		var node = Dom.Node(document.body, "#app-container");
 		var app = new Application(node, config);
 	});

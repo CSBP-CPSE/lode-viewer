@@ -1,4 +1,4 @@
-import Other from "../mapbox-tools/tools/other.js";	// TODO : yiich that name sucks
+import Other from "../mapbox-tools/tools/other.js";
 import Factory from "../mapbox-tools/tools/factory.js";
 import Templated from "../basic-tools/components/templated.js";
 import Core from "../basic-tools/tools/core.js";
@@ -23,7 +23,8 @@ export default class ProxApp extends Templated {
 		this.AddBaseControls();		
 		this.AddGroup();
 		this.AddMenu();
-		this.AddTable();
+		
+		this.ReloadTable();
 		
 		this.Node('instructions').innerHTML = this.current.Description;
 	}
@@ -35,7 +36,7 @@ export default class ProxApp extends Templated {
 				     "<div handle='search' class='search'></div>" +
 			      "</label>" +
 				  "<div class='inv-container'>" +
-					"<a href='#prx-table' class='wb-inv wb-show-onfocus wb-sl'>nls(Inv_Skip_Link)</a>" + 
+					"<a href='#lode-table' class='wb-inv wb-show-onfocus wb-sl'>nls(Inv_Skip_Link)</a>" + 
 				  "</div>" +
 			   "</div>" +
 			   "<div handle='instructions' class='instructions'></div>" + 
@@ -44,9 +45,6 @@ export default class ProxApp extends Templated {
                "</div>" +
 			   "<div class='table-container'>" +
 				  "<div handle='table' class='table'></div>" +
-			   "</div>" +
-			   "<div class='link-symbols-container'>" +
-				  "<a href='nls(STS_Link)' class='link-symbols' target='_blank' title='nls(STS_Title)'>nls(STS_Label)</a>" +
 			   "</div>";
 	}
 
@@ -73,7 +71,6 @@ export default class ProxApp extends Templated {
 	}
 
 	AddSearch() {
-		// TODO: Which items should be in the search box? always CSDs or data dependent?
 		this.config.search.items = this.config.search.items.map(i => {
 			return { 
 				id : i[0], 
@@ -82,7 +79,6 @@ export default class ProxApp extends Templated {
 				extent : [[i[2], i[3]], [i[4], i[5]]] 
 			}
 		});
-		
 		
 		// Add top-left search bar
 		var search = Factory.SearchControl(this.config.search.items, Core.Nls("Search_Placeholder"), Core.Nls("Search_Title"));
@@ -100,14 +96,14 @@ export default class ProxApp extends Templated {
 						
 		this.map.AddControl(Factory.Group(this.group));
 		
-		// TODO : Will all different datasets include a legend with toggles?
+		// Assumption: All dataset will have a legend with toggles because it's all point data
 		this.group.legend.On("LegendChange", this.OnLegend_Changed.bind(this));
 	}
 
 	OnLegend_Changed(ev) {
 		var opacities = ev.state.map(i => Number(i.checkbox.checked));
 
-		// TODO : Not all datasets will be circles
+		// Assumption: Data will always be point data
         this.map.Choropleth([this.current.LayerIDs[0]], 'circle-color', this.current.Legend, opacities);
         this.map.ChoroplethVarOpac([this.current.LayerIDs[0]], 'circle-stroke-color', this.current.Legend, opacities);
 
@@ -116,6 +112,7 @@ export default class ProxApp extends Templated {
 	
 	AddMenu() {
 		// Top-left menu below navigation
+		var maps = Factory.MapsListControl(this.config.maps);
 		var bookmarks = Factory.BookmarksControl(this.config.bookmarks);
 		
 		this.menu = Factory.MenuControl();
@@ -123,16 +120,24 @@ export default class ProxApp extends Templated {
 		this.map.AddControl(this.menu, "top-left");
 		
 		this.menu.AddButton("home", "assets/globe.png", Core.Nls("Home_Title"), this.OnHomeClick_Handler.bind(this));
+		this.menu.AddPopupButton("maps", "assets/layers.png", Core.Nls("Maps_Title"), maps, this.map.Container);
 		this.menu.AddPopupButton("bookmarks", "assets/bookmarks.png", Core.Nls("Bookmarks_Title"), bookmarks, this.map.Container);
 		
-		Dom.AddCss(this.menu.Button("bookmarks").popup.Node("root"), "prx");
+		Dom.AddCss(this.menu.Button("maps").popup.Node("root"), "lode");
+		Dom.AddCss(this.menu.Button("bookmarks").popup.Node("root"), "lode");
 				
+		maps.On("MapSelected", this.OnMapSelected_Handler.bind(this));
 		bookmarks.On("BookmarkSelected", this.OnBookmarkSelected_Handler.bind(this));
 	}
 	
-	AddTable() {
-		// TODO : Table will also be by dataset
-		this.table = new Table(this.Node("table"), { summary:this.config.table, currId: 0, currFile: 0 });
+	ReloadTable() {
+		Dom.Empty(this.Node("table"));
+		
+		Net.JSON(this.current.TableUrl).then(ev => { 
+			this.current.UpdateTable(ev.result);
+		
+			this.table = new Table(this.Node("table"), this.current.Table);
+		});		
 	}
 	
 	OnHomeClick_Handler(ev) {
@@ -144,11 +149,25 @@ export default class ProxApp extends Templated {
 		
 		this.map.FitBounds(ev.item.extent, { animate:false });
 	}
+		
+	OnMapSelected_Handler(ev) {
+		this.menu.Button("maps").popup.Hide();
+		
+		Store.Map = ev.id;
 
-	OnMapStyleChanged_Handler(ev) {		
+		this.current = ev.map;	
+		
+		this.map.SetStyle(this.current.Style);
+		
+		this.ReloadTable();
+		
+		this.group.legend.Reload(this.current.Legend, this.current.Title, this.current.Subtitle);
+	}
+
+	OnMapStyleChanged_Handler(ev) {
 		this.map.SetClickableMap();
 		
-		// TODO: Not always circles
+		// Assumption: Data will always be point data
 		this.map.Choropleth([this.current.LayerIDs[0]], 'circle-color', this.current.Legend, 1);
 	}
 	
@@ -162,43 +181,19 @@ export default class ProxApp extends Templated {
 	}
 	
 	OnMapClick_Handler(ev) {
-		// TODO : Layers will not always be odhf, maybe no CSDs...
-		var features = this.map.QueryRenderedFeatures(ev.point, ["odhf", "csd-search"]);
-				
-		var hf = null;
-		var csd = null;
-				
-		features.forEach(f => {
-			if (f.layer.id == "odhf") hf = f;
-			if (f.layer.id == "csd-search") csd = f;
-		});
+		var features = this.map.QueryRenderedFeatures(ev.point, this.current.ClickableLayersIDs);
+						
+		if (features.length == 0) return;
 		
-		if (hf) {
-			// TODO : Handle lookups, string formats
-			var html = Other.HTMLize(hf.properties, this.current.Fields, Core.Nls("Map_Not_Available"));
-			
-			this.map.InfoPopup(ev.lngLat, html);
-		}
+		var f = features[0];
 
-		if (!csd) return;
-				
-		var item = null;
-				
-		this.config.search.items.forEach(i => {
-			if (i.id == csd.properties.uid) item = i;
-		});
+		// TODO : Handle lookups, string formats
+		var html = Other.HTMLize(f.properties, this.current.Fields, Core.Nls("Map_Not_Available"));
 		
-		if (!item) return;
-		
-		// ie11 doesn't support find
-		var item = this.config.search.items.filter(function (i) {
-            return i.id === csd.properties.uid;
-        })[0];
-		
-		this.table.UpdateTable(item);
+		this.map.InfoPopup(ev.lngLat, html);
 	}
 	
-	// TODO : Modify if not using CSDs
+	// Assumption : Search will always be by CSD
 	OnSearchChange_Handler(ev) {
 		var legend = [{
 			color : this.config.search.color,
@@ -209,7 +204,7 @@ export default class ProxApp extends Templated {
 
 		this.table.UpdateTable(ev.item);
 		
-		this.map.Choropleth(["csd-search"], 'fill-outline-color', legend, this.group.opacity.opacity);
+		this.map.Choropleth([this.config.search.layer], 'line-color', legend);
 		
 		this.map.FitBounds(ev.item.extent, { padding:30, animate:false });
 	}

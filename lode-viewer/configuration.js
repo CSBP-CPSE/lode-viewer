@@ -15,18 +15,22 @@ export default class Configuration {
 	get Title() {
 		return this.title;
 	}
-
-
-	get HasCheckbox() {
-		return this.hasCheckbox;
+	
+	// Get for localized strings
+	get TableUrl() {
+		return this.tableUrl;
 	}
 	
-	get Banner() {
-		return this.banner;
-	}
-	
-	get Subtitle() {
-		return this.subtitle;
+	get Table() {
+		if (!this.table) return null;
+		
+		return {
+			path : this.table.path,
+			summary : this.table.summary,
+			title : this.table.title,
+			description : this.table.description,
+			fields : this.Fields
+		}
 	}
 	
 	get Description() {
@@ -35,10 +39,6 @@ export default class Configuration {
 	
 	get Layers() {
 		return this.layers;
-	}
-
-	get DownloadLink() {
-		return this.download;
 	}
 	
 	// Get for transformed properties
@@ -72,6 +72,18 @@ export default class Configuration {
 		return layers && layers.map(l => l.id);
 	}
 	
+	get ClickableLayers() {
+		var layers = this.Layers;
+		
+		return layers && layers.filter(l => !!l.click);
+	}
+	
+	get ClickableLayersIDs() {	
+		var layers = this.ClickableLayers;
+		
+		return layers && layers.map(l => l.id);
+	}
+	
 	get Legend() {		
 		return this.legend && this.legend.map(l => { 
 			return { 
@@ -82,36 +94,36 @@ export default class Configuration {
 		});
 	}
 	
-	get TOC() {		
-		return this.toc && this.toc.map(t => { 
+	get Fields() {
+		if (!this.table) return null;
+		
+		return this.table.fields.map(f => { 
 			return { 
-				id : t.id,
-				label : t.label && t.label[Core.locale]
+				id : f.id,
+				label : f[Core.locale]
 			} 
 		});
 	}
 	
-	get Fields() {		
-		return this.fields && this.fields.map(f => { 
-			return { 
-				id : f.id,
-				label : f.label && f.label[Core.locale],
-				polish : f.polish || null
-			} 
-		});
+	UpdateTable(json) {
+		this.table = {
+			path : json.path,
+			summary : json.summary,
+			title : json.title[Core.locale],
+			description : json.description[Core.locale],
+			fields : json.fields
+		}
 	}
 	
 	constructor() {
 		this.id = null;
 		this.style = null;
+		this.tableUrl = null;
 		this.layers = null;
 		this.title = null;
-		this.banner = null;
-		this.subtitle = null;
 		this.description = null;
 		this.legend = null;
-		this.toc = null;
-		this.fields = null;
+		this.table = null;
 	}
 	
 	HasLayer(layerId) {
@@ -127,16 +139,11 @@ export default class Configuration {
 		
 		c.id = json.id;
 		c.style = json.style;
-		c.title = json.title && json.title[Core.locale] || null;
-		c.banner = json.banner && json.banner[Core.locale] || null;
-		c.subtitle = json.subtitle && json.subtitle[Core.locale] || null;
-		c.description = json.description && json.description[Core.locale] || null;
-		c.download = json.download && json.download[Core.locale] || null; 
-		c.hasCheckbox = json.hasCheckbox || null;
+		c.tableUrl = json.table || null;
 		c.layers = json.layers || null;
+		c.title = json.title && json.title[Core.locale] || null;
+		c.description = json.description && json.description[Core.locale] || null;
 		c.legend = json.legend || null;
-		c.toc = json.toc || null;
-		c.fields = json.fields || null;
 
 		return c;
 	}
