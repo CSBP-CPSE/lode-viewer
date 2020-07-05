@@ -120,6 +120,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     margin: 1px;
+	font-weight:normal;
 }
 
 .lode .legend .legend-container > *,
@@ -156,8 +157,8 @@ body {
 }
 
 /*** tooltip ***/
-.lode.tooltip {
-	position: absolute;
+.lode .tooltip {
+	position: fixed;
     padding: 5px;
     border-radius: 4px;
     pointer-events: none;
@@ -168,35 +169,35 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 2px;
 }
 
-.lode.tooltip .tooltip-title {
+.lode .tooltip .tooltip-title {
 	font-weight : bold;
 }
 
-.lode.tooltip .tooltip-line > * {
+.lode .tooltip .tooltip-line > * {
 	display:inline-block;
 	vertical-align : middle;
 	margin-left:3px;
 	margin-right:3px;
 }
 
-.lode.tooltip .legend, .lode.tooltip .legend rect {
+.lode .tooltip .legend, .lode .tooltip .legend rect {
 	width:12px;
 	height:2px;
 }
 
 /*** popup ***/
-.lode.popup {
+.lode .popup {
 	z-index:5000;
 	background-color : rgba(20,30,40,0.65);
 }
 
-.lode.modal.popup.absolute {
+.lode .modal.popup.absolute {
     width: 100%;
     height: 100%;
     position: absolute;
 }
 
-.lode.modal.popup.fixed {
+.lode .modal.popup.fixed {
 	display:block;
 	position: fixed;
     left: 0px;
@@ -205,7 +206,7 @@ body {
     right: 0px; 
 }
 
-.lode.popup .popup-container {
+.lode .popup .popup-container {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -224,12 +225,12 @@ body {
     flex-direction: column;
 }
 
-.lode.popup .popup-body {
+.lode .popup .popup-body {
     overflow-y: auto;
     padding: 10px;
 }
 
-.lode.popup button.close {
+.lode .popup button.close {
     font-size: 28px;
     font-weight: bold;
     border: none;
@@ -242,45 +243,45 @@ body {
     border-radius: 30px;
 }
 
-.lode.popup p.warning  {
+.lode .popup p.warning  {
 	color: #c00d0d;
 	font-style : italic;
 }
 
-.lode.popup .wip-container {
+.lode .popup .wip-container {
 	display:table;
 }
 
-.lode.popup .wip-container > * {
+.lode .popup .wip-container > * {
 	display: table-cell;
     vertical-align: middle;
 }
 
-.lode.popup .wip-container img {
+.lode .popup .wip-container img {
     margin-right : 8px;
 	width : 60px;
 	height : 60px;
 }
 
-.lode.popup .continue-container {
+.lode .popup .continue-container {
 	margin-top : 8px;
 }
 
-.lode.popup .continue-container,
-.lode.popup .logo-container {
+.lode .popup .continue-container,
+.lode .popup .logo-container {
     text-align: center;
 }
 
-.lode.popup .logo {
+.lode .popup .logo {
     width: 250px;
 }
 
-.lode.popup h1 {
+.lode .popup h1 {
     font-size: 18px;
     border-bottom: none;
 }
 
-.lode.popup button.continue {
+.lode .popup button.continue {
 	background-color: #bae2ed;
     font-weight: bold;
     color: #36494f;
@@ -290,12 +291,12 @@ body {
     box-shadow: -2px 2px 3px rgba(1, 1, 1, 0.5);
 }
 
-.lode.popup.maps .popup-container {	
+.lode .popup.maps .popup-container {	
     max-height: 280px;
     min-height: 250px;
 }
 
-.lode.popup-bookmarks .popup-container {
+.lode .popup-bookmarks .popup-container {
     max-width: 600px;
 }
 
@@ -545,19 +546,19 @@ body {
 }
 
 /* overwriting wet-boew css */
-.lode.popup-maps, .lode.popup-bookmarks  {
+.lode .popup-maps, .lode .popup-bookmarks  {
 	display:block;
 }
 
-.lode.popup h1 {
+.lode .popup h1 {
     margin-top: 10px;
 }
 
-.lode.popup hr {
+.lode .popup hr {
 	margin : 0px;
 }
 
-.lode.popup button.close {
+.lode .popup button.close {
     padding: 0px;
     color: #2a2a2b;
     opacity: 0.7;

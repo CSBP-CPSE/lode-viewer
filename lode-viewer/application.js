@@ -122,12 +122,12 @@ export default class ProxApp extends Templated {
 		this.menu.AddButton("home", "assets/globe.png", Core.Nls("Home_Title"), this.OnHomeClick_Handler.bind(this));
 		this.menu.AddPopupButton("maps", "assets/layers.png", Core.Nls("Maps_Title"), maps, this.map.Container);
 		this.menu.AddPopupButton("bookmarks", "assets/bookmarks.png", Core.Nls("Bookmarks_Title"), bookmarks, this.map.Container);
-		
-		Dom.AddCss(this.menu.Button("maps").popup.Node("root"), "lode");
-		Dom.AddCss(this.menu.Button("bookmarks").popup.Node("root"), "lode");
-				
+						
 		maps.On("MapSelected", this.OnMapSelected_Handler.bind(this));
 		bookmarks.On("BookmarkSelected", this.OnBookmarkSelected_Handler.bind(this));
+		
+		// Move tooltip to map for fullscreen mode. Tooltip uses fixed positioning so it ignores parent element for positioning.
+		maps.tooltip.Place(this.Node("map"));
 	}
 	
 	ReloadTable() {

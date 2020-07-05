@@ -89,6 +89,7 @@ export default class Configuration {
 			return { 
 				color : l.color, 
 				label : l.label && l.label[Core.locale], 
+				title : Core.Nls("Legend_Checkbox_Title"),
 				value : l.value 
 			} 
 		});
