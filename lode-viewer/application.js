@@ -7,6 +7,7 @@ import Util from "../basic-tools/tools/util.js";
 import Dom from "../basic-tools/tools/dom.js";
 import Table from "./table.js";
 import Store from "./store.js";
+import Workaround from "./workaround.js";
 
 export default class ProxApp extends Templated { 
 	
@@ -24,13 +25,13 @@ export default class ProxApp extends Templated {
 		this.AddGroup();
 		this.AddMenu();
 		
-		this.ReloadTable();
-		
-		this.Node('instructions').innerHTML = this.current.Description;
+		this.ReloadTable();		
 	}
 	
 	Template() {
-		return "<div class='search-container'>" +
+		return  "<div handle='presentation' class='instructions'>nls(Map_Presentation_1)</div>" + 
+				"<div handle='presentation' class='instructions'>nls(Map_Presentation_2)</div>" + 
+				"<div class='search-container'>" +
 				  "<span class='wb-inv'>nls(Inv_Search_Instructions)</span>" + 
 				  "<label class='search-label'>nls(App_Search_Label)" +
 				     "<div handle='search' class='search'></div>" +
@@ -39,7 +40,7 @@ export default class ProxApp extends Templated {
 					"<a href='#lode-table' class='wb-inv wb-show-onfocus wb-sl'>nls(Inv_Skip_Link)</a>" + 
 				  "</div>" +
 			   "</div>" +
-			   "<div handle='instructions' class='instructions'></div>" + 
+			   "<div handle='instructions' class='instructions'>nls(Map_Description)</div>" + 
                "<div class='map-container'>" +
                   "<div handle='map' class='map'></div>" +
                "</div>" +
@@ -57,7 +58,7 @@ export default class ProxApp extends Templated {
 		this.map.On("StyleChanged", this.OnMapStyleChanged_Handler.bind(this));
 		this.map.On("MoveEnd", this.OnMapMoveEnd_Handler.bind(this));
 		this.map.On("ZoomEnd", this.OnMapZoomEnd_Handler.bind(this));
-		this.map.On("Click", this.OnMapClick_Handler.bind(this));
+		this.map.On("Click", this.OnMapClick_Handler.bind(this));	
 	}
 
 	AddBaseControls() {
@@ -86,12 +87,14 @@ export default class ProxApp extends Templated {
 		search.Place(this.Node("search"));
 		
 		search.On("Change", this.OnSearchChange_Handler.bind(this));
+		
+		search.Node("typeahead").Node("input").id = "lode-search";
 	}
 
 	AddGroup() {
 		// Top-right group for legend, etc.		
 		this.group = {
-			legend : Factory.LegendControl(this.current.Legend, this.current.Title, this.current.Subtitle)
+			legend : Factory.LegendControl(this.current.Legend, this.current.FullTitle, this.current.Subtitle)
 		}
 						
 		this.map.AddControl(Factory.Group(this.group));
@@ -119,24 +122,23 @@ export default class ProxApp extends Templated {
 		
 		this.map.AddControl(this.menu, "top-left");
 		
-		this.menu.AddButton("home", "assets/globe.png", Core.Nls("Home_Title"), this.OnHomeClick_Handler.bind(this));
-		this.menu.AddPopupButton("maps", "assets/layers.png", Core.Nls("Maps_Title"), maps, this.map.Container);
-		this.menu.AddPopupButton("bookmarks", "assets/bookmarks.png", Core.Nls("Bookmarks_Title"), bookmarks, this.map.Container);
+		this.menu.AddButton("home", Core.root + "assets/globe.png", Core.Nls("Home_Title"), this.OnHomeClick_Handler.bind(this));
+		this.menu.AddPopupButton("maps", Core.root + "assets/layers.png", Core.Nls("Maps_Title"), maps, this.map.Container);
+		this.menu.AddPopupButton("bookmarks", Core.root + "assets/bookmarks.png", Core.Nls("Bookmarks_Title"), bookmarks, this.map.Container);
 						
 		maps.On("MapSelected", this.OnMapSelected_Handler.bind(this));
 		bookmarks.On("BookmarkSelected", this.OnBookmarkSelected_Handler.bind(this));
-		
-		// Move tooltip to map for fullscreen mode. Tooltip uses fixed positioning so it ignores parent element for positioning.
-		maps.tooltip.Place(this.Node("map"));
 	}
 	
 	ReloadTable() {
 		Dom.Empty(this.Node("table"));
 		
-		Net.JSON(this.current.TableUrl).then(ev => { 
+		Net.JSON(`${Core.root}${this.current.TableUrl}`).then(ev => { 
 			this.current.UpdateTable(ev.result);
 		
 			this.table = new Table(this.Node("table"), this.current.Table);
+			
+			this.table.Node("message").setAttribute("href", "#lode-search");
 		});		
 	}
 	
@@ -157,11 +159,13 @@ export default class ProxApp extends Templated {
 
 		this.current = ev.map;	
 		
+		// this.Node('instructions').innerHTML = Core.Nls("Map_Description", [this.current.Title]);
+		
 		this.map.SetStyle(this.current.Style);
 		
 		this.ReloadTable();
 		
-		this.group.legend.Reload(this.current.Legend, this.current.Title, this.current.Subtitle);
+		this.group.legend.Reload(this.current.Legend, this.current.FullTitle, this.current.Subtitle);
 	}
 
 	OnMapStyleChanged_Handler(ev) {
@@ -186,6 +190,11 @@ export default class ProxApp extends Templated {
 		if (features.length == 0) return;
 		
 		var f = features[0];
+		
+		// WORKAROUND to fix fields (there's another one in table.js)
+		for (var fld in f.properties) {
+			f.properties[fld] = Workaround.FixField(fld, f.properties[fld]);
+		}
 
 		// TODO : Handle lookups, string formats
 		var html = Other.HTMLize(f.properties, this.current.Fields, Core.Nls("Map_Not_Available"));

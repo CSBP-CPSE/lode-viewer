@@ -5,17 +5,19 @@ import Dom from "../basic-tools/tools/dom.js";
 import Configuration from "./configuration.js";
 import Application from "./application.js";
 
-Net.JSON(`./config/config.nls.json`).then(value => {
+Core.root = "./";
+
+Net.JSON(`${Core.root}config/config.nls.json`).then(value => {
 	Core.locale = document.documentElement.lang || "en";
 	Core.nls = value.result;
 	
-	var p1 = Net.JSON(`./config/config.applications.json`);
+	var p1 = Net.JSON(`${Core.root}config/config.applications.json`);
 	
 	Promise.all([p1]).then(Start);
 });
 
 function Start(results) {		
-	var defs = results[0].result.map(m => Net.JSON(m));
+	var defs = results[0].result.map(m => Net.JSON(`${Core.root}${m}`));
 	
 	var config = {}
 	
@@ -25,11 +27,11 @@ function Start(results) {
 		values.forEach(v => config.maps[v.result.id] = Configuration.FromJSON(v.result));
 	});
 	
-	var p2 = Net.JSON(`./config/config.bookmarks.json`).then(value => {
+	var p2 = Net.JSON(`${Core.root}config/config.bookmarks.json`).then(value => {
 		config.bookmarks = value.result.items;
 	});
 	
-	var p3 = Net.JSON(`./config/config.search.json`).then(value => {
+	var p3 = Net.JSON(`${Core.root}config/config.search.json`).then(value => {
 		config.search = value.result;
 	});
 		

@@ -12,8 +12,18 @@ export default class Configuration {
 	}
 	
 	// Get for localized strings
+	get Abbr() {
+		return this.abbr;
+	}
+	
+	// Get for localized strings
 	get Title() {
 		return this.title;
+	}
+	
+	// Get for localized strings
+	get FullTitle() {
+		return `${this.Title} (${this.Abbr})`;
 	}
 	
 	// Get for localized strings
@@ -101,7 +111,8 @@ export default class Configuration {
 		return this.table.fields.map(f => { 
 			return { 
 				id : f.id,
-				label : f[Core.locale]
+				label : f[Core.locale],
+				type : f.type || null
 			} 
 		});
 	}
@@ -122,6 +133,7 @@ export default class Configuration {
 		this.tableUrl = null;
 		this.layers = null;
 		this.title = null;
+		this.abbr = null;
 		this.description = null;
 		this.legend = null;
 		this.table = null;
@@ -143,6 +155,7 @@ export default class Configuration {
 		c.tableUrl = json.table || null;
 		c.layers = json.layers || null;
 		c.title = json.title && json.title[Core.locale] || null;
+		c.abbr = json.abbr && json.abbr[Core.locale] || null;
 		c.description = json.description && json.description[Core.locale] || null;
 		c.legend = json.legend || null;
 

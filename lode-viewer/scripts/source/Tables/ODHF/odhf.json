@@ -1,0 +1,54 @@
+{
+    "id" : "ODHF",
+	"source" : "./source/Tables/ODHF/odhf_process_11.csv",
+	"title": {
+        "en": "Detailed table of healthcare facilities in {0}",
+        "fr": "Tableau détaillé des établissements de soins de santé pour {0}"
+    },
+    "description": {
+        "en": "This table contains the healthcare facilities contained in the selected census subdivision.",
+        "fr": "Ce tableau contient les établissements de soins de santé contenus dans la sous-division de recensement sélectionnée."
+    },
+    "fields": [{
+            "id": "facility_name",
+            "en": "Facility name",
+            "fr": "Nom de l'établissement",
+			"type" : "text"
+        }, {
+            "id": "index",
+            "en": "Healthcare facility ID",
+            "fr": "ID de l'établissement de soins de santé",
+			"type" : "numeric"
+        }, {
+            "id": "odhf_facility_type",
+            "en": "Type",
+            "fr": "Type",
+			"type" : "text"
+        }, {
+            "id": "street_no",
+            "en": "Street number",
+            "fr": "Numéro civique",
+			"type" : "numeric"
+        }, {
+            "id": "street_name",
+            "en": "Street name",
+            "fr": "Nom de la rue",
+			"type" : "text"
+        }, {
+            "id": "postal_code",
+            "en": "Postal code",
+            "fr": "Code postal",
+			"type" : "numeric"
+        }, {
+            "id": "city",
+            "en": "City",
+            "fr": "Ville",
+			"type" : "text"
+        }, {
+            "id": "province",
+            "en": "Province",
+            "fr": "Province",
+            "type": "text"
+        }
+    ]
+}

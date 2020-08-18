@@ -3,6 +3,8 @@ import Core from '../basic-tools/tools/core.js';
 import Dom from '../basic-tools/tools/dom.js';
 import Net from "../basic-tools/tools/net.js";
 import Util from "../basic-tools/tools/util.js";
+import Other from "../mapbox-tools/tools/other.js";
+import Workaround from "./workaround.js";
 
 export default Core.Templatable("Basic.Components.Table", class Table extends Templated {
 
@@ -27,14 +29,14 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 		this.Node('prev').addEventListener('click', this.OnButtonPrev_Handler.bind(this));
 		this.Node('next').addEventListener('click', this.OnButtonNext_Handler.bind(this));
 		
-		this.fields.forEach(f => this.AddHeader(f.label));
+		this.fields.forEach(f => this.AddHeader(f));
 	}
 
 	Template() {
 		return "<div class='table-widget'>" +
 				  "<h2 handle='title'>nls(Table_Title_Default)</h2>" +
 				  
-			      "<div id='lode-table' handle='message' class='table-message'>nls(Table_Message)</div>"+
+			      "<a id='lode-table' handle='message' class='table-message'>nls(Table_Message)</a>"+
 				  
 			      "<div handle='table' class='table-container hidden'>" + 
 					 "<summary handle='description'></summary>" +
@@ -45,16 +47,16 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 				        "<tbody handle='body'></tbody>" + 
 				     "</table>" + 
 				     "<div class='navigation'>" + 
-					    "<button handle='prev' title='nls(Table_Previous_Button)' disabled><img src='assets/arrow-left.png'></button>"+
+					    `<button handle='prev' title='nls(Table_Previous_Button)' disabled><img src='${Core.root}assets/arrow-left.png'></button>`+
 					    "<span handle='current' class='current'></span>"+ 
-					    "<button handle='next' title='nls(Table_Next_Button)' disabled><img src='assets/arrow-right.png'></button>"+
+					    `<button handle='next' title='nls(Table_Next_Button)' disabled><img src='${Core.root}assets/arrow-right.png'></button>`+
 				     "</div>" + 
 			      "</div>" + 
 			   "</div>"
 	}
 
-	AddHeader(label) {
-		Dom.Create("th", { innerHTML:label }, this.Node("header"));
+	AddHeader(f) {
+		Dom.Create("th", { innerHTML:f.label, className:f.type }, this.Node("header"));
 	}
 
 	GetDataFileUrl(file) {
@@ -78,9 +80,12 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 			var row = Dom.Create("tr", { className:"table-row" }, this.Node('body'));
 			
 			rData.forEach((cData, i) => {
-				var value = cData;
-
-				Dom.Create("td", { innerHTML:value, className:"table-cell" }, row);
+				// WORKAROUND to fix fields (there's another one in application.js)
+				var value = Workaround.FixField(this.fields[i].id, cData);
+				
+				var css = `table-cell ${this.fields[i].type}`;
+				
+				Dom.Create("td", { innerHTML:value, className:css }, row);
 			});
 		});
 	}
@@ -110,7 +115,7 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 		};
 		
 		// Get CSV file for selected DB. Extension is json because of weird server configuration. Content is csv.		
-		var file = `${this.path}\\${this.current.item.id}_${this.current.page}.json`;
+		var file = `${Core.root}${this.path}\\${this.current.item.id}_${this.current.page}.json`;
 		var url = this.GetDataFileUrl(file);	
 		
 		Net.Request(url).then(ev => {

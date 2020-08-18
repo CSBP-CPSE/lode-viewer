@@ -17,6 +17,18 @@ body {
 	z-index : 1000;
 }
 
+.lode .mapboxgl-popup ul.popup-inner {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	margin-top:10px;
+}
+
+.lode .mapboxgl-popup ul.popup-inner li label {
+	font-weight:200;
+	margin:0;
+}
+
 .mapboxgl-popup-content {
 	box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.2) !important;
     -moz-box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.2) !important;
@@ -135,12 +147,14 @@ body {
 .lode .toc .toc-container > * {
 	display : block;	
 	cursor : pointer;
-} 
+}
 
-.lode .legend .legend-item .legend-icon {
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
+.lode .legend .legend-item svg {
+	border:solid thin silver;
+}
+
+.lode .legend .legend-item label {
+	margin-left:6px;
 }
 
 .lode .opacity .opacity-slider {
@@ -154,35 +168,6 @@ body {
 
 .lode .opacity .control-label {
 	width:100%;
-}
-
-/*** tooltip ***/
-.lode .tooltip {
-	position: fixed;
-    padding: 5px;
-    border-radius: 4px;
-    pointer-events: none;
-	opacity : 0;
-	z-index: 10000;
-    background: white;
-    max-width: 250px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 2px;
-}
-
-.lode .tooltip .tooltip-title {
-	font-weight : bold;
-}
-
-.lode .tooltip .tooltip-line > * {
-	display:inline-block;
-	vertical-align : middle;
-	margin-left:3px;
-	margin-right:3px;
-}
-
-.lode .tooltip .legend, .lode .tooltip .legend rect {
-	width:12px;
-	height:2px;
 }
 
 /*** popup ***/
@@ -376,7 +361,6 @@ body {
     height: 30px;
 }
 
-
 .lode .search-control .typeahead {
     position: absolute;
 }
@@ -385,11 +369,8 @@ body {
 	display:none;
 }
 
-.lode .typeahead:not(.collapsed) ul,
-.lode .typeahead .input { 
-    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+.lode .typeahead:not(.collapsed) ul { 
+    border:solid thin silver;
 }
 
 .lode .typeahead.collapsed .input {
@@ -398,7 +379,7 @@ body {
 }
 
 .lode .typeahead .input {
-	border: none;
+	border: solid thin silver;
 	padding : 0px 8px;
 	
     border-top-left-radius: 4px;
@@ -491,7 +472,14 @@ body {
 .lode .table-widget table th {
     padding: 5px 4px;
 	font-weight: normal;
+}
+
+.lode .table-widget table .numeric {
 	text-align:right;
+}
+
+.lode .table-widget table th {
+	text-align:left;
 }
 
 .lode .table-widget button {
@@ -528,6 +516,12 @@ body {
   font-size: 15px;
   margin:5px;
   margin-right: 10px;
+}
+
+.lode .table-widget .table-message {
+  cursor:auto;
+  text-decoration:none;
+  color:rgb(51,51,51);
 }
 
 
@@ -590,4 +584,13 @@ body {
 #htu .menu .htu-row > *{
 	display:inline-block;
     vertical-align: middle;
+}
+
+.lode .mapboxgl-ctrl-logo,
+.lode .mapboxgl-ctrl-attrib-inner {
+	background-color:white;
+}
+
+.lode .mapboxgl-ctrl-scale {
+	font-size:1.15em;
 }

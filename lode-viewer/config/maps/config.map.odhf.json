@@ -1,7 +1,7 @@
 {
-    "id": "odhf",
-    "style": "mapbox://styles/deil-leid/ck93or0083c6f1imnc2oa1qk3",
-    "table": "./config/tables/config.table.odhf.json",
+    "id": "odhf",    
+	"style": "mapbox://styles/deil-leid/ckdhs8cjs052s1inu818yovbh",
+    "table": "config/tables/config.table.odhf.json",
     "layers": [{
             "id": "odhf",
 			"click" : true
@@ -10,12 +10,12 @@
         }
     ],
     "title": {
-        "en": "Open Database of Healthcare Facilities (ODHF)",
-        "fr": "Base de Données Ouvertes des Établissement de Santé (BDOES)"
+        "en": "Open Database of Healthcare Facilities",
+        "fr": "Base de données ouvertes sur les établissements de soins de santé"
     },
-    "description": {
-        "en": "This map shows health facilities across Canada. The search bar can be used to find and select a census subdivision (CSD). Visibility of individual layers can be controlled from the legend. You can click on circles on the map to obtain more information about the corresponding health facility.",
-        "fr": "Cette carte présente les établissements de santé au Canada. La barre de recherche peut être utilisée pour trouver et sélectionner une sous-division de recensement (SDR). La visibilité de chacune des couches de données peut être controlée dans la légende. Vous pouvez cliquer sur les cercles de la carte pour obtenir plus d'information sur l'établissement correspondant."
+    "abbr": {
+        "en": "ODHF",
+        "fr": "BDOESS"
     },
     "legend": [{
             "color": [255, 0, 0],
@@ -36,14 +36,7 @@
             "label": {
                 "en": "Ambulatory health care services",
                 "fr": "Services de soins de santé ambulatoires"
-            },
-            "value": ["==", ["get", "odhf_facility_type"], "Ambulatory health care services"]
-        }, {
-            "label": {
-                "en": "Not specified",
-                "fr": "Non précisé"
-            },
-            "color": [252, 205, 229]
+            }
         }
     ]
 }
