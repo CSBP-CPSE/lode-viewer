@@ -30,7 +30,9 @@ The `table.py` is the Python script that will be run to create the necessary JSO
    - To avoid scripting errors due to some temporary hardcoding, the following should be modified in the `[dataset name].csv`: 
      - **If you want postal codes to show up on your popup and table views, then you must name the column `postal_code`**.
      - **Name your id column `index`**.
-     - **Name your CSD ID column `CSDUID`**.
+     - **Name your CSD ID column `CSDuid`**.
+     - **Name your Latitude column `latitude`**
+     - **Name your Longitude column `longitude`**
 4. In `./lode-viewer/scripts/table.py`, update line 71 to the correct file path: `config = u.ReadJSON('./source/Tables/[dataset name]/[dataset name].json')`.
 
 Now `table.py` can successfully run:
