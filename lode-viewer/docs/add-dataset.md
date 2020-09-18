@@ -52,7 +52,7 @@ In order to view the dataset on the map, the `[dataset name].csv` to  be added n
 2. Create a tileset (`*.mbtiles`) either by using [tippecanoe](https://github.com/mapbox/tippecanoe) for a more customized approach, or simply uploading the `[dataset name].geojson` in Mapbox Studio as Mapbox has created automatic script to convert the `[dataset name].geojson` to the desired `[dataset name].mbtiles`.
     - If tippecanoe is used, the following command can run to create the `[dataset name].mbtiles`: `tippecanoe -o [dataset name].mbtiles --base-zoom 0 --force [dataset name].geojson`
 3. In Mapbox Studio, make sure your newly uploaded `[dataset name].mbtiles` is stored within the [tileset view](https://studio.mapbox.com/tilesets/).
-4. Next, go to the style tab and copy an existing LODE Viewer dataset style for LODE Viewer. This assures that the same data layers and style properties are incorporated for the new dataset.
+4. Next, go to the styles tab and copy (duplicate) an existing LODE Viewer dataset style for LODE Viewer. This assures that the same data layers and style properties are incorporated for the new dataset.
 5. Open the copied style in Mapbox Studio, you will then need to update the data sources to the new `[dataset name]` and `[dataset name]-labels` map layers.
     - Make sure the `[dataset name]` layer is set to point type.
     - Make sure the `[dataset name]-labels` layer is set to symbol type.
