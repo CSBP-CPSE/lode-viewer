@@ -27,44 +27,44 @@ The `table.py` is the Python script that will be run to create the necessary JSO
 2. Add the dataset (`[dataset name].csv`) to `./lode-viewer/scripts/source/Tables/[dataset name]`.
 3. Create a new `[dataset name].json` in `/lode-viewer/scripts/source/Tables/[dataset name]` using the format shown below.
    - This JSON is used to compile the columns that will appear in the pop up and table view.
-```json
+```
 {
-    "id" : "mydatasetID",
+	"id" : "mydatasetID",
 	"source" : "./source/Tables/mydataset/mydataset.csv",
 	"title": {
-        "en": "mydataset English title {0}",
-        "fr": "mydataset French title {0}"
-    },
-    "description": {
-        "en": "mydataset English description",
-        "fr": "mydataset French description"
-    },
-    "fields": [
+		"en": "mydataset English title {0}",
+		"fr": "mydataset French title {0}"
+	},
+	"description": {
+		"en": "mydataset English description",
+		"fr": "mydataset French description"
+	},
+	"fields": [
 		{
-            "id": "mydataset-fieldname-1",
-            "en": "mydataset English field name 1",
-            "fr": "mydataset French field name 1",
+			"id": "mydataset-fieldname-1",
+			"en": "mydataset English field name 1",
+			"fr": "mydataset French field name 1",
 			"type" : "field type e.g. text, numeric"
-        },
+		},
 		...
 		{
-            "id": "mydataset-fieldname-N",
-            "en": "mydataset English field name N",
-            "fr": "mydataset French field name N",
+			"id": "mydataset-fieldname-N",
+			"en": "mydataset English field name N",
+			"fr": "mydataset French field name N",
 			"type" : "field type e.g. text, numeric"
 		{
-    ]
+	]
 }
 ```
 
 4. Update the table.py script to match the column names of the dataset being added.
    - To avoid scripting errors due to some temporary hard coding, the following variables need to be updated in the table.py script: 
-     - **If you want postal codes to show up on your popup and table views, then you must name the column `postal_code`**.
+	 - **If you want postal codes to show up on your popup and table views, then you must name the column `postal_code`**.
 	 - **Update `TABLECONFIG` variable with the path for the table configuration json file. e.g. `./source/Tables/mydataset/mydataset.json`.
-     - **Update the `INDEX` variable to the id column name**.
-     - **Update the `CSDUID` variable to the CSD ID column name**.
-     - **Update the `LAT` variable to the Latitude column name**
-     - **Update the `LONG` variable to the Longitude column name**
+	 - **Update the `INDEX` variable to the id column name**.
+	 - **Update the `CSDUID` variable to the CSD ID column name**.
+	 - **Update the `LAT` variable to the Latitude column name**
+	 - **Update the `LONG` variable to the Longitude column name**
 
 Now `table.py` can successfully run:
 
@@ -81,12 +81,12 @@ In order to view the dataset on the map, the `[dataset name].csv` to  be added n
 
 1. Convert the original `[dataset name].csv` to `[dataset name].geojson`. This can be accomplished through command line tools like OGR or through GUIs like QGIS.
 2. Create a tileset (`*.mbtiles`) either by using [tippecanoe](https://github.com/mapbox/tippecanoe) for a more customized approach, or simply uploading the `[dataset name].geojson` in Mapbox Studio as Mapbox has created automatic script to convert the `[dataset name].geojson` to the desired `[dataset name].mbtiles`.
-    - If tippecanoe is used, the following command can run to create the `[dataset name].mbtiles`: `tippecanoe -o [dataset name].mbtiles --base-zoom 0 --force [dataset name].geojson`
+	- If tippecanoe is used, the following command can run to create the `[dataset name].mbtiles`: `tippecanoe -o [dataset name].mbtiles --base-zoom 0 --force [dataset name].geojson`
 3. In Mapbox Studio, make sure your newly uploaded `[dataset name].mbtiles` is stored within the [tileset view](https://studio.mapbox.com/tilesets/).
 4. Next, go to the styles tab and copy (duplicate) an existing LODE Viewer dataset style for LODE Viewer. This assures that the same data layers and style properties are incorporated for the new dataset.
 5. Open the copied style in Mapbox Studio, you will then need to update the data sources to the new `[dataset name]` and `[dataset name]-labels` map layers.
-    - Make sure the `[dataset name]` layer is set to point type.
-    - Make sure the `[dataset name]-labels` layer is set to symbol type.
+	- Make sure the `[dataset name]` layer is set to point type.
+	- Make sure the `[dataset name]-labels` layer is set to symbol type.
 6. Save the style, take note of the style URL.
    
 Now in order to incorporate this new dataset Mapbox style to the LODE Viewer, the following map configuration file must be completed:
@@ -101,8 +101,8 @@ The rest of the `config.map.[dataset name].json` should be updated to reflect th
  - `title`: Title to appear on the map legend.
  - `abbr`: The dataset abbreviation to appear on the map legend.
  - `legend`: 
-      - `colors`: The colours (as rgb) for the thematic map and legend.
-      - `label`: The label to appear on the map legend.
-      - `value`: The logic assigning a colour to a dataset variable and an unique value. The only thing that needs to be changed here is the variable name and the value to be coloured for the thematic map.
+	  - `colors`: The colours (as rgb) for the thematic map and legend.
+	  - `label`: The label to appear on the map legend.
+	  - `value`: The logic assigning a colour to a dataset variable and an unique value. The only thing that needs to be changed here is the variable name and the value to be coloured for the thematic map.
 
 Last, yet very important, in `./lode-viewer/config/config.applications.json`, add `config.map.[old dataset name].json` to the array. This informs the client to include the new dataset into the user interface!
