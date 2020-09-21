@@ -25,15 +25,46 @@ The `table.py` is the Python script that will be run to create the necessary JSO
 
 1. Create a new folder in `./lode-viewer/scripts/source/Tables/[dataset name]`. This is where the new dataset to be added should be stored.
 2. Add the dataset (`[dataset name].csv`) to `./lode-viewer/scripts/source/Tables/[dataset name]`.
-3. Create a new `[dataset name].json` from `./lode-viewer/scripts/source/Tables/template.json` in `/lode-viewer/scripts/source/Tables/[dataset name]`.
-   - This JSON is used to compile the columns that will appear in the popup and table view.
-   - To avoid scripting errors due to some temporary hardcoding, the following should be modified in the `[dataset name].csv`: 
+3. Create a new `[dataset name].json` in `/lode-viewer/scripts/source/Tables/[dataset name]` using the format shown below.
+   - This JSON is used to compile the columns that will appear in the pop up and table view.
+```json
+{
+    "id" : "mydatasetID",
+	"source" : "./source/Tables/mydataset/mydataset.csv",
+	"title": {
+        "en": "mydataset English title {0}",
+        "fr": "mydataset French title {0}"
+    },
+    "description": {
+        "en": "mydataset English description",
+        "fr": "mydataset French description"
+    },
+    "fields": [
+		{
+            "id": "mydataset-fieldname-1",
+            "en": "mydataset English field name 1",
+            "fr": "mydataset French field name 1",
+			"type" : "field type e.g. text, numeric"
+        },
+		...
+		{
+            "id": "mydataset-fieldname-N",
+            "en": "mydataset English field name N",
+            "fr": "mydataset French field name N",
+			"type" : "field type e.g. text, numeric"
+		{
+    ]
+}
+```
+
+4. Update the table.py script to match the column names of the dataset being added.
+   - To avoid scripting errors due to some temporary hard coding, the following variables need to be updated in the table.py script: 
      - **If you want postal codes to show up on your popup and table views, then you must name the column `postal_code`**.
-     - **Name your id column `index`**.
-     - **Name your CSD ID column `CSDuid`**.
-     - **Name your Latitude column `latitude`**
-     - **Name your Longitude column `longitude`**
-4. In `./lode-viewer/scripts/table.py`, update line 71 to the correct file path: `config = u.ReadJSON('./source/Tables/[dataset name]/[dataset name].json')`.
+	 - **Update `TABLECONFIG` variable with the path for the table configuration json file. e.g. `./source/Tables/mydataset/mydataset.json`.
+     - **Update the `INDEX` variable to the id column name**.
+     - **Update the `CSDUID` variable to the CSD ID column name**.
+     - **Update the `LAT` variable to the Latitude column name**
+     - **Update the `LONG` variable to the Longitude column name**
 
 Now `table.py` can successfully run:
 
