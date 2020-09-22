@@ -92,7 +92,7 @@ In order to view the dataset on the map, the `[dataset name].csv` to  be added n
 Now in order to incorporate this new dataset Mapbox style to the LODE Viewer, the following map configuration file must be completed:
 
 7. Copy/paste one of the existing `./lode-viewer/config/maps/config.map.[old dataset name].json`, rename the file to `./lode-viewer/config/maps/config.map.[dataset name].json`.
-8. Update the "style" key's value with the new style URL (available in Mapbox Studio).
+8. Update the "style" key's value with the new style URL (available in Mapbox Studio). Note if the style hasn't been published yet, you will need to add a `/draft` to the end of the URL.
 
 The rest of the `config.map.[dataset name].json` should be updated to reflect the dataset variables that will be included in the thematic map:
  - `id`: Abbreviated form of the dataset.
