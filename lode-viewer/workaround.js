@@ -33,7 +33,7 @@ export default class Workaround {
 		if (abbr === 'sk') return locale === "en" ? "Saskatchewan" : "Saskatchewan";
 		if (abbr === 'ab') return locale === "en" ? "Alberta" : "Alberta";
 		if (abbr === 'bc') return locale === "en" ? "British Columbia" : "Colombie-Britannique";
-		if (abbr === 'yt') return locale === "en" ? "Yukon" : "Yukon";
+		if (abbr === 'yt' || abbr === 'yk') return locale === "en" ? "Yukon" : "Yukon";
 		if (abbr === 'nt' || abbr === 'nwt') return locale === "en" ? "Northwest Territories" : "Territoires du Nord-Ouest";
 		if (abbr === 'nu') return locale === "en" ? "Nunavut" : "Nunavut";
 	}
