@@ -24,7 +24,7 @@ export default class Workaround {
 		abbr = abbr.trim();	// Hidden whitespace character at the end, weird.
 		
 		if (abbr === 'nl') return locale === "en" ? "Newfoundland and Labrador" : "Terre-Neuve-et-Labrador";
-		if (abbr === 'pe') return locale === "en" ? "Prince Edward Island" : "Île-du-Prince-Édouard";
+		if (abbr === 'pe' || abbr === 'pei') return locale === "en" ? "Prince Edward Island" : "Île-du-Prince-Édouard";
 		if (abbr === 'ns') return locale === "en" ? "Nova Scotia" : "Nouvelle-Écosse";
 		if (abbr === 'nb') return locale === "en" ? "New Brunswick" : "Nouveau-Brunswick";
 		if (abbr === 'qc') return locale === "en" ? "Quebec" : "Québec";
