@@ -1,0 +1,92 @@
+{
+    "id": "odcaf",    
+	"style": "mapbox://styles/deil-leid/ckf8nmlrv1mzt1aqruvvbuwyo",
+    "table": "config/tables/config.table.odcaf.json",
+    "layers": [{
+            "id": "odcaf",
+			      "click" : true
+        }, {
+            "id": "odcaf-labels"
+        }
+    ],
+    "title": {
+        "en": "Open Database of Cultural and Art Facilities",
+        "fr": "Base de données ouvertes sur les établissements de soins de santé"
+    },
+    "abbr": {
+        "en": "ODCAF",
+        "fr": "BDOICA"
+    },
+    "legend": [{
+            "color": [128, 177, 211],
+            "label": {
+                "en": "Artist",
+                "fr": "Artiste"
+            },
+            "value": ["==", ["get", "ODCAF_Facility_Type"], "artist"]
+        }, 
+		{
+            "color": [252, 205, 229],
+            "label": {
+                "en": "Art or Cultural Centre",
+                "fr": "Centre des arts ou de culture"
+            },
+            "value": ["==", ["get", "ODCAF_Facility_Type"], "art or cultural centre"]
+        }, 
+		{
+            "color": [253, 180, 98],
+            "label": {
+                "en": "Festival Site",
+                "fr": "Site de festival"
+            },
+            "value": ["==", ["get", "ODCAF_Facility_Type"], "festival site"]
+        }, 
+		{
+            "color": [251, 128, 114],
+            "label": {
+                "en": "Gallery",
+                "fr": "Galerie"
+            },
+            "value": ["==", ["get", "ODCAF_Facility_Type"], "gallery"]
+        }, 
+		{
+            "color": [190, 186, 218],
+            "label": {
+                "en": "Heritage or Historic Site",
+                "fr": "Site patrimonial ou historique"
+            },
+            "value": ["==", ["get", "ODCAF_Facility_Type"], "heritage or historic site"]
+        }, 
+		{
+            "color": [255, 255, 179],
+            "label": {
+                "en": "Library or Archives",
+                "fr": "Bibliothèque ou archives"
+            },
+            "value": ["==", ["get", "ODCAF_Facility_Type"], "library or archives"]
+        }, 
+		{
+            "color": [141, 211, 199],
+            "label": {
+                "en": "Museum",
+                "fr": "Musée"
+            },
+            "value": ["==", ["get", "ODCAF_Facility_Type"], "museum"]
+        }, 
+		{
+            "color": [179, 222, 105],
+            "label": {
+                "en": "Theatres/Performance and Concert Hall",
+                "fr": "Théâtres/salles de spectacle et salles de concert"
+            },
+            "value": ["==", ["get", "ODCAF_Facility_Type"], "theatre/performance and concert hall"]
+        }, 
+		{
+            "color": [217, 217, 217],
+            "label": {
+                "en": "Miscellaneous",
+                "fr": "Divers"
+            }
+        }
+    ]
+}
