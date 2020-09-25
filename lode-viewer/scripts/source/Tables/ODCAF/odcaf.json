@@ -1,0 +1,54 @@
+{
+    "id" : "ODCAF",
+	"source" : "./source/Tables/ODCAF/odcaf.csv",
+	"title": {
+        "en": "Detailed table of Cultural and Art Facilities in {0}",
+        "fr": "Tableau détaillé des installations culturelles et artistiques pour {0}"
+    },
+    "description": {
+        "en": "This table contains the Cultural and Art Facilities contained in the selected census subdivision.",
+        "fr": "Ce tableau contient les installations culturelles et artistiques contenus dans la sous-division de recensement sélectionnée."
+    },
+    "fields": [{
+            "id": "Facility_Name",
+            "en": "Facility name",
+            "fr": "Nom de l'établissement",
+			"type": "text"
+        }, {
+            "id": "Index",
+            "en": "Cultural and Art Facilities ID",
+            "fr": "ID de installations culturelles et artistiques",
+			"type": "numeric"
+        }, {
+            "id": "ODCAF_Facility_Type",
+            "en": "Type",
+            "fr": "Type",
+		"type": "text"
+        }, {
+            "id": "Street_No",
+            "en": "Street number",
+            "fr": "Numéro civique",
+		"type": "numeric"
+        }, {
+            "id": "Street_Name",
+            "en": "Street name",
+            "fr": "Nom de la rue",
+			"type": "text"
+        }, {
+            "id": "Postal_Code",
+            "en": "Postal code",
+            "fr": "Code postal",
+			"type": "text"
+        }, {
+            "id": "City",
+            "en": "City",
+            "fr": "Ville",
+			"type": "text"
+        }, {
+            "id": "Prov_Terr",
+            "en": "Province/Territory",
+            "fr": "Province/Territoire",
+            "type": "text"
+        }
+    ]
+}
