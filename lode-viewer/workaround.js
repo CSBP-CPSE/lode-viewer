@@ -24,7 +24,7 @@ export default class Workaround {
 		abbr = abbr.trim();	// Hidden whitespace character at the end, weird.
 		
 		if (abbr === 'nl') return locale === "en" ? "Newfoundland and Labrador" : "Terre-Neuve-et-Labrador";
-		if (abbr === 'pe' || abbr === 'pei') return locale === "en" ? "Prince Edward Island" : "Île-du-Prince-Édouard";
+		if (abbr === 'pe') return locale === "en" ? "Prince Edward Island" : "Île-du-Prince-Édouard";
 		if (abbr === 'ns') return locale === "en" ? "Nova Scotia" : "Nouvelle-Écosse";
 		if (abbr === 'nb') return locale === "en" ? "New Brunswick" : "Nouveau-Brunswick";
 		if (abbr === 'qc') return locale === "en" ? "Quebec" : "Québec";
@@ -33,8 +33,8 @@ export default class Workaround {
 		if (abbr === 'sk') return locale === "en" ? "Saskatchewan" : "Saskatchewan";
 		if (abbr === 'ab') return locale === "en" ? "Alberta" : "Alberta";
 		if (abbr === 'bc') return locale === "en" ? "British Columbia" : "Colombie-Britannique";
-		if (abbr === 'yt' || abbr === 'yk') return locale === "en" ? "Yukon" : "Yukon";
-		if (abbr === 'nt' || abbr === 'nwt') return locale === "en" ? "Northwest Territories" : "Territoires du Nord-Ouest";
+		if (abbr === 'yt') return locale === "en" ? "Yukon" : "Yukon";
+		if (abbr === 'nt') return locale === "en" ? "Northwest Territories" : "Territoires du Nord-Ouest";
 		if (abbr === 'nu') return locale === "en" ? "Nunavut" : "Nunavut";
 	}
 	
