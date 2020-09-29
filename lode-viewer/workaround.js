@@ -9,7 +9,7 @@ export default class Workaround {
 		
 		if (field === "odhf_facility_type" || field === "ODCAF_Facility_Type") return this.LookupType(value, Core.locale);
 		
-		if (field === "postal_code" || field === "Postal_Code") return value.replace(" ", "&nbsp");
+		if (field === "postal_code" || field === "Postal_Code") return value.replace(" ", "&nbsp").toUpperCase();
 		
 		if (field === "facility_name" || field === "Facility_Name") return value.charAt(0).toUpperCase() + value.slice(1);
 		
