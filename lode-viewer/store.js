@@ -25,7 +25,7 @@ export default class Store {
 	}
 	
 	static get Zoom() {
-		return localStorage.getItem("lode-zoom") || 3;
+		return localStorage.getItem("lode-zoom") || 2;
 	}
 	
 	static set Zoom(value) {
