@@ -58,7 +58,7 @@ export default class Store {
 	 * @returns {number} map zoom level
 	 */
 	static get Zoom() {
-		return localStorage.getItem("lode-zoom") || 3;
+		return localStorage.getItem("lode-zoom") || 2;
 	}
 	
 	/**
