@@ -16,6 +16,7 @@ export default class ProxApp extends Templated {
 		
 		this.config = config;
 		this.current = this.config.maps[Store.Map];
+		this.maxExtent = [[-162.0, 41.0], [-32.0, 83.5]];
 
 		if (!this.current) this.current = Util.FirstProperty(this.config.maps);
 		
@@ -51,9 +52,12 @@ export default class ProxApp extends Templated {
 
 	AddMap() {
 		var token = "pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg";
-		
+
 		this.map = Factory.Map(this.Node("map"), token, this.current.Style, [Store.Lng, Store.Lat], Store.Zoom);
-		
+
+		// Set the maximum bounds of the map
+		this.map.SetMaxBounds(this.maxExtent);
+
 		// Hooking up all events
 		this.map.On("StyleChanged", this.OnMapStyleChanged_Handler.bind(this));
 		this.map.On("MoveEnd", this.OnMapMoveEnd_Handler.bind(this));
