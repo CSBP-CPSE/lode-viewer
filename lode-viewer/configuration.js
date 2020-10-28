@@ -7,6 +7,10 @@ export default class Configuration {
 		return this.id;
 	}
 	
+	get DataSources() {
+		return this.dataSources;
+	}
+
 	get Style() {
 		return this.style;
 	}
@@ -129,6 +133,7 @@ export default class Configuration {
 	
 	constructor() {
 		this.id = null;
+		this.dataSources = null;
 		this.style = null;
 		this.tableUrl = null;
 		this.layers = null;
@@ -151,6 +156,7 @@ export default class Configuration {
 		var c = new Configuration();
 		
 		c.id = json.id;
+		c.dataSources = json.dataSources;
 		c.style = json.style;
 		c.tableUrl = json.table || null;
 		c.layers = json.layers || null;
