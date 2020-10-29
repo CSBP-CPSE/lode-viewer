@@ -65,6 +65,27 @@ export default class ProxApp extends Templated {
 		this.map.On("Click", this.OnMapClick_Handler.bind(this));	
 	}
 
+	// Add all data sources defined in the map configuration.
+	AddDataSources() {
+		let mapDataSources, currentSourceName, currentSourceData, i;
+		if (this.current && this.current.DataSources) {
+			mapDataSources = this.current.DataSources;
+		}
+
+		if (mapDataSources && Array.isArray(mapDataSources) && mapDataSources.length) {
+			for (i = 0; i < mapDataSources.length; i += 1) {
+				currentSourceName = mapDataSources[i].name;
+				currentSourceData = mapDataSources[i].data;
+				if (currentSourceName && currentSourceData) {
+					this.map.AddSource(currentSourceName, currentSourceData);
+					if (currentSourceData.cluster) {
+						this.map.AddClusters(currentSourceName);
+					}
+				}
+			}
+		}
+	}
+
 	// Add all layers defined in the map configuration which have data sources.
 	AddLayers() {
 		let mapLayers, currentLayer, i;
@@ -191,7 +212,13 @@ export default class ProxApp extends Templated {
 
 	OnMapStyleChanged_Handler(ev) {
 		this.map.SetClickableMap();
-		
+
+		// Add data sources
+		this.AddDataSources();
+
+		// Add layers which have data sources
+		this.AddLayers();
+
 		// Assumption: Data will always be point data
 		this.map.Choropleth([this.current.LayerIDs[0]], 'circle-color', this.current.Legend, 1);
 	}
