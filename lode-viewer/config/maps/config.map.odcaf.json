@@ -1,12 +1,49 @@
 {
-    "id": "odcaf",    
-	"style": "mapbox://styles/deil-leid/ckf8nmlrv1mzt1aqruvvbuwyo",
+	"id": "odcaf",
+	"dataSources": [
+		{
+			"name": "odcaf-datasource",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckg9jcvqe242d23lgcwyut6kg/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 14,
+				"clusterRadius": 50
+			}
+		}
+	],
+	"style": "mapbox://styles/deil-leid/ckgaukzzq24qm19p79anoiu7b",
+	"_originalstyle": "mapbox://styles/deil-leid/ckf8nmlrv1mzt1aqruvvbuwyo",
     "table": "config/tables/config.table.odcaf.json",
-    "layers": [{
+    "layers": [
+		{
             "id": "odcaf",
-			      "click" : true
-        }, {
-            "id": "odcaf-labels"
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-datasource",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+			"id": "odcaf-labels",
+			"type": "symbol",
+			"source": "odcaf-datasource",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"print": {
+				"text-color": "#000000"
+			}
         }
     ],
     "title": {
