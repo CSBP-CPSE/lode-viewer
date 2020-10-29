@@ -65,6 +65,23 @@ export default class ProxApp extends Templated {
 		this.map.On("Click", this.OnMapClick_Handler.bind(this));	
 	}
 
+	// Add all layers defined in the map configuration which have data sources.
+	AddLayers() {
+		let mapLayers, currentLayer, i;
+		if (this.current && this.current.Layers) {
+			mapLayers = this.current.Layers;
+		}
+
+		if (mapLayers && Array.isArray(mapLayers) && mapLayers.length) {
+			for (i = 0; i < mapLayers.length; i += 1) {
+				currentLayer = mapLayers[i];
+				if (currentLayer.source) {
+					this.map.AddLayer(currentLayer);
+				}
+			}
+		}
+	}
+
 	AddBaseControls() {
 		var fullscreen = Factory.FullscreenControl(Core.Nls("FullScreen_Title"));
 		var navigation = Factory.NavigationControl(false, true, Core.Nls("Navigation_ZoomIn_Title"), Core.Nls("Navigation_ZoomOut_Title"));
