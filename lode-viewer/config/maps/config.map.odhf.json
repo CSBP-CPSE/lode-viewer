@@ -1,12 +1,49 @@
 {
-    "id": "odhf",    
-	"style": "mapbox://styles/deil-leid/ckdhs8cjs052s1inu818yovbh",
+    "id": "odhf",
+	"dataSources": [
+		{
+			"name": "odhf-datasource",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckgwp449h04cf29mtammjlqsc/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 14,
+				"clusterRadius": 50
+			}
+		}
+	],
+	"style": "mapbox://styles/deil-leid/ckgaukzzq24qm19p79anoiu7b",
+	"_originalstyle": "mapbox://styles/deil-leid/ckdhs8cjs052s1inu818yovbh",
     "table": "config/tables/config.table.odhf.json",
-    "layers": [{
+    "layers": [
+		{
             "id": "odhf",
-			"click" : true
-        }, {
-            "id": "odhf-labels"
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-datasource",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+			"id": "odhf-labels",
+			"type": "symbol",
+			"source": "odhf-datasource",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"print": {
+				"text-color": "#000000"
+			}
         }
     ],
     "title": {
@@ -17,7 +54,8 @@
         "en": "ODHF",
         "fr": "BDOESS"
     },
-    "legend": [{
+    "legend": [
+		{
             "color": [255, 0, 0],
             "label": {
                 "en": "Hospitals",
