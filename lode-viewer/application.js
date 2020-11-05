@@ -94,13 +94,15 @@ export default class ProxApp extends Templated {
 	AddGroup() {
 		// Top-right group for legend, etc.		
 		this.group = {
-			legend : Factory.LegendControl(this.current.Legend, this.current.FullTitle, this.current.Subtitle)
+			legend : Factory.LegendControl(this.current.Legend, this.current.FullTitle, this.current.Subtitle),
+			opacity : Factory.OpacityControl(Store.Opacity)
 		}
 						
 		this.map.AddControl(Factory.Group(this.group));
 		
-		// Assumption: All dataset will have a legend with toggles because it's all point data
 		this.group.legend.On("LegendChange", this.OnLegend_Changed.bind(this));
+		this.group.opacity.title = Core.Nls("Toc_Opacity_Title");
+		this.group.opacity.On("OpacityChanged", this.OnLegend_OpacityChanged.bind(this));
 	}
 
 	OnLegend_Changed(ev) {
@@ -146,6 +148,28 @@ export default class ProxApp extends Templated {
 			
 			this.table.Node("message").setAttribute("href", "#lode-search");
 		});		
+	}
+	
+	/**
+	 * OpacityChanged event handler for when the opacity slider updates.
+	 * @param {object} ev - Event object containing details on the opacity
+	 * slider value
+	 */
+	OnLegend_OpacityChanged(ev) {		
+		let i, currentLayer, layerType, layerColorProperty;
+		// validLayers are all layers associated with building footprints
+		// which will be updated when the opacity slider is updated
+		const validLayers = ['bc','ab','mb','nb','ns','nl','nt','nu','sk','on','qc','pe','yt'];
+		Store.Opacity = ev.opacity;
+		
+		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
+			currentLayer = this.current.LayerIDs[i];
+			if (validLayers.indexOf(currentLayer) >= 0){
+				layerType = this.map.GetLayerType(currentLayer);
+				layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
+				this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, this.group.opacity.opacity);
+			}
+		}
 	}
 	
 	OnHomeClick_Handler(ev) {
