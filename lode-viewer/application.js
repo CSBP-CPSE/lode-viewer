@@ -158,7 +158,8 @@ export default class ProxApp extends Templated {
 		this.menu.AddButton("home", Core.root + "assets/globe.png", Core.Nls("Home_Title"), this.OnHomeClick_Handler.bind(this));
 		this.menu.AddPopupButton("maps", Core.root + "assets/layers.png", Core.Nls("Maps_Title"), maps, this.map.Container);
 		this.menu.AddPopupButton("bookmarks", Core.root + "assets/bookmarks.png", Core.Nls("Bookmarks_Title"), bookmarks, this.map.Container);
-
+		this.menu.AddButton("help", Core.root + "assets/help.png", Core.Nls("Help_Title"), this.OnHelpClick_Handler.bind(this));
+						
 		maps.On("MapSelected", this.OnMapSelected_Handler.bind(this));
 		bookmarks.On("BookmarkSelected", this.OnBookmarkSelected_Handler.bind(this));
 	}
@@ -187,6 +188,15 @@ export default class ProxApp extends Templated {
 		this.map.FitBounds([[-173.457, 41.846], [-17.324, 75.848]]);
 	}
 
+	/**
+	 * Event handler for clicking the help button, which simulates clicking the
+	 * how to use button at the top of the application.
+	 * @param {object} ev - mouse event when clicking on the help menu button. 
+	 */
+	OnHelpClick_Handler(ev) {
+		window.document.getElementById('wb-auto-2').click();
+	}
+	
 	/**
 	 * Event handler for clicking a census metropolitan area listed in the
 	 * bookmarks popup list.
