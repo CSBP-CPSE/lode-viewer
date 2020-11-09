@@ -79,7 +79,11 @@ export default class ProxApp extends Templated {
 				if (currentSourceName && currentSourceData) {
 					this.map.AddSource(currentSourceName, currentSourceData);
 					if (currentSourceData.cluster) {
-						this.map.AddClusters(currentSourceName);
+						this.map.AddClusters(
+							{
+								source: currentSourceName
+							}
+						);
 					}
 				}
 			}
