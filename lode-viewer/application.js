@@ -114,11 +114,15 @@ export default class ProxApp extends Templated {
 			layerType = this.map.GetLayerType(currentLayer);
 			layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
 			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, opacities);
-		}
-		
-        this.map.ChoroplethVarOpac([this.current.LayerIDs[0]], 'circle-stroke-color', this.current.Legend, opacities);
 
-        this.map.ChoroplethVarOpac( [this.current.LayerIDs[1]] , 'text-color', this.current.Legend, opacities);
+			if (layerType === 'circle') {
+				this.map.ChoroplethVarOpac([this.current.LayerIDs[i]], 'circle-stroke-color', this.current.Legend, opacities);
+			}
+
+			if (layerType === 'symbol') {
+	        	this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-color', this.current.Legend, opacities);
+			}
+		}
     }
 	
 	AddMenu() {
