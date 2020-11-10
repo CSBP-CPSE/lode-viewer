@@ -121,6 +121,7 @@ export default class ProxApp extends Templated {
 
 			if (layerType === 'symbol') {
 	        	this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-color', this.current.Legend, opacities);
+	        	this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-halo-color', this.current.Legend, opacities);
 			}
 		}
     }
