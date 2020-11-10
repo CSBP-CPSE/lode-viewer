@@ -150,13 +150,23 @@ export default class ProxApp extends Templated {
 	}
 
 	OnLegend_Changed(ev) {
+		let i, currentLayer, layerType, layerColorProperty;
 		var opacities = ev.state.map(i => Number(i.checkbox.checked));
 
-		// Assumption: Data will always be point data
-        this.map.Choropleth([this.current.LayerIDs[0]], 'circle-color', this.current.Legend, opacities);
-        this.map.ChoroplethVarOpac([this.current.LayerIDs[0]], 'circle-stroke-color', this.current.Legend, opacities);
+		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
+			currentLayer = this.current.LayerIDs[i];
+			layerType = this.map.GetLayerType(currentLayer);
+			layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
+			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, opacities);
 
-        this.map.ChoroplethVarOpac( [this.current.LayerIDs[1]] , 'text-color', this.current.Legend, opacities);
+			if (layerType === 'circle') {
+				this.map.ChoroplethVarOpac([this.current.LayerIDs[i]], 'circle-stroke-color', this.current.Legend, opacities);
+			}
+
+			if (layerType === 'symbol') {
+	        	this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-color', this.current.Legend, opacities);
+			}
+		}
     }
 	
 	AddMenu() {
@@ -215,6 +225,7 @@ export default class ProxApp extends Templated {
 	}
 
 	OnMapStyleChanged_Handler(ev) {
+		let i, currentLayer, layerType, layerColorProperty;
 		this.map.SetClickableMap();
 
 		// Add data sources
@@ -223,8 +234,12 @@ export default class ProxApp extends Templated {
 		// Add layers which have data sources
 		this.AddLayers();
 
-		// Assumption: Data will always be point data
-		this.map.Choropleth([this.current.LayerIDs[0]], 'circle-color', this.current.Legend, 1);
+		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
+			currentLayer = this.current.LayerIDs[i];
+			layerType = this.map.GetLayerType(currentLayer);
+			layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
+			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, 1);
+		}
 	}
 	
 	OnMapMoveEnd_Handler(ev) {		
