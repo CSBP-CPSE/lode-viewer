@@ -112,22 +112,6 @@
 	},
 	"legend": [
 		{
-			"color": [77, 148, 242],
-			"label": {
-				"en": "Microsoft",
-				"fr": "Microsoft"
-			},
-			"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
-		},
-		{
-			"color": [240, 82, 43],
-			"label": {
-				"en": "Statistics Canada (ODB)",
-				"fr": "Statistique Canada (BDOI)"
-			},
-			"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"]]
-		},
-		{
             "color": [128, 177, 211],
             "label": {
                 "en": "Artist",
@@ -192,11 +176,32 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "theatre/performance and concert hall"]
         }, 
 		{
+			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
             "color": [217, 217, 217],
             "label": {
                 "en": "Miscellaneous",
                 "fr": "Divers"
-            }
-        }
-    ]
+			}
+		},
+		{
+			"heading": {
+				"en": "Building Footprints",
+				"fr": "Les Empreintes d'Immeubles"
+			},
+			"color": [240, 82, 43],
+			"label": {
+				"en": "Statistics Canada (ODB)",
+				"fr": "Statistique Canada (BDOI)"
+			},
+			"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"]]
+		},
+		{
+			"color": [77, 148, 242],
+			"label": {
+				"en": "Microsoft",
+				"fr": "Microsoft"
+			},
+			"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
+		}
+	]
 }
