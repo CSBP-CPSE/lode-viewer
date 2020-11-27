@@ -111,9 +111,46 @@ export default class ProxApp extends Templated {
 		this.group.opacity.On("OpacityChanged", this.OnLegend_OpacityChanged.bind(this));
 	}
 
+	/**
+	 * Generate Opacities based on legend properties and stored opacity value
+	 * @returns - A list of opacity values for each legend item
+	 */
+	GenerateOpacities() {
+		let i, legendItemOptions, staticOpacity, checkboxState, opacity;
+		let opacities = [];
+		let storedOpacity = Store.Opacity || 1;
+
+		if (this.group && this.group.legend && this.group.legend.chkBoxesState) {
+			for (i = 0; i < this.group.legend.chkBoxesState.length; i += 1) {
+				checkboxState = this.group.legend.chkBoxesState[i];
+
+				// determine if legend item allows variable opacity
+				if (this.group.legend.options && this.group.legend.options.legend) {
+					legendItemOptions = this.group.legend.options.legend[i];
+					staticOpacity = legendItemOptions.static_opacity;
+				}	
+
+				// calculate opacity of legend item
+				if (checkboxState.checkbox.checked) {
+					if (!staticOpacity) {
+						opacity = Number(storedOpacity)
+					} else {
+						opacity = 1;
+					}
+				} else {
+					opacity = 0;
+				}
+
+				opacities.push(opacity);
+			}
+		}
+
+		return opacities;
+	}
+
 	OnLegend_Changed(ev) {
 		let i, currentLayer, layerType, layerColorProperty;
-		var opacities = ev.state.map(i => Number(i.checkbox.checked));
+		var opacities = this.GenerateOpacities(ev);
 
 		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
 			currentLayer = this.current.LayerIDs[i];
@@ -168,18 +205,15 @@ export default class ProxApp extends Templated {
 	 */
 	OnLegend_OpacityChanged(ev) {		
 		let i, currentLayer, layerType, layerColorProperty;
-		// validLayers are all layers associated with building footprints
-		// which will be updated when the opacity slider is updated
-		const validLayers = ['bc','ab','mb','nb','ns','nl','nt','nu','sk','on','qc','pe','yt'];
 		Store.Opacity = ev.opacity;
+
+		var opacities = this.GenerateOpacities(ev);
 		
 		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
 			currentLayer = this.current.LayerIDs[i];
-			if (validLayers.indexOf(currentLayer) >= 0){
-				layerType = this.map.GetLayerType(currentLayer);
-				layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
-				this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, this.group.opacity.opacity);
-			}
+			layerType = this.map.GetLayerType(currentLayer);
+			layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
+			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, opacities);
 		}
 	}
 	
