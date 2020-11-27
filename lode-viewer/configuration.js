@@ -102,7 +102,7 @@ export default class Configuration {
 				title : Core.Nls("Legend_Checkbox_Title"),
 				value : l.value,
 				heading: l.heading && l.heading[Core.locale],
-				variable_opacity: l.variable_opacity 
+				static_opacity: l.static_opacity 
 			} 
 		});
 	}

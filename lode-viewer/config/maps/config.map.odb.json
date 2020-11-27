@@ -113,6 +113,7 @@
 	"legend": [
 		{
             "color": [128, 177, 211],
+			"static_opacity": true,
             "label": {
                 "en": "Artist",
                 "fr": "Artiste"
@@ -121,6 +122,7 @@
         }, 
 		{
             "color": [252, 205, 229],
+			"static_opacity": true,
             "label": {
                 "en": "Art or Cultural Centre",
                 "fr": "Centre des arts ou de culture"
@@ -129,6 +131,7 @@
         }, 
 		{
             "color": [253, 180, 98],
+			"static_opacity": true,
             "label": {
                 "en": "Festival Site",
                 "fr": "Site de festival"
@@ -137,6 +140,7 @@
         }, 
 		{
             "color": [251, 128, 114],
+			"static_opacity": true,
             "label": {
                 "en": "Gallery",
                 "fr": "Galerie"
@@ -145,6 +149,7 @@
         }, 
 		{
             "color": [190, 186, 218],
+			"static_opacity": true,
             "label": {
                 "en": "Heritage or Historic Site",
                 "fr": "Site patrimonial ou historique"
@@ -153,6 +158,7 @@
         }, 
 		{
             "color": [255, 255, 179],
+			"static_opacity": true,
             "label": {
                 "en": "Library or Archives",
                 "fr": "Bibliothèque ou archives"
@@ -161,6 +167,7 @@
         }, 
 		{
             "color": [141, 211, 199],
+			"static_opacity": true,
             "label": {
                 "en": "Museum",
                 "fr": "Musée"
@@ -169,6 +176,7 @@
         }, 
 		{
             "color": [179, 222, 105],
+			"static_opacity": true,
             "label": {
                 "en": "Theatres/Performance and Concert Hall",
                 "fr": "Théâtres/salles de spectacle et salles de concert"
@@ -178,6 +186,7 @@
 		{
 			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
             "color": [217, 217, 217],
+			"static_opacity": true,
             "label": {
                 "en": "Miscellaneous",
                 "fr": "Divers"
@@ -189,7 +198,6 @@
 				"fr": "Les Empreintes d'Immeubles"
 			},
 			"color": [240, 82, 43],
-			"variable_opacity": true,
 			"label": {
 				"en": "Statistics Canada (ODB)",
 				"fr": "Statistique Canada (BDOI)"
@@ -198,7 +206,6 @@
 		},
 		{
 			"color": [77, 148, 242],
-			"variable_opacity": true,
 			"label": {
 				"en": "Microsoft",
 				"fr": "Microsoft"
