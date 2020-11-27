@@ -313,13 +313,14 @@ export default class ProxApp extends Templated {
 	 */
 	OnMapStyleChanged_Handler(ev) {
 		let i, currentLayer, layerType, layerColorProperty;
+		let opacities = this.GenerateOpacities();
 		this.map.SetClickableMap();
 		
 		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
 			currentLayer = this.current.LayerIDs[i];
 			layerType = this.map.GetLayerType(currentLayer);
 			layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
-			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, 1);
+			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, opacities);
 		}
 	}
 
