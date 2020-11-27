@@ -92,6 +92,11 @@ export default class ProxApp extends Templated {
 	}
 
 	AddGroup() {
+		let opacity_label = {
+			"en": "Building Footprints Opacity",
+			"fr": "Opacité de l'empreinte des bâtiments"
+		}
+
 		// Top-right group for legend, etc.		
 		this.group = {
 			legend : Factory.LegendControl(this.current.Legend, this.current.FullTitle, this.current.Subtitle),
@@ -102,6 +107,7 @@ export default class ProxApp extends Templated {
 		
 		this.group.legend.On("LegendChange", this.OnLegend_Changed.bind(this));
 		this.group.opacity.title = Core.Nls("Toc_Opacity_Title");
+		this.group.opacity.label = opacity_label[Core.locale];
 		this.group.opacity.On("OpacityChanged", this.OnLegend_OpacityChanged.bind(this));
 	}
 
