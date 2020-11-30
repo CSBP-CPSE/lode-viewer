@@ -151,10 +151,10 @@ export default class ProxApp extends Templated {
 				checkboxState = this.group.legend.chkBoxesState[i];
 
 				// determine if legend item allows variable opacity
-				if (this.group.legend.options && this.group.legend.options.legend) {
-					legendItemOptions = this.group.legend.options.legend[i];
+				if (this.current.legend) {
+					legendItemOptions = this.current.legend[i];
 					staticOpacity = legendItemOptions.static_opacity;
-				}	
+				}
 
 				// calculate opacity of legend item
 				if (checkboxState.checkbox.checked) {
