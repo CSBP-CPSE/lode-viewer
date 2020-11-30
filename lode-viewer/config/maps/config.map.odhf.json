@@ -1,12 +1,105 @@
 {
     "id": "odhf",    
-	"style": "mapbox://styles/deil-leid/ckdhs8cjs052s1inu818yovbh",
+	"style": "mapbox://styles/deil-leid/cki50jsc484zs19pjzuw7o6nq",
     "table": "config/tables/config.table.odhf.json",
-    "layers": [{
+    "layers": [
+        {
             "id": "odhf",
 			"click" : true
-        }, {
+        },
+        {
             "id": "odhf-labels"
+        },
+		{
+            "id": "bc",
+            "label": {
+                "en": "British Columbia",
+                "fr": "Colombie-Britannique"
+            }
+		},
+		{
+            "id": "ab",
+            "label": {
+                "en": "Alberta",
+                "fr": "Alberta"
+            }
+		},
+		{
+            "id": "sk",
+            "label": {
+                "en": "Saskatchewan",
+                "fr": "Saskatchewan"
+            }
+		},
+		{
+            "id": "mb",
+            "label": {
+                "en": "Manitoba",
+                "fr": "Manitoba"
+            }
+		},
+		{
+            "id": "on",
+            "label": {
+                "en": "Ontario",
+                "fr": "Ontario"
+            }
+		},
+		{
+            "id": "qc",
+            "label": {
+                "en": "Quebec",
+                "fr": "Québec"
+            }
+		},
+		{
+            "id": "pe",
+            "label": {
+                "en": "Prince Edward Island",
+                "fr": "Île-du-Prince-Édouard"
+            }
+		},
+		{
+            "id": "ns",
+            "label": {
+                "en": "Nova Scotia",
+                "fr": "Nouvelle-Écosse"
+            }
+		},
+		{
+            "id": "nb",
+            "label": {
+                "en": "New Brunswick",
+                "fr": "Nouveau-Brunswick"
+            }
+		},
+		{
+            "id": "nl",
+            "label": {
+                "en": "Newfoundland and Labrador",
+                "fr": "Terre-Neuve-et-Labrador"
+            }
+		},
+		{
+            "id": "nt",
+            "label": {
+                "en": "Northwest Territories",
+                "fr": "Territoires du Nord-Ouest"
+            }
+		},
+		{
+            "id": "nu",
+            "label": {
+                "en": "Nunavut",
+                "fr": "Nunavut"
+            }
+		},
+		{
+            "id": "yt",
+            "label": {
+                "en": "Yukon",
+                "fr": "Yukon"
+            }
         }
     ],
     "title": {
@@ -17,26 +110,52 @@
         "en": "ODHF",
         "fr": "BDOESS"
     },
-    "legend": [{
+	"legend": [
+        {
             "color": [255, 0, 0],
+            "static_opacity": true,
             "label": {
                 "en": "Hospitals",
                 "fr": "Les hôpitaux"
             },
             "value": ["==", ["get", "odhf_facility_type"], "Hospitals"]
-        }, {
-            "color": [255, 255, 179],
+        }, 
+        {
+            "color": [255, 255, 179],             
+            "static_opacity": true,
             "label": {
                 "en": "Nursing and residential care facilities",
                 "fr": "Établissements de soins infirmiers et de soins pour bénéficiaires internes"
             },
             "value": ["==", ["get", "odhf_facility_type"], "Nursing and residential care facilities"]
-        }, {
-            "color": [190, 186, 218],
+        }, 
+        {
+            "color": [190, 186, 218],                
+            "static_opacity": true,
             "label": {
                 "en": "Ambulatory health care services",
                 "fr": "Services de soins de santé ambulatoires"
             }
-        }
-    ]
+        },
+		{
+			"heading": {
+				"en": "Building Footprints",
+				"fr": "Les Empreintes d'Immeubles"
+			},
+			"color": [240, 82, 43],
+			"label": {
+				"en": "Statistics Canada (ODB)",
+				"fr": "Statistique Canada (BDOI)"
+			},
+			"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"]]
+		},
+		{
+			"color": [77, 148, 242],
+			"label": {
+				"en": "Microsoft",
+				"fr": "Microsoft"
+			},
+			"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
+		}
+	]
 }
