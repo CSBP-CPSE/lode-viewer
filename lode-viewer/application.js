@@ -119,7 +119,7 @@ export default class ProxApp extends Templated {
 	 */
 	AddGroup() {
 		let opacity_label = {
-			"en": "Building Footprints Opacity",
+			"en": "Building Footprint Opacity",
 			"fr": "Opacité de l'empreinte des bâtiments"
 		}
 
