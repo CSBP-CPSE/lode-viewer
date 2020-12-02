@@ -13,7 +13,7 @@ import Workaround from "./workaround.js";
  * Main application class
  * @class
  */
-export default class ProxApp extends Templated {
+export default class LodeApp extends Templated {
 
 	constructor(node, config) {
 		super(node);
