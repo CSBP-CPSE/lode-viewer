@@ -1,7 +1,7 @@
 import Core from '../basic-tools/tools/core.js';
 
 /**
- * Configuration class for processing the map config file.
+ * Configuration class for processing the configuration file.
  * @class
  */
 export default class Configuration {
@@ -13,6 +13,14 @@ export default class Configuration {
 		return this.id;
 	}
 	
+	/**
+	 * Get the data sources defined in the map configuration file.  
+	 * @returns - an object containing data sources 
+	 */
+	get DataSources() {
+		return this.dataSources;
+	}
+
 	/**
 	 * Get the style from the map config file.
 	 * @returns - the map style defined in the map config file. 
@@ -65,6 +73,10 @@ export default class Configuration {
 		}
 	}
 	
+	/**
+	 * The map description defined in the configuration file.
+	 * @returns - A sentence describing the map
+	 */
 	get Description() {
 		return this.description;
 	}
@@ -180,6 +192,7 @@ export default class Configuration {
 	
 	constructor() {
 		this.id = null;
+		this.dataSources = null;
 		this.style = null;
 		this.tableUrl = null;
 		this.layers = null;
@@ -222,6 +235,7 @@ export default class Configuration {
 		var c = new Configuration();
 		
 		c.id = json.id;
+		c.dataSources = json.dataSources;
 		c.style = json.style;
 		c.tableUrl = json.table || null;
 		c.layers = json.layers || null;

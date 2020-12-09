@@ -59,7 +59,6 @@ The `table.py` is the Python script that will be run to create the necessary JSO
 
 4. Update the table.py script to match the column names of the dataset being added.
    - To avoid scripting errors due to some temporary hard coding, the following variables need to be updated in the table.py script: 
-	 - **If you want postal codes to show up on your popup and table views, then you must name the column `postal_code`**.
 	 - **Update `TABLECONFIG` variable with the path for the table configuration json file. e.g. `./source/Tables/mydataset/mydataset.json`.
 	 - **Update the `INDEX` variable to the id column name**.
 	 - **Update the `CSDUID` variable to the CSD ID column name**.
@@ -96,8 +95,19 @@ Now in order to incorporate this new dataset Mapbox style to the LODE Viewer, th
 
 The rest of the `config.map.[dataset name].json` should be updated to reflect the dataset variables that will be included in the thematic map:
  - `id`: Abbreviated form of the dataset.
+ - `dataSources`: A list of objects containing details on the name and data information related to each source, 
+	  - `name`: A string representing the name of the data source.
+	  - `data`: An object containing details on the source, following the format used by the mapbox API.
+	    - Note: if the data is stored as a mapbox studio dataset, the URL for the data source will use the following pattern: `https://api.mapbox.com/datasets/v1/<user-id>/<dataset-id>/features?access_token=<api-token>`
  - `table`: Add the table configuration file for the dataset, `config.table.[dataset name].json`
- - `layers`: Add the name of the data layers in the Mapbox basemap style. There should be two layers: (1) the dataset's data points (`[dataset name]`), and (2) the dataset's labels (`[dataset name]-labels`).
+ - `layers`: A list of objects containing details on map layers. If the layer already exists in the map style document, you only need to provide the id. Otherwise if its a new layer being added using a source defined in the dataSource property, then the layer will need to be defined using the properties specified by the mapbox API.
+	  - `id` - A string representing the layer id.
+	  -	`click` - If set to `true`, the layer is clickable.
+	  - `source` - The name of data source, specified in the `dataSources` property.
+	  - `type` - If a source if specified, you will also need to provide a mapbox layer type. e.g. `circle`.
+	  - `filter` - Layer filter settings.
+	  - `paint` - Layer paint style settings.
+	  - `layout` - Layer layout settings.
  - `title`: Title to appear on the map legend.
  - `abbr`: The dataset abbreviation to appear on the map legend.
  - `legend`: 
