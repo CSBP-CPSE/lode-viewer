@@ -1,15 +1,543 @@
 {
-    "id": "odhf",    
+    "id": "odhf",
+	"dataSources": [
+		{
+			"name": "odhf-ab",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6bvrg575ss29qw58gs0d3w/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-bc",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6bwgt403eg23o4h18y17aw/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-mb",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6bxqyz0jhb23phnt6undvk/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-nb",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6bypt975tr29qw6frqvjqb/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-nl",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6c01bc00ix24pf6sxwypah/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-ns",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6c0ufh1heg2bmmmd9li4tp/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-nt",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6c2d2j0y852aqg48l741vi/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-nu",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6c3dor155t23lacmls4md0/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-on",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6c3s760y8e2aqgi1de78kk/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-pe",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6c50p78pk322qwclauwjue/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-qc",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6c5pv80e5v23s3no7qil38/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-sk",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6c6xqm00l02bpfi0vu31l4/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odhf-yt",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/cki6c7gmv8ef123phrfvjrl6t/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		}
+	],
 	"style": "mapbox://styles/deil-leid/cki50jsc484zs19pjzuw7o6nq",
     "table": "config/tables/config.table.odhf.json",
     "layers": [
-        {
-            "id": "odhf",
-			"click" : true
+		{
+            "id": "odhf-ab",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-ab",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-bc",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-bc",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-mb",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-mb",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-nb",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-nb",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-nl",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-nl",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-ns",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-ns",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-nt",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-nt",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-nu",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-nu",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-on",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-on",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-pe",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-pe",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-qc",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-qc",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-sk",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-sk",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odhf-yt",
+			"click" : true,
+			"type": "circle",
+			"source": "odhf-yt",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+			"id": "odhf-ab-labels",
+			"type": "symbol",
+			"source": "odhf-ab",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
         },
-        {
-            "id": "odhf-labels"
+		{
+			"id": "odhf-bc-labels",
+			"type": "symbol",
+			"source": "odhf-bc",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
         },
+		{
+			"id": "odhf-mb-labels",
+			"type": "symbol",
+			"source": "odhf-mb",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odhf-nb-labels",
+			"type": "symbol",
+			"source": "odhf-nb",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odhf-nl-labels",
+			"type": "symbol",
+			"source": "odhf-nl",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odhf-ns-labels",
+			"type": "symbol",
+			"source": "odhf-ns",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odhf-nt-labels",
+			"type": "symbol",
+			"source": "odhf-nt",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odhf-nu-labels",
+			"type": "symbol",
+			"source": "odhf-nu",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odhf-on-labels",
+			"type": "symbol",
+			"source": "odhf-on",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odhf-pe-labels",
+			"type": "symbol",
+			"source": "odhf-pe",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odhf-qc-labels",
+			"type": "symbol",
+			"source": "odhf-qc",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odhf-sk-labels",
+			"type": "symbol",
+			"source": "odhf-sk",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odhf-yt-labels",
+			"type": "symbol",
+			"source": "odhf-yt",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "facility_name"], 22, ["get", "facility_name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+		},
 		{
             "id": "bc",
             "label": {

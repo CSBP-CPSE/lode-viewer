@@ -1,14 +1,583 @@
 {
-    "id": "odcaf",    
+	"id": "odcaf",
+	"dataSources": [
+		{
+			"name": "odcaf-ab",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhatr8h8050q2bo0bvwdd6sf/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-bc",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhatqfjm050h2bo05a3f6t42/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-mb",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhatpzpx19dv22me5wo3n33w/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-nb",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhatpec40a7222lfk2rtwovs/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-nl",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhas38f908g223nw5obhrwqt/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-ns",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhas2sdo04cm2cmmeldp0lm5/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-nt",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharrsuu04dk25pi31ocbvfo/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-nu",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharqrnp08yf2anwqkhrr74e/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-on",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharlhh603jl2cpi9m7it2oc/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-other",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharl2mh0yam27tm4f1xte2m/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-pe",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharkp010yzm2atmgtewbb7j/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-qc",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharj9dt0af723lfcw5mvoge/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-sk",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharipb708am23nwcvveeskw/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-yt",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharhyew046p2bo01jv10nby/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		}
+	],
 	"style": "mapbox://styles/deil-leid/ckh0q5gmj0mdz19qd8s47r0mm",
     "table": "config/tables/config.table.odcaf.json",
     "layers": [
 		{
-            "id": "odcaf",
-			      "click" : true
-		},
+            "id": "odcaf-ab",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-ab",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
 		{
-            "id": "odcaf-labels"
+            "id": "odcaf-bc",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-bc",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-mb",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-mb",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-nb",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-nb",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-nl",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-nl",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-ns",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-ns",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-nt",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-nt",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-nu",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-nu",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-on",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-on",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-other",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-other",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-pe",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-pe",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-qc",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-qc",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-sk",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-sk",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+            "id": "odcaf-yt",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-yt",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 5,
+				"circle-stroke-width": 0.5,
+				"circle-stroke-color": "#000000"
+			}
+		}, 
+		{
+			"id": "odcaf-ab-labels",
+			"type": "symbol",
+			"source": "odcaf-ab",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-bc-labels",
+			"type": "symbol",
+			"source": "odcaf-bc",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-mb-labels",
+			"type": "symbol",
+			"source": "odcaf-mb",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-nb-labels",
+			"type": "symbol",
+			"source": "odcaf-nb",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-nl-labels",
+			"type": "symbol",
+			"source": "odcaf-nl",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-ns-labels",
+			"type": "symbol",
+			"source": "odcaf-ns",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-nt-labels",
+			"type": "symbol",
+			"source": "odcaf-nt",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-nu-labels",
+			"type": "symbol",
+			"source": "odcaf-nu",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-on-labels",
+			"type": "symbol",
+			"source": "odcaf-on",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-other-labels",
+			"type": "symbol",
+			"source": "odcaf-other",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-pe-labels",
+			"type": "symbol",
+			"source": "odcaf-pe",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-qc-labels",
+			"type": "symbol",
+			"source": "odcaf-qc",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-sk-labels",
+			"type": "symbol",
+			"source": "odcaf-sk",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-yt-labels",
+			"type": "symbol",
+			"source": "odcaf-yt",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
         },
 		{
             "id": "bc",
@@ -99,8 +668,8 @@
             "label": {
                 "en": "Yukon",
                 "fr": "Yukon"
-            }
-        }
+			}
+		}
     ],
     "title": {
         "en": "Open Database of Cultural and Art Facilities",

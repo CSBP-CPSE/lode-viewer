@@ -13,13 +13,14 @@ import Workaround from "./workaround.js";
  * Main application class
  * @class
  */
-export default class ProxApp extends Templated {
+export default class LodeApp extends Templated {
 
 	constructor(node, config) {
 		super(node);
 
 		this.config = config;
 		this.current = this.config.maps[Store.Map];
+		this.maxExtent = [[-162.0, 41.0], [-32.0, 83.5]];
 
 		if (!this.current) this.current = Util.FirstProperty(this.config.maps);
 
@@ -65,14 +66,59 @@ export default class ProxApp extends Templated {
 	 */
 	AddMap() {
 		var token = "pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg";
-		
+
 		this.map = Factory.Map(this.Node("map"), token, this.current.Style, [Store.Lng, Store.Lat], Store.Zoom);
-		
+
+		// Set the maximum bounds of the map
+		this.map.SetMaxBounds(this.maxExtent);
+
 		// Hooking up all events
 		this.map.On("StyleChanged", this.OnMapStyleChanged_Handler.bind(this));
 		this.map.On("MoveEnd", this.OnMapMoveEnd_Handler.bind(this));
 		this.map.On("ZoomEnd", this.OnMapZoomEnd_Handler.bind(this));
 		this.map.On("Click", this.OnMapClick_Handler.bind(this));
+	}
+
+	// Add all data sources defined in the map configuration.
+	AddDataSources() {
+		let mapDataSources, currentSourceName, currentSourceData, i;
+		if (this.current && this.current.DataSources) {
+			mapDataSources = this.current.DataSources;
+		}
+
+		if (mapDataSources && Array.isArray(mapDataSources) && mapDataSources.length) {
+			for (i = 0; i < mapDataSources.length; i += 1) {
+				currentSourceName = mapDataSources[i].name;
+				currentSourceData = mapDataSources[i].data;
+				if (currentSourceName && currentSourceData) {
+					this.map.AddSource(currentSourceName, currentSourceData);
+					if (currentSourceData.cluster) {
+						this.map.AddClusters(
+							{
+								source: currentSourceName
+							}
+						);
+					}
+				}
+			}
+		}
+	}
+
+	// Add all layers defined in the map configuration which have data sources.
+	AddLayers() {
+		let mapLayers, currentLayer, i;
+		if (this.current && this.current.Layers) {
+			mapLayers = this.current.Layers;
+		}
+
+		if (mapLayers && Array.isArray(mapLayers) && mapLayers.length) {
+			for (i = 0; i < mapLayers.length; i += 1) {
+				currentLayer = mapLayers[i];
+				if (currentLayer.source) {
+					this.map.AddLayer(currentLayer);
+				}
+			}
+		}
 	}
 
 	/**
@@ -315,7 +361,13 @@ export default class ProxApp extends Templated {
 		let i, currentLayer, layerType, layerColorProperty;
 		let opacities = this.GenerateOpacities();
 		this.map.SetClickableMap();
-		
+
+		// Add data sources
+		this.AddDataSources();
+
+		// Add layers which have data sources
+		this.AddLayers();
+
 		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
 			currentLayer = this.current.LayerIDs[i];
 			layerType = this.map.GetLayerType(currentLayer);
