@@ -768,16 +768,24 @@
 			},
 			"color": [240, 82, 43],
 			"label": {
-				"en": "Statistics Canada (ODB)",
-				"fr": "Statistique Canada (BDOI)"
+				"en": "<a href='https://www.statcan.gc.ca/eng/lode/databases/odb' target='_blank'>LODE Open Database of Buildings</a>",
+				"fr": "<a href='https://www.statcan.gc.ca/fra/ecdo/bases-donnees/bdoi' target='_blank'>ECDO Base de données ouvertes sur les immeubles</a>"
 			},
 			"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"]]
 		},
 		{
 			"color": [77, 148, 242],
 			"label": {
-				"en": "Microsoft",
-				"fr": "Microsoft"
+				"en": "<a href='https://download.geofabrik.de/north-america/canada.html' target='_blank'>OpenStreetMap</a>",
+				"fr": "<a href='https://download.geofabrik.de/north-america/canada.html' target='_blank'>OpenStreetMap</a>"
+			},
+			"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "OSM"]]
+		},
+		{
+			"color": [77, 148, 242],
+			"label": {
+				"en": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' target='_blank'>Microsoft</a>",
+				"fr": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' target='_blank'>Microsoft</a>"
 			},
 			"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
 		}
