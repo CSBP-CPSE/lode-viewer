@@ -52,7 +52,6 @@ export default class LodeApp extends Templated {
 					"<a href='#lode-table' class='wb-inv wb-show-onfocus wb-sl'>nls(Inv_Skip_Link)</a>" + 
 				  "</div>" +
 			   "</div>" +
-			   "<div handle='instructions' class='instructions'>nls(Map_Description)</div>" + 
                "<div class='map-container'>" +
                   "<div handle='map' class='map'></div>" +
                "</div>" +
