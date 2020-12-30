@@ -42,7 +42,7 @@ export default class LodeApp extends Templated {
 	 */
 	Template() {
 		return  "<div handle='presentation' class='instructions'>nls(Map_Presentation_1)</div>" + 
-				"<div handle='presentation' class='instructions'>nls(Map_Presentation_2)</div>" + 
+				//"<div handle='presentation' class='instructions'>nls(Map_Presentation_2)</div>" + 
 				"<div class='search-container'>" +
 				  "<span class='wb-inv'>nls(Inv_Search_Instructions)</span>" + 
 				  "<label class='search-label'>nls(App_Search_Label)" +
