@@ -166,7 +166,7 @@ export default class LodeApp extends Templated {
 	AddGroup() {
 		let opacity_label = {
 			"en": "Building Footprint Opacity",
-			"fr": "Opacité de l'empreinte des bâtiments"
+			"fr": "Opacité de l'empreinte d'immeuble"
 		}
 
 		// Top-right group for legend, etc.		
@@ -183,32 +183,36 @@ export default class LodeApp extends Templated {
 		this.group.opacity.On("OpacityChanged", this.OnLegend_OpacityChanged.bind(this));
 	}
 
+
 	/**
-	 * Generate Opacities based on legend properties and stored opacity value
+	 * Generate opacities based on legend properties/checkbox states and the stored opacity value.
 	 * @returns - A list of opacity values for each legend item
 	 */
 	GenerateOpacities() {
-		let i, legendItemOptions, staticOpacity, checkboxState, opacity;
-		let opacities = [];
+		let i, checkboxState, binaryOpacity, opacity;
 		let storedOpacity = Store.Opacity || 1;
+		let opacities = [];
+
 
 		if (this.group && this.group.legend && this.group.legend.chkBoxesState) {
 			for (i = 0; i < this.group.legend.chkBoxesState.length; i += 1) {
 				checkboxState = this.group.legend.chkBoxesState[i];
 
-				// determine if legend item allows variable opacity
-				if (this.current.legend) {
-					legendItemOptions = this.current.legend[i];
-					staticOpacity = legendItemOptions.static_opacity;
+				// Determine if legend item allows variable opacity or is binary
+				if (checkboxState.item && checkboxState.item.binary_opacity) {
+					binaryOpacity = true;
+				} else {
+					binaryOpacity = false;
 				}
 
-				// calculate opacity of legend item
+				// Calculate opacity of legend item
 				if (checkboxState.checkbox.checked) {
-					if (!staticOpacity) {
+					if (!binaryOpacity) {
 						opacity = Number(storedOpacity)
 					} else {
 						opacity = 1;
 					}
+
 				} else {
 					opacity = 0;
 				}
@@ -219,6 +223,7 @@ export default class LodeApp extends Templated {
 
 		return opacities;
 	}
+
 
 	/**
 	 * Event handler for changing the map legend.

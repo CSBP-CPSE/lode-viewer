@@ -682,7 +682,7 @@
 	"legend": [
 		{
             "color": [128, 177, 211],
-			"static_opacity": true,
+			"binary_opacity": true,
             "label": {
                 "en": "Artist",
                 "fr": "Artiste"
@@ -691,7 +691,7 @@
         }, 
 		{
             "color": [252, 205, 229],
-			"static_opacity": true,
+			"binary_opacity": true,
             "label": {
                 "en": "Art or Cultural Centre",
                 "fr": "Centre des arts ou de culture"
@@ -700,7 +700,7 @@
         }, 
 		{
             "color": [253, 180, 98],
-			"static_opacity": true,
+			"binary_opacity": true,
             "label": {
                 "en": "Festival Site",
                 "fr": "Site de festival"
@@ -709,7 +709,7 @@
         }, 
 		{
             "color": [251, 128, 114],
-			"static_opacity": true,
+			"binary_opacity": true,
             "label": {
                 "en": "Gallery",
                 "fr": "Galerie"
@@ -718,7 +718,7 @@
         }, 
 		{
             "color": [190, 186, 218],
-			"static_opacity": true,
+			"binary_opacity": true,
             "label": {
                 "en": "Heritage or Historic Site",
                 "fr": "Site patrimonial ou historique"
@@ -727,7 +727,7 @@
         }, 
 		{
             "color": [255, 255, 179],
-			"static_opacity": true,
+			"binary_opacity": true,
             "label": {
                 "en": "Library or Archives",
                 "fr": "Bibliothèque ou archives"
@@ -736,7 +736,7 @@
         }, 
 		{
             "color": [141, 211, 199],
-			"static_opacity": true,
+			"binary_opacity": true,
             "label": {
                 "en": "Museum",
                 "fr": "Musée"
@@ -745,7 +745,7 @@
         }, 
 		{
             "color": [179, 222, 105],
-			"static_opacity": true,
+			"binary_opacity": true,
             "label": {
                 "en": "Theatres/Performance and Concert Hall",
                 "fr": "Théâtres/salles de spectacle et salles de concert"
@@ -755,39 +755,43 @@
 		{
 			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
             "color": [217, 217, 217],
-			"static_opacity": true,
+			"binary_opacity": true,
             "label": {
                 "en": "Miscellaneous",
                 "fr": "Divers"
 			}
 		},
-		{
-			"heading": {
-				"en": "Building Footprints",
-				"fr": "Les Empreintes d'Immeubles"
+        {
+    		"group": {
+    			"en": "Building Footprints",
+    			"fr": "Empreintes d'immeubles"
 			},
-			"color": [240, 82, 43],
-			"label": {
-				"en": "<a href='https://www.statcan.gc.ca/eng/lode/databases/odb' title='Open in a new window' target='_blank'>LODE Open Database of Buildings</a>",
-				"fr": "<a href='https://www.statcan.gc.ca/fra/ecdo/bases-donnees/bdoi' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>ECDO Base de données ouvertes sur les immeubles</a>"
-			},
-			"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"]]
-		},
-		{
-			"color": [77, 148, 242],
-			"label": {
-				"en": "<a href='https://www.openstreetmap.org/about/' title='Open in a new window' target='_blank'>OpenStreetMap</a>",
-				"fr": "<a href='https://www.openstreetmap.org/about/' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>OpenStreetMap</a>"
-			},
-			"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "OSM"]]
-		},
-		{
-			"color": [77, 148, 242],
-			"label": {
-				"en": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Open in a new window' target='_blank'>Microsoft</a>",
-				"fr": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>Microsoft</a>"
-			},
-			"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
+			"items": [
+				{
+    				"color": [240, 82, 43],
+    				"label": {
+    					"en": "<a href='https://www.statcan.gc.ca/eng/lode/databases/odb' title='Open in a new window' target='_blank'>LODE Open Database of Buildings</a>",
+    					"fr": "<a href='https://www.statcan.gc.ca/fra/ecdo/bases-donnees/bdoi' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>ECDO Base de données ouvertes sur les immeubles</a>"
+    				},
+    				"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"], ["!=", ["get", "Data_prov"], "OSM"]]
+    			},
+    			{
+    				"color": [42, 200, 42],
+    				"label": {
+    					"en": "<a href='https://www.openstreetmap.org/about/' title='Open in a new window' target='_blank'>OpenStreetMap</a>",
+    					"fr": "<a href='https://www.openstreetmap.org/about/'  title='Ouvrir dans une nouvelle fenêtre' target='_blank'>OpenStreetMap</a>"
+    				},
+    				"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "OSM"]]
+    			},
+    			{
+    				"color": [77, 148, 242],
+    				"label": {
+    					"en": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Open in a new window' target='_blank'>Microsoft</a>",
+    					"fr": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>Microsoft</a>"
+    				},
+    				"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
+				}
+			]
 		}
 	]
 }

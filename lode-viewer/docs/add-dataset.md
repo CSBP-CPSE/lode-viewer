@@ -114,5 +114,52 @@ The rest of the `config.map.[dataset name].json` should be updated to reflect th
 	  - `colors`: The colours (as rgb) for the thematic map and legend.
 	  - `label`: The label to appear on the map legend.
 	  - `value`: The logic assigning a colour to a dataset variable and an unique value. The only thing that needs to be changed here is the variable name and the value to be coloured for the thematic map.
+	  - `binary-opacity`: If set to true, the opacity of the legend item can either being 1 or 0, and won't be affected by the variable opacity slider.
+	  - `group`: The group property allows legends to be divided into groups, which contain a collection of related legend items with it's own group heading.
+
+	  Group Example:
+	  ```
+		"legend": [
+        	{
+            	"color": [255, 0, 0],
+               	"label": {
+                	"en": "A",
+                	"fr": "A"
+            	},
+            	"value": ["==", ["get", "type"], "A"]
+        	},
+        	{
+    			"group": {
+    				"en": "B Group",
+    				"fr": "Groupe B"
+				},
+				"items": [
+					{
+    					"color": [0, 0, 128],
+    					"label": {
+    						"en": "B-1",
+    						"fr": "B-1"
+    					},
+            			"value": ["==", ["get", "type"], "B-1"]
+    				},
+					{
+    					"color": [0, 0, 255],
+    					"label": {
+    						"en": "B-2",
+    						"fr": "B-2"
+    					},
+            			"value": ["==", ["get", "type"], "B-2"]
+    				}
+				]
+			},
+        	{
+            	"color": [0, 255, 0],
+            	"label": {
+                	"en": "Other",
+                	"fr": "Autres"
+            	}
+        	}
+		]
+	  ```
 
 Last, yet very important, in `./lode-viewer/config/config.applications.json`, add `config.map.[old dataset name].json` to the array. This informs the client to include the new dataset into the user interface!

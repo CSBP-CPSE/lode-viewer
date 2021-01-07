@@ -158,22 +158,37 @@ export default class Configuration {
 		
 		return layers && layers.map(l => l.id);
 	}
-	
+
+
 	/**
-	 * Get legend defined in the map config
-	 * @returns - list of legend item objects.
+	 * Map the legend content to a list of legend items.
+	 * @param {array} legend - Contents of a legend.
 	 */
-	get Legend() {		
-		return this.legend && this.legend.map(l => { 
+	MapLegendItems(legend) {
+		return legend.map(l => { 
 			return { 
 				color : l.color, 
 				label : l.label && l.label[Core.locale], 
 				title : Core.Nls("Legend_Checkbox_Title"),
 				value : l.value,
-				heading: l.heading && l.heading[Core.locale],
-				static_opacity: l.static_opacity || false
-			} 
+				group: {
+					heading: l.group && l.group[Core.locale],
+					items: l.items && this.MapLegendItems(l.items)
+				},
+				binary_opacity: l.binary_opacity || false
+			}
 		});
+	}
+
+
+	/**
+	 * Get legend defined in the map config
+	 * @returns - list of legend item objects.
+	 */
+	get Legend() {
+		if (this.legend) {
+			return this.MapLegendItems(this.legend);
+		}
 	}
 	
 	/**
