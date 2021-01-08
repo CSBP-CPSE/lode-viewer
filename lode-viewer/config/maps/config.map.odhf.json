@@ -672,7 +672,7 @@
 			},
 			"items": [
 				{
-    				"color": [240, 82, 43],
+    				"color": [240, 98, 146],
     				"label": {
     					"en": "<a href='https://www.statcan.gc.ca/eng/lode/databases/odb' title='Open in a new window' target='_blank'>LODE Open Database of Buildings</a>",
     					"fr": "<a href='https://www.statcan.gc.ca/fra/ecdo/bases-donnees/bdoi' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>ECDO Base de données ouvertes sur les immeubles</a>"
@@ -680,7 +680,7 @@
     				"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"], ["!=", ["get", "Data_prov"], "OSM"]]
     			},
     			{
-    				"color": [42, 200, 42],
+    				"color": [102, 187, 106],
     				"label": {
     					"en": "<a href='https://www.openstreetmap.org/about/' title='Open in a new window' target='_blank'>OpenStreetMap</a>",
     					"fr": "<a href='https://www.openstreetmap.org/about/'  title='Ouvrir dans une nouvelle fenêtre' target='_blank'>OpenStreetMap</a>"
