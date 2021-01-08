@@ -120,45 +120,45 @@ The rest of the `config.map.[dataset name].json` should be updated to reflect th
 	  Group Example:
 	  ```
 		"legend": [
-        	{
-            	"color": [255, 0, 0],
-               	"label": {
-                	"en": "A",
-                	"fr": "A"
-            	},
-            	"value": ["==", ["get", "type"], "A"]
-        	},
-        	{
-    			"group": {
-    				"en": "B Group",
-    				"fr": "Groupe B"
+			{
+				"color": [255, 0, 0],
+				"label": {
+					"en": "A",
+					"fr": "A"
+				},
+				"value": ["==", ["get", "type"], "A"]
+			},
+			{
+				"group": {
+					"en": "B Group",
+					"fr": "Groupe B"
 				},
 				"items": [
 					{
-    					"color": [0, 0, 128],
-    					"label": {
-    						"en": "B-1",
-    						"fr": "B-1"
-    					},
-            			"value": ["==", ["get", "type"], "B-1"]
-    				},
+						"color": [0, 0, 128],
+						"label": {
+							"en": "B-1",
+							"fr": "B-1"
+						},
+						"value": ["==", ["get", "type"], "B-1"]
+					},
 					{
-    					"color": [0, 0, 255],
-    					"label": {
-    						"en": "B-2",
-    						"fr": "B-2"
-    					},
-            			"value": ["==", ["get", "type"], "B-2"]
-    				}
+						"color": [0, 0, 255],
+						"label": {
+							"en": "B-2",
+							"fr": "B-2"
+						},
+						"value": ["==", ["get", "type"], "B-2"]
+					}
 				]
 			},
-        	{
-            	"color": [0, 255, 0],
-            	"label": {
-                	"en": "Other",
-                	"fr": "Autres"
-            	}
-        	}
+			{
+				"color": [0, 255, 0],
+				"label": {
+					"en": "Other",
+					"fr": "Autres"
+				}
+			}
 		]
 	  ```
 

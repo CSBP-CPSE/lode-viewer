@@ -44,20 +44,20 @@ export default class LodeApp extends Templated {
 		return  "<div handle='presentation' class='instructions'>nls(Map_Presentation_1)</div>" + 
 				//"<div handle='presentation' class='instructions'>nls(Map_Presentation_2)</div>" + 
 				"<div class='search-container'>" +
-				  "<span class='wb-inv'>nls(Inv_Search_Instructions)</span>" + 
-				  "<label class='search-label'>nls(App_Search_Label)" +
-				     "<div handle='search' class='search'></div>" +
-			      "</label>" +
-				  "<div class='inv-container'>" +
-					"<a href='#lode-table' class='wb-inv wb-show-onfocus wb-sl'>nls(Inv_Skip_Link)</a>" + 
-				  "</div>" +
-			   "</div>" +
-               "<div class='map-container'>" +
-                  "<div handle='map' class='map'></div>" +
-               "</div>" +
-			   "<div class='table-container'>" +
-				  "<div handle='table' class='table'></div>" +
-			   "</div>";
+					"<span class='wb-inv'>nls(Inv_Search_Instructions)</span>" + 
+					"<label class='search-label'>nls(App_Search_Label)" +
+						"<div handle='search' class='search'></div>" +
+					"</label>" +
+					"<div class='inv-container'>" +
+						"<a href='#lode-table' class='wb-inv wb-show-onfocus wb-sl'>nls(Inv_Skip_Link)</a>" + 
+					"</div>" +
+				"</div>" +
+				"<div class='map-container'>" +
+					"<div handle='map' class='map'></div>" +
+				"</div>" +
+				"<div class='table-container'>" +
+					"<div handle='table' class='table'></div>" +
+				"</div>";
 	}
 
 	/**
@@ -243,8 +243,8 @@ export default class LodeApp extends Templated {
 			}
 
 			if (layerType === 'symbol') {
-	        	this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-color', this.current.Legend, opacities);
-	        	this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-halo-color', this.current.Legend, opacities);
+				this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-color', this.current.Legend, opacities);
+				this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-halo-color', this.current.Legend, opacities);
 			}
 		}
     }

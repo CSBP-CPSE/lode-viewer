@@ -133,7 +133,7 @@ export default class Configuration {
 	 * Get a list of layer ids for selected layers
 	 * @returns - List of selected layers ids.
 	 */
-	get SelectedLayerIDs()  {
+	get SelectedLayerIDs() {
 		var layers = this.SelectedLayers;
 		
 		return layers && layers.map(l => l.id);
@@ -186,9 +186,7 @@ export default class Configuration {
 	 * @returns - list of legend item objects.
 	 */
 	get Legend() {
-		if (this.legend) {
-			return this.MapLegendItems(this.legend);
-		}
+		return this.legend && this.MapLegendItems(this.legend);
 	}
 	
 	/**
