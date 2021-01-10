@@ -690,7 +690,7 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "artist"]
         }, 
 		{
-            "color": [136, 33, 255],
+            "color": [255, 214, 10],
 			"binary_opacity": true,
             "label": {
                 "en": "Art or Cultural Centre",
@@ -699,7 +699,7 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "art or cultural centre"]
         }, 
 		{
-            "color": [0, 176, 255],
+            "color": [30, 221, 232],
 			"binary_opacity": true,
             "label": {
                 "en": "Festival Site",
@@ -708,7 +708,7 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "festival site"]
         }, 
 		{
-            "color": [255, 61, 0],
+            "color": [249, 49, 84],
 			"binary_opacity": true,
             "label": {
                 "en": "Gallery",
@@ -717,7 +717,7 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "gallery"]
         }, 
 		{
-            "color": [255, 145, 0],
+            "color": [136, 33, 255],
 			"binary_opacity": true,
             "label": {
                 "en": "Heritage or Historic Site",
@@ -726,7 +726,7 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "heritage or historic site"]
         }, 
 		{
-            "color": [255, 214, 10],
+            "color": [255, 145, 0],
 			"binary_opacity": true,
             "label": {
                 "en": "Library or Archives",
@@ -735,7 +735,7 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "library or archives"]
         }, 
 		{
-            "color": [30, 221, 232],
+            "color": [50, 128, 229],
 			"binary_opacity": true,
             "label": {
                 "en": "Museum",
@@ -744,7 +744,7 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "museum"]
         }, 
 		{
-            "color": [41, 121, 255],
+            "color": [238, 255, 65],
 			"binary_opacity": true,
             "label": {
                 "en": "Theatres/Performance and Concert Hall",
@@ -754,7 +754,7 @@
         }, 
 		{
 			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
-            "color": [213, 0, 249],
+            "color": [207, 216, 220],
 			"binary_opacity": true,
             "label": {
                 "en": "Miscellaneous",
@@ -768,7 +768,7 @@
 			},
 			"items": [
 				{
-    				"color": [193, 159, 114],
+    				"color": [239, 154, 154],
     				"label": {
     					"en": "<a href='https://www.statcan.gc.ca/eng/lode/databases/odb' title='Open in a new window' target='_blank'>LODE Open Database of Buildings</a>",
     					"fr": "<a href='https://www.statcan.gc.ca/fra/ecdo/bases-donnees/bdoi' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>ECDO Base de données ouvertes sur les immeubles</a>"
@@ -784,7 +784,7 @@
     				"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "OSM"]]
     			},
     			{
-    				"color": [169, 170, 157],
+    				"color": [244, 216, 168],
     				"label": {
     					"en": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Open in a new window' target='_blank'>Microsoft</a>",
     					"fr": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>Microsoft</a>"
