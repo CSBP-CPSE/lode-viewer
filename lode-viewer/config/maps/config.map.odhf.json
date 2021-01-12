@@ -680,21 +680,21 @@
     				"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"], ["!=", ["get", "Data_prov"], "OSM"]]
     			},
     			{
-    				"color": [111, 162, 186],
-    				"label": {
-    					"en": "<a href='https://www.openstreetmap.org/about/' title='Open in a new window' target='_blank'>OpenStreetMap</a>",
-    					"fr": "<a href='https://www.openstreetmap.org/about/'  title='Ouvrir dans une nouvelle fenêtre' target='_blank'>OpenStreetMap</a>"
-    				},
-    				"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "OSM"]]
-    			},
-    			{
     				"color": [244, 216, 168],
     				"label": {
     					"en": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Open in a new window' target='_blank'>Microsoft</a>",
     					"fr": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>Microsoft</a>"
     				},
     				"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
-				}
+				},
+    			{
+    				"color": [111, 162, 186],
+    				"label": {
+    					"en": "<a href='https://www.openstreetmap.org/about/' title='Open in a new window' target='_blank'>© OpenStreetMap contributors</a>",
+    					"fr": "<a href='https://www.openstreetmap.org/about/'  title='Ouvrir dans une nouvelle fenêtre' target='_blank'>© Contributeurs d'OpenStreetMap</a>"
+    				},
+    				"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "OSM"]]
+    			}
 			]
 		}
 	]
