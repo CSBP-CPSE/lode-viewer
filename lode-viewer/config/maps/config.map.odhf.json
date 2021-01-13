@@ -132,7 +132,7 @@
 			}
 		}
 	],
-	"style": "mapbox://styles/deil-leid/cki50jsc484zs19pjzuw7o6nq",
+	"style": "mapbox://styles/deil-leid/ckjvbumau0hz119qrb08badrc",
     "table": "config/tables/config.table.odhf.json",
     "layers": [
 		{
@@ -567,11 +567,18 @@
             }
 		},
 		{
-            "id": "on",
+            "id": "on-pt1",
             "label": {
                 "en": "Ontario",
                 "fr": "Ontario"
             }
+		},
+		{
+            "id": "on-pt2",
+            "label": {
+                "en": "Ontario",
+                "fr": "Ontario"
+        	}
 		},
 		{
             "id": "qc",
