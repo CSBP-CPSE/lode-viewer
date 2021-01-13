@@ -44,20 +44,20 @@ export default class LodeApp extends Templated {
 		return  "<div handle='presentation' class='instructions'>nls(Map_Presentation_1)</div>" + 
 				//"<div handle='presentation' class='instructions'>nls(Map_Presentation_2)</div>" + 
 				"<div class='search-container'>" +
-				  "<span class='wb-inv'>nls(Inv_Search_Instructions)</span>" + 
-				  "<label class='search-label'>nls(App_Search_Label)" +
-				     "<div handle='search' class='search'></div>" +
-			      "</label>" +
-				  "<div class='inv-container'>" +
-					"<a href='#lode-table' class='wb-inv wb-show-onfocus wb-sl'>nls(Inv_Skip_Link)</a>" + 
-				  "</div>" +
-			   "</div>" +
-               "<div class='map-container'>" +
-                  "<div handle='map' class='map'></div>" +
-               "</div>" +
-			   "<div class='table-container'>" +
-				  "<div handle='table' class='table'></div>" +
-			   "</div>";
+					"<span class='wb-inv'>nls(Inv_Search_Instructions)</span>" + 
+					"<label class='search-label'>nls(App_Search_Label)" +
+						"<div handle='search' class='search'></div>" +
+					"</label>" +
+					"<div class='inv-container'>" +
+						"<a href='#lode-table' class='wb-inv wb-show-onfocus wb-sl'>nls(Inv_Skip_Link)</a>" + 
+					"</div>" +
+				"</div>" +
+				"<div class='map-container'>" +
+					"<div handle='map' class='map'></div>" +
+				"</div>" +
+				"<div class='table-container'>" +
+					"<div handle='table' class='table'></div>" +
+				"</div>";
 	}
 
 	/**
@@ -163,16 +163,66 @@ export default class LodeApp extends Templated {
 	 * Create and add a map legend based on legend items defined in map config document.
 	 */
 	AddGroup() {
-		// Top-right group for legend, etc.
+		let opacity_label = {
+			"en": "Building Footprint Opacity",
+			"fr": "Opacité de l'empreinte d'immeuble"
+		}
+
+		// Top-right group for legend, etc.		
 		this.group = {
-			legend : Factory.LegendControl(this.current.Legend, this.current.FullTitle, this.current.Subtitle)
+			legend : Factory.LegendControl(this.current.Legend, this.current.FullTitle, this.current.Subtitle),
+			opacity : Factory.OpacityControl(Store.Opacity)
 		}
 
 		this.map.AddControl(Factory.Group(this.group));
-
-		// Assumption: All dataset will have a legend with toggles because it's all point data
+		
 		this.group.legend.On("LegendChange", this.OnLegend_Changed.bind(this));
+		this.group.opacity.title = Core.Nls("Toc_Opacity_Title");
+		this.group.opacity.label = opacity_label[Core.locale];
+		this.group.opacity.On("OpacityChanged", this.OnLegend_OpacityChanged.bind(this));
 	}
+
+
+	/**
+	 * Generate opacities based on legend properties/checkbox states and the stored opacity value.
+	 * @returns - A list of opacity values for each legend item
+	 */
+	GenerateOpacities() {
+		let i, checkboxState, binaryOpacity, opacity;
+		let storedOpacity = Store.Opacity || 1;
+		let opacities = [];
+
+
+		if (this.group && this.group.legend && this.group.legend.chkBoxesState) {
+			for (i = 0; i < this.group.legend.chkBoxesState.length; i += 1) {
+				checkboxState = this.group.legend.chkBoxesState[i];
+
+				// Determine if legend item allows variable opacity or is binary
+				if (checkboxState.item && checkboxState.item.binary_opacity) {
+					binaryOpacity = true;
+				} else {
+					binaryOpacity = false;
+				}
+
+				// Calculate opacity of legend item
+				if (checkboxState.checkbox.checked) {
+					if (!binaryOpacity) {
+						opacity = Number(storedOpacity)
+					} else {
+						opacity = 1;
+					}
+
+				} else {
+					opacity = 0;
+				}
+
+				opacities.push(opacity);
+			}
+		}
+
+		return opacities;
+	}
+
 
 	/**
 	 * Event handler for changing the map legend.
@@ -180,7 +230,7 @@ export default class LodeApp extends Templated {
 	 */
 	OnLegend_Changed(ev) {
 		let i, currentLayer, layerType, layerColorProperty;
-		var opacities = ev.state.map(i => Number(i.checkbox.checked));
+		var opacities = this.GenerateOpacities(ev);
 
 		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
 			currentLayer = this.current.LayerIDs[i];
@@ -193,7 +243,8 @@ export default class LodeApp extends Templated {
 			}
 
 			if (layerType === 'symbol') {
-	        	this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-color', this.current.Legend, opacities);
+				this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-color', this.current.Legend, opacities);
+				this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-halo-color', this.current.Legend, opacities);
 			}
 		}
     }
@@ -233,6 +284,26 @@ export default class LodeApp extends Templated {
 			this.table.Node("message").setAttribute("href", "#lode-search");
 		});
 	}
+	
+	/**
+	 * OpacityChanged event handler for when the opacity slider updates.
+	 * @param {object} ev - Event object containing details on the opacity
+	 * slider value
+	 */
+	OnLegend_OpacityChanged(ev) {		
+		let i, currentLayer, layerType, layerColorProperty;
+		Store.Opacity = ev.opacity;
+
+		var opacities = this.GenerateOpacities(ev);
+		
+		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
+			currentLayer = this.current.LayerIDs[i];
+			layerType = this.map.GetLayerType(currentLayer);
+			layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
+			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, opacities);
+		}
+	}
+	
 
 	/**
 	 * Event handler for clicking the home menu button, which sets the map
@@ -292,6 +363,7 @@ export default class LodeApp extends Templated {
 	 */
 	OnMapStyleChanged_Handler(ev) {
 		let i, currentLayer, layerType, layerColorProperty;
+		let opacities = this.GenerateOpacities();
 		this.map.SetClickableMap();
 
 		// Add data sources
@@ -304,7 +376,7 @@ export default class LodeApp extends Templated {
 			currentLayer = this.current.LayerIDs[i];
 			layerType = this.map.GetLayerType(currentLayer);
 			layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
-			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, 1);
+			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, opacities);
 		}
 	}
 

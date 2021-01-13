@@ -133,7 +133,7 @@ export default class Configuration {
 	 * Get a list of layer ids for selected layers
 	 * @returns - List of selected layers ids.
 	 */
-	get SelectedLayerIDs()  {
+	get SelectedLayerIDs() {
 		var layers = this.SelectedLayers;
 		
 		return layers && layers.map(l => l.id);
@@ -158,20 +158,35 @@ export default class Configuration {
 		
 		return layers && layers.map(l => l.id);
 	}
-	
+
+
 	/**
-	 * Get legend defined in the map config
-	 * @returns - list of legend item objects.
+	 * Map the legend content to a list of legend items.
+	 * @param {array} legend - Contents of a legend.
 	 */
-	get Legend() {		
-		return this.legend && this.legend.map(l => { 
+	MapLegendItems(legend) {
+		return legend.map(l => { 
 			return { 
 				color : l.color, 
 				label : l.label && l.label[Core.locale], 
 				title : Core.Nls("Legend_Checkbox_Title"),
-				value : l.value 
-			} 
+				value : l.value,
+				group: {
+					heading: l.group && l.group[Core.locale],
+					items: l.items && this.MapLegendItems(l.items)
+				},
+				binary_opacity: l.binary_opacity || false
+			}
 		});
+	}
+
+
+	/**
+	 * Get legend defined in the map config
+	 * @returns - list of legend item objects.
+	 */
+	get Legend() {
+		return this.legend && this.MapLegendItems(this.legend);
 	}
 	
 	/**
