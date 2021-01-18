@@ -41,6 +41,7 @@ body {
 
 .lode .search {
 	margin-top : 10px;
+	margin-bottom : 10px;
 }
 
 .lode .search-label {
@@ -133,6 +134,12 @@ body {
     vertical-align: middle;
     margin: 1px;
 	font-weight:normal;
+}
+
+.lode .legend .legend-item .legend-heading {
+	display: block;
+	font-weight: bold;
+	margin-left: -9px;
 }
 
 .lode .legend .legend-container > *,
@@ -441,10 +448,6 @@ body {
 
 .lode .table-widget summary:hover {
 	background : initial;
-}
-
-.lode .table-widget table thead tr {
-
 }
 
 .lode .table-widget table tr {

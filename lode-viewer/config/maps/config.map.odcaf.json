@@ -1,13 +1,682 @@
 {
-    "id": "odcaf",    
-	"style": "mapbox://styles/deil-leid/ckf8nmlrv1mzt1aqruvvbuwyo",
+	"id": "odcaf",
+	"dataSources": [
+		{
+			"name": "odcaf-ab",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhatr8h8050q2bo0bvwdd6sf/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-bc",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhatqfjm050h2bo05a3f6t42/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-mb",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhatpzpx19dv22me5wo3n33w/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-nb",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhatpec40a7222lfk2rtwovs/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-nl",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhas38f908g223nw5obhrwqt/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-ns",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckhas2sdo04cm2cmmeldp0lm5/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-nt",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharrsuu04dk25pi31ocbvfo/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-nu",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharqrnp08yf2anwqkhrr74e/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-on",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharlhh603jl2cpi9m7it2oc/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-other",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharl2mh0yam27tm4f1xte2m/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-pe",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharkp010yzm2atmgtewbb7j/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-qc",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharj9dt0af723lfcw5mvoge/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-sk",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharipb708am23nwcvveeskw/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odcaf-yt",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/ckharhyew046p2bo01jv10nby/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		}
+	],
+	"style": "mapbox://styles/deil-leid/ckjvbumau0hz119qrb08badrc",
     "table": "config/tables/config.table.odcaf.json",
-    "layers": [{
-            "id": "odcaf",
-			      "click" : true
-        }, {
-            "id": "odcaf-labels"
-        }
+    "layers": [
+		{
+            "id": "odcaf-ab",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-ab",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-bc",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-bc",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-mb",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-mb",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-nb",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-nb",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-nl",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-nl",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-ns",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-ns",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-nt",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-nt",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-nu",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-nu",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-on",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-on",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-other",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-other",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-pe",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-pe",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-qc",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-qc",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-sk",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-sk",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            "id": "odcaf-yt",
+			"click" : true,
+			"type": "circle",
+			"source": "odcaf-yt",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+			"id": "odcaf-ab-labels",
+			"type": "symbol",
+			"source": "odcaf-ab",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-bc-labels",
+			"type": "symbol",
+			"source": "odcaf-bc",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-mb-labels",
+			"type": "symbol",
+			"source": "odcaf-mb",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-nb-labels",
+			"type": "symbol",
+			"source": "odcaf-nb",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-nl-labels",
+			"type": "symbol",
+			"source": "odcaf-nl",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-ns-labels",
+			"type": "symbol",
+			"source": "odcaf-ns",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-nt-labels",
+			"type": "symbol",
+			"source": "odcaf-nt",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-nu-labels",
+			"type": "symbol",
+			"source": "odcaf-nu",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-on-labels",
+			"type": "symbol",
+			"source": "odcaf-on",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-other-labels",
+			"type": "symbol",
+			"source": "odcaf-other",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-pe-labels",
+			"type": "symbol",
+			"source": "odcaf-pe",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-qc-labels",
+			"type": "symbol",
+			"source": "odcaf-qc",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-sk-labels",
+			"type": "symbol",
+			"source": "odcaf-sk",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+			"id": "odcaf-yt-labels",
+			"type": "symbol",
+			"source": "odcaf-yt",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        },
+		{
+            "id": "bc",
+            "label": {
+                "en": "British Columbia",
+                "fr": "Colombie-Britannique"
+            }
+		},
+		{
+            "id": "ab",
+            "label": {
+                "en": "Alberta",
+                "fr": "Alberta"
+            }
+		},
+		{
+            "id": "sk",
+            "label": {
+                "en": "Saskatchewan",
+                "fr": "Saskatchewan"
+            }
+		},
+		{
+            "id": "mb",
+            "label": {
+                "en": "Manitoba",
+                "fr": "Manitoba"
+            }
+		},
+		{
+            "id": "on-pt1",
+            "label": {
+                "en": "Ontario",
+                "fr": "Ontario"
+            }
+		},		
+		{
+            "id": "on-pt2",
+            "label": {
+                "en": "Ontario",
+                "fr": "Ontario"
+            }
+		},
+		{
+            "id": "qc",
+            "label": {
+                "en": "Quebec",
+                "fr": "Québec"
+            }
+		},
+		{
+            "id": "pe",
+            "label": {
+                "en": "Prince Edward Island",
+                "fr": "Île-du-Prince-Édouard"
+            }
+		},
+		{
+            "id": "ns",
+            "label": {
+                "en": "Nova Scotia",
+                "fr": "Nouvelle-Écosse"
+            }
+		},
+		{
+            "id": "nb",
+            "label": {
+                "en": "New Brunswick",
+                "fr": "Nouveau-Brunswick"
+            }
+		},
+		{
+            "id": "nl",
+            "label": {
+                "en": "Newfoundland and Labrador",
+                "fr": "Terre-Neuve-et-Labrador"
+            }
+		},
+		{
+            "id": "nt",
+            "label": {
+                "en": "Northwest Territories",
+                "fr": "Territoires du Nord-Ouest"
+            }
+		},
+		{
+            "id": "nu",
+            "label": {
+                "en": "Nunavut",
+                "fr": "Nunavut"
+            }
+		},
+		{
+            "id": "yt",
+            "label": {
+                "en": "Yukon",
+                "fr": "Yukon"
+			}
+		}
     ],
     "title": {
         "en": "Open Database of Cultural and Art Facilities",
@@ -16,9 +685,11 @@
     "abbr": {
         "en": "ODCAF",
         "fr": "BDOICA"
-    },
-    "legend": [{
-            "color": [128, 177, 211],
+	},
+	"legend": [
+		{
+            "color": [255, 25, 167],
+			"binary_opacity": true,
             "label": {
                 "en": "Artist",
                 "fr": "Artiste"
@@ -26,7 +697,8 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "artist"]
         }, 
 		{
-            "color": [252, 205, 229],
+            "color": [255, 214, 10],
+			"binary_opacity": true,
             "label": {
                 "en": "Art or Cultural Centre",
                 "fr": "Centre des arts ou de culture"
@@ -34,7 +706,8 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "art or cultural centre"]
         }, 
 		{
-            "color": [253, 180, 98],
+            "color": [30, 221, 232],
+			"binary_opacity": true,
             "label": {
                 "en": "Festival Site",
                 "fr": "Site de festival"
@@ -42,7 +715,8 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "festival site"]
         }, 
 		{
-            "color": [251, 128, 114],
+            "color": [249, 49, 84],
+			"binary_opacity": true,
             "label": {
                 "en": "Gallery",
                 "fr": "Galerie"
@@ -50,7 +724,8 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "gallery"]
         }, 
 		{
-            "color": [190, 186, 218],
+            "color": [136, 33, 255],
+			"binary_opacity": true,
             "label": {
                 "en": "Heritage or Historic Site",
                 "fr": "Site patrimonial ou historique"
@@ -58,7 +733,8 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "heritage or historic site"]
         }, 
 		{
-            "color": [255, 255, 179],
+            "color": [255, 145, 0],
+			"binary_opacity": true,
             "label": {
                 "en": "Library or Archives",
                 "fr": "Bibliothèque ou archives"
@@ -66,7 +742,8 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "library or archives"]
         }, 
 		{
-            "color": [141, 211, 199],
+            "color": [50, 128, 229],
+			"binary_opacity": true,
             "label": {
                 "en": "Museum",
                 "fr": "Musée"
@@ -74,7 +751,8 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "museum"]
         }, 
 		{
-            "color": [179, 222, 105],
+            "color": [238, 255, 65],
+			"binary_opacity": true,
             "label": {
                 "en": "Theatres/Performance and Concert Hall",
                 "fr": "Théâtres/salles de spectacle et salles de concert"
@@ -82,11 +760,45 @@
             "value": ["==", ["get", "ODCAF_Facility_Type"], "theatre/performance and concert hall"]
         }, 
 		{
-            "color": [217, 217, 217],
+			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
+            "color": [207, 216, 220],
+			"binary_opacity": true,
             "label": {
                 "en": "Miscellaneous",
                 "fr": "Divers"
-            }
-        }
-    ]
+			}
+		},
+        {
+    		"group": {
+    			"en": "Building Footprints",
+    			"fr": "Empreintes d'immeubles"
+			},
+			"items": [
+				{
+    				"color": [239, 154, 154],
+    				"label": {
+    					"en": "<a href='https://www.statcan.gc.ca/eng/lode/databases/odb' title='Open in a new window' target='_blank'>LODE Open Database of Buildings</a>",
+    					"fr": "<a href='https://www.statcan.gc.ca/fra/ecdo/bases-donnees/bdoi' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>ECDO Base de données ouvertes sur les immeubles</a>"
+    				},
+    				"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"], ["!=", ["get", "Data_prov"], "OSM"]]
+    			},
+    			{
+    				"color": [244, 216, 168],
+    				"label": {
+    					"en": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Open in a new window' target='_blank'>Microsoft</a>",
+    					"fr": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>Microsoft</a>"
+    				},
+    				"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
+				},
+    			{
+    				"color": [111, 162, 186],
+    				"label": {
+    					"en": "<a href='https://www.openstreetmap.org/about/' title='Open in a new window' target='_blank'>© OpenStreetMap contributors</a>",
+    					"fr": "<a href='https://www.openstreetmap.org/about/'  title='Ouvrir dans une nouvelle fenêtre' target='_blank'>© Contributeurs d'OpenStreetMap</a>"
+    				},
+    				"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "OSM"]]
+    			}
+			]
+		}
+	]
 }
