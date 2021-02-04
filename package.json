@@ -16,7 +16,7 @@
 		"rollup-plugin-babel": "^4.4.0"
 	},
 	"scripts": {
-		"lode-viewer": "rollup -c ./config/lode-viewer.rollup.js"
+		"build": "rollup -c ./config/lode-viewer.rollup.js"
 	},
 	"repository": {
 		"type": "git",
