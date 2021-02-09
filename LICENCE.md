@@ -38,7 +38,7 @@ DEALINGS IN THE SOFTWARE.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-##  Visionneuse de l'Environnement de couplage de données ouvertes (ECDO) — Conditions d’utilisation
+## Visionneuse de l'Environnement de couplage de données ouvertes (ECDO) — Conditions d’utilisation
 
 Sauf indication contraire, le code source du programme informatique de "Environnement de couplage de données ouvertes (ECDO" est protégé par le droit d’auteur de la Couronne du gouvernement du Canada et distribué sous la licence MIT.
 
