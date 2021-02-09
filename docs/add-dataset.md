@@ -13,9 +13,9 @@ These main steps are further detailed below, but first make sure the dependencie
 ## Dependencies 
 
 * Python >= 3.6 and the following packages: 
- * [Pandas](https://pypi.org/project/pandas/), 
- * [GeoPandas](https://pypi.org/project/geopandas/). 
-  * NOTE: If your operating system is Windows, GeoPandas should be installed through [Anaconda](https://docs.anaconda.com/anaconda/install/): `conda install geopandas`. If you don't have, or do not want to install, Anaconda, there are some other workarounds, read [GeoPandas "Installation" documentation to learn more](https://geopandas.org/install.html). It is recommended to set up a Python environment.
+  * [Pandas](https://pypi.org/project/pandas/), 
+  * [GeoPandas](https://pypi.org/project/geopandas/). 
+    * NOTE: If your operating system is Windows, GeoPandas should be installed through [Anaconda](https://docs.anaconda.com/anaconda/install/): `conda install geopandas`. If you don't have, or do not want to install, Anaconda, there are some other workarounds, read [GeoPandas "Installation" documentation to learn more](https://geopandas.org/install.html). It is recommended to set up a Python environment.
 
 ## 1. Table Step
 The table step prepares the new data so that is can be viewed in the LODE-Viewer's table display. This step generates a required table configuration file and converts the original csv table data into a series of JSON documents needed to correctly display it in the LODE-Viewer.
@@ -56,11 +56,11 @@ The table step prepares the new data so that is can be viewed in the LODE-Viewer
 
 4. Update the ./scripts/table.py script to match the column names of the dataset being added.
  * To avoid scripting errors due to some temporary hard coding, the following variables need to be updated in the table.py script: 
-  * **Update `TABLECONFIG` variable with the path for the table configuration json file. e.g. `./source/Tables/mydataset/mydataset.json`.
-  * **Update the `INDEX` variable to the index id column name**.
-  * **Update the `CSDUID` variable to the CSD Unique ID column name**.
-  * **Update the `LAT` variable to the Latitude column name**
-  * **Update the `LONG` variable to the Longitude column name**
+   * **Update `TABLECONFIG` variable with the path for the table configuration json file. e.g. `./source/Tables/mydataset/mydataset.json`.
+   * **Update the `INDEX` variable to the index id column name**.
+   * **Update the `CSDUID` variable to the CSD Unique ID column name**.
+   * **Update the `LAT` variable to the Latitude column name**
+   * **Update the `LONG` variable to the Longitude column name**
 5. At this point the data should be prepared and the Python script `./scripts/table.py` can be run  e.g., `python table.py`.
 6. The script outputs are a series of JSONs in `./scripts/output/data/[dataset name]` and a table configuration JSON for the table view in `./scripts/output/config/tables/config.table.[dataset name].json`
 7. Move the entire folder of JSONs (`./scripts/output/data/[dataset name]`) to `./src/data`.
@@ -73,14 +73,15 @@ You should now have the necessary data prepared for the map popup and table view
 In order to view the dataset on the map, the `[dataset name].csv` needs to be added/stored in Mapbox Studio as `[dataset].mbtiles` or stored as a geojson and referenced by the map config file.
 
 ### Creating a mbtiles dataset with Mapbox Studio:
+
 1. Convert the original `[dataset-name].csv` to `[dataset-name].geojson`. This can be accomplished with command line tools like OGR or through GUIs like QGIS.
 2. Create a tileset (`*.mbtiles`) either by using [tippecanoe](https://github.com/mapbox/tippecanoe), or by uploading the `[dataset-name].geojson` in Mapbox Studio as Mapbox has created an automatic script to convert the `[dataset name].geojson` to the desired `[dataset-name].mbtiles`.
- * If tippecanoe is used, the following command can run to create the `[dataset-name].mbtiles`: `tippecanoe -o [dataset-name].mbtiles --base-zoom 0 --force [dataset-name].geojson`
+  * If tippecanoe is used, the following command can run to create the `[dataset-name].mbtiles`: `tippecanoe -o [dataset-name].mbtiles --base-zoom 0 --force [dataset-name].geojson`
 3. In Mapbox Studio, make sure your newly uploaded `[dataset-name].mbtiles` is stored within the [tileset view](https://studio.mapbox.com/tilesets/).
 4. If making a new style document, go to the styles tab and copy (duplicate) an existing LODE Viewer dataset style for LODE Viewer. This assures that the same data layers and style properties are incorporated for the new dataset.
 5. Open the copied style/or update existing map style in Mapbox Studio. Add or update the data sources to the new `[dataset-name]` and also a `[dataset-name]-labels` map layers.
- * Make sure the `[dataset-name]` layer is set to point type.
- * Make sure the `[dataset-name]-labels` layer is set to symbol type.
+  * Make sure the `[dataset-name]` layer is set to point type.
+  * Make sure the `[dataset-name]-labels` layer is set to symbol type.
 6. Save the style, take note of the style URL.
 
 Now in order to incorporate this new dataset Mapbox style to the LODE Viewer, the following map configuration file must be completed:
@@ -98,27 +99,27 @@ If you're not creating a new mbtiles dataset with Mapbox Studio you can alternat
 
 * `id`: Abbreviated form of the dataset.
 * `dataSources`: A list of objects containing details on the name and data information related to each source, 
- * `name`: A string representing the name of the data source.
- * `data`: An object containing details on the source, following the format used by the mapbox API.
-  * Note: if the data is stored as a mapbox studio dataset, the URL for the data source will use the following pattern: `https://api.mapbox.com/datasets/v1/<user-id>/<dataset-id>/features?access_token=<api-token>`
+  * `name`: A string representing the name of the data source.
+  * `data`: An object containing details on the source, following the format used by the mapbox API.
+    * Note: if the data is stored as a mapbox studio dataset, the URL for the data source will use the following pattern: `https://api.mapbox.com/datasets/v1/<user-id>/<dataset-id>/features?access_token=<api-token>`
 * `table`: Add the table configuration file for the dataset, `config.table.[dataset name].json`
 * `layers`: A list of objects containing details on map layers. If the layer already exists in the map style document, you only need to provide the id. Otherwise if its a new layer being added using a source defined in the dataSource property, then the layer will need to be defined using the properties specified by the mapbox API.
- * `id` - A string representing the layer id.
- * `click` - If set to `true`, the layer is clickable.
- * `source` - The name of data source, specified in the `dataSources` property.
- * `type` - If a source if specified, you will also need to provide a mapbox layer type. e.g. `circle`.
- * `filter` - Layer filter settings.
- * `paint` - Layer paint style settings.
- * `layout` - Layer layout settings.
+  * `id` - A string representing the layer id.
+  * `click` - If set to `true`, the layer is clickable.
+  * `source` - The name of data source, specified in the `dataSources` property.
+  * `type` - If a source if specified, you will also need to provide a mapbox layer type. e.g. `circle`.
+  * `filter` - Layer filter settings.
+  * `paint` - Layer paint style settings.
+  * `layout` - Layer layout settings.
 * `title`: Title to appear on the map legend.
 * `abbr`: The dataset abbreviation to appear on the map legend.
 * `legend`: 
- * `colors`: The colours (as rgb) for the thematic map and legend.
- * `label`: The label to appear on the map legend.
- * `value`: The logic assigning a colour to a dataset variable and an unique value. The only thing that needs to be changed here is the variable name and the value to be coloured for the thematic map.
- * `binary-opacity`: If set to true, the opacity of the legend item can either being 1 or 0, and won't be affected by the variable opacity slider.
- * `group`: The group property allows legends to be divided into groups, which contain a collection of related legend items with it's own group heading.
-  * Group Example:
+  * `colors`: The colours (as rgb) for the thematic map and legend.
+  * `label`: The label to appear on the map legend.
+  * `value`: The logic assigning a colour to a dataset variable and an unique value. The only thing that needs to be changed here is the variable name and the value to be coloured for the thematic map.
+  * `binary-opacity`: If set to true, the opacity of the legend item can either being 1 or 0, and won't be affected by the variable opacity slider.
+  * `group`: The group property allows legends to be divided into groups, which contain a collection of related legend items with it's own group heading.
+    * Group Example:
 ```json
 "legend": [
 	{
