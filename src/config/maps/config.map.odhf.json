@@ -656,7 +656,7 @@
             "value": ["==", ["get", "odhf_facility_type"], "Hospitals"]
         }, 
         {
-            "color": [50, 128, 229],             
+            "color": [50, 128, 229],
             "binary_opacity": true,
             "label": {
                 "en": "Nursing and residential care facilities",
@@ -665,7 +665,7 @@
             "value": ["==", ["get", "odhf_facility_type"], "Nursing and residential care facilities"]
         }, 
         {
-            "color": [255, 214, 10],                
+            "color": [255, 214, 10],
             "binary_opacity": true,
             "label": {
                 "en": "Ambulatory health care services",
