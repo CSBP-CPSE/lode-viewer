@@ -104,8 +104,8 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 		if (this.current.max == 0) {
 			this.Node("message").innerHTML = Core.Nls("Table_No_Data");
 			
-			Dom.AddCss(this.Node("table"), "hidden");
-			Dom.RemoveCss(this.Node("message"), "hidden");
+			Dom.AddClasses(this.Node("table"), "hidden");
+			Dom.RemoveClass(this.Node("message"), "hidden");
 			
 			return;
 		};
@@ -124,8 +124,8 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 			
 			this.ToggleButtons();
 			
-			Dom.ToggleCss(this.Node("message"), "hidden", true);
-			Dom.ToggleCss(this.Node("table"), "hidden", false);
+			Dom.ToggleClass(this.Node("message"), "hidden", true);
+			Dom.ToggleClass(this.Node("table"), "hidden", false);
 		}, this.OnAsyncFailure);
 	}
 
