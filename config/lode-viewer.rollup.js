@@ -3,7 +3,7 @@ import babel from 'rollup-plugin-babel';
 export default {
     input: '../lode-viewer/src/main.js',
     output: {
-        file: '../lode-viewer/dist/main.js',
+        file: '../lode-viewer/dist/main.min.js',
         format: 'iife',
         name: 'bundle'
     },
