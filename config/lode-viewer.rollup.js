@@ -1,4 +1,5 @@
 import babel from 'rollup-plugin-babel';
+import { uglify } from 'rollup-plugin-uglify';
 
 export default {
     input: '../lode-viewer/src/main.js',
@@ -11,6 +12,7 @@ export default {
         babel({
             exclude: 'node_modules/**',
 			configFile: './config/babel.config.cjs'
-        })
+        }),
+		uglify()
     ]
 }
