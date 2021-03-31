@@ -8,9 +8,9 @@ from pathlib import Path, PurePath
 # Column field name variables
 # Before running this script, update the variables with the strings matching
 # the names in the dataset for csduid column, index, lat, and long columns.
-TABLECONFIG = "./source/Tables/ODCAF/odcaf.json"
-CSDUID = "CSDUID"
-INDEX = "Index"
+TABLECONFIG = "./source/Tables/ODEF/odef.json"
+CSDUID = "CSDuid"
+INDEX = "Record_ID"
 LAT = "Latitude"
 LONG = "Longitude"
 
