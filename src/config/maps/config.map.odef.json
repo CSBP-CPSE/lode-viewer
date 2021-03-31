@@ -1,0 +1,786 @@
+{
+	"id": "odef",
+	"dataSources": [
+		{
+			"name": "odef-ab",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-bc",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-mb",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-nb",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-nl",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-ns",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-nt",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-nu",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-on",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-other",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-pe",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-qc",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-sk",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		},
+		{
+			"name": "odef-yt",
+			"data": {
+				"type": "geojson",
+				"data": "https://api.mapbox.com/datasets/v1/deil-leid/<dataset-id>/features?access_token=pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg",
+				"cluster": true,
+				"clusterMaxZoom": 10,
+				"clusterRadius": 50
+			}
+		}
+	],
+	"style": "mapbox://styles/deil-leid/ckjvbumau0hz119qrb08badrc",
+    	"table": "config/tables/config.table.odcaf.json",
+    	"layers": [
+		{
+            		"id": "odef-ab",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-ab",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-bc",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-bc",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-mb",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-mb",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-nb",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-nb",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+           	 	"id": "odef-nl",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-nl",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-ns",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-ns",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-nt",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-nt",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-nu",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-nu",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-on",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-on",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-other",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-other",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-pe",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-pe",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-qc",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-qc",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-sk",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-sk",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+            		"id": "odef-yt",
+			"click" : true,
+			"type": "circle",
+			"source": "odef-yt",
+			"filter": ["!", ["has", "point_count"]],
+			"paint": {
+				"circle-color": "#c2c2c2",
+				"circle-radius": 6,
+				"circle-stroke-width": 0.3,
+				"circle-stroke-color": "#5e5e5e"
+			}
+		}, 
+		{
+			"id": "odef-ab-labels",
+			"type": "symbol",
+			"source": "odef-ab",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+	        },
+		{
+			"id": "odef-bc-labels",
+			"type": "symbol",
+			"source": "odef-bc",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-mb-labels",
+			"type": "symbol",
+			"source": "odef-mb",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-nb-labels",
+			"type": "symbol",
+			"source": "odef-nb",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-nl-labels",
+			"type": "symbol",
+			"source": "odef-nl",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-ns-labels",
+			"type": "symbol",
+			"source": "odef-ns",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-nt-labels",
+			"type": "symbol",
+			"source": "odef-nt",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-nu-labels",
+			"type": "symbol",
+			"source": "odef-nu",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-on-labels",
+			"type": "symbol",
+			"source": "odef-on",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-other-labels",
+			"type": "symbol",
+			"source": "odef-other",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-pe-labels",
+			"type": "symbol",
+			"source": "odef-pe",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-qc-labels",
+			"type": "symbol",
+			"source": "odef-qc",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-sk-labels",
+			"type": "symbol",
+			"source": "odef-sk",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+			"id": "odef-yt-labels",
+			"type": "symbol",
+			"source": "odef-yt",
+			"layout": {
+				"text-anchor": "bottom-left",
+				"text-justify": "center",
+				"text-offset": [0.3,0.0],
+				"text-field": ["step", ["zoom"], "", 8, ["get", "Facility_Name"], 22, ["get", "Facility_Name"]],
+				"text-font": ["Open Sans Regular"],
+				"text-size": 12
+			},
+			"paint": {
+				"text-halo-color": ["step",	["zoom"], "hsla(0, 0%, 100%, 0)", 8, "hsl(0, 0%, 100%)", 22, "hsl(0, 0%, 100%)"],
+				"text-halo-width": 1.5,
+				"text-color": "#000000"
+			}
+        	},
+		{
+            		"id": "bc",
+            		"label": {
+                		"en": "British Columbia",
+                		"fr": "Colombie-Britannique"
+            		}
+		},
+		{
+            		"id": "ab",
+            		"label": {
+                		"en": "Alberta",
+                		"fr": "Alberta"
+            		}
+		},
+		{
+            		"id": "sk",
+            		"label": {
+                		"en": "Saskatchewan",
+                		"fr": "Saskatchewan"
+            		}
+		},
+		{
+            		"id": "mb",
+            		"label": {
+                		"en": "Manitoba",
+                		"fr": "Manitoba"
+            		}
+		},
+		{
+            		"id": "on-pt1",
+            		"label": {
+               			"en": "Ontario",
+                		"fr": "Ontario"
+            		}
+		},		
+		{
+            		"id": "on-pt2",
+            		"label": {
+                		"en": "Ontario",
+                		"fr": "Ontario"
+            		}
+		},
+		{
+            		"id": "qc",
+            		"label": {
+                		"en": "Quebec",
+                		"fr": "Québec"
+            		}
+		},
+		{
+            		"id": "pe",
+            		"label": {
+                		"en": "Prince Edward Island",
+                		"fr": "Île-du-Prince-Édouard"
+            		}
+		},
+		{
+            		"id": "ns",
+            		"label": {
+                		"en": "Nova Scotia",
+                		"fr": "Nouvelle-Écosse"
+            		}
+		},
+		{
+            		"id": "nb",
+            		"label": {
+                		"en": "New Brunswick",
+                		"fr": "Nouveau-Brunswick"
+            		}
+		},
+		{
+            		"id": "nl",
+            		"label": {
+                		"en": "Newfoundland and Labrador",
+                		"fr": "Terre-Neuve-et-Labrador"
+            		}
+		},
+		{
+            		"id": "nt",
+            		"label": {
+                		"en": "Northwest Territories",
+                		"fr": "Territoires du Nord-Ouest"
+            		}
+		},
+		{
+            		"id": "nu",
+            		"label": {
+                		"en": "Nunavut",
+                		"fr": "Nunavut"
+            		}
+		},
+		{
+            		"id": "yt",
+            		"label": {
+                		"en": "Yukon",
+                		"fr": "Yukon"
+			}
+		}
+    	],
+    	"title": {
+        	"en": "Open Database of Educational Facilities",
+        	"fr": "Base de données ouvertes sur les établissements d'enseignement"
+    	},
+    	"abbr": {
+        	"en": "ODEF",
+        	"fr": "BDOEE"
+	},
+	"legend": [
+		{
+            		"color": [255, 25, 167],
+			"binary_opacity": true,
+            		"label": {
+                		"en": "kindergarten",
+                		"fr": "kindergarten"
+            		},
+            		"value": ["==", ["get", "Facility_Type"], "kindergarten"]
+        	}, 
+		{
+            		"color": [255, 214, 10],
+			"binary_opacity": true,
+            		"label": {
+                		"en": "elementary school",
+                		"fr": "elementary school"
+            		},
+            		"value": ["==", ["get", "Facility_Type"], "elementary"]
+        	}, 
+		{
+            		"color": [30, 221, 232],
+			"binary_opacity": true,
+            		"label": {
+                		"en": "middle school",
+                		"fr": "middle school"
+            		},
+            		"value": ["==", ["get", "Facility_Type"], "middle"]
+        	}, 
+		{
+            		"color": [249, 49, 84],
+			"binary_opacity": true,
+            		"label": {
+                		"en": "high",
+                		"fr": "high"
+            		},
+            		"value": ["==", ["get", "Facility_Type"], "high"]
+        	}, 
+		{
+            		"color": [136, 33, 255],
+			"binary_opacity": true,
+            		"label": {
+                		"en": "post secondary",
+                		"fr": "post secondary"
+            		},
+            		"value": ["==", ["get", "Facility_Type"], "post secondary"]
+        	}, 
+		{
+            		"color": [255, 145, 0],
+			"binary_opacity": true,
+            		"label": {
+                		"en": "mixed level",
+                		"fr": "mixed level"
+            		},
+            		"value": ["==", ["get", "Facility_Type"], "mixed"]
+        	}, 
+		{
+			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
+            		"color": [207, 216, 220],
+			"binary_opacity": true,
+            		"label": {
+                		"en": "Miscellaneous",
+                		"fr": "Divers"
+			}
+		},
+        	{
+    			"group": {
+    				"en": "Building Footprints",
+    				"fr": "Empreintes d'immeubles"
+			},
+			"items": [
+				{
+    					"color": [239, 154, 154],
+    					"label": {
+    						"en": "<a href='https://www.statcan.gc.ca/eng/lode/databases/odb' title='Open in a new window' target='_blank'>LODE Open Database of Buildings</a>",
+    						"fr": "<a href='https://www.statcan.gc.ca/fra/ecdo/bases-donnees/bdoi' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>ECDO Base de données ouvertes sur les immeubles</a>"
+    					},
+    					"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"], ["!=", ["get", "Data_prov"], "OSM"]]
+    				},
+    				{
+    					"color": [244, 216, 168],
+    					"label": {
+    						"en": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Open in a new window' target='_blank'>Microsoft</a>",
+    						"fr": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>Microsoft</a>"
+    					},
+    					"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
+				},
+    				{
+    					"color": [111, 162, 186],
+    					"label": {
+    						"en": "<a href='https://www.openstreetmap.org/about/' title='Open in a new window' target='_blank'>© OpenStreetMap contributors</a>",
+    						"fr": "<a href='https://www.openstreetmap.org/about/'  title='Ouvrir dans une nouvelle fenêtre' target='_blank'>© Contributeurs d'OpenStreetMap</a>"
+    					},
+    					"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "OSM"]]
+    				}
+			]
+		}
+	]
+}
