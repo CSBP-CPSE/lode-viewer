@@ -10,15 +10,16 @@
         "fr": "Ce tableau contient les établissements d'enseignement contenus dans la sous-division de recensement sélectionnée."
     },
     "fields": [{
-            "id": "Facility_Name",
-            "en": "Facility name",
-            "fr": "Nom de l'établissement",
-	    "type": "text"
-        }, {
             "id": "Index",
             "en": "Educational Facilities ID",
             "fr": "ID de établissements d'enseignementpour",
    	    "type": "text"
+    	},
+	{
+            "id": "Facility_Name",
+            "en": "Facility name",
+            "fr": "Nom de l'établissement",
+	    "type": "text"
         }, {
             "id": "Facility_Type",
             "en": "Type",
@@ -35,11 +36,6 @@
             "fr": "Nom de la rue",
 	    "type": "text"
         }, {
-            "id": "Postal_Code",
-            "en": "Postal code",
-            "fr": "Code postal",
-	    "type": "text"
-        }, {
             "id": "City",
             "en": "City",
             "fr": "Ville",
@@ -49,6 +45,11 @@
             "en": "Province/Territory",
             "fr": "Province/Territoire",
             "type": "text"
+        }, {
+            "id": "Postal_Code",
+            "en": "Postal code",
+            "fr": "Code postal",
+	    "type": "text"
         }
     ]
 }
