@@ -21,7 +21,8 @@ export default class Workaround {
 	}
 	
 	static LookupProvince(abbr, locale) {
-		abbr = abbr.trim();	// Hidden whitespace character at the end, weird.
+		// Remove extra white space and ensure abbr is lowercase.
+		abbr = abbr.trim().toLowerCase();
 		
 		if (abbr === 'nl') return locale === "en" ? "Newfoundland and Labrador" : "Terre-Neuve-et-Labrador";
 		if (abbr === 'pe') return locale === "en" ? "Prince Edward Island" : "Île-du-Prince-Édouard";
