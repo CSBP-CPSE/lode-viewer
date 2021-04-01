@@ -9,8 +9,8 @@ from pathlib import Path, PurePath
 # Before running this script, update the variables with the strings matching
 # the names in the dataset for csduid column, index, lat, and long columns.
 TABLECONFIG = "./source/Tables/ODEF/odef.json"
-CSDUID = "CSDuid"
-INDEX = "Record_ID"
+CSDUID = "CSDUID"
+INDEX = "Index"
 LAT = "Latitude"
 LONG = "Longitude"
 
