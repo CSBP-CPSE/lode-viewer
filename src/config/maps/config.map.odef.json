@@ -146,7 +146,7 @@
     	"table": "config/tables/config.table.odef.json",
     	"layers": [
 		{
-            		"id": "odef-ab",
+            "id": "odef-ab",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-ab",
@@ -159,7 +159,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-bc",
+            "id": "odef-bc",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-bc",
@@ -172,7 +172,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-mb",
+        	"id": "odef-mb",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-mb",
@@ -185,7 +185,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-nb",
+            "id": "odef-nb",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-nb",
@@ -198,7 +198,7 @@
 			}
 		}, 
 		{
-           	 	"id": "odef-nl",
+           	"id": "odef-nl",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-nl",
@@ -211,7 +211,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-ns",
+            "id": "odef-ns",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-ns",
@@ -224,7 +224,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-nt",
+            "id": "odef-nt",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-nt",
@@ -237,7 +237,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-nu",
+            "id": "odef-nu",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-nu",
@@ -250,7 +250,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-on",
+            "id": "odef-on",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-on",
@@ -263,7 +263,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-other",
+            "id": "odef-other",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-other",
@@ -276,7 +276,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-pe",
+            "id": "odef-pe",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-pe",
@@ -289,7 +289,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-qc",
+            "id": "odef-qc",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-qc",
@@ -302,7 +302,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-sk",
+            "id": "odef-sk",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-sk",
@@ -315,7 +315,7 @@
 			}
 		}, 
 		{
-            		"id": "odef-yt",
+            "id": "odef-yt",
 			"click" : true,
 			"type": "circle",
 			"source": "odef-yt",
@@ -344,7 +344,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-	        },
+	    },
 		{
 			"id": "odef-bc-labels",
 			"type": "symbol",
@@ -362,7 +362,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-mb-labels",
 			"type": "symbol",
@@ -380,7 +380,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-nb-labels",
 			"type": "symbol",
@@ -398,7 +398,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-nl-labels",
 			"type": "symbol",
@@ -416,7 +416,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-ns-labels",
 			"type": "symbol",
@@ -434,7 +434,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-nt-labels",
 			"type": "symbol",
@@ -452,7 +452,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-nu-labels",
 			"type": "symbol",
@@ -470,7 +470,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-on-labels",
 			"type": "symbol",
@@ -488,7 +488,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-other-labels",
 			"type": "symbol",
@@ -506,7 +506,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-pe-labels",
 			"type": "symbol",
@@ -524,7 +524,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-qc-labels",
 			"type": "symbol",
@@ -542,7 +542,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-sk-labels",
 			"type": "symbol",
@@ -560,7 +560,7 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
 			"id": "odef-yt-labels",
 			"type": "symbol",
@@ -578,169 +578,177 @@
 				"text-halo-width": 1.5,
 				"text-color": "#000000"
 			}
-        	},
+        },
 		{
-            		"id": "bc",
-            		"label": {
-                		"en": "British Columbia",
-                		"fr": "Colombie-Britannique"
-            		}
+            "id": "bc",
+            "label": {
+            	"en": "British Columbia",
+            	"fr": "Colombie-Britannique"
+            }
 		},
 		{
-            		"id": "ab",
-            		"label": {
-                		"en": "Alberta",
-                		"fr": "Alberta"
-            		}
+            "id": "ab",
+            "label": {
+            	"en": "Alberta",
+            	"fr": "Alberta"
+			}
 		},
 		{
-            		"id": "sk",
-            		"label": {
-                		"en": "Saskatchewan",
-                		"fr": "Saskatchewan"
-            		}
+            "id": "sk",
+            "label": {
+            	"en": "Saskatchewan",
+            	"fr": "Saskatchewan"
+            }
 		},
 		{
-            		"id": "mb",
-            		"label": {
-                		"en": "Manitoba",
-                		"fr": "Manitoba"
-            		}
+            "id": "mb",
+            "label": {
+            	"en": "Manitoba",
+            	"fr": "Manitoba"
+            }
 		},
 		{
-            		"id": "on-pt1",
-            		"label": {
-               			"en": "Ontario",
-                		"fr": "Ontario"
-            		}
+			"id": "on-pt1",
+            "label": {
+            	"en": "Ontario",
+            	"fr": "Ontario"
+            }
 		},		
 		{
-            		"id": "on-pt2",
-            		"label": {
-                		"en": "Ontario",
-                		"fr": "Ontario"
-            		}
+            "id": "on-pt2",
+            "label": {
+            	"en": "Ontario",
+            	"fr": "Ontario"
+            }
 		},
 		{
-            		"id": "qc",
-            		"label": {
-                		"en": "Quebec",
-                		"fr": "Québec"
-            		}
+            "id": "qc",
+            "label": {
+            	"en": "Quebec",
+            	"fr": "Québec"
+            }
 		},
 		{
-            		"id": "pe",
-            		"label": {
-                		"en": "Prince Edward Island",
-                		"fr": "Île-du-Prince-Édouard"
-            		}
+            "id": "pe",
+            "label": {
+            	"en": "Prince Edward Island",
+            	"fr": "Île-du-Prince-Édouard"
+            }
 		},
 		{
-            		"id": "ns",
-            		"label": {
-                		"en": "Nova Scotia",
-                		"fr": "Nouvelle-Écosse"
-            		}
+            "id": "ns",
+            "label": {
+            	"en": "Nova Scotia",
+            	"fr": "Nouvelle-Écosse"
+            }
 		},
 		{
-            		"id": "nb",
-            		"label": {
-                		"en": "New Brunswick",
-                		"fr": "Nouveau-Brunswick"
-            		}
+            "id": "nb",
+            "label": {
+            	"en": "New Brunswick",
+            	"fr": "Nouveau-Brunswick"
+            }
 		},
 		{
-            		"id": "nl",
-            		"label": {
-                		"en": "Newfoundland and Labrador",
-                		"fr": "Terre-Neuve-et-Labrador"
-            		}
+            "id": "nl",
+            "label": {
+            	"en": "Newfoundland and Labrador",
+                "fr": "Terre-Neuve-et-Labrador"
+            }
 		},
 		{
-            		"id": "nt",
-            		"label": {
-                		"en": "Northwest Territories",
-                		"fr": "Territoires du Nord-Ouest"
-            		}
+            "id": "nt",
+            "label": {
+            	"en": "Northwest Territories",
+            	"fr": "Territoires du Nord-Ouest"
+            }
 		},
 		{
-            		"id": "nu",
-            		"label": {
-                		"en": "Nunavut",
-                		"fr": "Nunavut"
-            		}
+            "id": "nu",
+            "label": {
+            	"en": "Nunavut",
+            	"fr": "Nunavut"
+            }
 		},
 		{
-            		"id": "yt",
-            		"label": {
-                		"en": "Yukon",
-                		"fr": "Yukon"
+            "id": "yt",
+            "label": {
+            	"en": "Yukon",
+            	"fr": "Yukon"
 			}
 		}
-    	],
-    	"title": {
-        	"en": "Open Database of Educational Facilities",
-        	"fr": "Base de données ouvertes sur les établissements d'enseignement"
-    	},
-    	"abbr": {
-        	"en": "ODEF",
-        	"fr": "BDOEE"
+    ],
+    "title": {
+       	"en": "Open Database of Educational Facilities",
+       	"fr": "Base de données ouvertes sur les établissements d'enseignement"
+    },
+    "abbr": {
+       	"en": "ODEF",
+       	"fr": "BDOEE"
 	},
 	"legend": [
 		{
-            "color": [25, 255, 167],
+            "color": [27,158,119],
 			"binary_opacity": true,
             "label": {
-                "en": "Pre-School",
-                "fr": "Pre-School"
+                "en": "Early Childhood Education",
+                "fr": "Early Childhood Education"
             },
-			"value": ["all", ["==", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["!=", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["!=", ["get", "ISCED4Plus"], 1]]
+			"value": ["all", ["any", ["==", ["get", "ISCED010"], 1], ["==", ["get", "ISCED020"], 1]], ["!=", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["!=", ["get", "ISCED4Plus"], 1]]
         },
 		{
-            "color": [16, 25, 255],
+            "color": [102,166,30],
 			"binary_opacity": true,
             "label": {
-                "en": "Kindergarten",
-                "fr": "Kindergarten"
+				"en": "Early Childhood and Primary Education",
+                "fr": "Early Childhood and Primary Education"
             },
-			"value": ["all", ["!=", ["get", "ISCED010"], 1], ["==", ["get", "ISCED020"], 1], ["!=", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["!=", ["get", "ISCED4Plus"], 1]]
-        
-		}, 
+            "value": ["all", ["any", ["==", ["get", "ISCED010"], 1], ["==", ["get", "ISCED020"], 1]], ["==", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["!=", ["get", "ISCED4Plus"], 1]]
+        },
 		{
-            "color": [255, 214, 10],
+            "color": [230,171,2],
 			"binary_opacity": true,
             "label": {
-				"en": "Elementary School",
-                "fr": "Elementary School"
+				"en": "Early Childhood, Primary, and Secondary Education",
+                "fr": "Early Childhood, Primary, and Secondary Education"
+            },
+            "value": ["all", ["any", ["==", ["get", "ISCED010"], 1], ["==", ["get", "ISCED020"], 1]], ["==", ["get", "ISCED1"], 1], ["any", ["==", ["get", "ISCED2"], 1], ["==", ["get", "ISCED3"], 1]], ["!=", ["get", "ISCED4Plus"], 1]]
+        },
+		{
+            "color": [166,118,29],
+			"binary_opacity": true,
+            "label": {
+				"en": "Primary Education",
+                "fr": "Primary Education"
             },
             "value": ["all", ["!=", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["==", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["!=", ["get", "ISCED4Plus"], 1]]
         },
 		{
-        	"color": [249, 49, 84],
+        	"color": [217,95,2],
 			"binary_opacity": true,
             "label": {
-                "en": "Middle/High School",
-                "fr": "Middle/High School"
+                "en": "Primary and Secondary Education",
+                "fr": "Primary and Secondary Education"
+            },
+			"value": ["all", ["!=", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["==", ["get", "ISCED1"], 1], ["any", ["==", ["get", "ISCED2"], 1], ["==", ["get", "ISCED3"], 1]], ["!=", ["get", "ISCED4Plus"], 1]]
+        },
+		{
+        	"color": [231,41,138],
+			"binary_opacity": true,
+            "label": {
+                "en": "Secondary Education",
+                "fr": "Secondary Education"
             },
 			"value": ["all", ["!=", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["!=", ["get", "ISCED1"], 1], ["any", ["==", ["get", "ISCED2"], 1], ["==", ["get", "ISCED3"], 1]], ["!=", ["get", "ISCED4Plus"], 1]]
         }, 
 		{
-            "color": [136, 33, 255],
+            "color": [117,112,179],
 			"binary_opacity": true,
             "label": {
-                "en": "Post Secondary",
-                "fr": "Post Secondary"
+                "en": "Post Secondary Education",
+                "fr": "Post Secondary Education"
 			},
 			"value": ["all", ["!=", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["!=", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["==", ["get", "ISCED4Plus"], 1]]
-        }, 
-		{
-            "color": [255, 145, 0],
-			"binary_opacity": true,
-            "label": {
-                "en": "Mixed Levels",
-                "fr": "Mixed Levels"
-            },
-			"value": [">", ["+", ["to-number", ["get", "ISCED010"]], ["to-number", ["get", "ISCED020"]], ["to-number", ["get", "ISCED1"]], ["to-number", ["get", "ISCED2"]], ["to-number", ["get", "ISCED3"]], ["to-number", ["get", "ISCED4Plus"]]], 1]
         },
 		{
 			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
