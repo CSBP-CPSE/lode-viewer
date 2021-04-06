@@ -688,98 +688,99 @@
 	},
 	"legend": [
 		{
-            		"color": [255, 25, 167],
+            "color": [25, 255, 167],
 			"binary_opacity": true,
-            		"label": {
-                		"en": "kindergarten",
-                		"fr": "kindergarten"
-            		},
-            		"value": ["==", ["get", "Facility_Type"], "kindergarten"]
-        	}, 
+            "label": {
+                "en": "Pre-School",
+                "fr": "Pre-School"
+            },
+			"value": ["all", ["==", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["!=", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["!=", ["get", "ISCED4Plus"], 1]]
+        },
 		{
-            		"color": [255, 214, 10],
+            "color": [16, 25, 255],
 			"binary_opacity": true,
-            		"label": {
-                		"en": "elementary school",
-                		"fr": "elementary school"
-            		},
-            		"value": ["==", ["get", "Facility_Type"], "elementary"]
-        	}, 
+            "label": {
+                "en": "Kindergarten",
+                "fr": "Kindergarten"
+            },
+			"value": ["all", ["!=", ["get", "ISCED010"], 1], ["==", ["get", "ISCED020"], 1], ["!=", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["!=", ["get", "ISCED4Plus"], 1]]
+        
+		}, 
 		{
-            		"color": [30, 221, 232],
+            "color": [255, 214, 10],
 			"binary_opacity": true,
-            		"label": {
-                		"en": "middle school",
-                		"fr": "middle school"
-            		},
-            		"value": ["==", ["get", "Facility_Type"], "middle"]
-        	}, 
+            "label": {
+				"en": "Elementary School",
+                "fr": "Elementary School"
+            },
+            "value": ["all", ["!=", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["==", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["!=", ["get", "ISCED4Plus"], 1]]
+        },
 		{
-            		"color": [249, 49, 84],
+        	"color": [249, 49, 84],
 			"binary_opacity": true,
-            		"label": {
-                		"en": "high",
-                		"fr": "high"
-            		},
-            		"value": ["==", ["get", "Facility_Type"], "high"]
-        	}, 
+            "label": {
+                "en": "Middle/High School",
+                "fr": "Middle/High School"
+            },
+			"value": ["all", ["!=", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["!=", ["get", "ISCED1"], 1], ["any", ["==", ["get", "ISCED2"], 1], ["==", ["get", "ISCED3"], 1]], ["!=", ["get", "ISCED4Plus"], 1]]
+        }, 
 		{
-            		"color": [136, 33, 255],
+            "color": [136, 33, 255],
 			"binary_opacity": true,
-            		"label": {
-                		"en": "post secondary",
-                		"fr": "post secondary"
-            		},
-            		"value": ["==", ["get", "Facility_Type"], "post secondary"]
-        	}, 
+            "label": {
+                "en": "Post Secondary",
+                "fr": "Post Secondary"
+			},
+			"value": ["all", ["!=", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["!=", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["==", ["get", "ISCED4Plus"], 1]]
+        }, 
 		{
-            		"color": [255, 145, 0],
+            "color": [255, 145, 0],
 			"binary_opacity": true,
-            		"label": {
-                		"en": "mixed level",
-                		"fr": "mixed level"
-            		},
-            		"value": ["==", ["get", "Facility_Type"], "mixed"]
-        	}, 
+            "label": {
+                "en": "Mixed Levels",
+                "fr": "Mixed Levels"
+            },
+			"value": [">", ["+", ["to-number", ["get", "ISCED010"]], ["to-number", ["get", "ISCED020"]], ["to-number", ["get", "ISCED1"]], ["to-number", ["get", "ISCED2"]], ["to-number", ["get", "ISCED3"]], ["to-number", ["get", "ISCED4Plus"]]], 1]
+        },
 		{
 			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
-            		"color": [207, 216, 220],
+            "color": [207, 216, 220],
 			"binary_opacity": true,
-            		"label": {
-                		"en": "Miscellaneous",
-                		"fr": "Divers"
+            "label": {
+                "en": "Miscellaneous",
+                "fr": "Divers"
 			}
 		},
-        	{
-    			"group": {
-    				"en": "Building Footprints",
-    				"fr": "Empreintes d'immeubles"
+        {
+   			"group": {
+   				"en": "Building Footprints",
+   				"fr": "Empreintes d'immeubles"
 			},
 			"items": [
 				{
-    					"color": [239, 154, 154],
-    					"label": {
-    						"en": "<a href='https://www.statcan.gc.ca/eng/lode/databases/odb' title='Open in a new window' target='_blank'>LODE Open Database of Buildings</a>",
-    						"fr": "<a href='https://www.statcan.gc.ca/fra/ecdo/bases-donnees/bdoi' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>ECDO Base de données ouvertes sur les immeubles</a>"
-    					},
-    					"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"], ["!=", ["get", "Data_prov"], "OSM"]]
+    				"color": [239, 154, 154],
+    				"label": {
+    					"en": "<a href='https://www.statcan.gc.ca/eng/lode/databases/odb' title='Open in a new window' target='_blank'>LODE Open Database of Buildings</a>",
+    					"fr": "<a href='https://www.statcan.gc.ca/fra/ecdo/bases-donnees/bdoi' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>ECDO Base de données ouvertes sur les immeubles</a>"
     				},
-    				{
-    					"color": [244, 216, 168],
-    					"label": {
-    						"en": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Open in a new window' target='_blank'>Microsoft</a>",
-    						"fr": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>Microsoft</a>"
-    					},
-    					"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
+    				"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"], ["!=", ["get", "Data_prov"], "OSM"]]
+    			},
+   				{
+   					"color": [244, 216, 168],
+   					"label": {
+   						"en": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Open in a new window' target='_blank'>Microsoft</a>",
+   						"fr": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>Microsoft</a>"
+   					},
+   					"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
 				},
-    				{
-    					"color": [111, 162, 186],
-    					"label": {
-    						"en": "<a href='https://www.openstreetmap.org/about/' title='Open in a new window' target='_blank'>© OpenStreetMap contributors</a>",
-    						"fr": "<a href='https://www.openstreetmap.org/about/'  title='Ouvrir dans une nouvelle fenêtre' target='_blank'>© Contributeurs d'OpenStreetMap</a>"
-    					},
-    					"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "OSM"]]
-    				}
+   				{
+   					"color": [111, 162, 186],
+   					"label": {
+   						"en": "<a href='https://www.openstreetmap.org/about/' title='Open in a new window' target='_blank'>© OpenStreetMap contributors</a>",
+   						"fr": "<a href='https://www.openstreetmap.org/about/'  title='Ouvrir dans une nouvelle fenêtre' target='_blank'>© Contributeurs d'OpenStreetMap</a>"
+   					},
+   					"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "OSM"]]
+   				}
 			]
 		}
 	]
