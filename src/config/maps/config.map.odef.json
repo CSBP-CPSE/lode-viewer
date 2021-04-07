@@ -688,11 +688,11 @@
 	},
 	"legend": [
 		{
-            "color": [27,158,119],
+            "color": [50, 128, 229],
 			"binary_opacity": true,
             "label": {
                 "en": "Early Childhood Education",
-                "fr": "Early Childhood Education"
+                "fr": "Éducation de la petite enfance"
             },
 			"value": ["all", ["any", ["==", ["get", "ISCED010"], 1], ["==", ["get", "ISCED020"], 1]], ["!=", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["!=", ["get", "ISCED4Plus"], 1]]
         },
@@ -701,7 +701,7 @@
 			"binary_opacity": true,
             "label": {
 				"en": "Early Childhood and Primary Education",
-                "fr": "Early Childhood and Primary Education"
+                "fr": "Éducation de la petite enfance et enseignement primaire"
             },
             "value": ["all", ["any", ["==", ["get", "ISCED010"], 1], ["==", ["get", "ISCED020"], 1]], ["==", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["!=", ["get", "ISCED4Plus"], 1]]
         },
@@ -710,7 +710,7 @@
 			"binary_opacity": true,
             "label": {
 				"en": "Early Childhood, Primary, and Secondary Education",
-                "fr": "Early Childhood, Primary, and Secondary Education"
+                "fr": "Enseignement préscolaire, primaire et secondaire"
             },
             "value": ["all", ["any", ["==", ["get", "ISCED010"], 1], ["==", ["get", "ISCED020"], 1]], ["==", ["get", "ISCED1"], 1], ["any", ["==", ["get", "ISCED2"], 1], ["==", ["get", "ISCED3"], 1]], ["!=", ["get", "ISCED4Plus"], 1]]
         },
@@ -719,7 +719,7 @@
 			"binary_opacity": true,
             "label": {
 				"en": "Primary Education",
-                "fr": "Primary Education"
+                "fr": "Enseignement primaire"
             },
             "value": ["all", ["!=", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["==", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["!=", ["get", "ISCED4Plus"], 1]]
         },
@@ -728,7 +728,7 @@
 			"binary_opacity": true,
             "label": {
                 "en": "Primary and Secondary Education",
-                "fr": "Primary and Secondary Education"
+                "fr": "Enseignement primaire et secondaire"
             },
 			"value": ["all", ["!=", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["==", ["get", "ISCED1"], 1], ["any", ["==", ["get", "ISCED2"], 1], ["==", ["get", "ISCED3"], 1]], ["!=", ["get", "ISCED4Plus"], 1]]
         },
@@ -737,7 +737,7 @@
 			"binary_opacity": true,
             "label": {
                 "en": "Secondary Education",
-                "fr": "Secondary Education"
+                "fr": "Enseignement secondaire"
             },
 			"value": ["all", ["!=", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["!=", ["get", "ISCED1"], 1], ["any", ["==", ["get", "ISCED2"], 1], ["==", ["get", "ISCED3"], 1]], ["!=", ["get", "ISCED4Plus"], 1]]
         }, 
@@ -745,8 +745,8 @@
             "color": [117,112,179],
 			"binary_opacity": true,
             "label": {
-                "en": "Post Secondary Education",
-                "fr": "Post Secondary Education"
+                "en": "Post-Secondary Education",
+                "fr": "Enseignement post-secondaire"
 			},
 			"value": ["all", ["!=", ["get", "ISCED010"], 1], ["!=", ["get", "ISCED020"], 1], ["!=", ["get", "ISCED1"], 1], ["!=", ["get", "ISCED2"], 1], ["!=", ["get", "ISCED3"], 1], ["==", ["get", "ISCED4Plus"], 1]]
         },
