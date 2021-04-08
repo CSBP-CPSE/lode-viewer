@@ -84,6 +84,7 @@ body {
 
 .lode .mapboxgl-ctrl-group {
     overflow: initial;
+    max-width: 350px;
 }
 
 .lode label[for],
@@ -156,8 +157,16 @@ body {
 	cursor : pointer;
 }
 
+.lode .legend .legend-item {
+    display: -ms-flexbox;
+    display: flex;
+    align-items: flex-start;
+}
+
 .lode .legend .legend-item svg {
 	border:solid thin silver;
+    min-width: 15px;
+    max-width: 15px;
 }
 
 .lode .legend .legend-item label {
