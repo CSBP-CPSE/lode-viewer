@@ -1,0 +1,55 @@
+{
+    "id" : "ODEF",
+	"source" : "./source/Tables/ODEF/ODEFv2.csv",
+	"title": {
+        "en": "Detailed table of Educational Facilities in {0}",
+        "fr": "Tableau détaillé des établissements d'enseignementpour {0}"
+    },
+    "description": {
+        "en": "This table contains the Educational Facilities contained in the selected census subdivision.",
+        "fr": "Ce tableau contient les établissements d'enseignement contenus dans la sous-division de recensement sélectionnée."
+    },
+    "fields": [{
+            "id": "Index",
+            "en": "Educational Facilities ID",
+            "fr": "ID de établissements d'enseignement pour",
+   	    "type": "text"
+    	},
+	{
+            "id": "Facility_Name",
+            "en": "Facility name",
+            "fr": "Nom de l'établissement",
+	    "type": "text"
+        }, {
+            "id": "Facility_Type",
+            "en": "Type",
+            "fr": "Type",
+	    "type": "text"
+        }, {
+            "id": "Street_No",
+            "en": "Street number",
+            "fr": "Numéro civique",
+	    "type": "numeric"
+        }, {
+            "id": "Street_Name",
+            "en": "Street name",
+            "fr": "Nom de la rue",
+	    "type": "text"
+        }, {
+            "id": "City",
+            "en": "City",
+            "fr": "Ville",
+	    "type": "text"
+        }, {
+            "id": "Prov_Terr",
+            "en": "Province/Territory",
+            "fr": "Province/Territoire",
+            "type": "text"
+        }, {
+            "id": "Postal_Code",
+            "en": "Postal code",
+            "fr": "Code postal",
+	    "type": "text"
+        }
+    ]
+}
