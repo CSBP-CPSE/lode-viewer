@@ -9,6 +9,12 @@ import Workaround from "./workaround.js";
  */
 export default class LodeApp extends Templated {
 
+	/**
+	 * Lode App class constructor
+	 * @constructor
+	 * @param {object} node reference to dom element that will contain the lode viewer app
+	 * @param {object} config object containing data taken from various configuration json files
+	 */
 	constructor(node, config) {
 		super(node);
 

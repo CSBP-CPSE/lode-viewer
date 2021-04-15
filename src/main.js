@@ -8,8 +8,10 @@ Net.JSON(`${Core.root}config/config.nls.json`).then(value => {
 	Core.locale = document.documentElement.lang || "en";
 	Core.nls = value.result;
 	
+	// Get map config json files defined in applications config file 
 	var p1 = Net.JSON(`${Core.root}config/config.applications.json`);
 	
+	// Start application once the map config files are retrieved
 	Promise.all([p1]).then(Start);
 });
 
