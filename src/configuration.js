@@ -250,7 +250,7 @@ export default class Configuration {
 		var c = new Configuration();
 		
 		c.id = json.id;
-		c.dataSources = json.dataSources;
+		c.dataSources = json.dataSources || null;
 		c.style = json.style;
 		c.tableUrl = json.table || null;
 		c.layers = json.layers || null;
