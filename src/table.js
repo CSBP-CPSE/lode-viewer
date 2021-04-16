@@ -1,11 +1,22 @@
 import { Templated, Core, Dom, Net, Util } from './web-mapping-components/web-mapping-components.js';
-
 import Workaround from "./workaround.js";
 
 export default Core.Templatable("Basic.Components.Table", class Table extends Templated {
 
 	set caption(value) { this.Node('caption').innerHTML = value; }
 
+	/**
+	 * Table class constructor
+	 * 
+	 * @constructor
+	 * @param {object} container the HTML element that will contain the table.
+	 * @param {object} options table options
+	 *  options.path - path to the table data e.g. `data/<dataset-name>`
+	 *  options.summary - an object containing a summary of how many data json files/pages 
+	 * 		of content are available for each census sub division.
+	 *  options.fields - list of table field names provided by the table config file
+	 *  options.title - string representing the table title 
+	 */
 	constructor(container, options) {	
 		super(container, options);
 		
@@ -22,12 +33,14 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 
 		// this.Node("description").innerHTML = options.description;
 
+		// bind click events on prev/next table buttons to handlers
 		this.Node('prev').addEventListener('click', this.OnButtonPrev_Handler.bind(this));
 		this.Node('next').addEventListener('click', this.OnButtonNext_Handler.bind(this));
 		
 		this.fields.forEach(f => this.AddHeader(f));
 	}
 
+	// HTML template for table-widget
 	Template() {
 		return "<div class='table-widget'>" +
 				  "<h2 handle='title'>nls(Table_Title_Default)</h2>" +
@@ -51,6 +64,10 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 			   "</div>"
 	}
 
+	/**
+	 * Add a table header element to the table
+	 * @param {object} f table field
+	 */
 	AddHeader(f) {
 		Dom.Create("th", { innerHTML:f.label, className:f.type }, this.Node("header"));
 	}
@@ -89,9 +106,8 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 	/**
 	* Update the table with the correct DBUID data 
 	*
-	* Parameters :
-	* item : the item that was used in the search bar
-	* Return : none
+	* @param {object} item the item that was used in the search bar
+	* @param {number} page the current page number.
 	*/
 	UpdateTable(item, page) {	
 		// Set current DB
@@ -129,17 +145,30 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 		}, this.OnAsyncFailure);
 	}
 
+	// Disable buttons if current page exceeds the min or max page numbers
 	ToggleButtons() {
 		this.Node('prev').disabled = (this.current.page <= 1);
 		this.Node('next').disabled = (this.current.page >= this.current.max);
 	}
 
+	/**
+	 * Handler for clicking the table previous page button
+	 * - update current page value
+	 * - update table content
+	 * @param {object} ev mouse click event
+	 */
 	OnButtonPrev_Handler(ev) {
 		this.current.page--;
 		
 		this.UpdateTable(this.current.item, this.current.page);
 	}
 
+	/**
+	 * Handler for clicking the table next page button
+	 * - update current page value
+	 * - update table content
+	 * @param {object} ev mouse click event
+	 */
 	OnButtonNext_Handler(ev) {
 		this.current.page++;
 		
