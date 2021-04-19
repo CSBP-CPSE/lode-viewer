@@ -179,7 +179,7 @@ export default class LodeApp extends Templated {
 		this.group.legend.On("LegendChange", this.OnLegend_Changed.bind(this));
 		this.group.opacity.title = Core.Nls("Toc_Opacity_Title");
 		this.group.opacity.label = opacity_label[Core.locale];
-		this.group.opacity.On("OpacityChanged", this.OnLegend_OpacityChanged.bind(this));
+		this.group.opacity.On("OpacitySliderChanged", this.OnOpacitySlider_Changed.bind(this));
 	}
 
 
@@ -286,11 +286,11 @@ export default class LodeApp extends Templated {
 	}
 	
 	/**
-	 * OpacityChanged event handler for when the opacity slider updates.
+	 * OpacitySliderChanged event handler for when the opacity slider updates.
 	 * @param {object} ev - Event object containing details on the opacity
 	 * slider value
 	 */
-	OnLegend_OpacityChanged(ev) {		
+	OnOpacitySlider_Changed(ev) {		
 		let i, currentLayer, layerType, layerColorProperty;
 		Store.Opacity = ev.opacity;
 
