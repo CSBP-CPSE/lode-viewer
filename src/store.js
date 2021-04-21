@@ -26,7 +26,7 @@ export default class Store {
 	 * @returns {number} - latitude value
 	 */
 	static get Lat() {
-		return localStorage.getItem("lode-center-lat") || 60.847;
+		return Number(localStorage.getItem("lode-center-lat")) || 60.847;
 	}
 	
 	/**
@@ -42,7 +42,7 @@ export default class Store {
 	 * @returns {number} - longitude value
 	 */
 	static get Lng() {
-		return localStorage.getItem("lode-center-lng") || -105.3905;
+		return Number(localStorage.getItem("lode-center-lng")) || -105.3905;
 	}
 	
 	/**
@@ -58,7 +58,7 @@ export default class Store {
 	 * @returns {number} map zoom level
 	 */
 	static get Zoom() {
-		return localStorage.getItem("lode-zoom") || 2;
+		return Number(localStorage.getItem("lode-zoom")) || 2;
 	}
 	
 	/**
@@ -74,7 +74,7 @@ export default class Store {
 	 * @returns {number} - opacity value
 	 */
 	static get Opacity() {
-		return localStorage.getItem("lode-opacity") || 0.75;
+		return Number(localStorage.getItem("lode-opacity")) || 0.75;
 	}
 	
 	/**

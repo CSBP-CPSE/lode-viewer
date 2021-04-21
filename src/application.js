@@ -151,11 +151,8 @@ export default class LodeApp extends Templated {
 
 		// Add top-left search bar
 		var search = Factory.SearchControl(this.config.search.items, Core.Nls("Search_Placeholder"), Core.Nls("Search_Title"));
-
 		search.Place(this.Node("search"));
-
 		search.On("Change", this.OnSearchChange_Handler.bind(this));
-
 		search.Node("typeahead").Node("input").id = "lode-search";
 	}
 
@@ -182,73 +179,6 @@ export default class LodeApp extends Templated {
 		this.group.opacity.On("OpacitySliderChanged", this.OnOpacitySlider_Changed.bind(this));
 	}
 
-
-	/**
-	 * Generate opacities based on legend properties/checkbox states and the stored opacity value.
-	 * @returns - A list of opacity values for each legend item
-	 */
-	GenerateOpacities() {
-		let i, checkboxState, binaryOpacity, opacity;
-		let storedOpacity = Store.Opacity || 1;
-		let opacities = [];
-
-
-		if (this.group && this.group.legend && this.group.legend.chkBoxesState) {
-			for (i = 0; i < this.group.legend.chkBoxesState.length; i += 1) {
-				checkboxState = this.group.legend.chkBoxesState[i];
-
-				// Determine if legend item allows variable opacity or is binary
-				if (checkboxState.item && checkboxState.item.binary_opacity) {
-					binaryOpacity = true;
-				} else {
-					binaryOpacity = false;
-				}
-
-				// Calculate opacity of legend item
-				if (checkboxState.checkbox.checked) {
-					if (!binaryOpacity) {
-						opacity = Number(storedOpacity)
-					} else {
-						opacity = 1;
-					}
-
-				} else {
-					opacity = 0;
-				}
-
-				opacities.push(opacity);
-			}
-		}
-
-		return opacities;
-	}
-
-
-	/**
-	 * Event handler for changing the map legend.
-	 * @param {object} ev - LegendChange event object containing the state of each legend item
-	 */
-	OnLegend_Changed(ev) {
-		let i, currentLayer, layerType, layerColorProperty;
-		var opacities = this.GenerateOpacities(ev);
-
-		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
-			currentLayer = this.current.LayerIDs[i];
-			layerType = this.map.GetLayerType(currentLayer);
-			layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
-			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, opacities);
-
-			if (layerType === 'circle') {
-				this.map.ChoroplethVarOpac([this.current.LayerIDs[i]], 'circle-stroke-color', this.current.Legend, opacities);
-			}
-
-			if (layerType === 'symbol') {
-				this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-color', this.current.Legend, opacities);
-				this.map.ChoroplethVarOpac( [this.current.LayerIDs[i]] , 'text-halo-color', this.current.Legend, opacities);
-			}
-		}
-    }
-
 	/**
 	 * Add a menu to the map with various buttons to control map content
 	 */
@@ -259,8 +189,7 @@ export default class LodeApp extends Templated {
 
 		this.menu = Factory.MenuControl();
 
-		this.map.AddControl(this.menu, "top-left");
-
+		this.map.AddControl(this.menu, "top-left")
 		this.menu.AddButton("home", Core.root + "assets/globe.png", Core.Nls("Home_Title"), this.OnHomeClick_Handler.bind(this));
 		this.menu.AddPopupButton("maps", Core.root + "assets/layers.png", Core.Nls("Maps_Title"), maps, this.map.Container);
 		this.menu.AddPopupButton("bookmarks", Core.root + "assets/bookmarks.png", Core.Nls("Bookmarks_Title"), bookmarks, this.map.Container);
@@ -284,26 +213,23 @@ export default class LodeApp extends Templated {
 			this.table.Node("message").setAttribute("href", "#lode-search");
 		});
 	}
-	
+
+	/**
+	 * Event handler for changing the map legend.
+	 * @param {object} ev - Legend change event object containing the state of each legend item
+	 */
+	OnLegend_Changed(ev) {
+		this.map.UpdateMapLayers(this.current.LayerIDs, this.group.legend, Store.Opacity);
+    }
+
 	/**
 	 * OpacitySliderChanged event handler for when the opacity slider updates.
-	 * @param {object} ev - Event object containing details on the opacity
-	 * slider value
+	 * @param {object} ev - Event object containing details on the opacity slider value
 	 */
 	OnOpacitySlider_Changed(ev) {		
-		let i, currentLayer, layerType, layerColorProperty;
 		Store.Opacity = ev.opacity;
-
-		var opacities = this.GenerateOpacities(ev);
-		
-		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
-			currentLayer = this.current.LayerIDs[i];
-			layerType = this.map.GetLayerType(currentLayer);
-			layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
-			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, opacities);
-		}
+		this.map.UpdateMapLayers(this.current.LayerIDs, this.group.legend, Store.Opacity);
 	}
-	
 
 	/**
 	 * Event handler for clicking the home menu button, which sets the map
@@ -362,8 +288,6 @@ export default class LodeApp extends Templated {
 	 * @param {object} ev - StyleChanged event object.
 	 */
 	OnMapStyleChanged_Handler(ev) {
-		let i, currentLayer, layerType, layerColorProperty;
-		let opacities = this.GenerateOpacities();
 		this.map.SetClickableMap();
 
 		// Add data sources
@@ -372,12 +296,8 @@ export default class LodeApp extends Templated {
 		// Add layers which have data sources
 		this.AddLayers();
 
-		for (i = 0; i < this.current.LayerIDs.length; i += 1) {
-			currentLayer = this.current.LayerIDs[i];
-			layerType = this.map.GetLayerType(currentLayer);
-			layerColorProperty = this.map.GetLayerColorPropertyByType(layerType);
-			this.map.Choropleth([this.current.LayerIDs[i]], layerColorProperty, this.current.Legend, opacities);
-		}
+		// Update styling of layers
+		this.map.UpdateMapLayers(this.current.LayerIDs, this.group.legend, Store.Opacity);
 	}
 
 	/**
@@ -431,17 +351,20 @@ export default class LodeApp extends Templated {
 	 * @param {object} ev - Change event object, containing the search item details
 	 */
 	OnSearchChange_Handler(ev) {
-		var legend = [{
-			color : this.config.search.color,
-			value : ["==", ["get", this.config.search.field], ev.item.id]
-		}, {
-			color : [255, 255, 255, 0]
-		}];
+		var legend = {
+			config: [
+				{
+					color : this.config.search.color,
+					value : ["==", ["get", this.config.search.field], ev.item.id]
+				}, 
+				{
+					color : [255, 255, 255, 0]
+				}
+			]
+		};
 
 		this.table.UpdateTable(ev.item);
-
-		this.map.Choropleth([this.config.search.layer], 'line-color', legend);
-
+		this.map.UpdateMapLayers([this.config.search.layer], legend, Store.Opacity);
 		this.map.FitBounds(ev.item.extent, { padding:30, animate:false });
 	}
 }
