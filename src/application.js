@@ -64,18 +64,31 @@ export default class LodeApp extends Templated {
 	 * Create and add a map with events handling for user interactions.
 	 */
 	AddMap() {
-		var token = "pk.eyJ1IjoiZGVpbC1sZWlkIiwiYSI6ImNrMzZxODNvNTAxZjgzYm56emk1c3doajEifQ.H5CJ3maS0ZuxX_7QTgz1kg";
+		let token;
 
-		this.map = Factory.Map(this.Node("map"), token, this.current.Style, [Store.Lng, Store.Lat], Store.Zoom);
+		try {
+			if (this.config.credentials
+				&& this.config.credentials.mapbox
+				&& this.config.credentials.mapbox.accessToken) {
+				token = this.config.credentials.mapbox.accessToken;
+			} else {
+				throw 'Mapbox access token must be provided in config.credentials.json to generate a map';
+			}
 
-		// Set the maximum bounds of the map
-		this.map.SetMaxBounds(this.maxExtent);
+			this.map = Factory.Map(this.Node("map"), token, this.current.Style, [Store.Lng, Store.Lat], Store.Zoom);
 
-		// Hooking up all events
-		this.map.On("StyleChanged", this.OnMapStyleChanged_Handler.bind(this));
-		this.map.On("MoveEnd", this.OnMapMoveEnd_Handler.bind(this));
-		this.map.On("ZoomEnd", this.OnMapZoomEnd_Handler.bind(this));
-		this.map.On("Click", this.OnMapClick_Handler.bind(this));
+			// Set the maximum bounds of the map
+			this.map.SetMaxBounds(this.maxExtent);
+
+			// Hooking up all events
+			this.map.On("StyleChanged", this.OnMapStyleChanged_Handler.bind(this));
+			this.map.On("MoveEnd", this.OnMapMoveEnd_Handler.bind(this));
+			this.map.On("ZoomEnd", this.OnMapZoomEnd_Handler.bind(this));
+			this.map.On("Click", this.OnMapClick_Handler.bind(this));
+
+		} catch (err) {
+			console.error(err);
+		}
 	}
 
 	// Add all data sources defined in the map configuration.
