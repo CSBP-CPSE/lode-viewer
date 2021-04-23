@@ -37,7 +37,12 @@ function Start(results) {
 		config.search = value.result;
 	});
 		
-	Promise.all([p1, p2, p3]).then(results => {
+	var p4 = Net.JSON(`${Core.root}config/config.credentials.json`).then(value => {
+		// Store credentials in config
+		config.credentials = value.result;
+	});
+
+	Promise.all([p1, p2, p3, p4]).then(results => {
 		// Update app-container with application
 		var node = Dom.Node(document.body, "#app-container");
 		var app = new Application(node, config);
