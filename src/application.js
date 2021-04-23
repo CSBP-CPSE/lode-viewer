@@ -1,6 +1,5 @@
-import { Templated, Core, Net, Util, Dom, Other, Factory } from './web-mapping-components/web-mapping-components.js';
+import { Templated, Core, Net, Util, Dom, Store, Other, Factory } from './web-mapping-components/web-mapping-components.js';
 import Table from "./table.js";
-import Store from "./store.js";
 import Workaround from "./workaround.js";
 
 /**
