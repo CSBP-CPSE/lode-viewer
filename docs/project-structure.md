@@ -10,6 +10,7 @@ src/
 │   ├── tables/ # directory containing table config files for different datasets
 │   ├── config.application.json # main application config file containing a list of map config files
 │   ├── config.bookmarks.json # contains a list of view extents for metropolatin locations in Canada
+│   ├── config.credentials.json # contains credential information used by the app (e.g. mapbox access token)
 │   ├── config.nls.json # contains a list of localized strings for UI elements in both English and French
 │   └── config.search.json # contains a list of view extents for each Census Subdivision in Canada.
 ├── data/ # table data for each of the viewer datasets
