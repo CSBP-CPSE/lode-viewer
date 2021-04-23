@@ -23,8 +23,8 @@ src/
 ├── wet-boew4b/ # Web-Experience-Toolkit library (https://wet-boew.github.io/wet-boew/index-en.html)
 ├── application.js # Adds viewer components to webpage and binds event handlers for components
 ├── configuration.js # Contains logic for working with config files
-├── index-en.html
-├── index-fr.html
+├── index-en.html # English version of HTML document
+├── index-fr.html # French version of HTML document
 ├── main.js # Entry point of application. Viewer code is placed in #app-container div in index-en.html or index-fr.html
 ├── store.js # Provides methods for storing/retrieving data from local storage
 ├── table.js # Contains logic to make a table view and handles updating the table data
