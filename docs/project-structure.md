@@ -26,7 +26,6 @@ src/
 ├── index-en.html # English version of HTML document
 ├── index-fr.html # French version of HTML document
 ├── main.js # Entry point of application. Viewer code is placed in #app-container div in index-en.html or index-fr.html
-├── store.js # Provides methods for storing/retrieving data from local storage
 ├── table.js # Contains logic to make a table view and handles updating the table data
 └── workaround.js # Provides lookup methods for formatting/localizing content
 ```
