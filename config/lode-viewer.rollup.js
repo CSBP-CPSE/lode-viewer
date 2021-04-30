@@ -4,8 +4,7 @@ export default {
     input: '../lode-viewer/src/main.js',
     output: {
         file: '../lode-viewer/dist/main.min.js',
-        format: 'iife',
-        name: 'bundle'
+        format: 'iife'
     },
     plugins: [
         babel({
