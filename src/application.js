@@ -116,7 +116,7 @@ export default class LodeApp extends Templated {
 	}
 
 	// Add all layers defined in the map configuration which have data sources.
-	AddLayers() {
+	AddLayersWithSources() {
 		let mapLayers, currentLayer, i;
 		if (this.current && this.current.Layers) {
 			mapLayers = this.current.Layers;
@@ -306,7 +306,7 @@ export default class LodeApp extends Templated {
 		this.AddDataSources();
 
 		// Add layers which have data sources
-		this.AddLayers();
+		this.AddLayersWithSources();
 
 		// Update styling of layers
 		this.map.UpdateMapLayers(this.current.LayerIDs, this.group.legend, Store.Opacity);
