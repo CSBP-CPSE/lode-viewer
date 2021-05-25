@@ -1991,7 +1991,61 @@ class Layer {
  * expression.js
  * 
  * A collection of functions for generating mapbox expressions used for styling.
+ * For additional information on mapbox expressions, see the mapbox documentation 
+ * at, https://docs.mapbox.com/mapbox-gl-js/style-spec/expressions/
  */
+
+/**
+ * Converts a list of rgb numbers into an rgb or rgba string
+ * @param {array} colourList 
+ * @returns {string} rgb or rgba string
+ * Examples:
+ *   [50,150,250] -> "rgb(50,150,250)"
+ *   [50,150,250,0.5] -> "rgba(50,150,250,0.5)"
+ */
+function colourListToRGBString(colourList) {
+	let rgbString;
+
+	if (Array.isArray(colourList) && colourList.length >= 3) {
+		if (colourList.length === 3) {
+			rgbString = 'rgb(' + colourList.join(',') + ')';
+
+		} else if (styleItem.color.length === 4) {
+			rgbString = 'rgba(' + colourList.join(',') + ')';
+		}
+	}
+
+	return rgbString;
+}
+
+/**
+ * 
+ * Generate a list of opacity values for each legend item based on;
+ * the checkbox state, and if the legend item has the property binary_opacity
+ * set in the map config file.
+ * @param {object} legend current legend object
+ * @param {number} storedOpacity the stored opacity value
+ */
+function generateLegendOpacityValues(legend, storedOpacity) {
+	let legendOpacities = [];
+	let i, chkBox;
+
+	if (legend && legend.chkBoxesState) {
+		for (i = 0; i < legend.chkBoxesState.length; i += 1) {
+			chkBox = legend.chkBoxesState[i];
+
+			if (chkBox && chkBox.checkbox && !chkBox.checkbox.checked) {
+				legendOpacities.push(0);
+			} else if (chkBox && chkBox.item && chkBox.item.binary_opacity) {
+				legendOpacities.push(1);
+			} else {
+				legendOpacities.push(storedOpacity);
+			}
+		}
+	}
+
+	return legendOpacities;
+}
 
 /**
  * Generate mapbox expression for fill colours defined in the map config file.
@@ -2016,7 +2070,7 @@ function generateColourExpression(legend) {
 	}
 	
 	// Check that legend items length equals opacity length
-	if (Array.isArray(legendStyles) && legendStyles.length > 0) {
+	if (Array.isArray(legendStyles) && legendStyles.length > 1) {
 		expression = ['case'];
 		for (i = 0; i < legendStyles.length; i += 1) {
 			styleItem = legendStyles[i];
@@ -2024,12 +2078,7 @@ function generateColourExpression(legend) {
 			if (styleItem) {
 				// Define style color
 				if (styleItem.color) {
-					if (styleItem.color.length === 3) {
-						styleColor = 'rgb(' + styleItem.color.join(',') + ')';
-
-					} else if (styleItem.color.length === 4) {
-						styleColor = 'rgba(' + styleItem.color.join(',') + ')';
-					}
+					styleColor = colourListToRGBString(styleItem.color);
 				}
 
 				// Add style case and color
@@ -2051,6 +2100,13 @@ function generateColourExpression(legend) {
 		// is not the default colour (i.e. the one without a 
 		// a defined mapbox expression value)
 		expression.push(defaultColour);
+
+	} else if (Array.isArray(legendStyles) && legendStyles.length == 1) {
+		// If legend only includes 1 item, set style expression to the value of
+		// a rgb/rgba color string
+		if (legendStyles[0].color) {
+			expression = colourListToRGBString(legendStyles[0].color);
+		}
 	}
 
 	return expression;
@@ -2072,32 +2128,18 @@ function generateColourExpression(legend) {
  * 1] 
  */
 function generateOpacityExpression(legend, opacity) {
-	var styleOpacity, i, styleItem, defaultOpacity, legendStyles, chkBox, expression;
-	var legendOpacities = [];
+	var styleOpacity, i, styleItem, defaultOpacity, legendStyles, expression, legendOpacities ;
 
 	// Get styling from legend config
 	if (legend && legend.config) {
 		legendStyles = Legend.GetListOfStyles(legend.config);
 	}
 
-	// Generate a list of opacity values for each legend item based on;
-	// the checkbox state, and if the legend item has the property binary_opacity
-	// set in the map config file.
-	if (legend && legend.chkBoxesState) {
-		for (i = 0; i < legend.chkBoxesState.length; i += 1) {
-			chkBox = legend.chkBoxesState[i];
-
-			if (chkBox && chkBox.checkbox && !chkBox.checkbox.checked) {
-				legendOpacities.push(0);
-			} else if (chkBox && chkBox.item && chkBox.item.binary_opacity) {
-				legendOpacities.push(1);
-			} else {
-				legendOpacities.push(opacity);
-			}
-		}
-	}
+	// Generate legend opacity values based on legend checkbox state
+	legendOpacities = generateLegendOpacityValues(legend, opacity);
 	
-	if (Array.isArray(legendStyles) && legendStyles.length > 0 && legendOpacities.length > 0) {
+	// Create style expression for opacity values
+	if (Array.isArray(legendStyles) && legendStyles.length > 1 && legendOpacities.length > 1) {
 		expression = ['case'];
 		for (i = 0; i < legendStyles.length; i += 1) {
 			styleItem = legendStyles[i];
@@ -2125,7 +2167,12 @@ function generateOpacityExpression(legend, opacity) {
 		// is not the default colour (i.e. the one without a 
 		// a defined mapbox expression value)
 		expression.push(defaultOpacity);
+
+	} else if (Array.isArray(legendStyles) && legendStyles.length == 1 && legendOpacities.length == 1) {
+		// If legend only includes 1 item, set style expression to the only legend opacity value 
+		expression = legendOpacities[0];
 	}
+	
 	return expression;
 }
 
@@ -2136,7 +2183,7 @@ function generateOpacityExpression(legend, opacity) {
 function generateSymbolOpacityExpression(opacityExpression) {
 	let expression;
 
-	if (opacityExpression) {
+	if (opacityExpression && opacityExpression.length > 1) {
 		expression = [];
 		for (var i = 0; i < opacityExpression.length; i += 1) {
 			if (typeof opacityExpression[i] === 'number') {
@@ -2148,6 +2195,16 @@ function generateSymbolOpacityExpression(opacityExpression) {
 			} else {
 				expression.push(opacityExpression[i]);
 			}
+		}
+
+	} else if (typeof opacityExpression === 'number') {
+
+		// When a single opacity value represents the expression, the symbol opacity
+		// can either be 0 or 1
+		if (opacityExpression > 0) {
+			expression = 1;
+		} else {
+			expression = 0;
 		}
 	}
 
@@ -2243,6 +2300,7 @@ class Map extends Evented {
 		this.WrapEvent('moveend', 'MoveEnd');
 		this.WrapEvent('zoomend', 'ZoomEnd');
 		this.WrapEvent('load', 'Load');
+		this.WrapEvent('sourcedata', 'SourceData');
 		
 		this.map.once('load', ev => {
 			let mapContainer = this.map.getContainer();
@@ -2285,7 +2343,7 @@ class Map extends Evented {
 	 * 	}
 	 */
 	AddLayer(layer) {
-		if (layer.id && layer.type) {
+		if (layer.id && layer.type && !Layer.GetLayer(this.map, layer.id)) {
 			this.map.addLayer(layer);
 		}
 	}
@@ -2326,25 +2384,31 @@ class Map extends Evented {
 		};
 		
 		let options = Util.Mixin(defaultOpts, definedOpts);
+		let clusterLayerId = (options.id || options.source) + '_clusters';
+		let clusterCountLayerId = (options.id || options.source) + '_clusters-count';
+		
+		if (!Layer.GetLayer(this.map, clusterLayerId)) {
+			// Add clusters layer for source
+			this.map.addLayer({
+				id: clusterLayerId,
+				type: 'circle',
+				source: options.source,
+				filter: options.filter, 
+				paint: options.circle_paint
+			});
+		}
 
-		// Add clusters layer for source
-		this.map.addLayer({
-			id: (options.id || options.source) + '_clusters',
-			type: 'circle',
-			source: options.source,
-			filter: options.filter, 
-			paint: options.circle_paint
-		});
-
-		// Add cluster count labels layer
-		this.map.addLayer({
-			id: (options.id || options.source) + '_cluster-count',
-			type: 'symbol',
-			source: options.source,
-			filter: options.filter,
-			layout: options.label_layout,
-			paint: options.label_paint 
-		});
+		if (!Layer.GetLayer(this.map, clusterCountLayerId)) {
+			// Add cluster count labels layer
+			this.map.addLayer({
+				id: clusterCountLayerId,
+				type: 'symbol',
+				source: options.source,
+				filter: options.filter,
+				layout: options.label_layout,
+				paint: options.label_paint 
+			});
+		}
 	}
 
 	/**
@@ -2422,7 +2486,7 @@ class Map extends Evented {
 		var opacityExpression = generateOpacityExpression(legend, opacity);
 		var symbolOpacityExpression = generateSymbolOpacityExpression(opacityExpression);
 
-		if (opacityExpression && symbolOpacityExpression) {
+		if ((opacityExpression || opacityExpression === 0) && (symbolOpacityExpression || symbolOpacityExpression === 0)) {
 			for (var i = 0; i < layerIDs.length; i += 1) {
 				// Get Layer Colour Property
 				let currentLayerID = layerIDs[i];
@@ -2574,7 +2638,7 @@ class Factory {
 			positionOptions: { enableHighAccuracy: true },
 			trackUserLocation: true
 		});
-	} 
+	}
 	
 	/**
 	 * Create a new scale control that's added to the map component
@@ -2583,7 +2647,7 @@ class Factory {
 	 */
 	static ScaleControl(units) {
 		return new maplibregl.ScaleControl({
-			maxWidth: 80,
+			maxWidth: 100,
 			unit: units
 		});
 	}
