@@ -231,7 +231,7 @@ export default class LodeApp extends Templated {
 	 * @param {object} ev - Legend change event object containing the state of each legend item
 	 */
 	OnLegend_Changed(ev) {
-		this.map.UpdateMapLayers(this.current.LayerIDs, this.group.legend, Store.Opacity);
+		this.map.UpdateMapLayersWithLegendState(this.current.LayerIDs, this.group.legend, Store.Opacity);
     }
 
 	/**
@@ -240,7 +240,7 @@ export default class LodeApp extends Templated {
 	 */
 	OnOpacitySlider_Changed(ev) {		
 		Store.Opacity = ev.opacity;
-		this.map.UpdateMapLayers(this.current.LayerIDs, this.group.legend, Store.Opacity);
+		this.map.UpdateMapLayersWithLegendState(this.current.LayerIDs, this.group.legend, Store.Opacity);
 	}
 
 	/**
@@ -309,7 +309,7 @@ export default class LodeApp extends Templated {
 		this.AddLayersWithSources();
 
 		// Update styling of layers
-		this.map.UpdateMapLayers(this.current.LayerIDs, this.group.legend, Store.Opacity);
+		this.map.UpdateMapLayersWithLegendState(this.current.LayerIDs, this.group.legend, Store.Opacity);
 	}
 
 	/**
@@ -376,7 +376,7 @@ export default class LodeApp extends Templated {
 		};
 
 		this.table.UpdateTable(ev.item);
-		this.map.UpdateMapLayers([this.config.search.layer], legend, Store.Opacity);
+		this.map.UpdateMapLayersWithLegendState([this.config.search.layer], legend, Store.Opacity);
 		this.map.FitBounds(ev.item.extent, { padding:30, animate:false });
 	}
 }
