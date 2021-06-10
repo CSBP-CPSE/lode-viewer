@@ -13,12 +13,14 @@ def CreateSearchItems(options):
     """
     Generates the search items for the search bar
     :param options {dictionary} - contains the options for the generating the search data
-    Options Example:
+    Options Examples:
     {
         "input": "input_file",
         "output": "output_file_name",
         "uid": "unique_id_column_name_of_search_location",
-        "name": "name_column_of_search_location"
+        "name": "name_column_of_search_location",
+        "layer": "map_layer_name",
+        "layeruid": "map_layer_uid"
     }
     """
     cPath = PurePath("./output", "./config")
@@ -27,7 +29,7 @@ def CreateSearchItems(options):
 
     df = gpd.read_file(options['input'])
 
-    data = {"id": "search", "layer": "csd-search", "field": "uid", "color": [175, 30, 40, 1], "items": []}
+    data = {"id": "search", "layer": options['layer'], "field": options['layeruid'], "color": [175, 30, 40, 1], "items": []}
 
     # Generate search items for each row in input
     for index, row in df.iterrows():
@@ -44,6 +46,7 @@ CreateSearchItems({
     "input": "./source/CSD/CSD.shp",
     "output": "config.search.json",
     "uid": "CSDUID",
-    "name": "CSDNAME"
+    "name": "CSDNAME",
+    "layer": "csd-search",
+    "layeruid": "uid"
 })
-
