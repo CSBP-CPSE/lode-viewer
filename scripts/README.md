@@ -11,7 +11,7 @@ A collection of scripts for preparing data and generating configuration files fo
 │       ├───ODCAF
 │       └───ODHF
 ├ bookmarks.py - Python script that generates ./src/config/config.bookmarks.json from CMA data.
-├ search.py - Python script that generates ./src/config/config.search.json from CSD data
+├ search.py - Python script that generates config search files.
 ├ table.py - Python script for preparing table data
 └ util.py - Python script containing various utility functions
 ```
