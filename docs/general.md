@@ -16,5 +16,7 @@ Example:
 }
 ```
 
+Note: This string should not be committed to github, and should remain private. 
+
 ## Adding new datasets to Lode-Viewer App: 
 See `/docs/add-dataset.md` for an indepth overview of how to add new datasets.
