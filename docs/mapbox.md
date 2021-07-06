@@ -15,13 +15,16 @@ Note: When Mapbox converts the data, no options are available to configure the m
 
 2) Alternatively you can also convert the data using Mapbox's tippecanoe, and then upload the mbtile file in Mapbox studio.
 
-Example: `tippecanoe -z12 --drop-densest-as-needed --force -o myoutputfile.mbtiles myinputfile.geojson`
+Example: `tippecanoe -z12 -o outputfile.mbtiles --drop-densest-as-needed --extend-zooms-if-still-dropping --force inputfile.json`
 
 Options:
 * `--force`: overwrite existing output
 * `--drop-densest-as-needed`: If tiles are too large, try to drop the least visible features at each zoom level. 
+* `--extend-zooms-if-still-dropping`: Add zoom levels until a zoom level can display all features.
 * `-z12`: Output tiles at zoom levels 0-12.
 * `-o`: Specify the output name for the mbtiles file.
+
+Note: A more complete list of tippecanoe options can be found on the [Github website](https://github.com/mapbox/tippecanoe).
 
 ## Steps To Add And Use A New Tileset Through Mapbox Studio:
 To add and use a tileset through Mapbox Studio requires two steps; Upload a tileset, and add that tileset layer in a map style document.
