@@ -689,7 +689,7 @@
 	"legend": [
 		{
             "color": [255, 25, 167],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Artist",
                 "fr": "Artiste"
@@ -698,7 +698,7 @@
         }, 
 		{
             "color": [255, 214, 10],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Art or Cultural Centre",
                 "fr": "Centre des arts ou de culture"
@@ -707,7 +707,7 @@
         }, 
 		{
             "color": [30, 221, 232],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Festival Site",
                 "fr": "Site de festival"
@@ -716,7 +716,7 @@
         }, 
 		{
             "color": [249, 49, 84],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Gallery",
                 "fr": "Galerie"
@@ -725,7 +725,7 @@
         }, 
 		{
             "color": [136, 33, 255],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Heritage or Historic Site",
                 "fr": "Site patrimonial ou historique"
@@ -734,7 +734,7 @@
         }, 
 		{
             "color": [255, 145, 0],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Library or Archives",
                 "fr": "Bibliothèque ou archives"
@@ -743,7 +743,7 @@
         }, 
 		{
             "color": [50, 128, 229],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Museum",
                 "fr": "Musée"
@@ -752,7 +752,7 @@
         }, 
 		{
             "color": [238, 255, 65],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Theatres/Performance and Concert Hall",
                 "fr": "Théâtres/salles de spectacle et salles de concert"
@@ -762,7 +762,7 @@
 		{
 			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
             "color": [207, 216, 220],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Miscellaneous",
                 "fr": "Divers"

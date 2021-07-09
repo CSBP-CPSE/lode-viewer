@@ -120,7 +120,7 @@
 	"legend": [
 		{
             "color": [50, 128, 229],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Early Childhood Education",
                 "fr": "Éducation de la petite enfance"
@@ -129,7 +129,7 @@
         },
 		{
             "color": [102,166,30],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
 				"en": "Early Childhood and Primary Education",
                 "fr": "Éducation de la petite enfance et enseignement primaire"
@@ -138,7 +138,7 @@
         },
 		{
             "color": [230,171,2],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
 				"en": "Early Childhood, Primary, and Secondary Education",
                 "fr": "Enseignement préscolaire, primaire et secondaire"
@@ -147,7 +147,7 @@
         },
 		{
             "color": [166,118,29],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
 				"en": "Primary Education",
                 "fr": "Enseignement primaire"
@@ -156,7 +156,7 @@
         },
 		{
         	"color": [217,95,2],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Primary and Secondary Education",
                 "fr": "Enseignement primaire et secondaire"
@@ -165,7 +165,7 @@
         },
 		{
         	"color": [231,41,138],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Secondary Education",
                 "fr": "Enseignement secondaire"
@@ -174,7 +174,7 @@
         }, 
 		{
             "color": [117,112,179],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Post-Secondary Education",
                 "fr": "Enseignement post-secondaire"
@@ -184,7 +184,7 @@
 		{
 			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
             "color": [207, 216, 220],
-			"binary_opacity": true,
+			"opacity": 1,
             "label": {
                 "en": "Miscellaneous",
                 "fr": "Divers"

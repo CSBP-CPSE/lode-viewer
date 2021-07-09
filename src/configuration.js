@@ -168,6 +168,7 @@ export default class Configuration {
 		return legend.map(l => { 
 			return { 
 				color : l.color, 
+				opacity: l.opacity,
 				label : l.label && l.label[Core.locale], 
 				title : Core.Nls("Legend_Checkbox_Title"),
 				value : l.value,
@@ -175,7 +176,6 @@ export default class Configuration {
 					heading: l.group && l.group[Core.locale],
 					items: l.items && this.MapLegendItems(l.items)
 				},
-				binary_opacity: l.binary_opacity || false
 			}
 		});
 	}
