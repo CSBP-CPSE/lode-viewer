@@ -1,1 +1,62 @@
-Dummy File
+{
+    "id" : "ODRSF",
+	"source" : "./source/Tables/ODRSF/ODRSF.csv",
+	"title": {
+        "en": "Detailed table of Recreational and Sport Facilities in {0}",
+        "fr": "Tableau détaillé des installations récréatives et sportives {0}"
+    },
+    "description": {
+        "en": "This table contains the Recreational and Sport Facilities contained in the selected census subdivision.",
+        "fr": "Ce tableau contient les installations récréatives et sportives contenus dans la sous-division de recensement sélectionnée."
+    },
+    "fields": [
+        {
+            "id": "Index",
+            "en": "Recreational and Sport Facilities ID",
+            "fr": "ID de installations récréatives et sportives pour",
+   	        "type": "text"
+    	},
+	    {
+            "id": "Facility_Name",
+            "en": "Facility name",
+            "fr": "Nom de l'établissement",
+	        "type": "text"
+        },
+        {
+            "id": "ODRSF_Facility_Type",
+            "en": "Type",
+            "fr": "Type",
+	        "type": "text"
+        },
+        {
+            "id": "Street_No",
+            "en": "Street number",
+            "fr": "Numéro civique",
+	        "type": "numeric"
+        },
+        {
+            "id": "Street_Name",
+            "en": "Street name",
+            "fr": "Nom de la rue",
+	        "type": "text"
+        },
+        {
+            "id": "City",
+            "en": "City",
+            "fr": "Ville",
+	        "type": "text"
+        },
+        {
+            "id": "Prov_Terr",
+            "en": "Province/Territory",
+            "fr": "Province/Territoire",
+            "type": "text"
+        },
+        {
+            "id": "Postal_Code",
+            "en": "Postal code",
+            "fr": "Code postal",
+	        "type": "text"
+        }
+    ]
+}
