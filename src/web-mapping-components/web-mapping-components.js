@@ -718,7 +718,15 @@ class Store {
 	 * @returns {number} - opacity value
 	 */
 	static get Opacity() {
-		return Number(localStorage.getItem("lode-opacity")) || 0.75;
+		// default opacity is set to 75%
+		let opacity = 0.75;
+		let storedOpacity = Number(localStorage.getItem("lode-opacity"));
+
+		if (storedOpacity || storedOpacity === 0){
+			opacity = storedOpacity;	
+		}
+
+		return opacity;
 	}
 	
 	/**
