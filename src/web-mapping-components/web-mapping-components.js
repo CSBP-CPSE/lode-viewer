@@ -717,13 +717,13 @@ class Store {
 	 * Get the lode-opacity vector opacity level from localStorage
 	 * @returns {number} - opacity value
 	 */
-	static get Opacity() {
+	 static get Opacity() {
 		// default opacity is set to 75%
 		let opacity = 0.75;
-		let storedOpacity = Number(localStorage.getItem("lode-opacity"));
+		let storedOpacity = localStorage.getItem("lode-opacity");
 
-		if (storedOpacity || storedOpacity === 0){
-			opacity = storedOpacity;	
+		if (storedOpacity) {
+			opacity = Number(storedOpacity);
 		}
 
 		return opacity;
