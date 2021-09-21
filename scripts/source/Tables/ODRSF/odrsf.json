@@ -29,6 +29,12 @@
 	        "type": "text"
         },
         {
+            "id": "Provider",
+            "en": "Provider",
+            "fr": "Fournisseur",
+	        "type": "text"
+        },
+        {
             "id": "Street_No",
             "en": "Street number",
             "fr": "Numéro civique",
@@ -38,6 +44,12 @@
             "id": "Street_Name",
             "en": "Street name",
             "fr": "Nom de la rue",
+	        "type": "text"
+        },
+        {
+            "id": "Postal_Code",
+            "en": "Postal code",
+            "fr": "Code postal",
 	        "type": "text"
         },
         {
@@ -51,12 +63,6 @@
             "en": "Province/Territory",
             "fr": "Province/Territoire",
             "type": "text"
-        },
-        {
-            "id": "Postal_Code",
-            "en": "Postal code",
-            "fr": "Code postal",
-	        "type": "text"
         }
     ]
 }
