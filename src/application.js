@@ -172,11 +172,6 @@ export default class LodeApp extends Templated {
 	 * Create and add a map legend based on legend items defined in map config document.
 	 */
 	AddGroup() {
-		let opacity_label = {
-			"en": "Building Footprint Opacity",
-			"fr": "Opacité de l'empreinte d'immeuble"
-		}
-
 		// Top-right group for legend, etc.		
 		this.group = {
 			legend : Factory.LegendControl(this.current.Legend, this.current.FullTitle, null, this.current.Subtitle),
@@ -187,7 +182,7 @@ export default class LodeApp extends Templated {
 		
 		this.group.legend.On("LegendChange", this.OnLegend_Changed.bind(this));
 		this.group.opacity.title = Core.Nls("Toc_Opacity_Title");
-		this.group.opacity.label = opacity_label[Core.locale];
+		this.group.opacity.label = Core.Nls("Toc_Opacity_Label");
 		this.group.opacity.On("OpacitySliderChanged", this.OnOpacitySlider_Changed.bind(this));
 	}
 
