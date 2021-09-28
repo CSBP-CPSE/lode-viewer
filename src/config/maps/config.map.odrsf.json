@@ -1,0 +1,316 @@
+{
+	"id": "odrsf",
+	"style": "mapbox://styles/deil-leid/cktly2hz32gnz17s773foudef",
+    "table": "config/tables/config.table.odrsf.json",
+    "layers": [
+		{
+            "id": "odrsf",
+			"click" : true
+		},
+		{
+			"id": "odrsf-labels"
+        },
+		{
+            "id": "bc",
+            "label": {
+            	"en": "British Columbia",
+            	"fr": "Colombie-Britannique"
+            }
+		},
+		{
+            "id": "ab",
+            "label": {
+            	"en": "Alberta",
+            	"fr": "Alberta"
+			}
+		},
+		{
+            "id": "sk",
+            "label": {
+            	"en": "Saskatchewan",
+            	"fr": "Saskatchewan"
+            }
+		},
+		{
+            "id": "mb",
+            "label": {
+            	"en": "Manitoba",
+            	"fr": "Manitoba"
+            }
+		},
+		{
+			"id": "on-pt1",
+            "label": {
+            	"en": "Ontario",
+            	"fr": "Ontario"
+            }
+		},		
+		{
+            "id": "on-pt2",
+            "label": {
+            	"en": "Ontario",
+            	"fr": "Ontario"
+            }
+		},
+		{
+            "id": "qc",
+            "label": {
+            	"en": "Quebec",
+            	"fr": "Québec"
+            }
+		},
+		{
+            "id": "pe",
+            "label": {
+            	"en": "Prince Edward Island",
+            	"fr": "Île-du-Prince-Édouard"
+            }
+		},
+		{
+            "id": "ns",
+            "label": {
+            	"en": "Nova Scotia",
+            	"fr": "Nouvelle-Écosse"
+            }
+		},
+		{
+            "id": "nb",
+            "label": {
+            	"en": "New Brunswick",
+            	"fr": "Nouveau-Brunswick"
+            }
+		},
+		{
+            "id": "nl",
+            "label": {
+            	"en": "Newfoundland and Labrador",
+                "fr": "Terre-Neuve-et-Labrador"
+            }
+		},
+		{
+            "id": "nt",
+            "label": {
+            	"en": "Northwest Territories",
+            	"fr": "Territoires du Nord-Ouest"
+            }
+		},
+		{
+            "id": "nu",
+            "label": {
+            	"en": "Nunavut",
+            	"fr": "Nunavut"
+            }
+		},
+		{
+            "id": "yt",
+            "label": {
+            	"en": "Yukon",
+            	"fr": "Yukon"
+			}
+		}
+    ],
+    "title": {
+       	"en": "Open Database of Recreational and Sport Facilities",
+		"fr": "Base de données ouvertes sur les installations récréatives et sportives"
+    },
+    "abbr": {
+       	"en": "ODRSF",
+       	"fr": "BDOIRS"
+	},
+	"legend": [
+		{
+            "color": [128, 0, 0],
+			"opacity": 1,
+            "label": {
+                "en": "Arena",
+                "fr": "Aréna"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "arena"]
+        },
+		{
+            "color": [255, 109, 0],
+			"opacity": 1,
+            "label": {
+                "en": "Athletic Park",
+                "fr": "Parc Sportifs"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "athletic park"]
+        },
+		{
+            "color": [70, 240, 240],
+			"opacity": 1,
+            "label": {
+                "en": "Beach",
+                "fr": "Plage"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "beach"]
+        },
+		{
+            "color": [199, 169, 135],
+			"opacity": 1,
+            "label": {
+                "en": "Casino",
+                "fr": "Casino"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "casino"]
+        },
+		{
+            "color": [128, 128, 0],
+			"opacity": 1,
+            "label": {
+                "en": "Community Centre",
+                "fr": "Centre Communautaire"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "community centre"]
+        },
+		{
+            "color": [0, 128, 128],
+			"opacity": 1,
+            "label": {
+                "en": "Gym",
+                "fr": "Gymnase"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "gym"]
+        },
+		{
+            "color": [145, 30, 180],
+			"opacity": 1,
+            "label": {
+                "en": "Marina",
+                "fr": "Marina"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "marina"]
+        },
+		{
+            "color": [118, 255, 3],
+			"opacity": 1,
+            "label": {
+                "en": "Park",
+                "fr": "Parc"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "park"]
+        },
+		{
+            "color": [240, 50, 230],
+			"opacity": 1,
+            "label": {
+                "en": "Playground",
+                "fr": "Terrain de Jeux"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "playground"]
+        },
+		{
+            "color": [0, 130, 200],
+			"opacity": 1,
+            "label": {
+                "en": "Pool",
+                "fr": "Piscine"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "pool"]
+        },
+		{
+            "color": [250, 190, 212],
+			"opacity": 1,
+            "label": {
+                "en": "Race Track",
+                "fr": "Piste de Course"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "race track"]
+        }, 
+		{
+            "color": [230, 190, 255],
+			"opacity": 1,
+            "label": {
+                "en": "Rink",
+                "fr": "Patinoire"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "rink"]
+        }, 
+		{
+            "color": [170, 255, 195],
+			"opacity": 1,
+            "label": {
+                "en": "Skate Park",
+                "fr": "Planchodrome"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "skate park"]
+        }, 
+		{
+            "color": [0, 0, 128],
+			"opacity": 1,
+            "label": {
+                "en": "Splash Pad",
+                "fr": "Aire de Jeux d’Eau"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "splash pad"]
+        }, 
+		{
+            "color": [60, 180, 75],
+			"opacity": 1,
+            "label": {
+                "en": "Sports Field",
+                "fr": "Terrain de Sport"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "sports field"]
+        }, 
+		{
+            "color": [230, 25, 75],
+			"opacity": 1,
+            "label": {
+                "en": "Stadium",
+                "fr": "Stade"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "stadium"]
+        }, 
+		{
+            "color": [255, 255, 25],
+			"opacity": 1,
+            "label": {
+                "en": "Trail - entrances and waypoints",
+                "fr": "Sentiers - entrées et points de cheminement"
+            },
+            "value": ["==", ["get", "ODRSF_facility_type"], "trail"]
+        }, 
+		{
+			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
+            "color": [207, 216, 220],
+			"opacity": 1,
+            "label": {
+                "en": "Miscellaneous",
+                "fr": "Divers"
+			}
+		},
+        {
+   			"group": {
+   				"en": "Building Footprints",
+   				"fr": "Empreintes d'immeubles"
+			},
+			"items": [
+				{
+    				"color": [239, 154, 154],
+    				"label": {
+    					"en": "<a href='https://www.statcan.gc.ca/eng/lode/databases/odb' title='Open in a new window' target='_blank'>LODE Open Database of Buildings</a>",
+    					"fr": "<a href='https://www.statcan.gc.ca/fra/ecdo/bases-donnees/bdoi' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>ECDO Base de données ouvertes sur les immeubles</a>"
+    				},
+    				"value": ["all", ["has", "Data_prov"], ["!=", ["get", "Data_prov"], "Microsoft"], ["!=", ["get", "Data_prov"], "OSM"]]
+    			},
+   				{
+   					"color": [244, 216, 168],
+   					"label": {
+   						"en": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Open in a new window' target='_blank'>Microsoft</a>",
+   						"fr": "<a href='https://github.com/Microsoft/CanadianBuildingFootprints' title='Ouvrir dans une nouvelle fenêtre' target='_blank'>Microsoft</a>"
+   					},
+   					"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "Microsoft"]]
+				},
+   				{
+   					"color": [111, 162, 186],
+   					"label": {
+   						"en": "<a href='https://www.openstreetmap.org/about/' title='Open in a new window' target='_blank'>© OpenStreetMap contributors</a>",
+   						"fr": "<a href='https://www.openstreetmap.org/about/'  title='Ouvrir dans une nouvelle fenêtre' target='_blank'>© Contributeurs d'OpenStreetMap</a>"
+   					},
+   					"value": ["all", ["has", "Data_prov"], ["==", ["get", "Data_prov"], "OSM"]]
+   				}
+			]
+		}
+	]
+}
