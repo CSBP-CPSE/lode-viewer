@@ -1446,6 +1446,99 @@ class Menu extends Control {
 	}
 }
 
+/**
+ * LabelsToggle class
+ * @class
+ */
+class LabelsToggle extends Control { 
+		
+	constructor(options) {	
+		super(options);
+		
+		this.map = options.map;
+
+		this._container = this.Node('root');
+
+		// If a custom label is provided, update menu label
+		if (options.label && typeof(options.label) === 'string') {
+			this.Node('labels-toggle-label').innerHTML = options.label;			
+		}
+
+		// Add event listeners for change events on maps menu
+		this.Node('labels-toggle-checkbox').addEventListener('change', this.onLabelsToggleCheckboxChange_Handler.bind(this));
+	}
+
+	/**
+	 * Retrieve a list of layers used by the map
+	 * @returns {array} List containing all layers in the map's style specification
+	 */
+	getMapStyleLayers() {
+		let mapStyle = this.map.GetStyle();
+			
+		if (mapStyle && mapStyle.layers) {
+			return mapStyle.layers;
+		}
+	}
+
+	/**
+	 * Get a list of label layers.
+	 * 
+	 * Note: Label layers in Mapbox use the layer type 'symbol', and have the 
+	 * property 'text-field' defined. 
+	 * @returns {array} List of layer ids for label layers
+	 */
+	getLabelLayers() {
+		let layerIds = [];
+		let styleLayers = this.getMapStyleLayers();
+
+		for (let i = 0; i < styleLayers.length; i += 1) {
+			let layer = styleLayers[i];
+			if (layer.type && layer.type === 'symbol') {
+				let layerId = layer.id;
+
+				if (this.map.GetLayoutProperty(layerId, 'text-field')) {
+					layerIds.push(layer.id);
+				}
+			}
+		}
+
+		return layerIds;
+	}
+
+	/**
+	 * Handle labels toggle checkbox changes
+	 * @param {object} ev Change event
+	 */
+	onLabelsToggleCheckboxChange_Handler(ev) {
+		let layerIds = this.getLabelLayers();
+
+		if (ev && ev.currentTarget && ev.currentTarget.checked) {
+			for (let i = 0; i < layerIds.length; i += 1) {
+				let layerId = layerIds[i];
+				this.map.ShowLayer(layerId);
+			}
+		} else {
+			for (let i = 0; i < layerIds.length; i += 1) {
+				let layerId = layerIds[i];
+				this.map.HideLayer(layerId);
+			}
+		}
+	}
+
+	/**
+	 * HTML Template for Labels Toggle Control
+	 * @returns {string} Template representing a labels toggle control
+	 */
+	 Template() {
+		return "<div handle='root' class='labels-toggle mapboxgl-ctrl'>" + 
+					"<div class='labels-toggle-container'>" + 
+						"<label handle='labels-toggle-label' class='labels-toggle-label'>Labels</label>" +
+						"<input type='checkbox' checked aria-label='Labels' handle='labels-toggle-checkbox' name='labels-toggle-checkbox' class='labels-toggle-checkbox'></input>" +
+					"</div>" +
+			   "</div>"
+	}
+}
+
 let n = 0;
 
 /**
@@ -1674,6 +1767,115 @@ class MapsList extends Control {
 				  "</div>" +
 				  "<ul handle='ul' class='maps-list'></ul>" + 
 				  // "<div handle='description' class='maps-description'>nls(Maps_Description)</div>" +
+			   "</div>"
+	}
+}
+
+/**
+ * MapsMenu Control class
+ * @class
+ */
+class MapsMenu extends Control { 
+		
+	constructor(options) {	
+		super(options);
+		
+		this._container = this.Node('root');
+		this.maps = options.maps;
+
+		// If a custom label is provided, update menu label
+		if (options.label && typeof(options.label) === 'string') {
+			this.Node('maps-menu-label').innerHTML = options.label;			
+		}
+
+		// Update the Maps Select Menu
+		this.updateMapsMenu(this.maps);
+
+		// Add event listeners for change events on maps menu
+		this.Node('maps-menu').addEventListener('change', this.onMapsMenuSelectorChange_Handler.bind(this));
+	}
+
+	/**
+	 * Select maps menu value getter
+	 * @returns {string} The value of the maps-menu select element
+	 */
+	get value() {
+		return this.Node('maps-menu').value;
+	}
+
+	/**
+	 * Select maps menu value setter
+	 * @param {string} val The value the maps-menu select element should be set to
+	 */
+	set value(val) {
+		let menu = this.Node('maps-menu');
+		menu.value = val;
+	}
+
+	/**
+	 * Update the maps menu with a collection of maps as select menu options.
+	 * @param {object} maps a collection of maps
+	 * Example of basic maps object structure:
+	 * {
+	 * 		"mapa": {
+	 * 			id: "mapa",
+	 * 			title: "Map A",
+	 * 			style: "mapbox://styles/<user-name>/<map-style-id>",
+	 * 			...	
+	 * 		},
+	 * 		"mapb": {
+	 * 			id: "mapb",
+	 * 			title: "Map B",
+	 * 			style: "mapbox://styles/<user-name>/<map-style-id>",
+	 * 			...
+	 * 		},
+	 * 		"mapc": {
+	 * 			id: "mapc",
+	 * 			title: "Map C",
+	 * 			style: "mapbox://styles/<user-name>/<map-style-id>",
+	 * 			...
+	 * 		}
+	 * }
+	 */
+	updateMapsMenu(maps) {
+		let mapKeys = Object.keys(maps);
+
+		for (let i = 0; i < mapKeys.length; i += 1) {
+			let mapKey = mapKeys[i];
+			let map = maps[mapKey];
+
+			let opt = Dom.Create('option', {
+				value: map.id,
+				innerHTML: map.title
+			}, this.Node('maps-menu'));
+			opt.setAttribute('handle', 'maps-menu-option');
+		}
+	}
+
+	/**
+	 * Handle maps menu selection changes and emit required map selection details 
+	 * @param {object} ev Change event
+	 */
+	onMapsMenuSelectorChange_Handler(ev) {
+		let mapsMenuSelection = this.Node('maps-menu').value;
+
+		// Emit change event for maps menu
+		this.Emit('MapsMenuControlChanged', {
+			id: mapsMenuSelection, 
+			map: this.maps[mapsMenuSelection]
+		});
+	}
+
+	/**
+	 * HTML Template for Maps Menu Control
+	 * @returns {string} Template representing a maps menu control
+	 */
+	Template() {
+		return "<div handle='root' class='maps-menu mapboxgl-ctrl'>" + 
+					"<div class='maps-menu-container'>" + 
+						"<label handle='maps-menu-label' class='maps-menu-label'>Maps</label>" +
+						"<select aria-label='Maps' handle='maps-menu' name='maps-menu' class='maps-menu'></select>" +
+					"</div>" +
 			   "</div>"
 	}
 }
@@ -2899,6 +3101,16 @@ class Factory {
 	}
 	
 	/**
+	 * Builds a Maps Menu Control
+	 * @param {object} maps A collection of keys containing the details on each map 
+	 * @param {string} label The label to be shown next to the maps select menu
+	 * @returns MapsMenu object
+	 */
+	static MapsMenuControl(maps, label) {
+		return new MapsMenu({ maps:maps, label:label });
+	}
+	
+	/**
 	 * Creates a new Bookmarks control that can be added to a map.
 	 * The control provides an easy way to navigate the map to predefined
 	 * locations.
@@ -2963,6 +3175,16 @@ class Factory {
 	static Group(controls) {
 		return new Menu({ controls:controls });
 	}
+	
+	/**
+	 * Create a Labels Toggle Control
+	 * @param {object} map Web-Mapping-Components Map Object
+	 * @param {string} label Control label
+	 * @returns A new Labels Toggle control
+	 */
+	static LabelsToggleControl(map, label) {
+		return new LabelsToggle({ map: map, label : label });
+	}
 }
 
 /**
@@ -3018,4 +3240,4 @@ class Other {
 	}
 }
 
-export { Bookmarks, Control, Core, Dom, Download, Evented, Factory, Fullscreen, Menu as Group, Legend, Map, MapsList, Menu$1 as Menu, Navigation, Net, Opacity, Other, Popup, Search, Store, Templated, Toc, Tooltip, typeahead as Typeahead, Util };
+export { Bookmarks, Control, Core, Dom, Download, Evented, Factory, Fullscreen, Menu as Group, LabelsToggle, Legend, Map, MapsList, MapsMenu, Menu$1 as Menu, Navigation, Net, Opacity, Other, Popup, Search, Store, Templated, Toc, Tooltip, typeahead as Typeahead, Util };
