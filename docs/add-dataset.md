@@ -117,7 +117,7 @@ If you're not creating a new mbtiles dataset with Mapbox Studio you can alternat
   * `colors`: The colours (as rgb) for the thematic map and legend.
   * `label`: The label to appear on the map legend.
   * `value`: The logic assigning a colour to a dataset variable and an unique value. The only thing that needs to be changed here is the variable name and the value to be coloured for the thematic map.
-  * `binary-opacity`: If set to true, the opacity of the legend item can either being 1 or 0, and won't be affected by the variable opacity slider.
+  * `opacity`: The opacity of the legend item, a value between 0-1, which overrides values updated by the opacity slider control.
   * `group`: The group property allows legends to be divided into groups, which contain a collection of related legend items with it's own group heading.
     * Group Example:
 ```json
