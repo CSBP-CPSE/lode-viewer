@@ -110,7 +110,12 @@ class Util {
 		var i = 0;
 		
 		var lines = [[]];
-		
+
+		// Replace CRLF line breaks with LF if they exist
+		// This ensures that CR are not included in the array output
+		let CRLFRegex = new RegExp("\r\n", "g");
+		csv = csv.replace(CRLFRegex, "\n");
+
 		while (s < csv.length) {
 			if (csv[s] == '"') {
 				s++;
@@ -125,7 +130,7 @@ class Util {
 				var e1 = csv.indexOf(',', s);
 				var e2 = csv.indexOf('\n', s);
 								
-				var e = (e1 > -1 && e1 < e2) ? e1 : e2;							
+				var e = (e1 > -1 && e1 < e2) ? e1 : e2;							
 								
 				lines[i].push(csv.substr(s, e - s));
 					
@@ -155,9 +160,9 @@ class Util {
 		nodes.forEach(n => {
 			var selection = n.querySelectorAll(focusable);
 			
-			if (selection.length == 0) return;
+			if (selection.length == 0) return;
 			
-			for (var i = 0; i < selection.length; i++) selection[i].disabled = disabled;
+			for (var i = 0; i < selection.length; i++) selection[i].disabled = disabled;
 		});
 	}
 }
@@ -500,7 +505,7 @@ class Dom {
 		var h = h - pT - pB;
 		
 		// Use smallest width as width and height for square grid that fits in container
-		// var s = w < h ? w : h;
+		// var s = w < h ? w : h;
 		
 		return { w : w , h : h }
 	}
@@ -514,7 +519,7 @@ class Dom {
 	static Siblings(elem) {
 		var elements = [];
 		
-		for (var i = 0; i < elem.parentNode.children.length; i++) elements.push(elem.parentNode.children[i]);
+		for (var i = 0; i < elem.parentNode.children.length; i++) elements.push(elem.parentNode.children[i]);
 		
 		elements.splice(elements.indexOf(elem), 1);
 		
@@ -570,7 +575,7 @@ class Net {
 	static JSON(url) {
 		var d = Core.Defer();
 		
-		Net.Request(url).then(r => d.Resolve(JSON.parse(r.result)), d.Reject);
+		Net.Request(url).then(r => d.Resolve(JSON.parse(r.result)), d.Reject);
 				
 		return d.promise;
 	}
@@ -654,7 +659,7 @@ class Store {
 	 * @returns {string} - map name
 	 */
 	static get Map() {
-		return localStorage.getItem("lode-map") || "trans";
+		return localStorage.getItem("lode-map") || "trans";
 	}
 
 	/**
@@ -742,15 +747,33 @@ class Store {
 	 * @returns {string} - layer name
 	 */
 	static get Layer() {
-		return localStorage.getItem("lode-layer") || "da";
+		return localStorage.getItem("lode-layer") || "da";
 	}
 	
 	/**
-	 * Set the lode-layer layer from localStorage
+	 * Set the lode-layer layer in localStorage
 	 * @param {string} value - layer name
 	 */
 	static set Layer(value) {
 		localStorage.setItem("lode-layer", value);
+	}
+
+	/**
+	 * Get the current search-item from the sessionStorage
+	 * @returns {object} current search-item details
+	 */
+	static get SearchItem() {
+		let currentSearchItem = sessionStorage.getItem("search-item");
+		return JSON.parse(currentSearchItem);
+	}
+
+	/**
+	 * Set the search-item in sessionStorage
+	 * @param {object} value current search-item object details
+	 */
+	static set SearchItem(value) {
+		let currentSearchItem = JSON.stringify(value);
+		sessionStorage.setItem("search-item", currentSearchItem);
 	}
 }
 
@@ -872,7 +895,7 @@ class Templated extends Evented {
 		this.nodes = {};
 		
 		// Can't use Array ForEach here since named is a NodeList, not an array
-		for (var i = 0; i < named.length; i++) { 
+		for (var i = 0; i < named.length; i++) { 
 			var name = Dom.GetAttribute(named[i], "handle");
 			
 			this.nodes[name] = named[i];
@@ -883,7 +906,7 @@ class Templated extends Evented {
 		var nodes = this.template.querySelectorAll("[widget]");
 		
 		// Can't use Array ForEach here since nodes is a NodeList, not an array
-		for (var i = 0; i < nodes.length; i++) {
+		for (var i = 0; i < nodes.length; i++) {
 			var path = Dom.GetAttribute(nodes[i], "widget");
 			var module = Core.Templatable(path);
 			var widget = new module(nodes[i]);
@@ -904,7 +927,7 @@ class Templated extends Evented {
 	Place(container) {
 		this.container = container;
 		
-		this.roots.forEach(r => Dom.Place(r, container));
+		this.roots.forEach(r => Dom.Place(r, container));
 	}
 	
 	Template() {
@@ -935,6 +958,15 @@ class Templated extends Evented {
  */
 class Popup extends Templated { 
 	
+	get CloseBtnTitle() {
+		let label = {
+			en: "Close overlay (escape key)",
+			fr: "Fermer la fenêtre superposée (touche d\'échappement)"
+		};
+
+		return label[Core.locale] || ""
+	}
+
 	set Content(content) {
 		this.content = content;
 		
@@ -1004,7 +1036,7 @@ class Popup extends Templated {
 				  "<div class='popup-container'>" +
 					  "<div class='popup-header'>" +
 						  "<div class='popup-title' handle='title'></div>" +
-						  "<button class='close' handle='close'>×</button>" +
+						  `<button title="${this.CloseBtnTitle}" class="close" handle="close">×</button>` +
 					  "</div>" +
 					
 					  "<div class='popup-body' handle='body'></div>" +
@@ -1052,7 +1084,7 @@ class Tooltip extends Templated  {
 		this.Node("root").style.left = x + "px";
 		this.Node("root").style.top = y + "px";
 				
-		if (this.BBox.left + this.BBox.width > window.innerWidth) {
+		if (this.BBox.left + this.BBox.width > window.innerWidth) {
 			this.Node("root").style.top = y + 30 + "px";
 			this.Node("root").style.left = -180 + x + "px";
 		}
@@ -1079,11 +1111,27 @@ class Tooltip extends Templated  {
  */
 var typeahead = Core.Templatable("Basic.Components.Typeahead", class Typeahead extends Templated {
 	
-    set placeholder(value) { this.Node('input').setAttribute('placeholder', value); }
+	/** 
+	 * Set the placeholder text for the search input
+	 * @param {string} value Placeholder text
+	 */
+    set placeholder(value) {
+		this.Node('input').setAttribute('placeholder', value);
+	}
 	
-	set title(value) { this.Node('input').setAttribute('title', value); }
+	/**
+	 * Set title for the search
+	 * @param {string} value title property for the search input
+	 */
+	set title(value) {
+		this.Node('input').setAttribute('title', value);
+	}
 	
-	set items(value) {		
+	/**
+	 * Set the typeahead items
+	 * @param {array} value list of typeahead items
+	 */
+	set items(value) {
 		this._items = value.map(i => {
 			var li = Dom.Create("li", { innerHTML : i.label, tabIndex : -1 });
 			var item = { data : i, node : li };
@@ -1094,15 +1142,23 @@ var typeahead = Core.Templatable("Basic.Components.Typeahead", class Typeahead e
 		});
 	}
 	
+	/**
+	 * Set the current typeahead item
+	 * @param {object} value typeahead item
+	 */
 	set current(value) {
 		this._curr = value;
 	}
 	
+	/**
+	 * Get the current typeahead item
+	 * @returns {object} the currently selected typeahead item
+	 */
 	get current() {
 		return this._curr;
 	}
 	
-	constructor(container, options) {	
+	constructor(container, options) {
 		super(container, options);
 		
 		this._items = null;
@@ -1123,13 +1179,18 @@ var typeahead = Core.Templatable("Basic.Components.Typeahead", class Typeahead e
 		this.items = options.items;
 	}
 	
-	Empty() {		
+	// Empty the list of typeahead suggestions
+	Empty() {
 		Dom.Empty(this.Node("list"));
 		
 		this._filt = [];
 	}
 	
-	Fill(mask) {		
+	/**
+	 * Create a filtered list of typeahead search results and add them to the list
+	 * @param {string} mask search input box text
+	 */
+	Fill(mask) {
 		this._filt = this._items.filter(i => compare(i.data.label, mask));
 		
 		var frag = document.createDocumentFragment();
@@ -1152,10 +1213,12 @@ var typeahead = Core.Templatable("Basic.Components.Typeahead", class Typeahead e
 		}
 	}
 	
-	UpdateClass() {		
-		Dom.ToggleClass(this.Node("root"), "collapsed", this._filt.length == 0);
+	// Toggle collapsed class on typeahead DOM element
+	UpdateClass() {
+		Dom.ToggleClass(this.Node("root"), "collapsed", this._filt.length === 0);
 	}
 	
+	// Reset the typeahead component
 	Reset() {
 		if (this._temp) Dom.SetClass(this._temp.node, "");
 			
@@ -1168,25 +1231,43 @@ var typeahead = Core.Templatable("Basic.Components.Typeahead", class Typeahead e
 		this.Node("input").value = value;
 	}
 	
+	/**
+	 * Handle input events on search input
+	 * @param {InputEvent} ev
+	 */
 	OnInputInput_Handler(ev) {
-		if (ev.target.value.length < 3) return;
+		// If input is less than 3 character in length, do nothing
+		if (ev.target.value.length < 3) return;
 		
 		this.Empty();
 		
+		// Fill in typeahead suggestions 
 		this.Fill(ev.target.value);
 		
 		this.UpdateClass();
 	}
 	
-	OnInputClick_Handler(ev) {			
-		if (ev.target.value.length < 3) return;
+	/**
+	 * Handle click events on search input
+	 * @param {FocusEvent} ev
+	 */
+	OnInputClick_Handler(ev) {
+		// If input is less than 3 character in length, do nothing
+		if (ev.target.value.length < 3) return;
 		
+		// Fill in typeahead suggestions 
 		this.Fill(ev.target.value);
 		
 		this.UpdateClass();
+		
+		this.Emit("Focusin", {});
 	}
 	
-	OnInputKeyDown_Handler(ev) {		
+	/**
+	 * Handle specific key input events; including up, down, shift+up, enter and esc inputs
+	 * @param {KeyboardEvent} ev
+	 */
+	OnInputKeyDown_Handler(ev) {
 		// prevent default event on specifically handled keys
 		if (ev.keyCode == 40 || ev.keyCode == 38 || ev.keyCode == 13 || ev.keyCode == 27) ev.preventDefault();
 
@@ -1209,7 +1290,7 @@ var typeahead = Core.Templatable("Basic.Components.Typeahead", class Typeahead e
 		}
 
 		// enter : select currently focused
-		else if (ev.keyCode == 13){
+		else if (ev.keyCode == 13) {
 			// if an item is currently selected through arrows, select that one
 			if (this._temp) this.onLiClick_Handler(this._temp);
 			
@@ -1217,22 +1298,31 @@ var typeahead = Core.Templatable("Basic.Components.Typeahead", class Typeahead e
 			else if (this._filt.length > 0) this.onLiClick_Handler(this._filt[0]);
 
 			// nothing is selected (don't think this can happen		    	
-			else {				
+			else {
 				this.OnInputClick_Handler({ target:this.Node("input") });
 			}
 		}
 
 		// if escape key
-		else if (ev.keyCode == 27) this.OnInputBlur_Handler();	
+		else if (ev.keyCode == 27) this.OnInputBlur_Handler();
 	}
 	
-	OnInputBlur_Handler(ev) {			
+	/**
+	 * Handle blur events
+	 * @param {FocusEvent} ev
+	 */
+	OnInputBlur_Handler(ev) {
 		this.Reset();
 		
 		this.UpdateClass();
 	}
 	
-	onLiClick_Handler(item, ev) {		
+	/**
+	 * Handle click events on typeahead list item
+	 * @param {object} item list item content
+	 * @param {MouseEvent} ev
+	 */
+	onLiClick_Handler(item, ev) {
 		this.current = item;
 				
 		this.Reset();
@@ -1242,19 +1332,20 @@ var typeahead = Core.Templatable("Basic.Components.Typeahead", class Typeahead e
 		this.Emit("Change", { item:item.data });
 	}
 	
-	ScrollTo(item) {				
+	ScrollTo(item) {
 		// create rectangules to know the position of the elements
 		var ul = this.Node("list");
 		var liBx = item.node.getBoundingClientRect();
 		var ulBx = ul.getBoundingClientRect();
 		
 		//if the element is in this range then it is inside the main container, don't scroll
-		if (liBx.bottom > ulBx.bottom) ul.scrollTop = ul.scrollTop + liBx.bottom - ulBx.top - ulBx.height;
+		if (liBx.bottom > ulBx.bottom) ul.scrollTop = ul.scrollTop + liBx.bottom - ulBx.top - ulBx.height;
 		
 		else if (liBx.top < ulBx.top) ul.scrollTop = ul.scrollTop + liBx.top - ulBx.top;
 	}
-	
-	Template() {        
+
+	// Create a html template for the typeahead component
+	Template() {
 		return "<div handle='root' class='typeahead collapsed'>" +
 				 "<input handle='input' type='text' class='input'>" + 
 			     "<ul handle='list' class='list'></ul>" +
@@ -1304,15 +1395,25 @@ class Bookmarks extends Control {
 		
 		if (!options.items) return;
 		
-		options.items = options.items.sort((a,b) => {
-			if (a.label < b.label) return -1;
+		options.items = options.items.sort((a,b) => {
+			if (a.label < b.label) return -1;
 			
-			if (a.label > b.label) return 1;
+			if (a.label > b.label) return 1;
 
 			return 0;
 		});
 		
-		options.items.forEach((i) => { this.AddBookmark(i); });
+		options.items.forEach((i) => { this.AddBookmark(i); });
+
+		// If a custom label is provided, update control label
+		if (options.label && typeof(options.label) === 'string') {
+			this.Node('bookmarks-header').innerHTML = options.label;
+		}
+
+		// If a custom description is provided, update control description
+		if (options.description && typeof(options.description) === 'string') {
+			this.Node('description').innerHTML = options.description;
+		}
 	}
 	
 	AddBookmark(item) {
@@ -1338,10 +1439,10 @@ class Bookmarks extends Control {
 		return "<div handle='root' class='bookmarks'>" + 
 				  "<div class='bookmarks-header-container'>" + 
 					 `<img class='bookmarks-header-icon' src='${Core.root}assets/bookmarks.png'></img>` +
-					 "<h2 class='bookmarks-header'>nls(Bookmarks_Header)</h2>" +
+					 "<h2 handle='bookmarks-header' class='bookmarks-header'>Bookmarks</h2>" +
 				  "</div>" +
 				  "<ul handle='ul' class='bookmarks-list'></ul>" + 
-				  "<div handle='description' class='bookmarks-description'>nls(Bookmarks_Description)</div>" +
+				  "<div handle='description' class='bookmarks-description'></div>" +
 			   "</div>"
 	}
 }
@@ -1354,6 +1455,11 @@ class Download extends Control {
 		
 	constructor(options) {	
 		super(options);
+
+		// If a custom label is provided, update menu label
+		if (options.label && typeof(options.label) === 'string') {
+			this.Node('link').innerHTML = options.label;
+		}
 		
 		this._container = this.Node('root');
 
@@ -1363,7 +1469,7 @@ class Download extends Control {
 	Template() {        
 		return "<div handle='root' class='download mapboxgl-ctrl'>" +
 					"<div class='control-label'>" + 
-						"<a handle='link' target='_blank' class='link'>nls(Download_Title)</a>" + 
+						"<a handle='link' target='_blank' class='link'>Download data</a>" + 
 					"</div>" +
 				"</div>";
 	}
@@ -1416,23 +1522,29 @@ class Fullscreen extends Evented {
 }
 
 /**
- * Menu class
+ * Group class
  * @class
  */
-class Menu extends Control { 
+class Group extends Control { 
 		
 	constructor(options) {	
 		super(options);
+
+		this._container = this.Node('root');
 		
-		this.controls = {};
+		this.controls = {};
 		
+		// Add controls to the group
 		for (var id in options.controls) {
 			this.AddControl(id, options.controls[id]);
 		}
-		
-		this._container = this.Node('root');
 	}
 	
+	/**
+	 * Add a control to the group
+	 * @param {string} id The control id being added
+	 * @param {object} control The control for 
+	 */
 	AddControl(id, control) {
 		if (this.controls.hasOwnProperty(id)) throw new Error("Control already exists in the group");
 		
@@ -1441,8 +1553,54 @@ class Menu extends Control {
 		Dom.Place(control._container, this.Node("root"));
 	}
 	
+	// HTML template for a group control
 	Template() {
 		return "<div handle='root' class='mapboxgl-ctrl mapboxgl-ctrl-group'></div>";
+	}
+}
+
+/**
+ * Collapsable Group class
+ * @class
+ */
+class CollapsableGroup extends Control { 
+		
+	constructor(options) {	
+		super(options);
+		
+		this.controls = {};
+
+		this._container = this.Node('root');
+
+		// Add summary label to the control
+		if (options.summary && typeof(options.summary) === 'string') {
+			this.Node('collapsable-group-summary').innerHTML = options.summary;
+		}
+		
+		// Add controls to collapsable group
+		for (var id in options.controls) {
+			this.AddControl(id, options.controls[id]);
+		}	
+	}
+
+	/**
+	 * Add a control to the collapsable group
+	 * @param {string} id The control id being added
+	 * @param {object} control The control for 
+	 */
+	AddControl(id, control) {
+		if (this.controls.hasOwnProperty(id)) throw new Error("Control already exists in the collapsable group");
+		
+		this.controls[id] = control;
+		
+		Dom.Place(control._container, this.Node("root"));
+	}
+
+	// HTML template for a collapsable group control
+	Template() {
+		return "<details open handle='root' class='mapboxgl-ctrl mapboxgl-ctrl-collapsable-group'>" +
+		"<summary handle='collapsable-group-summary'></summary>" +
+		"</details>";
 	}
 }
 
@@ -1461,7 +1619,8 @@ class LabelsToggle extends Control {
 
 		// If a custom label is provided, update menu label
 		if (options.label && typeof(options.label) === 'string') {
-			this.Node('labels-toggle-label').innerHTML = options.label;			
+			this.Node('labels-toggle-label').innerHTML = options.label;
+			Dom.SetAttribute(this.Node('labels-toggle-checkbox'), 'aria-label', options.label);
 		}
 
 		// Add event listeners for change events on maps menu
@@ -1702,7 +1861,7 @@ class Legend extends Control {
 	// Template for legend widget
 	Template() {        
 		return "<div handle='root' class='legend mapboxgl-ctrl'>" +
-					"<div handle='banner' class='control-label legend-banner'></div>" +
+					"<h2 handle='banner' class='control-label legend-banner'></h2>" +
 						"<div>" +
 							"<div handle='title' class='control-label'></div>" +
 							"<div handle='subtitle' class='control-label legend-subtitle'></div>" +
@@ -1723,6 +1882,11 @@ class MapsList extends Control {
 		
 		this._container = this.Node('root');
 		
+		// If a custom label is provided, update menu label
+		if (options.label && typeof(options.label) === 'string') {
+			this.Node('maps-header').innerHTML = options.label;
+		}
+
 		//this.tooltip = new Tooltip();
 		
 		for (var id in options.maps) this.AddMapItem(id, options.maps[id]);
@@ -1763,10 +1927,10 @@ class MapsList extends Control {
 		return "<div handle='root' class='maps'>" + 
 				  "<div class='maps-header-container'>" + 
 					 `<img class='maps-header-icon' src='${Core.root}assets/layers.png'></img>` +
-					 "<h2 class='maps-header'>nls(Maps_Header)</h2>" +
+					 "<h2 handle='maps-header' class='maps-header'>Maps</h2>" +
 				  "</div>" +
 				  "<ul handle='ul' class='maps-list'></ul>" + 
-				  // "<div handle='description' class='maps-description'>nls(Maps_Description)</div>" +
+				  // "<div handle='description' class='maps-description'></div>" +
 			   "</div>"
 	}
 }
@@ -1785,7 +1949,8 @@ class MapsMenu extends Control {
 
 		// If a custom label is provided, update menu label
 		if (options.label && typeof(options.label) === 'string') {
-			this.Node('maps-menu-label').innerHTML = options.label;			
+			this.Node('maps-menu-label').innerHTML = options.label;
+			Dom.SetAttribute(this.Node('maps-menu'), 'aria-label', options.label);
 		}
 
 		// Update the Maps Select Menu
@@ -1854,7 +2019,7 @@ class MapsMenu extends Control {
 
 	/**
 	 * Handle maps menu selection changes and emit required map selection details 
-	 * @param {object} ev Change event
+	 * @param {Event} ev
 	 */
 	onMapsMenuSelectorChange_Handler(ev) {
 		let mapsMenuSelection = this.Node('maps-menu').value;
@@ -1884,7 +2049,7 @@ class MapsMenu extends Control {
  * Menu class
  * @class
  */
-class Menu$1 extends Control { 
+class Menu extends Control { 
 		
 	constructor(options) {	
 		super(options);
@@ -2025,9 +2190,9 @@ class Opacity extends Control {
  * Search class
  * @class
  */
-class Search extends Control { 
+class Search extends Control {
 		
-	constructor(options) {	
+	constructor(options) {
 		super(options);
 		
 		this._container = this.Node('root');
@@ -2036,13 +2201,14 @@ class Search extends Control {
 		this.field = options.field;
 		this.color = options.color;
 		this.items = options.items;
-		
+
 		// TODO : This should probably happen outside of the widget.
 		this.Node('typeahead').items = this.Itemize(options.items);
 		this.Node('typeahead').placeholder = options.placeholder;
 		this.Node('typeahead').title = options.title;
 	
 		this.Node('typeahead').On('Change', this.onTypeaheadChange_Handler.bind(this));
+		this.Node('typeahead').On('Focusin', this.onTypeaheadFocusin_Handler.bind(this));
 	}
 
 	/**
@@ -2061,6 +2227,7 @@ class Search extends Control {
 	 */
 	set searchItems(items) {
 		this.items = items;
+		this.UpdateSearchItems();
 	}
 
 	/**
@@ -2086,7 +2253,18 @@ class Search extends Control {
 	Itemize(items) {		
 		return items.sort((a, b) => { return a.label > b.label ? 1 : -1 });
 	}
-	
+
+	/**
+	 * Event handler for typeahead focusin events
+	 * @param {object} ev typeahead focusin change event 
+	 */
+	 onTypeaheadFocusin_Handler(ev) {
+		if (ev.target && ev.target.nodes && ev.target.nodes.input && ev.target.nodes.input.value) {
+			// Clear search input
+			ev.target.nodes.input.value = "";
+		}
+	}
+
 	/**
 	 * Event handler for typeahead changes
 	 * @param {object} ev typeahead change event
@@ -2106,7 +2284,7 @@ class Search extends Control {
 	 * Create a template for the search control
 	 * @returns {string} html template for search control
 	 */
-	Template() {        
+	Template() {
 		return "<div handle='root' class='search-control mapboxgl-ctrl'>" +
 				  "<div handle='typeahead' widget='Basic.Components.Typeahead'></div>" +
 			   "</div>";
@@ -2121,16 +2299,47 @@ class Toc extends Control {
 		
 	constructor(options) {	
 		super(options);
+
+		// If a custom label is provided, update TOC label
+		if (options.label && typeof(options.label) === 'string') {
+			this.Node('toc-label').innerHTML = options.label;
+		}
 		
 		this._container = this.Node('root');
 
 		this.Reload(options.toc);
 	}
-	
+
+	/**
+	 * Get the list of TOC items
+	 * @returns {array} list of TOC items used for radio button options
+	 */
+	get items() {
+		return this.options.toc;
+	}
+
+	/**
+	 * Set the list of TOC items
+	 * @param {array} tocItems list of TOC items used for radio button options
+	 */
+	set items(tocItems) {
+		this.options.toc = tocItems;
+		this.Reload(this.options.toc);
+	}
+
+	/**
+	 * Checks if the provided layered ID is a TOC radio button items 
+	 * @param {string} layerId id of the TOC item
+	 * @returns {boolean}
+	 */
 	HasLayer(layerId) {
 		return this.radios.hasOwnProperty(layerId);
 	}
-	
+
+	/**
+	 * Generate the radio button options for the TOC Control
+	 * @param {array} toc list of toc items 
+	 */
 	Reload(toc) {
 		Dom.Empty(this.Node("toc"));
 		
@@ -2138,17 +2347,36 @@ class Toc extends Control {
 		
 		if (toc) toc.forEach(i => this.radios[i.id] = this.AddTocItem(i));
 	}
-	
-	SelectItem(selected) {
-		if (this.current) this.radios[this.current].checked = false;
+
+	/**
+	 * Selects a TOC item
+	 * @param {string} layerId id of TOC item
+	 */
+	SelectItem(layerId) {
+		// Uncheck previous TOC Item
+		if (this.current && this.HasLayer(this.current)) {
+			this.radios[this.current].checked = false;
+		}
 		
-		if (!this.HasLayer(selected)) return;
+		if (!this.HasLayer(layerId)) return;
 		
-		this.current = selected;
+		this.current = layerId;
 		
-		this.radios[selected].checked = true;
+		this.radios[layerId].checked = true;
 	}
 	
+	/**
+	 * Event handler for change events in TOC control
+	 * @param {object} item toc item details
+	 * Example: 
+	 * {
+	 * 		id: 1,
+	 * 		label: "Item Label",
+	 * 		selected: true,
+	 *      ...
+	 * }
+	 * @param {Event} ev
+	 */
 	onChange_Handler(item, ev) {
 		if (this.current) this.radios[this.current].checked = false;
 		
@@ -2156,13 +2384,26 @@ class Toc extends Control {
 		
 		this.Emit('LayerVisibility', { layer:this.current });
 	}
-	
+
+	/**
+	 * Add a radio button for TOC control item to the TOC control.
+	 * @param {object} item toc item details
+	 * Example: 
+	 * {
+	 * 		id: 1,
+	 * 		label: "Item Label",
+	 * 		selected: true,
+	 *      ...
+	 * }
+	 * @returns DOM radio button input
+	 */
 	AddTocItem(item) {
 		var i = this.Node("toc").children.length + 1;
 		var div = Dom.Create("div", { className:"toc-item" }, this.Node("toc"));
 		var ipt = Dom.Create("input", { type:"radio", name:"toc", id:`rd-${i}` }, div);
 		var lbl = Dom.Create("label", { innerHTML:item.label }, div);
-		
+
+		ipt.setAttribute("aria-describedby", "toc-label");
 		lbl.setAttribute("for", `rd-${i}`);
 		
 		ipt.addEventListener('change', this.onChange_Handler.bind(this, item));
@@ -2170,11 +2411,552 @@ class Toc extends Control {
 		return ipt;
 	}
 	
+	// Create a HTML template for the TOC control
 	Template() {        
 		return "<div handle='root' class='toc mapboxgl-ctrl'>" +
-					"<div class='control-label'>nls(Toc_Instruction)</div>" +
+					"<div id='toc-label' handle='toc-label' class='control-label'>Table of Contents</div>" +
 					"<div handle='toc' class='legend-container toc-container'></div>" +
 				"</div>";
+	}
+}
+
+/**
+ * Theme control class
+ * @class
+ * 
+ */
+class Theme extends Control { 
+
+	constructor(options) {	
+		super(options);
+
+		// If a custom label is provided, update groups label
+		if (options.groups_label && typeof(options.groups_label) === 'string') {
+			this.Node('theme-groups-label').innerHTML = options.groups_label;
+			Dom.SetAttribute(this.Node('theme-groups'), 'aria-label', options.groups_label);
+		}
+
+		// If a custom label is provided, update themes label
+		if (options.themes_label && typeof(options.themes_label) === 'string') {
+			this.Node('themes-label').innerHTML = options.themes_label;
+			Dom.SetAttribute(this.Node('themes'), 'aria-label', options.themes_label);
+		}
+
+		this.themes = options.themes;
+		
+		this.currentTheme = "";
+		this.currentThemeGroup = "";
+
+		this.updateThemeControl(this.themes);
+
+		// Add event listeners for change events on both select menus
+		this.Node('theme-groups').addEventListener("change", this.onThemeGroupSelectorChange_Handler.bind(this));
+		this.Node('themes').addEventListener("change", this.onThemeSelectorChange_Handler.bind(this));
+	}
+
+	/**
+	 * Update theme selection menu
+	 * @param {object} themes 
+	 */
+	updateThemeControl(themes) {
+		let themeGroups;
+
+		// Set theme control input values before updating
+		this.Node('theme-groups').value = this.currentThemeGroup;
+		this.Node('themes').value = this.currentTheme;
+
+		// Update themes
+		this.themes = themes; 
+
+		// Get theme groups defined in config
+		themeGroups = this.getThemeGroups(this.themes);
+
+		if (themeGroups.length) {
+			// Add group items if they're defined
+			this.updateGroupsMenu(themeGroups);
+
+		} else {
+			// If no groups are provided, update themes menu
+			this.updateThemesMenu(this.themes);
+		}
+
+		// Hide select menu if no options exists
+		Dom.ToggleClass(this.Node("groups-menu-container"), "hidden", !themeGroups.length);
+		Dom.ToggleClass(this.Node("themes-menu-container"), "hidden", !this.themes);
+	}
+
+	/**
+	 * Update the group menu options
+	 * @param {array} groups list of defined theme groups
+	 */
+	updateGroupsMenu(groups) {
+		let i, group;
+		let group_menu_node = 'theme-groups';
+
+		if (!this.isValidGroup(groups, this.currentThemeGroup)) {
+			// Empty theme groups selection menu before adding items
+			Dom.Empty(this.Node(group_menu_node));
+
+			// Add group items if they're defined
+			if (Array.isArray(groups) && groups.length) {
+				// Add items to group menu
+				for (i = 0; i < groups.length; i += 1) {
+					group = groups[i];
+					this.addGroupItem(group, group_menu_node);
+				}
+			
+				// Set initial value to first group datalist option
+				let firstGroupItem = groups[0];
+				this.Node('theme-groups').value = firstGroupItem[Core.locale];
+
+				// Updated current theme group selection
+				this.currentThemeGroup = this.Node('theme-groups').value;
+			}
+		}
+		// Dispatch a change event to trigger a group selection change
+		this.Node("theme-groups").dispatchEvent(new Event('change', { 'bubbles': true }));
+	}
+
+	/**
+	 * Update the theme menu options
+	 * @param {array} themes list of defined themes
+	 */
+	updateThemesMenu(themes) {
+		let i, theme;
+		let themes_menu_node = 'themes';
+
+		if (!this.isValidTheme(themes, this.currentTheme)) {
+			// Empty theme selection menu before adding items
+			Dom.Empty(this.Node(themes_menu_node));
+
+			// Add updated themes to selection menu
+			if (Array.isArray(themes) && themes.length) {
+				for (i = 0; i < themes.length; i += 1) {
+					theme = themes[i];
+					this.addThemeItem(theme, themes_menu_node);
+				}
+
+				// Initial selection of first available theme
+				this.Node('themes').value = themes[0].id;
+
+				// Update current theme selection
+				this.currentTheme = this.Node('themes').value;
+			}
+		}
+		// Dispatch a change event to trigger a theme selection change
+		this.Node('themes').dispatchEvent(new Event('change', { 'bubbles': true }));
+	}
+
+	/**
+	 * Gets a list of theme groups defined in the theme config object
+	 * @param {object} themesConfig copy of the theme object
+	 */
+	getThemeGroups(themesConfig) {
+		let groups = [];
+
+		if (Array.isArray(themesConfig) && themesConfig.length) {
+			for (let i = 0; i < themesConfig.length; i += 1) {
+				let configItem = themesConfig[i];
+
+				if (configItem.group) {
+					groups.push(configItem.group);
+				}
+			}
+		}
+
+		return groups;
+	}
+
+	/**
+	 * Add a menu theme group item to select menu
+	 * @param {object} item Details on the option item
+	 * @param {string} node Name of the node to add the option to.
+	 * @returns Dom element representing select menu option.
+	 */
+	addGroupItem(item, node) {
+		if (item) {
+			let opt = Dom.Create("option", {
+				value: item[Core.locale], 
+				innerHTML: item[Core.locale]
+			}, this.Node(node));
+			opt.setAttribute('handle', 'theme-option');
+		}
+	}
+
+	/**
+	 * Add a menu item to select menu
+	 * @param {object} item Details on the item being added as an option
+	 * @param {string} node A string representing the node which will have the option added to.
+	 * @returns Dom element representing select menu option.
+	 */
+	addThemeItem(item, node) {
+		if (item && item.id && item.label) {
+			let opt = Dom.Create("option", {
+				value: item.id,
+				innerHTML: item.label[Core.locale]
+			}, this.Node(node));
+
+			opt.setAttribute('handle', 'theme-option');
+		}
+	}
+
+	/**
+	 * Get the theme object from a colleciton of themes based on theme id
+	 * @param {array} themes list of defined themes
+	 * @param {string} groupId id of the group
+	 * @returns {object} the selected theme
+	 */
+	getThemesByGroup(themes, groupId) {
+		let groupThemes;
+
+		for (var i = 0; i < themes.length; i += 1) {
+			let theme = themes[i];
+			if (theme) {
+				if (theme.group && theme.items && Array.isArray(theme.items)) {
+					if (theme.group[Core.locale] === groupId){ 
+						groupThemes = theme.items;
+						break;
+					}
+				}
+			}
+		}
+		return groupThemes;
+	}
+
+	/**
+	 * Get the theme object from a colleciton of themes based on theme id
+	 * @param {array} themes list of defined themes
+	 * @param {string} themeId id of the theme
+	 * @returns {object} the selected theme
+	 */
+	getThemeById(themes, themeId) {
+		let selectedTheme;
+
+		for (var i = 0; i < themes.length; i += 1) {
+			let theme = themes[i];
+			if (theme) {
+				if (theme.id && theme.id === themeId) {
+					selectedTheme = theme;
+					break;
+				} else if (theme.group && theme.items && Array.isArray(theme.items)) {
+					selectedTheme = this.getThemeById(theme.items, themeId);
+					if (selectedTheme) {
+						break;
+					}
+				}
+			}
+		}
+		return selectedTheme;
+	}
+
+	/**
+	 * Checks if the currently selected theme is within the list of theme items
+	 * @param {array} themes list of themes
+	 * @param {string} currentTheme the name of the currently selected theme
+	 * @returns {boolean} 
+	 */
+	isValidTheme(themes, currentTheme) {
+		let theme, i;
+		let validTheme = false;
+
+		if (themes && Array.isArray(themes)) {
+			for (i = 0; i < themes.length; i += 1) {
+				theme = themes[i];
+				if (theme && theme.label 
+					&& (theme.label[Core.locale] === currentTheme
+					|| theme.id === currentTheme)) {
+					validTheme = true;
+					break;
+				}
+			}
+		}
+
+		return validTheme;
+	}
+
+	/**
+	 * Checks if the currently selected theme group is within the list of group items
+	 * @param {array} groups list of groups of themes
+	 * @param {string} currentThemeGroup the name of the currently selected group
+	 * @returns {boolean} 
+	 */
+	isValidGroup(groups, currentThemeGroup) {
+		let group, i;
+		let validThemeGroup = false;
+
+		if (groups && Array.isArray(groups)) {
+			for (i = 0; i < groups.length; i += 1) {
+				group = groups[i];
+				if (group && group[Core.locale] === currentThemeGroup) {
+					validThemeGroup = true;
+					break;
+				}
+			}
+		}
+
+		return validThemeGroup;
+	}
+
+	/**
+	 * Handler for theme-groups selector change event
+	 * @param {Event} ev
+	 */
+	onThemeGroupSelectorChange_Handler(ev) {
+		this.currentThemeGroup = this.Node('theme-groups').value;
+
+		// Get theme by the selection Id
+		let themes = this.getThemesByGroup(this.themes, this.currentThemeGroup);
+
+		this.updateThemesMenu(themes);
+	}
+
+	/**
+	 * Handler for theme selector change event
+	 * @param {Event} ev
+	 */
+	onThemeSelectorChange_Handler(ev) {
+		this.currentTheme = this.Node('themes').value;
+
+		// Get theme by the selection Id
+		let selection = this.getThemeById(this.themes, this.currentTheme);
+
+		this.Emit("ThemeSelectorChange", { theme: selection });
+	}
+	
+	/**
+	 * Provides the HTML template for a theme selector control
+	 * @returns {string} controller template
+	 */
+	Template() {
+		let template = "<div handle='root' class='theme-selector mapboxgl-ctrl'>" +
+				"<div class='groups-menu-container' handle='groups-menu-container'>" +
+					"<label handle='theme-groups-label' class='control-label'>Theme Groups</label>" +
+					"<select aria-label='Theme groups' handle='theme-groups' name='theme-groups' class='theme-groups'></select>" +
+				"</div>"+
+				"<div class='themes-menu-container' handle='themes-menu-container'>"+
+					"<label handle='themes-label' class='control-label'>Themes</label>" +
+					"<select aria-label='Themes' handle='themes' name='themes' class='themes'></select>" +
+				"</div>"+
+			"</div>";
+
+		return template;
+	}
+}
+
+/**
+ * Theme Datalist control class
+ * @class
+ * 
+ */
+class ThemeDatalist extends Theme { 
+
+	constructor(options) {	
+		super(options);
+		
+		this.themes = options.themes;
+
+		this.updateThemeControl(this.themes);
+
+		// Add event listeners for change events on both select menus
+		this.Node('theme-groups').addEventListener("change", this.onThemeGroupSelectorChange_Handler.bind(this));
+		this.Node('theme-groups').addEventListener("focus", this.onThemeGroupSelectorFocused_Handler.bind(this));
+		this.Node('theme-groups').addEventListener("blur", this.onThemeGroupSelectorBlured_Handler.bind(this));
+		this.Node('themes').addEventListener("change", this.onThemeSelectorChange_Handler.bind(this));
+		this.Node('themes').addEventListener("focus", this.onThemeSelectorFocused_Handler.bind(this));
+		this.Node('themes').addEventListener("blur", this.onThemeSelectorBlured_Handler.bind(this));
+	}
+
+	/**
+	 * Update the group menu options
+	 * @param {array} groups list of defined theme groups
+	 */
+	updateGroupsMenu(groups) {
+		let i, group;
+		let group_menu_node = 'theme-groups-list';
+
+		if (!this.isValidGroup(groups, this.currentThemeGroup)) {
+			// Empty theme groups selection menu before adding items
+			Dom.Empty(this.Node(group_menu_node));
+
+			// Add group items if they're defined
+			if (Array.isArray(groups) && groups.length) {
+				// Add items to group menu
+				for (i = 0; i < groups.length; i += 1) {
+					group = groups[i];
+					this.addGroupItem(group, group_menu_node);
+				}
+
+				// Set initial value to first group datalist option
+				let firstGroupItem = groups[0];
+				this.Node('theme-groups').value = firstGroupItem[Core.locale];
+
+				// Updated current theme group selection
+				this.currentThemeGroup = this.Node('theme-groups').value;
+			}
+		}
+		// Dispatch a change event to trigger a group selection change
+		this.Node("theme-groups").dispatchEvent(new Event('change', { 'bubbles': true }));
+	}
+
+	/**
+	 * Add a menu item to select menu
+	 * @param {object} item Details on the item being added as an option
+	 * @param {string} node A string representing the node which will have the option added to.
+	 * @returns Dom element representing select menu option.
+	 */
+	 addThemeItem(item, node) {
+		if (item && item.id && item.label) {
+			let opt = Dom.Create("option", {
+				value: item.label[Core.locale], 
+				innerHTML: item.label[Core.locale]
+			}, this.Node(node));
+			opt.dataset.themeid = item.id;
+
+			opt.setAttribute('handle', 'theme-option');
+		}
+	}
+
+	/**
+	 * Update the theme menu options
+	 * @param {array} themes list of defined themes
+	 */
+	updateThemesMenu(themes) {
+		let i, theme;
+		let themes_menu_node = 'themes-list';
+
+		if (!this.isValidTheme(themes, this.currentTheme)) {
+			// Empty theme selection menu before adding items
+			Dom.Empty(this.Node(themes_menu_node));
+
+			// Add updated themes to selection menu
+			if (Array.isArray(themes) && themes.length) {
+				for (i = 0; i < themes.length; i += 1) {
+					theme = themes[i];
+					this.addThemeItem(theme, themes_menu_node);
+				}
+
+				// Initial selection of first available theme
+				this.Node('themes').value = themes[0].label[Core.locale];
+	
+				// Update current theme selection
+				this.currentTheme = this.Node('themes').value;
+			}
+		}
+		// Dispatch a change event to trigger a theme selection change
+		this.Node('themes').dispatchEvent(new Event('change', { 'bubbles': true }));
+	}
+
+	/**
+	 * Handler for theme-groups selector change event
+	 * @param {Event} ev
+	 */
+	onThemeGroupSelectorChange_Handler(ev) {
+		let themes;
+		this.currentThemeGroup = this.Node('theme-groups').value;
+
+		// Blur theme group input if input string matches one of the dataset options
+		let themeGroupList = this.Node('theme-groups-list').options;
+		for (let i = 0; i < themeGroupList.length; i += 1) {
+			if (themeGroupList[i].value === this.currentThemeGroup) {
+				this.Node('theme-groups').blur();
+			}
+		}
+		// Get themes by the theme group selection Id
+		themes = this.getThemesByGroup(this.themes, this.currentThemeGroup);
+
+		// Update Themes selector
+		this.updateThemesMenu(themes);
+	}
+	
+	/**
+	 * Handler for theme group selector select event when type is datalist
+	 * @param {Event} ev
+	 */
+	onThemeGroupSelectorFocused_Handler(ev) {
+		this.currentThemeGroup = this.Node('theme-groups').value;
+		this.Node('theme-groups').value = "";
+	}
+	
+	/**
+	 * Handler for theme group selector blur event when type is datalist
+	 * @param {Event} ev
+	 */
+	onThemeGroupSelectorBlured_Handler(ev) {
+		this.Node('theme-groups').value = this.currentThemeGroup;
+	}
+
+	/**
+	 * Handler for theme selector change event
+	 * @param {Event} ev
+	 */
+	onThemeSelectorChange_Handler(ev) {
+		let datalist, selectionId;
+		this.currentTheme = this.Node('themes').value;
+
+		// Get DataList Node
+		datalist = this.Node('themes-list');
+
+		for (let i = 0; i < datalist.options.length; i += 1) {
+			let dataListItem = datalist.options[i];
+			// Check if datalist item value matches input value
+			if (dataListItem.value === this.currentTheme) {
+				// Get themeid from list item dataset
+				if (dataListItem.dataset && dataListItem.dataset.themeid) {
+					selectionId = dataListItem.dataset.themeid;
+					break;
+				}
+			}
+		}
+
+		// Blur theme input if input string matches one of the dataset options
+		let themeList = this.Node('themes-list').options;
+		for (let i = 0; i < themeList.length; i += 1) {
+			if (themeList[i].value === this.currentTheme) {
+				this.Node('themes').blur();
+			}
+		}
+		// Get theme by the selection Id
+		let selection = this.getThemeById(this.themes, selectionId);
+
+		this.Emit("ThemeSelectorChange", { theme: selection });
+	}
+	
+	/**
+	 * Handler for theme selector select event when type is datalist
+	 * @param {Event} ev
+	 */
+	onThemeSelectorFocused_Handler(ev) {
+		this.currentTheme = this.Node('themes').value;
+		this.Node('themes').value = "";
+	}
+	
+	/**
+	 * Handler for theme selector blur event when type is datalist
+	 * @param {Event} ev
+	 */
+	onThemeSelectorBlured_Handler(ev) {
+		this.Node('themes').value = this.currentTheme;
+	}
+
+	/**
+	 * Provides the HTML template for a theme selector control
+	 * @returns {string} controller template
+	 */
+	Template() {
+		let template = "<div handle='root' class='theme-selector mapboxgl-ctrl'>" +
+				"<div class='groups-menu-container' handle='groups-menu-container'>" +
+					"<label handle='theme-groups-label' class='control-label' for='groups'>Theme Groups</label>" +
+					"<input aria-label='Theme groups' handle='theme-groups' list='groups-list' name='groups'>" +
+					"<datalist handle='theme-groups-list' id='groups-list' class='theme-groups'></datalist>" +
+				"</div>"+
+				"<div class='themes-menu-container' handle='themes-menu-container'>" +
+					"<label handle='themes-label' class='control-label' for='themes'>Themes</label>" +
+					"<input aria-label='Themes' handle='themes' list='themes-list' name='themes'>" +
+					"<datalist handle='themes-list' id='themes-list' class='themes'></datalist>" +
+				"</div>"+
+		   "</div>";
+	
+		return template;
 	}
 }
 
@@ -2539,7 +3321,7 @@ class Map extends Evented {
 		this.WrapEvent('load', 'Load');
 		this.WrapEvent('sourcedata', 'SourceData');
 		
-		this.map.once('load', ev => {
+		this.map.once('load', ev => {
 			let mapContainer = this.map.getContainer();
 			// Fix for improve this map in french
 			if (mapContainer && mapContainer.querySelector('.mapbox-improve-map')) {
@@ -3063,9 +3845,49 @@ class Factory {
 	static LegendControl(config, title, banner, subtitle) {
 		return new Legend({ config:config, title:title, banner:banner, subtitle:subtitle});
 	}
+
+	/**
+	 * Builds a Table of Contents Control
+	 * @param {object} toc A collection of TOC items
+	 * @param {string} label The label to be shown above the TOC options
+	 * @returns TOC object
+	 */
+	static TocControl(toc, label) {
+		return new Toc({ toc:toc, label:label });
+	}
+
+	/**
+	 * Theme map control 
+	 * @param {array} themes a list of themes
+	 * @param {string} groups_label the groups label
+	 * @param {string} themes_label the themes label
+	 * @returns an instantiated Theme control object
+	 */
+	static ThemeControl(themes, groups_label, themes_label) {
+		return new Theme(
+			{ 
+				themes:themes,
+				groups_label:groups_label, 
+				themes_label:themes_label
+			}
+		);
+	}
 	
-	static TocControl(toc) {
-		return new Toc({ toc:toc });
+	/**
+	 * Theme Datalist map control 
+	 * @param {array} themes a list of themes
+	 * @param {string} groups_label the groups label
+	 * @param {string} themes_label the themes label
+	 * @returns an instantiated Theme control object
+	 */
+	 static ThemeDatalistControl(themes, groups_label, themes_label) {
+		return new ThemeDatalist(
+			{ 
+				themes:themes,
+				groups_label:groups_label,
+				themes_label:themes_label
+			}
+		);
 	}
 	
 	/**
@@ -3077,8 +3899,14 @@ class Factory {
 		return new Opacity({ opacity:opacity });
 	}
 	
-	static DownloadControl(link) {
-		return new Download({ link:link });
+	/**
+	 * Builds a Download Control
+	 * @param {string} link The link URL
+	 * @param {string} label The link label text
+	 * @returns Download Control object
+	 */
+	static DownloadControl(link, label) {
+		return new Download({ link:link, label:label });
 	}
 	
 	/**
@@ -3094,10 +3922,11 @@ class Factory {
 	 * 		},
 	 * 		...
 	 * }
+	 * @param {string} label The label text to be shown as the header of the maps list control
 	 * @returns {object} MapsList control object
 	 */
-	static MapsListControl(maps) {
-		return new MapsList({ maps:maps });
+	static MapsListControl(maps, label) {
+		return new MapsList({ maps:maps, label:label });
 	}
 	
 	/**
@@ -3128,14 +3957,16 @@ class Factory {
 	 * 			label: "Location N"
 	 * 		}
 	 * ] 
+	 * @param {string} label The label text to be shown as the header of the bookmarks control
+	 * @param {string} description The description text to be shown at the bottom of the bookmarks control
 	 * @returns {object} Bookmarks control object
 	 */
-	static BookmarksControl(items) {
-		return new Bookmarks({ items:items });
+	static BookmarksControl(items, label, description) {
+		return new Bookmarks({ items:items, label:label, description:description });
 	}
 	
 	static MenuControl(items) {
-		return new Menu$1({ items:items });
+		return new Menu({ items:items });
 	}
 	
 	/**
@@ -3159,7 +3990,7 @@ class Factory {
 	 * @returns {object} Search control object
 	 */
 	static SearchControl(items, placeholder, title) {
-		return new Search({ items:items, placeholder:placeholder, title:title });
+		return new Search({ items:items, placeholder:placeholder, title:title });
 	}
 
 	/**
@@ -3173,7 +4004,27 @@ class Factory {
 	 * @returns {object} Group control object
 	 */
 	static Group(controls) {
-		return new Menu({ controls:controls });
+		return new Group({ controls:controls });
+	}
+	
+	/**
+	 * Creates a collapsable group container that contains a collection of controls.
+	 * @param {object} controls A collection of map controls
+	 * Example: 
+	 * {
+	 * 		opacity: Factory.OpacityControl(1),
+	 * 		...
+	 * }
+	 * @param {string} summaryLabel Text label for collapsable group
+	 * @returns {object} Collapsable group control object
+	 */
+	 static CollapsableGroup(controls, summaryLabel) {
+		return new CollapsableGroup(
+			{
+				controls: controls, 
+				summary: summaryLabel
+			}
+		);
 	}
 	
 	/**
@@ -3240,4 +4091,4 @@ class Other {
 	}
 }
 
-export { Bookmarks, Control, Core, Dom, Download, Evented, Factory, Fullscreen, Menu as Group, LabelsToggle, Legend, Map, MapsList, MapsMenu, Menu$1 as Menu, Navigation, Net, Opacity, Other, Popup, Search, Store, Templated, Toc, Tooltip, typeahead as Typeahead, Util };
+export { Bookmarks, CollapsableGroup, Control, Core, Dom, Download, Evented, Factory, Fullscreen, Group, LabelsToggle, Legend, Map, MapsList, MapsMenu, Menu, Navigation, Net, Opacity, Other, Popup, Search, Store, Templated, Theme, ThemeDatalist, Toc, Tooltip, typeahead as Typeahead, Util };
