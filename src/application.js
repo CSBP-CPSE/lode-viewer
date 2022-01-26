@@ -191,8 +191,8 @@ export default class LodeApp extends Templated {
 	 */
 	AddMenu() {
 		// Top-left menu below navigation
-		var maps = Factory.MapsListControl(this.config.maps);
-		var bookmarks = Factory.BookmarksControl(this.config.bookmarks);
+		var maps = Factory.MapsListControl(this.config.maps, Core.Nls("Maps_Header"));
+		var bookmarks = Factory.BookmarksControl(this.config.bookmarks, Core.Nls("Bookmarks_Header"), Core.Nls("Bookmarks_Description"));
 
 		this.menu = Factory.MenuControl();
 
