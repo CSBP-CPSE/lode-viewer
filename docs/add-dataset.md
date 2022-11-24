@@ -56,11 +56,11 @@ The table step prepares the new data so that is can be viewed in the LODE-Viewer
 
 4. Update the ./scripts/table.py script to match the column names of the dataset being added.
  * To avoid scripting errors due to some temporary hard coding, the following variables need to be updated in the table.py script: 
-   * **Update `TABLECONFIG` variable with the path for the table configuration json file. e.g. `./source/Tables/mydataset/mydataset.json`.
-   * **Update the `INDEX` variable to the index id column name**.
-   * **Update the `CSDUID` variable to the CSD Unique ID column name**.
-   * **Update the `LAT` variable to the Latitude column name**
-   * **Update the `LONG` variable to the Longitude column name**
+   * Update `TABLECONFIG` variable with the path for the table configuration json file. e.g. `./source/Tables/mydataset/mydataset.json`
+   * Update the `INDEX` variable to the index id column name
+   * Update the `CSDUID` variable to the CSD Unique ID column name
+   * Update the `LAT` variable to the Latitude column name
+   * Update the `LONG` variable to the Longitude column name
 5. At this point the data should be prepared and the Python script `./scripts/table.py` can be run  e.g., `python table.py`.
 6. The script outputs are a series of JSONs in `./scripts/output/data/[dataset name]` and a table configuration JSON for the table view in `./scripts/output/config/tables/config.table.[dataset name].json`
 7. Move the entire folder of JSONs (`./scripts/output/data/[dataset name]`) to `./src/data`.
