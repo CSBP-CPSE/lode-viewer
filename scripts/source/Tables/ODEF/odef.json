@@ -1,6 +1,6 @@
 {
     "id" : "ODEF",
-	"source" : "./source/Tables/ODEF/ODEFv2.csv",
+	"source" : "./source/Tables/ODEF/ODEF_v2_1.csv",
 	"title": {
         "en": "Detailed table of Educational Facilities in {0}",
         "fr": "Tableau détaillé des établissements d'enseignementpour {0}"
@@ -13,33 +13,32 @@
             "id": "Index",
             "en": "Educational Facilities ID",
             "fr": "ID de établissements d'enseignement pour",
-   	    "type": "text"
-    	},
-	{
+   	        "type": "text"
+    	}, {
             "id": "Facility_Name",
             "en": "Facility name",
             "fr": "Nom de l'établissement",
-	    "type": "text"
+	        "type": "text"
         }, {
             "id": "Facility_Type",
             "en": "Type",
             "fr": "Type",
-	    "type": "text"
+	        "type": "text"
         }, {
             "id": "Street_No",
             "en": "Street number",
             "fr": "Numéro civique",
-	    "type": "numeric"
+	        "type": "numeric"
         }, {
             "id": "Street_Name",
             "en": "Street name",
             "fr": "Nom de la rue",
-	    "type": "text"
+	        "type": "text"
         }, {
             "id": "City",
             "en": "City",
             "fr": "Ville",
-	    "type": "text"
+	        "type": "text"
         }, {
             "id": "Prov_Terr",
             "en": "Province/Territory",
@@ -49,7 +48,7 @@
             "id": "Postal_Code",
             "en": "Postal code",
             "fr": "Code postal",
-	    "type": "text"
+	        "type": "text"
         }
     ]
 }
