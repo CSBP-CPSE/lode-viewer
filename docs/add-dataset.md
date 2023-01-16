@@ -101,8 +101,10 @@ If you're not creating a new mbtiles dataset with Mapbox Studio you can alternat
 * `dataSources`: A list of objects containing details on the name and data information related to each source, 
   * `name`: A string representing the name of the data source.
   * `data`: An object containing details on the source, following the format used by the mapbox API.
-    * Note: if the data is stored as a mapbox studio dataset, the URL for the data source will use the following pattern: `https://api.mapbox.com/datasets/v1/<user-id>/<dataset-id>/features?access_token=<api-token>`
+    * Note: if the data is stored as a mapbox studio dataset, the URL for the data source will use the following pattern: `https://api.mapbox.com/datasets/v1/<user-id>/<dataset-id>/features?access_token=<api-token>`	
+* `year`: Specify the year being referenced by the map, which is used by the year menu control.
 * `table`: Add the table configuration file for the dataset, `config.table.[dataset name].json`
+* `tables`: Add a dictionary containing multiple table configuration files.
 * `layers`: A list of objects containing details on map layers. If the layer already exists in the map style document, you only need to provide the id. Otherwise if its a new layer being added using a source defined in the dataSource property, then the layer will need to be defined using the properties specified by the mapbox API.
   * `id` - A string representing the layer id.
   * `click` - If set to `true`, the layer is clickable.
@@ -113,6 +115,8 @@ If you're not creating a new mbtiles dataset with Mapbox Studio you can alternat
   * `layout` - Layer layout settings.
 * `title`: Title to appear on the map legend.
 * `abbr`: The dataset abbreviation to appear on the map legend.
+* `toc`: The properties relating to the Table of Contents control.
+* `themes`: A collection of themes used by the themes control.
 * `legend`: 
   * `colors`: The colours (as rgb) for the thematic map and legend.
   * `label`: The label to appear on the map legend.
