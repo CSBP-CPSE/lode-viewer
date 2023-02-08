@@ -1,0 +1,29 @@
+{
+    "id" : "ODG",
+	"source" : "./source/Tables/ODG/ODG_v1.csv",
+	"title": {
+        "en": "Detailed table of Greenhouses in {0}",
+        "fr": "Tableau détaillé des serres en {0}"
+    },
+    "description": {
+        "en": "This table contains the Greenhouses contained in the selected census subdivision.",
+        "fr": "Ce tableau contient les serres contenus dans la sous-division de recensement sélectionnée."
+    },
+    "fields": [{
+            "id": "Index",
+            "en": "Index",
+            "fr": "Index",
+   	        "type": "numeric"
+    	}, {
+            "id": "DataSource",
+            "en": "Data Source",
+            "fr": "Source des données",
+	        "type": "text"
+        }, {
+            "id": "ImageDate",
+            "en": "Image Date",
+            "fr": "Date de l’image",
+	        "type": "numeric"
+        }
+    ]
+}
