@@ -113,6 +113,11 @@ config = u.ReadJSON(TABLECONFIG)
 # Create a dataframe based on data source URL provided in the config file
 df = BuildDf(config["source"])
 
+# Ensure CSDUID column is of type integer
+csduid_df = df[CSDUID]
+csduid_df = pd.to_numeric(csduid_df, downcast='integer')
+df[CSDUID] = csduid_df
+
 # Create a list of dropped fields not listed in the table config file
 drop = u.GetDropFields(df, config["fields"])
 
