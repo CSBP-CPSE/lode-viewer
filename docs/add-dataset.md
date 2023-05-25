@@ -75,8 +75,9 @@ In order to view the dataset on the map, the `[dataset name].csv` needs to be ad
 ### Creating a mbtiles dataset with Mapbox Studio:
 
 1. Convert the original `[dataset-name].csv` to `[dataset-name].geojson`. This can be accomplished with command line tools like OGR or through GUIs like QGIS.
-2. Create a tileset (`*.mbtiles`) either by using [tippecanoe](https://github.com/mapbox/tippecanoe), or by uploading the `[dataset-name].geojson` in Mapbox Studio as Mapbox has created an automatic script to convert the `[dataset name].geojson` to the desired `[dataset-name].mbtiles`.
-  * If tippecanoe is used, the following command can run to create the `[dataset-name].mbtiles`: `tippecanoe -o [dataset-name].mbtiles --base-zoom 0 --force [dataset-name].geojson`
+2. Tilesets (`*.mbtiles`) can be created in multiple ways, including; [tippecanoe](https://github.com/mapbox/tippecanoe), [ogr2ogr](https://gdal.org/programs/ogr2ogr.html), or by uploading the `[dataset-name].geojson` in Mapbox Studio as Mapbox has created an automatic script to convert the `[dataset name].geojson` to the desired `[dataset-name].mbtiles`.
+  * If tippecanoe is used here is an example of how to create `[dataset-name].mbtiles`: `tippecanoe -o [dataset-name].mbtiles --base-zoom 0 --force [dataset-name].geojson`
+  * If ogr2ogr is used here is an example of how to create `[dataset-name].mbtiles`: `ogr2ogr.exe -progress -f MVT [dataset-name].mbtiles [dataset-name].geojson -dsco MINZOOM=2 -dsco MAXZOOM=14 -dsco MAX_SIZE=500000`
 3. In Mapbox Studio, make sure your newly uploaded `[dataset-name].mbtiles` is stored within the [tileset view](https://studio.mapbox.com/tilesets/).
 4. If making a new style document, go to the styles tab and copy (duplicate) an existing LODE Viewer dataset style for LODE Viewer. This assures that the same data layers and style properties are incorporated for the new dataset.
 5. Open the copied style/or update existing map style in Mapbox Studio. Add or update the data sources to the new `[dataset-name]` and also a `[dataset-name]-labels` map layers.
