@@ -1,168 +1,168 @@
 {
 	"id": "odi",
 	"style": "mapbox://styles/deil-leid/clhi08c4300re01p6clv5660s",
-    "table": "config/tables/config.table.odi.json",
-    "layers": [
+	"table": "config/tables/config.table.odi.json",
+	"layers": [
 		{
-            "id": "odi-bridges-and-tunnels-points",
+			"id": "odi-bridges-and-tunnels-points",
 			"click" : true
 		},
 		{
-            "id": "odi-bridges-and-tunnels-other-points",
+			"id": "odi-bridges-and-tunnels-other-points",
 			"click" : true
 		},
 		{
-            "id": "odi-bridges-and-tunnels-lines",
+			"id": "odi-bridges-and-tunnels-lines",
 			"click" : true
 		},
 		{
-            "id": "odi-pedestrian-and-cycling-points",
+			"id": "odi-pedestrian-and-cycling-points",
 			"click" : true
 		},
 		{
-            "id": "odi-pedestrian-and-cycling-other-points",
+			"id": "odi-pedestrian-and-cycling-other-points",
 			"click" : true
 		},
 		{
-            "id": "odi-pedestrian-and-cycling-lines",
+			"id": "odi-pedestrian-and-cycling-lines",
 			"click" : true
 		},
 		{
-            "id": "odi-pedestrian-and-cycling-polygons",
+			"id": "odi-pedestrian-and-cycling-polygons",
 			"click" : true
 		},
 		{
-            "id": "odi-potable-water-points",
+			"id": "odi-potable-water-points",
 			"click" : true
 		},
 		{
-            "id": "odi-potable-water-other-points",
+			"id": "odi-potable-water-other-points",
 			"click" : true
 		},
 		{
-            "id": "odi-potable-water-lines",
+			"id": "odi-potable-water-lines",
 			"click" : true
 		},
 		{
-            "id": "odi-public-transit-stops-gtfs-points",
+			"id": "odi-public-transit-stops-gtfs-points",
 			"click" : true
 		},
 		{
-            "id": "odi-solid-waste-points",
+			"id": "odi-solid-waste-points",
 			"click" : true
 		},
 		{
-            "id": "odi-wastewater-stormwater-points",
+			"id": "odi-wastewater-stormwater-points",
 			"click" : true
 		},
 		{
-            "id": "odi-wastewater-stormwater-other-points",
+			"id": "odi-wastewater-stormwater-other-points",
 			"click" : true
 		},
 		{
-            "id": "odi-wastewater-stormwater-lines",
+			"id": "odi-wastewater-stormwater-lines",
 			"click" : true
 		},
 		{
-            "id": "odi-wastewater-stormwater-polygons",
+			"id": "odi-wastewater-stormwater-polygons",
 			"click" : true
 		},
 		{
-            "id": "bc",
-            "label": {
-            	"en": "British Columbia",
-            	"fr": "Colombie-Britannique"
-            }
-		},
-		{
-            "id": "ab",
-            "label": {
-            	"en": "Alberta",
-            	"fr": "Alberta"
+			"id": "bc",
+			"label": {
+				"en": "British Columbia",
+				"fr": "Colombie-Britannique"
 			}
 		},
 		{
-            "id": "sk",
-            "label": {
-            	"en": "Saskatchewan",
-            	"fr": "Saskatchewan"
-            }
+			"id": "ab",
+			"label": {
+				"en": "Alberta",
+				"fr": "Alberta"
+			}
 		},
 		{
-            "id": "mb",
-            "label": {
-            	"en": "Manitoba",
-            	"fr": "Manitoba"
-            }
+			"id": "sk",
+			"label": {
+				"en": "Saskatchewan",
+				"fr": "Saskatchewan"
+			}
+		},
+		{
+			"id": "mb",
+			"label": {
+				"en": "Manitoba",
+				"fr": "Manitoba"
+			}
 		},
 		{
 			"id": "on-pt1",
-            "label": {
-            	"en": "Ontario",
-            	"fr": "Ontario"
-            }
+			"label": {
+				"en": "Ontario",
+				"fr": "Ontario"
+			}
 		},		
 		{
-            "id": "on-pt2",
-            "label": {
-            	"en": "Ontario",
-            	"fr": "Ontario"
-            }
+			"id": "on-pt2",
+			"label": {
+				"en": "Ontario",
+				"fr": "Ontario"
+			}
 		},
 		{
-            "id": "qc",
-            "label": {
-            	"en": "Quebec",
-            	"fr": "Québec"
-            }
+			"id": "qc",
+			"label": {
+				"en": "Quebec",
+				"fr": "Québec"
+			}
 		},
 		{
-            "id": "pe",
-            "label": {
-            	"en": "Prince Edward Island",
-            	"fr": "Île-du-Prince-Édouard"
-            }
+			"id": "pe",
+			"label": {
+				"en": "Prince Edward Island",
+				"fr": "Île-du-Prince-Édouard"
+			}
 		},
 		{
-            "id": "ns",
-            "label": {
-            	"en": "Nova Scotia",
-            	"fr": "Nouvelle-Écosse"
-            }
+			"id": "ns",
+			"label": {
+				"en": "Nova Scotia",
+				"fr": "Nouvelle-Écosse"
+			}
 		},
 		{
-            "id": "nb",
-            "label": {
-            	"en": "New Brunswick",
-            	"fr": "Nouveau-Brunswick"
-            }
+			"id": "nb",
+			"label": {
+				"en": "New Brunswick",
+				"fr": "Nouveau-Brunswick"
+			}
 		},
 		{
-            "id": "nl",
-            "label": {
-            	"en": "Newfoundland and Labrador",
-                "fr": "Terre-Neuve-et-Labrador"
-            }
+			"id": "nl",
+			"label": {
+				"en": "Newfoundland and Labrador",
+				"fr": "Terre-Neuve-et-Labrador"
+			}
 		},
 		{
-            "id": "nt",
-            "label": {
-            	"en": "Northwest Territories",
-            	"fr": "Territoires du Nord-Ouest"
-            }
+			"id": "nt",
+			"label": {
+				"en": "Northwest Territories",
+				"fr": "Territoires du Nord-Ouest"
+			}
 		},
 		{
-            "id": "nu",
-            "label": {
-            	"en": "Nunavut",
-            	"fr": "Nunavut"
-            }
+			"id": "nu",
+			"label": {
+				"en": "Nunavut",
+				"fr": "Nunavut"
+			}
 		},
 		{
-            "id": "yt",
-            "label": {
-            	"en": "Yukon",
-            	"fr": "Yukon"
+			"id": "yt",
+			"label": {
+				"en": "Yukon",
+				"fr": "Yukon"
 			}
 		}
     ],
@@ -178,67 +178,67 @@
 		{
         	"color": [217,95,2],
 			"opacity": 1,
-            "label": {
-                "en": "Bridges and Tunnels",
-                "fr": "Ponts et tunnels"
-            },
+			"label": {
+				"en": "Bridges and Tunnels",
+				"fr": "Ponts et tunnels"
+			},
 			"value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "BRIDGES AND TUNNELS"]]]
-        },
+		},
 		{
-            "color": [50, 128, 229],
+			"color": [50, 128, 229],
 			"opacity": 1,
-            "label": {
+			"label": {
 				"en": "Public Transit Stops",
-                "fr": "Arrêts de transport en commun"
-            },
-            "value": ["all", ["any", ["has", "stop_id"]]]
-        },
+				"fr": "Arrêts de transport en commun"
+			},
+			"value": ["all", ["any", ["has", "stop_id"]]]
+		},
 		{
-            "color": [93,166,51],
+			"color": [93,166,51],
 			"opacity": 1,
-            "label": {
+			"label": {
 				"en": "Pedestrian and Cycling",
-                "fr": "Pistes cyclables et voies piétonnes"
-            },
-            "value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "PEDESTRIAN AND CYCLING"]]]
-        },
+				"fr": "Pistes cyclables et voies piétonnes"
+			},
+			"value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "PEDESTRIAN AND CYCLING"]]]
+		},
 		{
-            "color": [217,17,213],
+			"color": [217,17,213],
 			"opacity": 1,
-            "label": {
+			"label": {
 				"en": "Potable Water",
-                "fr": "Eau potable"
-            },
-            "value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "POTABLE WATER"]]]
-        },
+				"fr": "Eau potable"
+			},
+			"value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "POTABLE WATER"]]]
+		},
 		{
-            "color": [166,118,29],
+			"color": [166,118,29],
 			"opacity": 1,
-            "label": {
+			"label": {
 				"en": "Solid Waste",
-                "fr": "Déchets solides"
-            },
-            "value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "SOLID WASTE"]]]
-        },
+				"fr": "Déchets solides"
+			},
+			"value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "SOLID WASTE"]]]
+		},
 		{
-            "color": [87,66,245],
+			"color": [87,66,245],
 			"opacity": 1,
-            "label": {
-                "en": "Wastewater / Storm water",
-                "fr": "Eaux usées et eaux pluviales"
-            },
+			"label": {
+				"en": "Wastewater / Storm water",
+				"fr": "Eaux usées et eaux pluviales"
+			},
 			"value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "WASTEWATER STORMWATER"]]]
-        },
+		},
 		{
 			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",
-            "color": [207, 216, 220],
+			"color": [207, 216, 220],
 			"opacity": 1,
-            "label": {
-                "en": "Miscellaneous",
-                "fr": "Divers"
+			"label": {
+				"en": "Miscellaneous",
+				"fr": "Divers"
 			}
 		},
-        {
+		{
    			"group": {
    				"en": "Building Footprints",
    				"fr": "Empreintes d'immeubles"
