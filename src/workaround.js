@@ -5,18 +5,30 @@ export default class Workaround {
 	// TODO : This probably won't work for other databases unless they keep the same field namespaceURI
 	// It's a workaround for the ODHF because there are still some issues with the data at the time of launch
 	static FixField(field, value) {
-		if (field === "province" || field === "Prov_Terr") return this.LookupProvince(value, Core.locale);
+		if (field === "province" || field === "Prov_Terr") {
+			return this.LookupProvince(value, Core.locale);
+		}
+
+		if (field === "odhf_facility_type" || field === "ODCAF_Facility_Type") {
+			return this.LookupType(value, Core.locale);
+		}
 		
-		if (field === "odhf_facility_type" || field === "ODCAF_Facility_Type") return this.LookupType(value, Core.locale);
+		if (field === "postal_code" || field === "Postal_Code") {
+			return value.toUpperCase().replace(" ", "&nbsp;");
+		}
 		
-		if (field === "postal_code" || field === "Postal_Code") return value.toUpperCase().replace(" ", "&nbsp;");
-		
-		if (field === "facility_name" || field === "Facility_Name") return value.charAt(0).toUpperCase() + value.slice(1);
-		
-		if (field === "street_name" || field === "Street_Name") return value.charAt(0).toUpperCase() + value.slice(1);
-		
-		if (field === "city" || field === "City") return value.charAt(0).toUpperCase() + value.slice(1);
-		
+		if (field === "facility_name" || field === "Facility_Name") {
+			return value.charAt(0).toUpperCase() + value.slice(1);
+		}
+
+		if (field === "street_name" || field === "Street_Name") {
+			return value.charAt(0).toUpperCase() + value.slice(1);
+		}
+
+		if (field === "city" || field === "City") {
+			return value.charAt(0).toUpperCase() + value.slice(1);
+		}
+
 		return value;
 	}
 	
@@ -39,12 +51,14 @@ export default class Workaround {
 		if (abbr === 'nu') return locale === "en" ? "Nunavut" : "Nunavut";
 	}
 	
-	static LookupType(type, locale) {		
+	static LookupType(type, locale) {
 		if (type === "Hospitals") {
 			return locale === "en" ? "Hospitals" : "Hôpitaux";
 
 		} else if (type === "Nursing and residential care facilities"){
-			return locale === "en" ? "Nursing and residential care facilities" : "Établissements de soins infirmiers et de soins pour bénéficiaires internes";
+			return locale === "en" ?
+			"Nursing and residential care facilities":
+			"Établissements de soins infirmiers et de soins pour bénéficiaires internes";
 
 		} else if (type === "Ambulatory health care services"){
 			return locale === "en" ? "Ambulatory health care services" : "Services de soins de santé ambulatoires";
@@ -71,7 +85,8 @@ export default class Workaround {
 			return locale === "en" ? "Museum" : "Musée";
 
 		} else if (type === "theatre/performance and concert hall"){
-			return locale === "en" ? "Theatres/Performance and Concert Hall" : "Théâtres/salles de spectacle et salles de concert";
+			return locale === "en" ?
+			"Theatres/Performance and Concert Hall" : "Théâtres/salles de spectacle et salles de concert";
 
 		} else if (type === "miscellaneous"){
 			return locale === "en" ? "Miscellaneous" : "Divers";

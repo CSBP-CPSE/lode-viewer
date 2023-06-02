@@ -5,7 +5,7 @@ import { Core } from './web-mapping-components/web-mapping-components.js';
  * @class
  */
 export default class Configuration {
-	/** 
+	/**
 	 * Get the id from the map config file. Get for untransformed properties
 	 * @returns - the id of the map config file.
 	 */
@@ -14,8 +14,8 @@ export default class Configuration {
 	}
 	
 	/**
-	 * Get the data sources defined in the map configuration file.  
-	 * @returns - an object containing data sources 
+	 * Get the data sources defined in the map configuration file.
+	 * @returns - an object containing data sources
 	 */
 	get DataSources() {
 		return this.dataSources;
@@ -23,7 +23,7 @@ export default class Configuration {
 
 	/**
 	 * Get the style from the map config file.
-	 * @returns - the map style defined in the map config file. 
+	 * @returns - the map style defined in the map config file.
 	 */
 	get Style() {
 		return this.style;
@@ -56,7 +56,7 @@ export default class Configuration {
 	/**
 	 * Get for localized string of the URL for the table configuration file
 	 * @returns - A string representing the URL of the table configuration file
-	 */ 
+	 */
 	get TableUrl() {
 		return this.tableUrl;
 	}
@@ -96,7 +96,7 @@ export default class Configuration {
 	get LayerIDs() {
 		var layers = this.Layers;
 		
-		return layers && layers.map(l => l.id);
+		return layers && layers.map(l => l.id);
 	}
 	
 	/**
@@ -106,14 +106,14 @@ export default class Configuration {
 	get VisibleLayers() {
 		var layers = this.Layers;
 		
-		return layers && layers.filter(l => (l.visible || l.visible === undefined));
+		return layers && layers.filter(l => (l.visible || l.visible === undefined));
 	}
 	
 	/**
 	 * Get a list of layer ids for visible layers
 	 * @returns - List of visible layer ids
 	 */
-	get VisibleLayerIDs() {	
+	get VisibleLayerIDs() {
 		var layers = this.VisibleLayers;
 		
 		return layers && layers.map(l => l.id);
@@ -126,7 +126,7 @@ export default class Configuration {
 	get SelectedLayers() {
 		var layers = this.Layers;
 		
-		return layers.filter(l => l.selected);
+		return layers.filter(l => l.selected);
 	}
 	
 	/**
@@ -146,14 +146,14 @@ export default class Configuration {
 	get ClickableLayers() {
 		var layers = this.Layers;
 		
-		return layers && layers.filter(l => !!l.click);
+		return layers && layers.filter(l => !!l.click);
 	}
 	
 	/**
 	 * Get a list of layer ids for clickable layers.
 	 * @returns - List of clickable layers ids.
 	 */
-	get ClickableLayersIDs() {	
+	get ClickableLayersIDs() {
 		var layers = this.ClickableLayers;
 		
 		return layers && layers.map(l => l.id);
@@ -165,11 +165,11 @@ export default class Configuration {
 	 * @param {array} legend - Contents of a legend.
 	 */
 	MapLegendItems(legend) {
-		return legend.map(l => { 
-			return { 
-				color : l.color, 
+		return legend.map(l => {
+			return {
+				color : l.color,
 				opacity: l.opacity,
-				label : l.label && l.label[Core.locale], 
+				label : l.label && l.label[Core.locale],
 				title : Core.Nls("Legend_Checkbox_Title"),
 				value : l.value,
 				group: {
@@ -196,12 +196,12 @@ export default class Configuration {
 	get Fields() {
 		if (!this.table) return null;
 		
-		return this.table.fields.map(f => { 
-			return { 
+		return this.table.fields.map(f => {
+			return {
 				id : f.id,
 				label : f[Core.locale],
-				type : f.type || null
-			} 
+				type : f.type || null
+			}
 		});
 	}
 	
