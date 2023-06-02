@@ -15,9 +15,9 @@ body {
 }
 
 :not(li):focus {
-	box-shadow: 0 0 3px 2px rgba(47, 151, 255) !important;
-	-moz-box-shadow: 0 0 3px 2px rgba(47, 151, 255) !important;
-	-webkit-box-shadow: 0 0 3px 2px rgba(47, 151, 255) !important;
+	box-shadow: 0 0 3px 2px rgb(15, 135, 255) !important;
+	-moz-box-shadow: 0 0 3px 2px rgb(15, 135, 255) !important;
+	-webkit-box-shadow: 0 0 3px 2px rgb(15, 135, 255) !important;
 	outline: none !important;
 }
 
@@ -145,6 +145,160 @@ datalist {
 	height: 2px;
 }
 
+/* 
+-------------------------------------------------------------------------------
+popup.css style rules
+-------------------------------------------------------------------------------
+*/
+.popup {
+	z-index: 5000;
+	background-color: rgba(20,30,40,0.65);
+}
+
+.modal.popup.absolute {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.modal.popup.fixed {
+	display: block;
+	position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px; 
+}
+
+.popup .popup-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: -5px 5px 15px rgba(1, 1, 1, 0.5);
+    max-width: 400px;
+    max-height: 500px;
+    display: flex;	
+    flex-direction: column;
+}
+
+.popup .popup-body {
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.popup button.close {
+    font-size: 28px;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    right: 20px;
+    line-height: 30px;
+    top: 4px;
+    z-index: 1;
+    background: white;
+    border-radius: 30px;
+    padding: 0px;
+    color: #2a2a2b;
+    opacity: 0.7;
+	width : 30px;
+	height : 30px;
+}
+
+.popup p.warning  {
+	color: #c00d0d;
+	font-style : italic;
+}
+
+.popup .wip-container {
+	display: table;
+}
+
+.popup .wip-container > * {
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.popup .wip-container img {
+    margin-right: 8px;
+	width: 60px;
+	height: 60px;
+}
+
+.popup .continue-container {
+	margin-top: 8px;
+}
+
+.popup .continue-container,
+.popup .logo-container {
+    text-align: center;
+}
+
+.popup .logo {
+    width: 250px;
+}
+
+.popup h1 {
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 10px;
+}
+
+.popup hr {
+	margin : 0px;
+}
+
+.popup button.continue {
+	background-color: #bae2ed;
+    font-weight: bold;
+    color: #36494f;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    box-shadow: -2px 2px 3px rgba(1, 1, 1, 0.5);
+}
+
+.popup.maps .popup-container {	
+    max-height: 280px;
+    min-height: 250px;
+}
+
+.popup-bookmarks .popup-container {
+    max-width: 600px;
+}
+
+.popup-maps,
+.popup-bookmarks  {
+	display: block;
+}
+
+/* Mapbox popup */
+.mapboxgl-popup {
+    max-width: 325px !important;
+	z-index: 1;
+}
+
+.mapboxgl-popup ul.popup-inner {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}
+
+.mapboxgl-popup ul.popup-inner li label {
+	font-weight: 200;
+	margin: 0;
+}
+
+.mapboxgl-popup-content {
+	box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.2) !important;
+    -moz-box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.2) !important;
+    -webkit-box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
 /*
 -------------------------------------------------------------------------------
 controls.css style rules
@@ -194,6 +348,7 @@ controls.css style rules
 .mapboxgl-ctrl-group .mapboxgl-ctrl.legend > *,
 .mapboxgl-ctrl-group .mapboxgl-ctrl.opacity,
 .mapboxgl-ctrl-group .mapboxgl-ctrl.maps-menu,
+.mapboxgl-ctrl-group .mapboxgl-ctrl.years-menu,
 .mapboxgl-ctrl-group .mapboxgl-ctrl.labels-toggle,
 .mapboxgl-ctrl-group .mapboxgl-ctrl.theme-selector,
 .mapboxgl-ctrl-group .mapboxgl-ctrl.toc,
@@ -422,160 +577,6 @@ details.mapboxgl-ctrl-collapsable-group summary:hover {
 .bookmarks .bookmarks-description,
 .maps .maps-description {
 	margin: 0px 10px 0px 10px;
-}
-
-/* 
--------------------------------------------------------------------------------
-popup.css style rules
--------------------------------------------------------------------------------
-*/
-.popup {
-	z-index: 5000;
-	background-color: rgba(20,30,40,0.65);
-}
-
-.modal.popup.absolute {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-.modal.popup.fixed {
-	display: block;
-	position: fixed;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-    right: 0px; 
-}
-
-.popup .popup-container {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    overflow-y: auto;
-    background-color: #fff;
-    border-radius: 6px;
-    box-shadow: -5px 5px 15px rgba(1, 1, 1, 0.5);
-    max-width: 400px;
-    max-height: 500px;
-    display: flex;	
-    flex-direction: column;
-}
-
-.popup .popup-body {
-    overflow-y: auto;
-    padding: 10px;
-}
-
-.popup button.close {
-    font-size: 28px;
-    font-weight: bold;
-    border: none;
-    position: absolute;
-    right: 20px;
-    line-height: 30px;
-    top: 4px;
-    z-index: 1;
-    background: white;
-    border-radius: 30px;
-    padding: 0px;
-    color: #2a2a2b;
-    opacity: 0.7;
-	width : 30px;
-	height : 30px;
-}
-
-.popup p.warning  {
-	color: #c00d0d;
-	font-style : italic;
-}
-
-.popup .wip-container {
-	display: table;
-}
-
-.popup .wip-container > * {
-	display: table-cell;
-    vertical-align: middle;
-}
-
-.popup .wip-container img {
-    margin-right: 8px;
-	width: 60px;
-	height: 60px;
-}
-
-.popup .continue-container {
-	margin-top: 8px;
-}
-
-.popup .continue-container,
-.popup .logo-container {
-    text-align: center;
-}
-
-.popup .logo {
-    width: 250px;
-}
-
-.popup h1 {
-    font-size: 18px;
-    border-bottom: none;
-    margin-top: 10px;
-}
-
-.popup hr {
-	margin : 0px;
-}
-
-.popup button.continue {
-	background-color: #bae2ed;
-    font-weight: bold;
-    color: #36494f;
-    border: none;
-    padding: 5px 10px 5px 10px;
-    border-radius: 6px;
-    box-shadow: -2px 2px 3px rgba(1, 1, 1, 0.5);
-}
-
-.popup.maps .popup-container {	
-    max-height: 280px;
-    min-height: 250px;
-}
-
-.popup-bookmarks .popup-container {
-    max-width: 600px;
-}
-
-.popup-maps,
-.popup-bookmarks  {
-	display: block;
-}
-
-/* Mapbox popup */
-.mapboxgl-popup {
-    max-width: 325px !important;
-	z-index: 1;
-}
-
-.mapboxgl-popup ul.popup-inner {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	margin-top: 10px;
-}
-
-.mapboxgl-popup ul.popup-inner li label {
-	font-weight: 200;
-	margin: 0;
-}
-
-.mapboxgl-popup-content {
-	box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.2) !important;
-    -moz-box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.2) !important;
-    -webkit-box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.2) !important;
 }
 
 /*

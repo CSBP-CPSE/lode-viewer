@@ -17,6 +17,11 @@ export default class LodeApp extends Templated {
 	constructor(node, config) {
 		super(node);
 
+		// Update local storage with lode-viewer app specific default value for lode-map:
+		if (!window.localStorage.getItem("lode-map")) {
+			window.localStorage.setItem("lode-map", "odi");
+		}
+
 		this.config = config;
 		this.current = this.config.maps[Store.Map];
 		this.maxExtent = [[-162.0, 41.0], [-32.0, 83.5]];

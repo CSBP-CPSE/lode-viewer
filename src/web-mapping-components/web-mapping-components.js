@@ -106,9 +106,10 @@ class Util {
 	 * @returns {array} a list containing each row of csv data
 	 */
 	static ParseCsv(csv) {		
+		var e, e1, e2;
 		var s = 0;
 		var i = 0;
-		
+
 		var lines = [[]];
 
 		// Replace CRLF line breaks with LF if they exist
@@ -119,34 +120,37 @@ class Util {
 		while (s < csv.length) {
 			if (csv[s] == '"') {
 				s++;
-				
-				var e = csv.indexOf('"', s);
+
+				e = csv.indexOf('"', s);
 				
 				lines[i].push(csv.substr(s, e - s));
-				
+
 				e++;
+				e2 = csv.indexOf('\n', s);
 			}
 			else {
-				var e1 = csv.indexOf(',', s);
-				var e2 = csv.indexOf('\n', s);
-								
-				var e = (e1 > -1 && e1 < e2) ? e1 : e2;							
-								
+				e1 = csv.indexOf(',', s);
+				e2 = csv.indexOf('\n', s);
+
+				e = (e1 > -1 && e1 < e2) ? e1 : e2;
+
 				lines[i].push(csv.substr(s, e - s));
-					
-				if (e == e2) {					
-					lines.push([]);
-					
-					i++;
-				}
 			}
+
+			// Add next list to the lines and increment the index when the end
+			// character is a new line character.
+			if (e == e2) {					
+				lines.push([]);
 				
+				i++;
+			}
+
 			s = e + 1;
 		}
-		
+
 		return lines;
 	}
-	
+
 	/**
 	 * Sets the disabled property to true or false for a provided selection
 	 * of nodes if they are of a focusable type.
@@ -774,6 +778,22 @@ class Store {
 	static set SearchItem(value) {
 		let currentSearchItem = JSON.stringify(value);
 		sessionStorage.setItem("search-item", currentSearchItem);
+	}
+
+	/**
+	 * Get the year from localStorage
+	 * @returns {string} - year
+	 */
+	 static get Year() {
+		return localStorage.getItem("year");
+	}
+	
+	/**
+	 * Set the year in localStorage
+	 * @param {string} value - year
+	 */
+	static set Year(value) {
+		localStorage.setItem("year", value);
 	}
 }
 
@@ -1889,17 +1909,42 @@ class MapsList extends Control {
 
 		//this.tooltip = new Tooltip();
 		
-		for (var id in options.maps) this.AddMapItem(id, options.maps[id]);
+		// Update the Maps List
+		this.updateMapsList(options.maps);
+	}
+
+	/**
+	 * Set the list of map options
+	 * @param {object} val The collection of map configurations used to generate menu list items
+	 */
+	 set mapoptions(val) {
+		if (typeof val === 'object' && val != null && Object.keys(val).length) {
+			this.options.maps = val;
+
+			Dom.Empty(this.Node('maps-ul'));
+		    this.updateMapsList(val);
+		}
+   }
+
+	/**
+	 * Update the list of maps in the control
+	 * @param maps a list of map configurations
+	 */
+	updateMapsList(maps) {
+		for (var id in maps) {
+			this.AddMapItem(String(id), maps[id]);
+		}
 	}
 
 	AddMapItem(id, map) {
-		var li = Dom.Create('li', { className:"maps-list-item", innerHTML:map.title, tabIndex:0 }, this.Node("ul"));
+		var li = Dom.Create('li', { className:"maps-list-item", innerHTML:String(map.title), tabIndex:0 }, this.Node("maps-ul"));
 		
 		//li.addEventListener("mousemove", this.OnLiMouseMove_Handler.bind(this, id, map));
 		//li.addEventListener("mouseleave", this.OnLiMouseLeave_Handler.bind(this, id, map));
 		li.addEventListener("click", this.OnLiClick_Handler.bind(this, id, map));
 		li.addEventListener("keydown", this.OnLiKeydown_Handler.bind(this, id, map));
 	}
+
 	/*
 	OnLiMouseMove_Handler(id, map, ev) {	
 		this.tooltip.Node("content").innerHTML = map.description;
@@ -1910,6 +1955,7 @@ class MapsList extends Control {
 		this.tooltip.Hide();
 	}
 	*/
+
 	OnLiKeydown_Handler(id, map, ev) {		
 		// prevent default event on specifically handled keys
 		if (ev.keyCode != 13) return;
@@ -1929,7 +1975,7 @@ class MapsList extends Control {
 					 `<img class='maps-header-icon' src='${Core.root}assets/layers.png'></img>` +
 					 "<h2 handle='maps-header' class='maps-header'>Maps</h2>" +
 				  "</div>" +
-				  "<ul handle='ul' class='maps-list'></ul>" + 
+				  "<ul handle='maps-ul' class='maps-list'></ul>" + 
 				  // "<div handle='description' class='maps-description'></div>" +
 			   "</div>"
 	}
@@ -1978,6 +2024,20 @@ class MapsMenu extends Control {
 	}
 
 	/**
+	 * Set maps menu map options
+	 * @param {object} val The collection of map configurations used to generate menu options
+	 */
+	 set mapoptions(val) {
+		if (typeof val === 'object' && val != null && Object.keys(val).length) {
+			this.maps = val;
+			this.options.maps = val;
+
+			Dom.Empty(this.Node('maps-menu'));
+			this.updateMapsMenu(val);
+		}
+   }
+
+	/**
 	 * Update the maps menu with a collection of maps as select menu options.
 	 * @param {object} maps a collection of maps
 	 * Example of basic maps object structure:
@@ -2010,8 +2070,8 @@ class MapsMenu extends Control {
 			let map = maps[mapKey];
 
 			let opt = Dom.Create('option', {
-				value: map.id,
-				innerHTML: map.title
+				value: String(map.id),
+				innerHTML: String(map.title)
 			}, this.Node('maps-menu'));
 			opt.setAttribute('handle', 'maps-menu-option');
 		}
@@ -2493,26 +2553,35 @@ class Theme extends Control {
 		let i, group;
 		let group_menu_node = 'theme-groups';
 
-		if (!this.isValidGroup(groups, this.currentThemeGroup)) {
-			// Empty theme groups selection menu before adding items
-			Dom.Empty(this.Node(group_menu_node));
+		// Empty theme groups selection menu before adding items
+		Dom.Empty(this.Node(group_menu_node));
 
-			// Add group items if they're defined
-			if (Array.isArray(groups) && groups.length) {
-				// Add items to group menu
-				for (i = 0; i < groups.length; i += 1) {
-					group = groups[i];
-					this.addGroupItem(group, group_menu_node);
-				}
-			
-				// Set initial value to first group datalist option
-				let firstGroupItem = groups[0];
-				this.Node('theme-groups').value = firstGroupItem[Core.locale];
-
-				// Updated current theme group selection
-				this.currentThemeGroup = this.Node('theme-groups').value;
+		// Add group items if they're defined
+		if (Array.isArray(groups) && groups.length) {
+			// Add items to group menu
+			for (i = 0; i < groups.length; i += 1) {
+				group = groups[i];
+				this.addGroupItem(group, group_menu_node);
 			}
 		}
+
+		// Re-set current theme group selection to previous selection if
+		// current selection after group menu options is updated
+		if (this.currentThemeGroup && this.Node('theme-groups').value != this.currentThemeGroup) {
+			this.Node('theme-groups').value = this.currentThemeGroup;
+		}
+
+		// Update group selection to first item if current theme selection
+		// is not in group.
+		if (!this.isValidGroup(groups, this.currentThemeGroup)) {
+			// Set initial value to first group datalist option
+			let firstGroupItem = groups[0];
+			this.Node('theme-groups').value = firstGroupItem[Core.locale];
+
+			// Updated current theme group selection
+			this.currentThemeGroup = this.Node('theme-groups').value;
+		}
+
 		// Dispatch a change event to trigger a group selection change
 		this.Node("theme-groups").dispatchEvent(new Event('change', { 'bubbles': true }));
 	}
@@ -2774,26 +2843,35 @@ class ThemeDatalist extends Theme {
 		let i, group;
 		let group_menu_node = 'theme-groups-list';
 
-		if (!this.isValidGroup(groups, this.currentThemeGroup)) {
-			// Empty theme groups selection menu before adding items
-			Dom.Empty(this.Node(group_menu_node));
+		// Empty theme groups selection menu before adding items
+		Dom.Empty(this.Node(group_menu_node));
 
-			// Add group items if they're defined
-			if (Array.isArray(groups) && groups.length) {
-				// Add items to group menu
-				for (i = 0; i < groups.length; i += 1) {
-					group = groups[i];
-					this.addGroupItem(group, group_menu_node);
-				}
-
-				// Set initial value to first group datalist option
-				let firstGroupItem = groups[0];
-				this.Node('theme-groups').value = firstGroupItem[Core.locale];
-
-				// Updated current theme group selection
-				this.currentThemeGroup = this.Node('theme-groups').value;
+		// Add group items if they're defined
+		if (Array.isArray(groups) && groups.length) {
+			// Add items to group menu
+			for (i = 0; i < groups.length; i += 1) {
+				group = groups[i];
+				this.addGroupItem(group, group_menu_node);
 			}
 		}
+
+		// Re-set current theme group selection to previous selection if
+		// current selection after group menu options is updated
+		if (this.currentThemeGroup && this.Node('theme-groups').value != this.currentThemeGroup) {
+			this.Node('theme-groups').value = this.currentThemeGroup;
+		}
+
+		// Update group selection to first item if current theme selection
+		// is not in group.
+		if (!this.isValidGroup(groups, this.currentThemeGroup)) {
+			// Set initial value to first group datalist option
+			let firstGroupItem = groups[0];
+			this.Node('theme-groups').value = firstGroupItem[Core.locale];
+
+			// Updated current theme group selection
+			this.currentThemeGroup = this.Node('theme-groups').value;
+		}
+
 		// Dispatch a change event to trigger a group selection change
 		this.Node("theme-groups").dispatchEvent(new Event('change', { 'bubbles': true }));
 	}
@@ -2957,6 +3035,91 @@ class ThemeDatalist extends Theme {
 		   "</div>";
 	
 		return template;
+	}
+}
+
+/**
+ * YearsMenu Control class
+ * @class
+ */
+class YearsMenu extends Control { 
+		
+	constructor(options) {	
+		super(options);
+		
+		this._container = this.Node('root');
+		this.years = options.years;
+
+		// If a custom label is provided, update menu label
+		if (options.label && typeof(options.label) === 'string') {
+			this.Node('years-menu-label').innerHTML = options.label;
+			Dom.SetAttribute(this.Node('years-menu'), 'aria-label', options.label);
+		}
+
+		// Update the Years Select Menu
+		this.updateYearsMenu(this.years);
+
+		// Add event listeners for change events on years menu
+		this.Node('years-menu').addEventListener('change', this.onYearsMenuSelectorChange_Handler.bind(this));
+	}
+
+	/**
+	 * Select years menu value getter
+	 * @returns {string} The value of the years-menu select element
+	 */
+	get value() {
+		return this.Node('years-menu').value;
+	}
+
+	/**
+	 * Select years menu value setter
+	 * @param {string} val The value the years-menu select element should be set to
+	 */
+	set value(val) {
+		let menu = this.Node('years-menu');
+		menu.value = val;
+	}
+
+	/**
+	 * Update the years menu with a collection of years as select menu options.
+	 * @param {array} years a collection of years. e.g [2016, 2021]
+	 */
+	updateYearsMenu(years) {
+		for (let i = 0; i < years.length; i += 1) {
+			let year = String(years[i]);
+
+			let opt = Dom.Create('option', {
+				value: year,
+				innerHTML: year
+			}, this.Node('years-menu'));
+			opt.setAttribute('handle', 'years-menu-option');
+		}
+	}
+
+	/**
+	 * Handle years menu selection changes and emit required year selection details 
+	 * @param {Event} ev
+	 */
+	onYearsMenuSelectorChange_Handler(ev) {
+		let yearsMenuSelection = this.Node('years-menu').value;
+
+		// Emit change event for years menu
+		this.Emit('YearsMenuControlChanged', {
+			id: yearsMenuSelection
+		});
+	}
+
+	/**
+	 * HTML Template for Years Menu Control
+	 * @returns {string} Template representing a years menu control
+	 */
+	Template() {
+		return "<div handle='root' class='years-menu mapboxgl-ctrl'>" + 
+					"<div class='years-menu-container'>" + 
+						"<label handle='years-menu-label' class='years-menu-label'>Year</label> " +
+						"<select aria-label='Years' handle='years-menu' name='years-menu' class='years-menu'></select>" +
+					"</div>" +
+			   "</div>"
 	}
 }
 
@@ -3938,6 +4101,16 @@ class Factory {
 	static MapsMenuControl(maps, label) {
 		return new MapsMenu({ maps:maps, label:label });
 	}
+		
+	/**
+	 * Builds a Years Menu Control
+	 * @param {array} years A list of years 
+	 * @param {string} label The label to be shown next to the years select menu
+	 * @returns YearsMenu object
+	 */
+	 static YearsMenuControl(years, label) {
+		return new YearsMenu({ years:years, label:label });
+	}
 	
 	/**
 	 * Creates a new Bookmarks control that can be added to a map.
@@ -4091,4 +4264,4 @@ class Other {
 	}
 }
 
-export { Bookmarks, CollapsableGroup, Control, Core, Dom, Download, Evented, Factory, Fullscreen, Group, LabelsToggle, Legend, Map, MapsList, MapsMenu, Menu, Navigation, Net, Opacity, Other, Popup, Search, Store, Templated, Theme, ThemeDatalist, Toc, Tooltip, typeahead as Typeahead, Util };
+export { Bookmarks, CollapsableGroup, Control, Core, Dom, Download, Evented, Factory, Fullscreen, Group, LabelsToggle, Legend, Map, MapsList, MapsMenu, Menu, Navigation, Net, Opacity, Other, Popup, Search, Store, Templated, Theme, ThemeDatalist, Toc, Tooltip, typeahead as Typeahead, Util, YearsMenu };

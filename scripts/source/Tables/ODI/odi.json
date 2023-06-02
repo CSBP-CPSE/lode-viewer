@@ -1,0 +1,30 @@
+{
+    "id" : "ODI",
+	"source" : "./source/Tables/ODI/ODI_v1.csv",
+	"title": {
+        "en": "Detailed table of Infrastructure in {0}",
+        "fr": "Tableau détaillé des infrastructures {0}"
+    },
+    "description": {
+        "en": "This table contains the infrastructures contained in the selected census subdivision.",
+        "fr": "Ce tableau contient les infrastructures contenus dans la sous-division de recensement sélectionnée."
+    },
+    "fields": [
+        {
+            "id": "NAME",
+            "en": "Name",
+            "fr": "Nom",
+	        "type": "text"
+        }, {
+            "id": "INFRASTRUCTURE_TYPE",
+            "en": "Type",
+            "fr": "Type",
+	        "type": "text"
+        }, {
+            "id": "INFR_SUB_TYPE",
+            "en": "Sub-Type",
+            "fr": "Sous-type",
+	        "type": "text"
+        }
+    ]
+}

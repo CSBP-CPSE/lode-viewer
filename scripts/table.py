@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 import geopandas as gpd
 import util as u
@@ -8,11 +9,11 @@ from pathlib import Path, PurePath
 # Column field name variables
 # Before running this script, update the variables with the strings matching
 # the names in the dataset for csduid column, index, lat, and long columns.
-TABLECONFIG = "./source/Tables/ODG/odg.json"
+TABLECONFIG = "./source/Tables/ODI/odi.json"
 CSDUID = "CSDUID"
-INDEX = "Index"
-LAT = "Latitude"
-LONG = "Longitude"
+INDEX = "INDEX"
+LAT = "LATITUDE"
+LONG = "LONGITUDE"
 
 
 def BuildDf(iFile):
@@ -25,6 +26,35 @@ def BuildDf(iFile):
 
     # Exclude null lat/long series from data frame
     df = df[~df[LAT].isnull()][~df[LONG].isnull()]
+
+    return df
+
+
+def UpdateDFColOrder(df, config_cols):
+    """
+    Update the column order of the data frame to match the order of the columns listed in the config
+    :param df: Pandas dataframe
+    :param config_cols: table config file property containing a list of fields
+    :return: Updated data frame
+    """
+
+    df_columns_updated = []
+    df_columns = df.columns.to_list()
+
+    for config_col in config_cols:
+        config_col_id = config_col['id']
+        if config_col_id in df_columns:
+            # Append config column
+            df_columns_updated.append(config_col_id)
+
+            # Remove matching column from df column list
+            df_columns.remove(config_col_id)
+
+    # Add remaining df columns to updated columns list
+    df_columns_updated.extend(df_columns)
+
+    # Update df column order
+    df = df[df_columns_updated]
 
     return df
 
@@ -117,6 +147,9 @@ df = BuildDf(config["source"])
 csduid_df = df[CSDUID]
 csduid_df = pd.to_numeric(csduid_df, downcast='integer')
 df[CSDUID] = csduid_df
+
+# Update column order of df to match fields order in config
+df = UpdateDFColOrder(df, config["fields"])
 
 # Create a list of dropped fields not listed in the table config file
 drop = u.GetDropFields(df, config["fields"])
