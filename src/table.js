@@ -7,17 +7,17 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 
 	/**
 	 * Table class constructor
-	 * 
+	 *
 	 * @constructor
 	 * @param {object} container the HTML element that will contain the table.
 	 * @param {object} options table options
 	 *  options.path - path to the table data e.g. `data/<dataset-name>`
-	 *  options.summary - an object containing a summary of how many data json files/pages 
+	 *  options.summary - an object containing a summary of how many data json files/pages
 	 * 		of content are available for each census sub division.
 	 *  options.fields - list of table field names provided by the table config file
-	 *  options.title - string representing the table title 
+	 *  options.title - string representing the table title
 	 */
-	constructor(container, options) {	
+	constructor(container, options) {
 		super(container, options);
 		
 		this.path = options.path;
@@ -37,31 +37,33 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 		this.Node('prev').addEventListener('click', this.OnButtonPrev_Handler.bind(this));
 		this.Node('next').addEventListener('click', this.OnButtonNext_Handler.bind(this));
 		
-		this.fields.forEach(f => this.AddHeader(f));
+		this.fields.forEach(f => this.AddHeader(f));
 	}
 
 	// HTML template for table-widget
 	Template() {
 		return "<div class='table-widget'>" +
-				  "<h2 handle='title'>nls(Table_Title_Default)</h2>" +
-				  
-			      "<a id='lode-table' handle='message' class='table-message'>nls(Table_Message)</a>"+
-				  
-			      "<div handle='table' class='table-container hidden'>" + 
-					 "<summary handle='description'></summary>" +
-				     "<table>" +
-				        "<thead>" + 
-				           "<tr handle='header'></tr>" + 
-				        "</thead>" +
-				        "<tbody handle='body'></tbody>" + 
-				     "</table>" + 
-				     "<div class='navigation'>" + 
-					    `<button handle='prev' title='nls(Table_Previous_Button)' disabled><img src='${Core.root}assets/arrow-left.png'></button>`+
-					    "<span handle='current' class='current'></span>"+ 
-					    `<button handle='next' title='nls(Table_Next_Button)' disabled><img src='${Core.root}assets/arrow-right.png'></button>`+
-				     "</div>" + 
-			      "</div>" + 
-			   "</div>"
+					"<h2 handle='title'>nls(Table_Title_Default)</h2>" +
+					"<a id='lode-table' handle='message' class='table-message'>nls(Table_Message)</a>"+
+					"<div handle='table' class='table-container hidden'>" +
+						"<summary handle='description'></summary>" +
+						"<table>" +
+							"<thead>" +
+							"<tr handle='header'></tr>" +
+							"</thead>" +
+							"<tbody handle='body'></tbody>" +
+						"</table>" +
+						"<div class='navigation'>" +
+						"<button handle='prev' title='nls(Table_Previous_Button)' disabled>" +
+							`<img src='${Core.root}assets/arrow-left.png'>` +
+						"</button>" +
+						"<span handle='current' class='current'></span>" +
+						"<button handle='next' title='nls(Table_Next_Button)' disabled>" +
+							`<img src='${Core.root}assets/arrow-right.png'>`+
+						"</button>" +
+					"</div>" +
+				"</div>" +
+			"</div>"
 	}
 
 	/**
@@ -82,7 +84,7 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 	}
 
 	//Update the table content with the correct data of the DBU
-	Populate(item, data) {		
+	Populate(item, data) {
 		Dom.Empty(this.Node('body'));
 
 		data.shift();
@@ -104,12 +106,12 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 	}
 	
 	/**
-	* Update the table with the correct DBUID data 
+	* Update the table with the correct DBUID data
 	*
 	* @param {object} item the item that was used in the search bar
 	* @param {number} page the current page number.
 	*/
-	UpdateTable(item, page) {	
+	UpdateTable(item, page) {
 		// Set current DB
 		this.current.page = page || 1;
 		this.current.item = item;
@@ -124,11 +126,11 @@ export default Core.Templatable("Basic.Components.Table", class Table extends Te
 			Dom.RemoveClass(this.Node("message"), "hidden");
 			
 			return;
-		};
+		}
 		
-		// Get CSV file for selected DB. Extension is json because of weird server configuration. Content is csv.		
+		// Get CSV file for selected DB. Extension is json because of weird server configuration. Content is csv.
 		var file = `${Core.root}${this.path}\\${this.current.item.id}_${this.current.page}.json`;
-		var url = this.GetDataFileUrl(file);	
+		var url = this.GetDataFileUrl(file);
 		
 		Net.Request(url).then(ev => {
 			var data = Util.ParseCsv(ev.result);

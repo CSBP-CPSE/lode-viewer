@@ -8,14 +8,14 @@ Net.JSON(`${Core.root}config/config.nls.json`).then(value => {
 	Core.locale = document.documentElement.lang || "en";
 	Core.nls = value.result;
 	
-	// Get map config json files defined in applications config file 
+	// Get map config json files defined in applications config file
 	var p1 = Net.JSON(`${Core.root}config/config.applications.json`);
 	
 	// Start application once the map config files are retrieved
 	Promise.all([p1]).then(Start);
 });
 
-function Start(results) {		
+function Start(results) {
 	var defs = results[0].result.map(m => Net.JSON(`${Core.root}${m}`));
 	
 	var config = {}
@@ -24,7 +24,7 @@ function Start(results) {
 		config.maps = {};
 		
 		// Store map configurations in config object
-		values.forEach(v => config.maps[v.result.id] = Configuration.FromJSON(v.result));
+		values.forEach(v => config.maps[v.result.id] = Configuration.FromJSON(v.result));
 	});
 	
 	var p2 = Net.JSON(`${Core.root}config/config.bookmarks.json`).then(value => {
@@ -45,7 +45,7 @@ function Start(results) {
 	Promise.all([p1, p2, p3, p4]).then(results => {
 		// Update app-container with application
 		var node = Dom.Node(document.body, "#app-container");
-		var app = new Application(node, config);
+		new Application(node, config);
 	});
 }
 

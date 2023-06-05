@@ -45,15 +45,15 @@ export default class LodeApp extends Templated {
 	 * - table container
 	 */
 	Template() {
-		return  "<div handle='presentation' class='instructions'>nls(Map_Presentation_1)</div>" + 
-				//"<div handle='presentation' class='instructions'>nls(Map_Presentation_2)</div>" + 
+		return  "<div handle='presentation' class='instructions'>nls(Map_Presentation_1)</div>" +
+				//"<div handle='presentation' class='instructions'>nls(Map_Presentation_2)</div>" +
 				"<div class='search-container'>" +
-					"<span class='wb-inv'>nls(Inv_Search_Instructions)</span>" + 
+					"<span class='wb-inv'>nls(Inv_Search_Instructions)</span>" +
 					"<label class='search-label'>nls(App_Search_Label)" +
 						"<div handle='search' class='search'></div>" +
 					"</label>" +
 					"<div class='inv-container'>" +
-						"<a href='#lode-table' class='wb-inv wb-show-onfocus wb-sl'>nls(Inv_Skip_Link)</a>" + 
+						"<a href='#lode-table' class='wb-inv wb-show-onfocus wb-sl'>nls(Inv_Skip_Link)</a>" +
 					"</div>" +
 				"</div>" +
 				"<div class='map-container'>" +
@@ -145,7 +145,9 @@ export default class LodeApp extends Templated {
 	 */
 	AddBaseControls() {
 		var fullscreen = Factory.FullscreenControl(Core.Nls("FullScreen_Title"));
-		var navigation = Factory.NavigationControl(false, true, Core.Nls("Navigation_ZoomIn_Title"), Core.Nls("Navigation_ZoomOut_Title"));
+		var navigation = Factory.NavigationControl(false, true,
+			Core.Nls("Navigation_ZoomIn_Title"),
+			Core.Nls("Navigation_ZoomOut_Title"));
 		var scale = Factory.ScaleControl("metric");
 
 		this.map.AddControl(fullscreen, "top-left");
@@ -154,12 +156,12 @@ export default class LodeApp extends Templated {
 	}
 
 	/**
-	 * Create and add a search bar for searching census sub-divisions 
+	 * Create and add a search bar for searching census sub-divisions
 	 */
 	AddSearch() {
 		this.config.search.items = this.config.search.items.map(i => {
-			return { 
-				id : i[0], 
+			return {
+				id : i[0],
 				name : i[1],
 				label : `${i[1]} (${i[0]})`,
 				extent : [[i[2], i[3]], [i[4], i[5]]]
@@ -167,7 +169,10 @@ export default class LodeApp extends Templated {
 		});
 
 		// Add top-left search bar
-		var search = Factory.SearchControl(this.config.search.items, Core.Nls("Search_Placeholder"), Core.Nls("Search_Title"));
+		var search = Factory.SearchControl(this.config.search.items,
+			Core.Nls("Search_Placeholder"),
+			Core.Nls("Search_Title"));
+		
 		search.Place(this.Node("search"));
 		search.On("Change", this.OnSearchChange_Handler.bind(this));
 		search.Node("typeahead").Node("input").id = "lode-search";
@@ -177,7 +182,7 @@ export default class LodeApp extends Templated {
 	 * Create and add a map legend based on legend items defined in map config document.
 	 */
 	AddGroup() {
-		// Top-right group for legend, etc.		
+		// Top-right group for legend, etc.
 		this.group = {
 			legend : Factory.LegendControl(this.current.Legend, this.current.FullTitle, null, this.current.Subtitle),
 			opacity : Factory.OpacityControl(Store.Opacity)
@@ -197,15 +202,24 @@ export default class LodeApp extends Templated {
 	AddMenu() {
 		// Top-left menu below navigation
 		var maps = Factory.MapsListControl(this.config.maps, Core.Nls("Maps_Header"));
-		var bookmarks = Factory.BookmarksControl(this.config.bookmarks, Core.Nls("Bookmarks_Header"), Core.Nls("Bookmarks_Description"));
+		var bookmarks = Factory.BookmarksControl(this.config.bookmarks,
+			Core.Nls("Bookmarks_Header"),
+			Core.Nls("Bookmarks_Description"));
 
 		this.menu = Factory.MenuControl();
 
 		this.map.AddControl(this.menu, "top-left")
-		this.menu.AddButton("home", Core.root + "assets/globe.png", Core.Nls("Home_Title"), this.OnHomeClick_Handler.bind(this));
-		this.menu.AddPopupButton("maps", Core.root + "assets/layers.png", Core.Nls("Maps_Title"), maps, this.map.Container);
-		this.menu.AddPopupButton("bookmarks", Core.root + "assets/bookmarks.png", Core.Nls("Bookmarks_Title"), bookmarks, this.map.Container);
-		this.menu.AddButton("help", Core.root + "assets/help.png", Core.Nls("Help_Title"), this.OnHelpClick_Handler.bind(this));
+		this.menu.AddButton("home", Core.root + "assets/globe.png",
+		Core.Nls("Home_Title"), this.OnHomeClick_Handler.bind(this));
+		
+		this.menu.AddPopupButton("maps", Core.root + "assets/layers.png",
+		Core.Nls("Maps_Title"), maps, this.map.Container);
+
+		this.menu.AddPopupButton("bookmarks", Core.root + "assets/bookmarks.png",
+		Core.Nls("Bookmarks_Title"), bookmarks, this.map.Container);
+
+		this.menu.AddButton("help", Core.root + "assets/help.png",
+		Core.Nls("Help_Title"), this.OnHelpClick_Handler.bind(this));
 						
 		maps.On("MapSelected", this.OnMapSelected_Handler.bind(this));
 		bookmarks.On("BookmarkSelected", this.OnBookmarkSelected_Handler.bind(this));
@@ -238,7 +252,7 @@ export default class LodeApp extends Templated {
 	 * OpacitySliderChanged event handler for when the opacity slider updates.
 	 * @param {object} ev - Event object containing details on the opacity slider value
 	 */
-	OnOpacitySlider_Changed(ev) {		
+	OnOpacitySlider_Changed(ev) {
 		Store.Opacity = ev.opacity;
 		this.map.UpdateMapLayersWithLegendState(this.current.LayerIDs, this.group.legend, Store.Opacity);
 	}
@@ -255,7 +269,7 @@ export default class LodeApp extends Templated {
 	/**
 	 * Event handler for clicking the help button, which simulates clicking the
 	 * how to use button at the top of the application.
-	 * @param {object} ev - mouse event when clicking on the help menu button. 
+	 * @param {object} ev - mouse event when clicking on the help menu button.
 	 */
 	OnHelpClick_Handler(ev) {
 		window.document.getElementById('wb-auto-2').click();
@@ -296,7 +310,7 @@ export default class LodeApp extends Templated {
 
 	/**
 	 * Event handler which updates the map to handle clicks, and update the
-	 * styling on features on the map 
+	 * styling on features on the map
 	 * @param {object} ev - StyleChanged event object.
 	 */
 	OnMapStyleChanged_Handler(ev) {
@@ -358,7 +372,7 @@ export default class LodeApp extends Templated {
 
 	/**
 	 * Update table with search items, add a boundary line for the census
-	 * subdivision extent, and update map bounds with the extent of the 
+	 * subdivision extent, and update map bounds with the extent of the
 	 * searched census sub-division.
 	 * Assumption : Search will always be by CSD
 	 * @param {object} ev - Change event object, containing the search item details
@@ -369,7 +383,7 @@ export default class LodeApp extends Templated {
 				{
 					color : this.config.search.color,
 					value : ["==", ["get", this.config.search.field], ev.item.id]
-				}, 
+				},
 				{
 					color : [255, 255, 255, 0]
 				}
