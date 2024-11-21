@@ -1,50 +1,48 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Westbound Portage at Broadway,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Northbound Sherbrook at Sara,..,..
-Westbound Headmaster at Rothesay,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Southbound Drake at Agate,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Westbound Beliveau at St. Anne's,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Eastbound Markham at Chancellor East,..,..
-Eastbound South at Wildwood I,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Northbound Louelda at Tu Pelo,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Northbound Lakewood at Tahoe,..,..
-Northbound Waverley at Victor Lewis,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Northbound Scurfield at Wittenberg,..,..
-Northbound Ashworth at Coombs,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Southbound Des Meurons at Eugenie,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Southbound Salter at Machray,..,..
-Westbound Prevette at Prevette Loop,..,..
-Northbound Island Shore at Leger,..,..
-Eastbound Bridgeland at Maple Creek,..,..
-Westbound Hamilton at Vimy,..,..
-Westbound Regent at Stapon East,..,..
-Northbound Main at Seaforth,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Southbound Watt at Union,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Westbound Bison at Markham,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+fd867e9b215fb54c56b773d33b3c8e0a,railways,track,..,...,...,Natural Resources Canada
+fda58079aec7c68a680a10dc2b550ec2,railways,track,Winnipeg Terminal,...,...,Natural Resources Canada
+fda5d0890393cca473a920ea945dc66c,solid waste,recycling,7-11,..,Material recovery,Province of Manitoba
+fdcbb50f68e00f9bb6699ca0f45f74d7,railways,track,..,...,...,Natural Resources Canada
+fdd1837c64eb78e9ef52d6f4a579f4f6,railways,track,L Zone Industrial Lead,...,...,Natural Resources Canada
+fdd38a445b1f56daaad6a1f8bf81b95f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+fdd8551ceedf10053a507bb3cd365348,railways,track,Sherwin Lead,...,...,Natural Resources Canada
+fde4a0bfa033f7ce59185f13ba859979,solid waste,recycling,Gauthier Chrysler,..,Material recovery,Province of Manitoba
+fde7bfced3dad2ea6462ef4acae8f155,railways,track,Winnipeg Terminal East,...,...,Natural Resources Canada
+fde81d0026079ed8427996e4e6c273e2,railways,track,..,...,...,Natural Resources Canada
+fde8abe3c6936521cf6a7ce251b964c2,railways,track,Winnipeg Terminal,...,...,Natural Resources Canada
+fdfb9f1cac6878e2161b15b116234f27,railways,track,Symington,...,...,Natural Resources Canada
+fe160917161793aeb6250a267912e6e0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fe1b1d3281ffb1e2f7f77f4820b7c91e,railways,track,Winnipeg Terminal,...,...,Natural Resources Canada
+fe402857e223cc86de3ffb31b8cada01,railways,track,..,...,...,Natural Resources Canada
+fe415c2426393ecf892a3c9dc618dd93,railways,track,Winnipeg Terminal,...,...,Natural Resources Canada
+fe67782bbf8ef497522b865156713963,solid waste,recycling,Canadadrugs.com Lp,..,Material recovery,Province of Manitoba
+fe6ab6ac317e9f2b0cfdd471feb648de,solid waste,recycling,Gardewine North,..,Material recovery,Province of Manitoba
+fe71d0dc9d5fd4fb4a7b7f3998ed2135,railways,track,Winnipeg Terminal,...,...,Natural Resources Canada
+fe7726845c7f97678d5404b557459fe6,railways,track,..,...,...,Natural Resources Canada
+fe7b6de18450efe1fd8e1341e744da84,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fe8e57ef9bab5f4f5113a96108138cf8,railways,track,Winnipeg Terminal,...,...,Natural Resources Canada
+fe96a557fe923ee72e2069873cd23073,railways,station,St James Junction,...,...,Natural Resources Canada
+fe9e340f90b0f8e547c3e8b04d36e5ba,railways,track,Oak Point,...,...,Natural Resources Canada
+fea05b9d0c58de3b26ba8090aa49374a,railways,track,..,...,...,Natural Resources Canada
+fea279b9c419029cb9d1dbf613d83142,railways,track,..,...,...,Natural Resources Canada
+fec11180b927c8057234fc61145bea28,railways,track,..,...,...,Natural Resources Canada
+fec324cfab663aa4c6ed5c28801c5b1f,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+fef355597a35cb3546ab961e5aab4c91,solid waste,recycling,Atek Parts And Service Station,..,Material recovery,Province of Manitoba
+feffbe8a6dad13245af3509ae9b26ea2,railways,track,..,...,...,Natural Resources Canada
+ff0394afe873f9392d527e7e13e6d2a0,railways,track,Symington,...,...,Natural Resources Canada
+ff133da3487ef1b188bb580c4c1e746f,solid waste,recycling,Lanpro Auto Care Center,..,Material recovery,Province of Manitoba
+ff1cad1b0e3e768c12a3c37a4f81e4db,railways,track,Winnipeg Terminal East,...,...,Natural Resources Canada
+ff1cebd3d85f77cbe6e6981dbbd5a1af,railways,track,Winnipeg Terminal,...,...,Natural Resources Canada
+ff2fd6d6de84c661752c01ba421401d3,railways,track,..,...,...,Natural Resources Canada
+ff4190a44056292b599d6800781d6260,railways,track,General Motors Lead,...,...,Natural Resources Canada
+ff429ed37355f978c1fd9e747dd17f51,railways,track,..,...,...,Natural Resources Canada
+ff576927a65cf2afa9097a2344f0c0a9,solid waste,recycling,Metalz In Motion,..,Material recovery,Province of Manitoba
+ff725cc678f57606f36222718768eb1b,railways,track,..,...,...,Natural Resources Canada
+ff738b873f0cd85118c6f34c79b6d7ef,railways,track,Transcona Lead,...,...,Natural Resources Canada
+ff7c11865607c67fb527b4fa618af6ca,railways,track,Winnipeg Terminal,...,...,Natural Resources Canada
+ffaa6c58395dc3ed96884f6988eea214,railways,track,..,...,...,Natural Resources Canada
+ffb047fe79751dbc36e48c8699d94aa5,railways,track,Canada Ciment,...,...,Natural Resources Canada
+ffcd29f42148080b019a71a80917d3f4,railways,track,Lead,...,...,Natural Resources Canada
+ffd38d9b5550f0b4b92180e5e3590507,solid waste,recycling,Ness Middle School,..,Material recovery,Province of Manitoba
+fff7412efc5023a7829582c08c27386a,railways,track,Symington,...,...,Natural Resources Canada
+fff96d356cf39f384c05cf9d1e3ca0df,railways,track,Winnipeg Terminal,...,...,Natural Resources Canada

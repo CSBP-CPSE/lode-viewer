@@ -1,31 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-29 Road,BRIDGES AND TUNNELS,Footbridges
-Prefontaine Road,BRIDGES AND TUNNELS,Footbridges
-Arondale Road,BRIDGES AND TUNNELS,Footbridges
-Dawson Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Ste. Anne's Road,BRIDGES AND TUNNELS,Footbridges
-501 Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-Heritage Lane,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-30 Road,BRIDGES AND TUNNELS,Footbridges
-Arnould Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Gendron Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-34 Road,BRIDGES AND TUNNELS,Footbridges
-207 Road,BRIDGES AND TUNNELS,Footbridges
-210 Road,BRIDGES AND TUNNELS,Footbridges
-206 Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-46 Road,BRIDGES AND TUNNELS,Footbridges
-35 Road,BRIDGES AND TUNNELS,Footbridges
-Poirier Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-St. Amant Avenue,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-River Road,BRIDGES AND TUNNELS,Footbridges
-Service Road,BRIDGES AND TUNNELS,Footbridges
-12 Highway,BRIDGES AND TUNNELS,Footbridges
-44 Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+008defd393b97e4e2aaf8183085bf7d4,wastewater and storm water,facilities_waste,Lorette Lagoon,"Lagoons - Aerated, Lagoon - Facultative",Lagoon,Environment and Climate Change Canada
+01137c1feec17140191b1f14a8db1a2e,solid waste,recycling,Landmark Collegiate,..,Material recovery,Province of Manitoba
+02e6311c694fc4f02bc1f15e6474d4b6,railways,track,..,...,...,Natural Resources Canada
+03ff7517fd0bf3e6382345faad458b0a,solid waste,recycling,R.m. Of Tache Municipal Office,..,Material recovery,Province of Manitoba
+04fbf4c9be8bd788f97dd19364afbb59,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0cbacd44fb41e79f561eb1c130d5be15,solid waste,recycling,Centennial Gravel & Excavating Ltd,..,Material recovery,Province of Manitoba
+13e5461d4a036bc714818953fc79c2d3,railways,station,Lorette,...,...,Natural Resources Canada
+15ffba70f2b8b9fde17b5255030a1fb2,railways,track,Dufresne,...,...,Natural Resources Canada
+1c1720df92331a128791a38963d37d54,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1ef8b2ac27ecbf482c6fc180bf0dfe0b,railways,track,Lorette,...,...,Natural Resources Canada
+20abfa3fe169172a41ad9e02ecb41e87,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+222c426dd7a4ccfb02f01105026552f7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+24f20248b99192fbcd504d72eb67247e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+263a418ac87233e43a3aa4a446dfef1a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+26557f89b6ad6300a19d234cc0cc35f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3006516f1342690a7e6ec37862a6f9cf,railways,track,..,...,...,Natural Resources Canada
+32ebffa6b68d6107279ac83128069a2a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b02616c6561df7f91d32f44faf1be5c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+410c8416648d4509f01920c3cd41b580,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+43db19ec64ff42d3af55f63a44e685ef,railways,track,..,...,...,Natural Resources Canada
+446ace25b9cab6f4f0a011ff205b69d2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+50b040f985d911bc561aac66ebaa5607,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5261c64523aed6b8e5fc1dd3b66aa83a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+56c4090ac9ecb309d9f51e03cb5696f1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+58d1737fca001e62ecfa61a05f4943fb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5cc84bd5f5b50c0998fc0030438a4db9,wastewater and storm water,facilities_waste,Landmark Lagoon,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+623f523326323fa0044b2bc590c1518f,railways,track,Lorette,...,...,Natural Resources Canada
+6644691b08a35405574baabca018f501,solid waste,recycling,Co-op,..,Material recovery,Province of Manitoba
+68c95bc37bd4ad8297dfe493d5a072f4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6f9f1b30fd8da6aab6f751299acb43d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70f187aaa799b802d0ec444652673e26,railways,track,Dufresne,...,...,Natural Resources Canada
+71f0cc57f4cee01daf1384fbfece337a,railways,track,..,...,...,Natural Resources Canada
+7871805b402ad99493e6159b7b700255,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7a40c3d0d934776165e3316d44de0fb8,railways,track,..,...,...,Natural Resources Canada
+86df19284bfe9477fcbcad5d36827353,railways,track,Dufresne,...,...,Natural Resources Canada
+8c85dfb0f8d689ccd50b8d4dcae9f6b5,solid waste,recycling,Beauchemin Auto Service,..,Material recovery,Province of Manitoba
+9566c6fb6ed501b69694d3f82373dcb7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+96ba43593b273ee26a94c3fcd5d067e1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9d37de72a6e118657276edf1c3748d54,railways,track,..,...,...,Natural Resources Canada
+9eb775bdd39f4d665a942ebdb8b4d2c6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a5417a415bc06857c50cf68a4a5dd0e9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b0563558c3e3d70f8eb445dda489b955,railways,track,Lorette,...,...,Natural Resources Canada
+b26d30eb4ff2ec1f6a3e075dd23c750c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ba3fd4fc59e376d3223fa5c219502890,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bb7a114d36722dfbfcd1619fd76c27ea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bd167030cc3d01c1dfd874539a5319c6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+be6eb7009ced02a4238fe3af24c1c37c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c2e0d4a2447b649de5594e0951ef05cb,solid waste,recycling,Dawson Servicenter,..,Material recovery,Province of Manitoba
+cc27f1acde2d4cbd61eec279ee7ddaba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

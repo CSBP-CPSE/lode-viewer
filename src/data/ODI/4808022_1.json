@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 12,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-20 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-2A Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Township Road 400,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Township Road 392,BRIDGES AND TUNNELS,Footbridges
-12 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-815 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 233,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Township Road 414A,BRIDGES AND TUNNELS,Footbridges
-Range Road 231,BRIDGES AND TUNNELS,Footbridges
-Range Road 241,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-50 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 15,BRIDGES AND TUNNELS,Footbridges
-Township Road 412,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Township Road 394,BRIDGES AND TUNNELS,Footbridges
-597 Highway,BRIDGES AND TUNNELS,Footbridges
-Range Road 264,BRIDGES AND TUNNELS,Footbridges
-Range Road 265,BRIDGES AND TUNNELS,Footbridges
-Range Road 21,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0014a1fd9e6e8bce693e61d0db844284,railways,track,..,...,...,Natural Resources Canada
+00267bc5abdf32324d9a9ff89a134ad9,oil and gas,wells,..,..,...,Natural Resources Canada
+0032c63691517b178649faadada628a8,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+003d8c806b5a1a337a74dbb3fd1ee6fa,oil and gas,facilities,Certus Gilby 15-03-040-01w5,..,...,Alberta Energy Regulator
+0041dc0e1289bc7748f59f1457eba314,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+0043d05b4461877e57b82edfbe180285,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0048da31a9efe17fe407308b706b0c80,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+0049e4656cf297e9f030d8e979557d0e,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+004f3bf7adef6e9b0af1048ed5ce0a39,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0052c10e2cbb3371236da31a1ae9d964,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+005421d164ba3fe452bb59a613bc21c3,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+00552e63b31142245eb486e9875a2e0e,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+00553ab0f8c5ee17cea9894313143203,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+005c6a2e09c79dee13aae7534967ed09,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+00866503a0d87b93aadfb7f8351c620f,oil and gas,wells,..,..,...,Natural Resources Canada
+00882dce631faa7db8ab1d0f0c33843d,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+008f02e40841fa338bcba9056deb79d1,railways,track,..,...,...,Natural Resources Canada
+008f3bdb66612556f793bd147bdd9980,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+009cd3b1224da1c9ef98c89822732af4,oil and gas,wells,..,..,...,Natural Resources Canada
+00a053b47686b02142e04fb4d55e110b,oil and gas,wells,..,..,...,Natural Resources Canada
+00a069b41a89e5f5e5683ddd2235db6b,oil and gas,wells,..,..,...,Natural Resources Canada
+00b0cb98a660157bd7cea198d5516f8d,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+00b6b0d3c73e18f8e5f6190267e6d101,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+00c41b573771ae56c7b74a042171fafc,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+00c842e97b83836bb1bcc4e8cd44b57e,railways,track,..,...,...,Natural Resources Canada
+00ca659f9a5ffe8f73eca788ff7cbeca,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+00cb7988cb0e780d971bf1345863e233,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+00d1a7b0275825f6cb50e49b414b74ee,railways,track,..,...,...,Natural Resources Canada
+00d811d643e8b6853553eca08b0fdf4a,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+00dc7592dc214eb0ab2c4d6c0f5e6350,oil and gas,wells,..,..,...,Natural Resources Canada
+00dd213c0f3a632b56e657080bbd4f5f,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+00dfd298769430a378ef0aa1dbfbf7db,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+00e034e4d8fda1110fccc960eb395728,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+00ea1417ab307ccfcbde75434994ca90,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+00ebfa92aacad60926d7a949c13dc9bd,railways,track,..,...,...,Natural Resources Canada
+00f5cfa2ecf85e3aaf5a51d0de56255f,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+00f5fc6ce0c45e4739e1149fca29b1ac,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+00f7873e81f917d48e427397a0c507db,oil and gas,facilities,Gilby 04-20-041-02w5/0,..,...,Alberta Energy Regulator
+00fa2d069ef9c457dfc0ec17c766b9de,oil and gas,facilities,Petro Canada Med River 06-34,..,...,Alberta Energy Regulator
+00fac0d66bb302733307bf89a0b4b7b1,railways,track,..,...,...,Natural Resources Canada
+0106852de0b50762e8085900ced0725c,oil and gas,wells,..,..,...,Natural Resources Canada
+010bb310b966127d40f4bc9af580301d,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+010befa3e61db2637e67a40bacbe3b46,oil and gas,facilities,Apache Nevis 2-12-39-23,..,...,Alberta Energy Regulator
+0129b0594febf373cd0afb68d123db95,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+012d4f7d03c0e196ce53555c31a906cb,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+012e2e19f2e98d3f794a2253d9c14868,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+013882e69cceb7ba54105674e5736641,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0140169732a9c7ad502092df9c01ad10,electric grid,power_lines,..,...,...,Open Data Areas Alberta
+0140d23620053679d018163e118618d0,oil and gas,pipelines,..,..,...,Alberta Energy Regulator

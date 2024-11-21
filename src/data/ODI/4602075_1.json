@@ -1,28 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-Falk Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Sood Road,BRIDGES AND TUNNELS,Footbridges
-Twin Creek Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-Loeppky Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Levesque Road,BRIDGES AND TUNNELS,Footbridges
-311 Road,BRIDGES AND TUNNELS,Footbridges
-Wallace Road,BRIDGES AND TUNNELS,Footbridges
-Tencha Road,BRIDGES AND TUNNELS,Footbridges
-200 Highway,BRIDGES AND TUNNELS,Footbridges
-Brady Road,BRIDGES AND TUNNELS,Footbridges
-Riverbend Road West,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Krahn Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Waverley Road,BRIDGES AND TUNNELS,Footbridges
-Bernat Road,BRIDGES AND TUNNELS,Footbridges
-Provincial Trunk 59 Highway,BRIDGES AND TUNNELS,Footbridges
-Prefontaine Road,BRIDGES AND TUNNELS,Footbridges
-210 Road,BRIDGES AND TUNNELS,Footbridges
-Cartier Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-305 Highway,BRIDGES AND TUNNELS,Footbridges
-Closed Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+017775c90a022b56e927e39c4a91b32e,solid waste,recycling,Bristal Hauling,..,Material recovery,Province of Manitoba
+032994fa63f1c905991380e40682074a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0367d66fccdfb3b6282ad8fa11f2d684,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+04cca9d37857baf3bacd989df3f649cd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+062d6b168d47c2eed7cf0c87ff649343,railways,track,..,...,...,Natural Resources Canada
+072e76d2d41876bd04d55b79582c53b5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+083f86bae39d788eb690d368e528754b,railways,track,..,...,...,Natural Resources Canada
+08e9afff7f837043a4d217a41f919ec9,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0b1c294862fdf1f534599f0cc2732744,solid waste,recycling,Rogers Sewer & Water,..,Material recovery,Province of Manitoba
+12066a2bfa080e067870d8b2a16bc0b4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1372e45de7d39277930c2d203e1a7d31,railways,track,..,...,...,Natural Resources Canada
+13e6947c9ca75b6162478c7b12158427,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+149848f80fae40e1a086d64a84dd7170,railways,track,..,...,...,Natural Resources Canada
+1520a633c396d6ed0930d5d50a91e98d,solid waste,recycling,Rm Of Ritchot Waste Disposal Ground,..,Material recovery,Province of Manitoba
+15f6c820b9d1e6c8fc1d9699a08526c7,telecom,tower,...,...,...,Natural Resources Canada
+16a107ccd5ef05b9a5512e0e0d4b9c98,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+18e6ebd42b0fc47403cb9009630c2c26,railways,track,Ste. Agathe,...,...,Natural Resources Canada
+197b40086ebcb3fe95c04210b554965e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19cf3aab433dbf18b96f843af51cbd33,solid waste,recycling,Shadetree Automotive,..,Material recovery,Province of Manitoba
+1da069ac1ab17bb992a5b4f42e577add,wastewater and storm water,facilities_waste,Ile-des-chenes Lagoon Facility,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+214a65ed9a603a6e249e1fd1da9cc056,solid waste,recycling,Keyston Western Inc.,..,Material recovery,Province of Manitoba
+2363918906680a805db1e7541a54c5c4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+29084b1ee113acf6051659b569af6755,railways,track,..,...,...,Natural Resources Canada
+2a2ece3b9cdc88d7bf92f7b1125455d1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2a47b4d2a351ab1b6f99e53240ce883a,railways,track,..,...,...,Natural Resources Canada
+2bc5d574f866d929346dcf5f31f87a08,railways,track,..,...,...,Natural Resources Canada
+2f3d6c6ce3fa9633a007c363ef14f135,solid waste,recycling,St Adolphe Pharmacy,..,Material recovery,Province of Manitoba
+2f74ce235acd3cb79d27eea4214fc7de,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+334c08a5010bcb7d2a9acd7c872074c2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+336e9b625a146938fc90a18d304d04c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+361c00cde8f236b8003e29102a0245c5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+366561a21c942b839b38ddf4fa0ffd88,solid waste,recycling,Ile Des Chenes Motor Hotel,..,Material recovery,Province of Manitoba
+38df5423c0e291046b882194bc3437ae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b9e38ca64494c3c0e2e4a89c877aef5,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4282fd1e7680909915014e719c8b4351,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4423a21f6b161c0b2b7b908e52b3f5f3,oil and gas,pipelines,..,..,...,Natural Resources Canada
+451eadee4078b50538ff1417d17bd68e,railways,track,..,...,...,Natural Resources Canada
+45bbec14f605e861441eff3345ca6716,wastewater and storm water,facilities_waste,Niverville Sewage Lagoon,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+489ee7389da29c48e00d97fb5e1e70c3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4d54f14cec974d40ae657eca9ba03257,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4f4fc64e20c098aaded1b76a99657cdd,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4fee5e5e612cba15740cd461db0ea1c4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+50d3785af6f5bf1f971434344196327f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+512da180fd0c0b922512e7b7bc88c322,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5287128c3c9f90a2edca69a45f11fe57,wastewater and storm water,facilities_waste,St. Adolphe Lagoon Facility,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+52d6f09fca83e851116a39671554bb0b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6295e7dec9eb41b99a162875ee17ce52,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+63654bebaa584792252260c6e74be687,railways,track,..,...,...,Natural Resources Canada
+641ae44c3437e9d7f4971f17ab580771,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

@@ -1,13 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-2 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,WASTEWATER STORMWATER,..
-101 Street,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+04bae4a3e348cdbbe3f6145e90af308c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f29945752c8accd80005bab96c64cec,railways,track,..,...,...,Natural Resources Canada
+106304502703da4e330e06da26eaac99,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+12c315789d66f1fa3206cdfd7091ee3d,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+12f8cdfd763cc28aa403f3ac3b8fdfd3,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+1bc7f60f5810355a7a7524e2deb075e6,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+1ff7ce8299643d99e702727cbd90e59c,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+2018f12d0a99f2cb437af0ae6651c2bd,railways,track,Daishowa,...,...,Natural Resources Canada
+2132cfa18600843153e6d92101d6461a,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+251236f9a7fd8cadc6529dadc8508582,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+25b076a8b7080e9724d0039df1ee6552,railways,track,Daishowa,...,...,Natural Resources Canada
+27db186c689eb265380d9edf35140801,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+2c73e9b4daba8d39f5f1e7f3bee2ceb0,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+2f7fbf9bf5bc96a08a8b0640ef12b0f3,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+329c6f26d9d6d444436d02b9bb2badf5,railways,track,Daishowa,...,...,Natural Resources Canada
+3496bf537fe0901fb7d8830e5f0f3da9,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+34abeed88f8d989a121db8587b8f796a,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+38c6a253771277204ee68eee81f865e7,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+39d4b22dd191a35359ccf8bb529abad5,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+3a229dc767ae54fd71429ba969f0cb41,railways,track,..,...,...,Natural Resources Canada
+3d21d3eaae30df5647322b3bfe7bcddc,railways,track,Daishowa,...,...,Natural Resources Canada
+3ec519d0cc6b3aed9ebd141a43c71f7b,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+41399f07c57960e096f2ee9e68c4e9c3,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+41ad55ad9b5a4eb6e3ef1978484eccd4,railways,track,..,...,...,Natural Resources Canada
+4615982956712b37f41156e3ad265754,railways,station,Duet,...,...,Natural Resources Canada
+4b97cd54365815472c3ee80c540217f9,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+4f49b5abed87d303e6097c3e286b8f88,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+505081c97cc730368e033801e18b3234,railways,track,..,...,...,Natural Resources Canada
+5b6999a8a4b355f1b1cf7a5f45b99bde,oil and gas,wells,..,..,...,Natural Resources Canada
+5d829c12c1a6945bf1c3a06b48615471,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+60a9c9174b0ac0595bb772049ebf8613,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+61a3e07abd55e4742e0a116d0a6028d2,oil and gas,wells,..,..,...,Natural Resources Canada
+633565646c1d36c715f8d25a37d2e76c,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+65bd1d3965a10230c144eacc78f19f09,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+6666c83470578b8d9675f22d91173a5b,wastewater and storm water,facilities_waste,Town Of Peace River Wastewater Plant,"Grit Removal, Screening, Extended Aeration Activated Sludge, No treatment",Unclassified,Environment and Climate Change Canada
+69153182af7427405913148bfcf2ae66,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6af32e82d3a178b09a62201eb8356c48,railways,track,..,...,...,Natural Resources Canada
+6bd63c0c350ee8415d6ee1e5760c46bb,railways,track,..,...,...,Natural Resources Canada
+6d1637ae3d88227c75918de7ba9ccec1,ports and marinas,mixed,Peace River,Recreational,...,Fisheries and Oceans Canada
+7212dd40e19eedf11bdee1a579a4c172,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+784a4e3c155fe9feecc3402af6f94ba3,railways,station,Peace River,...,...,Natural Resources Canada
+79579da7a253ff8df42e8b80627b2a28,railways,track,..,...,...,Natural Resources Canada
+7ec4f524ce86e219d7dc9a7e25bad501,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+815e9f591f724aaa2b4f852b4d7eff38,railways,track,..,...,...,Natural Resources Canada
+83765d369dfed1179642e00b7eb1488f,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+85b53a4eca7229176eb592b96495f653,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8df6742baa06620644eeb0794b310595,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+90033906edc8d4ca5050306254389a9d,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+9075551831b413b97a5da1c66061a310,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta

@@ -1,45 +1,37 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-King Street & Wellington Crescent,..,..
-Range Road 271,BRIDGES AND TUNNELS,Footbridges
-Aspenglen Drive & Grove Drive,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-King Street & McLeod Avenue,..,..
-Windsor Street & Woodhaven Drive,..,..
-Brookwood Crescent & Brookwood Drive,..,..
-Westview Crescent & Woodhaven Drive,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Lakeland Drive & Lancaster Close,..,..
-King Street & Brookwood Drive,..,..
-Home Depot Access & McLeod Avenue,..,..
-Jennifer Heil Way & Spruce Ridge Drive,..,..
-Century Road & Grove Drive,..,..
-Hilldowns Drive & Grove Drive,..,..
-Westland Market & McLeod Avenue,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Century Road & Grove Drive,..,..
-Lakeland Drive & Grove Meadows Drive,..,..
-Millgrove Drive & Miller Avenue,..,..
-Grove Drive & Spruce Village Way,..,..
-Century Road & Vanderbilt Common,..,..
-Century Road & Kings Link,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Jennifer Heil Way & TransAlta Tri Leisure Centre,..,..
-Merrill Street & Millgrove Drive,..,..
-Range Road 272,BRIDGES AND TUNNELS,Footbridges
-Grove Seniors Village & Grove Drive,..,..
-Greystone Drive & Goebel Drive,..,..
-Jennifer Heil Way & Grove Drive,..,..
-Jennifer Heil Way & McLeod Avenue,..,..
-Queen Street & McLeod Avenue,..,..
-Westgrove Drive & McLeod Avenue,..,..
-Century Road & McLeod Avenue,..,..
-Greystone Drive & Grove Drive,..,..
-King Street & Woodhaven Drive,..,..
-King Street & Grove Drive,..,..
-Deer Park Drive & Grove Drive,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 274,BRIDGES AND TUNNELS,Footbridges
-King Street & 5 Avenue,..,..
-King Street & Brookside Avenue,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01182bc09a6782bdba1432126c7e03d4,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0414bbe76b39c04bf4f5ac6cff4ff7fb,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0949bcf9700826e275bf19ba4f3efb31,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+20b6ad959c62afecafd1605a976b7301,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+37eae7cc250df5256774adcfa775cae1,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+402143ac14e3bf39c6aedcf13208ca47,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+46f6e91fd1e538ac880ce9ca586da3af,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+4705ef1329d318efd3d423a3a1087374,railways,station,Spruce Grove,...,...,Natural Resources Canada
+4887775063a7e0e66853965a6ab20173,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+4f219632edbca64628630bcf25c189be,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+50aa3576699ae51c9536c89c90de7264,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+528b1a6f09e55ebe0807aab371e729b9,oil and gas,pipelines,..,..,...,Natural Resources Canada
+551d5d0808f19f87d4a799aba01cc3dd,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+5ea95ed981cd99ed4d5a53968bbc9aab,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+736594cf44245f9c5df15406580a5c54,oil and gas,pipelines,..,..,...,Natural Resources Canada
+7c47d852d73b4063613dad645ef58dce,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+83e0fb7e96e3e18465634e2652ff0332,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+939c619a705eb70983423cb7dfb71e47,oil and gas,pipelines,..,..,...,Natural Resources Canada
+93ec8bf1ab16f7afdef96901241e0407,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+9ca83d16c584abba12971a1f6c95bd4a,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+a37dea7ae6e26174c89f4243e90dbc3a,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+a5662527ef5e034426f1c6bee44e3006,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+a6606e889d83c3e0ff62f049497ef704,railways,track,..,...,...,Natural Resources Canada
+b15ce339ee15ef8e60a6b30e3479a978,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+b247d72af733b2fee3bfb3eef21063d5,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+b4553b5620b7c9593d88931fdbafc079,railways,track,..,...,...,Natural Resources Canada
+b60671c2066670e75b9a703a16ae7ba5,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+b720534c5c3009f0d21e0f7cc95928f1,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+b851599370ae60b46c3fa9ec1e5ec5aa,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+c9264d987d5d0bc6221e30fa79c55f5e,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+ce8e82da9bd8c1949143a0d260cc22eb,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+e427f8fda1ae1d87e08b84cdb5822b1d,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+e4f4e742ee07442ef3a2748cb3671c4b,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+eac99f5445ae33679f561fa5d9fda36d,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+fb17419400a8268234b5da01be8e7606,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+fb7c8eec04639ada4dae2b19a20b1232,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta

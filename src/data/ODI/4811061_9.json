@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,biking
-Central Station,..,..
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-142 Street & McQueen Road,..,..
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+1c07c1508e2792641c4cb039f47e0186,railways,track,Dominion Industrial Branch,...,...,Natural Resources Canada
+1c231cf7a860a3d975a7b59839f7798e,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+1c374661f09f46dc0df6dfabe976e8c1,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+1c4938cfb94263d3ee4feb8f9150e930,railways,track,..,...,...,Natural Resources Canada
+1c55e9848c9661fdbfd8e3f27c0f3c57,wastewater and storm water,pipes_waste,..,..,Sewer main,Strathcona County
+1c7bf3b1077e24999623d8afe9bca08a,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+1ca136f70db49bf1074f13b2d9357a76,railways,track,..,...,...,Natural Resources Canada
+1cb02b6d38a6c13a4d709279a66f090e,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+1cebd6542f3e40b25d98be64f186df99,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+1d025645038c1e07949d535476ffcfed,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+1d249502200cb430e680de770eaabfcf,telecom,tower,...,...,...,Natural Resources Canada
+1d420d41c44977950cb0d40fcdb7b8d6,railways,track,Walker,...,...,Natural Resources Canada
+1d4c385abefff13269e6f7efe8ddd0ba,railways,track,Walker,...,...,Natural Resources Canada
+1d537e8efba1c0011bc7341cb8893a4c,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+1d55ecf73710e697611d264a7a3b6126,railways,track,..,...,...,Natural Resources Canada
+1d6182e229356102c0853c4304d49103,oil and gas,pipelines,..,..,...,Natural Resources Canada
+1d65be2eba5bf797260e45b17e461589,railways,track,..,...,...,Natural Resources Canada
+1d6bdb9f943597979f9cb88f6af85932,railways,track,Walker,...,...,Natural Resources Canada
+1d76090944f9316d2d2d2fe99da29ee1,railways,track,..,...,...,Natural Resources Canada
+1d8eba38b629af9291fe9af2bb26b1a7,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+1d939500161d3962835a0dc4bd7e4137,railways,track,..,...,...,Natural Resources Canada
+1d9ecb0496601dc7b829375a726eacd2,railways,track,Walker,...,...,Natural Resources Canada
+1da2a9614e6ff60f2a417d6d728e474a,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+1dd4f729726765ded1fb59d766810262,railways,track,..,...,...,Natural Resources Canada
+1e138db553beea3b6c6e45672b069021,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+1e61ab89c0f5201e4237d33fced923ff,railways,track,Walker,...,...,Natural Resources Canada
+1e745c0e61114b95c9605777d5fe0346,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1e78fdf4ec1cce0801addfc9d920ffbe,potable water,pipe,..,..,Pipe main,Strathcona County
+1e7c83232e5a411f630a11d96ccde654,railways,track,Walker,...,...,Natural Resources Canada
+1e7f0fe6a4de41a9b0e20a79196ef27d,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+1e808e26a446e4d574357f6845211816,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+1e848de0cdae46cd60559f917ae405b9,railways,track,..,...,...,Natural Resources Canada
+1e8505a95879a52206a51826d13aaedc,railways,track,Walker,...,...,Natural Resources Canada
+1ea7bee3a431499578a849c05007b669,railways,track,Walker,...,...,Natural Resources Canada
+1ec6c1fe04b7dd2999d2719a569a04bb,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+1eca29dc89ac2e12fd7cd736b2480bf5,railways,track,..,...,...,Natural Resources Canada
+1ed40fc525a99d5c0ba202d7a5def2b2,potable water,pipe,..,..,Pipe main,Strathcona County
+1ed67772e5f6be383ef4594b07584e26,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+1f0a9ff8c5ed88baac28f65a0c73de82,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+1f0b861c4434c345da45189c135378ba,railways,track,Walker,...,...,Natural Resources Canada
+1f1a6e01fd98c8d47626cb826c75288b,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+1f343679b78650aafa3183a69820ecd3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f38510ddcb8a1b3f311bec407751aba,railways,track,..,...,...,Natural Resources Canada
+1f3e189ff589adb537b3b895f08fff7f,railways,track,..,...,...,Natural Resources Canada
+1f607bf3ddcd48ac59c6ad347f2ae3b8,oil and gas,pipelines,..,..,...,Natural Resources Canada
+1f684ea85defab0e159e244739b65466,railways,track,Walker,...,...,Natural Resources Canada
+1f805e1bb5d0245dacbc05a6f125ec08,railways,track,South Edmonton,...,...,Natural Resources Canada
+1f81898936d385a9d91facfa59df6a41,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+1f881c9e83dc74b57cea7a70669a89f0,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta

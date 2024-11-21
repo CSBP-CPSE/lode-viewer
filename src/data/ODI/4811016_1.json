@@ -1,22 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 254,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Township Road 494,BRIDGES AND TUNNELS,Footbridges
-Township Road 500,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-50 Avenue,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Queen Elizabeth II Highway,BRIDGES AND TUNNELS,Footbridges
-Grant Macewan Boulevard,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-53 Street,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01814461dd079a5a13d18ce4bb275719,railways,track,..,...,...,Natural Resources Canada
+04848aa0dfc527cd9aa8950f23256e39,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+04d0f7913420c359767c945cde238bf0,railways,track,..,...,...,Natural Resources Canada
+069534f8fb55a30573061441d400e8b5,railways,track,..,...,...,Natural Resources Canada
+07f376dc9bf197136e862ad8ef50b1da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+095efc1b2c2cd80545871a15b8a1589b,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0dd70cf4017d6c1639ad971a83a4eea2,railways,track,..,...,...,Natural Resources Canada
+0e077cc8edcb55e7dd911a5113da1c38,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+110f926fffa02a06121b60c3f5d25401,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+1233820afbc3db56eb51161bcc106eb8,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+181f95fc55251e09636bea5b44f8305b,oil and gas,pipelines,..,..,...,Natural Resources Canada
+1c0adc431121b191c94ce14781d6323c,oil and gas,facilities,Ketch Energy Ltd,..,...,Alberta Energy Regulator
+1f302b7667af02be52c7e67c1dc468ff,railways,track,..,...,...,Natural Resources Canada
+1fb8ab38689f2a4e5907fee55bd4af37,oil and gas,pipelines,..,..,...,Natural Resources Canada
+22e5b9cbf00994b24fec0e68d415e70f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+246d9da2a0596b42fc2178896b22b2d6,oil and gas,pipelines,..,..,...,Natural Resources Canada
+276f879c310e07549d31e6cf811efd5e,railways,track,..,...,...,Natural Resources Canada
+283c7b5e42a58aac7d6937402a9de9f2,oil and gas,facilities,Pennwest Golden Spike 10-36 Crompb,..,...,Alberta Energy Regulator
+2906752b5a69b073077bb26d92489a75,railways,track,..,...,...,Natural Resources Canada
+298535e816a028ce01e73f6cf1d9493a,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+29a8e6d45ffabc7a5b48959bce6b91b0,railways,track,..,...,...,Natural Resources Canada
+29d3340834b114e583d946e8e00346b4,railways,track,..,...,...,Natural Resources Canada
+2f046c33ab4831e87962a3b8c28a1813,railways,track,..,...,...,Natural Resources Canada
+308edb5691426cb62861f73374dec428,railways,track,..,...,...,Natural Resources Canada
+30a3f2b83d28be4d36348cf87860f6b8,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+317761b602399fa2c5e94a2ce4cd572f,airports,...,Edmonton / Leduc Heliport,heliport,...,OurAirports
+31b707a63bf4492b3ba49bc662885efc,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+3450cfe2ae54603aa98a8466fee2bc8a,railways,track,..,...,...,Natural Resources Canada
+3991c46101a9da849133bbfc9e291a4a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+3b7b611801f691144a61f621a44a3931,railways,track,..,...,...,Natural Resources Canada
+3c2092c574c90fe8d2859178c36a8985,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+3ca25e54f6539e3cdbf624ba532c3a7f,oil and gas,pipelines,..,..,...,Natural Resources Canada
+3e040e129f3d69b17b10e7db8e8e9e3d,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+40c3ed8803c197f573ecdd8c5af995e3,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+4129c0442c4df6a74a287940667357a6,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+41f6597e600f7bfe5884eca3bfe8fadb,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+428ff838d9b40c45556b8183660f79b3,oil and gas,pipelines,..,..,...,Natural Resources Canada
+42ca9b6b222205b5eb0dbb62fd3a40aa,railways,track,..,...,...,Natural Resources Canada
+453d154d1c185d070d32627a4c022d01,oil and gas,wells,..,..,...,Natural Resources Canada
+45c8f1a38add414f9adf9396aced89d4,railways,track,..,...,...,Natural Resources Canada
+46a975a91e65dfc0d32c66ba73cf1287,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+46c33037aed1ad74de4203780adf8ef8,oil and gas,pipelines,..,..,...,Natural Resources Canada
+492c43366af7c5439cf779d683cbb0e0,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+4ae8c39a79537cf0f20ecb1b00d6c991,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+4cc003b8c0eedb09b04044d927e700af,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+4ebed400647380e9b745b2bb8b50daf0,railways,track,..,...,...,Natural Resources Canada
+4f265c430f467fa687fa228637a956b2,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+50e0cedf4e80adc4b5819a73027220fb,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+51a33caf0d00c281dc0dec166dec5e01,oil and gas,pipelines,..,..,...,Alberta Energy Regulator

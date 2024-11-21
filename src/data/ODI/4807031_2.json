@@ -1,33 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-870 Highway,BRIDGES AND TUNNELS,Footbridges
-Range Road 103,BRIDGES AND TUNNELS,Footbridges
-Township Road 440,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Township Road 462,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 132,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 112,BRIDGES AND TUNNELS,Footbridges
-Range Road 135,BRIDGES AND TUNNELS,Footbridges
-Range Road 154,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 102,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 120,BRIDGES AND TUNNELS,Footbridges
-53 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 124,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 101,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 105,BRIDGES AND TUNNELS,Footbridges
-Township Road 452,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0584a723b1613dd33ea7ab1b0b40e9c3,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+05ab3c786a057e0969b0317a6b78ceeb,oil and gas,facilities,Killam 01-21-042-11w4 Drilling,..,...,Alberta Energy Regulator
+05e5411e53e9d046fe747558dc2d40aa,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+060b3eba9eebaf2c19476e774c1c2c61,oil and gas,facilities,Killam,..,...,Alberta Energy Regulator
+061757b20b92acc5a1185a9cc099ba6e,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+06327fb66df8dd88a3440c08af44328f,oil and gas,wells,..,..,...,Natural Resources Canada
+064babb8284ab43c5e964ac061158d41,oil and gas,wells,..,..,...,Natural Resources Canada
+0654b1d0bc91e556a8fe5facc7dbdfbd,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+065547f19f7f501c9827e33d5fe41b9b,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+06705a5e41a48a955b0dbe26a322bf51,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0694d1d1509415e862bd84e6006a5ef6,oil and gas,wells,..,..,...,Natural Resources Canada
+06a99a6aee4d04b6788d6fb08473c6e0,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+06c489c1d5a4b02b41a0a57cac0074cb,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+06d0f55d4a7c6649303b15abeb6ae0cf,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+06e8afe349d5aa04203c1db9a36913a3,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+06f8b270de788fba326ad6d75d630526,oil and gas,wells,..,..,...,Natural Resources Canada
+070e9ebee3dc855a627749f0c1e58c85,oil and gas,wells,..,..,...,Natural Resources Canada
+073dc6dcfe8010eebd215b8ffab449ff,oil and gas,wells,..,..,...,Natural Resources Canada
+07c125503bed63c6efc888d5294a95d2,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0833dcc2d9d15136d3452f4fe9afa2c9,oil and gas,facilities,Pismo Alliance 2/13-29-040-13w4/2,..,...,Alberta Energy Regulator
+083aa2e9dd671f92cbdb58e35aa549f6,railways,track,..,...,...,Natural Resources Canada
+086b993a53ed2d84582fd467ad383c00,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0896d09da6ce1f0cae5e37e1df43e846,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+089aea1b962d510d8aab5cade0f3fa3b,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+08aa2ae991cc8bbc778624dca1a3b348,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+08acb6905be3bcd6eea9a99b1b5c6544,oil and gas,facilities,Provost 04-28-040-14w4,..,...,Alberta Energy Regulator
+08d66767e98719442768eb613a8b398a,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+08f1ebac5bc8053ae56bc60508691190,oil and gas,facilities,Bellshill-03-28-041-12 W4m,..,...,Alberta Energy Regulator
+0916367ab95b0e03fa9eeb9c666a24e7,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+095eeff9cda120945bd9388080ae8f49,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+096b598a9ba703977872e7c03c66b844,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+09ab2347a1fd96d0889eb75fff2447eb,oil and gas,facilities,Pinnacle Provost 4-16,..,...,Alberta Energy Regulator
+09c712fc327d855bdc89814cba35036a,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0a50420c047bc7767fb43532e518c82d,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0a5c7145e9054daeaad860e408c5de83,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+0a78fc3f612a3f4faed26d0dc3439f9a,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0a8a8698ac678cef88e38df02d71c826,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0acac112dbbd174518964d0d69baf575,oil and gas,wells,..,..,...,Natural Resources Canada
+0ad23c7be8f82f03aab5728c233b5761,railways,track,..,...,...,Natural Resources Canada
+0ae2e508357ebea0c26e75bd998f6146,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0b55385190f85543c9cb81cb0786fe06,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+0b8fe01c9246ca234c71ff1f3f537b50,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+0bbdffcd475a6024340e88ecfc8036d0,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0c10429938151156ac0e82aae5352c7e,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0c2033afcbb690055b9ff5fa2fa358e7,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0c25ca182119cb8e848ac436568cbe45,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0c4fd67b09e2ca6fab6f99d65a6e6678,oil and gas,wells,..,..,...,Natural Resources Canada
+0c73272cb56ccbdfccb14153f6bad3f5,oil and gas,wells,..,..,...,Natural Resources Canada
+0c96112e7cd5caee7c8e660235aa9572,oil and gas,pipelines,..,..,...,Alberta Energy Regulator

@@ -1,34 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Beacon Hill Drive & Beale Cresce,..,..
-Mckinlay Crescent At 2Nd Mcinnes,..,..
-Wolverine Drive And Piven Place,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Caouette Crescent At Card Cresce,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Diversified Shop At 920 Memorial,..,..
-Abasand Drive & Alderwood Drive,..,..
-Macdonald Drive At Syncrude Towe,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Franklin Avenue After King Stree,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Harpe Way At Cartier Road,..,..
-Millennium Drive Across Elm Stre,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,Footbridges
-Brett Drive After Lougheed Drive,..,..
-Fitzgerald Avenue Before Hospita,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Gregoire Drive At Sawridge Inn &,..,..
-Mackenzie Boulevard Before Macdo,..,..
-Beacon Hill Drive & Beaconsfield,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Greely Road across Greely Road S,..,..
-Signal Road At Westwood Communit,..,..
-Callen Drive After Blackburn Dri,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Thicket Drive After Romany Stree,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Franklin Avenue After Father Mer,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Riedel Street After Manning Aven,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+201a96221ea5e6bd5605396be64161d0,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+201c5109f7a71290846dfce420f67540,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+2034a5378d0ad8abb80b5c63bcf6ab74,oil and gas,facilities,Ventures Ruth Lake Sales,..,...,Alberta Energy Regulator
+204b433d5942e560907d5622d3936b7e,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+20504240b341501c40f351d505dea2a6,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+206ae373711c590f3c974a88698a3aac,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+2070ae73dbb0e9c91c87e0c1b7a4c142,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+20755f71f021e17b8ce198c321668445,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2081f2e7e9b8bf193d9b80534a53b533,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+2083fc0e5681fdf04f173239ceda52fd,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+20a9318313d0371568464410fd7715e8,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+20bfc384301930569ed0eda35552b7bc,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+20c2149a54e212075a5e364043d3b817,oil and gas,wells,..,..,...,Natural Resources Canada
+20c741f14c5c675c5fc2a6b52eb29977,oil and gas,facilities,Groc Ab Wsf 0143855 (dq-12-18),..,...,Alberta Energy Regulator
+20cebd062061bf8d418e43bddc7d52a6,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+20cecc1def8baec8b6270fddfba29f6a,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+20d0a39c0faebb0bc9196e44bfd88765,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+20e013e4baad0c4d200e7124b042a758,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+20e9f762e8d90d13f5c64e6cd0019e11,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+20eea7f90ed62c7e9c6d02b2bb65d94b,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+21225dcc5cfce85735088ea98f83c474,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+21298cc9381d7aa447e1a912494df0a4,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+212d591390fe0d61d367d9b7e4dcff67,telecom,tower,...,...,...,Natural Resources Canada
+212e0ce9e50f95214546da1acc4d32a1,oil and gas,facilities,Paramount Energy Operating Corp.,..,...,Alberta Energy Regulator
+213033d9d3869674d855062283debaf1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2150d97f8cfb9cf00ce525243dcc4a04,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+21542cbd2e4355689e92fd21d4708308,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+215c49509a6363dbc3f853fd0a893f81,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+215fbe56f56b46d49cf27b4c8468eea3,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+2162c939beebaee1eef7b56c7403ee53,oil and gas,facilities,Northstar Wsw1 Dover,..,...,Alberta Energy Regulator
+217cc324c35fc97203d6138d72108e0a,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+2180d0ea2954ab588cce3535c92c04d6,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+218dc5003ab23ce35a4310846e6c23b5,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+219470048d86ae194ade14f10d197587,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+2197ea3dce473ada4a3794b5733ecfea,oil and gas,pipelines,..,..,...,Natural Resources Canada
+21b4b1014d5604e34fb735bd3d1fd8a8,oil and gas,wells,..,..,...,Natural Resources Canada
+21bdf0b391a938785b7a71a5565d50d7,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+21c18f7efc69e94a36e5ee900dc4d28f,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+21c394c85f6acb2a56ddbd66f6173303,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+21c63c97d8dd4ca4b29ff1d30e1d2049,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+21c71dcf5d51bc6ff5f5d9efdfbc3432,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+21e65f36618d2e248d1ce053b2b1e0d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+21ee457c23fea3b560e503928bfe6943,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+2207536a90e1d569df1b9ee6594672ab,telecom,tower,...,...,...,Natural Resources Canada
+220767ea69da3d4ba12a8eae397a6382,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+220fd54c7c52f205c3a89123329c5827,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+2210bb6b1a2ab5f9ebab81e19c739b52,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+222bc981ee6199d974aaaa02780b2195,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+223436e9f9cdfce8eaa6cc997b126d74,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta

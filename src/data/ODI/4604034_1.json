@@ -1,17 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,SOLID WASTE,Materials recovery facility
-..,SOLID WASTE,Active Dump Sites
-..,SOLID WASTE,Active Dump Sites
-..,SOLID WASTE,Active Dump Sites
-..,WASTEWATER STORMWATER,..
-244 Highway,BRIDGES AND TUNNELS,Footbridges
-Pembina Avenue,BRIDGES AND TUNNELS,Footbridges
-3 Highway,BRIDGES AND TUNNELS,Footbridges
-423 Highway,BRIDGES AND TUNNELS,Footbridges
-201 Highway,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,SOLID WASTE,Materials recovery facility
-201 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-31 Highway,BRIDGES AND TUNNELS,Footbridges
-Snowflake Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02a4aab787c6b8f23157cc5d9f9763e2,solid waste,recycling,A.r.k. New-tech Ltd.,..,Material recovery,Province of Manitoba
+036805d53d33ceca55ed46abfaf39a66,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+063c488e19ad9a06001ac81d85d3d5b7,solid waste,landfill,La Riviere Waste Transfer Station,Waste Transfer Station,Transfer station,Province of Manitoba
+074ea897aedeb9fc08daee5f5bf125b0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+07a18c4122f5b1f68ffc82ab5348dda0,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+08a9c03779339ab459bc0a9b33d7ac2c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0a41c9843ec706edad773a7906b43dd4,telecom,tower,...,...,...,Natural Resources Canada
+10ac6a2e3b2c3c29a4b00c3b7e547ebc,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+18a1b85689cee88dd5d5bd9089b4dff7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19061b6f4b9655cf6e4cbc238f212f61,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+1cdb1b257fb108bdde3ce8af2810b9ff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+21fb6f02a3523696b7d7ba468dbaca12,oil and gas,pipelines,..,..,...,Natural Resources Canada
+220662aca6fff5dd0032382094b77797,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+220902dfb50915cebb2ebc7cf26d045a,solid waste,recycling,Manitou - Pembina Recycling Centre,..,Material recovery,Province of Manitoba
+278ef566f9880197b81f266186bc9973,airports,...,Manitou Airport,small_airport,...,OurAirports
+28d79679ac98f872d46f91c875c5faae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+29acc12334a464091d8bc57058fbfcde,solid waste,recycling,Manitou Waste Transfer Station,..,Material recovery,Province of Manitoba
+29f2e9aa2418195466677627da33fc8c,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+2b1ceea324897ef5181593c5d691172d,low carbon,wind,St. Léon 1 / 2,...,...,World Resources Institute
+2d88867ba64289cf4e3d733277ca21b7,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2e58402959ec5469c73ff51483311e87,telecom,tower,...,...,...,Natural Resources Canada
+3272f2e08f5927eb4cbfbd15b72c64a4,solid waste,recycling,Integra Tire And Auto Centre,..,Material recovery,Province of Manitoba
+34d231ff23f73ba62e1b41eb6ceaf5ef,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+351efb63538019d15f552f6ef37d85e0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+35c7874ca06e651c9b55622c55a98c95,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+38202955d203ef1c83ff014eb060b36c,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+3959075ee2a14282826681e0e35a013a,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+3a0bb6656067e878c5a8e572a392b94f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3a89b0504bc20ee4b78fec187d967d33,railways,track,..,...,...,Natural Resources Canada
+41724015cdd47b1dc9fadaafc18e9ce1,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+439a942d1117e80322887436f969386a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+49e1282586d68f0fd8a62f8932311922,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4d54fa0e5f75d726a92b7ea1730b8361,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4ff7b8ea796093a69cc451b88738a898,railways,track,..,...,...,Natural Resources Canada
+506c1002123af2740c9ff856eaedf73a,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+53c5c827949f21741c433c201312b94a,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+56445d48110e6ca0bf79d4ae99162cbc,solid waste,landfill,Snowflake Waste Transfer Station,Waste Transfer Station,Transfer station,Province of Manitoba
+667ff6dd63edb5408c5f6f4570771e10,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6b5d65826fcc80803409fea14e6a20bc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6bfdab2ccd8cc480e4b14c8baeb02f14,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e84dc2849c73f31afb975381b39adde,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+713f1366f93600b5abcf017c27c0e2dc,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+7440f6666911779c70afa2cbf8982ff4,railways,track,..,...,...,Natural Resources Canada
+7a23766dc2b7071e9bab3cd0650d0b69,electric grid,power_plants,..,...,...,Natural Resources Canada
+7aae2860807fe980a1fe48d87bfd657d,railways,track,..,...,...,Natural Resources Canada
+7c4c50aee4cccbd2aedc9ea437ec9212,telecom,tower,...,...,...,Natural Resources Canada
+7cd1aa45a3c70ce691747c4ae841eb3b,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+7d645d643dbebd601c97d1e6dbbe858a,low carbon,wind,St. Leon,...,...,"Government of Canada, Natural Resources Canada"
+7da929264e06eb43afc6b93493dece47,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

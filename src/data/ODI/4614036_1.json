@@ -1,28 +1,43 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-4 Road East,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-Mcknight Road,BRIDGES AND TUNNELS,Footbridges
-73 Road North,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-75 Road North,BRIDGES AND TUNNELS,Footbridges
-100 Road North,BRIDGES AND TUNNELS,Footbridges
-74 Road North,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-76.5 Road North,BRIDGES AND TUNNELS,Footbridges
-14 Road East,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-98 Road North,BRIDGES AND TUNNELS,Footbridges
-8 Road East,BRIDGES AND TUNNELS,Footbridges
-1 Road East,BRIDGES AND TUNNELS,Footbridges
-12 Road East,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,Footbridges
-Provincial Trunk 17 Highway,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,SOLID WASTE,Materials recovery facility
-..,SOLID WASTE,Active Dump Sites
-3 Road East,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-Provincial Trunk 67 Highway,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+05b94d2de988e45b1089903bb800d2d1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0b9ecb46e6bc8321e417997bce37ef45,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+11bb088b2ff3e5f41a9a73040bcc6cda,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+1e1a639dacdd5330bf78d470ddc1d0e5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+23fa20072a66b9666fe4a42c8fc93a27,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+24fa74fadcb8fe6869158abc376d11d0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+27f70451eb3753c4df2d9cfabcb0a2b0,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2a4c630cbd513d2ecdf27eff0438f6f1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2c8a6368f0fe030fc85183b0d93e59c4,railways,track,..,...,...,Natural Resources Canada
+2d30450ab5b3e77753a4eb6460d6e242,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+34dea286d850ecb777412cb0b8ce2380,railways,track,..,...,...,Natural Resources Canada
+3aff91ce3d7f812c7f6702ade1d4b778,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+466bf2eac923f1e6430e4fd6072f1107,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+50e9d443b54f9f027ec4ca0de0450020,solid waste,recycling,Town Of Teulon,..,Material recovery,Province of Manitoba
+55a2f862fd3509b5f373633d39507bf7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+58454b2b3bd436646518e887297c35d7,solid waste,recycling,Shaver & Sons Enterprises,..,Material recovery,Province of Manitoba
+5f826de4eff147ff4193d1d977365e9f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+63f44e9404da33b0c44295f10847c069,solid waste,recycling,Stony Mountain Rec Centre,..,Material recovery,Province of Manitoba
+72210ae36db5c4fcf4d92b7aadcee5e8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+753e077bb59293ff7c6a39a1a1d5dc42,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+796c690f79be9fe611aadc28d60d975c,wastewater and storm water,facilities_waste,Teulon Wastewater Treatment Lagoon,Lagoon - Non-aerated,Lagoon,Environment and Climate Change Canada
+8c694416d8c764ae5d8aa4cc99be5b6c,telecom,tower,...,...,...,Natural Resources Canada
+912116186fce1f6354c3133f40a464a5,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9131d1fb29278f58d94ccc8a7e5639ea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+93f5b1ec0ae27e0a3313742042946cbd,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9719a7d94558b77853f96e487a5a9880,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9c9f489f9a83a043630141621e75f727,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aa736da5a2408d58f1d60e68e27d6c50,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b7eee259b3c24c98223da1786f68b670,solid waste,recycling,Argyle Meridian Trail Store,..,Material recovery,Province of Manitoba
+b81d71476cde1f3b5a2e7e4f036d3798,solid waste,recycling,Balmoral Waste Transfer Station,..,Material recovery,Province of Manitoba
+b8a5e160bceda25154348e28165264c3,wastewater and storm water,facilities_waste,Stonewall Lagoon,"Lagoon - Facultative, No treatment",Unclassified,Environment and Climate Change Canada
+bc73629eb0b6af76e2843d952f4ba5ec,telecom,tower,...,...,...,Natural Resources Canada
+c14674212462b385cdd84dd9b77a234e,solid waste,recycling,Winfield Waste Transfer Station,..,Material recovery,Province of Manitoba
+c3f3797a94f5208bc5d00a8b56aadd95,telecom,tower,...,...,...,Natural Resources Canada
+c6bfcf646d7a553e6c3a3cb69db390dc,railways,track,..,...,...,Natural Resources Canada
+d26cffc911829a94d04a8632d9ce8133,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e2c4c687b2e75d3eb7d0ffe8bae56300,railways,track,..,...,...,Natural Resources Canada
+e64665fd237405b4cb9ff0deb9264247,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e68202714261b88bbdf88ec8762bc1c9,telecom,tower,...,...,...,Natural Resources Canada
+e996fddaedd0682c98f9099fe9222eb4,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+f91b0be5cb5e584b021968aba50ea29b,solid waste,recycling,Teulon Rockwood Waste Disposal Ground,..,Material recovery,Province of Manitoba
+fa1f3fa8383a803cbd45d0649c42c250,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

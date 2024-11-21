@@ -1,7 +1,28 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-2A Highway,BRIDGES AND TUNNELS,Footbridges
-5 Street Southeast,BRIDGES AND TUNNELS,Footbridges
-Centre Street North,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+05b7638d869a9bdcbc02e2e5c90840aa,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+06205525252d1ebc0743cb7743ad4ef3,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+094fd6d95a1cf4cc67dbe23587aef097,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+194dd7fe0c1d0899fed2d0f837f606c4,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+25eb0cd3b24cad569f99ac4b8963e4e3,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+325e17bd489d3ee9a12419255d01e4a9,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+378b9f3d679f1b811d909333a068b382,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+3e3b52c490b8ea4a447b60becc23b7dc,oil and gas,pipelines,..,..,...,Natural Resources Canada
+5c7d59a3cafe7d1eee8d52d3a0dabb16,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+62c0a00ac687500e643a256bfbd249b7,oil and gas,pipelines,..,..,...,Natural Resources Canada
+75050dcef46341d347a9ef110a0918b7,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+7be8ee005b4a03267322f377c37f6f62,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+8295e37bbf6c1bdd29f49307dc5f6551,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+859e8c3d4896334d58510a954992ce9d,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+88f09a69d0f827014bac8c5f75bdce3e,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+903bcfb764cb55ae8955ce175b4dead9,airports,...,High River Hospital Helipad,heliport,...,OurAirports
+938c28fb6553c80a500c38da54ee768c,airports,...,High River Balloonport,balloonport,...,OurAirports
+ab468ea6dc61bf004c58a783750cdc8b,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+b111d1ce6a8a9a8f06408f4b5c98708b,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+b81751b1d195efdc7bcb5cc8b82f9d0f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b8fc5bec235e127b75e3e6f567cc7e25,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+bba207ef811b89721a41ccc2498f7277,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+c01f1a0d1c5e3538a4ba1aeb4721026a,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+c53b849f4f00bbccf707b0e1c900ffee,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+e465e409703c8e2bc68ad02e04ba474c,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+eaa8e53b5cf03cb08cb03888d5191ef9,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+fd4bf13b0974777ad555693d485c9540,electric grid,power_lines,..,...,...,Goverrnment of Alberta
