@@ -10,10 +10,10 @@ from pathlib import Path, PurePath
 # Before running this script, update the variables with the strings matching
 # the names in the dataset for csduid column, index, lat, and long columns.
 TABLECONFIG = "./source/Tables/ODI/odi.json"
-CSDUID = "CSDUID"
-INDEX = "INDEX"
-LAT = "LATITUDE"
-LONG = "LONGITUDE"
+CSDUID = "csduid"
+INDEX = "id"
+LAT = None
+LONG = None
 
 
 def BuildDf(iFile):
@@ -25,7 +25,8 @@ def BuildDf(iFile):
     df = pd.read_csv(iFile, index_col=False, encoding='utf-8', dtype={CSDUID: str})
 
     # Exclude null lat/long series from data frame
-    df = df[~df[LAT].isnull()][~df[LONG].isnull()]
+    if LAT is not None and LONG is not None:
+        df = df[~df[LAT].isnull()][~df[LONG].isnull()]
 
     return df
 
