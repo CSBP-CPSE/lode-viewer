@@ -1,50 +1,40 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route 105 | de la Rivière,..,..
-Accueil CCN,..,..
-Route 105 | Croissant (Arrêt de courtoisie),..,..
-Route 105 | Ojai,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Route 105,BRIDGES AND TUNNELS,Footbridges
-de la Rivière | Mountainview,..,..
-Chemin Carman,BRIDGES AND TUNNELS,Footbridges
-de la Rivière | St-Clément,..,..
-Old Chelsea | Lonergan (Arrêt de courtoisie),..,..
-Route 105 | Juniper,..,..
-Notch | Tamarack (Arrêt de courtoisie),..,..
-Kingsmere | Notch,..,..
-de la Mine | Solitude,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Notch | Tamarack (Arrêt de courtoisie),..,..
-Route 105 | Deschênes (Arrêt de courtoisie),..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Près du 126 chemin de la Rivière,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,PEDESTRIAN AND CYCLING,multi-use
-Route 105 | Reid,..,..
-Old Chelsea | Boischatel (Arrêt de courtoisie),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Kelly | de la Montagne,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Près du 178 chemin de la Rivière,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 105 | Hammond (Arrêt de courtoisie),..,..
-de la Paix | Daly,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Route 105 | Ditchfield,..,..
-Route 105 | St-Clément,..,..
-Route 105 | Montrose,..,..
-Hollow Glen | Dupuis,..,..
-..,BRIDGES AND TUNNELS,Footbridges
-ROUTE 105/PONT ALONZO WRIGHT,..,..
-Route 105 | St-Clément,..,..
-Église St-Stephen's (Arrêt de courtoisie),..,..
-Scott | Belle-Terre,..,..
-Route 105 | Doucette-Landing,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 105 | Sherrin,..,..
-de la Rivière | de la Carrière,..,..
-Old Chelsea | du Relais (Arrêt de courtoisie),..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 105 | Doucette-Landing,..,..
-Route 105 | Loretta,..,..
-Old Chelsea | Boisjoli (Arrêt de courtoisie),..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+031011d3855e4d058f8de871dd76b632,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+079a1017d98fbecff2c0251215a428b8,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+116e0c84600664ecf9fa1aab6f677895,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1e50017ba19e5341952dbb52b6ff3a4a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2a20f3f7f38e827657e7c082aefdcffe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f1685de675444cca9b05c8ed5165cd8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+316df4cb17f2ce15d928aa2f2dbaba44,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+324b1cb1c87c7b849e79ff6927cfabbd,bridges and tunnels,mixed,..,..,..,La Province de Québec
+395f4c7949dc16312d345a8ee5a2eafa,airports,...,Cascades Seaplane Base,seaplane_base,...,OurAirports
+403d30ed668668c7ad1fb992df8b7a50,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+44f0fc03feee772569c902449bae334e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+59bb88ca637f949f7dc45271ae8ad650,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5ee4e41fe1d946af90761db243fd299c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+62935cf1f508d76836cdbf9e8c03d7df,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+62b8fe5c30405bdb91c0ce6fdb463ab1,telecom,tower,...,...,...,Natural Resources Canada
+6b1b0de22b8dced4771905cafafc7989,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70d54bccc29023faa875a0e6fce22198,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+74ed6aa03abb8db27b827829514838a5,bridges and tunnels,mixed,..,..,..,La Province de Québec
+798b0f5ae878404e840d84eab7e7e52c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+87d91930c9c191af7a8d0447bd66e615,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8a43f31c93dbd967684525852f8a96fc,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8c8908339dd750d310b8d46a2605f82e,telecom,tower,...,...,...,Natural Resources Canada
+94b25f9929b0e5e685ce093d7668b00c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+980947e53c3ad4d456a3a8d93a9d6571,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9e93a3740cf7144fcd015fc87780f148,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a1b7bdeda44282cdc8d1533dc84504ca,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a4a214d544154d2f65480e91e6164e4a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a829b7f970c26aa98785cab06e0ba2a4,telecom,tower,...,...,...,Natural Resources Canada
+aeab1d4afbac4fbd27f2f05d672a43a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b858a1416081cdbcbd230dde4967bfa6,low carbon,hydro,Rapides-farmers,...,...,Hydro Quebec
+c543365f420ffcd7b98cba6e7ae294b2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c904323c1ac64d34fe1859c5163c5571,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c99bb208c0706550b426198989ad2152,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d0ba9cc08c5b63dbb5dbaf53e1b42706,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d410e9ba6af3c17488d5d8469c53af2c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+edfd8ce49f39f6a1c4619ea712850f87,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ee9fe31c8b65228db399af8d73f09dac,telecom,tower,...,...,...,Natural Resources Canada
+fcf3b68aac638073aae4436c290dd7d1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+fd958b8f0270558beccf137272d27b2b,bridges and tunnels,mixed,..,..,..,La Province de Québec

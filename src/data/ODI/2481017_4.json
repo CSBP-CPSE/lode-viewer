@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,multi-use
-de LAUSANNE/de la SAVANE,..,..
-Av. GATINEAU/SAINT-LOUIS,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-de la MONTAGNE/du CHINOOK,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-LES PROMENADES,..,..
-LAKE/GLENHOLM,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-de la CHÂTEAUGUAY/de PONT-ROUGE,..,..
-GRÉBER/LOUIS-RIEL,..,..
-de la CITÉ-DES-JEUNES/du MONT-BLEU,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-DANIEL-JOHNSON/JUMONVILLE,..,..
-BERGERON/BRIDGE,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-SAINT-RENÉ/de TOULOUSE,..,..
-ALEXANDRE-TACHÉ/SAINT-JOSEPH,..,..
-SAINT-JOSAPHAT/SAINT-GEORGES,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-CENTRE ASTICOU (INTÉGRÉ),..,..
-ARRÊT DE COURTOISIE Montagne/Skyridge,..,..
-MACLAREN/ELISABETH-CHAUVIN,..,..
-LAURIER / ÉLISABETH-BRUYÈRE,..,..
-ARRÊT DE COURTOISIE Cook/Simmons,..,..
-ERNEST-GABOURY/de GRONDINES,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-GRÉBER/de VARENNES,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-DAVIDSON/la VÉRENDRYE EST,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,PEDESTRIAN AND CYCLING,multi-use
-MONTCLAIR/LABELLE,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-FRANK-ROBINSON/du PATRIMOINE,..,..
-chemin d'AYLMER/PONT CHAMPLAIN,..,..
-SACRÉ-COEUR/SAINT-HENRI,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+6599d83daebff3a9b8eb26dd3da58bbc,ports and marinas,port,Masson,..,...,National Geospatial-Intelligence Agency (NGA)
+6679492672cf3c9d384421186fd08c2a,low carbon,charging_stations,Ville De Gatineau - 197 Boul. St-joseph,...,...,Government of Quebec
+67aa91c90c8491952cf06212d5372059,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+691cdc28d85305aba2bb80ac12483deb,low carbon,hydro,Buckingham,...,...,World Resources Institute
+6ba0a79231fe118b2c83c84c60d625d7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6bd1b85c3c68b9cdbf1fe9f3474c0115,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6d9185200bc2ab87bc249f5386b462d0,wastewater and storm water,facilities_waste,Usine D'épuration Régionale,..,Waste treatment plant,Environment and Climate Change Canada
+6dcb10a1945aeb869dde8bd91b9f58d7,railways,track,..,...,...,Natural Resources Canada
+6e18d41be16f323caa5928dcd708ff9f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e307c360ed0a8c770bf9f9862e409f6,airports,...,Ottawa / Gatineau (casino) Heliport,heliport,...,OurAirports
+6e65656556882562b134a09d45157a49,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e8b43ce61c5efb084e9cb29ff0647a1,wastewater and storm water,facilities_waste,Usine D'épuration Régionale,"Grit Removal, Screening, Primary Sedimentation/Clarification, Activated Sludge",Unclassified,Environment and Climate Change Canada
+6f30a665ac9bd2c32c9fce2a4bd7e57a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6f460fbbaf64a9a181473dff6276774e,railways,track,..,...,...,Natural Resources Canada
+709cc0cd63e05472ae4615167167f97e,railways,track,..,...,...,Natural Resources Canada
+70b7c61996cd59453d490052251d2d50,bridges and tunnels,mixed,..,..,..,La Province de Québec
+712036080f257ac988a2bfd74f15c626,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+719e550865d8c93032035f2ec2e0de09,low carbon,charging_stations,Ville De Gatineau - Maison Du Citoyen,...,...,Government of Quebec
+71d737b8633d7ac99ceaf1d2f5f3a326,bridges and tunnels,mixed,..,..,..,La Province de Québec
+746fe17b8467b6b858eab2163a510d11,railways,track,..,...,...,Natural Resources Canada
+74cfdfcc3ee227227c5f7d40a1d9c89f,wastewater and storm water,facilities_waste,Usine D'épuration Buckingham-masson-angers,"Grit Removal, Screening, Lagoons - Aerated",Lagoon,Environment and Climate Change Canada
+771e88219b8722415918a7e9dde9a3e6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+773480d6bb6d44d285c08f0335c5cb37,low carbon,charging_stations,Studio 157 - 348 Rue Main,...,...,Government of Quebec
+77623bb5bee44efa34ddf2c7c6699318,bridges and tunnels,mixed,..,..,..,La Province de Québec
+77e5575894f4b770d5530b2765a11f40,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+79aea06dfa8189f9c7c923195042d799,low carbon,charging_stations,Ville De Gatineau-228 Boul. St-joseph - Gatineau,...,...,Government of Quebec
+7c4be09ca60baeef5b60b8d58de948d6,airports,...,Cardinal Aviation Seaplane Base,seaplane_base,...,OurAirports
+7c7289e04769717df8f5e4b162c3902a,low carbon,biomass,Gatineau (bowater),...,...,World Resources Institute
+7cb8c09a0c9108f309e5b82ab432df26,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7cccf7e8d0e81434bfce162baa42d7fc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+803e4d3a0196ffebe59b86a7e8cf8c6d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+804c8d5071925e4660ff753df38c6a5f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+80aeea70e906278f02fa112330ba17f6,railways,track,..,...,...,Natural Resources Canada
+82397f39a18da6966593cab2c221ad9d,electric grid,power_plants,..,...,...,Natural Resources Canada
+823c7730e1f64ac22c3a138ed65a97e8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8278c0c4e5a6ad6198ae2fedd7869e7c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+82b8dcf3a5a07ac9571959b1544d22fe,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+831d2e7e9ca4a9c761dfc66d427b04c8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+839a3e068c37cb3d569d22615fa9472b,railways,track,..,...,...,Natural Resources Canada
+844fb29e3bf93453caf7bbf5e9055939,bridges and tunnels,mixed,..,..,..,La Province de Québec
+84d154507080ccf315a87521e8c533d0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+85b70d9b3749aa8a16fda6ea98efb1d0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8605488dd84f11010841b4ca69945d51,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+86e1b0bfe809c43dcfda411494d5de1e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8810c10a843c6182d9814058bf9c3cd2,railways,track,..,...,...,Natural Resources Canada
+889dc514073e8b80458db75dbc137570,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+89686cd8cd953f15a5537836264d7433,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8a605f09077e25c324b1e6e486f3aaeb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8b14d0521e2368e2a31d879b8520d6b0,bridges and tunnels,mixed,..,..,..,La Province de Québec

@@ -1,9 +1,15 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 161,BRIDGES AND TUNNELS,Footbridges
-Rang 9e,BRIDGES AND TUNNELS,Footbridges
-Chemin de la Languette,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0dcf5a1e9cba7c008e5fe8d8288752b1,telecom,tower,...,...,...,Natural Resources Canada
+25b7a21457f542ef1eeee9074b70660a,telecom,tower,...,...,...,Natural Resources Canada
+3363ca30a3b85e5061c743806b090e4e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3d0fbce906e836a1ff1a01b8346ff3e5,railways,track,..,...,...,Natural Resources Canada
+4dd0fb42af12966e7009736a47aaf198,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b31f920af19be41eafdb7a7c91c1e92,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Nantes,Lagoon - Non-Aerated,Lagoon,Environment and Climate Change Canada
+694b5cb1165e3eaffa233533fc4c36b5,low carbon,charging_stations,Stationnement Municipal - Hôtel De Ville De Nantes,...,...,Government of Quebec
+79342d27473ee62ba9d45b3d874e8739,bridges and tunnels,mixed,..,..,..,La Province de Québec
+84d60b702ba508a7933a0de558975f0a,railways,track,..,...,...,Natural Resources Canada
+9383e3b3271a2340466c44df0b120627,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+969bb9230203c8c5afeaffc376ca3a02,telecom,tower,...,...,...,Natural Resources Canada
+c09caa41320f5dd8e93c14c49d534a4f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ce465ca8c7a664dbe3257ead2fe1ce2e,telecom,tower,...,...,...,Natural Resources Canada
+f51d4e8977edeaf13c267d8f48c6bec1,low carbon,charging_stations,Stationnement Municipal - Bibliothèque De Nantes,...,...,Government of Quebec

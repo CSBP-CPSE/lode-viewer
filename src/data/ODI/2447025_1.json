@@ -1,11 +1,13 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-Rue Allen Est,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Rue Lewis Ouest,BRIDGES AND TUNNELS,Footbridges
-Boulevard de l'Horizon,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Foster,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0435e5d37d1d674c93dc720d9e1e94d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+062a70b020cef5f88b7bd9dbd84e456a,low carbon,charging_stations,Desjardins - Waterloo,...,...,Government of Quebec
+200749b41d6e759fc95729bf7aeb5142,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2d2c42cbddaf03c193841ee776f6d57c,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4a3c5427ea3fa848c5d7bcc8c0f0724f,oil and gas,facilities,..,..,...,Natural Resources Canada
+4f75b92d50aae984efb9d78839c16064,low carbon,charging_stations,Waterloo - 205 Rue Lewis Ouest,...,...,Government of Quebec
+704dbad99431b39da18e7784793f4ba3,wastewater and storm water,facilities_waste,Station D'épuration Waterloo,"Screening, Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+80c8b948102ae1708d6f809c531970e4,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+906991d5bc21b6c34105871e71590288,low carbon,charging_stations,Waterloo - 5491 Rue Foster,...,...,Government of Quebec
+cb9aca774e0f2b9b72d1dc2a0fdac8a1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fb0431aeff77134cd29a07fb6ba39f48,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fd09a63cc64858ff10925da872b80015,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

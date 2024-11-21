@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Saint-Joseph,BRIDGES AND TUNNELS,Footbridges
-Rue du Pont,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Allard,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Golf,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Paris,BRIDGES AND TUNNELS,Footbridges
-Autoroute Jean-Lesage,BRIDGES AND TUNNELS,Footbridges
-Autoroute Joseph-Armand-Bombardier,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,POTABLE WATER,Water Treatment Plant
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Caya,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard des Pins,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang 5e Est,BRIDGES AND TUNNELS,Footbridges
-Rue Cormier,BRIDGES AND TUNNELS,Footbridges
-Rue Saint-Pierre,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Foucault,BRIDGES AND TUNNELS,Footbridges
-Rue Saint-Georges,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 139,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+022d5941e7cc2e43493b2ae3f5d73b3a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+03bc1f804e126de933ea8e1af29f1230,railways,track,..,...,...,Natural Resources Canada
+073fc6d51e5df5566be2cd9b3288f536,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+08a80f90b90ebd9baf8325a10ceb1f08,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0a62bca4ef18871ff977f68c6b343c81,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0ca74d2fa3a66db42513f69fa6b32277,telecom,tower,...,...,...,Natural Resources Canada
+0cf1f8ee5cdebeb6d3d30ae6f44258a1,railways,track,..,...,...,Natural Resources Canada
+0e7e8cb6bf56bd7fa776adffdc24bf15,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+10dbf823c9172052b1771d205b16a0ac,railways,track,..,...,...,Natural Resources Canada
+12f3c23acb46721d22cc651223465b30,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+145faa0fc11e7ebde005653a29c4f07a,railways,track,Drummondville Industrial,...,...,Natural Resources Canada
+16f0a774c4903afd22ddaa01b760c5f8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+17d5e99ae147f606429b62039f895a24,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+187460fe1922a745a461e9978778a4ce,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1c2149a7644db8ccf79876e0301c345c,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+1eaa39b1f72bd94e8b059e077d20b88e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2048bc8dd07a7e97d35f055e8237b46a,railways,track,Drummondville Industrial,...,...,Natural Resources Canada
+20badbf13fe9ea80a3a9d332d4d61c33,bridges and tunnels,mixed,..,..,..,La Province de Québec
+20cf8f363c973abe58bf62d09cb97bb3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+21167d0d076b4e6b8da55d6b945a247c,railways,track,Drummondville Industrial,...,...,Natural Resources Canada
+2366705ffb45416f2b58ee5c395f8160,wastewater and storm water,facilities_waste,Usine Traitement D'eau Usées De Drummondville,"Grit Removal, Screening, Lagoons - Aerated",Lagoon,Environment and Climate Change Canada
+23c981dcdf3c1739e8b8487dd1f15da0,railways,track,..,...,...,Natural Resources Canada
+23ff1a0dd86fc53664867c8b59950d0f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+28da28b8972ebaebb707543f4eb1ac67,low carbon,charging_stations,Drummondville - Centre Marcel Dionne,...,...,Government of Quebec
+2929120356edc21974c00abf584ca23b,low carbon,charging_stations,Drummondville - Complexe Girardin,...,...,Government of Quebec
+2ac34477d4f09640246d00cd0970afeb,low carbon,charging_stations,Best Western Hotel Universel Drummondville,...,...,Government of Quebec
+2b6a69924a751b834fc9da6465f24445,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b9a5dcf4360c6dfb0d1a21b09f136c4,telecom,tower,...,...,...,Natural Resources Canada
+2bbb21b4229e35d241af6302cf985011,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c2271ea8090619e7c44dc395986e4a5,railways,track,Drummondville Industrial,...,...,Natural Resources Canada
+2d0cfdc5d63223b9b60bcef0cc95325d,railways,track,..,...,...,Natural Resources Canada
+2fc5c20cc3fb12a29ff27153236d3a4e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+33e1a8307594a86b99736e690871830d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+38a3f49fb631acd64b70ea340934841d,railways,track,..,...,...,Natural Resources Canada
+3aa01128234f13ad1b1fdc97302d44fc,railways,track,Drummondville Industrial,...,...,Natural Resources Canada
+3aa0fd710affc036da61534aa94cdb03,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3c3bed9e370d7573fee67b2d88f95da8,telecom,tower,...,...,...,Natural Resources Canada
+409fa268056365fbe275d27e92955042,railways,track,Drummondville Industrial,...,...,Natural Resources Canada
+40ebdca9775ee2197b8cac62f82f3c50,potable water,facility,Ute (usine De Traitement D'eau),..,Treatment plant,Environement and Climate Change Canada
+4123737ae823f8592322249644bbe758,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+42896a4a1a89a34d0752e48bc6d57906,railways,track,Drummondville Industrial,...,...,Natural Resources Canada
+4f6a5d97f6a77f6f1d1330f91b3f956d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+51cf3ad62ef0e2e5621fa8d87feb95cf,low carbon,charging_stations,Drummondville - Rue Lindsey Phase 2,...,...,Government of Quebec
+528b6526368e12c41158c3c02ce523a3,railways,track,Drummondville Industrial,...,...,Natural Resources Canada
+540926296407a0c852251166e598672a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+592c53806dbffbdba43be42f3f53b0c5,solid waste,landfill,St. Nicephore Landfill,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+5ad5a88de31efa0357108d6078af8d21,low carbon,charging_stations,Drummondville - Stationnement De La Gare,...,...,Government of Quebec
+5ce6f0f1c530d78aab79b65cad5ed4aa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5d9ad2973957825f78a9e8b43a31868e,low carbon,biomass,Saint-nicéphore Lfg,...,...,World Resources Institute

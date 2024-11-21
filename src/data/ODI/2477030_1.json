@@ -1,15 +1,17 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Principale,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Autoroute des Laurentides,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard des Laurentides,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Moulin,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Gare,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0accf71c1d274a793f51913563b2ae76,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0e0bdf6b59fdaf15027c3ee6ae8399b5,wastewater and storm water,facilities_waste,Station D'épuration Des Eaux Usées,"Grit Removal, Screening, Lagoon - Facultative, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+1bc889e41784e9a8d1fb5354dc16bcfb,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2c3d584b34b5b2c1a0a81f06e1f0f1f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3312b7a15f391d4087fbdb1238f9a115,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+33a3a32e778612b6b03f44b7537111ae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+45182eb4fb02fdf211078ddcea770e6b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4e298ef3f29ca15947151591135c2fc7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5665bafc0bd784206e84bff20a39273f,low carbon,charging_stations,Municipalité De Piedmont,...,...,Government of Quebec
+6f1740391c87301314971ef71039bb72,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8d4f5908236cb6fbe63c942560bd2fd1,low carbon,charging_stations,Brcc - St-hubert - Piedmont,...,...,Government of Quebec
+ad1a7617dd9534db4b3b287ea4e525e7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b73afdcfcc2d7bd18abca5f04196c77c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cd0d49787fca7295e862058b6080abb8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eba4aa6e85924542dcc7468fd42d31fc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ec3012a45d89d91f05ff3c573512a06e,bridges and tunnels,mixed,..,..,..,La Province de Québec

@@ -1,19 +1,25 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route 323,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Autoroute de l'Outaouais,BRIDGES AND TUNNELS,Footbridges
-Rue Papineau,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Route 321 Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Duquette,BRIDGES AND TUNNELS,Footbridges
-Route 321,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+113c376c612a3c050b017acf08054eff,airports,...,Montebello Seaplane Base,seaplane_base,...,OurAirports
+1aedcd5a7f877abc34360b1810d05e58,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2049c092ade42e961d7fcc456f6b7175,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Papineauville,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+26acb338e32e1a6b44e6cc89d9cce57a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4576e0395f2edc152f9f5373a3a5b5b4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4bb00be307c8465aa481db5a8b73d7ac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4be2b8c95bcd14065168c8c862dde8f3,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4ca5d7236eb7948a62ed905ca0ee4e8b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4e1e82f09d425a58c136ef46bc8c4de4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+54dd950d464e5c63e595926034731fc5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5689bf5c68a2290f4c180582bae088e3,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6bd6dde6415fbb51efc4f723bd0c1928,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6fa065b8cc99980154742b2f2b76003b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7d93506eca6f0d74732e53d7406f3cde,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+880947bcca5b17779f63e126dff042ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8bf9c6f262e3f342596f92a3ae8f0443,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8d55c0ff6bd354bbcc76c2e74fd8ce10,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+93c2c496177edaf8be782481d72deca3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9f9eb5f3f8a6b372a1483236645ae7ed,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a5833f8b3bb0a409a175f1d53b6b88c0,ports and marinas,port,Papineauville,..,...,National Geospatial-Intelligence Agency (NGA)
+bf429c3764038e3c68d80a1128fa75ff,telecom,tower,...,...,...,Natural Resources Canada
+cac4559ac15358ba609506c0124cfb95,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e9a8162db0e8b41d74fa8f290de8861e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f56fe5b46b8b20471eb72555608d8837,low carbon,charging_stations,Desjardins - Cds Papineauville,...,...,Government of Quebec

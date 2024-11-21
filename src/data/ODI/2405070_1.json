@@ -1,33 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route Garant,BRIDGES AND TUNNELS,Footbridges
-Route 132,BRIDGES AND TUNNELS,Footbridges
-Rang 3e Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang 5e Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Perron Est,BRIDGES AND TUNNELS,Footbridges
-Route 132 Ouest,BRIDGES AND TUNNELS,Footbridges
-Route 132 Est,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Petite-Rivière,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Mercier,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de Saint-Edgar,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de Robidoux,BRIDGES AND TUNNELS,Footbridges
-Rang 4e Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0d748d327fc8a88532b294eb0982ec2b,railways,track,..,...,...,Natural Resources Canada
+109452bd609c1a2aa0e22b4ac2878979,low carbon,wind,New Richmond,...,...,World Resources Institute
+153e85b9e40f69b949937e18ca261639,low carbon,wind,New Richmond,...,...,"Government of Canada, Natural Resources Canada"
+16b7639ebf67f46a6ca04aeb57dde276,low carbon,charging_stations,Brcc - New Richmond - Fin Gourmet,...,...,Government of Quebec
+181601a814e5598a1bd3ca16e397eb56,telecom,tower,...,...,...,Natural Resources Canada
+1899f242f9ce6721093c0f888a712916,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1b162bd70f3828595248ff2d19e1a8d2,railways,track,..,...,...,Natural Resources Canada
+24c6c9773a205c27cad5f555f3e8f186,railways,track,..,...,...,Natural Resources Canada
+29eb5afcb94303b7355dc5ee3f5c56ad,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2daf7983f24f35d39b46485543edef73,bridges and tunnels,mixed,..,..,..,La Province de Québec
+319256a8fce0426ca1a6de62121f89eb,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+357067d2664a3c94b528d63c05e356e5,low carbon,wind,New Richmond,...,...,"Government of Canada, Natural Resources Canada"
+36440f4787f82e1794e68bd758f32521,low carbon,charging_stations,Brcc - New Richmond - Perron Ouest,...,...,Government of Quebec
+3846dcee02e69303455e45843f48307e,railways,track,..,...,...,Natural Resources Canada
+50f375c7a4d2ad6bff1bfa3a6ca724f0,low carbon,wind,New Richmond,...,...,"Government of Canada, Natural Resources Canada"
+52adfb1b5ecd077392476d181d8a0288,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5d43469bc5aa479c0fb93774958c3f0e,low carbon,wind,New Richmond,...,...,"Government of Canada, Natural Resources Canada"
+5fe9dc58e01eadad10dee7acfe116ddb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+60294749c408c2801f4f45d3af1e25b9,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De New Richmond,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+63c9b574cf776df8d0118e5343541d60,bridges and tunnels,mixed,..,..,..,La Province de Québec
+66cefcc399b8e1ada0b2cc22e87adb80,railways,track,..,...,...,Natural Resources Canada
+67ba31fb05dc0bedfab9fd6d0f0c0ebe,railways,track,..,...,...,Natural Resources Canada
+6b89b92b0af4a9128dbbdd62de785e7d,railways,track,..,...,...,Natural Resources Canada
+6d511fc16dc2ce645bd5dbe1e7f91aef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e79b286bd727bc9bbc140e6228a427f,electric grid,power_plants,..,...,...,Natural Resources Canada
+70c1f59047a3cc554df429181b006b6b,low carbon,wind,New Richmond,...,...,"Government of Canada, Natural Resources Canada"
+727d71129fcb7184dfe760484d796375,railways,track,..,...,...,Natural Resources Canada
+75214ec8f441d5a89eecf6c579f786bb,oil and gas,pipelines,..,..,...,Natural Resources Canada
+752545a5519757eb1eecdc41b1c5a1f6,low carbon,wind,New Richmond,...,...,"Government of Canada, Natural Resources Canada"
+7581ec12646955a842734867357433ca,railways,track,..,...,...,Natural Resources Canada
+75ba88783227445537a2829a38f0b21b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7a55c79f1e0cc9e16470aa5060b1f639,railways,track,..,...,...,Natural Resources Canada
+7a7281acafe9afede28c4ac57b4d5eab,low carbon,wind,New Richmond,...,...,"Government of Canada, Natural Resources Canada"
+7f45e14855b6ab993500119001be2812,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7f63d28bf865e82afbd2471f24bc09d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+833a8285154b59f0dbebf436fc788680,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+853571ee60471bdc5713a9273a65bd57,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8678515e1f3cdcdd096bc394cca6c9c7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+91a94d7b23d7640b53064b850e25bba3,railways,track,..,...,...,Natural Resources Canada
+95b5e5efb0367c816462408b25d7d2ff,low carbon,wind,New Richmond,...,...,"Government of Canada, Natural Resources Canada"
+9c415dd5b611a9b94577b03064cd59b0,low carbon,wind,New Richmond,...,...,"Government of Canada, Natural Resources Canada"
+9fbf48317f2fa6068b579aa1c3be5333,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aa3bf8dddbc62c3c665063dabc719c90,low carbon,wind,New Richmond,...,...,"Government of Canada, Natural Resources Canada"
+aaf3e4cea2911a1bec3a2ed679802758,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+abb1ede9e7e3ae929b1188c39ec63f4f,railways,track,..,...,...,Natural Resources Canada
+adc597db47998a9ad68fe4ea4380ac65,railways,track,..,...,...,Natural Resources Canada
+addbf811a7e2213e9cc6f69f1ac9204d,low carbon,wind,New Richmond,...,...,"Government of Canada, Natural Resources Canada"
+af581849664ed32a781d4cce2d43eb73,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b4a4b0c79d3349432c208dbd61274e67,oil and gas,pipelines,..,..,...,Natural Resources Canada

@@ -1,14 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route 167 Sud,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-..,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin des Mines,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0384ea47ebc9ee4ff16d29daea36abdb,telecom,tower,...,...,...,Natural Resources Canada
+03bde5497e7164ae4ce0bb5f12a3b492,railways,track,..,...,...,Natural Resources Canada
+06680d8f047bb1a3d5e4426649f34879,railways,track,..,...,...,Natural Resources Canada
+09bcd77c8914d63bbfa2c7635668f86a,railways,track,..,...,...,Natural Resources Canada
+0c7318b699132a458c578e725388cfbe,airports,...,Chibougamau Heliport,heliport,...,OurAirports
+1716219755f9c5760a8e8b65b6443f8b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2075236120355b1c2d5a3647bb8de101,telecom,tower,...,...,...,Natural Resources Canada
+22c94eefe174a1538019c979a0a3f21a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2650e78dee8ec1fe40749f9d0807e773,railways,track,..,...,...,Natural Resources Canada
+27920f5d507acb5bd179483ec8b1925a,telecom,tower,...,...,...,Natural Resources Canada
+2ac414f97e2e69a316b56e16881e99ec,railways,track,..,...,...,Natural Resources Canada
+2d90ee9246f65e7750a59f054c1d4475,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+304345370619e9c8c78347bfc3182100,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3837e9461e09d15c5e603ca9e9e45139,railways,track,..,...,...,Natural Resources Canada
+3998c4eadfe113a70bf9f462bd9d2b70,railways,track,..,...,...,Natural Resources Canada
+3ec5de9417e41dd9d93975b949e34972,railways,track,..,...,...,Natural Resources Canada
+417ee5ebc8c92acff979312aa6c81c90,railways,track,..,...,...,Natural Resources Canada
+4a8e21d24fce7b9cced6fcb39a5664c1,railways,track,..,...,...,Natural Resources Canada
+4aaf86f73c36f6ceef7a7a299a333f58,telecom,tower,...,...,...,Natural Resources Canada
+4b77bd5c3c61f3f0fa55ad5e7b0b242b,telecom,tower,...,...,...,Natural Resources Canada
+4e3a6df1027fc673ba68d93dee4f467a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4f591e75f8df2ee3d164c43f609574bd,railways,track,..,...,...,Natural Resources Canada
+523072da160696c630e269187e739003,railways,track,..,...,...,Natural Resources Canada
+5b26fadd97f47b78c6a08f0d4c7d838c,low carbon,charging_stations,Brcc - Chibougamau - Saq,...,...,Government of Quebec
+5d2b24fb8a3dc543beb7a8cf6b6d92c0,railways,track,..,...,...,Natural Resources Canada
+5dfd98656d4afced72ebdfb966d35845,railways,track,..,...,...,Natural Resources Canada
+606e44773f9c89fa2dbfd97c94ae97dd,wastewater and storm water,facilities_waste,Station D'épuration,..,Waste treatment plant,Environment and Climate Change Canada
+63c266cd115511b5c9571e69cabc9151,airports,...,Chibougamau (hydro-québec) Heliport,heliport,...,OurAirports
+640185db72a0947d5da800d053b26b88,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+652a9fd5352de5d53aa026380352a609,railways,station,Faribault,...,...,Natural Resources Canada
+6945e5c7db2146becceff705d4831685,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6c5b2cc45e2b83a591443214b3195b14,telecom,tower,...,...,...,Natural Resources Canada
+6fb4ac32e76c9d0b8613ea9fe6c37d5e,railways,track,..,...,...,Natural Resources Canada
+716e11bb3a0462e28b7546baed84f07d,railways,track,..,...,...,Natural Resources Canada
+74578a288be59d8a33bf98b4dfb202c4,railways,track,..,...,...,Natural Resources Canada
+772dd472f4746bcfa59a92c065ede326,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+773e51d12f3339d22f9ff8f009a57fb8,railways,track,..,...,...,Natural Resources Canada
+77811d9a6236611729f28aae92117795,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7f1bd8b3e1a5dc2f39b53cd7ec6cd489,railways,track,..,...,...,Natural Resources Canada
+84b59d7fccc06232b407cb923d54a643,railways,track,..,...,...,Natural Resources Canada
+89a93f700989805284dded4e33b33979,railways,track,..,...,...,Natural Resources Canada
+8b2f495a92f6c98b4db2a9fd8fc0a9e1,telecom,tower,...,...,...,Natural Resources Canada
+8c8377fc97b3d8a4948a57751ec143ce,railways,track,..,...,...,Natural Resources Canada
+8dfc581ccfdadf3d417d6b171f2f48cd,low carbon,charging_stations,Bibliothèque Municipale De Chibougamau,...,...,Government of Quebec
+922c018df8e31d0d2cf56242c3e779f4,airports,...,Chibougamau/lac Caché Water Aerodrome,seaplane_base,...,OurAirports
+93a59d2ba65a197dd184a6cd39a49eb1,railways,track,..,...,...,Natural Resources Canada
+9d25d1ef0e6f1ec2f11508e966e4523d,oil and gas,pipelines,..,..,...,Natural Resources Canada
+9f0996901a67b0ec2269ea51fce71bc9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a076b4722702d859d13ce26d0a59c461,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

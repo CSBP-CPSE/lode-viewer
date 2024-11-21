@@ -1,50 +1,43 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-des Entreprises / face au IGA,..,..
-de la Grande-Allée / La Fayette Ouest,..,..
-de la Grande-Côte / Hubert-Aquin,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Grande-Côte,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-La Fayette Est / Alfred-Laliberté,..,..
-..,BRIDGES AND TUNNELS,Footbridges
-Bourassa / Baudelaire,..,..
-de la Grande-Côte / Diane-Juster,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-de la Grande-Côte / de la Grande-Allée,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de l'Île-de-Mai,BRIDGES AND TUNNELS,Footbridges
-de la Grande-Allée / de la Côte Sud,..,..
-de la Grande-Allée / Adrien-Chartrand,..,..
-de la Grande-Côte / Principale,..,..
-de la Grande-Côte / Diane-Juster,..,..
-Chemin des Îles,BRIDGES AND TUNNELS,Footbridges
-Autoroute des Laurentides,BRIDGES AND TUNNELS,Footbridges
-de la Grande-Allée / Bourassa,..,..
-Rivière-Cachée / devant le Centre de la Rivière,..,..
-Autoroute Chomedey,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-de la Grande-Allée / de Champfleury,..,..
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-Voie d'accès Curé-Boivin / de la Grande-Côte,..,..
-..,WASTEWATER STORMWATER,..
-de la Grande-Allée / Carpentier,..,..
-de la Grande-Côte / 3e Avenue,..,..
-Montée Sanche / Joly,..,..
-Montée Sanche / Piette,..,..
-de la Grande-Allée / Réal-Béland,..,..
-du Faubourg / devant le Super C,..,..
-Bourassa / de Bourgogne,..,..
-de la Grande-Allée / de la Côte Sud,..,..
-des Grandes-Tourelles / St-Honoré,..,..
-des Entreprises / devant le IGA,..,..
-de la Grande-Côte / de Châteauneuf,..,..
-de la Grande-Côte / de l'Île-de-Mai,..,..
-de la Grande-Côte / Terrasse Filion,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Provencher / Montée Sanche,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-du Curé-Boivin / Provencher à des Entreprises,..,..
-de la Grande-Allée / Bougainville,..,..
-de la Grande-Allée / Cartier,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+a57776b35980c93863f79144f4ba0b0a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a75dc331c5b516ea5cc6945c664fdde3,railways,track,Ste-therese,...,...,Natural Resources Canada
+ae49ba17f49d54b6be92eb49a7850828,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b0df19eabea7693870a537fb5ffe3d07,railways,track,Ste-therese,...,...,Natural Resources Canada
+b0e64d6ba6c4173439ad50920f1b11a7,low carbon,charging_stations,Boisbriand - Parc Wilfrid-dion,...,...,Government of Quebec
+b4556b1126c6929c8fc33dbfeca1149f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+b4dd1b490b3cc6ba0ecdf4313449dcef,railways,track,..,...,...,Natural Resources Canada
+b5a77146e3e9aaeec10b8bac967e49a5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bffe1e8a9a8e5c62f7defc6559e50788,railways,track,Ste-therese,...,...,Natural Resources Canada
+c42f214538e91042347cff1ca85776fa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c442ecd76d5a8d5825715afda0ebd127,railways,track,..,...,...,Natural Resources Canada
+c479cf52116c1e2d0357fcfb253e51ae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c59dfe5fd0aa2bc20467171d1a5494dc,railways,track,..,...,...,Natural Resources Canada
+c742f5e71f6140e30c60ac7b3c615d4c,railways,track,..,...,...,Natural Resources Canada
+cc752573d7febb7bc55ae260d689d46d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cd97eed7f440892069ff148e886f7fd1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ceb23c59232d2f900b798ae64ea49b6a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cfc7c9ee6aad192d2b6ee66c2332f5d8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+d26c311c6921309e4c14c0ff5a37dc81,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d2ad787812d550267ebc3e45dfb3aa5b,railways,track,Ste-therese,...,...,Natural Resources Canada
+d2bb8635cbaf2b9907f22eba227b8cbe,low carbon,charging_stations,Brcc - Boisbriand - Couche-tard,...,...,Government of Quebec
+d3206449510cc188af23c733af9b64e6,railways,track,Ste-therese,...,...,Natural Resources Canada
+d3c74cba560b1874485d3c02ea5b4506,railways,track,Ste-therese,...,...,Natural Resources Canada
+d43e16d233456deb5cdb1ea0a1fa22ad,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+db20545bce21085024c1e4a240e11ccc,low carbon,charging_stations,Brcc - Faubourg Boisbriand,...,...,Government of Quebec
+dd7c705cb1fb316f86af8a3414199468,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dd9f296c0ddb8e8e12ad9ace05acb7af,railways,track,..,...,...,Natural Resources Canada
+df505b2a01ccc57dbdf1f8dbdd400cbf,railways,track,Ste-therese,...,...,Natural Resources Canada
+dfadbc4db5bcbc08186ccad0bba1cfe1,railways,track,Ste-therese,...,...,Natural Resources Canada
+dfaff496c218e5ba90220c77bec77881,railways,track,..,...,...,Natural Resources Canada
+e0445f72ff6e92c9e8d34d96ab041148,railways,track,Ste-therese,...,...,Natural Resources Canada
+e0bbd3768aac7dc5b6d6d2feb2a0cb9e,railways,track,Ste-therese,...,...,Natural Resources Canada
+e2cc8c34df832953897358c186058b95,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ec1776508c11d0206dfffa53fddef0ca,railways,track,Ste-therese,...,...,Natural Resources Canada
+ec29680a830b94ac0d05b62a6529eb8f,railways,track,..,...,...,Natural Resources Canada
+ed06d89f882eaf5a4e4174c65f5f744b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ed685f7ef8d81f362dd90937ba11f64d,low carbon,charging_stations,Boisbriand - Hôtel De Ville,...,...,Government of Quebec
+ee2ce0826617b0be051eb5889cda25ca,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+f295aa245bef10bb26bf292c3890dbb1,railways,track,Ste-therese,...,...,Natural Resources Canada
+f60a5c4f017119f1bb891e337c8cd5b4,railways,track,Ste-therese,...,...,Natural Resources Canada
+f73a8296f4dc6a824291b26af2c6733d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fd842a6ef77c48215f3e54efcda23259,railways,track,Ste-therese,...,...,Natural Resources Canada

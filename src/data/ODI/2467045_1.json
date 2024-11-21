@@ -1,50 +1,39 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Saint-Jean-Baptiste / de l'Église,..,..
-Vallée / Perron,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Saint-Jean-Baptiste / Saint-Laurent,..,..
-Boulevard Sainte-Marguerite,BRIDGES AND TUNNELS,Footbridges
-Lacoste / Saint-Denis,..,..
-de l’Église / Place Dubuc,..,..
-des Cèdres / des Ormes,..,..
-Saint-Jean-Baptiste / Gaétan,..,..
-Beauchemin / de Beloeil,..,..
-Beauchemin / Mars,..,..
-Saint-Joseph / devant Résidence G.-Prud'Homme,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Côté / Mercure,..,..
-du Lièvre / du Chevreuil,..,..
-Saint-Clément / Lacoste,..,..
-Saint-Jean-Baptiste / de Lévis,..,..
-des Hètres / Desparois,..,..
-Saint-Jean-Baptiste / Josime-Pelletier,..,..
-Saint-Joseph / Lalonde,..,..
-Vallée / Vallée-Dumouchel,..,..
-Saint-Clément / de Lauzon,..,..
-de l’Église / Saint-Denis,..,..
-Saint-Jean-Baptiste / Josime-Pelletier,..,..
-Saint-Joseph / des Cèdres,..,..
-Saint-Jean-Baptiste / Lalonde,..,..
-William / Bonnier,..,..
-Saint-Jean-Baptiste / de Lévis,..,..
-Saint-Jean-Baptiste / Bourdeau,..,..
-Autoroute de l'Acier,BRIDGES AND TUNNELS,Footbridges
-Saint-Jean-Baptiste / de l'Église,..,..
-Reid / des Plaines,..,..
-Beauchemin / Édouard-Laberge,..,..
-des Perdrix / du Lièvre,..,..
-Hébert / Saint-Jean-Baptiste,..,..
-Saint-Jean-Baptiste / Sauvé,..,..
-du Parc / devant le Centre Sportif Mercier,..,..
-Saint-Jean-Baptiste / Sauvé,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Saint-Jean-Baptiste / Gaétan,..,..
-des Ormes / des Noyers,..,..
-Mercure / Côté,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Mercure / de Beloeil,..,..
-Marleau / du Lièvre,..,..
-Côté / Saint-Jean-Baptiste,..,..
-Beauchemin / de Beloeil,..,..
-Côté / d'Amos,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0654d9cef50d8bf17ba840b3ee8ed7df,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0cbb569688943359880c97d9dc91af0f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0eadfd04a436f483d45be5724ca72981,telecom,tower,...,...,...,Natural Resources Canada
+1eac06e73b5ce3a797f414de58ee8b4a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+22c5e51f7a0a5af47c6479a6deca05bf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+30794aa5eef8c9cb91a0dd7276df1f54,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32a0e00d004c3ec304a8ccdbbdacefbc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+39e6f32d1164b0fdd11f85f042e80dbb,telecom,tower,...,...,...,Natural Resources Canada
+3abfb4e58ae84b9d847c4591ae7d7080,wastewater and storm water,facilities_waste,Station D'épuration De Ville Mercier,"Screening, Lagoon - Facultative, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+462b8f69ffa6b703c403f7ce695cc407,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4d2d27479024cea7e46e98868b22d3a4,low carbon,wind,Montérégie,...,...,"Government of Canada, Natural Resources Canada"
+4dd007e007bbf752cb28e2c2d70847a0,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4f3c74ff50b7c317f60423c5f6820dbb,bridges and tunnels,mixed,..,..,..,La Province de Québec
+54a205fa9d1359b85ac0971a16343c21,low carbon,charging_stations,Ville De Mercier - 16 Rue Du Parc,...,...,Government of Quebec
+5522897021652f519cd521eac53d6696,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+682f372694e1e6415779d3883a019c2c,telecom,tower,...,...,...,Natural Resources Canada
+77e2f8a4f75065531ff99571eb71496c,telecom,tower,...,...,...,Natural Resources Canada
+7e8fc41c40b12e6b508d9da23491c6ff,bridges and tunnels,mixed,..,..,..,La Province de Québec
+845a2e79e90e4e68d347607ac3bfe74c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8711fccbf0623faab82219464d7e4ad3,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8efad4e02984af2befc9c38a1486020f,telecom,tower,...,...,...,Natural Resources Canada
+97d068021098ae702210f2b1a5049c42,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9c8d58e1f6b7fb46a532555aa2b0a278,telecom,tower,...,...,...,Natural Resources Canada
+9f9f77ce65f2b0cd58e492076be4d758,low carbon,charging_stations,Ville De Mercier - 869 Boul St-jean-baptiste,...,...,Government of Quebec
+a13c9ca43d1fc674df2081369184aaf2,telecom,tower,...,...,...,Natural Resources Canada
+b41eef6a652254f28cf67ba240a28b82,low carbon,charging_stations,Ville De Mercier - 730 Boul St-jean-baptiste,...,...,Government of Quebec
+b52013ddad38e6dc05f7393041b22ff3,low carbon,wind,Montérégie,...,...,"Government of Canada, Natural Resources Canada"
+b54febb9f5469ba49dc5f21295a9b8be,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b6b4fdfe2cb39b66cc7e3ad211a2d331,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c38137a53e66df83e5cc3590b2bb655b,low carbon,wind,Montérégie,...,...,"Government of Canada, Natural Resources Canada"
+c6e8014f0ba6edbdc47167f1d606334a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ca2a8bf6d2c6ffd000469f6be48e53c3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+cbd5722ad2dc75980754898a1df7a619,bridges and tunnels,mixed,..,..,..,La Province de Québec
+cbfe42d5d13ded03562b0124d806d0d7,telecom,tower,...,...,...,Natural Resources Canada
+d6ac98d46e547f27fdb881f50125fff6,low carbon,charging_stations,Ville De Mercier - 2 Rue De L'église,...,...,Government of Quebec
+e33695c383d4f5559e96a1deeb098a16,oil and gas,facilities,..,..,...,Natural Resources Canada
+fbc5836566bbbcc4dad204941af1579b,telecom,tower,...,...,...,Natural Resources Canada
+fbf1d0e3d951077cc8d69e689c0bb0f9,bridges and tunnels,mixed,..,..,..,La Province de Québec

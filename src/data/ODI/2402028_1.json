@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Route du Ruisseau-à-Mon-Rougeau,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Pabos,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Hamilton,BRIDGES AND TUNNELS,Footbridges
-Boulevard René-Lévesque Ouest,BRIDGES AND TUNNELS,Footbridges
-Route McGrath,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Pont,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 132,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02f13599b0c105181af2f25e665d671b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+087921b6efea6c1b4c2b2450dd4fe59c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0e6be6840ad65e1e5fdd09e40742a36b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0ef5d91e235e34bd24d3c1eb39586b2c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1475ceaf35921599a2f0ff857e8a8408,ports and marinas,port,Newport (canada),..,...,National Geospatial-Intelligence Agency (NGA)
+1ae511c182986dfaf0be9dbd97c1f93c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1e3138308ec6320a80922f3fa7c766b8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1e91ffe83b8351b5e473581eea198dbf,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+271f8c70151e2ad1787c31bdc9cd1cab,railways,track,..,...,...,Natural Resources Canada
+28817045d2ec8e8846f5b244e53f7c4c,railways,track,..,...,...,Natural Resources Canada
+295ad11c4b6c6ff6c856eac39f9c0c80,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2ad249899c6e567616680d87c72187bf,low carbon,charging_stations,Chandler - Hôtel De Ville,...,...,Government of Quebec
+2d6eba07dd59f0fd2b6ccf213200715f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+3189b6c46731bc8f114038c75f433b2a,low carbon,charging_stations,Brcc - Chandler - Halte Touristique,...,...,Government of Quebec
+34e073e2b385ada59296b92cb8ff6ca4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+383e7158f175a61eeae3d44dfca8a590,bridges and tunnels,mixed,..,..,..,La Province de Québec
+38620595d850a559554bc588e5dfe999,bridges and tunnels,mixed,..,..,..,La Province de Québec
+45b1c53a7ac4b307d7d5f983ade1bd2a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+469617ec9d6202933e65326d7d00c58d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+48b2d05a6d1a5706543bf38e621c79d2,railways,track,..,...,...,Natural Resources Canada
+4a79ee72230c5a82cdb9cd8b6b3c0a09,railways,track,..,...,...,Natural Resources Canada
+509815ea491465fa3e31854b710513a8,ports and marinas,mixed,Newport (îlots),Non-Core Fishing,...,Fisheries and Oceans Canada
+5acba1190d23a038d1960f89706d7af9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5d25a5714605a20a80a1bc19b71e46c1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+60f480eed28357471fd75fd4479cf13a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+61c487e99e34b7461464e152a8a5365a,railways,track,..,...,...,Natural Resources Canada
+64d500060b0e03859905030db12b0b44,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Chandler,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+67d5b402d35d19c0c3f67d08af83335b,oil and gas,pipelines,..,..,...,Natural Resources Canada
+68f613771588984f958b3b0f2ef9a9a2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6bf5756d4d8339da9c524bbc64a322f7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e6d231d69cff6753c406fb5263f0420,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6fbdf664d2c95f5d530cd74f3f6359f2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6ffa05f19aa4099ce56017cca73d7618,railways,track,..,...,...,Natural Resources Canada
+74bdcd6b0f9208bd19b7247a47914dd6,railways,track,..,...,...,Natural Resources Canada
+7dea1c6b87723234bc795b15048b4e1f,ports and marinas,mixed,Newport (pointe),Core Fishing,...,Fisheries and Oceans Canada
+7fcb10a0369e7e557cd7e5418c7f3774,railways,track,..,...,...,Natural Resources Canada
+8612a5eb562b4f61d3671b20df557ee3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+90af6372477007c8f7114a2f98536680,bridges and tunnels,mixed,..,..,..,La Province de Québec
+91335d6d8807b692af0ea0dd5008b779,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9308b0b0272629d04d8b258650eaa779,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+968b0dc02bea8247d05ff69ea9acfc42,oil and gas,pipelines,..,..,...,Natural Resources Canada
+9fa50b8762b13d85d2ed52fb08b6245f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a06a46bf9c8ee3ae54ee4a7d0e68aa46,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a6d1878bc1d7efa999a4a12e315ba8b1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a6e0b0d3f0bab033682fc11d803e4274,bridges and tunnels,mixed,..,..,..,La Province de Québec
+b329d63c2e7e342cf621d942e1110855,telecom,tower,...,...,...,Natural Resources Canada
+b7be63bbf139b6a2b183c3c171b6bf8c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b817c64a40dd301eeee92790d11fb03c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+b8cad60254098a6d199b4e0fa8cde966,bridges and tunnels,mixed,..,..,..,La Province de Québec

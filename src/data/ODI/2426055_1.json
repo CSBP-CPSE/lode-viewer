@@ -1,13 +1,15 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route du Bord-de-l'Eau,BRIDGES AND TUNNELS,Footbridges
-Rue Saint-Georges,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Saint-Georges Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Saint-Pierre,BRIDGES AND TUNNELS,Footbridges
-Rang Saint-Édouard,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+03a8cc254bea8be0bca6c6e7bc983d7e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+48acd6244f1a1ca7ff067cbea8a393ed,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4cb8820fad37f6e315f75c878f012d4a,telecom,tower,...,...,...,Natural Resources Canada
+649fd21fef3737a79599826705256e15,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+85e016a5fe981f3ce93fdffb76098549,wastewater and storm water,facilities_waste,Usine D'épuration Des Eaux Usées,"Screening, Chemical Flocculation, Activated Sludge, Storage Ponds, No treatment",Unclassified,Environment and Climate Change Canada
+a17a52d975cdeccdf42b2a32247bd18a,telecom,tower,...,...,...,Natural Resources Canada
+b67ebbc9d04af19900131f80daae17f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bd68a587738ca1db667ffb925196d17b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c87d13fcaf81bd8f9a83e44d303c639a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ced6e01ffdbbf5481799cea3384e6b26,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+e5b0d6c21d306dfcc98a755a7a42dc11,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e9f9cfd95f48b53810f1edb122a2376a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ebe7b678b4199827bfb36d9a94749eea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f0f45ebf5a41c6c207e630da993389f2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

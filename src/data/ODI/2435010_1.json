@@ -1,25 +1,42 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Lac-Huron,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Tawachiche,BRIDGES AND TUNNELS,Footbridges
-Chemin Sainte-Marie,BRIDGES AND TUNNELS,Footbridges
-Chemin Saint-Alphonse,BRIDGES AND TUNNELS,Footbridges
-Chemin Tawachiche Est,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Sainte-Marie,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Saint-Charles,BRIDGES AND TUNNELS,Footbridges
-1e rang Price,BRIDGES AND TUNNELS,Footbridges
-Rang Saint-Alphonse,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Cloutier,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+04623fdeb099e263cc47fbec322b5a60,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+086a1cae4355356df04bdf7bf7694462,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0b497c159dc612cec41d30bfb45ba5b2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+179a50b8ac5c1d6ee2407e5cd443105c,railways,track,..,...,...,Natural Resources Canada
+19b5e417ac795e24b20dc0cfc0ae05a9,railways,track,..,...,...,Natural Resources Canada
+1b6073a0b87fbe6bd4fee329caf95068,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+214325bdfb470c9c64aa0fff6ca4284d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2d65c3fd991eebb616c7e3e5cb38e1d1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+30068445ec84662628cf9c6b8ca03eb8,railways,track,..,...,...,Natural Resources Canada
+337edb31cb1fb2e20b869df6ef029313,railways,track,..,...,...,Natural Resources Canada
+3fd7f451329abc1c10d6705928fed553,railways,track,..,...,...,Natural Resources Canada
+4064c5dc81d4b6e780c629f2814a88f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+44c9c5e01b9f2ea67f1f0de6e886d310,railways,track,..,...,...,Natural Resources Canada
+4a05b55cea96af300f8c1bc1b278c3c1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4c62e40e49e681e67d14cc4b84d369ff,railways,track,..,...,...,Natural Resources Canada
+4d62a5e609d1e8fc6c48401461d4d8bb,railways,station,Hervey,...,...,Natural Resources Canada
+50b0951ae748b8de2de7b31780c9f033,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+57eb4c261071d26f187d6408731a0bbc,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Lac-aux-sables,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+5966cd8caf7e6a89ed2f617e79d2ef92,railways,track,..,...,...,Natural Resources Canada
+6655898bb9c310539f832aa3ac437bd7,railways,track,..,...,...,Natural Resources Canada
+66c5d36f8e0bd3982f980cc03121bc23,railways,track,..,...,...,Natural Resources Canada
+6e18c9596f0c38069eb23fdef54dbed9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7731968d0b9fd45075984cb3c5e09d62,railways,track,..,...,...,Natural Resources Canada
+78650d6879836065b67bcd2f5a28f371,bridges and tunnels,mixed,..,..,..,La Province de Québec
+78d45260aaf57682e4b96c71f5dda9ad,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b94bf1e83c65545f5a99433ac2f8433,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7f6eaba4142cb311283040a8ed908d58,railways,station,Hervey,...,...,Natural Resources Canada
+87b46f9e8608636ffb537890cffbd18d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+87b4c0fae37aa61462f15736a164c510,railways,track,..,...,...,Natural Resources Canada
+922a2e323a849d521d3cde802743e8cd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+925ee4b082864b06e44d61c15c5ea747,railways,track,..,...,...,Natural Resources Canada
+97527194984ed96d6232694d75212107,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a0896c86032dc3822db04787dccb92c1,low carbon,charging_stations,Le Relais Des Sablois Inc.,...,...,Government of Quebec
+a95e42ae5923670d82d94184299fe817,bridges and tunnels,mixed,..,..,..,La Province de Québec
+bcfd280c69f1407b08eba94e43fb701c,railways,track,..,...,...,Natural Resources Canada
+cbe576d92f8a489623c6c9eca73391ef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cf74cfb8893dbf00ffa7d5cb1d77de79,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e99b51409ab16efa5222055e410a04e9,low carbon,charging_stations,Parc De La Pointe-du-vieux-moulin 974 Rue Principale,...,...,Government of Quebec
+f9c03601d6b7b1799387fec1fa17a571,railways,track,..,...,...,Natural Resources Canada
+fdef84659616cf8b4e0fc0d341e0c2ec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ff2ff37095f01aa20755ef4b14a211fc,low carbon,charging_stations,Hôtel De Ville De Lac-aux-sables,...,...,Government of Quebec

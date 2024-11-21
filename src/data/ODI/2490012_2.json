@@ -1,25 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 461,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 155 Nord,BRIDGES AND TUNNELS,Footbridges
-Chemin du Lac-Édouard,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Ducharme,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 155,BRIDGES AND TUNNELS,Footbridges
-Chemin de Parent--Mont-Laurier,BRIDGES AND TUNNELS,Footbridges
-Chemin de la Voie-Ferrée,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Beaumont,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+2d99e0a23fd92d268bfa2c10fed607d5,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2ec06834d00ae8ae2fa55571b1adf54a,railways,track,Fitzpatrick,...,...,Natural Resources Canada
+2f3890db787622f2a82b86de7cb5ce0e,airports,...,La Tuque Seaplane Base,seaplane_base,...,OurAirports
+2f4729ee552750fa521cd91326c8db78,railways,track,Fitzpatrick,...,...,Natural Resources Canada
+2fadf11b214e5dc59f7c573537ce30f8,low carbon,charging_stations,Brcc - La Tuque - Bibliothèque Annie-st-arneault,...,...,Government of Quebec
+30a62a5659c9a1161bf87e06048b5843,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+317f08eeec09e3907598586a382ef5b9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31dd8c40273a75e33a1e913334cd0866,railways,track,Pulp & Paper Rocktenn Compagy,...,...,Natural Resources Canada
+320ddf5954605951aeac03f5ccc0569e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+323ce1e113a454f305a7235d99443fae,telecom,tower,...,...,...,Natural Resources Canada
+326c170ce0e700ffe06237714d4314d9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+329f133ddbefcaeafcfdca247c085e76,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+33e236befdfa3c60c5f343b154120ec6,railways,track,Pulp & Paper Rocktenn Compagy,...,...,Natural Resources Canada
+34303b4442502905fd9620866a2c7284,railways,track,..,...,...,Natural Resources Canada
+34ab59d59bf318536729929561a472ef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+34b3988f6d61ff06bd71c21b254f6856,railways,station,Mctavis Club,...,...,Natural Resources Canada
+3613925d65b8594188ac841fc7528b7e,railways,track,..,...,...,Natural Resources Canada
+366d3c31ff3217187cdaec97d8da23a1,railways,track,..,...,...,Natural Resources Canada
+36e12c461e0a4039a541814e04529353,railways,track,Pulp & Paper Rocktenn Compagy,...,...,Natural Resources Canada
+36f22f07eae2aa39ecdd7db1ef18b983,railways,station,Club Bélanger,...,...,Natural Resources Canada
+38d119d720645edd742154bc99ea5eaa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3935954630e807cc6537cd7f5bdbe158,low carbon,hydro,La Tuque,...,...,Hydro Quebec
+393ce388cafc9abf2b9df81cb0e202ff,railways,track,..,...,...,Natural Resources Canada
+395a9adfe643d31432607873051efd43,bridges and tunnels,mixed,..,..,..,La Province de Québec
+3966c23be6ca682b292174f2da69d1a8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+39a56f11ed2731a8fdcede1d82801cf3,railways,track,..,...,...,Natural Resources Canada
+3c1ece5e5a8e15ed3f1f7d7a1da4389e,low carbon,hydro,Rapide-blanc,...,...,World Resources Institute
+3c4f5e85f99ec4adae8d2b93a84907fd,airports,...,Lac-à-beauce Seaplane Base,seaplane_base,...,OurAirports
+3c669935011ae1cb79aabea1b649c16e,railways,track,..,...,...,Natural Resources Canada
+3c75804d81a88ffef8ba8c0ce3679f0c,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+3e490e1f71c8c8eabf7387847b4c9190,telecom,tower,...,...,...,Natural Resources Canada
+3f7384a76c67ceda898c7c352add2002,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+41d8950894e3f0f5b860c4696ca61635,railways,track,Pulp & Paper Rocktenn Compagy,...,...,Natural Resources Canada
+4262266d43b5eecb7afcccb31b089b68,bridges and tunnels,mixed,..,..,..,La Province de Québec
+42a21f441d6f866b4975b4ce64f7b8e0,railways,track,..,...,...,Natural Resources Canada
+42a395626250d7b13f730ca3f367c36a,railways,station,Hibbard,...,...,Natural Resources Canada
+43c58720eab1891066e0be49cf75254a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+44f2a570a86087b509d473688100308b,railways,track,..,...,...,Natural Resources Canada
+45c4ac46bbde6c27365338513aed4107,railways,track,Pulp & Paper Rocktenn Compagy,...,...,Natural Resources Canada
+465ee69159d26aed33010922dee560e4,telecom,tower,...,...,...,Natural Resources Canada
+46752daf4bcee198d099dc2292d804aa,railways,track,Pulp & Paper Rocktenn Compagy,...,...,Natural Resources Canada
+46b577c0ea8c3111d5803d7b6f4fdda0,railways,station,Cressman,...,...,Natural Resources Canada
+46d92791fc0e38e2a98c2711ab3df92f,railways,track,Fitzpatrick,...,...,Natural Resources Canada
+4757b48fc24fb5743deec946f3a9ba02,telecom,tower,...,...,...,Natural Resources Canada
+47b059deaba1542c2f3a5fb175c59ee8,low carbon,hydro,Chute-allard,...,...,World Resources Institute
+485f85564397a6c3a4dc50cb00591242,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+48a1001aa76e5623ec21967a2b8a5d5a,railways,track,..,...,...,Natural Resources Canada
+48b4931db8cde59d0f0680d7ec0b566a,railways,track,..,...,...,Natural Resources Canada
+48ed29f317f9322580d072bcc27edc3a,railways,track,..,...,...,Natural Resources Canada

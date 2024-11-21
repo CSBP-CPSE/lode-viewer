@@ -1,15 +1,19 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Chemin Gosford Est,BRIDGES AND TUNNELS,Footbridges
-Rue Angus Nord,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Rue Saint-François,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Saint-Jean Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 112,BRIDGES AND TUNNELS,Footbridges
-Route 214,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0d3cd5f13cac5f953a1083273803cf02,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d6e133c4f044e3b6bf1783240d2a2eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3e43fe8b0a14a3856513df56bf37fd5d,low carbon,hydro,East Angus,...,...,World Resources Institute
+6a92b95f4b3e6184bd4fff611f161ccf,electric grid,power_plants,..,...,...,Natural Resources Canada
+743be49b1a601fb70f5d0baa5a169809,low carbon,charging_stations,Brcc - East Angus - Hotel-de-ville,...,...,Government of Quebec
+7b59a513fbf1e6541c4c386202b4f423,wastewater and storm water,facilities_waste,Usine D'épuration Des Eaux De East Angus,"Lagoons - Aerated, Lagoon - Facultative",Lagoon,Environment and Climate Change Canada
+87695c856188425ede893a66182ca212,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+909340b7d0977bddbb23459db879cee0,wastewater and storm water,facilities_waste,Usine D'épuration Des Eaux De East Angus,..,Waste treatment plant,Environment and Climate Change Canada
+91e57b3b144845c8d1f33f7c3020258d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9eeb2004f8ae5814042e3e00808afa1d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+bfc6122582f1630595d8da363c944975,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cc4c48bc755adf3fad3b05b2bca3a022,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d1f2ffc77f830dedaae06f5215350655,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e3abc87b588a4daefeea2358aa242a61,airports,...,East Angus Heliport,heliport,...,OurAirports
+e4942dcf2d00dd06f036e355324c1e0e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f13f2c64b2988402b6fab00be48f3f79,bridges and tunnels,mixed,..,..,..,La Province de Québec
+fa209c73356a0f9a4e3371bb797904fb,bridges and tunnels,mixed,..,..,..,La Province de Québec
+fcc6495a586fe415efb71436dec807de,low carbon,charging_stations,Desjardins - Haut Saint-françois,...,...,Government of Quebec

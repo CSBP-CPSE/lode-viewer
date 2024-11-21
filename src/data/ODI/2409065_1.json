@@ -1,5 +1,6 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Rue Saint-Rémi,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Chemin de Price,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0f6c45410d5b118e1b8c7c5614fc1702,railways,track,..,...,...,Natural Resources Canada
+2380d3218aad0e43fee192b2388b2b27,electric grid,power_plants,..,...,...,Natural Resources Canada
+911b4bdbb2e77bbbb72482d8cf92e87c,low carbon,hydro,Mitis-1,...,...,World Resources Institute
+91723c363de8214c7e5b1c432be39b32,wastewater and storm water,facilities_waste,Étang,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+add4ac672408d0c94f0a2547569ad72f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

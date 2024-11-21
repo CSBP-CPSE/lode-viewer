@@ -1,47 +1,49 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Office Complex,..,..
-Malone / Cemetary,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-River / Whitebean,..,..
-Peacekeepers Station,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Malone / North Creek,..,..
-St-Isidore / Malone,..,..
-Malone / Veterans,..,..
-Malone / River,..,..
-Road Malone,BRIDGES AND TUNNELS,Footbridges
-Route 138 / devant le #1111,..,..
-Route 138 / devant le #1111,..,..
-..,WASTEWATER STORMWATER,..
-St-Isidore / Jonction Sud,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 132 / Route 207,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-St-Isidore / Cemetery,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 138 / devant le #1500,..,..
-Route 138 / devant le #1500,..,..
-Malone / Tunnel ouest,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 138 / devant le #1455,..,..
-Route 138 / devant le #1455,..,..
-Route 138 / face au #1500,..,..
-Route 138 / face au #1500,..,..
-Malone / kane,..,..
-Bank-Post office,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 132,BRIDGES AND TUNNELS,Footbridges
-Route 138 / devant le #1025,..,..
-Route 138 / devant le #1025,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Blind Ladies Hill / Horn,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 132 / Rond-Point Bédard,..,..
-Route 132 / Rond-Point Bédard,..,..
-River / Legion,..,..
-Kateri Memorial Hospital,..,..
-Blind Ladies Hill / Kirby,..,..
-Blind Ladies Hill / Old Quarry,..,..
-Route 138,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0022425c3361a577fdbb0f271ca113af,telecom,tower,...,...,...,Natural Resources Canada
+13f6643d7ab6012192893d681d084c17,railways,track,..,...,...,Natural Resources Canada
+147c2d3239d5d90b4ec931df5490516d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1843b76557c0b5207460c47812e00cd0,railways,track,..,...,...,Natural Resources Canada
+20335b49e0f62648d1102b13381dff24,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+26042c2859d3cc345e441c48898fb3ad,wastewater and storm water,facilities_waste,Kahnawake Stp,"Grit Removal, Chemical Flocculation, Primary Sedimentation/Clarification, Skimming, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+28d802f797ade0521697064a360016bf,railways,track,..,...,...,Natural Resources Canada
+2c9e90f24d26ba35585bf7cae729ee95,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32c2969c6398bc4e38f5b409e731cfe6,railways,track,..,...,...,Natural Resources Canada
+36a632ffae7a7d46f93900d1266f6686,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ed5a73ed09d281179a7734c4794befa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+40f1dbc0760f70380ddccc2ecfb9b218,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4c853c460d42c8d240bbe102c52385e0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4d75c09c007a2bb7639573fa26b0fd22,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5139a7aed1aac57f7055555392cd72bd,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+52078b33e5998c7e129f88505a639be0,railways,track,..,...,...,Natural Resources Canada
+573ace9dd507addc56ccf6d41b2ee027,railways,track,Seaway,...,...,Natural Resources Canada
+5aefd16afc6ef06807616262d0127e28,railways,track,Seaway,...,...,Natural Resources Canada
+5e8d2c741cc09ff93c44750ce4ce4039,railways,track,Seaway,...,...,Natural Resources Canada
+643fc36d5baa45be0a417602432b3400,telecom,tower,...,...,...,Natural Resources Canada
+649759ac237bc3988ce3eef943717edf,railways,track,Seaway,...,...,Natural Resources Canada
+6d7b9891ea30958ac284b4e1e9b3c814,railways,track,..,...,...,Natural Resources Canada
+711fdec9dd9aafec43a7d74d2c2d71fa,railways,track,..,...,...,Natural Resources Canada
+72724be7546e177611895957ba774c79,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+72b918f2b405ef2de601fba273959861,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+76c9bc40856dde6e316c7b11bc2f5fee,railways,track,..,...,...,Natural Resources Canada
+789bf0e00f92b6ee697d50cf1be8f0f5,bridges and tunnels,mixed,..,..,..,La Province de Québec
+866411490c75f167e149ec63069935e5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+89d4e236082622a8746ae34f1fb645d2,railways,track,..,...,...,Natural Resources Canada
+8d8456b558af2d1976cd71b5b65a9891,railways,track,..,...,...,Natural Resources Canada
+9689b8b73f678153738ae30a35abf366,telecom,tower,...,...,...,Natural Resources Canada
+96b730fd9476ff5840f14a318e82874f,railways,track,..,...,...,Natural Resources Canada
+a432dfcc33fd2c270fa51684db44ecdb,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a88fd186516b80ca945c96e9cd1b4d53,railways,track,..,...,...,Natural Resources Canada
+ab9306d7db0c317a7deaeaee805e6019,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b0ab2ba339ee8ab6035f7fdbb99a69a2,railways,track,Seaway,...,...,Natural Resources Canada
+b16205b50859f23b86c2e420fcba8692,railways,track,..,...,...,Natural Resources Canada
+b2cfcd31300fd628f81a0ac14b606c30,bridges and tunnels,mixed,..,..,..,La Province de Québec
+b65961b7ba15ec382692f0ab4c403235,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b6b34e797c4d40afddfbef5712db6102,railways,track,..,...,...,Natural Resources Canada
+bffbce09b3a93c43a6c4140f55ed7704,railways,track,Seaway,...,...,Natural Resources Canada
+c323d57d66d59176d3c492b12d822dd4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cebc28f6c35a612003d0e5c68cdc0326,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d5f53ae658d4d62c0c8c4467a13381ec,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d82bf9ac198b35576118404549be2e8b,railways,track,..,...,...,Natural Resources Canada
+ddb37f7199c4d92170d8fa5fe0e95ee0,railways,track,Seaway,...,...,Natural Resources Canada
+e7017883cd624621b7f869777f81572d,telecom,tower,...,...,...,Natural Resources Canada
+f1d1261d9fc3a21062fa411eef235fff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

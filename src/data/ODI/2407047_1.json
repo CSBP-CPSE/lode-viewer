@@ -1,26 +1,34 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route Saint-Léon,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 132 Ouest,BRIDGES AND TUNNELS,Footbridges
-Chemin du Pont-Couvert,BRIDGES AND TUNNELS,Footbridges
-Rue du Pont,BRIDGES AND TUNNELS,Footbridges
-Rang Saint-Paul,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Saint-Benoît Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue des Forges,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Daigle,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+061ec0398d146e203738c023efe65c79,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0a4198595add5c35e3155769e3ef6fd2,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées D'amqui,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+0eceb299fc892e25be9838feceb41328,bridges and tunnels,mixed,..,..,..,La Province de Québec
+14ff1bfcc59621cf3842badcb04aafd2,railways,track,..,...,...,Natural Resources Canada
+182997730471c90d8c104da5f880c6c1,railways,station,Amqui,...,...,Natural Resources Canada
+3093202ee0a84bdd3f2511eca3382373,telecom,tower,...,...,...,Natural Resources Canada
+337dd991a0aac0a479d3052d518f0682,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+42b39c59962f3029824ca8ee5d866c17,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+44f3495fce5f5033bb53cedf4188417d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4844ea8c13a275d0c877ab123c08575d,low carbon,charging_stations,Brcc - Amqui - Tim Hortons,...,...,Government of Quebec
+5ca50dfa95a9468b3886210d9c68ae20,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5d80d6398d0c183ceda53636c1030d52,low carbon,charging_stations,Auberge L'ambassadeur,...,...,Government of Quebec
+6bf871280ebd4d07b07dbc9cca3464f4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7d52721e7dbdc158235fa864f1960890,low carbon,charging_stations,Brcc - Amqui - Bureau D’accueil Touristique,...,...,Government of Quebec
+82329176c141000f7a4d910e9acaa3fd,railways,station,Amqui,...,...,Natural Resources Canada
+8816ba7e33f341f801a45f3f19d41961,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+91a286a7d12f976e30d94e39aad9596e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+958f03620cd4b543074ef10aa6a68416,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9b9f9ad7a28c7c6e53dd2a2dfe6712f2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9f6ea1ac125fcfb1f0afaf14a39a3043,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a19c9ea370222c1a40cec1fdb469d13a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a621fd33e50d26e482809949b0e1db19,bridges and tunnels,mixed,..,..,..,La Province de Québec
+b32364fae6ae5950c539122d6651ad77,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b369034afa5772a9c164f1b007267382,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b82ba69493a7157b622ee7726a3ff71c,low carbon,charging_stations,Société Immobilière Nord-sud,...,...,Government of Quebec
+bb0950a1d27037b95e52fbe5894a6441,railways,track,..,...,...,Natural Resources Canada
+bd9e9ce2cf8de64f7225106a2c128e01,bridges and tunnels,mixed,..,..,..,La Province de Québec
+bffbc464ed4a2f73e8d18c225f9d5393,bridges and tunnels,mixed,..,..,..,La Province de Québec
+c0dd037f094a21c1eda51618f4ab6bbb,bridges and tunnels,mixed,..,..,..,La Province de Québec
+dfa4c96428dfc8f81e6d50fe2101eb7d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+eb687b78d0fcefa09d8e5916112155e0,railways,track,..,...,...,Natural Resources Canada
+ec52a6c033cfcab863e0fe2f6c5a9c99,ports and marinas,marina,Marina Et Havre Du Bic,attrait touristique et point d'intérêt,...,Statistics Canada
+f5ddca13ff566b74d708d67c7cd1e0f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

@@ -1,24 +1,25 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Josephat-Martel,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Guénard,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Route de la Pinière,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Chemin du Roy,BRIDGES AND TUNNELS,Footbridges
-Rue Dupont,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Grand-Capsa,BRIDGES AND TUNNELS,Footbridges
-Boulevard Notre-Dame,BRIDGES AND TUNNELS,Footbridges
-Rang Sainte-Madeleine,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Grand Rang,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+1b94a0990b2f215edfabc4f46d92fd32,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+212e600840b92a3b54d39c4c533ecf45,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2bc52816d9861fefccac9c6429b770eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2bfde79e7af78781f285e0ae7fe14185,railways,track,..,...,...,Natural Resources Canada
+44fac50c42dc45fc575d14ade58ed37b,wastewater and storm water,facilities_waste,Bassins D'épuration Ville De Pont-rouge,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+49e45cc09f53fd49a0262791691e2651,low carbon,hydro,Bird-1-2,...,...,World Resources Institute
+51ddf081b01d7d46562e774a86aeafc6,low carbon,hydro,Mcdougall,...,...,World Resources Institute
+5654fe12b55aad05a7eed69ccfe218b3,railways,track,..,...,...,Natural Resources Canada
+5a51edde628a3eb0330faf13e34199c2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+62ac0267c580340d9c5aa0d1241f7070,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6ee060b1063cc1d45565b2a14467e8ef,bridges and tunnels,mixed,..,..,..,La Province de Québec
+78a65669911c50c5269e423750f59ca2,railways,track,..,...,...,Natural Resources Canada
+92347888c020c5ea74ac530ed9ae9007,low carbon,charging_stations,Desjardins - Centre De Portneuf,...,...,Government of Quebec
+9abc304af89a6c5850d35898b1912669,electric grid,power_plants,..,...,...,Natural Resources Canada
+a092d368f237253c8312a8377bbe7324,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a8fba212ac84dde5d87996fd4a2b47dc,railways,track,..,...,...,Natural Resources Canada
+b908fb8096a71877ea8291d849d83d10,railways,track,..,...,...,Natural Resources Canada
+c192b57b47ebe09dd09192d806670709,electric grid,power_plants,..,...,...,Natural Resources Canada
+c51038cbddd965fda51782ec362fd83e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d17b6c32ba088fd7250b7fdd5df11b12,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Pont-rouge (secteur Sud),Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+d332ccaca8b6a93ab6524b76b87f12c4,telecom,tower,...,...,...,Natural Resources Canada
+e1818f466f5d5662d529898d1e3eacec,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Pont-rouge (grand-remous),Other Treatment,Lagoon,Environment and Climate Change Canada
+fa0a3eb522a2d3b10c5015eb8256f3ff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fe2e4057d752db61367b9c28a8a33608,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

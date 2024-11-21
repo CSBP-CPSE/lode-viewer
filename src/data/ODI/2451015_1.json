@@ -1,29 +1,43 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue Dalcourt,BRIDGES AND TUNNELS,Footbridges
-Chemin du Golf,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Autoroute Félix-Leclerc,BRIDGES AND TUNNELS,Footbridges
-Rue Notre-Dame Nord,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Saint-Laurent Est,BRIDGES AND TUNNELS,Footbridges
-Avenue 2e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Avenue Saint-Laurent,BRIDGES AND TUNNELS,Footbridges
-Rue Marcel,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Saint-Laurent Ouest,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+005aa98434fae85f78c5720365318e37,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+05a02c8d0562b8aca9a8104b48d85c42,railways,track,..,...,...,Natural Resources Canada
+08fc05412d103d0102be4d15c8c9f382,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0a02aef3798e1fe2f021c3ecafdcc190,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0d52759c233d49a3df2f3f4c5f6244b1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1be8fd2b191f1ce02099277f297126bd,railways,track,..,...,...,Natural Resources Canada
+27aa562e877f5df7c4655e01fe24c79e,railways,track,..,...,...,Natural Resources Canada
+295829200394f40a3e2c6f7b37596c2a,low carbon,charging_stations,Brcc - Louiseville - Mcdonald's,...,...,Government of Quebec
+2bfc2b84999eecbd31f6c71553170366,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2d0c30c5abe587cf8bc5e6678b93368c,wastewater and storm water,facilities_waste,Etang De Louiseville,"Screening, Chemical Flocculation, Lagoons - Aerated",Unclassified,Environment and Climate Change Canada
+315e5b4f14474acdd0af1ef29855ca92,bridges and tunnels,mixed,..,..,..,La Province de Québec
+34b8ce4cb1262154c03bccaa21a4512b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3dc8cf42d094d18a9573698f9be80a95,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+455d87c756081123a082d3348adbfe92,bridges and tunnels,mixed,..,..,..,La Province de Québec
+48b1cb8e5e78df4e240f67438eb2492a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4b5e645afe3766c5359989382a756be5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+51e7f4ecfe201ae7233574737540ed3f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+549c45cf575108218b8c982960d7f8e4,low carbon,charging_stations,Mrc De Maskinongé,...,...,Government of Quebec
+5a7ee551ae633cb79bf5d3f09c33bd74,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b048e917e0e5853e59f542e6d6efed4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6b323b0654374cd1c211edab7bfa6d4e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6bf2de90418b9b2f67322209b6596722,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+7613b93f8a8771a87d1c6451f2e5f92d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b5f0419850c704dfdbfef9a61bc2e16,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+82540c3da280f2f3e26407395e6886d9,low carbon,charging_stations,Ville De Louiseville - Avenue Ste-marie,...,...,Government of Quebec
+8a0c4ff881a190c55f7c3f3aab4c4752,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8f73fe1a8c516d23ed5037078f04b50d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+981c941cd253a15f7a43c2736c71fee8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9db16113a2d4922815081136de2e48b0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a15fa37b2b36801b6c8b4c8727ab10d8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a4c3a80c968e3b2a707488392c92242c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a83d2399219210560d295fafaab05b07,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a968835cc2b3a40d662aaac320428a89,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cb5986b6638a14fba0af82bc576428d8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d2388524255263e495db5d3e22430b28,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d919b78e1c865ec3fd8fd1c543e854dc,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+ddd29b69004129abadace84a491fe80d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ebd135cb45ccd4fec751e96686b6919b,airports,...,Louiseville Airport,small_airport,...,OurAirports
+ede8aa274ca04cea244fc9ed8b1d64d0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ef2df15b16a222de2d534d008db81246,low carbon,charging_stations,Ville De Louiseville - 41 Rue St-louis,...,...,Government of Quebec
+f2c81e9e1dae3755d55dff3f25477179,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+f845c2d81ba0b3bf58dd7f056fc1b374,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

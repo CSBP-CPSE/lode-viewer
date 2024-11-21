@@ -1,9 +1,15 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 138,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Forestière,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+1c320a34e7b13f1ddc5e2cb812d0eec7,airports,...,Les Escoumins Airport,small_airport,...,OurAirports
+242dbddd9ce926c7c1422aa44b6bdd29,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ae296ce54e81a3489acbabf2fcb52b4,telecom,line,...,...,...,Natural Resources Canada
+412c6a0d127142ec44c142e0dcbf3cc0,bridges and tunnels,mixed,..,..,..,La Province de Québec
+449a70d1283aa0b23d74b9964085075d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4ec61fb392f40f5066225f276597efa5,ports and marinas,mixed,Les Escoumins (basques),Core Fishing,...,Fisheries and Oceans Canada
+5b923267f833712ea8089db282abf0c4,telecom,tower,...,...,...,Natural Resources Canada
+a45ceb0c3e98a084fb3a135e5e2c53c7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a831fdbc170598bdc999ab498b86f378,low carbon,charging_stations,Brcc - Municipalité Les Escoumins,...,...,Government of Quebec
+ab579a54c548317bd6d81b388d9f1cb0,telecom,line,...,...,...,Natural Resources Canada
+d681ddf103995a14bdae940ed0a2ead9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+deb19437305e1516236d19b809c1a3f9,low carbon,charging_stations,Desjardins - Saguenay-saint-laurent,...,...,Government of Quebec
+dfb70f13cafa35ffd7c18849ccb534cc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f4b08fe15b34a3111dea7d4b844c7f9a,ports and marinas,port,Baie Des Escoumins,..,...,National Geospatial-Intelligence Agency (NGA)

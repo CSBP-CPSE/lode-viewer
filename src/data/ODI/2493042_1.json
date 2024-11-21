@@ -1,41 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard De Quen,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Saint-François,BRIDGES AND TUNNELS,Footbridges
-Rue Saint-Joseph,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Saint-Louis,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-Avenue du Pont Nord,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue du Pont Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Maurice-Paradis,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Route du Lac Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Scott Ouest,BRIDGES AND TUNNELS,Footbridges
-Avenue Laurier,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01904f5429f039141c51e8c4c2f284f0,railways,track,..,...,...,Natural Resources Canada
+01af9fa104fafd4d7b2a1407d50d3889,railways,track,..,...,...,Natural Resources Canada
+07657f7b8305c592267ceb66c51c89a9,railways,track,..,...,...,Natural Resources Canada
+0d095d365e1483260eadbf9956c2e2b5,telecom,tower,...,...,...,Natural Resources Canada
+0d20889359da047148aaa319c98396ae,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+1138dddd78c5ed11aec33bee7b93b5a2,bridges and tunnels,mixed,..,..,..,La Province de Québec
+11459f0b9f03d26a91fbb430de1241f8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1aa716f90c47bf422918c740b455545a,railways,track,..,...,...,Natural Resources Canada
+1bfb9c6b551199cbbcfe0fa3eba07122,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2148dea621afe45ff70c7502d4a86da7,railways,track,..,...,...,Natural Resources Canada
+2544d88d8ab5da7096a828beb67cf810,railways,track,..,...,...,Natural Resources Canada
+25bbeacfd16e4e8b3afd565b11687834,railways,track,..,...,...,Natural Resources Canada
+26ee3e3d7c68881e2904e58048f13d68,low carbon,charging_stations,Alma - Centre Mario-tremblay,...,...,Government of Quebec
+2738051236e47eb5ef50bede63aaf6e7,low carbon,hydro,Isle-maligne,...,...,World Resources Institute
+281e934a043027aa1815cb9bb328060f,railways,track,..,...,...,Natural Resources Canada
+2850efb8de85ac9b4b39ceea94be88c7,railways,track,..,...,...,Natural Resources Canada
+28c17d9a66382d6474bd769eede93625,railways,track,..,...,...,Natural Resources Canada
+298fb8511fca370666d889bcecb70837,railways,track,..,...,...,Natural Resources Canada
+2a5449ad399bacb854047d82c490b377,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c4490af025f4343accf04d255406962,low carbon,charging_stations,St-hubert - Alma,...,...,Government of Quebec
+2f60a72c237ab7bbfcae31f0dfeba1a2,railways,track,..,...,...,Natural Resources Canada
+30b00d212f71067b6f8abce46069901c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+319283898385496ab0a06ff96bbe2b35,bridges and tunnels,mixed,..,..,..,La Province de Québec
+31f2567c01bea6074134b46a96815cb2,railways,track,..,...,...,Natural Resources Canada
+3201c62026ae130abc502bf1e964c95d,railways,track,..,...,...,Natural Resources Canada
+355bb57e9be6791e09f0af9de187bd35,railways,track,..,...,...,Natural Resources Canada
+362d78259fdc240666d5599859479bfe,railways,track,..,...,...,Natural Resources Canada
+373be181831bc549fb6f7e7a811596c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3922cf835f558c3faae95e4c4836d9e8,railways,track,..,...,...,Natural Resources Canada
+3ad9370de219140f9f4f80e82a85198f,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+3e50d8865770812696f6e871bc5575c8,railways,track,..,...,...,Natural Resources Canada
+400c48a3133adb166272a9be46930ddf,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+491975afddc1c601a3936bc1ce82aa7d,wastewater and storm water,facilities_waste,Étangs Nord,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+4ad5258d57b4a4b10665d654463a531b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5219032b7589eb10d543c6d456ac5a3a,railways,track,..,...,...,Natural Resources Canada
+53d1621f5e603c2c6a8399c50333b06e,railways,track,..,...,...,Natural Resources Canada
+568b77e9df4b5839df352e13114584d1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+56e486a03db75cbc58a9973d9ce276e3,railways,track,..,...,...,Natural Resources Canada
+57c5a04f4a0ce8d1d2a545fed85542ef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5adec74a1454e5ed0c92281299120616,railways,track,..,...,...,Natural Resources Canada
+5c4e57dc90c93d010d04ce08edd0037d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+623b9923c9ed54eb36c10cfe23b1c03f,telecom,tower,...,...,...,Natural Resources Canada
+63b5e823c6b10509eebd78fc74444a44,railways,track,..,...,...,Natural Resources Canada
+64708eb09907812487b9ee6e5a516cc6,railways,track,..,...,...,Natural Resources Canada
+64779c75c155be36252fcfe2a6214e59,wastewater and storm water,facilities_waste,Étangs Sud,..,Waste treatment plant,Environment and Climate Change Canada
+657ccd4c168e2e4e89817704130a4f12,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+66a8de696104842e06a0075f7a4ae49f,electric grid,power_plants,..,...,...,Natural Resources Canada
+684bb4a3d8a0a0993a7f52475f6c73cd,railways,track,..,...,...,Natural Resources Canada
+6f728a33970ab2bc8e648e09215214b5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

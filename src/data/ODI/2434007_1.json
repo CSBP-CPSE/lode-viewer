@@ -1,31 +1,38 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 365,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Autoroute Félix-Leclerc,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Rang 2e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Gravel,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+08282afdb63d2f10941a5a54ef94847d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0a43f13f305d717bdebfc55e9680f146,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0aa9858c7144cfb9ad4bc791db780449,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1be0882f0b12995178034773bcf97351,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1ce5de9fa88e86cc2a8d29a315994d17,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+1d8755726c62f5ffb6e78f2207ca676c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+269b14788099cd3ae13018cfa7443006,bridges and tunnels,mixed,..,..,..,La Province de Québec
+27bb364001f6326a9c33faefd93485e4,low carbon,charging_stations,Ville De Neuville - 230 Rue Du Père-rhéaume,...,...,Government of Quebec
+2f50a822e8b8a8202c43708b2979727b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+31397449f7c4b11ce17a0959be4aacdc,railways,track,..,...,...,Natural Resources Canada
+3f997c3ce5a4485ae72684968855e6af,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+43fa004dffccea0f3eeb2e32608f8983,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4804421f6707073ce7577cecbe0b02dc,solid waste,landfill,Let De Neuville,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+516a60334f96e4ba47f7ac0fa330f04e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6a661c29a7f147f2880318c0da33a042,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+6e1473f5e444876b0264b8f24ec72891,low carbon,charging_stations,Brcc - Neuville - Shell,...,...,Government of Quebec
+7982b1e620794c517b6a21152b55670e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7b7530b12efe63ceb686a03fbd19ea6c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+804abd9b83840b233a0cd8d9ea01dd71,oil and gas,pipelines,..,..,...,Natural Resources Canada
+893058ab23863dbfa2218e0920ef1257,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9387311ee6deb8cb9c98546f17b509e0,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+95ea082d04d5c176c0c7a8b4defbd483,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9a27e80539bab93e96385ceabcf43ae6,railways,track,..,...,...,Natural Resources Canada
+9cd6184eea93cb2592e02528d6d650eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a041a1385eec1bf111aa9f83bb9468c1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a792522b9dedce2a92bdc37842e78ed3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+abb18beed9292f5523b9255fd6eaf997,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+b1c85409e20c7ffb5e5e7d5ed3240f3f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+b1e4e6767f02452239879cf010504b7a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b2cc4fa78ee4e5847c8dd46386f0fd88,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b6d7ac6cbcb50f1372eb9a8e05404e56,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c0da6887134e38e2c19066a269cc53dd,bridges and tunnels,mixed,..,..,..,La Province de Québec
+cc1e892ce514f4501235a0dfefc6eae9,airports,...,Québec / Neuville Airport,small_airport,...,OurAirports
+e058100468ffc83671938887271e8f7b,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Neuville,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+e215916c7c2028641abd390d72107129,bridges and tunnels,mixed,..,..,..,La Province de Québec
+f4d5d72103aac886097dac4daa4a51eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fbc7c63c24e1f03cd0065514b9886629,oil and gas,pipelines,..,..,...,Natural Resources Canada

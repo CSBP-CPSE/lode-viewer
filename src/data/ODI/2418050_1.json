@@ -1,35 +1,49 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Taché Est,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Principale,BRIDGES AND TUNNELS,Footbridges
-Montée de la Rivière-du-Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue de la Fabrique,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Cloutier,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Saint-Ignace,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Autoroute Jean-Lesage,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0408ee94ecec51b813c42503a4ba51d4,low carbon,charging_stations,Brcc - Ville De Montmagny – Iga Extra,...,...,Government of Quebec
+077e26fd72367956e33dc45e15001c53,telecom,tower,...,...,...,Natural Resources Canada
+07bbbed5021e257c4e168280ff069869,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+16f68779fc2a6964c4538a27f52bc5ee,telecom,tower,...,...,...,Natural Resources Canada
+22bc1bc50348cae1196c4553654fa03d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+36cd80386f1bd91f312f7a826390c8d8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b15545493f3b2da54c0b3bb200be00f,low carbon,charging_stations,Brcc - Montmagny - Des Poiriers - Econolodge/st-hubert,...,...,Government of Quebec
+40793b74e513a149e467d37f45665874,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4176bc904421140e506db0b146445b41,bridges and tunnels,mixed,..,..,..,La Province de Québec
+42beb3b5a9d7ab9e1ae4ad865ba46a35,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+435a5617129d163fc0169899cfa50c7d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+451108103d2d97fb9c3ead1018e400e2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4a0684fb76b1a86d059af3daa2ab6ec5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+555c1295019af6bfd2869c5ec863ff10,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5d79dff23ffcc5ca3fc57e757ec04f16,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f5f3ad8388aaceeed8ca3d2fb25f449,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+60148c4d7f35b30a5fb170d15354d24f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+657a70b29512a228f97345bfa4369813,railways,station,Montmagny,...,...,Natural Resources Canada
+6751f186dd8a5403c23af22055144b0f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+684c035f07db2deb4c96eed0592691a8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6ef80c5d5db973cc865a1b6037bff139,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70c89b5c635facfd53b0d51d05935d78,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+74bbef027e27c7547c47353b25e23ee1,wastewater and storm water,facilities_waste,Station D'épuration Ville De Montmagny,"Screening, Lagoons - Aerated",Lagoon,Environment and Climate Change Canada
+7a000b09434cf8db341f227b9dca7970,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+85fb08e502798a938e40e665cbbfc3d7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+869bcb679e170eb7b23139bd37beb636,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8dea3818d70f44f4016ac4c5d779fd4a,wastewater and storm water,facilities_waste,Station D'épuration Ville De Montmagny,..,Waste treatment plant,Environment and Climate Change Canada
+93dc150c60b3cd77b37a8ea35c865659,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+946b9c9b6f9a8fe29dff5107980b0a51,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9a6ef8461649003dfdc884fb3fdb3de8,telecom,tower,...,...,...,Natural Resources Canada
+9c60733a73a95d94a9d22b96ead177a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a5512fdb31e517f3f977ebfe8c2dec87,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ac9a8e930da8a4aca2a4f658948f3b1b,low carbon,hydro,Montmagny,...,...,World Resources Institute
+b6e8712a149abb58e88a85dddb5f1b38,electric grid,power_plants,..,...,...,Natural Resources Canada
+be6d1629ae982095b52bd6e5cc09874b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+c9fa9820e3fe815702bebe7459e28e2a,low carbon,charging_stations,Montmagny - Bibliothèque,...,...,Government of Quebec
+cbfa8e4276da9befa88fdb1531b3e911,airports,...,Montmagny Airport,small_airport,...,OurAirports
+cdf218ce28871c633234d6c6219d664d,low carbon,charging_stations,Brcc - Montmagny Ultramar,...,...,Government of Quebec
+dc322f41c90f75aaf565d0293d961dad,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dd4cb8ca5b9a89d6cdfd66ba54ce2006,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e0370e74e46529d89482cb3a4ca06320,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e1511d6b933a3d1b1f4a6418b4ffea6f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e3679a9ff0e4b35b0e9f039f85d85dba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e928ece77daf6a1f02e702594627a693,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f3be335582e4b0ae7de960ba2fff1c48,low carbon,charging_stations,Desjardins - Caisse De La Mrc De Montmagny,...,...,Government of Quebec
+f3f34792e98bdabc084f6c40b7c45333,bridges and tunnels,mixed,..,..,..,La Province de Québec
+fd80f524cb0c01ca49373ebf5b5a669e,low carbon,charging_stations,Desjardins - Montmagny,...,...,Government of Quebec
+ffaaf5fd1babe64f2c25498a5a1c1b5e,bridges and tunnels,mixed,..,..,..,La Province de Québec

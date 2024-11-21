@@ -1,50 +1,45 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Chemin Bellerive,BRIDGES AND TUNNELS,Footbridges
-Route 112 / de Chambly,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Désourdy / du Granit,..,..
-Désourdy / des Galets Sud,..,..
-rue des Tulipes / face au 1994,..,..
-Désourdy / du Granit,..,..
-Martel / Jean-De Ronceray,..,..
-Chemin Salaberry,BRIDGES AND TUNNELS,Footbridges
-Bouthillier / Lareau,..,..
-Olivier-Morel / du Chevalier-de-Chaumont,..,..
-Jeanne-Déchard / Henriette,..,..
-Désourdy / des Galets Nord,..,..
-Bellerive / de Chambly,..,..
-Désourdy / face au 3152,..,..
-Bellerive / Gilbert-Martel,..,..
-..,WASTEWATER STORMWATER,..
-Bernard-Boucher / Grande Allée,..,..
-Laurent-Monty / Lareau,..,..
-Bellerive / de Chambly,..,..
-face au 3196 Bouthillier,..,..
-Bellerive / Bachand,..,..
-Bouthillier / Jean-Baptiste-Charron,..,..
-Grande Allée / Coupal,..,..
-Bellevue / Bachand,..,..
-de Chambly / de la Carrière,..,..
-Henriette / Léonard-Tresny,..,..
-Gilbert-Martel / Catherine-Godin,..,..
-Demers / des Ormes,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Bellerive / René-Poupart,..,..
-Henriette / Charlotte-Dubuc,..,..
-Bellevue / face à l'Hôtel de Ville,..,..
-Bouthillier / Jean-Baptiste-Lamoureux,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Autoroute de la Vallée-des-Forts,BRIDGES AND TUNNELS,Footbridges
-des Roses / des Ancolies,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-des Roses / des Amarantes,..,..
-Henriette / Albani,..,..
-Bellerive / de Chambly,..,..
-..,BRIDGES AND TUNNELS,Footbridges
-de Chambly / Bellerive,..,..
-Grande Allée / De Grandfontaine,..,..
-Route 112 / face au Faubourg Carignan,..,..
-Bellerive / Marie-Anne Est,..,..
-Boulevard De Périgny,BRIDGES AND TUNNELS,Footbridges
-de la Carrière / de Chambly,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+019d1b4cf78b9384f7a0d0f12c822b45,oil and gas,pipelines,..,..,...,Natural Resources Canada
+033aa3f980e2503b26612f466a998658,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+09c88817ea949d2ea1d423c76f2ed4a6,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0d962ebc5d51fdf0db62c6c2775b83c7,telecom,tower,...,...,...,Natural Resources Canada
+1446967e9e508581ce9cae5f8c8eefb0,airports,...,Carignan/rivière L’acadie Water Aerodrome,seaplane_base,...,OurAirports
+14689b6460dd8895b3276aef9b2fd8af,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+16a948448b093e27696ab9692f768117,oil and gas,facilities,..,..,...,Natural Resources Canada
+27110d4efeac031c9ad2414f9f377cc5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+280d2ad0ec65a6eab34fb069a43daa7f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+28bbd9a6f766b6c77c07d7470744ee79,low carbon,charging_stations,2 Rue Bouthillier - Carignan,...,...,Government of Quebec
+29a134968af9a31ebf03ec132f6879f2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2ccc2432f9af7d4efa32b273ce291f0f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2d500f1a6195d1efd8b3cb0d9f8aa92b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+329bd4eb1989108f9470eec2356225d8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+445e67bd25f5af9328ceeb9eb38efdb1,oil and gas,facilities,..,..,...,Natural Resources Canada
+476d95152778a4640934cc1766e99345,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5385d47c2f0807676db499741033b2e4,oil and gas,facilities,..,..,...,Natural Resources Canada
+5619b5d2f2838896e7b3a558cb300ebc,low carbon,charging_stations,1555 Rue De L'école - Carignan,...,...,Government of Quebec
+570c39220e6c72789bb1c385c7f9f288,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f42083dc8b73b3516b45940d360be16,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5fefdb508cfe18cbe98a291f39da1270,oil and gas,pipelines,..,..,...,Natural Resources Canada
+60b20abf603c55e870e73d896a99c3d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+64a7eeb01612d74dbf4a61df15e2ccb3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6c2ec56b7d30b509baf80243c302ebf9,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+706b5f7b89b40c83a7399da0f2d3aedd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+75ae0fb68775b7f49bf04e94ecc96804,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7c050b9dd777d052028beccd16e2f1d6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+82ecf82122dbf1f2d16d9c55fc7cb43e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+84af7d3e2f211e4cdda0bbd0f462b112,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8791d15be1d187cd4f2755ef8a09d2bc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8d5323a6e958c2159c8c0ba6e295d1a8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+97415b9e508396c11006f5357508df19,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a133a1a61740ff42960e8d66638df6c5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a682e0f936e6c5c66a6ae1d482b8e650,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a846eff713aa48a37d7600209f32dbca,airports,...,Bouthillier Airport,small_airport,...,OurAirports
+a9825b8b9538bcaf24f481f6ef7934ca,oil and gas,pipelines,..,..,...,Natural Resources Canada
+b320a6a9a7a2bc9d8b7303c1647e0fb2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b4e7682af05f9bf3dc07619e9b10b5ff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d2c90bc1bfe02bb5595123acb49908b9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+df0acd2fa546a936f505d370eb0f04da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eed3c8d37cc5539d1b3d39387e212998,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+f755703bdc6672d4bc37d0490370b64e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fa92c5e408f1838b47261a77ec099df4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fad60ca20192ab2b665bd23f5b94f4fe,wastewater and storm water,facilities_waste,Station D'épuration,"Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Lagoon,Environment and Climate Change Canada

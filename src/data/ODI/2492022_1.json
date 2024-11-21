@@ -1,15 +1,39 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Saint-Michel,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Rang Saint-Luc,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue 8e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route de Vauvert,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+059cb934c4cb39cecc0087dbf9336fe9,airports,...,Potvin Heli-base Heliport,heliport,...,OurAirports
+06a07c7fec264f6e4ce616874c18eff1,railways,track,Bowater,...,...,Natural Resources Canada
+0ad51b605f9452db96f5ee561446bfd4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f81316e5788485cc79422721951c5a2,telecom,tower,...,...,...,Natural Resources Canada
+1935582d4612d3a1f654f2d7ef93aef4,railways,track,Bowater,...,...,Natural Resources Canada
+270b6875da7fbee63db6a0fe0a30fc1f,railways,track,..,...,...,Natural Resources Canada
+2c73ae2d3b7821de6c529dcc99b0755d,railways,track,Bowater,...,...,Natural Resources Canada
+2d56b254ed8e5c908b3d60b22e7dd175,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+35437e3dc8f9b1c7a08a454914eb0bbb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+36cec1288e6c0920c51bc95ed257df60,wastewater and storm water,facilities_waste,Bassins D'épuration - Dolbeau,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+3cbe0a4079721b6f8a0864ce3de61425,railways,track,..,...,...,Natural Resources Canada
+48f095fedf29dd34a26ab432155ae8f4,wastewater and storm water,facilities_waste,Bassins D'épuration - Mistassini,"Grit Removal, Lagoons - Aerated",Unclassified,Environment and Climate Change Canada
+57ddd6b3af91956fc552be5f568cc82c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+62370c5987294312060264930566cea7,railways,track,Bowater,...,...,Natural Resources Canada
+705c1dee86622b2fa1685579cfc40a30,railways,station,Dolbeau-mistassini,...,...,Natural Resources Canada
+81315337f901a469a6835ac944b9fe2d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9270f6b8ee90ffa844a94804bf75315b,railways,track,Bowater,...,...,Natural Resources Canada
+936aa594d53b2862d1bb3032f9d8731b,railways,track,..,...,...,Natural Resources Canada
+94fdae7135782cba8454b49dcdfa1436,railways,track,Bowater,...,...,Natural Resources Canada
+a1e3347a7cf05461c3f59d9ee8c857f1,low carbon,charging_stations,Dolbeau-mistassini - Hôtel De Ville,...,...,Government of Quebec
+a26be1b84db69b1cc74e2e89942b4fd0,electric grid,power_plants,..,...,...,Natural Resources Canada
+ae93a7fcb498873b081054a237b02c6c,low carbon,charging_stations,Dolbeau-mistassini - Complexe Sportif,...,...,Government of Quebec
+b8d946e6ac057a50c9f5c2fd4bde7b52,railways,track,Bowater,...,...,Natural Resources Canada
+b9ec271d5586300ab571eb15678f7323,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ba30237f3be72d66442f702d22d727ef,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+bf91734853c06faa11794d1619ba27e3,low carbon,hydro,Minashtuk,...,...,World Resources Institute
+c3f3db6736b40fc9b0f643143ecaaf66,railways,track,Bowater,...,...,Natural Resources Canada
+c4d86d04dc955833215f110395a18d98,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c62d4b9e6fc2e792241b7dfc2151b028,bridges and tunnels,mixed,..,..,..,La Province de Québec
+c77414a1079604c8a0916fe4dff6f5e9,low carbon,charging_stations,St-hubert - Dolbeau-mistassini,...,...,Government of Quebec
+dff104b316fa6c4276b1597fe59969f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e155ea268b96c9763dcc3b422181ea63,low carbon,charging_stations,Brcc - Dolbeau 6e Avenue,...,...,Government of Quebec
+e3944500bc528239deb86dc45aab9ceb,electric grid,power_plants,..,...,...,Natural Resources Canada
+ee619a4ffb2a032bf841408aa6d9e83f,railways,track,Bowater,...,...,Natural Resources Canada
+f304e35341b38958bdfffe3dedc8fa33,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f362282b5f9fab6484bd328b2c08f85e,low carbon,biomass,Dolbeau,...,...,World Resources Institute
+f3a149782e64ffafd2a1a348f9b559ce,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+fe682a96ca825f012fea451eac834ffd,low carbon,charging_stations,Dépan Express Dm,...,...,Government of Quebec

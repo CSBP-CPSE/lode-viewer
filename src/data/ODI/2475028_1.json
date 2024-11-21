@@ -1,39 +1,35 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,SOLID WASTE,Active Dump Sites
-Boulevard Sainte-Sophie,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Rue des Cèdres,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-chemin de Val-des-Lacs / rue des Pins,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-boul. Ste-Sophie / chemin de l'Achigan,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-rue de l'Hôtel-de-Ville / face au 2210,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-chemin de Val-des-Lacs / rue Godard,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-rue de l'Hôtel-de-Ville / face au 2210,..,..
-Rue 2e,BRIDGES AND TUNNELS,Footbridges
-chemin de Val-des-Lacs / rue Godard,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-chemin de Val-des-Lacs / rue des Pins,..,..
-Montée Masson,BRIDGES AND TUNNELS,Footbridges
-Montée Morel,BRIDGES AND TUNNELS,Footbridges
-Chemin de l'Achigan Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Murray,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue de New Glasgow,BRIDGES AND TUNNELS,Footbridges
-Chemin de l'Achigan Sud,BRIDGES AND TUNNELS,Footbridges
-Rue Sainte-Marie,BRIDGES AND TUNNELS,Footbridges
-Chemin Abercromby,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-boul. Ste-Sophie / chemin de l'Achigan,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue des Pins,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0105371bb506f98ca0c107f65278e698,solid waste,landfill,Ste Sophie Landfill,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+0912ecd8b37c23b7a4557adde129cbd5,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+26a5d9f94988af5ca310623604785a16,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+29f226e5d17f3780152e9c5a3a6a5162,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f6eb221420a5dd101ce051847b37cdc,bridges and tunnels,mixed,..,..,..,La Province de Québec
+31beb5c14c587ba27d13fb6fb2351930,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+345bdd48f2f38dd8000fd48c109e72d7,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+39c84579e7c0ff1e82d6f35d90477340,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3c6837b3551a8a33c73c8857b514a974,telecom,tower,...,...,...,Natural Resources Canada
+43044cc7f9574e30e1b7e4fee55f8841,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+492e3d24c26d032097be2f462dbce6cf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+54b83104da2d513cd422a528e0e18618,low carbon,charging_stations,Pavillon Lionel Renaud,...,...,Government of Quebec
+5bacb846cad36e8a50372723b1316f04,wastewater and storm water,facilities_waste,Usine D'épuration Des Eaux Usées,"Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Lagoon,Environment and Climate Change Canada
+5f9c1d80eacf0a07de8796448c66194b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+64fd5ec5b9afbc942d0bb6e3333cb7a5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70b1fb7f7590b5e679a24bdbdbf55820,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+776771d44d8b915e22dce07643157ddf,low carbon,charging_stations,Brcc - Ste-sophie - Shell Super Soir,...,...,Government of Quebec
+785afd892d45957d7d718e8226518bd7,low carbon,charging_stations,Parc Rolland-guindon,...,...,Government of Quebec
+7f3b019f105f68f61b9638a4664d4bab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+83fac508e58819a1c1b72bf0154a3f01,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+84af2c870128ba56c37c8d5cdc601a07,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+881c771ae002a48f6040a943c78244fb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8b60901bf4f48d9695b6f851d915d9a7,low carbon,charging_stations,Parc Racine,...,...,Government of Quebec
+8bae7267a08bcf625d28534621ac95c7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+984da4227a83d079b2746b6900b012c3,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a1da88d06d40526d9dcbbe0c40cdec7e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c3720ae7d62252f023224e16e6b657d6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c6ee945084e43a4e9ed91104d03fa9d7,low carbon,charging_stations,Parc Bellevue,...,...,Government of Quebec
+cbc21072a55e9a4ffbffc436523367c4,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+e0a2014f258813a68feb1884dd6374f2,low carbon,charging_stations,Municipalité De Ste-sophie,...,...,Government of Quebec
+e8795585ee6abdd3e65225b7df2e6fe9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+f1aa9d0aef6b09e3d70ea22f55892eda,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fcb6d8fce872af2739c11ee5b311f966,telecom,tower,...,...,...,Natural Resources Canada
+ff70ed49ad0e5e82259b4ffcf90a75c5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

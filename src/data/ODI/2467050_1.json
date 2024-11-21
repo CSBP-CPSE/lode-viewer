@@ -1,50 +1,35 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-D'Anjou / Saint-Joseph,..,..
-Primeau / Paul-VI,..,..
-Industriel / devant le #210,..,..
-Parkview / Saint-Mary's,..,..
-Deguire / Colpron,..,..
-Primeau / Albert-Seers,..,..
-Deguire / Letendre,..,..
-Saint-Jean-Baptiste / Saint-Francis,..,..
-Saint-Jean-Baptiste / Saint-Francis,..,..
-Industriel / Saint-Jean-Baptiste,..,..
-Albert-Einstein / Marie-Curie,..,..
-de Champlain / Saint-Joseph,..,..
-Bourdon / Principale,..,..
-D'Anjou / Parent,..,..
-Parkview / Place King,..,..
-McLeod / Fairmount Ouest,..,..
-Maple / Gordon,..,..
-McLeod / Saint-Charles,..,..
-Notre-Dame Nord / Duranceau,..,..
-Principale / Wilbrod,..,..
-Albert-Einstein / Marie-Curie,..,..
-Brisebois / face au Centre Hospitalier A-Laberge,..,..
-Brisebois / face au Centre Hospitalier A-Laberge,..,..
-D'Anjou / Saint-Joseph,..,..
-D'Youville / Roy,..,..
-Notre-Dame Nord / Taylor,..,..
-Prince / Saint-Joseph,..,..
-D'Youville / Roy,..,..
-Industriel / devant le #301,..,..
-Albert-Einstein / Pascal,..,..
-Industriel / Saint-Jean-Baptiste,..,..
-Parkview / Laurier,..,..
-Primeau / Lalemant,..,..
-Salaberry Nord / Saint-Francis,..,..
-Maple / Watt,..,..
-Primeau / Lalemant,..,..
-Letendre / Gouin,..,..
-Saint-Jean-Baptiste / Parkview,..,..
-Principale / Primeau,..,..
-d'Abbotsford / devant le Centre L'Accore,..,..
-Bourdon / Louis-Jolliet,..,..
-Maple / McLeod,..,..
-Boulevard Sainte-Marguerite,BRIDGES AND TUNNELS,Footbridges
-Saint-Francis / Saint-Jean-Baptiste,..,..
-Albert-Einstein / Léonard,..,..
-boul Vanier / rue Normand,..,..
-Principale / Deguire,..,..
-Salaberry Nord / Dupont Ouest,..,..
-Saint-Jean-Baptiste / Saint-Julien,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+04c74d239d3a7a4d129ff34bac520959,bridges and tunnels,mixed,..,..,..,La Province de Québec
+09b41f7c2e3ee5fe72f3698dda470281,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0cb3089f26549dcccaeac6e57cae75f4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f7accee0cd112f41298e9e529f59841,low carbon,charging_stations,Chateauguay - Hôtel De Ville,...,...,Government of Quebec
+1ff6ba8f81fc2b5cf63705bb86afba6f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c002e14950606b8fb8eb033c1ac3dfd,bridges and tunnels,mixed,..,..,..,La Province de Québec
+338cdd86f051ddb118ef83a091bb8c01,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+369ad0e68b81f92ada36a7c0466883ac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3d247ce633e8e6f564a709737d114821,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+42bf1fa659ab1809248650d42caf7949,low carbon,charging_stations,Agora,...,...,Government of Quebec
+449ff0a25cfb6c60bd54d909b803240d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+52861a042b250617524e548b53159bbb,low carbon,charging_stations,Brcc - Châteauguay - Desjardins,...,...,Government of Quebec
+53e5e52ad23be09332b43d3654ba82eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+604e0113f895c7e3f9b7a21bfd3f0632,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+777c5132d1440990a6d4c83415c36c19,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+80880b28b285ea971f2f4ff134e25f3f,wastewater and storm water,facilities_waste,Station Épuration St-bernard,..,Waste treatment plant,Environment and Climate Change Canada
+85d1f8c0cc97a56c77e89ccb7a726f2d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8b185872798442f5cf3598f0b8d1e630,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+957e4a00ccd4d86b39c6f9deda82e2e6,bridges and tunnels,mixed,..,..,..,La Province de Québec
+996582141565f9380edf68b45ac00fb7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9c4a5d104c4bc94eb28d106bd67aeef4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a059f838722b3fd57e9905713b03d7d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a562548148efeab9be3acc14115ff2a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a7bc38e3b85c44597f3457f7693e7921,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ac40c163f9816ca5eedadc105fa02c37,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bd1d7b8eb35df2ccd3df563e443c1d51,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c314c86e91edce77c4788e6c42c88387,low carbon,charging_stations,Hôtel Manoir D'youville,...,...,Government of Quebec
+cae94efdb55217ef22522be78c96b9e9,low carbon,charging_stations,St-hubert - Châteauguay (privé),...,...,Government of Quebec
+cbf1635c1a5127f0bd21943b85f8c50a,low carbon,charging_stations,Édifice Des Travaux Publics,...,...,Government of Quebec
+d8a3045d7c90db39e36f09b7f65afb2b,low carbon,charging_stations,Brcc - Châteauguay - Couche-tard,...,...,Government of Quebec
+de7c41320dfe17056eab0cffa619ecff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f32804cccc38220f09a547e7f2525e79,wastewater and storm water,facilities_waste,Station Épuration St-bernard,"Grit Removal, Screening, Chemical Flocculation, Primary Sedimentation/Clarification, Skimming, Biofiltration, Disinfection",Unclassified,Environment and Climate Change Canada
+f7757eda58d0b11aaeae13f3e830a4fa,low carbon,charging_stations,Exo - Stationnement Incitatif Châteauguay,...,...,Government of Quebec
+fb7361c3dbdc7393894ce2a825717436,bridges and tunnels,mixed,..,..,..,La Province de Québec

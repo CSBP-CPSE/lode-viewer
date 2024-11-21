@@ -1,33 +1,45 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Route 132 Est,BRIDGES AND TUNNELS,Footbridges
-Autoroute Jean-Lesage,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Coteau-du-Tuf,BRIDGES AND TUNNELS,Footbridges
-Chemin du Bois-des-Lebel,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Rivière-des-Vases,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Notre-Dame,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route de la Station,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue du Seigneur-Côté,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Montée des Coteaux,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+03b531ec375a810fc0d57518e809b3b6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+04187e7602372b41d8b2f53ba6863c2c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0adf4e082f00882b83339c0d36ed2bd1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+102e9043c374d8907547e41acd75882b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+111df19e1b4305828ae48c032579ce51,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+14e76c8c2907812ec288dfb0e0c625fd,bridges and tunnels,mixed,..,..,..,La Province de Québec
+28b46bd8e2f0128e26545841e6816721,railways,track,..,...,...,Natural Resources Canada
+38c7f9ad43bb010bfc3d617019d20ac5,railways,track,..,...,...,Natural Resources Canada
+3d83e204e4fa301a2e5e291357fdb483,railways,track,..,...,...,Natural Resources Canada
+536d8c2072e0030714e16590523727cc,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5444f366610fdfb73ba314b6fe59c8f0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5ddd0484416b8c3f2ed5126eb0735627,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+612e5efecc79e4a76d568f9203605165,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6a84ab3672e5cfff1531acfae5d9420a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6d1127144ea3f11b46ae33aa88e57774,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77140901d22baee6bc50c3318e77e108,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7c7b78953f9a2f083a98e7de0746884b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+81648969f769c9ef6e00197a674e7d79,bridges and tunnels,mixed,..,..,..,La Province de Québec
+86d4b21c41f7f870c2e0f402637e4a29,ports and marinas,mixed,L'isle-verte (village),Recreational,...,Fisheries and Oceans Canada
+8c661626ac0e67fb5a2b409abad19bd8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8d1ab587b86f44b88b04d3e48973abcb,railways,track,..,...,...,Natural Resources Canada
+9349f2099631ed95ccb535709f93fbae,railways,track,..,...,...,Natural Resources Canada
+9ae902b64766ab768be2e6621d3e5963,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9f73bffb7d9616e855cc2703bcba6d38,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a523162059a2509c5a6ac272f11360d8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a8e711d66bdacc67c3a1da504cd93e15,bridges and tunnels,mixed,..,..,..,La Province de Québec
+aba49c804b93462215d3432fb8aed035,bridges and tunnels,mixed,..,..,..,La Province de Québec
+b41704d7ee44394561f81b0d35630cbf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bbaaa1bc8d5f1bc46216a55691a394c3,railways,track,..,...,...,Natural Resources Canada
+c410b25593fd340c5d95d8882979892a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ce754fb575293f43dd289bb851d1b68d,railways,station,Isle-verte,...,...,Natural Resources Canada
+d03722b8c9b3f619c4e8a5210ddeb0f4,railways,track,..,...,...,Natural Resources Canada
+d62f2579b5c11415def7443cb0472bac,railways,track,..,...,...,Natural Resources Canada
+d8d4f863eecbdb2e678ae8c51afc18e9,wastewater and storm water,facilities_waste,Station D'épuration De L'isle-verte,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+dbca94bac6da1a3c9654ed19c0e27d87,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e24b4af79434c474961ffd201b6a94cc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e6ecc7f43694a65cc79d71d6c9a65aca,railways,track,..,...,...,Natural Resources Canada
+e70baed0e59d28c29e0b95fe0db5d440,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ea26449c9fc37506f9886c9ccddfd358,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+edd227eefd30ec8ea72449d5ab894bf4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+f1fd7756aa01b51f88a1d37dcb8e4226,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f3a2d294f42da94dda28c5b7f590669c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+f6d8125c7d576f05a1aaf210c0606cf9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+f87fbf03298681d3e045c7dbec6aff27,bridges and tunnels,mixed,..,..,..,La Province de Québec

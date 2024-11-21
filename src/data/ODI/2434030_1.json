@@ -1,13 +1,17 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route 138,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Bois-de-l'Ail,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Notre-Dame,BRIDGES AND TUNNELS,Footbridges
-Autoroute Félix-Leclerc,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Saint-Joseph,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00bb98847efb7ac6f38828ad5302c5b3,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Cap-santé,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+1f4d6bd43092de11ce97e65b734cffa4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+261f2f7fea3bd224d5ac42952fa74d91,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2af380d5879c2aec709303b69106a028,low carbon,hydro,Donnacona,...,...,World Resources Institute
+34e00c155adccefaecebff6fd69313da,electric grid,power_plants,..,...,...,Natural Resources Canada
+4e7f77983dd82a6dd04dc17b26870d30,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+551c871f47db85f11e4c9bcb367ba882,low carbon,charging_stations,Cap-santé - Place De L'église,...,...,Government of Quebec
+7e3cce8abf314d5aad7dac051c6b7d5c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9587c7caa060ef6b0e2296992117d5df,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b7c0b5b60d4d3e28b0436cca506bd915,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d2bbcebccc174429851c9b0385d2d217,railways,track,..,...,...,Natural Resources Canada
+de699a2c5d8a89d7eae7443b10c2bbc1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+def33104851d3255888fea0279ced748,railways,track,..,...,...,Natural Resources Canada
+f807b5d81644d5a4c7462d58aa67b62b,telecom,tower,...,...,...,Natural Resources Canada
+f84c0846af3f97607766ff18fb95f064,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fb029cf88243fe1dc6b37592c5bd84bc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

@@ -1,13 +1,11 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Vieux Chemin,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de l'Anse-aux-Érables,BRIDGES AND TUNNELS,Footbridges
-Chemin de l'Anse-à-la-Croix,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Lac-à-la-Croix,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+1a34c0acd4616dbe2e78e587591b8e32,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2d4bfcd05f6207f1e9824f28fa5fe8e2,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Saint-félix-d'otis,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+3db5939208780384251ba9f3791a9659,bridges and tunnels,mixed,..,..,..,La Province de Québec
+581d2927de10f5e50cbd2e2ffaec12ef,low carbon,charging_stations,Saint-félix-d'otis - Hôtel De Ville,...,...,Government of Quebec
+62b3709b1b44cacdc35d70c33f869951,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+69f371af879faace9edbd82c90ae9b75,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9059e837bc22da4cbb36a2677bb46dfb,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9e604f24ab9cabc6a6462b4c762144ea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aff6efd4cc2b606faa930fd6586f01ef,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+f4fc041991ae7306956660bc6184edf7,low carbon,charging_stations,Mrc Du Fjord-du-saguenay - St-félix-d'otis,...,...,Government of Quebec

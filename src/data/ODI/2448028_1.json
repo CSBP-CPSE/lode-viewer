@@ -1,22 +1,37 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Landry,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 139,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route MacDonald,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue du Marché,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Provost,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Saint-André,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Tétreault,BRIDGES AND TUNNELS,Footbridges
-Rang 4e,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0b765c702b1ff27cf84395941c5dc94a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+175b5b3ff158b9c37b596a2a8d41cdfc,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1a7238692b9660b2a21c513c110bbbfb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1c215b719c3639b6ac98bc6906df3b5e,railways,track,..,...,...,Natural Resources Canada
+1fb2761061273da7472964d71b794f86,telecom,tower,...,...,...,Natural Resources Canada
+20d8cbd5e86952e392707f6079cc73d6,bridges and tunnels,mixed,..,..,..,La Province de Québec
+273dd811ac36f8f4f159d0a5f5f62399,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+297f2cbea9f14e0de75be6c14340a02c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2bbe95a6a013c3248835e19e2da4a389,railways,track,..,...,...,Natural Resources Canada
+2dc6b68fb9e9d737dfe5e235d3455d4f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31ccaf57df61d68d90cdcf7c372e9790,railways,track,..,...,...,Natural Resources Canada
+3b1d02e5263b5288862a160290400fc8,telecom,tower,...,...,...,Natural Resources Canada
+4b62e70c308baa2a301577744e26b3f3,low carbon,charging_stations,Caisse De La Vallée D'acton - Acton Vale,...,...,Government of Quebec
+50a9fd0ef9a4abe99f2af2f504e4b109,railways,track,Quarry,...,...,Natural Resources Canada
+536d24253fb788c875567a90babdf3ae,railways,track,Quarry,...,...,Natural Resources Canada
+543e6edf67499d8e2233900537f15e22,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+638548b85c9dbafa07ecbf517a2d58b0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+64f58345582bb8c96ea79a76296dea69,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+72a73098c8651f4de8c625e0f107be95,railways,station,Actonvale,...,...,Natural Resources Canada
+7596fd7e91eeb750aec576d7ec60ecb3,railways,track,Quarry,...,...,Natural Resources Canada
+7f791e7dce1fb2cd97930795de35b2f5,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9113d86c4f66baf35ea0d6a6d6f101cd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+960c95f8a7129d97d461b65fafa0f785,railways,track,..,...,...,Natural Resources Canada
+a280b2f797d4ec74e742fdb40e698d39,low carbon,charging_stations,Desjardins - Vallée D'acton,...,...,Government of Quebec
+ba224f0fb1f6c7124bb76577db36e980,railways,track,Quarry,...,...,Natural Resources Canada
+bc3cdd547ff47709c18b3e4cc5d0fc91,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+bf8b9393625a707e6cce5ebc019eff0a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ca705ba7502a7f015e34f589c3131cc3,low carbon,charging_stations,Brcc - Acton Vale,...,...,Government of Quebec
+cafdb4bfdefdb50da075145e07ed10e1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cc6a7c95533a1c8924b51f577f2659f9,wastewater and storm water,facilities_waste,Usine D'épuration D'acton Vale,"Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Lagoon,Environment and Climate Change Canada
+ce3a23443c50211a90303d9a1288ec7d,railways,track,..,...,...,Natural Resources Canada
+d6d210b0d171ef0fdb7f84789b791c74,bridges and tunnels,mixed,..,..,..,La Province de Québec
+da8e9942567526f9df38e8dab6ca498e,low carbon,charging_stations,Acton Vale - Gare D'acton Vale,...,...,Government of Quebec
+f0a12c1063f19b2294b46a463356bf49,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f2ba47d537a56f24670907acc42327d5,bridges and tunnels,mixed,..,..,..,La Province de Québec
+f5b8a40c6cb21694a0da674fcba9fd72,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

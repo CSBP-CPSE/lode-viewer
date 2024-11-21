@@ -1,50 +1,46 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Brien / Robillard,..,..
-Leclerc / Landreville,..,..
-Laverdière / Bourget,..,..
-Notre-Dame / Jean-Talon,..,..
-..,PEDESTRIAN AND CYCLING,biking
-de la Savane / face au civique #505,..,..
-Leclerc / de Normandie,..,..
-Notre-Dame / Ritchot,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-de la Presqu'île / face au civique #225,..,..
-Cherrier / de La Rochelle,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Colbert / le Bourg-Neuf,..,..
-Montée Lebeau / face au civique #2140,..,..
-..,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,biking
-Borduas / devant le civique #533,..,..
-Notre-Dame / D'Argenson,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Noiseux / devant le civique #1044,..,..
-..,PEDESTRIAN AND CYCLING,biking
-Brien / Marquis,..,..
-..,PEDESTRIAN AND CYCLING,biking
-Champigny / Lemieux,..,..
-de la Seignerie / de de Chenonceaux,..,..
-Lacombe / Saint-Paul,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Notre-Dame / Gravel,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Lacombe / Latendresse,..,..
-Notre-Dame / Sarto,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Jean-Duceppe / Forand,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Notre-Dame / Lévesque,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00e1cca9a28cb4a7f9f0e7a8c6d77d04,low carbon,charging_stations,Metro - Repentigny,...,...,Government of Quebec
+0ab837c818d55b3350a5d4c2fe407af6,low carbon,charging_stations,Repentigny - Parc Rivest,...,...,Government of Quebec
+11f8ee0e8454ab65113e010cebaea45f,low carbon,charging_stations,Repentigny - Parc Larochelle,...,...,Government of Quebec
+125f750a8296c0008aa4acd9bca5231d,telecom,tower,...,...,...,Natural Resources Canada
+16a7078922d60c2b453ec7b419522375,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1b80cf95fc49932f7429cb96ed47df91,low carbon,charging_stations,St-hubert - Repentigny,...,...,Government of Quebec
+216d2a627283e164e1edc1e126644dab,low carbon,charging_stations,Repentigny - Parc Champigny,...,...,Government of Quebec
+2ab7a11cdcafa2754020a414af051bc5,low carbon,charging_stations,Repentigny - 130 Landreville,...,...,Government of Quebec
+3001847fd2f8727dfee11a4b8ed0311a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+38b0590c2671b0daaa1ae91bd629d3be,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+44b94e960b44b26eb803c04aaabf1f5a,low carbon,charging_stations,Parc De Saint-laurent,...,...,Government of Quebec
+48f83f906d1e26ecf9ade9b1abfca74e,wastewater and storm water,facilities_waste,"Station Traitement Étangs Aérées, Repentigny/charlemagne","Screening, Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+4bd0a8bc11b8d1d81c5ac7440908f65d,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4fc33e75a33d545532bc8e76be27c0ef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+50379cda6558315524d339d26588b042,low carbon,charging_stations,Repentigny - Complexe Sportif Gilles-tremblay,...,...,Government of Quebec
+50bdef91ec33fed06751ed91f1a0a4ba,potable water,facility,Station De Purification De L'eau,..,Treatment plant,Environement and Climate Change Canada
+51091cd8131fa49241bd721b0f5fd54a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5c354a597ef249ad5b4e126f6ba2886b,railways,station,Le Gardeur,...,...,Natural Resources Canada
+6a31049fbbe615feb624282705860cc6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+73c80187f1ec7214f96a2d8919bfd81b,low carbon,charging_stations,Sur Rue - Repentigny - Bibliothèque,...,...,Government of Quebec
+78984d251fa2b77b4b94c3cf5fd2604a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7adc2d34e386d18a47c3cac51a881f7d,low carbon,charging_stations,Brcc - Repentigny - Caisse Desjardins,...,...,Government of Quebec
+84d5c5504b05e666fbcc4724e19f319e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+888ceade42bb51e0d011701179687e2a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8d569f1d9da3c1b5b236834b2311d4b4,low carbon,charging_stations,Repentigny - Piscine Municipale,...,...,Government of Quebec
+8e69ddc366015d96f6a80323172611b0,low carbon,charging_stations,Repentigny - 435 Notre-dame,...,...,Government of Quebec
+9095c19fca9e6cc08549d6634ba8a3ce,low carbon,charging_stations,Gestion Immobilière Vallée Ritchie Rivest,...,...,Government of Quebec
+924b9be60dcb72b0ebbf791904d52093,low carbon,charging_stations,Exo - Stationnement Incitatif Repentigny,...,...,Government of Quebec
+93bd5e323103e76f63ad26e3bfefed6d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9e19e4dc70a6b55e56589ebbe0aef3d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ab069f2d3b9f2054890805ee4af464ab,low carbon,charging_stations,Laverdière,...,...,Government of Quebec
+b5389a719eb698e5b5a1111c69a93e8f,oil and gas,pipelines,..,..,...,Natural Resources Canada
+c11db77b9232942e80df5067cebe9aaa,low carbon,charging_stations,Repentigny - Espace Culturel,...,...,Government of Quebec
+c1dd39abb7e599bdf3759b4e5e745c2e,low carbon,charging_stations,Brcc - Repentigny - Couche-tard Iberville,...,...,Government of Quebec
+c2bfae86e72a5c2acec54d98e1ece270,low carbon,charging_stations,Repentigny - Parc De L'île Lebel,...,...,Government of Quebec
+c476b5496f1d40dcd5a10712f80ebe6c,low carbon,charging_stations,Repentigny - Centre Récréatif,...,...,Government of Quebec
+c5b8926a04e1a8bd008af07cec801e59,low carbon,charging_stations,Repentigny - 225 J-a Paré,...,...,Government of Quebec
+c7da1742ce3d9c1ce330ecd381b131cd,bridges and tunnels,mixed,..,..,..,La Province de Québec
+cf7634a6d176dcc0ad808d675a8f6008,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d11ec2dd6b998e99e6d8b0c61f8ddc1a,low carbon,charging_stations,Brcc - Repentigny - Marché Toit Rouge,...,...,Government of Quebec
+dd234ce9ffa5df7b1551e4f8b5e792e5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+deb81e1f3cbdc1032a479e0943af0f13,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e0626f24e6f877d1587bb26b65fb36a6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ea37099ed146f02618bd2406c41889ca,telecom,tower,...,...,...,Natural Resources Canada
+ffbc60b13d8cef0a50185948fd70c85d,oil and gas,pipelines,..,..,...,Natural Resources Canada

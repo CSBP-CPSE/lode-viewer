@@ -1,4 +1,6 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Grande Ligne,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+4eb24c9642ca441962462d4d9310625e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8986bcfa7635220ce97aa68f5f8ba12b,electric grid,power_plants,..,...,...,Natural Resources Canada
+ebe2241fbb17d1bed3f95d9f7fd4c31b,low carbon,hydro,Chute-du-diable,...,...,World Resources Institute
+ef2e3839cfdcc2c17e99bf89042e39ab,low carbon,charging_stations,Municipalité De L'ascension De Notre Seigneur,...,...,Government of Quebec
+fd604f7b72f97507b66de358305d151b,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De L'ascension-de-notre-seigneur,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada

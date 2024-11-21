@@ -1,21 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Fleuve,BRIDGES AND TUNNELS,Footbridges
-Chemin Saint-Féréol,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Saint-Dominique,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Autoroute de l'Acier,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Saint-Grégoire,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0346b57562b403b4c13dde8a18fc0cb5,railways,track,..,...,...,Natural Resources Canada
+09095736097594f694ae7da824bf347c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1487c6c35e0799d78efc5f1b466bc164,railways,track,..,...,...,Natural Resources Canada
+1b767fa6696ce34ec2b67d600b78646a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1b8324434711abe8a4eca5af9ca0c7f9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1c203fa08558ccff69a6ba5c28f1af82,railways,track,..,...,...,Natural Resources Canada
+1fab48da000b5688a8bee63d48539801,oil and gas,pipelines,..,..,...,Natural Resources Canada
+25e1a49ef1906460481e32f877c6ab29,low carbon,hydro,Les Cèdres,...,...,World Resources Institute
+29353519e2a09d9931d9cb11f57bac3c,railways,track,..,...,...,Natural Resources Canada
+299244eccb207cfe3de86c1b911b90c3,railways,track,..,...,...,Natural Resources Canada
+310a326e097ab96b80565f044797ccd8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31345b0e7fb949c15e827c6102bcf124,railways,track,..,...,...,Natural Resources Canada
+3b4b94794fd9e4cae0fad6e156263648,oil and gas,pipelines,..,..,...,Natural Resources Canada
+3ddc2512a5ff978ef6df2bd2e5a5fe9e,oil and gas,facilities,..,..,...,Natural Resources Canada
+42aeba7571cf773f603af063446c58b6,bridges and tunnels,mixed,..,..,..,La Province de Québec
+442470f0bc403ad71c95e7bbd88e2fce,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+457a96dc7ecdbce92df29ce2852e354d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+48c4eed9ce6e8053135d3c1d3d59b225,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4b7294deeef7ae8ee61f6f6ec78caead,airports,...,Montreal / Les Cèdres Airport,small_airport,...,OurAirports
+53893fbcff8efeb09c70335fa7dd612c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+548a71bcc943aeac963b4390cf759830,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+55439f9edc0aa70d44b918557a1c91b2,electric grid,power_plants,..,...,...,Natural Resources Canada
+57397b11fdeaf80d7c566fa44a4f82d8,oil and gas,pipelines,..,..,...,Natural Resources Canada
+5d81a39de77322dd6657c6ca333429a2,railways,track,..,...,...,Natural Resources Canada
+62349bb724cf29e3f6bf82cfe321687e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+657711a9735a59c1f0e12311a7e0e13f,railways,track,..,...,...,Natural Resources Canada
+663acb503ede69cca15e3274790997b0,railways,track,..,...,...,Natural Resources Canada
+66adebd214cd4c17e8dd5c098102a9ce,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6bacd1f832082ec7a049321e551faec1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+73feed74cae9846a8c43464be7bcf570,low carbon,hydro,Île-juillet,...,...,Hydro Quebec
+75f8373416c0d8aaa70c346c95b31533,low carbon,hydro,Saint-timothée,...,...,Hydro Quebec
+7fd8e41a5e9e7325d6710a602a0a1054,oil and gas,pipelines,..,..,...,Natural Resources Canada
+82fe0d403cc8d06ab70ee8e623e8e8b7,railways,track,..,...,...,Natural Resources Canada
+84116e280cd77bb20f8a4ad2fcbaeca6,railways,track,..,...,...,Natural Resources Canada
+84d407b317d9c1de6d9402d1902c960f,railways,track,..,...,...,Natural Resources Canada
+85fe1f839fa3fd30f37bbe89ff083d05,railways,track,..,...,...,Natural Resources Canada
+8c8123ec9b7114f629bf51d9e74bf159,low carbon,hydro,Cèdres,...,...,Hydro Quebec
+9143f15d15df83124d362674b12fba23,oil and gas,pipelines,..,..,...,Natural Resources Canada
+94fcdf849fcbc9e3b5de7b54406affa6,railways,track,..,...,...,Natural Resources Canada
+96309ed1e6bef50f78576086279a7ac0,railways,track,..,...,...,Natural Resources Canada
+9978330ba51554adfd1ad043f547e3d4,railways,track,..,...,...,Natural Resources Canada
+9a9eb2d44413f983b3f5589c86a5fb43,railways,track,..,...,...,Natural Resources Canada
+a1c36bf2a869883f78a73f8598dff069,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a25d7e98bfd41e7acec8e992a72501bc,railways,track,..,...,...,Natural Resources Canada
+ab3d4fff7c1caddca7cf8b7cd38a8e95,oil and gas,facilities,..,..,...,Natural Resources Canada
+b3f56d4589e6005c374324aa3ccdeb4a,railways,track,..,...,...,Natural Resources Canada
+b5c8c329f446510c1a775e88b416a675,airports,...,Montreal / Les Cèdres Heliport,heliport,...,OurAirports
+b97d4e5f439f821928f676e6d38cb871,railways,track,..,...,...,Natural Resources Canada
+bfd7e295e08cc2f919b1c2a33e68c483,railways,track,..,...,...,Natural Resources Canada

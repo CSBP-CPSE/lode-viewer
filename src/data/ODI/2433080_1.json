@@ -1,13 +1,9 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-Route Soucy,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Ouellet,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Bélanger,BRIDGES AND TUNNELS,Footbridges
-Rue Principale,BRIDGES AND TUNNELS,Footbridges
-Route Principale,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0eee4caa9b42efd4dd398f98604b2d6a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+32ee1d6df64fa9dd9cdbdf1f9e6e4e24,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+35468581806e63d2479f69d39c2ceb9e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+52ab48af9545c0b2f56dd2ea9e786e33,wastewater and storm water,facilities_waste,Étang Aéré,"Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Lagoon,Environment and Climate Change Canada
+53ea7e568a182cd852b7437abbcd68d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c810216a4060c6dfb3e5f62fe733164a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cff709f9de357cd92b7bb20807990fdf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fad1efc078b41e47a0b1bc58d792e75e,bridges and tunnels,mixed,..,..,..,La Province de Québec

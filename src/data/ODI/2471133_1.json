@@ -1,50 +1,35 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Chemin du Petit-Brûlé,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-de la Coopérative / Saint-Antoine,..,..
-Joly / Saint-François,..,..
-Montée Lavigne / devant le #98 (Petro Canada),..,..
-de la Coopérative / Saint-Jean-Baptiste Est,..,..
-Saint-Viateur / Saint-Jean-Baptiste Est,..,..
-Chemin Trianon,BRIDGES AND TUNNELS,Footbridges
-Saint-François / Saint-Jean-Baptiste,..,..
-Saint-Viateur / du Boisé-des-Franciscaines,..,..
-J.-Marc-Séguin / Saint-François,..,..
-Rue Saint-Jean-Baptiste Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Saint-Viateur / Saint-Jean-Baptiste Est,..,..
-Saint-Antoine / de la Coopérative,..,..
-Saint-François / Saint-Jean-Baptiste Ouest,..,..
-Montée Wilson,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-de l'Hôtel-de-Ville / Saint-Pierre,..,..
-de l'Hôtel-de-Ville / Gérard-Chicoine,..,..
-de la Coopérative / J.-Hyacinthe-Leduc,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Baie,BRIDGES AND TUNNELS,Footbridges
-Saint-Viateur / du Boisé-des-Franciscaines,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-de la Coopérative / Saint-Jean-Baptiste Est,..,..
-Bussière / Joly,..,..
-Montée Lavigne / devant le #101 (Esso),..,..
-Joly / Aimé-Aubry,..,..
-Chemin de la Grande-Ligne,BRIDGES AND TUNNELS,Footbridges
-de l'Hôtel-de-Ville / Gérard-Chicoine,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Séguin / devant le #26 (Fleury Michon),..,..
-Montée de la Baie-Saint-Thomas,BRIDGES AND TUNNELS,Footbridges
-Bussière / Saint-François,..,..
-Saint-Pierre / de la Banque,..,..
-de l'Hôtel-de-Ville / Saint-Pierre,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-J.-Marc-Séguin / Saint-François,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Autoroute Félix-Leclerc,BRIDGES AND TUNNELS,Footbridges
-Saint-Pierre / de la Banque,..,..
-J.-Marc-Séguin / Saint-Jean-Baptiste Ouest,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-de la Coopérative / J.-Hyacinthe-Leduc,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Fourche,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0e0eabb5cc0d8bce0f847067dcf6b87b,telecom,tower,...,...,...,Natural Resources Canada
+0e4a1d62c15444b55251a139e8995c50,telecom,tower,...,...,...,Natural Resources Canada
+108f8f29d2110548146d1509cf95fa48,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+12990685386def76e809cbcabe3f0f38,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19ba7eded97a5e66079573e0c8425431,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2ea3c85e7593a97e195d3f127be46cc2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+425e4bd1266f17ba578d0903f68e3337,oil and gas,pipelines,..,..,...,Natural Resources Canada
+43450a6c499cae0ed3b87b0f26109d7e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4e70e40c1df5db7eafac806e881772cb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+52e3a24b770dee820ac152c76d6c23e8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+53eddf0ee9570116c81bb19945297000,low carbon,charging_stations,Centre De Ski Mont Rigaud,...,...,Government of Quebec
+6937e92bb9b740d5b07d2aa4c102b599,railways,track,..,...,...,Natural Resources Canada
+69a1286c790c738d083769534c4fd412,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6b280df17c8367ea9778ad4af3352fe0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6cd9c4e2009e2deff80992f484571374,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+727b674b2f37c28f26a177ad41b5b98a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+76a58f79347d7ec7b4cf2a5e3e97deca,low carbon,charging_stations,Brcc - Mtq - Aire De Service De Rigaud,...,...,Government of Quebec
+798dd5a78b80f807b5902bdbaa067ba4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+81223229cdc21f4cf56d45ee040d2b9e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8418747d34399b594f94a8688b887b5c,wastewater and storm water,facilities_waste,Usine D'épuration Des Eaux,"Screening, Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+927bdf13bc18cb6563c5d72b0759ae76,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9aed4e4024ccff9f9fa5629c90a70a03,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ae03fb6daa75275e7863456c57330550,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b15b8a344833fdd3c76e80a7c7cf9810,telecom,tower,...,...,...,Natural Resources Canada
+b814c1763c7246b6da69a55fbe5b727a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+be7bccc3cdd2a857f10f64d602ed3142,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c05d7380daa1b8aba808435fca511c32,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c59bbeb447855505fca048b34868f201,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d0b619a9e86754dada86fdf446b732a5,telecom,tower,...,...,...,Natural Resources Canada
+e15eba3e495db682604945fda3235bae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e2631afb253205ac77b89ff5eaf3d9a6,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e61acbc818ec27892abd561f814dc875,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e8be6bd87bd10b1db0cb64c33f107f5c,low carbon,charging_stations,Ville De Rigaud,...,...,Government of Quebec
+ebe1cbbd4898f99cca5592c209c0635d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

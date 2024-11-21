@@ -1,25 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Saint-Jean-Baptiste,BRIDGES AND TUNNELS,Footbridges
-Route Matalik,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Saint-Jacques Nord,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Rang Ferdinand-Heppell Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route du Huit-Mille,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02c6006bd6b2ec7212d3f15f1e35aee0,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+070c57ae48f1868d0a2f6232073abe05,airports,...,Causapscal Airport,small_airport,...,OurAirports
+096880280693128df3b696d1cc1bce08,telecom,tower,...,...,...,Natural Resources Canada
+0c4e4cc7e37356aa3c2018b6f78f6a31,railways,station,Causapscal,...,...,Natural Resources Canada
+0ccb397428e769b893531c980cc26d04,bridges and tunnels,mixed,..,..,..,La Province de Québec
+10b77825eeb383283980c657ffbd3dd3,low carbon,charging_stations,Brcc - Causapscal - Hôtel De Ville,...,...,Government of Quebec
+1901823ebfc152d9b33ede33ab8fd18c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1b098a4194edcd461b1dcb3bd5af8348,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+1d593e92dfce33fe0972be7ec846ec06,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1da6192afbb062d2b9451bc3021eae29,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+243e8ed9be9d33398c1735d9b78ef571,bridges and tunnels,mixed,..,..,..,La Province de Québec
+29950a574010a9e7117748b788fd1a5d,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+2cd4e8877a93ad4d19c280255310099b,low carbon,charging_stations,Desjardins - Cds Causapscal,...,...,Government of Quebec
+2ea9c32b397189b48ace27fdc60aad37,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+34c7957fdd851bcfa907957c48c958bd,bridges and tunnels,mixed,..,..,..,La Province de Québec
+3de0e30828a98142b7d09ba721fe9480,telecom,tower,...,...,...,Natural Resources Canada
+41ba1e251e4557e018090d8f1b164b2b,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+464a383c32aaccf2b104c4ec9fe3b102,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+4a1838f98431d505146310339c3a3aa2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4ece6aa5c5a8877ff42045fae696d459,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+4f87f84d6db0817a6e96cecc247d376f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+594845b7ef77fe57e13e3e971a803300,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+5a35d2cc0c6c23032492f0e674e8cebd,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Causapscal,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+5c0e6d44a38d639f07258a96cffef1c8,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+605ca9e516d7b85d35885a263bc05921,telecom,tower,...,...,...,Natural Resources Canada
+61817674f066a1b776ca757808af3c80,bridges and tunnels,mixed,..,..,..,La Province de Québec
+641c87715288240144d87483921fbf52,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6493627edf51e9fb8d3fa7ddf87fea1f,telecom,tower,...,...,...,Natural Resources Canada
+6e14528138f46ed239578161f9d96a01,low carbon,charging_stations,Site Patrimonial De Pêche Matamajaw,...,...,Government of Quebec
+6e66c2e6c6d4dfb5e3ac1dd374376297,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+780354a4421ce86e79a50d8e3e689afb,low carbon,charging_stations,Stationnement De L'église,...,...,Government of Quebec
+7a18a0da432a555f3c6e076a3266f7d9,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+7e976c123d6d0c6de94b03b2c83783fd,railways,track,..,...,...,Natural Resources Canada
+7ee40721916cb2a906556a55aa94ed89,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+825a98bf57b519500c377ab5551d5c89,railways,track,..,...,...,Natural Resources Canada
+87b8f73d75dee52c8036b8525a8c4ef0,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+948d9adeda7092952a991b6ceed08188,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+9a02184fca5f3770ca060ef3b6257909,railways,track,..,...,...,Natural Resources Canada
+9b8d1f79686298620f0fff0523e6b960,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9ec50249682fb24c4f0ebbce7559c20f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a04a13240366e8b1af414f61953b1795,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a36547e855b9cf14f88b326b4331e7f4,railways,track,..,...,...,Natural Resources Canada
+a4185b44b788fd1b2bee6f671955abd7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a500dbd0bf0fa49262eb70a954d601f3,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+a77b54ed16be76ef360bd48f70071168,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aa800454ac57adf196a29db4a2db9763,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+aae6abcbf3f10b89a904e6239a473087,low carbon,wind,Vents Du Kempt,...,...,"Government of Canada, Natural Resources Canada"
+b0b124f9fa013130a96a52d0b01d9a8c,railways,track,..,...,...,Natural Resources Canada
+b8ea439e2c70ee83a313774fa194be2c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

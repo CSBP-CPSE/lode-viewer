@@ -1,30 +1,45 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue de la Rivière,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue William,BRIDGES AND TUNNELS,Footbridges
-Boulevard Désourdy,BRIDGES AND TUNNELS,Footbridges
-Rue Albert,BRIDGES AND TUNNELS,Footbridges
-Rue Beaumont,BRIDGES AND TUNNELS,Footbridges
-Rue du Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Rue Bell,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-Boulevard Jean-Jacques-Bertrand,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Rue Hillcrest,BRIDGES AND TUNNELS,Footbridges
-Rue James,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+056b4a7c8f20aa1b3c13b0c512e4fdcf,low carbon,charging_stations,Cowansville - Parc Centre Ville,...,...,Government of Quebec
+066d21bd466090b43d12bf11d1c6a45a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0fdb15de59d3d9d3931db53116aef415,railways,track,..,...,...,Natural Resources Canada
+148aa8ed5e4a62a7d522b7de0d5863f9,low carbon,charging_stations,Desjardins - Brome-missisquoi,...,...,Government of Quebec
+1e456e01c05806d2c011f22988de389c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1e915fbd1a69358eb56fcf0872aff675,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+224bb41a5371d4be28c2a727a0148501,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+254308ccac077b224461bb9f2b5b99a9,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+272ebaf7dd5ade7fad41b2b8efdb704c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c4dc54b09950d4c4462faa0dea344b8,oil and gas,pipelines,..,..,...,Natural Resources Canada
+32a0e3f5948f16623dccd06aa13b9782,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+36d4a03bcbedf4c9f033a64071429dd5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+63986a67ae37c242ee263c36605110ef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+66457308f884e050fdc3c278bd29261b,railways,track,..,...,...,Natural Resources Canada
+67bc4678d655cd27644ded3b144b0932,railways,track,..,...,...,Natural Resources Canada
+76067f3d57249b167b330ffffe0a9062,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+788536217e9bcfac3e87db9b94dd0283,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7c425f7157d70e12f9ff4d5ab2e76c42,railways,track,..,...,...,Natural Resources Canada
+7c52cf121e273ff4a17beebe0f3770c2,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+836e6f934011a91cc2b2d647f697a0b6,wastewater and storm water,facilities_waste,Pq Region - Cowansville Institution Wastewater Treatment System,"Screening, Chemical Flocculation, Lagoons - Aerated, Disinfection",Unclassified,Environment and Climate Change Canada
+8ee4603c95fe12eb21f48e94bb4cd199,low carbon,charging_stations,Deragon,...,...,Government of Quebec
+91058f550f11c5d5f4258edf49d74a2a,low carbon,charging_stations,Cowansville - Stationnement Mccrum,...,...,Government of Quebec
+92ac1d6034eaecb1ae43dc6736378f98,railways,track,..,...,...,Natural Resources Canada
+9492b87f73fb802d795095ba108d6e31,railways,track,..,...,...,Natural Resources Canada
+95e88c493efcd82a79a5fd36ed583377,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+969fa567dbf7cb3ffe89cef32c05bc61,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a6b8e3ca3516dc885d79799d6c10deb5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aab9cc014366958f49d792332ef7a5ad,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+bc7198ff9af0da54abeb98818dc0e795,railways,track,..,...,...,Natural Resources Canada
+c16619b7036173f12a7cd1fbcb3910e5,low carbon,charging_stations,St-hubert - Cowansville,...,...,Government of Quebec
+cceba8b8908de39f3c12d239f2f2665e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d543058196ed6d506dca4704d64ba1d4,wastewater and storm water,facilities_waste,Usine D'épuration,"Screening, Extended Aeration Activated Sludge, Storage Ponds, Biological Phosphorus Removal",Unclassified,Environment and Climate Change Canada
+dd2da529fd2e59365d8748fb9bd1ff9d,wastewater and storm water,facilities_waste,Usine D'épuration,..,Waste treatment plant,Environment and Climate Change Canada
+e447e08c18ee24c7bb20cdfef1754088,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+e8bfd14d45e7f70ceaf706fb2f3a1649,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e8e9034360e76aed8db0cc0dbf029a26,telecom,tower,...,...,...,Natural Resources Canada
+ec0c19d12ff50be4784294cb924f6eb9,low carbon,charging_stations,Brcc - Cowansville - Deragon,...,...,Government of Quebec
+ef380353ea6e20e2bd606922b3abe843,railways,track,..,...,...,Natural Resources Canada
+f148de469feeacdd383bbd9d9e4283f1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f15c46ad95e4a1ce6d18c0c198d25025,low carbon,charging_stations,Brcc - Aff - Deragon Ford,...,...,Government of Quebec
+f20fa12e9c439191d3f71945d6e07fd0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f6b04489bc3606d693a7a9065acf914a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f8ec3495cf88f693b31bd488048ac967,bridges and tunnels,mixed,..,..,..,La Province de Québec
+fb3e12855a47c1f8d0d7c3f1990cb104,railways,track,..,...,...,Natural Resources Canada

@@ -1,9 +1,12 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route Transcanadienne,BRIDGES AND TUNNELS,Footbridges
-Route 105,BRIDGES AND TUNNELS,Footbridges
-Chemin du Pont-Rouge,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0f69cb8233ca43a78addb57362414abc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+11e8aa4f58dd567facf951b9a939c10d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1c58cb274196ee28fd6b0b549ae9668a,electric grid,power_plants,..,...,...,Natural Resources Canada
+27707be734b262171c8ca0ed15da58f3,bridges and tunnels,mixed,..,..,..,La Province de Québec
+3edfb81ff8a0c8d62b302a2d78d138c4,low carbon,charging_stations,Brcc - Grand-remous - Casse-croûte Au Pignon Vert,...,...,Government of Quebec
+50da9ce5b5a8e633ffc2d84ba5f70f2b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+71675d4cc8f40573b0ab4ba4bd81df46,bridges and tunnels,mixed,..,..,..,La Province de Québec
+72c9f9217638755613ac4e8c71eb7f32,low carbon,hydro,Mercier,...,...,World Resources Institute
+816ff339bbc1a8d5ff84224dc60d2abe,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b9095350db9a82099f23d97fe93545b6,low carbon,hydro,Mercier,...,...,Hydro Quebec
+e56b076043d226260a3feac75e4f2cfc,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

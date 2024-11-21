@@ -1,11 +1,30 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Horace-J.-Beemer,BRIDGES AND TUNNELS,Footbridges
-Boulevard Marcotte,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Saint-Dominique,BRIDGES AND TUNNELS,Footbridges
-Boulevard Saint-Joseph,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0b1d0c70b8f3bb697adef6afe7cc1503,wastewater and storm water,facilities_waste,Station Traitement Eaux Usées,"Grit Removal, Screening, Lagoons - Aerated, Lagoon - Facultative, Polishing Ponds , No treatment",Unclassified,Environment and Climate Change Canada
+0ba453a51456d0817121760b9ed1428e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2125755d0050066bbe940ec9555f0059,railways,track,..,...,...,Natural Resources Canada
+221198ec32dfb53756cdae1c07ddcc31,telecom,tower,...,...,...,Natural Resources Canada
+2fd6eccc152338039eb09268bb78abdd,telecom,tower,...,...,...,Natural Resources Canada
+330e927439497cc2c1c46f6e327d0d29,railways,track,..,...,...,Natural Resources Canada
+36796b0e5f1397006346fb826d0b6a4f,telecom,tower,...,...,...,Natural Resources Canada
+4319632479cff8485ba98cdc6dea687f,railways,track,..,...,...,Natural Resources Canada
+5096543886d731e16efccf2d5a641977,airports,...,Roberval Airport,medium_airport,...,OurAirports
+5467d51a81f15a6d109ddedd6c44f7d0,telecom,tower,...,...,...,Natural Resources Canada
+6f0cb066f2416f58c77af71a9d5b5c0e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7380633d798ea1bcfd8acfaf29622aa6,railways,track,..,...,...,Natural Resources Canada
+831474ab5f6dc21ee974d7ce2bf90875,telecom,tower,...,...,...,Natural Resources Canada
+85e8315f506c5d7118de23dbcdf0e9a9,airports,...,Roberval (air Saguenay) Water Aerodrome,seaplane_base,...,OurAirports
+8c1605f5ac22f497e241f385e5872236,railways,track,..,...,...,Natural Resources Canada
+981f909d903e59530262198ecc298386,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a59c4f51c22e612bb3e98aa17263136a,railways,track,..,...,...,Natural Resources Canada
+afef91349d2404518dbbbf4e1fe77792,railways,track,..,...,...,Natural Resources Canada
+c0ad0118954a1e368fc435981091f94f,low carbon,charging_stations,Desjardins - Domaine-du-roy,...,...,Government of Quebec
+c4377919d872d7e0b688825e27fd06ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c8cab3a3e595b176dcf3b17d990c606b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d30b66c81cc5cef77cd1380bb5db97a2,telecom,tower,...,...,...,Natural Resources Canada
+d7788b3a942934f8ecb5ab017efdb230,low carbon,charging_stations,St-hubert - Roberval,...,...,Government of Quebec
+e984a55a1aa0d94be2d85d0817e6f6bc,railways,track,..,...,...,Natural Resources Canada
+ea28c0447f2328dd1563905c6d654f79,railways,track,..,...,...,Natural Resources Canada
+eb4a05cda850079f619ca61dc3bedc77,low carbon,charging_stations,Brcc - Roberval - De La Jeunesse,...,...,Government of Quebec
+edf4ae18bfec301952c26efa31c1d1f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ef2353169a0f33afd14b738768cc7f21,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f04e0f3e80cd0d8ed218a7b113330036,low carbon,charging_stations,Brcc - Roberval - Hôtel De Ville,...,...,Government of Quebec

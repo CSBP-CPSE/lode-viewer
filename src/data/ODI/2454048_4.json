@@ -1,50 +1,48 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Laurier Est / Wilson,..,..
-Papineau / Bourdages Nord,..,..
-Laurier Est / Guy,..,..
-Laurier / Denis,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-de Dieppe / Jacques-Cartier,..,..
-Bernard / Frégeau,..,..
-Choquette / Bourassa,..,..
-Martineau / Canadian Tire,..,..
-Sainte-Anne / Morison,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Choquette / Trudeau,..,..
-Blanchard / des Seigneurs Ouest,..,..
-Martel / Saint-Michel,..,..
-Pinard / des Semailles,..,..
-Choquette / Cartier,..,..
-Lemire / Saint-Luc,..,..
-Bourdages Sud / devant le #16720,..,..
-Laframboise / Morison,..,..
-Girouard Ouest / Kéroack,..,..
-Castelneau / Lemoyne,..,..
-Saint-Charles / Roy,..,..
-Saint-Paul / Fontaine,..,..
-Martineau / Bureau en Gros,..,..
-Avenue Castelneau,BRIDGES AND TUNNELS,Footbridges
-Avenue de la Concorde Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Marchesseault / D'Amour,..,..
-Nelson / Sainte-Catherine,..,..
-Choquette / Trudeau,..,..
-Picard / Desjardins,..,..
-Saint-Charles / Alexandre-Campbell,..,..
-Laurier Est / Brabant,..,..
-Laurier Ouest / de Dieppe,..,..
-Cartier / Raymond,..,..
-Pratte / devant le CSSS Richelieu-Yamaska,..,..
-des Grandes-Orgues / face à l'EPSH,..,..
-Marquette / de l'Église,..,..
-Laurier Ouest / du Domaine,..,..
-Sicotte / Sainte-Anne,..,..
-Picard / devant le  #3475,..,..
-de Dieppe / Coulonge,..,..
-Gosselin / Laurier Est,..,..
-Dessaulles / du Palais,..,..
-..,WASTEWATER STORMWATER,..
-Bourdages Nord / Cartier,..,..
-Gauthier / Lamarche,..,..
-Laframboise / Prévert,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+c815b236d00965184237a669b9c6e24e,railways,track,..,...,...,Natural Resources Canada
+c9397c934d498fbff963b5d976754ab7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ca3be83eca509c90deb062d737ebe5fa,railways,track,St-judes,...,...,Natural Resources Canada
+ca9400b0298ea16e5ec17ee21200a26a,railways,track,..,...,...,Natural Resources Canada
+caf0d588f39bfd34cb28db103d52fc31,telecom,tower,...,...,...,Natural Resources Canada
+cbbcdebe44a353f40202e72d2c56a2b1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cc08ebfcf10ff180e1b83786e9a0e6d9,railways,track,St-judes,...,...,Natural Resources Canada
+ced0c31cf83b5fd92ffc6008548176c9,railways,track,..,...,...,Natural Resources Canada
+d101d9528ee631453d0d641fa78a77de,low carbon,charging_stations,Desjardins - Saint-hyacinthe,...,...,Government of Quebec
+d30c2ac2342c74f9230d97a24bf0094c,railways,track,..,...,...,Natural Resources Canada
+d3e4c3e1f0a382fc72da336f90c52bb0,railways,track,..,...,...,Natural Resources Canada
+d4a9d93811d6522e329a4931e63d4024,low carbon,charging_stations,Centre Multisports C.-a.-gauvin,...,...,Government of Quebec
+d868e25057f1461244807e5a10493e40,railways,track,St-judes,...,...,Natural Resources Canada
+d887c7746a0cb38b92f5373241b3dba1,railways,track,..,...,...,Natural Resources Canada
+d8bce578ce2f352909f6e0358507c88f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d93a914f6955162fe1c0581d6a96ed7c,railways,track,..,...,...,Natural Resources Canada
+dba0dc9c4088b5888e65b6873b80e87a,low carbon,hydro,T.-d.-bouchard,...,...,World Resources Institute
+dcfa2ad179eaae09f402bd7ce14b475b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dddd45e0a2eb44cba1ba056665f4e2db,railways,track,St-judes,...,...,Natural Resources Canada
+de470ead0c5e385b197b9b8230b17a54,wastewater and storm water,facilities_waste,Station D'épuration,..,Waste treatment plant,Environment and Climate Change Canada
+de54a0117a9692e83df910b902c6a20d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+debf360264c7799b0d9924028cc8e037,low carbon,charging_stations,St-hyacinthe - Centre Communautaire Ste-rosalie,...,...,Government of Quebec
+df31ca1cac3df11e1a1b32b7f47c7a38,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e24770f567d28c2ed9ca5daad660b129,railways,track,St-guillaume,...,...,Natural Resources Canada
+e253e0de537887c30788d8ce838cd9c7,railways,track,St-guillaume,...,...,Natural Resources Canada
+e32432ac04b685cee52451a9934e077b,railways,track,..,...,...,Natural Resources Canada
+e327d0e4f5e8858184296f99cd698577,railways,track,..,...,...,Natural Resources Canada
+e37506b0925847dee922d3f79d5cc294,low carbon,charging_stations,Ville De Saint-hyacinthe - Bibliothèque Municipale,...,...,Government of Quebec
+e67928c018b8cd2df54ba21f5e339dec,low carbon,charging_stations,Cégep De St-hyacinthe 3,...,...,Government of Quebec
+e71438c9030169f9aac9581f2906335e,low carbon,charging_stations,Cégep De St-hyacinthe,...,...,Government of Quebec
+e8b1e6bf12c7c0819f4fba84a779e68a,railways,track,..,...,...,Natural Resources Canada
+ea5c9a54bf4290a6ed7765fb5238868b,railways,track,..,...,...,Natural Resources Canada
+eb4461eb75d3914040db7807a5fd3979,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eda939c11aa121517c2dd4bc2a492a07,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ee06e25f14ceb87d239cf8a8a93fd712,railways,track,..,...,...,Natural Resources Canada
+ef0ce0872ffd3f8fbf7bcee26cd31fdc,railways,track,..,...,...,Natural Resources Canada
+f1125da724db430141b1500854e08d8f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+f1240bfe6ef14284d236d77a9924c9a5,railways,track,St-guillaume,...,...,Natural Resources Canada
+f15981eddbc36e7ab078748c13178e5d,railways,track,St-judes,...,...,Natural Resources Canada
+f2e6bc33f34104d0a38d05ef08606a6b,railways,track,St-judes,...,...,Natural Resources Canada
+f3097f30e802245eb0c387e4ff3b2b08,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f5ca36b4d521891a4a7cb4fbfbf90c05,railways,track,Ampro Forest Products,...,...,Natural Resources Canada
+f5dc5ad6ebb6f0373c4931ebed37cab4,railways,track,..,...,...,Natural Resources Canada
+f8233c3dbbb0a39e733742f7ca52f91e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+fd3de727c963b95adde116487fe008f8,low carbon,charging_stations,Brcc - St-hubert - St-hyacinthe,...,...,Government of Quebec
+ff30c2a91cfaa51709c9e710b26aeefc,railways,track,..,...,...,Natural Resources Canada
+ff3767cb7fdd61e129172a8cc1fa375f,bridges and tunnels,mixed,..,..,..,La Province de Québec

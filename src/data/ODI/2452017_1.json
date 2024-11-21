@@ -1,18 +1,11 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-route 138 / rue St-Paul,..,..
-route 138 / rue du Paul,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Saint-François,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-rue Notre-Dame / face à l'Église St-Joseph,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-rue Joliette / face au Sonic,..,..
-..,WASTEWATER STORMWATER,..
-Chemin de Joliette,BRIDGES AND TUNNELS,Footbridges
-Rang du Petit-Bois-d'Autray,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-rue Notre-Dame / face à l'Église St-Joseph,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-route 138 / rue St-Paul,..,..
-route 138 / rue du Paul,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+09336406e89e57b3f132a8205b471751,telecom,tower,...,...,...,Natural Resources Canada
+0ef418742297dc08213f1c0dae32c127,oil and gas,pipelines,..,..,...,Natural Resources Canada
+15b63338aa21b6b8114edcbaaba42161,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+323b8092b177f7f0236cf5bcbe72d8a1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+3ab939454f509bd04265ff18592add6c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+3cb290c015bc04932f681170c15c1325,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3f01def787753d35b3aed29b78a399a7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8c7f0284a86836145299b1e938998541,bridges and tunnels,mixed,..,..,..,La Province de Québec
+d36fd6eae8dc0048c7328ccf535c0bee,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e084a85e2580d9365a65e13f6b4c9fda,wastewater and storm water,facilities_waste,Usine D'épuration Des Eaux Usées,"Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Lagoon,Environment and Climate Change Canada

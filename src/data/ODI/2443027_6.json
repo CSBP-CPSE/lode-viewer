@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-boul. de l'Escadrille / des Pèlerins,..,..
-Place Dussault,..,..
-École Jean-XXIII,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-boul. Jacques-Cartier Nord / Malouin,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-de Savoie / du Poitou,..,..
-Windsor / N.-D.-Mères,..,..
-Beaudoin / Saint-Jean-Baptiste,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Hériot / du Haut-Bois Sud,..,..
-École Sacré-Cœur,..,..
-13e av. Sud (no.16),..,..
-Boul.Portland (face au 4545),..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-de North Hatley / de Sainte-Catherine,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-Magloire / de la Pépinière,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-CHUS Fleurimont (Résidences),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Bowen Sud / Woodward,..,..
-boul. de l'Université / du Montagnais,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Université de Sherbrooke - Quai C,..,..
-Albert-Dion / Venise,..,..
-de Rouen / Chalifoux,..,..
-des Rocheuses / King Est,..,..
-..,PEDESTRIAN AND CYCLING,biking
-Beckett / boul. Jacques-Cartier Nord,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Kennedy Sud / Biron,..,..
-..,PEDESTRIAN AND CYCLING,biking
-Place des Congrès,..,..
-Craig / de l'Union,..,..
-..,PEDESTRIAN AND CYCLING,biking
-du Conseil / 13e av. Sud,..,..
-Parc de la Plage-Municipale,..,..
-Anémones / Tournesols,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+c59adcea8b66458414d16686ab11e3ec,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ca54bd7207b260e9ac4f3d98e3f991e5,railways,track,..,...,...,Natural Resources Canada
+caaed0c64cc8da6796f231dbf1c9947d,railways,track,..,...,...,Natural Resources Canada
+cb899d95c16edc09ed556ac779581281,railways,track,..,...,...,Natural Resources Canada
+cbbdeecd086fdee7e9f3c7aa22e0114d,telecom,tower,...,...,...,Natural Resources Canada
+cc1187adca9459d9182b3cc31a5f30ee,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cc7d1fe825cb71e92757eab32f590e25,telecom,tower,...,...,...,Natural Resources Canada
+cde501ae8ea594ff2f6cd4c8ec59ef9c,oil and gas,pipelines,..,..,...,Natural Resources Canada
+cdf8fb03a7cb4df56275c778993a56c4,electric grid,power_plants,..,...,...,Natural Resources Canada
+cee4cf5d6255617dc99963b66c1cec82,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d0e5f434df32db32f197de44340962fb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d0fee2828dbce273fd3e2e3dc7dcbbe1,railways,track,..,...,...,Natural Resources Canada
+d172a879768004550bd5af612773c44d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+d19b1c12ad247c40781be2acb99e543f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d221c599875b273ff8f2f922febced35,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d238acce1be9a2aec3d1fcde2d91b352,railways,track,..,...,...,Natural Resources Canada
+d2ee74a20f97ab9f8a1a6e28ce39bf90,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d337855b6ed4767b806f1604a8ce9653,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d3a6600464c295d6e246ea89baa9f45b,wastewater and storm water,facilities_waste,Station D'épuration De Rock Forest,"Grit Removal, Screening, Activated Sludge, Chemical Precipitation (Phosphorus), Other Treatment, Disinfection",Unclassified,Environment and Climate Change Canada
+d3d8debea0fd36d1481933d1093e3cc0,low carbon,charging_stations,Ville De Sherbrooke - Base De Plein Air André-nadeau,...,...,Government of Quebec
+d48b9583cba889ca2e4d4b647764674c,railways,track,..,...,...,Natural Resources Canada
+d5e03869fdc32cc12601f86f1750c8ef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d68547ae5bc996e926c4ef357df69f17,railways,track,..,...,...,Natural Resources Canada
+d6deb62107e420a72414474d931c50d2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d75e7f9b638c57d07688d73cd4e6bfe4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+d807ea80665d45ada56aa580fa70c5d3,low carbon,charging_stations,Ville De Sherbrooke - Parc Du Mont-bellevue,...,...,Government of Quebec
+da434d848031aebcf084584204172add,bridges and tunnels,mixed,..,..,..,La Province de Québec
+db392be1e10d8d278e3fbb152dc281ce,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+dbcf1f4e5218457cbdbab9479ea1e9d8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+dcde5b76faf92cd37d0ca2ba1eb15253,low carbon,charging_stations,Brcc - Université De Sherbrooke,...,...,Government of Quebec
+ddefca421cfed4c18e64b09e3823ac1a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ddf92bd6a48a178bd0d123903faf17f7,low carbon,charging_stations,Ville De Sherbrooke - Stationnement Wellington Sud - Ss1,...,...,Government of Quebec
+de62768c2f8435d3f2703e138b6563b7,low carbon,charging_stations,Ville De Sherbrooke - Parc Belvédère - Bur. Arr. Des Nations,...,...,Government of Quebec
+e0566a89fdeae04bf4862205f02c0924,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e0d1a52a1631fc860213e826adeb5a8c,low carbon,charging_stations,Brcc - Sherbrooke - Quartier Santé,...,...,Government of Quebec
+e0ef74a9d09b249bf03bfb6119b7d3ad,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e3972a653a8e0b3f1bac237d4efafd15,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e3f0d65bece4ab2247d5abc023fde15d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e40d7bfc58bc118724cd77f7fcff8dd8,low carbon,charging_stations,Cégep De Sherbrooke - Pavillon 2,...,...,Government of Quebec
+e4775f447401930ccf6e98f17101bc72,low carbon,charging_stations,Csrs - Centre Du 24-juin,...,...,Government of Quebec
+e50a664c12584d7b8c9170f59e6e95ee,railways,track,..,...,...,Natural Resources Canada
+e5ca95f504592bae5509b1d34b6842b5,railways,track,..,...,...,Natural Resources Canada
+e653b07f99ce3af4db9bee2c4bac7872,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e66e883e20674d8cc4958ec5fbc6db4f,telecom,tower,...,...,...,Natural Resources Canada
+e6db32a1e3d40b6bf5da03ce4677f5b7,telecom,tower,...,...,...,Natural Resources Canada
+e753601c77bb0feb3097850f19d66f3d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e7943c17d131fe03a9c5256422b4e7cb,railways,track,..,...,...,Natural Resources Canada
+e8187148fdd79df29eea94d45dd258ec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e90978b3a93de235b3677708f93d986c,bridges and tunnels,mixed,..,..,..,La Province de Québec

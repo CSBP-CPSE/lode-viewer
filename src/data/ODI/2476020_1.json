@@ -1,34 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Principale,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Chemin Bethany,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue d'Argenteuil,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de Dunany,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Thomas-Gore,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Autoroute 50,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Rivière-du-Nord,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 329,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Millway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue Hamford,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0242aabe4856e4217825aeecd74624a4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+044f3c966fb9921f5309ac8096ca1fd7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+09d127d261c00aaa18d24b236b00ded0,low carbon,charging_stations,Brcc - Lachute - Petro-canada,...,...,Government of Quebec
+0a6ad2b59a4680eefdae8e3f56a61117,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0daf514927fa3c28af3cbd3ec6d0260b,railways,track,..,...,...,Natural Resources Canada
+0e11fffbfab89d651f3084c37b44f748,wastewater and storm water,facilities_waste,Étangs Aéré Lachute,"Grit Removal, Screening, Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+130b205b9c0fb24025c81dd5e7f3a150,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+14a0bf80304a79895c2ef7dedbeacc33,railways,track,..,...,...,Natural Resources Canada
+1b6a617303bd1d9144a88207eafdb74c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+21fc6292b69fd0bf4a70a894565b3d68,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+28e1bbf1a14e939385dc0393a9c9f324,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2e271541a268d7d8055a4c8bd474268c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+30225252e6322032f857c368ea80514b,railways,track,..,...,...,Natural Resources Canada
+35889c10ead945593321194d92242846,telecom,tower,...,...,...,Natural Resources Canada
+3b4efe067d870ae51d3f2df6f0fecfd6,railways,track,..,...,...,Natural Resources Canada
+3ef71cb11babdc4799cc530b66cf5666,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+44b2d0bcced91ffaa2d88c2ae29520b8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+466450d2b63bd5246d50d58b33ed1322,railways,track,..,...,...,Natural Resources Canada
+4ab1e63b6bbae05afb5cb1a117e3c471,low carbon,charging_stations,Mrc D'argenteuil - Bureau,...,...,Government of Quebec
+505a3bdff3bc468d99b57a3220099be6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+59aee72750a723b64b1c2820d99b15cd,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5cb2ed72c233dbd0f6054efd0fdb9fd3,airports,...,Lachute Airport,small_airport,...,OurAirports
+5f57920c5d92c63bc90d87c468d5f278,electric grid,power_plants,..,...,...,Natural Resources Canada
+69cf9276d71ec14ec82b4d0c95648b14,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6a032f1379a6be229f0e438f8d057cd5,railways,track,..,...,...,Natural Resources Canada
+6e2e7d26ff30dc9d85f9bf948ba105d1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6ec29341c4ff263832291a1040aed9ed,bridges and tunnels,mixed,..,..,..,La Province de Québec
+71e81ab040fabf35a0d74fe9a2bc5c06,low carbon,hydro,Ayers-1,...,...,World Resources Institute
+73396c98a367584efb8df756e4ec3302,low carbon,charging_stations,Desjardins - Argenteuil,...,...,Government of Quebec
+75a625592c0446dba8f3fb48862d65f8,railways,track,..,...,...,Natural Resources Canada
+7f123041aede041ccfe3f18d744dd983,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+7fca788273fd856e0be758a4db8372cf,railways,track,..,...,...,Natural Resources Canada
+7fe33586ebfc0873680a903e94d1bfb6,low carbon,hydro,Ayers-2,...,...,World Resources Institute
+8cbb6189e22890f3bb7df305443706a3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9305df9930ce3f4505a8d894200fc8a4,solid waste,landfill,Let De Lachute,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+9341dfd7fc5447c631b0819f89a409ec,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9370e35c40195b2db141f6861c8ee6c5,bridges and tunnels,mixed,..,..,..,La Province de Québec
+973d6b5b971b3c1873afde4adc657b78,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9858c0f84b78da3c814011f89ffa359c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9b4a832b1cf29f9056bd9ee745ddb383,low carbon,charging_stations,Mrc D'argenteuil - Aréna De Lachute,...,...,Government of Quebec
+acd05b4fbebffeddeda7739a0ef04519,solid waste,landfill,Régie Intermunicipale Argenteuil Deux-montagnes (riadm),Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+ad76451aaafcbe5b0be0e53e9734aa4e,electric grid,power_plants,..,...,...,Natural Resources Canada
+b326c5cbed25b2fd4d9f1b21f5170670,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b74cf316e3d2181a3702405695f6ea20,solid waste,landfill,Lachute Landfill,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+ba18e5c76ce936eb580c5b76af435dbc,railways,track,..,...,...,Natural Resources Canada
+bc2ca7cace9e110ba0627ef7b6843ac1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+bf489a44ab9c4c11759af32506ebdb1d,railways,track,..,...,...,Natural Resources Canada
+ca27875f04645be07fe8d928aad657a5,low carbon,biomass,Lachute Lfg,...,...,World Resources Institute
+d588d37949f5d0b10c7576ccc4d992ea,bridges and tunnels,mixed,..,..,..,La Province de Québec

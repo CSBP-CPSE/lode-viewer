@@ -1,39 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 167 Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route de la Baie-James,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Scierie-Audet,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+76e4d262e1b45476a7a358f20f5c4086,railways,track,..,...,...,Natural Resources Canada
+78c2d1934144c31ad49a05e0d53c0f7c,low carbon,hydro,Laforge-2,...,...,World Resources Institute
+78c51042d7c614e9cef3109051a7edd8,railways,track,..,...,...,Natural Resources Canada
+7a431b6fa7cab493f552f2680d32186e,telecom,tower,...,...,...,Natural Resources Canada
+7a5d80f0dca3d732eaba1ce745d0c10b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7c30b16eba1290e0a6ef542424a5f8e9,telecom,tower,...,...,...,Natural Resources Canada
+7cb3a5f7c3e5cb5471e5dd90b1b46e9c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7d0154788445d2c8423168ce848725e2,low carbon,hydro,La Grande-2-a,...,...,World Resources Institute
+7defac25dd40c0d14e2fe231b24799a6,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7e8d739b88889439e8ee981e23b54af5,telecom,tower,...,...,...,Natural Resources Canada
+7f40715430487571f0436bff8bac6358,bridges and tunnels,mixed,..,..,..,La Province de Québec
+811189805e011325f5bf3f863d8b8356,airports,...,Matoush Airport,small_airport,...,OurAirports
+816fc6f659358fd862216698c608c53a,low carbon,hydro,La Grande-4,...,...,World Resources Institute
+81703a3903e69301f81a824aa3543007,telecom,tower,...,...,...,Natural Resources Canada
+81e0ab7b0c04bb93e6c6356f5916f3c7,bridges and tunnels,mixed,..,..,..,La Province de Québec
+828f9169bca121955552ee6b5254387b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+83d4c9dd238434757a40421f33f52a25,telecom,tower,...,...,...,Natural Resources Canada
+84114f60022dbf1dcb690d03c3ba9c41,telecom,tower,...,...,...,Natural Resources Canada
+844830c7e17cec7a771ed9efdb454b79,bridges and tunnels,mixed,..,..,..,La Province de Québec
+84abce76df77fe0bd0bde247a8e7a646,electric grid,power_plants,..,...,...,Natural Resources Canada
+854616e61912c7c0cf906f0a2e7f5359,bridges and tunnels,mixed,..,..,..,La Province de Québec
+85bced8de637d212cb9cc03c79a2fdf9,airports,...,Rivière Temiscamie Floatbase,seaplane_base,...,OurAirports
+85de00b03bf853b079aa2075932a5f45,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8647b2a951ba06d5684cf0009d02083a,telecom,tower,...,...,...,Natural Resources Canada
+865367e283bb809754cdd6f9476e0b9b,low carbon,hydro,Barrage De La Lemare,...,...,Hydro Quebec
+870b09303142820774768e2a8d0964fe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+87610ac2e839133b8ac198d0da2c39a0,airports,...,La Grande Rivière Airport,medium_airport,...,OurAirports
+87e6c0583eb4107fd46d0658939efd3a,telecom,tower,...,...,...,Natural Resources Canada
+882d2496d5f8c6402643e1d86dd9312f,telecom,tower,...,...,...,Natural Resources Canada
+88947e8cf2147a6f58146292e2359aeb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+88c1403dec0205f6fe3058c4941a2367,bridges and tunnels,mixed,..,..,..,La Province de Québec
+88d4658090d309b5d5bee7c03b5f7030,electric grid,power_plants,..,...,...,Natural Resources Canada
+88e53b08f03fca90928dbba2bc34427c,telecom,tower,...,...,...,Natural Resources Canada
+8acd1f98a6db8629e700a3302946e5ad,telecom,tower,...,...,...,Natural Resources Canada
+8b46588149f0c838330703d685bbff1c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8b8f0bf99db941a5dcb2f2523405fbdf,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8bf08b0436b76d095967944a0eab85ee,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8c1fdc88e644c13757e651c87ebbecc5,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8c4b79e3da10de14cabe763756e8ce0e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8c6afb1285b4bc73be3acc44bdd4de8d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8ceb57e6dc27c12dda27f620565c99ce,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+8d19912289d5f2e9634a795abb48d21c,telecom,tower,...,...,...,Natural Resources Canada
+8d7905b05845bba516f5b8e6ffa1d746,telecom,tower,...,...,...,Natural Resources Canada
+8d9d2b43c0627e8f23fde58594951bc4,telecom,tower,...,...,...,Natural Resources Canada
+8ec3ff32127bd46a8ade93945c57b63f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8eca4055647d1aa3d4ac753035fcd146,bridges and tunnels,mixed,..,..,..,La Province de Québec
+91799212d3e4597cc3e5aae3bc981034,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+92500bda5b2702b939250a130cf9fcf7,railways,track,..,...,...,Natural Resources Canada
+92a411935227556174b76e723b6a82cf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
