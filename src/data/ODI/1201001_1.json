@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Little Goose Creek Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Barrington Service Road Multiplate #3,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Cape Negro Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Blanche Road,BRIDGES AND TUNNELS,Footbridges
-Highway 103,BRIDGES AND TUNNELS,Footbridges
-Popes Road,BRIDGES AND TUNNELS,Footbridges
-Downey River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-McGill Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Big Goose Creek Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Twin Culverts,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Hilbert Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-East Mill Race Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Oak Park Underpass,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Forbes Point Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Scott's Mill Road Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Hamilton Branch Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Hardings Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-Upper Clyde Road,BRIDGES AND TUNNELS,Footbridges
-Haulover Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Barrington River  Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-"West Branch, Barrington River",BRIDGES AND TUNNELS,"Bridges, Culverts"
-Hibbards Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Daniel's Head Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Box Culvert (Woods Harbour) Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Two Brothers Culvert (Service Road),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Barrington Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Fresh Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Goose Lake Extension,BRIDGES AND TUNNELS,Footbridges
-Downey's River   #2 Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Barrington CNR Multiplate #1,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Old Hay Road,BRIDGES AND TUNNELS,Footbridges
-Port Latour Road,BRIDGES AND TUNNELS,Footbridges
-Daniels Head Road,BRIDGES AND TUNNELS,Footbridges
-Oak Park Connection,BRIDGES AND TUNNELS,Footbridges
-Kenny Road,BRIDGES AND TUNNELS,Footbridges
-Barrington Service Road Multiplate #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Shag Harbour Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Middle Clyde Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Hay Road Multiplate,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Bell's Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Pleasant Creek Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-South Side Beach Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 3,BRIDGES AND TUNNELS,Footbridges
-MacDonalds Creek Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Two Sisters Culvert (Service Road),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Knowles Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-McGills Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+025a75ce430304f105e14a334c7401da,telecom,tower,...,...,...,Natural Resources Canada
+05d00fd2ff39f5e0cdbfa617ac84e919,bridges and tunnels,bridge,Shag Harbour Bridge,..,..,Province of Nova Scotia
+08c0b38502054c65fc8166becedc7d3c,ports and marinas,mixed,Falls Point,Core Fishing,...,Fisheries and Oceans Canada
+100a4ab26c52592fcc40baed95392dde,bridges and tunnels,bridge,Box Culvert (Woods Harbour) Bridge,..,..,Province of Nova Scotia
+185a4f30eb10103bfb70a56d98d4560f,ports and marinas,mixed,Smithsville,Non-Core Fishing,...,Fisheries and Oceans Canada
+1a0525bd55e98a8109d9f1606870b9ff,ports and marinas,mixed,South Side,Core Fishing,...,Fisheries and Oceans Canada
+1c82f030301ddb2b825b83a067dbb13a,bridges and tunnels,mixed,Two Sisters Culvert (Service Road),..,..,Province of Nova Scotia
+2021a251d5f6cb53b5341c2e8f103c42,ports and marinas,mixed,Cripple Creek,Core Fishing,...,Fisheries and Oceans Canada
+2076a9d8e0c73411e659a989c98af11b,bridges and tunnels,bridge,Bell's Bridge,..,..,Province of Nova Scotia
+21d64bafee2a4ba6423bc950e34699d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+22cd32ce14a929843f57a39b4a7a0fbf,wastewater and storm water,facilities_waste,Bridgewater Wastewater Treatment Plant,"Grit Removal, Screening, Primary Sedimentation/Clarification, Skimming, Rotating Biological Contactor, Disinfection",Unclassified,Environment and Climate Change Canada
+2c883157f895b6634aeed224e2821a89,telecom,tower,...,...,...,Natural Resources Canada
+32c7b65175ade760c1f881d435cb2581,bridges and tunnels,bridge,Hamilton Branch Bridge,..,..,Province of Nova Scotia
+36cc0238839995c37cef4e179d850ae1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3726e3776a1f35cac274dd95b1cb5970,bridges and tunnels,mixed,Barrington Service Road Multiplate #2,..,..,Province of Nova Scotia
+377ee7b9e96328b437f167f04b9ee51f,bridges and tunnels,bridge,Middle Clyde Bridge,..,..,Province of Nova Scotia
+3788022b74dbd0d2368d946939995b5f,electric grid,power_plants,..,...,...,Natural Resources Canada
+395bf056e72cb9a602d4d3742fc38eb1,telecom,line,...,...,...,Natural Resources Canada
+3f14e58467652fd22595ec22f99aab89,ports and marinas,mixed,Port La Tour,Core Fishing,...,Fisheries and Oceans Canada
+447885820c5a812e5e2f933a4e5b6956,low carbon,wind,Barrington,...,...,"Government of Canada, Natural Resources Canada"
+492c4fb9c9d937cfd61af5148b6327c0,ports and marinas,mixed,Upper Port La Tour,Core Fishing,...,Fisheries and Oceans Canada
+49e8547f445cf53eda78f2ec5e7804ca,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+4c5fa81f1a559ccffc2cc9796b6673a2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+50d59233297b334802b0c656672b7623,bridges and tunnels,mixed,"West Branch, Barrington River",..,..,Province of Nova Scotia
+510f69cb2034a61ab4699e66319275da,wastewater and storm water,facilities_waste,Barrington Sewer Treatment Facility,"Grit Removal, Screening, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Oxidation Ditch",Unclassified,Environment and Climate Change Canada
+5142944b117ab2bd2727e96523efe6c6,bridges and tunnels,bridge,Fresh Brook Bridge,..,..,Province of Nova Scotia
+5507bc62533e189843653c0897e8a088,telecom,tower,...,...,...,Natural Resources Canada
+55e14283712b6b89714c1b17b90c8143,ports and marinas,mixed,Newellton,Core Fishing,...,Fisheries and Oceans Canada
+5adb9a23ef9a47fb729287d86909c28a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5ade100b30bce75937b027192c0a28aa,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+5becd46594c23abd39017bf84e4039be,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+611919faf426036fae14e9e95632c235,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+61d6d2b76f0aac7c1aa4084f2d0aa742,bridges and tunnels,mixed,Hay Road Multiplate,..,..,Province of Nova Scotia
+67d6af784c0d502c08d5aa7af79e4ff4,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+687d22ac9a7e5085690ef55470f5fc41,bridges and tunnels,mixed,Barrington Service Road Multiplate #3,..,..,Province of Nova Scotia
+6b63be655a3805e9b0c235710641047b,ports and marinas,mixed,Shag Harbour (prospect Point),Core Fishing,...,Fisheries and Oceans Canada
+6c40575025c22433ad8373073a0aa27d,telecom,tower,...,...,...,Natural Resources Canada
+709bf6d7906ede140d3ca1c11dbe91ab,bridges and tunnels,bridge,Hardings Brook Bridge,..,..,Province of Nova Scotia
+73cd5d5e34b684d95b5453110c4fb9f4,bridges and tunnels,bridge,South Side Beach Bridge,..,..,Province of Nova Scotia
+756b396b66b034b0248169458b416a4e,ports and marinas,mixed,Shag Harbour,Core Fishing,...,Fisheries and Oceans Canada
+774120d11312b7f3ccce0467a688de73,bridges and tunnels,bridge,Barrington Bridge,..,..,Province of Nova Scotia
+81561a286d259f20f145f9745b382011,bridges and tunnels,bridge,Barrington River  Bridge,..,..,Province of Nova Scotia
+82238519f8065013d4da782505a09f10,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+89c69f7f8945c61452a84b7e32b394c7,low carbon,wind,Barrington (watts Wind Ii),...,...,World Resources Institute
+89dac6e3ebcafad213c9ee8447ecede6,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+8ad7bf002dc37d592fb961d0eeff3875,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+8b7a85bccc60b85feda2b64b89a4c157,bridges and tunnels,bridge,Downey River Bridge,..,..,Province of Nova Scotia
+8bc62fecf8296ffa1af50e60963425b6,bridges and tunnels,bridge,McGill Bridge,..,..,Province of Nova Scotia
+8d2ef2b22a402b1de4e7d1b4bb08e1c3,bridges and tunnels,bridge,MacDonalds Creek Bridge,..,..,Province of Nova Scotia

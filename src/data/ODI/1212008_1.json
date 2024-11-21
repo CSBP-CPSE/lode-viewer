@@ -1,11 +1,18 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Picken Street,BRIDGES AND TUNNELS,Footbridges
-HAMILTON ROAD O/P (WB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-HAMILTON ROAD O/P (EB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-NORTH BEAR BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MIDDLE RIVER BRIDGE (EB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Pump Road,BRIDGES AND TUNNELS,Footbridges
-Highway 104 WB Exit 21 On Ramp,BRIDGES AND TUNNELS,Footbridges
-MIDDLE RIVER BRIDGE (WB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 104,BRIDGES AND TUNNELS,Footbridges
-Wallace Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+2172e940189c8ecd7a6960093b17e9df,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+259686e697a49a737808840c8ebef4c4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+47ff007f224556bdc6612608af06e293,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+52cfd9d4d12aa3a9df5d50a6d7c8d8a9,bridges and tunnels,mixed,HAMILTON ROAD O/P (EB),..,..,Province of Nova Scotia
+56af6d6d53a984f02b97ecac16111c6a,bridges and tunnels,mixed,HAMILTON ROAD O/P (WB),..,..,Province of Nova Scotia
+5c00613bbac4b2b06297086df08549c9,bridges and tunnels,bridge,ACADIA AVENUE BRIDGE,..,..,Province of Nova Scotia
+64b6ba124161b1c3b69c17157f22703b,bridges and tunnels,mixed,MIDDLE RIVER BRIDGE (WB),..,..,Province of Nova Scotia
+69f2facbfd7e9e97b1d9e34733a76fd2,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (6-15m diameter) point,Lagoon,Government of Nova Scotia
+6dd9b2c5a4c5b4ecda7d5bdafaff19dd,bridges and tunnels,mixed,WALLACE RD,..,..,Province of Nova Scotia
+7428023b4e804e57af355b5bae7af974,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+75adfa3c6fc79ab2bbd6bc8396cbbd25,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+c94b76a60236b563439167916f581199,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+def8e2909bbcbc52c7e18ea18c075fb3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e7bed10f6d49af0f44a25a72f43a99f9,bridges and tunnels,mixed,NORTH BEAR BROOK,..,..,Province of Nova Scotia
+edc38fd9690df2a8f515c45e86cd05ad,bridges and tunnels,mixed,MIDDLE RIVER BRIDGE (EB),..,..,Province of Nova Scotia
+f3fff051e76fd8c47ea456e778061831,airports,...,Westville Community Helipad,heliport,...,OurAirports
+fe9cdc21af6ad40813042bc7eded8ad3,bridges and tunnels,mixed,AUBURN CEMETERY,..,..,Province of Nova Scotia

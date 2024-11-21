@@ -1,26 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Millers Bridge Road,BRIDGES AND TUNNELS,Footbridges
-Port Clyde Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Clinton Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Powers Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Port Saxon Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Good Dick Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Tom Tigney Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Birchtown Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Ogdens Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Beaver Creek Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lewis McKay Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Port Clyde Road,BRIDGES AND TUNNELS,Footbridges
-Brier Hill Road,BRIDGES AND TUNNELS,Footbridges
-Blue Hill Bog Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Round Bay Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Geddes Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Walls Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Welshtown Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Sable River Basin Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-McGillis Island Road,BRIDGES AND TUNNELS,Footbridges
-Lonesome Hunters Inn Lane,BRIDGES AND TUNNELS,Footbridges
-Barclay Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Hardy Mill Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Loop Of Highway 103 Loop,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+6cbee2b01865408b1a76144a5d3c5b61,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+6df2afeb663cc8d0dce2712993a87504,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+728b4bbb5b0e5d07135354f35989b532,bridges and tunnels,bridge,Boy Scout Bridge,..,..,Province of Nova Scotia
+737ef9351d01c40cf6529871b53d7111,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+74560f234dddaece2164d30744db910e,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7795a13360f7385fa317dcb410d12239,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7b4d97041ff35c0c697ef742f5f0797e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+82851cef6f2359de10e9840be5fcc15a,bridges and tunnels,bridge,Misery Lake Brook Bridge,..,..,Province of Nova Scotia
+82afddb79805129ef1a1139577eaa2e8,bridges and tunnels,bridge,Beaver Creek Bridge,..,..,Province of Nova Scotia
+83e68d1ffcc8d4c5047414cd22df83c1,bridges and tunnels,bridge,Clyde River Bridge,..,..,Province of Nova Scotia
+84060eda4ecd3e055ac30580b402648f,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+856df3b49a48aa13abb9a82809bed2fc,bridges and tunnels,bridge,Purneys Brook Bridge,..,..,Province of Nova Scotia
+9088d7bec0bd78dbed6e0cb8333741af,bridges and tunnels,bridge,Beaver Dam Bridge,..,..,Province of Nova Scotia
+981ee52de9d9ce07130436a187a0e212,bridges and tunnels,bridge,Tom Tigney Bridge,..,..,Province of Nova Scotia
+9a807c26a94034357f1187e2c5b9ed9b,bridges and tunnels,bridge,Round Bay Bridge,..,..,Province of Nova Scotia
+9aa83c63e0a6c17fba5839da77faa389,ports and marinas,mixed,Lower Sandy Point,Core Fishing,...,Fisheries and Oceans Canada
+9e3c793aedfefcbf1ab45c7726e422c8,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+a176956e8765dde7ef4555806cd4bb34,bridges and tunnels,bridge,Big Bridge,..,..,Province of Nova Scotia
+a4086dc23ba302f492585c57e034ef90,bridges and tunnels,bridge,Phillips Bridge,..,..,Province of Nova Scotia
+a62959729063233b5bcb4d01373202e9,bridges and tunnels,bridge,Freshwater Brook Bridge,..,..,Province of Nova Scotia
+a73309b11136d5f861760ebaf197df5b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b4041aefe20fd63b972908badb022f80,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b4d3266c1753c8e40fbb8b93f7b2a59a,bridges and tunnels,bridge,Stewarts Brook Bridge,..,..,Province of Nova Scotia
+b8b789d17f33022b615b60a5d1c510c6,telecom,tower,...,...,...,Natural Resources Canada
+b93086703509eac3d15cb07c412a8221,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bb9fdb710ac17625e6fadd89a75af9e6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+be9bf6bbfcb5c9037daa91f11885176b,bridges and tunnels,bridge,Barclay Bridge,..,..,Province of Nova Scotia
+c0b4ea0d5b6bfe2346a8c2fb01de46f6,bridges and tunnels,bridge,Milt Acker Bridge,..,..,Province of Nova Scotia
+c3c8cb19c996561657f615ebc17349c4,telecom,tower,...,...,...,Natural Resources Canada
+c909aea3c1d32ff3539425f7a12ae110,bridges and tunnels,bridge,Walls Bridge,..,..,Province of Nova Scotia
+ca0850aad72e226b52add3cad7e23ec6,ports and marinas,mixed,Lower Jordan Bay,Core Fishing,...,Fisheries and Oceans Canada
+cdd8ac112dc5ef0f7e2bbca49a55fd9d,airports,...,Shelburne (roseway Hospital) Heliport,heliport,...,OurAirports
+ce32e356561be05cb7dc5ae573ea7ecb,bridges and tunnels,bridge,Cobbscouch Bridge,..,..,Province of Nova Scotia
+cf095ed45795805f315be01a5f7acfad,bridges and tunnels,bridge,Shelburne Bridge,..,..,Province of Nova Scotia
+cfe5148eb3a7fd710ef0732096689b86,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d1edf156238f460bf1759938d0bf5ff1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d3f2d99f3de0dea7b8be03d413169c06,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d3fb7dfcc4b48285fa13f163a8f863cb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d4013cf823dcf34e783088ed61e79e0e,bridges and tunnels,bridge,Hemlock Creek West Bridge,..,..,Province of Nova Scotia
+d58f1c20826c10b870e6fbf824521513,bridges and tunnels,bridge,Birchtown Bridge,..,..,Province of Nova Scotia
+d8e569ec439e18515116a02aab2f4495,low carbon,hydro,Roseway,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+d953d424e522a9384ed7cc3c3cf6efb5,bridges and tunnels,bridge,Powers Bridge,..,..,Province of Nova Scotia
+da409f99013c9b5f1d2d78d8688ee848,ports and marinas,mixed,Ingomar (black Point),Core Fishing,...,Fisheries and Oceans Canada
+dc129bd59d6d94d0c99c35177c06c538,ports and marinas,mixed,West Green Harbour,Core Fishing,...,Fisheries and Oceans Canada
+dcb9920e1b6a8b9a1bdebeb3e93fa575,bridges and tunnels,bridge,Stokes Bridge,..,..,Province of Nova Scotia
+de733746cdfeec7d4e8bdfacb676bff1,bridges and tunnels,bridge,Jordan Falls Bridge,..,..,Province of Nova Scotia
+e04111d9bc841bfd065cf0ceeec349e0,bridges and tunnels,bridge,Holliver Bridge,..,..,Province of Nova Scotia
+e57ac768e3a674ae384e237131e82ea9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e5dc417b5fbd6df9439e8c1dd5a10711,telecom,tower,...,...,...,Natural Resources Canada

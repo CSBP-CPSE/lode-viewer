@@ -1,20 +1,32 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-POULAMOND BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-COFFEY BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-POIRIER BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WEST ARICHAT BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-PONDVILLE BEACH BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-POULAMOND #2 CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 206,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-BENOIT CREEK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-PETIT de GRAT BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Janvrin Harbour Road,BRIDGES AND TUNNELS,Footbridges
-MOUCLIERE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-RUISSEAU BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LATIMER'S CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Port Royal Road,BRIDGES AND TUNNELS,Footbridges
-Lake Road,BRIDGES AND TUNNELS,Footbridges
-Highway 320,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0671a05ce6d8f9137cbf361b040e7be2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+09831bf23095ee44cc16e26b6805cfb1,low carbon,wind,Isle Madame,...,...,"Government of Canada, Natural Resources Canada"
+0bace81507f686fa9e225c8b55eefca7,bridges and tunnels,culvert,BENOIT CREEK CULVERT,..,..,Province of Nova Scotia
+15eff0b0a02bbb38400718d350229aeb,bridges and tunnels,bridge,POULAMOND BRIDGE,..,..,Province of Nova Scotia
+22ad685ffa4e9c28be3e0c4e78cabfcd,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+465ae57fa4f16a49ab58ad03e59b6890,bridges and tunnels,bridge,COFFEY BROOK BRIDGE,..,..,Province of Nova Scotia
+48457dcafa6e5c328a5f3eb8dc66707d,low carbon,wind,Isle Madame,...,...,World Resources Institute
+5181442002a39c694c6e77100678871e,airports,...,Arichat (st. Anne Ladies Auxiliary Hospital) Heliport,heliport,...,OurAirports
+59e0b2c05637dc0c29f923057af33e54,wastewater and storm water,facilities_waste,Arichat Sewage Treatment Plant,"Screening, Primary Sedimentation/Clarification, Skimming, Extended Aeration Activated Sludge",Unclassified,Environment and Climate Change Canada
+5a517411d2a73ab3bb0b748338e4eb73,bridges and tunnels,culvert,LATIMER'S CULVERT,..,..,Province of Nova Scotia
+63e77f188e56b21d0c053a58135fdad1,bridges and tunnels,bridge,PONDVILLE BEACH BRIDGE,..,..,Province of Nova Scotia
+66048756db6263a79c520d117cd4d2cb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+677058d6874980cfbb8621fb46984ba6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+713b94d90081c080430abcd8c0f084dd,wastewater and storm water,facilities_waste,Petit De Grat Sewage Treatment Plant,"Screening, Primary Sedimentation/Clarification, Skimming, Extended Aeration Activated Sludge, Disinfection",Unclassified,Environment and Climate Change Canada
+7679a11d93a5b9b73822a0dbf408f693,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+860eb7421c7f6e7b4a9fcf7eaf7a90ca,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8e455c5568e6eb26720bdec217895344,ports and marinas,mixed,West Arichat,Non-Core Fishing,...,Fisheries and Oceans Canada
+8ffd2050108f9821d7acebd5bd014523,bridges and tunnels,bridge,POIRIER BRIDGE,..,..,Province of Nova Scotia
+9093b0692936e064678121c8af29f249,bridges and tunnels,bridge,RUISSEAU BRIDGE,..,..,Province of Nova Scotia
+93b37cb0c1a1641491948dfd9660b5c3,bridges and tunnels,bridge,WEST ARICHAT BRIDGE,..,..,Province of Nova Scotia
+9d2f5460f33abade2e70a1d77d26d156,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a967e92fe956711468a7b7dbfebf83f2,bridges and tunnels,bridge,PETIT de GRAT BRIDGE,..,..,Province of Nova Scotia
+ab9b18f59a5f3808ab55d4cab2d666ea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+af3663d1e18d2267bd63c6a3772f7666,electric grid,power_plants,..,...,...,Natural Resources Canada
+bcce89df3d1999bbf1f49087702d7b7b,telecom,tower,...,...,...,Natural Resources Canada
+c9618ad70bb2eba94061ab9448a3264d,ports and marinas,mixed,Little Anse,Non-Core Fishing,...,Fisheries and Oceans Canada
+ceafe8b7f93ecfa19afcd575ad35a39d,telecom,tower,...,...,...,Natural Resources Canada
+d80c678c5ed87e4a683f548baf4319dc,bridges and tunnels,bridge,MOUCLIERE BRIDGE,..,..,Province of Nova Scotia
+dccbae05531f9533b5c1bc663f85db40,ports and marinas,mixed,Petit-de-grat,Core Fishing,...,Fisheries and Oceans Canada
+e3d131e1a234d73be815932f3b5099a3,ports and marinas,port,Arichat Harbour,..,...,National Geospatial-Intelligence Agency (NGA)
+ebf06f9aa3bb2eafbee199e000d8af70,bridges and tunnels,culvert,POULAMOND #2 CULVERT,..,..,Province of Nova Scotia

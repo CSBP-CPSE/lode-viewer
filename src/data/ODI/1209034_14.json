@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-St Margarets Bay Rd After Crown Dr (6158),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Bedford Hwy At Kent Ave (6276),..,..
-Main Rd After Albacore Pl (8019),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Wright Ave Opposite McCurdy Ave (8611),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Wentworth Dr Before Dunbrack St (2000),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Armshore Drive,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Portland St Before Pleasant St (8039),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Bedford Hwy After Oakmount Dr (6260),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+58a9a85bd4143db1a0d433863a0606e6,railways,track,Rockingham,...,...,Natural Resources Canada
+58b91760c3a4ea1374c4c115a30421da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+58d073df52c0f6ad3ce9dd3df055049a,bridges and tunnels,mixed,LINDSAY BROOK #1,..,..,Province of Nova Scotia
+58d2cd27ff0e3442b025514d03986e0a,railways,track,..,...,...,Natural Resources Canada
+58d2d956eb06263afad65a49a92cd146,railways,track,..,...,...,Natural Resources Canada
+58fea6099a67005788e0b8a1b3a2b37a,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+5969cbd9f2208728cfcf2fc88196a370,bridges and tunnels,bridge,Pedestrian bridge over HWY 111,PDB,Footbridge,Halifax Regional Municipality
+599210d2b8f7dc54a7074441bec33b0e,railways,track,Rockingham,...,...,Natural Resources Canada
+59c68579cf098915b94caa61cf04c8f9,railways,track,..,...,...,Natural Resources Canada
+5a0472367acae084dcd43bc7d8303cce,bridges and tunnels,mixed,HAMILTON,..,..,Province of Nova Scotia
+5a3b7f863faa8d7f964011e0f578cc3a,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+5a3d9a7571538a29ea19e93b574857f7,bridges and tunnels,mixed,"LAKEVIEW R/R O/P, Highway 102 NB",..,..,Province of Nova Scotia
+5a4fca0ddb3f018bc05b1b2c06f5451b,bridges and tunnels,mixed,"HAMMONDS PLAINS ROAD, Highway 102 O/P",..,..,Province of Nova Scotia
+5a68b1b9044f31ada2c71077fb9784aa,railways,station,Halifax,...,...,Natural Resources Canada
+5a83a84143bf03dbbb59276d0d1fbec4,railways,track,Deepwater,...,...,Natural Resources Canada
+5a84e52a2bea145379eaee93c954ced8,railways,track,Rockingham,...,...,Natural Resources Canada
+5abfe8b49c796d145d35a76ef94a02ab,electric grid,power_plants,..,...,...,Natural Resources Canada
+5acfe76667ac5cf520f3b3f89fd199fa,bridges and tunnels,bridge,CHHS Pedestrian Path,PDB,Footbridge,Halifax Regional Municipality
+5b11af5abfd93edac9b270eb3ff256c1,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+5b47f243705088882642e51fb50f5883,bridges and tunnels,culvert,Tobin Drive Drainage Structure,BRCUL,Culvert,Halifax Regional Municipality
+5b9ade1ac4f8bdb1dc48272448575718,ports and marinas,port,Musquodoboit Harbour,..,...,National Geospatial-Intelligence Agency (NGA)
+5bc7551072a5a683aca636b6a3b044b4,railways,track,..,...,...,Natural Resources Canada
+5be9cb07262c22600c74ca645176bb84,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5c1b36f8b9c2ed81c4eb20251e173ee2,bridges and tunnels,mixed,"Hwy 102 to NW Arm Drive Ramp, Hwy 103 Underpass",..,..,Province of Nova Scotia
+5c49640b28b4e2d76bee4cf9988d5f6f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5c5748db506964563242ac7184730906,ports and marinas,mixed,Windsor Junction Community Centre Boat Launch,BOL,...,Halifax Regional Municipality
+5c5a29d579eacfd1d7b1432cede0c8ae,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+5c65415174d3454616194642db00863d,telecom,tower,...,...,...,Natural Resources Canada
+5c93485d26bb4b75f41a8cb4584a3d35,bridges and tunnels,bridge,Windmill Road CN Overpass,VHB,Vehicle Bridge,Halifax Regional Municipality
+5c9fe0068e9c52a5ee4688aef62e7c96,telecom,tower,...,...,...,Natural Resources Canada
+5d2c063b292fa8c3aa3288aed5991c0a,bridges and tunnels,mixed,NAUGLER'S SETTLEMENT,..,..,Province of Nova Scotia
+5d3a23ee2742e2aaec5e8968c910c72e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5d467e6b18b2c9a05e4450c6eae2156b,bridges and tunnels,bridge,Cole Harbour Commons near #228 John Stewart Drive,PDB,Footbridge,Halifax Regional Municipality
+5d88aa8f7a667fb6453c7f4b1a0e15e4,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+5ddf6f8e1f43c0750dba741f3c7b0939,bridges and tunnels,bridge,The Bridge of Courage,PDB,Footbridge,Halifax Regional Municipality
+5e279d49f6b4552da3541e89114fd531,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+5e3c804c2cdca1d47c81ad35ffc255e9,electric grid,power_plants,..,...,...,Natural Resources Canada
+5e4ebe11996481099b5888594a1573ce,bridges and tunnels,culvert,Bella Vista Drainage Structure,BRCUL,Culvert,Halifax Regional Municipality
+5e5fbedf7a629a0c2681489222455b2d,railways,track,..,...,...,Natural Resources Canada
+5e82459c994f8ab08d39689b49f37034,railways,track,..,...,...,Natural Resources Canada
+5eb52d5c1fda8b281145ba5a187ce2d6,solid waste,landfill,Highway 101 Landfill,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+5ed3a3eb68702504c4d2f16613ba356e,bridges and tunnels,bridge,Monarch Rivendale North,PDB,Footbridge,Halifax Regional Municipality
+5ee5bfe2f52758170caaec2b07d5edaa,bridges and tunnels,bridge,Hines Road Bridge,VHB,Vehicle Bridge,Halifax Regional Municipality
+5f1f3e615ac7cd418b283c2eff88da88,bridges and tunnels,bridge,..,PDB,Footbridge,Halifax Regional Municipality
+5f5bfaca01591d786d8009d2a8d96b30,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f6ba26b57386936e425fe23297d9089,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+5f7aaef3f4cf6cfdf12d890f6ff2e2e2,railways,track,..,...,...,Natural Resources Canada
+5f81f77b37f474db2e8ba8734cdb0b52,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+5f829eb72371f3f2c41fd0d370abbaba,telecom,tower,...,...,...,Natural Resources Canada

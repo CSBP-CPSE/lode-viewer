@@ -1,20 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-EAST RIVER BRIDGE ON 104 (WB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 104,BRIDGES AND TUNNELS,Footbridges
-Bridge Avenue,BRIDGES AND TUNNELS,Footbridges
-Highway 104 EB Exit 24 Off Ramp,BRIDGES AND TUNNELS,Footbridges
-NEW GLASGOW RR U/P ON 104 (EB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Westville Road,BRIDGES AND TUNNELS,Footbridges
-FOORD ST O/P ON 104 (EB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-NEW GLASGOW R/R U/P ON 104  (WB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Drummond Road,BRIDGES AND TUNNELS,Footbridges
-BEAR BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-EAST RIVER BRIDGE ON 104 (EB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-George Street,BRIDGES AND TUNNELS,Footbridges
-North Main Street,BRIDGES AND TUNNELS,Footbridges
-FOORD ST O/P ON 104  (WB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-ACADIA AVENUE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Acadia Avenue,BRIDGES AND TUNNELS,Footbridges
-STELLARTON INTERVALE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ALBION MINES,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00424f6da5beda8e9ce03ee217fc0a64,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0ac546b7ca3dc251bea332ea194f1c33,bridges and tunnels,mixed,NEW GLASGOW R/R U/P ON 104  (WB),..,..,Province of Nova Scotia
+0ba240d03d7f9cffc7f15f77fe43b123,railways,track,..,...,...,Natural Resources Canada
+147ae199b0096e8eb27aaef6092189d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+14b5e87fe108dd8e9d0af3463c3f09bd,railways,track,..,...,...,Natural Resources Canada
+192a88d0d3bdeac94491bc6389d59f31,railways,track,..,...,...,Natural Resources Canada
+1b027d0a97c9223f6024bd2391daa512,railways,track,..,...,...,Natural Resources Canada
+1d85533457d1385363882f8ce2fcfeb7,railways,track,..,...,...,Natural Resources Canada
+2a2a3682c746293778d5808c160f94d7,railways,track,..,...,...,Natural Resources Canada
+3527b0571ff5d7958ffb92ce4a0f0395,bridges and tunnels,mixed,ALBION MINES,..,..,Province of Nova Scotia
+4153fbebf5bc45ee9a63a564ba99d5c6,railways,track,..,...,...,Natural Resources Canada
+422cdc6bfc233294e3862f182b53756c,railways,track,..,...,...,Natural Resources Canada
+42d2aa41b4838464c25cc9c2d0b4d2a7,railways,track,Oxford,...,...,Natural Resources Canada
+43e98750431bc511d00f8ee2ff68abe0,railways,track,..,...,...,Natural Resources Canada
+466cbaab457e374d1fbfb6ddddc03dca,bridges and tunnels,mixed,BEAR BROOK,..,..,Province of Nova Scotia
+48d8f0aed90e715b4936c51043e174aa,bridges and tunnels,mixed,EAST RIVER BRIDGE ON 104 (EB),..,..,Province of Nova Scotia
+500103d7ef226484f6b4981618504390,railways,track,..,...,...,Natural Resources Canada
+541cd3f09271684cc1d94169b1768e1f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+59eb33a9fbdcc530bfc15594cbba3e53,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+5d8d2e830052db88001a56b66c99618c,railways,track,..,...,...,Natural Resources Canada
+6bded1eb8990a3aa08d24f528964506a,railways,track,..,...,...,Natural Resources Canada
+6e1f12ce984e0d3ef613b23622b7ecb1,railways,track,..,...,...,Natural Resources Canada
+6e4bf2322855cdde6d6c1362c0e5bf4f,railways,track,..,...,...,Natural Resources Canada
+79441a16d1efddec91958cb99f93b823,railways,station,Stellarton,...,...,Natural Resources Canada
+798b9d7124a1bb7a697ba50aca1ed09e,railways,track,Oxford,...,...,Natural Resources Canada
+85571498b9505f1737e7ea717d28bf75,bridges and tunnels,mixed,EAST RIVER BRIDGE ON 104 (WB),..,..,Province of Nova Scotia
+879867433259e74c865e383c5cc32ec3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8bd21705b717785e7456dddff0f2cea1,railways,track,..,...,...,Natural Resources Canada
+92c50da16da8863cb16bd8f159e5c124,railways,track,Oxford,...,...,Natural Resources Canada
+94d6d157bb7ddfa3aeb7ec6c0ca2738e,railways,track,..,...,...,Natural Resources Canada
+9853fdd2f1a5337326196044b6a8e96b,railways,track,..,...,...,Natural Resources Canada
+9bd64300ea8b46cd2bff839bce8bab79,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9c5147e9755cde460ebdc84c82c960b0,railways,track,..,...,...,Natural Resources Canada
+9d2a7ab407d18187b03bb03b6180e395,railways,track,..,...,...,Natural Resources Canada
+9e9618bfae75697da4341b59a007cc0f,railways,track,Oxford,...,...,Natural Resources Canada
+a078b89c9ab10c1d1c85014cd1024452,railways,track,..,...,...,Natural Resources Canada
+a4a137c9b1a2dc2b156285a14dff6bdb,railways,track,..,...,...,Natural Resources Canada
+a6a874b570ee9d12f3e826b0c34de6dd,railways,track,..,...,...,Natural Resources Canada
+a8428b9a3a3af8099d602ed6e8b48224,bridges and tunnels,mixed,NEW GLASGOW RR U/P ON 104 (EB),..,..,Province of Nova Scotia
+acfdd1c968d22a5f2d84e87648c88600,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+b21696826a4a17e7d74dbbf8905c592e,railways,track,..,...,...,Natural Resources Canada
+be6eb81154bf38ae0d3a25dbaaefbaa7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c336cb46d4923e5d5a6076dd60af7c3a,railways,track,..,...,...,Natural Resources Canada
+cc939b73bf188fab9857d59245fa44e4,railways,track,..,...,...,Natural Resources Canada
+cf0adfad0a8f9c8928ddcf7620399894,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d4736b95d0476a6b05c4c97dbd955c74,railways,track,..,...,...,Natural Resources Canada
+da58593b58b2db1d5d0c7848bd681cf5,railways,track,..,...,...,Natural Resources Canada
+dcd6dfb48c5fb96816600e98de59e9c5,bridges and tunnels,mixed,STELLARTON INTERVALE,..,..,Province of Nova Scotia
+dd2e0d604f6fe4d9c0c2d634e035c4fd,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia

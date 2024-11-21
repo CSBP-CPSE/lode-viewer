@@ -1,41 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Maher/Vancouver,..,..
-Fr Smith Centre,..,..
-Reid St(W),..,..
-Westside Fitness,..,..
-Bradd St,..,..
-306 Water St,..,..
-Hill St,..,..
-Lobban/Hotel Dieu,..,..
-Harper Rd,..,..
-Sobeys (Newcastle),..,..
-Williston Dr(W),..,..
-Pay Centre,..,..
-Edward St Apts,..,..
-Dialysis Clinic,..,..
-Beaverbrook Boulevard,BRIDGES AND TUNNELS,Footbridges
-Miramichi Regional Hospital,..,..
-..,BRIDGES AND TUNNELS,Footbridges
-Chatham Ave,..,..
-Library (Newcastle),..,..
-Route 117 Highway,BRIDGES AND TUNNELS,Footbridges
-Petrie St,..,..
-Snowball St,..,..
-Losier St,..,..
-Benson Park,..,..
-Mccallum St,..,..
-Kelly Rd,..,..
-Williston Dr(E),..,..
-..,WASTEWATER STORMWATER,..
-Leoland St(E),..,..
-Ledden/Econo Lodge,..,..
-French Fort Cove Park(E),..,..
-Searle Road,BRIDGES AND TUNNELS,Footbridges
-Brookdale Lane,BRIDGES AND TUNNELS,Footbridges
-Henderson St/JMH,..,..
-Carrefour Beausoleil,..,..
-Golf Club,..,..
-152 Pleasant St,..,..
-South Side Medical Centre,..,..
-Mckinnon Road,BRIDGES AND TUNNELS,Footbridges
-Curling Club,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+70e3c8fa8391287cef7f2abe2c458b6d,railways,track,..,...,...,Natural Resources Canada
+71c7fad40a4f79fae3c47644e00a2c17,railways,track,Newcastle Wharf,...,...,Natural Resources Canada
+734e9cedc3b8192108b0c1c87cc459e0,railways,track,..,...,...,Natural Resources Canada
+74b52f126dcf0ae45bdf942e8ac433a6,railways,station,Nelson,...,...,Natural Resources Canada
+7822154b09321c8e4e9579fc05e27cb6,airports,...,Miramichi Airport,medium_airport,...,OurAirports
+7993dc4bf14d16d64d8a472e249a76a8,railways,track,..,...,...,Natural Resources Canada
+7af98c6175ae0647aadd9d8c7be7b4ff,railways,track,Loggieville,...,...,Natural Resources Canada
+7c4a38455bffba9d31d849254a77c402,railways,track,Newcastle Wharf,...,...,Natural Resources Canada
+89c1e274c490dad5261e3cd495b547b0,railways,track,..,...,...,Natural Resources Canada
+8a127cfe04de590b241dc9e1ae138631,railways,station,Miramichi,...,...,Natural Resources Canada
+917164deaab137249e49c652e7d801ab,telecom,tower,...,...,...,Natural Resources Canada
+91e49c6563074d39858d917cc53c4a8e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+95a8e8d4373302325bb18a0ee522cbc9,railways,track,..,...,...,Natural Resources Canada
+96d3b7add06d0182c28f1a47ab985828,railways,track,..,...,...,Natural Resources Canada
+988ae69053e3d238c1204aacd3466c35,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+9a663437abe16ad69b34b1695694247d,railways,track,..,...,...,Natural Resources Canada
+9fdc6ed941759e6f786618041dced9fa,railways,track,Loggieville,...,...,Natural Resources Canada
+a0902fdc0662940de29575bfb07fbf34,railways,track,..,...,...,Natural Resources Canada
+a6a816688744da684260c0acc99f6340,low carbon,biomass,Miramichi,...,...,World Resources Institute
+a84c61dca74aa2858a66763c4eeed2da,railways,track,..,...,...,Natural Resources Canada
+aa97a1648729b6d303547f608b768154,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+af256ad5227973e039d7f9413e5afe3d,wastewater and storm water,facilities_waste,Southside Waste Water Treatment Lagoon,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+b3daeb86217913eec4d6ba61af7ad564,railways,track,..,...,...,Natural Resources Canada
+b651bc2ce5619d8bcc52615dc7dee5b1,railways,track,..,...,...,Natural Resources Canada
+b65e7f6579a7d83c2c1f7a369a02f30f,railways,track,..,...,...,Natural Resources Canada
+b9e5741b4ae517630f3615545a6893aa,railways,track,Loggieville,...,...,Natural Resources Canada
+bec8083685d78c2435413a4729e9c55b,telecom,tower,...,...,...,Natural Resources Canada
+c1d61a874586a703b4ab5c6902354538,railways,track,..,...,...,Natural Resources Canada
+c950b848a5fcda3d904bf27e040b4ada,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ca46546a1cc33c6a1341c3ba2a6a42c7,railways,track,..,...,...,Natural Resources Canada
+cb78497f7b6e6b299a825f147f7ce854,railways,track,..,...,...,Natural Resources Canada
+cbc2829e6aff4fe11ddf66c494c4e00a,ports and marinas,port,Miramichi,..,...,National Geospatial-Intelligence Agency (NGA)
+cd4b786c14d2c8c0a18532a53ed730c3,railways,track,Loggieville,...,...,Natural Resources Canada
+ceb0f71684198ab09ccc2188d109539c,railways,track,..,...,...,Natural Resources Canada
+d3bd2323d60e6938a53248ed04f533c8,wastewater and storm water,facilities_waste,Loggieville Lagoon,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+d3c4e1f341484f458b06daf32e8e1903,railways,track,..,...,...,Natural Resources Canada
+d4b5b47dcc02ca5b109f91bf2944c7bb,railways,track,Loggieville,...,...,Natural Resources Canada
+db00137558cc10851fb3a2b1d34feca6,railways,track,..,...,...,Natural Resources Canada
+dc0e6b88a35938bfd6fae56c78b407a0,railways,track,Loggieville,...,...,Natural Resources Canada
+e0a7d334b8b60e6b19ba79371e843942,telecom,tower,...,...,...,Natural Resources Canada
+e1ba8c86607ab0a4189c7bd61cc5805d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+e2ad71ecbaba0909c7f26d7f7d302936,railways,track,Newcastle Wharf,...,...,Natural Resources Canada
+e772ab23c22a254156f9125dcc4b7810,railways,track,Newcastle Wharf,...,...,Natural Resources Canada
+e8aa9ee922a580b48ed2b41ea239ed6d,railways,track,..,...,...,Natural Resources Canada
+e8f82b75e8944e3ca94e59f8ae97cca5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eae6b0a7166390e57950238483f12012,railways,track,..,...,...,Natural Resources Canada
+f3ef92fb6e4be890e37f580546ca25c5,railways,track,..,...,...,Natural Resources Canada
+f50b9fa7127e7dfca031801dc1da0989,railways,track,..,...,...,Natural Resources Canada
+f9f40e5d2a5692d31ae468e9ce3d87b1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

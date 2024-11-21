@@ -1,13 +1,21 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Church Street,BRIDGES AND TUNNELS,Footbridges
-CHURCH STREET BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CANAL BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Main Street,BRIDGES AND TUNNELS,Footbridges
-Highway 4,BRIDGES AND TUNNELS,Footbridges
-College Street,BRIDGES AND TUNNELS,Footbridges
-RIGHTS RIVER BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Saint Andrews Street,BRIDGES AND TUNNELS,Footbridges
-Braemore Avenue,BRIDGES AND TUNNELS,Footbridges
-WHIDDENS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-WEST RIVER BRIDGE #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0c8b9210d06d171f42e27446a685a4c9,bridges and tunnels,bridge,CHURCH STREET BRIDGE,..,..,Province of Nova Scotia
+0d41fc8a2fa868e4aaac2ec11c2bd200,telecom,tower,...,...,...,Natural Resources Canada
+11952d375f8758fcad5560f0cfd92720,railways,station,Antigonish,...,...,Natural Resources Canada
+1fd423e2dbfb50629b19e20171adf1e5,railways,track,..,...,...,Natural Resources Canada
+230c8b64d7094e1d8b46d1337edc147a,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+24e280e47ba2160752c384153551de29,bridges and tunnels,bridge,RIGHTS RIVER BRIDGE,..,..,Province of Nova Scotia
+2fd3fc235078531b5600ea15061d949e,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+386924b5e8250acdc751d3a335f631ab,bridges and tunnels,bridge,CANAL BRIDGE,..,..,Province of Nova Scotia
+4d74fc9605f31fd00b69a8d92fe7fcc6,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+4f83a753ffd5de34fc6a30af24886519,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+62dd5b80e3b2b3e3d4acf04c72185367,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+767742ee3e1e9e987cafadf48985d6c5,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+8012225a3b499522a083afc7df0a1681,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ab5864070564842bd1d486cbf2192212,wastewater and storm water,facilities_waste,Antigonish Sewage Treatment Plant,"Primary Sedimentation/Clarification, Lagoons - Aerated, Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+de3b140d677b5f6ae0faddb54f16b22c,bridges and tunnels,bridge,MacAMIS BRIDGE,..,..,Province of Nova Scotia
+e327d6f582c0603946d5590f0760e2e6,bridges and tunnels,bridge,WHIDDENS BRIDGE,..,..,Province of Nova Scotia
+e4bed8d1329b120ce6543e939fb52235,railways,track,..,...,...,Natural Resources Canada
+f273e3d3e06937de002e035d3776c44a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f5af316f9730e3ce542215a58c146a4d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fffb5a35272eb6afc3b2b15a9abbfad0,airports,...,Antigonish (st. Martha's Regional Hospital) Heliport,heliport,...,OurAirports

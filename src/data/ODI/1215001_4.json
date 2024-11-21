@@ -1,8 +1,35 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-MacMASTER BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-O'HANLEYS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WILD BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-VICTORIA BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MARSH BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ROUGH BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Riverside Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+c801a89770881e60e96be05f78d13f66,telecom,tower,...,...,...,Natural Resources Canada
+c8bf7d1bd00809ff8e7c359839ea18b2,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+ccea0c4ead423a85fc9f03da4a57ecb6,bridges and tunnels,bridge,GENERAL LINE BRIDGE,..,..,Province of Nova Scotia
+cd5a007ee8335324c6f7532cf6ecd23c,bridges and tunnels,bridge,STONE BRIDGE,..,..,Province of Nova Scotia
+cd60bad887721c02fbe0d94b57fb3b72,bridges and tunnels,bridge,MacEACHERN #2 BRIDGE,..,..,Province of Nova Scotia
+cee9e8bbe01e5766f041ba3904817b72,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+cf47530ca972b9ec98653aa8d94f2721,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+d22fd694714f5ef8a3b55853cd26e5ee,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d5e444f34ec4d29b3d76073930d399fc,bridges and tunnels,bridge,DOWLING BRIDGE,..,..,Province of Nova Scotia
+d6700f3b6491666b05384ca66eda07d6,bridges and tunnels,bridge,EAST MacPHAIL BRIDGE,..,..,Province of Nova Scotia
+d71c181d9a8de8515ac6b3599539ab80,telecom,tower,...,...,...,Natural Resources Canada
+d76c055e5e065d57cbee21622fd548c1,railways,track,..,...,...,Natural Resources Canada
+d81cf61fe24de367c20c0b6f5eeee761,bridges and tunnels,bridge,MARSH BROOK BRIDGE,..,..,Province of Nova Scotia
+d8b805c07fe203a3d0178c4efb4195c4,bridges and tunnels,culvert,MacDONALDS GULCH CULVERT,..,..,Province of Nova Scotia
+d9e74dbddc3471557b01427c4c002543,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dc4e4e6d4a230f66e39a84f5506fb322,bridges and tunnels,bridge,CHISHOLM BROOK (WIDENING) BRIDGE,..,..,Province of Nova Scotia
+ddf52fff7bf052e6d5da1b95bf3ed890,airports,...,Port Hawkesbury Airport,medium_airport,...,OurAirports
+e23b8fbc74d24609c4a0bd9c52412c8b,bridges and tunnels,bridge,MacPHERSON BRIDGE,..,..,Province of Nova Scotia
+e2b09a0bc35e2d80fad8f39b0c421824,bridges and tunnels,mixed,CHURCH #1 TRUSS,..,..,Province of Nova Scotia
+e372969081a1630d2f917038a96b01e2,bridges and tunnels,bridge,LITTLE WILLIE MacDONALD BRIDGE,..,..,Province of Nova Scotia
+e56624b962fa04859824702cfcfe1e66,bridges and tunnels,culvert,BLUES COVE BROOK CULVERT,..,..,Province of Nova Scotia
+e5e5a728c457a7842ecd470493e80dec,railways,track,..,...,...,Natural Resources Canada
+e71222a9471d759fae72ff10372c57af,telecom,tower,...,...,...,Natural Resources Canada
+eb2374ade77e271b582f743d48ba3ca6,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+edc7e528429f76618529549994088aba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ee9ae8b7e37f1ea3b5b2a26e0d083ce8,telecom,tower,...,...,...,Natural Resources Canada
+ef5330b2392ac61bf690f9c3337a53ec,bridges and tunnels,bridge,MacAULAY BRIDGE,..,..,Province of Nova Scotia
+f19decbcd176fdffb80056f7f2dc0f2b,railways,track,..,...,...,Natural Resources Canada
+f3d70ea39f27287824459d3b82284dc5,bridges and tunnels,culvert,JOHNNIE EDDIES CULVERT,..,..,Province of Nova Scotia
+f62650d363cc63e0dd7130d0f65fcf92,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+f80951a5834914587249f5f1d81fc375,bridges and tunnels,bridge,CHISHOLM BRIDGE,..,..,Province of Nova Scotia
+f815144bae1b3bd2afadd9a822138710,bridges and tunnels,bridge,MacRITCHIE BRIDGE,..,..,Province of Nova Scotia
+f8dd43d44399b0ba5c7d16d2f9663807,bridges and tunnels,bridge,MacDOUGALL BRIDGE,..,..,Province of Nova Scotia
+fc131c0777dc6a5fdfa21de14ac51242,bridges and tunnels,bridge,MacCOLL #2 BRIDGE,..,..,Province of Nova Scotia

@@ -1,9 +1,13 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Roseway River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Black Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-Highway 103,BRIDGES AND TUNNELS,Footbridges
-Minto Street,BRIDGES AND TUNNELS,Footbridges
-Shelburne Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Falls Lane,BRIDGES AND TUNNELS,Footbridges
-Highway 3,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+1818422a16d3da96556f3c5990b2b596,telecom,tower,...,...,...,Natural Resources Canada
+6be6bccc86e5d574807b843052a864ee,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+7cdadefdcafd97329d437e79b823e336,wastewater and storm water,facilities_waste,Town Of Shelburne Wastewater Treatment Plant,"Screening, Primary Sedimentation/Clarification, Activated Sludge, Oxidation Ditch, Disinfection",Unclassified,Environment and Climate Change Canada
+80941fecadc2e684ed2c2d5c0403ea80,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9ee73935841beeac185b695c5b11628f,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+a92cf075c20123a4962ed00a78545313,bridges and tunnels,bridge,Black Brook Bridge,..,..,Province of Nova Scotia
+b2956f0dd65512f71010e24cf65d6a32,bridges and tunnels,bridge,Roseway River Bridge,..,..,Province of Nova Scotia
+b72d8c2c889d458aac98e433b0ccac78,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b923e3c9e2a0475a205722f28a59a93c,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (6-15m diameter) point,Lagoon,Government of Nova Scotia
+d03dde5c8acca4f71bb84809238bf681,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e6f03697ecff6d91a0039053eb1b4a9c,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+f89d5afbc0d3876e18635ff2c12443df,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia

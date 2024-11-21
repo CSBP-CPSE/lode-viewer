@@ -1,50 +1,39 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Purcells Cove Rd At Civic 1162 (8098),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Waste Weir,BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Astral Dr Before Spence Dr (6059),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Wildwood Blvd Before Gregory Dr (8487),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+f97b944a43b9aa73447d31cdc0cf2585,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+f99593b9f81e354346701e7d543760c7,telecom,tower,...,...,...,Natural Resources Canada
+f9fa71defc7722487528327676b0d211,ports and marinas,mixed,Jubilee Road Port Authority Boat Launch,BDK,...,Halifax Regional Municipality
+fa0f7841d3dee6837b4adf23c4c94409,bridges and tunnels,bridge,Old Sackville Road,VHB,Vehicle Bridge,Halifax Regional Municipality
+fa3779d7323acaa8ed5340b8b459c636,railways,track,..,...,...,Natural Resources Canada
+fa407940e6c610264f3ef620089fd3b9,railways,track,Rockingham,...,...,Natural Resources Canada
+fa69698348e071132991c1a43a996cd3,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+fb1be733318139b4afe3533a58c9704e,bridges and tunnels,bridge,Arthur Lismer Court,PDB,Footbridge,Halifax Regional Municipality
+fb275a5b1f201406f10fd2355c532690,bridges and tunnels,bridge,Barrington St west of MacKay Bridge,VHB,Vehicle Bridge,Halifax Regional Municipality
+fb39d32438523b6b7cb6190fa820a6b0,ports and marinas,mixed,West Petpeswick Wharf,WHF,...,Halifax Regional Municipality
+fb899db6f128780c0aa6d2e0da3d2bd4,bridges and tunnels,bridge,Wilsons Falls,VHB,Vehicle Bridge,Halifax Regional Municipality
+fb9eb40f0edcac39fcb47e65d4a807ac,bridges and tunnels,mixed,"PARTRIDGE RIVER, Highway 107",..,..,Province of Nova Scotia
+fba99f8edcc23537ecce4f136119af91,railways,track,..,...,...,Natural Resources Canada
+fc0969c0e2d34d76397ae020958dd9d3,low carbon,wind,Watts Wind,...,...,World Resources Institute
+fc19333c63a72ccb493ad8eba6c3d02f,railways,track,..,...,...,Natural Resources Canada
+fc2d582f6fa243146f8d2d42f448db77,railways,track,..,...,...,Natural Resources Canada
+fc45b85106e35a92dc48dc616e039158,ports and marinas,mixed,Russell Lake Park Boat Launch West,BOL,...,Halifax Regional Municipality
+fc5893c9cfecbd35e0a851add767e1d4,bridges and tunnels,culvert,Portland Street Box Culvert,BRCUL,Culvert,Halifax Regional Municipality
+fc9b5cc3749f38aa260a9ecd87fd2012,railways,track,Rockingham,...,...,Natural Resources Canada
+fc9e573b3b9bdedae81af46626e45293,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+fcccfff629a0de9c9552f61e4f6af41d,bridges and tunnels,mixed,LITTLE WEST RIVER,..,..,Province of Nova Scotia
+fcdb5cac416f0e3efd2c58e065d6bec8,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+fcff513b65c67a0184b5c3ddc77b0433,railways,track,..,...,...,Natural Resources Canada
+fd04c0cb22fc72df8370c53c9e75d25e,bridges and tunnels,bridge,..,PDB,Footbridge,Halifax Regional Municipality
+fd0edb9c09747782e4b6de848c21df7f,bridges and tunnels,mixed,"LITTLE INDIAN LAKE BRIDGE, Highway 103",..,..,Province of Nova Scotia
+fd2fa078e2b270ced420e217f8f67a1e,bridges and tunnels,bridge,Russell Lake Culvert,PDB,Footbridge,Halifax Regional Municipality
+fdaaa46e2a8d60e8994a058dc8b569dc,bridges and tunnels,bridge,Bissett Lake Park near #340 Colby Drive,PDB,Footbridge,Halifax Regional Municipality
+fdd6ac30ae25b6c556c0dfd15652d6d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fdf928ee1a20b89b7c508b561178b3c0,telecom,tower,...,...,...,Natural Resources Canada
+fe07d9faa6f45b2feaa1b7834e44bb74,telecom,tower,...,...,...,Natural Resources Canada
+fe27667087471695f4f844a5990c78b9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fe6fff08f9f49cd33f13628342f1c6d1,railways,track,..,...,...,Natural Resources Canada
+fead0cc06df35b8d3a377723c81f78ee,airports,...,Halifax (windsor Park) Heliport,heliport,...,OurAirports
+fedd0108422593269ec0adc2ccd35941,telecom,tower,...,...,...,Natural Resources Canada
+ff3bdda15bcb15c3a118ca85401e5a6b,railways,track,Rockingham,...,...,Natural Resources Canada
+ff6c413016632bb0b518b6b890492da7,telecom,tower,...,...,...,Natural Resources Canada
+ffad6d7ca62749233399536653e42f7a,bridges and tunnels,mixed,MOOSE RIVER,..,..,Province of Nova Scotia
+ffdef47548efaec550395472f239f77f,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia

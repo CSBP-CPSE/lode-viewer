@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-SOAPSTONE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Roseburn Road,BRIDGES AND TUNNELS,Footbridges
-MacINNON ROAD BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Provincial Park Road,BRIDGES AND TUNNELS,Footbridges
-FINLAY POINT WHARF BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-North Highlands Road,BRIDGES AND TUNNELS,Footbridges
-MacEACHERN #1 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Rosedale Road,BRIDGES AND TUNNELS,Footbridges
-Glenora Falls Road,BRIDGES AND TUNNELS,Footbridges
-Highway 252,BRIDGES AND TUNNELS,Footbridges
-Shore Road,BRIDGES AND TUNNELS,Footbridges
-Smithville Road,BRIDGES AND TUNNELS,Footbridges
-ADAMS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MACKINNON #1 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FOOTE CAPE #1 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-GLENORA FALLS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-AINSLIE GLEN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Beaton Road,BRIDGES AND TUNNELS,Footbridges
-MacDONALD GLEN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Skye Glen Cross Road,BRIDGES AND TUNNELS,Footbridges
-Meagher Road,BRIDGES AND TUNNELS,Footbridges
-RANKINS BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MATHESON  #1 CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WORTHS TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacDONALD WHYCOCOMAGH PORT HOOD #1 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-UPPER CAPTAINS RIVER BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BOYLES BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ROSEBURN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WEST LAKE ANSLIE TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-MURRAY BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Southside Roseburn Road,BRIDGES AND TUNNELS,Footbridges
-Mabou Mines Branch,BRIDGES AND TUNNELS,Footbridges
-STONEY BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SHEAS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Little Mabou Road,BRIDGES AND TUNNELS,Footbridges
-SALTWATER BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lake Ainslie Chapel Road,BRIDGES AND TUNNELS,Footbridges
-Blackstone Road,BRIDGES AND TUNNELS,Footbridges
-Moran Road,BRIDGES AND TUNNELS,Footbridges
-MIRAMICHI TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LAKE AINSLIE CHAPEL #1 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Mabou Road,BRIDGES AND TUNNELS,Footbridges
-CHURCH #2 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacLELLAN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LAKE AINSLIE SOUTH SIDE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ARGYLE BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-EAST SKYE GLEN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+57be515ab076cc4fd7b2ba69baf9fcd2,bridges and tunnels,bridge,BLACKSTONE #2 BRIDGE,..,..,Province of Nova Scotia
+5836463156aeb0b915ab2d6ebcf5b6ee,bridges and tunnels,bridge,MacINNON ROAD BRIDGE,..,..,Province of Nova Scotia
+58c575a46e1ae6692b741633ef02b045,bridges and tunnels,bridge,ROSEBURN BRIDGE,..,..,Province of Nova Scotia
+596819504ff5aebf9a166cead1a91b11,bridges and tunnels,bridge,ISLAND #2 BRIDGE,..,..,Province of Nova Scotia
+5bb42f1e995c6cfb9b295f85818c2afe,bridges and tunnels,mixed,MIRAMICHI TRUSS,..,..,Province of Nova Scotia
+5cd54959cbf9a51671d38d3469238618,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+61945a2c225a929652810fafd1c257a3,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+63ab9a3aa903cbf1fcf4b70270225b12,telecom,tower,...,...,...,Natural Resources Canada
+6754dd18d8574f8a4c2c0ca0138d3942,bridges and tunnels,bridge,CLAVERHOUSE BRIDGE,..,..,Province of Nova Scotia
+6ae9ae81f470dd30228b3f97394dfa28,bridges and tunnels,bridge,MacCORMACK BRIDGE,..,..,Province of Nova Scotia
+6e80c6f6067c1a640ffacf679ff6eb46,bridges and tunnels,bridge,KEWSTOKE BRIDGE,..,..,Province of Nova Scotia
+709ff4a5be204e5aedb178572a2de4f6,bridges and tunnels,bridge,MAC KINNON # 2 BRIDGE,..,..,Province of Nova Scotia
+70e2b4f6ce26d2026accddc510777706,bridges and tunnels,mixed,MORANS TRUSS,..,..,Province of Nova Scotia
+744ba172e0952e0d61baf5af3e69a56f,bridges and tunnels,bridge,LAKE AINSLIE CHAPEL #2 BRIDGE,..,..,Province of Nova Scotia
+75750debef5317b1e940cf4ba663e130,bridges and tunnels,bridge,DUNMORE BRIDGE,..,..,Province of Nova Scotia
+776e16f2ed7bb0efb879e148859fee08,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7bbe00e1cbba627b5f17fbbb2f6cd538,bridges and tunnels,bridge,CENTREVILLE #1 BRIDGE,..,..,Province of Nova Scotia
+7c31851c13c178216675861a3a4e324f,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7df2c02f53de230d5fff09a3a269d4aa,bridges and tunnels,bridge,AINSLIE CHAPEL BRIDGE,..,..,Province of Nova Scotia
+7f99166c65c109c15b30bdd4d1cb7266,ports and marinas,mixed,Mabou Harbour,Core Fishing,...,Fisheries and Oceans Canada
+8134ed77e73ad76f810da93aa368d265,bridges and tunnels,bridge,GILLIS BRIDGE,..,..,Province of Nova Scotia
+82b830a089fba419ef721f02115ff856,bridges and tunnels,bridge,SKYE GLEN BRIDGE,..,..,Province of Nova Scotia
+82f3c10d0b57734c9106ecca37cb0f92,bridges and tunnels,bridge,SOUTHWEST MABOU BRIDGE,..,..,Province of Nova Scotia
+8888480f966f8da3016a1290c900b58c,bridges and tunnels,bridge,CAPTAIN GILLIS BRIDGE,..,..,Province of Nova Scotia
+88db50386f9c1937f5f1056409bb7926,bridges and tunnels,bridge,FOOTE CAPE #2 BRIDGE,..,..,Province of Nova Scotia
+898383ae681493df62d64845e081d3fe,bridges and tunnels,bridge,LAKE AINSLIE CHAPEL #1 BRIDGE,..,..,Province of Nova Scotia
+89d3d5d407eea21ed6a1d331e8c1e78c,bridges and tunnels,bridge,SOUTH SIDE ROSEBURN BRIDGE,..,..,Province of Nova Scotia
+8b0420b95f7934f18de56395c835b4ed,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+8bcafee6aed09e5ef6261b656fcb8037,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8c86483e27c8e44b357347790b462256,bridges and tunnels,bridge,PETER CAMPBELL #1 BRIDGE,..,..,Province of Nova Scotia
+900cf2141f1e120913fb89ee91ba08d1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+909e9c7894992342d1fc44a413e1df8d,wastewater and storm water,facilities_waste,Inverness Wastewater Treatment Facility,"Grit Removal, Screening, Activated Sludge, Lagoons - Aerated",Unclassified,Environment and Climate Change Canada
+91da397e279a77ac5dbd5ad6f1246c70,telecom,tower,...,...,...,Natural Resources Canada
+9404e194728bfea35cb3a21065c7ccde,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+98911ff2c3d162dfef354463e904971b,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+99c0c189eb6f57f97a6609c15aa3894a,telecom,tower,...,...,...,Natural Resources Canada
+9a0d42ae07255296ee4e7067d247e53c,bridges and tunnels,bridge,VILLAGE BRIDGE,..,..,Province of Nova Scotia
+9ce8b4ac4376f635ee9bb4c38c312b8c,electric grid,power_plants,..,...,...,Natural Resources Canada
+9cff082bb92deb68a6b86f0706bd51ea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9d0a2d3f0b9bd677ccbd4555f89d5701,bridges and tunnels,mixed,GLENDYER MILL TRUSS,..,..,Province of Nova Scotia
+9d4e9e41441f2f7857c6087954d7ea88,bridges and tunnels,culvert,ARGYLE BROOK CULVERT,..,..,Province of Nova Scotia
+9d8ea85b470b36836700365e83ecc53f,bridges and tunnels,bridge,LITTLE RIVER BRIDGE,..,..,Province of Nova Scotia
+9fd2214750a789af3594f149c3475854,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a107b884eeb8442bd33f2d33ae588811,bridges and tunnels,bridge,MacDONALD GLEN BRIDGE,..,..,Province of Nova Scotia
+a53019ff726ec2f0855c18bcb385e1e9,telecom,tower,...,...,...,Natural Resources Canada
+a863e186d210c5dbecf5196f9da01f26,bridges and tunnels,bridge,SIGHT POINT BRIDGE,..,..,Province of Nova Scotia
+a96dbec711bf4955442f82cc80035248,bridges and tunnels,bridge,MacKAY BRIDGE,..,..,Province of Nova Scotia
+aba695ad8913ca51e119541618937e5d,low carbon,wind,South Cape Mabou,...,...,"Government of Canada, Natural Resources Canada"
+ac3d2d15294142f0e971287770127fff,telecom,tower,...,...,...,Natural Resources Canada

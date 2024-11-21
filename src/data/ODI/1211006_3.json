@@ -1,13 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Ripley Number 4 Road,BRIDGES AND TUNNELS,Footbridges
-BROWN'S CREEK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-WEST BRANCH MOOSE RIVER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MACCAN,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Beaver Dam Road,BRIDGES AND TUNNELS,Footbridges
-Wyvern Road,BRIDGES AND TUNNELS,Footbridges
-FURLONG,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Claremont Road,BRIDGES AND TUNNELS,Footbridges
-Thomson Road,BRIDGES AND TUNNELS,Footbridges
-SWAN CREEK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SOUTH BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+8b32206965dff95dfad98d766d720995,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8b6e6fb5337a76697bf5a92ce16c3dbb,bridges and tunnels,mixed,FULLERTON,..,..,Province of Nova Scotia
+8c60c51467bf28346011295d3324dd37,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+8d8703605ca0b1ff0667ad7c9ecf9c10,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+8da6f52b8ea3006106057673d6081fd6,electric grid,power_plants,..,...,...,Natural Resources Canada
+8e099772cf22899bd4233304f73586d3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+915b3cb9c7b53dc85fd1ae6d5ea28c5c,railways,track,..,...,...,Natural Resources Canada
+91885102155e4f27b372bd066de4ff5e,wastewater and storm water,facilities_waste,Springhill Wastewater Treatment Plant,"Lagoons - Aerated, Filtration, Other Treatment",Unclassified,Environment and Climate Change Canada
+9541ca88e162bf844c7b73c58e7ab9c5,wastewater and storm water,facilities_waste,River Hebert East,"Lagoon - Facultative, Polishing Ponds , Disinfection",Unclassified,Environment and Climate Change Canada
+98fffd64311db856e1250ac98258162e,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+995fb57d2bbc6892d0931254f19c2eb4,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+9a0c9d08c8167abe19199fcb87b0a4f0,bridges and tunnels,mixed,UPPER EAST BROOK,..,..,Province of Nova Scotia
+9b60106fe6d4dcb06b24b605c11c965b,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+9d32ff603eb0a3e10285d943916e45f0,bridges and tunnels,mixed,STILES,..,..,Province of Nova Scotia
+9e004f813999ab531497df096dbc2fca,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a0aa17c8c255bddc5e154be75fb14bf9,bridges and tunnels,culvert,O'Rooke Brook Culvert,..,..,Province of Nova Scotia
+a10b20bf74abebc617cf40c68081a1f2,bridges and tunnels,mixed,EUGENE ATKINSON,..,..,Province of Nova Scotia
+a32737a03b4b627b60326399f6ad931c,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+a4777bcf6a949ceb1b261d1ac3598577,bridges and tunnels,mixed,RAILROAD,..,..,Province of Nova Scotia
+a561a8a639ab4c316b879867c315e37c,bridges and tunnels,mixed,DAN MCALONEY,..,..,Province of Nova Scotia
+a638f68614dc1d9043e21a3f4763ce0e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a6bc4fb92baeb37ad84d91c22a53b585,bridges and tunnels,mixed,MOOSE RIVER,..,..,Province of Nova Scotia
+a6d38c3523d5ae0c0b2382d1e8db3b93,railways,track,..,...,...,Natural Resources Canada
+a8a3ef2ed08cc76a5a8c721328bd2db5,railways,track,..,...,...,Natural Resources Canada
+a9057872d15bf2582ac9f63593d361bf,bridges and tunnels,mixed,BERRY,..,..,Province of Nova Scotia
+aa064f7e18bd32fea2963c95e0848ad9,bridges and tunnels,mixed,BROWN'S CROSSING,..,..,Province of Nova Scotia
+adf0d9a28b566cb86f29172c607fe0ab,bridges and tunnels,mixed,FALLS,..,..,Province of Nova Scotia
+ae78f70abc8395a327c916450b4f9b17,bridges and tunnels,mixed,SIN,..,..,Province of Nova Scotia
+b0786eb7a47617f336d17a75fdf60397,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b105f8df959ec596f36b9744aa9c88c5,bridges and tunnels,mixed,BROWN'S BROOK,..,..,Province of Nova Scotia
+b1cca9df9192342467475163d48899a2,low carbon,wind,Springhill,...,...,"Government of Canada, Natural Resources Canada"
+b25290c13a0b070603b87d75bafbf0a5,bridges and tunnels,mixed,BROWN'S CREEK,..,..,Province of Nova Scotia
+b3f580723404fdd0bd3be559d132cbeb,bridges and tunnels,mixed,WEST BROOK,..,..,Province of Nova Scotia
+b465a74ba7cb65e0ec685c5b415c3872,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+b46b6ec33c94a0284033621c5abf1c47,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+b4aef987f8b0e8eb8840940ef5e7bf27,bridges and tunnels,mixed,MCALONEY,..,..,Province of Nova Scotia
+b54bf35f01e5520c26e276002331827d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b7f935f40c7e26adf643db346bb39cb8,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+b92429d71f82d65f46a71aa8cac65bce,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+b93cc41a996cd3278278de3e340aa780,bridges and tunnels,mixed,SUGARLOAF,..,..,Province of Nova Scotia
+bb34ce1b6671c9575a379c630a379bfc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bf0052122d31898b4b52c243cd810e77,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+bf14f759a3592ec973733b166dfb602a,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+bf2c1e11081aa5365aa93a9a49527e72,bridges and tunnels,mixed,HENRY JOBE,..,..,Province of Nova Scotia
+c04a03a7e885a4aee8d49792793bfad5,railways,track,..,...,...,Natural Resources Canada
+c1b7d36bc7f3eda27041f09abbbc09b6,bridges and tunnels,mixed,SHERMAN,..,..,Province of Nova Scotia
+c32094691e6720c52c6b803dc7d31344,bridges and tunnels,mixed,SWAN CREEK,..,..,Province of Nova Scotia
+c34105edbdc06b38164103d448bfeb62,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c54b01411c9dfe2ae65ac23f4b8e2b30,bridges and tunnels,mixed,HENWOOD,..,..,Province of Nova Scotia

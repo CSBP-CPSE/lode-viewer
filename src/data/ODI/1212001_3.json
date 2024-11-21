@@ -1,27 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-MATHESON,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacBeth Road,BRIDGES AND TUNNELS,Footbridges
-Joudrey Road,BRIDGES AND TUNNELS,Footbridges
-TONEY RIVER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-TONY MILLS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BATTIST,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BLACK BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WELSFORD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Carmichael Road,BRIDGES AND TUNNELS,Footbridges
-WEST RIVER RD O/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-STEELE RUN,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Bain Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LOCKE WOOLEY,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-COVE ROAD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Loganville Road,BRIDGES AND TUNNELS,Footbridges
-Logan Stackhouse Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MOORE'S FORD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-John Stewart,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MORRISON,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HALIBURTON,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BROOKLAND PLANT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Mountain Road,BRIDGES AND TUNNELS,Footbridges
-Roger MacLellan Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Scotsburn Road,BRIDGES AND TUNNELS,Footbridges
-JAMES SUTHERLAND,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+90208020992bc6a893f1a05f35fe770f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9047eae6b5e1fc2c78b61c134e5356cb,bridges and tunnels,mixed,LOCKE WOOLEY,..,..,Province of Nova Scotia
+910a849b32b15e744a8c27d28436960a,ports and marinas,mixed,Pictou Island,Core Fishing,...,Fisheries and Oceans Canada
+91fd05cd512bc355de0508882ce1a64b,low carbon,wind,Dalhousie Mountain,...,...,"Government of Canada, Natural Resources Canada"
+923be3eef84de20c71cadd560246bb0c,bridges and tunnels,mixed,BUCHANNAN,..,..,Province of Nova Scotia
+928eca8a9a3ff94b5002593d15a4cd5c,bridges and tunnels,mixed,COTTER,..,..,Province of Nova Scotia
+9540dbf349ce295fe6ed4a58c4a80845,low carbon,wind,Dalhousie Mountain,...,...,"Government of Canada, Natural Resources Canada"
+98a134434d45a95ecba6bffe8c449fa6,bridges and tunnels,culvert,Kenzie King Culvert,..,..,Province of Nova Scotia
+9965046b4ad15ce76e60b1cabcfa5504,telecom,tower,...,...,...,Natural Resources Canada
+9e27431f1295de1be54bc92b73f8382f,bridges and tunnels,mixed,DURHAM,..,..,Province of Nova Scotia
+9e60c38ba7cf86941b89e2ac9e5af851,bridges and tunnels,bridge,West River Station Bridge,..,..,Province of Nova Scotia
+9ed7d26448a1343cdfdb6d3737731193,bridges and tunnels,mixed,MURRAY (JIM),..,..,Province of Nova Scotia
+9f5e23620cb2d66c07278039c6020ac1,low carbon,wind,Dalhousie Mountain,...,...,"Government of Canada, Natural Resources Canada"
+9f6ee7b82f1cefd64b5547eebb9e2f85,low carbon,wind,Dalhousie Mountain,...,...,"Government of Canada, Natural Resources Canada"
+a82c1d1ec78da6335964384bb44db55e,bridges and tunnels,mixed,DIAMOND BROOK,..,..,Province of Nova Scotia
+a8aad2f6f11281a3a44f50e63d309a58,bridges and tunnels,mixed,GUNN'S CEMETERY,..,..,Province of Nova Scotia
+ac30df744ba1f8ca0d3254d015c84b99,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+aceed447da3a79b1713db880e00051d5,bridges and tunnels,mixed,WEST BRANCH RIVER JOHN,..,..,Province of Nova Scotia
+aeb4bc5d248bb4297d2afe15f1592709,bridges and tunnels,mixed,BROOKLAND PLANT,..,..,Province of Nova Scotia
+b07c7845ee0da4e2fc29cd7187fbd3cf,low carbon,wind,Dalhousie Mountain,...,...,"Government of Canada, Natural Resources Canada"
+b121cb5b53eeb60867f5d8bc9f0cffc8,bridges and tunnels,mixed,MORRISON,..,..,Province of Nova Scotia
+b8822fb29ba5f8c089bca83cd7431bc6,low carbon,wind,Dalhousie Mountain,...,...,"Government of Canada, Natural Resources Canada"
+ba6a5978de61dcc523dfdf31d68d9444,bridges and tunnels,mixed,STEELE RUN,..,..,Province of Nova Scotia
+bb2507e5be76561c9535b536dc715cdd,bridges and tunnels,mixed,WEIR'S,..,..,Province of Nova Scotia
+bbf2a8837f03ce89446c12b5fc7d26bc,bridges and tunnels,mixed,Peter Sutherland,..,..,Province of Nova Scotia
+bc030ea280b48d47821958d50cd3d6ce,bridges and tunnels,mixed,SHERIFF BROOK,..,..,Province of Nova Scotia
+bc430b4aced581a4b5264bf9a8cf9a89,low carbon,wind,Dalhousie Mountain,...,...,"Government of Canada, Natural Resources Canada"
+be033e96f4d2f8d2f3e28ca598318f43,low carbon,wind,Dalhousie Mountain,...,...,"Government of Canada, Natural Resources Canada"
+c026f7214a104bea30524a573307d18a,bridges and tunnels,mixed,BLACK BROOK,..,..,Province of Nova Scotia
+c122de761f2823823c0fd676dc1f076d,bridges and tunnels,mixed,MACINTOSH ROAD,..,..,Province of Nova Scotia
+c248b209e60941c7c34b99f4013836fd,bridges and tunnels,mixed,John Stewart,..,..,Province of Nova Scotia
+c2abc5fa2e5e63d62e6d4f6d53880573,bridges and tunnels,culvert,Heathbell Church Culvert,..,..,Province of Nova Scotia
+c3b6c4a64478a0e3b306ad0406740c83,low carbon,wind,Marshville Limited,...,...,"Government of Canada, Natural Resources Canada"
+c7745919bedf0a709a4eb44d8ab0aa32,electric grid,power_plants,..,...,...,Natural Resources Canada
+c7f2499a4e470694ff0c0eea1d63b1d2,low carbon,wind,Dalhousie Mountain,...,...,"Government of Canada, Natural Resources Canada"
+c8470c4a2bfca3f508ff4a4d36b12f7b,bridges and tunnels,mixed,BLACK RIVER SCHOOL,..,..,Province of Nova Scotia
+cf86eb59dc82ab7327c4076658c68c0e,telecom,tower,...,...,...,Natural Resources Canada
+cf8888e5add2ff5d31e69010e9b57009,bridges and tunnels,mixed,EIGHT MILE BROOK,..,..,Province of Nova Scotia
+d2649027b1b260ca5968a87c3fd25f48,bridges and tunnels,culvert,Logan Stackhouse Culvert,..,..,Province of Nova Scotia
+d3d50ffdaaa7a84e59a4f648ab73c40a,bridges and tunnels,mixed,MATHESON,..,..,Province of Nova Scotia
+d900a99864a4d2a660be5fb4fe824539,low carbon,wind,Dalhousie Mountain,...,...,"Government of Canada, Natural Resources Canada"
+dc80dcd28b16518e02a88720b7b4dfe5,wastewater and storm water,facilities_waste,River John Wastewater Treatment Plant,"Screening, Lagoons - Aerated, Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+de1622a3ccd690e589707187741d3bbd,low carbon,wind,Dalhousie Mountain,...,...,"Government of Canada, Natural Resources Canada"
+e040aafae2e4123494366015876fc17d,bridges and tunnels,mixed,Shotgun,..,..,Province of Nova Scotia
+e094af844331b2692cf86dc14c4fb92f,low carbon,wind,Marshville,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+e0ed850bd3e309f81f7cf707e9a64b05,bridges and tunnels,mixed,SEAL CREEK,..,..,Province of Nova Scotia
+e2645f0d3dfe42d5dd521c30a3d208ac,bridges and tunnels,mixed,BROOK SETTLEMENT,..,..,Province of Nova Scotia
+e26cacb17b5b147a4d2deb01ea8260df,bridges and tunnels,mixed,HALIBURTON BROOK,..,..,Province of Nova Scotia
+e3d84704e3c02a647eebd48a969f80ae,bridges and tunnels,mixed,WEST BRANCH SCHOOL,..,..,Province of Nova Scotia

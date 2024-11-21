@@ -1,34 +1,44 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-North Side Loch Lomond Road,BRIDGES AND TUNNELS,Footbridges
-MacDonald Road,BRIDGES AND TUNNELS,Footbridges
-FULLERS PANEL BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BRYMERS BRIDGE #1,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SMITHS BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BENJAMINS POND BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-PASSAGE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FORKS PONY TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SALMON RIVER #2 CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Old Trunk 4 Road,BRIDGES AND TUNNELS,Footbridges
-Lakeshore Drive,BRIDGES AND TUNNELS,Footbridges
-MORRISON RORY SAILOR BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-St Peters Fourchu Road,BRIDGES AND TUNNELS,Footbridges
-East Side Grand River Road,BRIDGES AND TUNNELS,Footbridges
-MURCHISON BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-REAR BIG COVE 3 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MOMBOURQUETTES CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MILL BROOK #2 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CAMPBELLS BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-KATES BROOK #2 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Katja Rose Drive,BRIDGES AND TUNNELS,Footbridges
-FERGUSON BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Soldiers Cove Road,BRIDGES AND TUNNELS,Footbridges
-ST ESPRIT CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SOLDIERS COVE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SAMPSON BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacCORMICKS BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-IRISH COVE BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MARY ANNS LAKE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacNABS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SMELT BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Chapel Cove Road,BRIDGES AND TUNNELS,Footbridges
-SALMON RIVER CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+7c8753c31ce12ef1747434178e35bf2b,bridges and tunnels,bridge,MacDONALD BROOK BRIDGE,..,..,Province of Nova Scotia
+7f2dea2a4abd54028ff6ce279554b75a,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7f3637626dcf803ccfa384107e081949,bridges and tunnels,bridge,MARY ANNS LAKE BRIDGE,..,..,Province of Nova Scotia
+8200b1f48638917b0c93e07081e5cbf9,bridges and tunnels,bridge,KATES BROOK #2 BRIDGE,..,..,Province of Nova Scotia
+86842a4f72fb59d8e872d75cc6dc1afd,bridges and tunnels,bridge,GOLD BROOK BRIDGE,..,..,Province of Nova Scotia
+8789ff1342e94c921e4260318c6bb7d1,bridges and tunnels,bridge,HEAD GRAND RIVER BRIDGE,..,..,Province of Nova Scotia
+89df69cbadae2e02e798fcf6695162b1,bridges and tunnels,culvert,Murdocks Brook Culvert,..,..,Province of Nova Scotia
+8d5be5add6e6f9d04bf2a00bb4bf9aaa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9951836af0d2304e7bbaa2240a452e3d,bridges and tunnels,culvert,REAR BIG COVE 2 CULVERT,..,..,Province of Nova Scotia
+9c39764ba5159c9b5f2f14725751420e,bridges and tunnels,bridge,LYNCHE CREEK BRIDGE,..,..,Province of Nova Scotia
+9c69b83e9f4f6bd7f68ca8a1371e7bcb,bridges and tunnels,bridge,FRAMBOISE RIVER BRIDGE,..,..,Province of Nova Scotia
+a3ed30570ce19d27a56f6e03064e6837,bridges and tunnels,bridge,MacKEIGANS BROOK BRIDGE,..,..,Province of Nova Scotia
+a626611606818f73002f498d230e948a,bridges and tunnels,culvert,IRISH COVE BROOK CULVERT,..,..,Province of Nova Scotia
+a668a2518441886d67adad1e9287b808,bridges and tunnels,bridge,GRAND RIVER BRIDGE,..,..,Province of Nova Scotia
+a7ebbb3a994bb58b9dba6dbbe2f6ef11,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b02ff57beb9fd867f6a1579bad273fa0,bridges and tunnels,mixed,North Pond Culvert #1,..,..,Province of Nova Scotia
+b1861035fd3c2c27e0f27e50dea6c0f9,bridges and tunnels,culvert,SMELT BROOK CULVERT,..,..,Province of Nova Scotia
+b404aa8423858ae447410ade034badba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b4558e065d481e43778d2fecb58d8687,bridges and tunnels,bridge,FERGUSONS LAKE BROOK BRIDGE,..,..,Province of Nova Scotia
+b604521af20e66f01f6ee6164acf9c4b,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+b795094b0f97b8d6416013b13785e925,bridges and tunnels,culvert,SALMON RIVER #2 CULVERT,..,..,Province of Nova Scotia
+b9cc7e6bec7e8f92302a9818e47c0b15,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+bb33c3da69594c165d32a480c0a144f3,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+bbaa9abe238a2ad38622d091ab0bcdd4,bridges and tunnels,culvert,MacLeods Hill Culvert,..,..,Province of Nova Scotia
+bbee445f070c5261e243448b1e3e0e9f,bridges and tunnels,bridge,CAMPBELLS BROOK BRIDGE,..,..,Province of Nova Scotia
+c30d6e3458aa241c513502403dbdbaab,bridges and tunnels,culvert,THORN CULVERT,..,..,Province of Nova Scotia
+cb9b63686d0df651cd0808de3c026b1b,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+cbcdf716b46f6b83f8136961a1a1cd13,bridges and tunnels,bridge,MORRISON RORY SAILOR BRIDGE,..,..,Province of Nova Scotia
+d37740e5241026ffa6066bf4385414e4,bridges and tunnels,culvert,REAR BIG COVE 1 CULVERT,..,..,Province of Nova Scotia
+d4c08cfe4f9111fca7294f28b5ae133a,bridges and tunnels,bridge,FULLERS PANEL BRIDGE,..,..,Province of Nova Scotia
+dab51eadc04de6b55f0c66a4b88662b4,bridges and tunnels,bridge,CHISHOLM BROOK BRIDGE,..,..,Province of Nova Scotia
+df7fe32231de393865eb5b9d169fd49c,bridges and tunnels,bridge,PETERS LAKE BRIDGE,..,..,Province of Nova Scotia
+e29a250fb310e896c172e0ffb580e929,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e361cd92f451c8a9b3d38f12b927366d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e596949ebf731ed4bdfffd04a614da7b,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+e843014895fa1b385e4f00f1356aac5c,bridges and tunnels,culvert,SALMON RIVER CULVERT,..,..,Province of Nova Scotia
+eb0ab42e961be3d97204aa7801cdeae2,bridges and tunnels,culvert,CORBETTS COVE CULVERT,..,..,Province of Nova Scotia
+f059c4e93f7075f4092f32f6d83930d7,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+f16a836c24326822a112c1371fdef625,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+f417cdeeff6a58d6e6c1f9efb6b0fb3c,bridges and tunnels,bridge,MacLEODS JOHN H BRIDGE,..,..,Province of Nova Scotia
+f731b572e86c00435e00ccf9a0eff4fe,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+f8432257ffddd4cbda6360c529455625,bridges and tunnels,bridge,FIVE ISLANDS LAKE BRIDGE,..,..,Province of Nova Scotia
+f927338ffde7e39b36cc73b242570030,bridges and tunnels,mixed,North Pond Culvert #2,..,..,Province of Nova Scotia

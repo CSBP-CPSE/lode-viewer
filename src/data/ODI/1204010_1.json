@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-McGowan Lake Road,BRIDGES AND TUNNELS,Footbridges
-Eastern Shore Road,BRIDGES AND TUNNELS,Footbridges
-Minard Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Medway River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CNR Crossing,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Brookfield Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Summerville Centre Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Milton Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Bristol Avenue,BRIDGES AND TUNNELS,Footbridges
-Highway 208,BRIDGES AND TUNNELS,Footbridges
-Calfpen Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Deep Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Sewarts Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Brooklyn Shore Road Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Buggy Hole Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Beaver Head Lake Brook,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Zwicker Road,BRIDGES AND TUNNELS,Footbridges
-Carrigan Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Solomon Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Black River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Mount Merritt Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-White Point Road,BRIDGES AND TUNNELS,Footbridges
-Corkum Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-River Road,BRIDGES AND TUNNELS,Footbridges
-Bridge Street,BRIDGES AND TUNNELS,Footbridges
-Nickerson Pond Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Corkum Road,BRIDGES AND TUNNELS,Footbridges
-Port Joli Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 210,BRIDGES AND TUNNELS,Footbridges
-Beaverdam Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Shingle Mill Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Stream @ Brookfield Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Pond Bridge Road,BRIDGES AND TUNNELS,Footbridges
-Main Street,BRIDGES AND TUNNELS,Footbridges
-Hunts Point Bridge #1,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Central Port Mouton Road,BRIDGES AND TUNNELS,Footbridges
-Parks Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Sandy Cove Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Labelle Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Douglas Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Pond Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Cameron River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Murley Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Great Hill Multiplate Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Glenwood Street,BRIDGES AND TUNNELS,Footbridges
-Louis Lake Brook #3 Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Beach Meadows Brook #2 Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Charleston Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00470de0f9f7eec361ca17f91adb93dd,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+01303e6fa93ba4ac85850e577350174c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+01a1ad38537c842fc9f851291feba9d2,ports and marinas,mixed,Central Port Mouton - Fishermen's Wharf,Core Fishing,...,Fisheries and Oceans Canada
+01cfe2da8bb253b17649c9a7c30b0887,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+02a2cfffb64326025ccfd5ed2d8fa2a1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+03bf607425a518c46912bf00a7c30004,bridges and tunnels,bridge,Dean Brook Bridge,..,..,Province of Nova Scotia
+04069209d4f1014dc5017b9447bfc092,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+04cd95b33365d312b25784ec2505c9e1,bridges and tunnels,bridge,Louis Lake Brook #2 Bridge,..,..,Province of Nova Scotia
+0619f88d5512e94beccd17bb07790e22,bridges and tunnels,mixed,CNR Crossing,..,..,Province of Nova Scotia
+06c19fcbc5da064acade8549e706fa73,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+09538f65e8fb6cd5cd91e33b08510f58,bridges and tunnels,bridge,Halfway Brook Bridge,..,..,Province of Nova Scotia
+09a5c87a39f185a71041a5cf02ef84af,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+09c1068d562ce9eedf8e26eb7f4026ac,bridges and tunnels,bridge,Pleasant River Bridge,..,..,Province of Nova Scotia
+09d7b592132333ad10c044d75d296155,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+0a263a341515c47a9ce7d61191905765,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+0ada6c8821e767695929ea86548a8aef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0c6992e9c88830c7379bccba9c4b481e,bridges and tunnels,bridge,Five Rivers #2 Bridge,..,..,Province of Nova Scotia
+0d314026cb10961282a612df7c7260c6,bridges and tunnels,bridge,Beach Meadow Bridge,..,..,Province of Nova Scotia
+0eb016d8d84b90f8709a27ca4820cdb7,bridges and tunnels,bridge,Louis Lake Brook #1 Bridge,..,..,Province of Nova Scotia
+0ee37f2fe7b1e4f66f98f657a1f15a33,telecom,tower,...,...,...,Natural Resources Canada
+10f4e46b412f009ae59755287bf77e36,bridges and tunnels,bridge,Sandy Cove Bridge,..,..,Province of Nova Scotia
+1109962a6937181c0938277f6f01ffe5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+11d7eb65856c60c7898d79aa10bffed7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+127410f54c4c01887f2828e4ca5b868e,low carbon,hydro,Lower Great Brook,...,...,World Resources Institute
+13dc1138ef7ee11b6b4557fe9d531571,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+14e79f2d6ec13ffddbe905ad8730edc7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1594ab4dbb46ce90fd88f8a704b7a323,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+170061772cfc159de72b6fa094d66406,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+175e9929b07a55d43a3eb8552d123fbb,bridges and tunnels,bridge,Fifteen Mile Brook Bridge,..,..,Province of Nova Scotia
+17a215140200a986e8767b9b93d848e4,ports and marinas,mixed,Port Mouton,Core Fishing,...,Fisheries and Oceans Canada
+183ee13de717f594f4448ca4888e09e6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1876bd15fa652c75615916cfe193db7f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1884591e405b8c5698118874071f6e6f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1931fce9501b863da2d30f89706175e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+198df7a666eb4d21e93579b932d9cb73,telecom,tower,...,...,...,Natural Resources Canada
+1aa07d43fc65f27c720168378f2fb073,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1abafbf9b61a0405ab0df29c29fa7324,low carbon,hydro,Big Falls,...,...,World Resources Institute
+1bce63714401ddb0161eb4d0cd3539c2,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+1c162628005477bebad2405a738a28a7,bridges and tunnels,bridge,Herring Cove Brook Bridge,..,..,Province of Nova Scotia
+1c739ec3fd1c1504fc3da5860a502a67,bridges and tunnels,bridge,MIll Brook Bridge,..,..,Province of Nova Scotia
+1cfe562a6f51ee2f18e3df963da6ddca,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d0de5667c6ce289e7b73a1492eb4e2c,bridges and tunnels,bridge,Old Kettle Bridge,..,..,Province of Nova Scotia
+1d1ba1de5f40433fe14b500df41e928f,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+1d6dae2dbbbfe504dbd786e414df0bd0,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+1dfbcf19131d060cd63d9594d8514184,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+1ec2c64879aabfd85e1547cbad94dd3c,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+1f50b7a08a834a5827e431b3f195ce00,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f62ed9687a56cd55cce53ced7ca9058,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+22a8c53cea164fd23e643a9084c4bd8e,bridges and tunnels,bridge,Brookfield Bridge,..,..,Province of Nova Scotia

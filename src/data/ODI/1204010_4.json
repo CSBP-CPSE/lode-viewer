@@ -1,11 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Potanoc Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Broad River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Beach Meadow Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Hank Snow Drive,BRIDGES AND TUNNELS,Footbridges
-Upper Broad River,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Seaboyer Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Eighteen Mile Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Mersey River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Nickersons Pond Multiplate Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Trunk #8 U/P Bridge on 103,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+63d91ed94b7ccac28b82ea8f3d494bc2,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+65755bb8c98e30f13667a4ccc62876fe,bridges and tunnels,mixed,Hunts Point Bridge #2,..,..,Province of Nova Scotia
+66848edfc22256e6bc93e8c1d59df176,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+6696ca5de4e14c0465d058c3d8ff3fe1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+66b6ca8e4caf72c8235785be6c19e5ef,ports and marinas,mixed,Port Medway,Core Fishing,...,Fisheries and Oceans Canada
+6705c021fc59621d2c057f3a034c49a1,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+680cebd62220c417e673a59d82bdff03,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+680dbe34aae8df4fc4f2ec04fd2329ec,bridges and tunnels,bridge,Calfpen Brook Bridge,..,..,Province of Nova Scotia
+68509218e484b355452ec5a92aea6abf,electric grid,power_plants,..,...,...,Natural Resources Canada
+6a0755ce9b8a7d33f61c02d481cb49b4,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+6b6325eaa4e0cb55960ef9400c7868c5,bridges and tunnels,bridge,Mount Merritt Brook Bridge,..,..,Province of Nova Scotia
+6c378536a8ad00e02526756cd42cde39,bridges and tunnels,bridge,Old Port Mouton Road Bridge,..,..,Province of Nova Scotia
+6d060a4bef32482919dfb75786e5de25,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6dbb171605d5fd92b34524efc3aab25c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6df31ab3d43a64cca3faa549552b77f3,bridges and tunnels,bridge,Mill Village Bridge,..,..,Province of Nova Scotia
+6e451c2c709b169b56a24db258a382a9,electric grid,power_plants,..,...,...,Natural Resources Canada
+6fb3e9799ff6342d687bbf89b735cc78,bridges and tunnels,bridge,Sewarts Brook Bridge,..,..,Province of Nova Scotia
+6fda656ac55be6064b8ec965c7af6a13,low carbon,wind,Liverpool,...,...,"Government of Canada, Natural Resources Canada"
+722a82494e2d2eb3359b834e85d59631,bridges and tunnels,bridge,Whiteburne Brook Bridge,..,..,Province of Nova Scotia
+730d9072a741f5b157ef2b0033095b4c,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+7362ed1e34e57318bb2dfba7e80b8a3d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+748941de81375b8bacea16043c3ae437,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+757e383e9d4e7a86d5bf60d5b65eb1be,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7613b3de989e3bffdbc51bd567bf4fc7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7961321e064772c2f9e020001c0af9b7,bridges and tunnels,bridge,Great Brook Bridge,..,..,Province of Nova Scotia
+7a1ba93569708e6c594546c79c55f8da,bridges and tunnels,bridge,Wentworth Brook Bridge,..,..,Province of Nova Scotia
+7c35f319bda0a7fa006434687a4acfaa,electric grid,power_plants,..,...,...,Natural Resources Canada
+7dfef38e1476e903a68d58655edd9d1b,telecom,tower,...,...,...,Natural Resources Canada
+7e2b807e717e0f021f4f27c289f9bf6d,bridges and tunnels,bridge,Kedron Brook Bridge,..,..,Province of Nova Scotia
+7feeaf04a7a8ab44d765b2749bbfa3a3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+80b88fd0d7ea6aee4a88019d2f9fccb4,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+810f67c6db72fd86636d17f43365eff0,bridges and tunnels,bridge,Seaboyer Bridge,..,..,Province of Nova Scotia
+822fad19728171579cce98aba14ae839,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+825b5084f0e0745dffc8f8767b47d8be,bridges and tunnels,bridge,Rhyno Bridge,..,..,Province of Nova Scotia
+8346ffe52a8c39b089bfaa96d68f4e20,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+83af0c1078f95e406e400e6836cdcac3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+847b9365dee371787eafa37df9f4b03d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+852c905fdd72d0ef1158ec5506f4967a,bridges and tunnels,bridge,Port Joli Bridge,..,..,Province of Nova Scotia
+85dccc8582bc3febe5772e3ef78c4c90,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+86a57f2e858b85d274d2335a5bf64afb,telecom,tower,...,...,...,Natural Resources Canada
+87186f8f8c28b6b0a5309b7b216848d2,bridges and tunnels,bridge,Beaverdam Brook Bridge,..,..,Province of Nova Scotia
+886059947085a5ab7d58c9080454286c,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+890142198a0cf17ed3967b8f8bbcf884,electric grid,power_plants,..,...,...,Natural Resources Canada
+8ac74c87707c62ce1dffe5526a7c4c09,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+8c121ee75298c018ef2992da0a70ee52,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+90663568238324fa0209c534fb0f065b,electric grid,power_plants,..,...,...,Natural Resources Canada
+91e56d340657d3559379cbc3a6a272cd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+923a31ac8666787586c3bba6821b6f85,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+92b81ea57e0f0bb9cc56acd3c20f55ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

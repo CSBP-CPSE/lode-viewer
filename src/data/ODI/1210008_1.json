@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-BLOCKHOUSE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Brule Point Road,BRIDGES AND TUNNELS,Footbridges
-Highway 4,BRIDGES AND TUNNELS,Footbridges
-Tim Horton Childrens Camp Road,BRIDGES AND TUNNELS,Footbridges
-Mitchell Swan Road,BRIDGES AND TUNNELS,Footbridges
-ISHGONISH RIVER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Stewarts Road,BRIDGES AND TUNNELS,Footbridges
-NORTH RIVER STRUCT. - W.B.,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BAIRD BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Belmont Road,BRIDGES AND TUNNELS,Footbridges
-GULTCH,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LOCKERBY,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ONSLOW ROAD U/P ON 102,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Masstown Connection,BRIDGES AND TUNNELS,Footbridges
-INTERVALE #1,BRIDGES AND TUNNELS,"Bridges, Culverts"
-KEDDYS MULTIPLATE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BROOKSIDE ROAD U/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-PORTEAUS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-DAVID STAPLES,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CREIGHTON,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Matheson Corner Road,BRIDGES AND TUNNELS,Footbridges
-Josh Higgins Road,BRIDGES AND TUNNELS,Footbridges
-Gil Sutherland Road,BRIDGES AND TUNNELS,Footbridges
-MCLEOD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WHITES MULTIPLATE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-West Tatamagouche Road,BRIDGES AND TUNNELS,Footbridges
-John Murdock Road,BRIDGES AND TUNNELS,Footbridges
-BEAVERBROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Fielding,BRIDGES AND TUNNELS,"Bridges, Culverts"
-East Mountain Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WH SWAN #1,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SEMPLE CREEK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WILLIS ROODE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HIGGINS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Grist Mill Road,BRIDGES AND TUNNELS,Footbridges
-HUGH MCKAY,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BAILLIE BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Plains Road,BRIDGES AND TUNNELS,Footbridges
-GEDDIE GRIST MILL,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Cooper Road,BRIDGES AND TUNNELS,Footbridges
-HIGGINS (JOSH),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Millbrook Road,BRIDGES AND TUNNELS,Footbridges
-WALLS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 326,BRIDGES AND TUNNELS,Footbridges
-HINGLEY,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Staples Brook Road,BRIDGES AND TUNNELS,Footbridges
-MCKAY (WILL),BRIDGES AND TUNNELS,"Bridges, Culverts"
-PICTOU ROAD OVERPASS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-EAST MOUNTAIN RD O/P(WB),BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+012fc013ae4526b5b0c1e7f606a9e4f7,bridges and tunnels,mixed,SAM STAPLES,..,..,Province of Nova Scotia
+01bdd8e06e3123f46e63d4f485fcc2e0,bridges and tunnels,mixed,ISHGONISH RIVER,..,..,Province of Nova Scotia
+01f9bf6271e6d39650ac17d116a84ca6,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+02fa6781c7707eb6720706b6b1af36f5,railways,track,..,...,...,Natural Resources Canada
+039d9700856cbfa12e305c0a5d1ae288,airports,...,Debert Airport,small_airport,...,OurAirports
+0556ecda77b8607382a5f6991da32441,bridges and tunnels,mixed,BROOKSIDE,..,..,Province of Nova Scotia
+05aca9f6af1a32c70ca3d2f0f300465b,bridges and tunnels,mixed,IRVING,..,..,Province of Nova Scotia
+066d8df35178263785236606a47985cb,bridges and tunnels,mixed,AIRPORT,..,..,Province of Nova Scotia
+067f55bd30d081b20e401c1c3a89997f,bridges and tunnels,mixed,MILE BROOK,..,..,Province of Nova Scotia
+06e2ed9530a911edffcd449791a0f73f,telecom,tower,...,...,...,Natural Resources Canada
+07d2fd8f6afe5386fa3c5723e17b9d77,bridges and tunnels,mixed,Fielding,..,..,Province of Nova Scotia
+08f1898d950fa2553016a36e55739d8a,bridges and tunnels,mixed,MCELMON MILL,..,..,Province of Nova Scotia
+0a5b931bfcc553245a1f9cc2dfd45290,bridges and tunnels,mixed,BELL,..,..,Province of Nova Scotia
+0b42179e0880539e5b14a0288c442929,bridges and tunnels,mixed,Masstown connector U/P,..,..,Province of Nova Scotia
+0ecbb97430bd3077668cabba79aeb9fe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f35531d187586a5362f20bb10ed78a5,telecom,tower,...,...,...,Natural Resources Canada
+0f61e45437241f7553dbc7ac25d2b22b,bridges and tunnels,mixed,DAVE VINCENT,..,..,Province of Nova Scotia
+107dee79a0707e1ab26d3893e43c759e,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+118c02bd5e28e49d7a0879d9e762fb53,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+11e7289468a907459b954bd440cd84cb,telecom,tower,...,...,...,Natural Resources Canada
+140290a966476fba3088770a2129b485,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+16945e108dcd2dab1a29009be2ab5cbb,bridges and tunnels,mixed,MACKENZIE,..,..,Province of Nova Scotia
+1953618de83dbcd79e7a41740513503a,telecom,tower,...,...,...,Natural Resources Canada
+19be4efecabb6c57f1c3d782e66d125f,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+1a6ed33ec4693229ea0715be050abef0,bridges and tunnels,mixed,REID,..,..,Province of Nova Scotia
+1b28095f0b4822dc382317d594a44846,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+1d1068b23af25f3ae83693443102b1a9,bridges and tunnels,mixed,BROOKSIDE ROAD O/P ON 104 (WB),..,..,Province of Nova Scotia
+1d5ebd1b25c0799c9957ef824e245271,bridges and tunnels,mixed,TCH 102 & 104 INTERCHANGE  W B,..,..,Province of Nova Scotia
+1dd61d5bb88cb3890b07f8504d11d3ee,low carbon,wind,Spiddle Hill,...,...,"Government of Canada, Natural Resources Canada"
+1e8154356b8a6020dd41e18e06f336f9,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+1e8838d40d6568486cb3c59f5b54bb41,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f081a6fa3a67674592c4ec7899c43dd,bridges and tunnels,mixed,TRUNK 4 CONNECTOR,..,..,Province of Nova Scotia
+1f317daba71b6e1ed75a1bc65f65fc3a,bridges and tunnels,mixed,JOHN MILLER,..,..,Province of Nova Scotia
+1f4f062979d90ae30b2e5b275ebdd818,low carbon,wind,Nuttby,...,...,"Government of Canada, Natural Resources Canada"
+1fc107289bb07dc69f53b614e1c7336f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+21eac1eca29095a6f916ba4fcb48fffe,bridges and tunnels,mixed,FARNHAM,..,..,Province of Nova Scotia
+22ebc01124093090130e35ff4c3bc23f,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+24f69e36c8662eadab5fdb51692ad9a2,bridges and tunnels,mixed,GEORGE SUTHERLAND,..,..,Province of Nova Scotia
+24fbb0381f7c66cc540b96e82905e634,bridges and tunnels,mixed,TC 104 SALMON RIVER O/P W.B.,..,..,Province of Nova Scotia
+2624a2b9ecfff015705bf1b298808773,bridges and tunnels,mixed,WILLIS ROODE,..,..,Province of Nova Scotia
+26dc7749bf18fa0a60099273163ff244,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+2708ebc890bc8ff7ae29db702f999ade,bridges and tunnels,mixed,DAVID STAPLES,..,..,Province of Nova Scotia
+27f5ba1be70251ea12c842cb2ed1ab13,telecom,tower,...,...,...,Natural Resources Canada
+2848d3436d7ab103caf1a9bd3b5be7ed,bridges and tunnels,mixed,LYNDS (ALFRED),..,..,Province of Nova Scotia
+29276b6953b82034c4a0290a7d528b5b,telecom,tower,...,...,...,Natural Resources Canada
+2a39fc38a1b9dcaf4c0205fee39e0ee8,low carbon,wind,Nuttby,...,...,"Government of Canada, Natural Resources Canada"
+2b43b61da7e3b0629038648861197e6a,bridges and tunnels,mixed,BIZ BROOK,..,..,Province of Nova Scotia
+2c310d2bba406484f892b151bcbad5f9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2c5ef726c94e281152dd1d11af415d81,bridges and tunnels,mixed,KEMPTOWN,..,..,Province of Nova Scotia

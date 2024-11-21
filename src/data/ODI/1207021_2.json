@@ -1,16 +1,39 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Lumsden Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Grand Pre Overpass on 101,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Miner Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-"Greenwich Underpass on 101 "" Interchange""",BRIDGES AND TUNNELS,"Bridges, Culverts"
-Jehiel Davidson,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Greenfield Road,BRIDGES AND TUNNELS,Footbridges
-Peck Meadow Road,BRIDGES AND TUNNELS,Footbridges
-Highway 101,BRIDGES AND TUNNELS,Footbridges
-Deep Hollow Road,BRIDGES AND TUNNELS,Footbridges
-Deep Hollow Overpass Bridge on 101,BRIDGES AND TUNNELS,"Bridges, Culverts"
-West Brooklyn Overpass Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Curry Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Black River Road,BRIDGES AND TUNNELS,Footbridges
-Simpson's Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Oak Island Road Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+82fe2e93c143ec9bc80ac885d9a0231d,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (6-15m diameter) point,Lagoon,Government of Nova Scotia
+8421a7eb1be7603c80591f711c2c4a97,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8866cb657c38885a39b2f8946ac753ed,bridges and tunnels,bridge,Lumsden Bridge,..,..,Province of Nova Scotia
+8bb849c0bb93f001c32aca3a29794a96,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+90366861415a54c71b1967cda4591d03,bridges and tunnels,bridge,Stanley Atwell Bridge,..,..,Province of Nova Scotia
+940e59e4633a8a79c299fa34c7a166ff,bridges and tunnels,mixed,Ben Jackson Connector Overpass,..,..,Province of Nova Scotia
+98aeab68f4ad771930fc3f32360779a7,bridges and tunnels,bridge,Joe Harves South Bridge,..,..,Province of Nova Scotia
+9a2aea263362873c713da0de5e1fb56a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9c45a9db9a0147acb03704321cd963c3,bridges and tunnels,bridge,Benjamin Bridge,..,..,Province of Nova Scotia
+a08a9c398f4a40a7f40265f31aa7cbcd,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+a78c9d467aeda95af1fe2a8e2cb31a6a,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+af59ca3c10f62523281cb57ab26728be,bridges and tunnels,bridge,Simpson's Bridge,..,..,Province of Nova Scotia
+af7e441eca26e6176d5a78f74ce38655,bridges and tunnels,culvert,Oak Island Road Culvert,..,..,Province of Nova Scotia
+b2f81e4e35fe846322d874e740901b4c,bridges and tunnels,bridge,Harding Brook Bridge,..,..,Province of Nova Scotia
+bcb9729a52d89f445ff8626737c84049,bridges and tunnels,mixed,The Twins,..,..,Province of Nova Scotia
+beebdb3908baf24f77dcc55a6bc5ec12,bridges and tunnels,bridge,Kinnie  Bridge,..,..,Province of Nova Scotia
+c1cb8a22a74b7bee2dfcedeac0eee6c6,bridges and tunnels,bridge,Coulter Bridge,..,..,Province of Nova Scotia
+c4c176478fcf0bb2fdf3a2d27f04e1cd,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+c74703780ca93734600a2ba1848d325f,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+ca4793f86e8561f6b4f44957a524f4c8,low carbon,hydro,White Rock,...,...,World Resources Institute
+cf14b61ed2bbf8edbdbdbe0556b2de88,bridges and tunnels,bridge,Curry Bridge,..,..,Province of Nova Scotia
+d25206dcdf9c95d3af8a6f80f9625753,bridges and tunnels,mixed,Oak Island Overpass Bridge on 101,..,..,Province of Nova Scotia
+d784068afd88159de7bd965cf8ea7eb0,telecom,tower,...,...,...,Natural Resources Canada
+d857206ce77a58c8c57432b1cc82ad2f,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+db638282524a334bac6597d688f3976e,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+dc26fd6af772f347a8d9ff40065b8eff,bridges and tunnels,bridge,P. Joudrey Bridge,..,..,Province of Nova Scotia
+dc36c5f55b199fa210cf815e0c71c0c6,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+dd14ab3238fb2d6e38fe04a778a4f118,electric grid,power_plants,..,...,...,Natural Resources Canada
+dd41a43cdd249a576a8182fc864a162a,bridges and tunnels,bridge,Lemuel Levy Bridge,..,..,Province of Nova Scotia
+e57a1d75371a70237daa6de0b5831e6e,bridges and tunnels,bridge,Horton Bridge,..,..,Province of Nova Scotia
+e5a1ebcbe6e91145fa5ab2bccb34c270,bridges and tunnels,mixed,Grand Pre Overpass on 101,..,..,Province of Nova Scotia
+e73d42b4929fc8d19e8099f06fbae316,bridges and tunnels,bridge,G. Pemberton Bridge,..,..,Province of Nova Scotia
+ed4696daf23ae01f4c07270b769a2090,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+f7cb939f5460c10b2185bb4fcbf80a58,electric grid,power_plants,..,...,...,Natural Resources Canada
+f8b60858d999e6d10db4e60e96dba7c1,bridges and tunnels,bridge,Horton Bridge,..,..,Province of Nova Scotia
+fca0e3188bdf84c86cc31652273bae43,bridges and tunnels,mixed,Melanson Road U/P Bridge on 101,..,..,Province of Nova Scotia
+fe24217b1a3591fd14cb651853e8ebd7,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+ff538065129d69c4a2e8a59b87965c05,bridges and tunnels,mixed,Deep Hollow Overpass Bridge on 101,..,..,Province of Nova Scotia

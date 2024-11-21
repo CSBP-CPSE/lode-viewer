@@ -1,16 +1,45 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Harbourville Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lakecrest Drive,BRIDGES AND TUNNELS,Footbridges
-Keddys Brook Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Marshall Road O/P Bridge on 101,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Arthur Brydon Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Thrashing Mill Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Thompson Road,BRIDGES AND TUNNELS,Footbridges
-Country Home (Parker House) Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Harris Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Usher Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Condon East Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Rocknotch Road,BRIDGES AND TUNNELS,Footbridges
-Palmer Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Skinner Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+d3010a41eccaeabe158a12eaf92e3057,bridges and tunnels,bridge,W.W. Pineo Culvert Bridge,..,..,Province of Nova Scotia
+d4c3874ef5b3859c7b38e8687dc6d403,bridges and tunnels,bridge,Old Loop Bridge,..,..,Province of Nova Scotia
+d52f8140d818cb90d4fa6a7aceef003e,bridges and tunnels,bridge,Usher Bridge,..,..,Province of Nova Scotia
+d58585a3c347a7aa327f441464809ace,bridges and tunnels,bridge,Saunders Farm Multiplate Bridge,..,..,Province of Nova Scotia
+d6023186ba3155a5e6fb8a8de59af7fd,bridges and tunnels,bridge,Whitman Bridge,..,..,Province of Nova Scotia
+d6ed36d52e69881e0c0a06644cf60937,bridges and tunnels,bridge,McMaster  Bridge,..,..,Province of Nova Scotia
+d7da3b84ddf345dbcd3f2096254f751a,bridges and tunnels,bridge,Rufus Power Culvert Bridge,..,..,Province of Nova Scotia
+d8730d000bd92beca2b1d83d5ff869fd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d8cc033499bbd9c7e1fb5f39a729b005,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+db30e7fb6b38169e2db3f9bbbb2b29e3,ports and marinas,mixed,Canada Creek,Non-Core Fishing,...,Fisheries and Oceans Canada
+dd5d1f7c78eb0b1e1f70784151b1364a,bridges and tunnels,bridge,Creamer  Bridge,..,..,Province of Nova Scotia
+dd8537a0b2f45baf6bde7086f99acd57,bridges and tunnels,bridge,Bear Brook Bridge,..,..,Province of Nova Scotia
+dfa06955e319905a0fa40e046a6da759,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e02c5f37dd483ccef8d32e5e599f4af3,bridges and tunnels,culvert,Exit 16 Culvert,..,..,Province of Nova Scotia
+e04c1ba6b681ef9da7153572b61448f9,bridges and tunnels,bridge,Collins Bridge,..,..,Province of Nova Scotia
+e095593b3cfb392a6555156ba3d6e30e,bridges and tunnels,culvert,Keddys Brook Culvert,..,..,Province of Nova Scotia
+e34686895aad08220a3da86b77b3109f,bridges and tunnels,bridge,Joe Lee Bridge,..,..,Province of Nova Scotia
+e5c4276e2de647a9722bc0e55bcd6e27,airports,...,Cfb Greenwood,medium_airport,...,OurAirports
+e83caf8d2a4d6ddc11f2c2a38f80f5a3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e8975bc7812069f311acda9652bafebf,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+e8f2b1c70c4cd9cff92151ef3d0cee47,bridges and tunnels,bridge,Manning Spinney Multiplate Bridge,..,..,Province of Nova Scotia
+e9539e264977d5e5b18c9e621e8e061b,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+ea3cd37c4485cff976b4789af5a4eced,wastewater and storm water,facilities_waste,Greenwood Sewage Treatment Plant,"Screening, Chemical Flocculation, Primary Sedimentation/Clarification, Skimming, Lagoons - Aerated, Lagoon - Aerobic, Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+ecd8b2153e2d610f017125bae64a7a64,telecom,tower,...,...,...,Natural Resources Canada
+f00cdfca9cdf3414785902f31bd04bfb,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+f10899f634fc3a61d5efefa63cea7e00,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+f221506956c56be091b18082abcef517,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f3760eed29cd76b28bfdbb1f4c0f1159,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f486d10c6eea8a998bf23fecbf9a1741,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f49cfb141ba408125e55766ee9ece31b,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+f520510a00ba941276ca657829a08473,bridges and tunnels,bridge,Busby MacMahon Bridge,..,..,Province of Nova Scotia
+f711d918a971b47802c1f3461aeef937,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+f7f2bd117f2b6601caada5557e14f824,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f801474a00d54cb44204ad36be002682,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f910c462b57133693bbbf2e11c401d3c,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+fae070fe9b6f7c1bb4024bc166b8cf2a,bridges and tunnels,culvert,Fleet Culvert,..,..,Province of Nova Scotia
+fc86b091100eda2be6ef1252e73a949e,bridges and tunnels,bridge,Russell Vault Bridge,..,..,Province of Nova Scotia
+fcae11588192fd5a29ce184f6a682b20,bridges and tunnels,bridge,Jacques (Auburn) Bridge,..,..,Province of Nova Scotia
+fcede0e852d3ad434777c03275d5aa82,bridges and tunnels,bridge,Long Point Multiplate Bridge,..,..,Province of Nova Scotia
+fd8022f20306a02a5e228bf65e0df52f,bridges and tunnels,bridge,Waterville Bridge,..,..,Province of Nova Scotia
+fe06a49e5dded2912fe3d4b82aa32d2b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fe179faf7990da471b0fdb1614d1ef07,bridges and tunnels,bridge,Davidson Culvert Bridge,..,..,Province of Nova Scotia
+ff94c727bcfde18b610559998234c5f8,bridges and tunnels,bridge,Sharpe's Hill Bridge,..,..,Province of Nova Scotia
+ffb22b586a0523d5857d61edc56776f5,bridges and tunnels,bridge,Hussey   Bridge,..,..,Province of Nova Scotia

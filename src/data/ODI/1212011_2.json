@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Meiklefield Road,BRIDGES AND TUNNELS,Footbridges
-Broadway,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Bannerman Road,BRIDGES AND TUNNELS,Footbridges
-THOMPSON BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FRENCH RIVER RD BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Route 245 O/P,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WILLARD FRASER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CHURCHVILLE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Old Campbell Road,BRIDGES AND TUNNELS,Footbridges
-PINETREE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-EDEN BARRENS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Broadway Tk4. Overpass Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Jax Winston,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-Manse Road West Side Road,BRIDGES AND TUNNELS,Footbridges
-EDEN LAKE #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WHYLE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-DAN MACPHERSON,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Piedmont Valley Road,BRIDGES AND TUNNELS,Footbridges
-Stewart Brook #1,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacLellans Mountain Glencoe Road,BRIDGES AND TUNNELS,Footbridges
-Lamont Rd. Overpass Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Cali Jane Multiplate,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Reese Road,BRIDGES AND TUNNELS,Footbridges
-ST ANDREW'S CEMETERY RD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Plymouth Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BLACK BROOK LAKE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FORBES MILLS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-UPPER FRENCH RIVER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-EAST RIVER RD U/P ON 104  (WB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-GUSSET,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Sunnybrae Eden Road,BRIDGES AND TUNNELS,Footbridges
-Park Falls Road,BRIDGES AND TUNNELS,Footbridges
-George Ross Road,BRIDGES AND TUNNELS,Footbridges
-MacPherson Road,BRIDGES AND TUNNELS,Footbridges
-GREEN BROOK CEMETERY,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SUNNY BRAE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-KENNEDY,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CRAIGIES,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Blanchard Road,BRIDGES AND TUNNELS,Footbridges
-East River East Side Road,BRIDGES AND TUNNELS,Footbridges
-MEIKLEFIELD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-DUN'S,BRIDGES AND TUNNELS,"Bridges, Culverts"
-McGraths Road,BRIDGES AND TUNNELS,Footbridges
-MacLain's Rd,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WEST BARNEY'S RIVER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacLeans Lane,BRIDGES AND TUNNELS,Footbridges
-STEWARTS @ PLYMOUTH,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+2f5f4a12f2ef2d47f59d47b8ee6b890d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31c7badecbe1929e8df1c611eff5aa8a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32014846641c8eecb1abcc9375aedbba,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+32adfe8e1caf068f768e4d554dc13d0b,bridges and tunnels,bridge,Broadway Tk4. Overpass Bridge,..,..,Province of Nova Scotia
+32e74a8b933161f4791e4ba5b1816454,bridges and tunnels,mixed,BARNEY'S RIVER STATION,..,..,Province of Nova Scotia
+3370fcedc21894bce05a121186617ffc,electric grid,power_plants,..,...,...,Natural Resources Canada
+34721a9925df5a69c93a90091c581a3c,bridges and tunnels,mixed,STALKERS,..,..,Province of Nova Scotia
+34809a61cd3a3fd4857fd9324cfd74ce,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+3596a5d29cec8662dda8e30d229d4309,low carbon,wind,Glen Dhu,...,...,"Government of Canada, Natural Resources Canada"
+36a2ad7eaa712aff4c9d905b57a637a8,bridges and tunnels,culvert,Lismore Culvert,..,..,Province of Nova Scotia
+3b6502dcaa9970c3b26abfdef6c3dfe9,telecom,tower,...,...,...,Natural Resources Canada
+3bcce01eda016ee9f6a3580e6fefc61d,bridges and tunnels,mixed,EAST RIVER RD U/P ON 104 (EB),..,..,Province of Nova Scotia
+3d63170ab572120440ae5bdb51b05abe,bridges and tunnels,mixed,ST ANDREW'S CEMETERY RD,..,..,Province of Nova Scotia
+3d71e059f83cdd988d282a4f0ebcf8a1,bridges and tunnels,mixed,CAMPBELLS BROOK,..,..,Province of Nova Scotia
+400999e11d7cea45b797c065374b68b4,telecom,tower,...,...,...,Natural Resources Canada
+414ba776d101d2150f60f0449eb10dab,low carbon,wind,Avondale Community Wind Park,...,...,World Resources Institute
+421756bfc47452478c6dcd64d6c918ee,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+425fac5a4b09a14abff1900a8af7354d,telecom,tower,...,...,...,Natural Resources Canada
+42ad3dba71eb99736211c610b98e77cc,bridges and tunnels,mixed,MOOSE RIVER,..,..,Province of Nova Scotia
+42f5cf5302bfd986bad2cc94092d9b55,bridges and tunnels,mixed,MIDDLE BROOK,..,..,Province of Nova Scotia
+447f57fc125386ba30a0bd3eb875451a,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+454bbe547d4871b550d0e15397482312,low carbon,wind,Glen Dhu,...,...,"Government of Canada, Natural Resources Canada"
+464d4c085d53e280d30fc277b0be87e6,bridges and tunnels,mixed,EDEN BARRENS,..,..,Province of Nova Scotia
+47019dd23b6f4231fcf16ba23e089a1b,bridges and tunnels,mixed,WAGNER,..,..,Province of Nova Scotia
+4750ede93e8cd0c55e8f164f39a4f12b,bridges and tunnels,mixed,LYNCH,..,..,Province of Nova Scotia
+4927d6f6959891587cdf97edcd19e252,telecom,tower,...,...,...,Natural Resources Canada
+4b2e67bae648b3d250f8b341c58412d3,bridges and tunnels,mixed,MEADOW SPRINGS,..,..,Province of Nova Scotia
+4b6a2a4f7d61ba9ea9024e4113e8e1a2,bridges and tunnels,mixed,SUTHERLAND RIVER,..,..,Province of Nova Scotia
+4c254c536bd8b9ea2b3774ca7ad91e76,bridges and tunnels,mixed,CAMERON,..,..,Province of Nova Scotia
+4c9011ddbfd79d399e073cf1ef844c2e,telecom,tower,...,...,...,Natural Resources Canada
+4f61c1181d33032520e220a6eb3e2d7c,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+4f6ef4d24963bd7a7559216980bb159a,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+50022160ead05b04203d4d88e2a35514,bridges and tunnels,mixed,THOMPSON BROOK,..,..,Province of Nova Scotia
+53455200667cb0a832ca89207e47ba86,bridges and tunnels,mixed,PINETREE,..,..,Province of Nova Scotia
+54bdb0f4f62da84aaef9c32dceb3cf1f,bridges and tunnels,culvert,Brady Douglas Culvert,..,..,Province of Nova Scotia
+54c108803b5c6aa096f42bc8c7fe537d,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+551525331cd9b2cc5c60f05d93409fe9,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+55cd4e33f7a046849e749f2f6e5cb3e5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+56194f25eac423db62b4024a7b134998,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+57bb7e73b51e5af6d7425b9f1301c990,low carbon,wind,Auld's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+59155e579b91d727d65bcd68b0237d18,bridges and tunnels,mixed,WHYLE,..,..,Province of Nova Scotia
+5abfaac9fb776eb9260f86d2b7ea740c,bridges and tunnels,mixed,BOYTER,..,..,Province of Nova Scotia
+5bcd3ba32a0811c4316ab62745c89f94,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5da42518244096eb0ea2c59339127bce,bridges and tunnels,culvert,MacPherson Culvert,..,..,Province of Nova Scotia
+5ee91d86bb1dc4512e466a400ee9a619,low carbon,wind,Glen Dhu,...,...,"Government of Canada, Natural Resources Canada"
+5f30af45fb23a71dd32747fb87d6ace6,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+5f456e35a97ad7e108433907eba3f3fc,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+5fd82792d30daab78de64b444147d16e,bridges and tunnels,mixed,GREENVALE ROAD,..,..,Province of Nova Scotia
+5ffdf09f317ea30c6570acfce5e7d3aa,bridges and tunnels,mixed,FRENCH RIVER,..,..,Province of Nova Scotia

@@ -1,14 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Larrys River Road,BRIDGES AND TUNNELS,Footbridges
-HALLETT BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MASONS CROSS RD TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Narrow Lake Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Tompkinsville Road,BRIDGES AND TUNNELS,Footbridges
-PIRATE HARBOUR BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LOWER SALMON RIVER BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-JIM COADYS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BERNIE O'CONNOR BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ARGYLE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MILL HILL BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-COLE HARBOUR RIVER BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Jim Walshs Loop,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+b309bc0f5ab2814e0b6022cef32d0869,railways,track,..,...,...,Natural Resources Canada
+b3b2e80fa0959c7380e4b5b1b2140478,telecom,tower,...,...,...,Natural Resources Canada
+b3fa1bde4bc306f3c7e485aa0f5b9bc8,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+b528bef26f2de566613f2087097393c6,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+b71b64d8c4c985314bccd8ab65510af8,railways,track,..,...,...,Natural Resources Canada
+b88916fcf1562e316a6a79c96a40559a,bridges and tunnels,culvert,HAY MARSH CULVERT,..,..,Province of Nova Scotia
+b967ee286548de1e69aaa3edfbcc6452,bridges and tunnels,bridge,CROOKS COVE BROOK BRIDGE,..,..,Province of Nova Scotia
+ba3001872dea0cda00fc4caf0ba4bd24,ports and marinas,mixed,Canso,Core Fishing,...,Fisheries and Oceans Canada
+bad00c303b9fbae663b672c8052b54bd,bridges and tunnels,bridge,SOUTH WEST BROOK BRIDGE,..,..,Province of Nova Scotia
+bb2605285115c84624e7b0dc387097f7,bridges and tunnels,bridge,NORTH LAKE BROOK BRIDGE,..,..,Province of Nova Scotia
+bf69fd17e9c5c7dc5b69c2c9645c37cc,low carbon,wind,Sable,...,...,World Resources Institute
+c27112be6debae37b36cd62ff69f61f9,ports and marinas,port,Stormont,..,...,National Geospatial-Intelligence Agency (NGA)
+c2b8957faaf162fd7efec2aa8e61ed62,bridges and tunnels,bridge,CEMETARY BRIDGE,..,..,Province of Nova Scotia
+c44bd57f4b9014ec7eed5bce312ebdfa,bridges and tunnels,bridge,AULDS COVE BRIDGE,..,..,Province of Nova Scotia
+c642723f85179c096d5753ec9756583f,bridges and tunnels,bridge,NEDS LAKE BROOK BRIDGE,..,..,Province of Nova Scotia
+c6fe225e053a3318ab7741a6d997c6d3,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+c80985f0b82f4aac70cc2a947cc1b18a,bridges and tunnels,bridge,UPPER NEW HARBOUR BRIDGE,..,..,Province of Nova Scotia
+c869a370f55944db5d36f45d28f5c0f2,bridges and tunnels,culvert,HORTON BROOK CULVERT,..,..,Province of Nova Scotia
+ccf4c17f92b9657bddf3e6857fb6d7e7,bridges and tunnels,culvert,DICKIE BROOK CULVERT,..,..,Province of Nova Scotia
+cea49aed57fc89b7cd26b021f52e29ba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cea74727d563b2c68aa7fed40b32588f,bridges and tunnels,culvert,LAKE BRIDGE CULVERT,..,..,Province of Nova Scotia
+cf1b617ee24e8e7e9317596b0d422f44,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+cfbf57b81f67524723e6526c11375e18,bridges and tunnels,bridge,WHITMANS BRIDGE,..,..,Province of Nova Scotia
+d0daf8fa82a89d6fb43478a78db68a4d,bridges and tunnels,mixed,MILL CREEK,..,..,Province of Nova Scotia
+d16caa08ecf34ec5270692cdc7925323,bridges and tunnels,bridge,QUEENSPORT BRIDGE,..,..,Province of Nova Scotia
+d4910d4dc9462790d20dea6dfe5cec10,bridges and tunnels,bridge,BRAYS BRIDGE,..,..,Province of Nova Scotia
+d494df9eaa8dc601d9e9a4f4b2a45dd5,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+d5005b052d7ebaaca8c517c28212cb5b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d69869510b2f3c311dbe04166d8f4d8d,bridges and tunnels,bridge,SALMON RIVER (EAST ERINVILLE) BRIDGE,..,..,Province of Nova Scotia
+d95bc6485c9e850043ea289302e26633,bridges and tunnels,mixed,AIKENS PONY TRUSS,..,..,Province of Nova Scotia
+dad3c13233ec19d915606562d343518d,bridges and tunnels,bridge,KENNEDY BRIDGE,..,..,Province of Nova Scotia
+dafd5c6a299975146d7e9a1fb50287da,bridges and tunnels,bridge,BROWNS BRIDGE,..,..,Province of Nova Scotia
+db766b6e313667ec4e68bbc78b23cdc6,ports and marinas,mixed,Upper Whitehead,Core Fishing,...,Fisheries and Oceans Canada
+dbfff3a3c95230ffb7b0d47863970e59,bridges and tunnels,bridge,WALSH BRIDGE,..,..,Province of Nova Scotia
+dc91842d53ebdea9a375f3fcc29205dd,ports and marinas,mixed,Larrys River,Core Fishing,...,Fisheries and Oceans Canada
+dd727f08c0122d0c8f0f659f8d07c588,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+dd9f1b0b4538b0778f029d5b8cfe9e7f,bridges and tunnels,bridge,WEST BROOK BRIDGE,..,..,Province of Nova Scotia
+ddd8ef16818d98da3ed143ef227669c3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+de8627408f4d85e5488ab461ed6b8862,bridges and tunnels,mixed,Aulds Cove Scale,..,..,Province of Nova Scotia
+dffe1dd280380f4fb672b64c5fc5aea9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e0177ee5b846042a7dc52e451ad9a99f,bridges and tunnels,bridge,CODDLES HARBOUR BRIDGE,..,..,Province of Nova Scotia
+e0902ff27b78ee923f9bfa15ebe9a757,bridges and tunnels,bridge,ALDER RIVER BRIDGE,..,..,Province of Nova Scotia
+e232bc350b14837e865efb0f9e4ba707,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e3b42a32f287100cc3aa7a51a2d0524c,bridges and tunnels,bridge,ST.FRANCIS HARBOUR BRIDGE,..,..,Province of Nova Scotia
+e493b3c09d2a47ed9fadecf6eb7d3862,bridges and tunnels,bridge,MORGAN BROOK BRIDGE,..,..,Province of Nova Scotia
+e7ad8532002b7e65e25261801325768c,bridges and tunnels,bridge,HARNISH BRIDGE,..,..,Province of Nova Scotia
+e90408df2182a32a45ac8afdc1a0fcfe,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+e99db8951d5575634532c1237bca6212,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+e9ba43ef118033d638108b626efd5653,bridges and tunnels,culvert,MacALLISTERS BROOK CULVERT,..,..,Province of Nova Scotia

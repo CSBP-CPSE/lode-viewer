@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Mayfield Road,BRIDGES AND TUNNELS,Footbridges
-van den HEUVALS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SCHOOL HOUSE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CONNERS MOUNTAIN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ARISAIG BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 4,BRIDGES AND TUNNELS,Footbridges
-Pinevale Road,BRIDGES AND TUNNELS,Footbridges
-LOCH KATRINE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MORIARTY CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Saint Andrews Street,BRIDGES AND TUNNELS,Footbridges
-CAMERONS LAKE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HURLBERT BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacPHEE CROSSING BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-DOCTORS BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BEAVER MOUNTAIN ROAD BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Jimtown Road,BRIDGES AND TUNNELS,Footbridges
-Blacksmith Valley Road,BRIDGES AND TUNNELS,Footbridges
-Glen Road,BRIDGES AND TUNNELS,Footbridges
-Marl Road,BRIDGES AND TUNNELS,Footbridges
-SOUTH SALTSPRINGS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacINTOSH BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WEST RIVER BRIDGE ON 104 WB,BRIDGES AND TUNNELS,"Bridges, Culverts"
-D MacIsaac Road,BRIDGES AND TUNNELS,Footbridges
-STEWARTS BRIDGE #1,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BEAVER MOUNTAIN CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Ohio East Road,BRIDGES AND TUNNELS,Footbridges
-Pleasant Valley Road,BRIDGES AND TUNNELS,Footbridges
-MacISAAC BRIDGE #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-OLD PINEVALE BRIDGE #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-OHIO CROSS ROADS TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Pitchers Farm Road,BRIDGES AND TUNNELS,Footbridges
-SYLVAN VALLEY BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Old Maryvale Road,BRIDGES AND TUNNELS,Footbridges
-HARDYS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Failte Lane,BRIDGES AND TUNNELS,Footbridges
-CORSTENS ACCESS TUNNEL,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SOMERS ROAD CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BROWNS MOUNTAIN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-OHIO BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lower North Grant Road,BRIDGES AND TUNNELS,Footbridges
-Dunmore Road,BRIDGES AND TUNNELS,Footbridges
-ST. ANDREWS TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-OLD MARYVALE ROAD BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Clydesdale Road,BRIDGES AND TUNNELS,Footbridges
-MacDONALDS BRIDGE #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Marsh Cross Road,BRIDGES AND TUNNELS,Footbridges
-OHIO IRON BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-KNOYDART BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HWY  104 CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+a49ec9ccecc96a2934db2859393f01bc,low carbon,wind,Fairmont,...,...,"Government of Canada, Natural Resources Canada"
+a4d2478ea0feb48b987d852c859411af,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a6e11b49e65b918dfaea678b1abce85b,bridges and tunnels,culvert,HARBOUR CENTRE CULVERT,..,..,Province of Nova Scotia
+a9a12a0301de02f52cf1687171b81642,electric grid,power_plants,..,...,...,Natural Resources Canada
+aa4e715549a9478370963f1a6ff9eb02,bridges and tunnels,mixed,MacDONALDS BRIDGE #2,..,..,Province of Nova Scotia
+aaf2ec10f91ef230535e6bbcf5923925,bridges and tunnels,culvert,ARISAIG BROOK CULVERT,..,..,Province of Nova Scotia
+ad72e53a33d31ebdb845b03a5be1fcce,bridges and tunnels,bridge,BEAVER MOUNTAIN ROAD BRIDGE,..,..,Province of Nova Scotia
+adfefc540e1e44aeba1387d27636faeb,bridges and tunnels,bridge,JACK MACGILLIVARYS BRIDGE,..,..,Province of Nova Scotia
+ae785c7d427ae1936fe136d6e07fb8be,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+b071685490515caa6a3837342b2bf27e,ports and marinas,mixed,Arisaig,Core Fishing,...,Fisheries and Oceans Canada
+b0b0d54b004e5bff085c03a884ead83f,low carbon,wind,Glen Dhu,...,...,"Government of Canada, Natural Resources Canada"
+b29f670b5ee05adf9394d39a630a079b,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+b33968a8d5f46e14b2198642bd91e461,bridges and tunnels,bridge,CLOVERVILLE BROOK BRIDGE,..,..,Province of Nova Scotia
+b7e1750f1f94fafbe725d47c066fc664,bridges and tunnels,bridge,DENOON BRIDGE,..,..,Province of Nova Scotia
+b8696f10d91f3f1bf78085f108601d69,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b9ecbd27ef115be4ceb1afd4a575fc15,bridges and tunnels,mixed,FORBES (HARTSHORN BROOK) TRUSS,..,..,Province of Nova Scotia
+bbd1048c35b77957ac47d385d9d38a06,bridges and tunnels,mixed,LOCH KATRINE,..,..,Province of Nova Scotia
+bbe308d335357fdc0e647b4bca79de49,bridges and tunnels,bridge,ST JOSEPH LAKE BRIDGE,..,..,Province of Nova Scotia
+bcc69436eb36916dcf46e91b7ec66f56,telecom,tower,...,...,...,Natural Resources Canada
+be5087b4675c37d3ba79b9df824534ce,low carbon,wind,Glen Dhu,...,...,"Government of Canada, Natural Resources Canada"
+bf9cfbc757e04c69119cee2b52c9785a,bridges and tunnels,bridge,ROSS BRIDGE,..,..,Province of Nova Scotia
+c301faf6b73c113d1d8300393ca4b68d,low carbon,wind,Fairmont,...,...,World Resources Institute
+c33a32178545fa998fe6f56306289900,bridges and tunnels,bridge,OLD ROAD BRIDGE,..,..,Province of Nova Scotia
+c41e8b308a0679bb8223a81cf240c6eb,bridges and tunnels,bridge,DUNMORE BROOK BRIDGE,..,..,Province of Nova Scotia
+c4ba77f4ceb98ff7b643628cbcc2f1b1,bridges and tunnels,culvert,CAPE GEORGE BROOK CULVERT,..,..,Province of Nova Scotia
+c60519f24c9487173036b053e76250c4,telecom,tower,...,...,...,Natural Resources Canada
+c6622cf7bb2d783daa709c194f3e369e,bridges and tunnels,bridge,LEO MACDONALDS BRIDGE,..,..,Province of Nova Scotia
+c728c0e179c2f4756f1c2737c3e330db,bridges and tunnels,bridge,MILL BROOK BRIDGE,..,..,Province of Nova Scotia
+c86a6781ecbb589ea1f4ea82bb5ac5b7,bridges and tunnels,bridge,MALIGNANT COVE BRIDGE,..,..,Province of Nova Scotia
+cc8085b48bdb20aea4c80df99d3ce8bc,bridges and tunnels,bridge,MacNEILS BRIDGE,..,..,Province of Nova Scotia
+cdcc7149c398985fe97fe65feeca554c,bridges and tunnels,bridge,ALEX MCDONALD PANEL BRIDGE,..,..,Province of Nova Scotia
+ce151f3c4f18cef205daba36df005cbc,bridges and tunnels,bridge,JOSEPH MAC DONALD BRIDGE,..,..,Province of Nova Scotia
+cf7aefca26af465727ea9b69fdb923a3,bridges and tunnels,culvert,SOMERS ROAD CULVERT,..,..,Province of Nova Scotia
+cfc12316276cf61e843a20ea2b6a350a,bridges and tunnels,mixed,WEST RIVER BRIDGE #2,..,..,Province of Nova Scotia
+cfdcaa146831e88d07741fa5f87969d5,bridges and tunnels,mixed,MacDONALD MILLS TRUSS,..,..,Province of Nova Scotia
+cfedf13be4317ab73d9294e8cb49b720,bridges and tunnels,bridge,WEST LOCHABER BRIDGE,..,..,Province of Nova Scotia
+d1f294b54227eae849235bf2dc033813,bridges and tunnels,bridge,MacINTOSH BRIDGE,..,..,Province of Nova Scotia
+d21690a6352c68b65e72885435b4c6d4,bridges and tunnels,bridge,SOUTH SALTSPRINGS BRIDGE,..,..,Province of Nova Scotia
+d2aeba85d79aa8ed213ef0735e6b73d8,bridges and tunnels,bridge,SYLVAN VALLEY BRIDGE,..,..,Province of Nova Scotia
+d3b487a8ff1686c79eeb5d895b83000e,bridges and tunnels,bridge,BEAVER RIVER BRIDGE,..,..,Province of Nova Scotia
+d48563f759ef3d55e2df96373d81ecaa,bridges and tunnels,mixed,TRUNK 7 HWY OP ON 104 WB,..,..,Province of Nova Scotia
+d54744b3d68ebc61234f8e18b1fcb879,low carbon,wind,Glen Dhu,...,...,"Government of Canada, Natural Resources Canada"
+d606528a118a4d467de8b5157b318dd0,ports and marinas,mixed,Livingstone Cove,Core Fishing,...,Fisheries and Oceans Canada
+d911813a9a3e56335d22754036c6f1a4,bridges and tunnels,bridge,NORTH RIVER BRIDGE,..,..,Province of Nova Scotia
+d9727730b4dc163b8ab67ff1df5f1c78,bridges and tunnels,mixed,OHIO CROSS ROADS TRUSS,..,..,Province of Nova Scotia
+db5d724366af5e1fc4cb3b19b502a516,bridges and tunnels,bridge,GLEN ALPINE BROOK BRIDGE,..,..,Province of Nova Scotia
+db95417019d4436b10164a60ef5a916b,bridges and tunnels,bridge,BRIERLY BROOK BRIDGE,..,..,Province of Nova Scotia
+dcedd4cb40e795dcd2bfcdc675fe0ab3,bridges and tunnels,bridge,SCOTTS BRIDGE,..,..,Province of Nova Scotia
+e0d557600a9c8a491d21335c2b149bc6,bridges and tunnels,bridge,CAMERONS LAKE BRIDGE,..,..,Province of Nova Scotia

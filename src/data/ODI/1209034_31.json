@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,multi-use
-Dunbrack St After Wentworth Dr (6600),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Cobequid Rd Before Glendale Dr (6438),..,..
-Burnside Drive Overpass,BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-North St After Gottingen St (7346),..,..
-Burnside Drive,BRIDGES AND TUNNELS,Footbridges
-Victoria Rd Before Vanessa Dr (8428),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Basinview Dr Opposite Granville Rd (6141),..,..
-..,BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Boland Rd Before Victoria Rd (6303),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Sackville Dr Before Beaver Bank Rd (7297),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Hwy 207 At Civic 6774 (8658),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+cb8696647f60e3fc79d2f26723e2399d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cb894d60121cb10f51fe97d4adf0e347,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cbd0cd928572f7978909937ca2d1aa27,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cbe65422c5be548e8af0d42853b779f8,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+cbe9aedd76bab825bebc8d7c9fe4577f,bridges and tunnels,culvert,Sackville Dr Bridge,BRCUL,Culvert,Halifax Regional Municipality
+cc15afaa193e244651a5c66b1b65e1c6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cc18bfb96b75a02dbd5f1af72577fa9b,railways,track,Rockingham,...,...,Natural Resources Canada
+cc3c1373f69d200c8d380a61a5771346,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cc3e248cd1919a681a44efbb711a7021,railways,track,..,...,...,Natural Resources Canada
+cc3fae12c805f7c49383eb7370aca502,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+cc7a5a223a5867a877cabca17de4fd0b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cc7d6d8074b8e5ea3007749b219dc6ab,bridges and tunnels,mixed,Ingramport Connector Road Underpass,..,..,Province of Nova Scotia
+cc7eb2cc4058abb0913fcd219e1b8742,electric grid,power_plants,..,...,...,Natural Resources Canada
+ccb6eaca2a38accdd7e968f681b483ce,railways,track,Kinsac,...,...,Natural Resources Canada
+ccc34d6c015c3bedbf72c48df92d5f06,bridges and tunnels,mixed,GRANT (LEWIS),..,..,Province of Nova Scotia
+ccf22a7dce188df25d99e0522bd0af23,railways,track,..,...,...,Natural Resources Canada
+cd2d7ec56b9bed158c3b17eac4c8b275,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cdb26eb4c4be29daa47eacb633efa33e,bridges and tunnels,mixed,LITTLE RIVER (SHIP HARBOUR),..,..,Province of Nova Scotia
+cdc08f90b612ea776a7c6521d897be7f,railways,track,..,...,...,Natural Resources Canada
+cdfdb8df40975b113dfb6180f4350763,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ce03b881f76515b46e875d1374bec76c,railways,track,Rockingham,...,...,Natural Resources Canada
+ce1692659698ea7347bb7af7979f7131,bridges and tunnels,mixed,BEDFORD BY-PASS #2,..,..,Province of Nova Scotia
+ce5083bd05767b3c97652073e0ff07d7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ce882fb4b0e0e61afc9fd3db189a8103,railways,track,..,...,...,Natural Resources Canada
+ceb364286ca9a5cdb06a28e0461974b4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ceb9661440c5dd09f27109d0ad6bdc13,telecom,tower,...,...,...,Natural Resources Canada
+cebc4dda2adc0d36da00bd0d965a7f4d,railways,track,Halifax Ocean Terminal,...,...,Natural Resources Canada
+cebf75b07283c6826de68c28827693bc,railways,track,..,...,...,Natural Resources Canada
+ced13ba31b0de6b14d5ab5745d267751,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+ceec5a57bf02b179d3ad1675e5a3bd24,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cf02eadc7a5837520d868b508b5bb7d2,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+cf22c207e99707853b601ffc105e1f77,low carbon,wind,Chebucto Pockwock,...,...,"Government of Canada, Natural Resources Canada"
+cf47ea16ce08e8882716697fe2977171,bridges and tunnels,mixed,BROWN,..,..,Province of Nova Scotia
+cf549cf91c97dec20453170438bae03b,railways,track,Rockingham,...,...,Natural Resources Canada
+cf9a1d343af8f6d3c154bb308231ee33,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+cfbfacc4c42a136f32934581ea95ba00,railways,track,Rockingham,...,...,Natural Resources Canada
+cfc732b9b126eb80655839f7e7cd4cfa,bridges and tunnels,mixed,"BEDFORD-BY-PASS #4, Trunk 2 & CNR O/P",..,..,Province of Nova Scotia
+cffd35a1358ba5c5686dc38391f99340,ports and marinas,mixed,Africville Park Boat Launch,BOL,...,Halifax Regional Municipality
+d00dd51ce52de6b837dd9766bb4d2b15,bridges and tunnels,mixed,Hwy 102  BAYERS LAKE INTERCHANGE,..,..,Province of Nova Scotia
+d01e08c01099e7bc593dbfb110f514f1,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+d02c20ea39999baecb0c2eaf2d30695d,bridges and tunnels,bridge,Shatford Memorial Elementary to St. Mrgt Bay Trail,PDB,Footbridge,Halifax Regional Municipality
+d0400c545ea008300453f9d19be3f117,railways,track,..,...,...,Natural Resources Canada
+d043c34132d4c062c749ab3ed99ee43d,railways,track,..,...,...,Natural Resources Canada
+d06478a6bb742ee4ff06d2be86d734e2,telecom,tower,...,...,...,Natural Resources Canada
+d06763823909d3932da83ffef0153968,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d11afc21ac20faf93016e3f088c469a1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d11c4cce3ba48ada9912f48809f0caee,bridges and tunnels,mixed,TANGIER,..,..,Province of Nova Scotia
+d1261c98e8f5d8f2d25cbe5d5362801c,bridges and tunnels,bridge,Frog Pond #1,PDB,Footbridge,Halifax Regional Municipality
+d13400b8e36abc6df4c19630d03dfdf3,bridges and tunnels,culvert,Patterson Street,BRCUL,Culvert,Halifax Regional Municipality

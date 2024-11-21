@@ -1,50 +1,15 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Trans Canada Highway,BRIDGES AND TUNNELS,Footbridges
-South Gate & Patterson,..,..
-North River & Admiral,..,..
-University & Shoppers,..,..
-Park Royal,..,..
-Euston & Rochford,..,..
-Stockman & Miller,..,..
-Patterson & South Gate,..,..
-Beach Grove & Lewis Point,..,..
-Maypoint & New Prince Edward Home,..,..
-University & Chestnut,..,..
-Royalty & Alderwood,..,..
-Brighton & Rochford,..,..
-Oak & Heather,..,..
-Northridge & Andrews Court,..,..
-North River & Nassau,..,..
-North River & Villa,..,..
-North River & Belvedere,..,..
-Norwood & Elena,..,..
-St. Peters & Hawthorne,..,..
-Ash & Gamwell,..,..
-Lower Malpeque & Melody,..,..
-Weymouth Holland College,..,..
-Ash & Maple,..,..
-Oak & Ingswood,..,..
-Longworth & Pleasant,..,..
-Upton & Sandalwood,..,..
-Wisperwood Villa,..,..
-Shearwood Business Centre,..,..
-St. Peters & Petro Canada,..,..
-Grafton & Chartlottown Conference Center,..,..
-Hillstrom & Third,..,..
-North River & Waterview,..,..
-Capital Drive & Esso,..,..
-Kensington & Falconwood,..,..
-Maypoint Plaza & Maypoint,..,..
-Norwood & Friar,..,..
-Gordon & Kensington,..,..
-Lower Malpeque & Bell Heights N,..,..
-University & Belvedere,..,..
-Upton & Nicholas,..,..
-Kensington & Garfield,..,..
-MacAleer & Brackley,..,..
-Weymouth & Fitzroy,..,..
-Rochford & Grafton,..,..
-Buchanan Drive Shelter,..,..
-St. Peter's & Brow's,..,..
-Malpeque & Irving,..,..
-North River & Westview,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+3b785e5fdd2f7915e78da6dc5213b216,electric grid,power_plants,..,...,...,Natural Resources Canada
+3d69f60b140774839b58f6fc8a6cee00,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+500c9b6030e7f36f3d89e3d69266fc29,wastewater and storm water,facilities_waste,Charlottetown Pollution Control Plant,"Grit Removal, Screening, Primary Sedimentation/Clarification, Activated Sludge, Disinfection",Unclassified,Environment and Climate Change Canada
+5cab54a45bfb9170910f5fb9b7110615,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b626085bada2643f02e9d43d3d0080e,airports,...,Charlottetown (queen Elizabeth Hospital) Heliport,heliport,...,OurAirports
+8ade17250ab1423c70558a5ad33fc4c0,wastewater and storm water,facilities_waste,East Royalty Lagoon,..,Waste treatment plant,Environment and Climate Change Canada
+9ec420b14a9c8690868adfdb1cd5fd66,wastewater and storm water,facilities_waste,East Royalty Lagoon,"Lagoons - Aerated, Lagoon - Facultative",Lagoon,Environment and Climate Change Canada
+b5cbdb8a5f2b00b5fbb28b063f523a20,electric grid,power_plants,..,...,...,Natural Resources Canada
+c743e1e0d5e275897e53a511efdda205,low carbon,biomass,District Heating,...,...,World Resources Institute
+c832fedff508a03786c8c2fe06f6312f,solid waste,landfill,Pei Energy Systems,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+cd44520a60cfdd588eae343f18ed1934,telecom,tower,...,...,...,Natural Resources Canada
+db65a2f195d7799f34c2545dc401967f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f243a7e21239758deb3fd13a54065384,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+fbe0c873c76ea649b33645a1c4c03c39,airports,...,Charlottetown Airport,medium_airport,...,OurAirports

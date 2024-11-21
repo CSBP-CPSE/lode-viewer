@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Highway 111,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Hwy 7 After Sandy Ln (8782),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Purcells Cove Rd After Halls Rd (8088),..,..
-Clarence St Before Johnson Rd (8507),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Herring Cove Rd After Spry Ave (6845),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Windmill Rd After Akerley Blvd (8533),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Hawthorne St After Prince Albert Rd (6837),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Astral Dr Before Grenadier Dr (6057),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Parkland Dr Before Lacewood Dr (7438),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+ebaff043837216d39272919d11fab91c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ebb736ac312cbe55f51456754ce4a2c3,railways,track,National Gypsum Canada,...,...,Natural Resources Canada
+ebbe4fc820e9547a4e522ac5775c2941,railways,track,..,...,...,Natural Resources Canada
+ec0ccb69c502c24379f71a2b3d96c0bf,railways,track,Auto Port,...,...,Natural Resources Canada
+ec29f173c61e6642aed9ce3540895b85,bridges and tunnels,mixed,Three Fathom Harbour,..,..,Province of Nova Scotia
+ec91ee069a40c8b275be4e497c0162e4,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+ecdb5b57f1472a38767929c53561d1bf,bridges and tunnels,culvert,..,BRCUL,Culvert,Halifax Regional Municipality
+eced0e395b27360b2664bb1ae4f91620,bridges and tunnels,bridge,Lake Charles Trail South,PDB,Footbridge,Halifax Regional Municipality
+ed05340304b6b326ec157d819932eb7f,railways,track,..,...,...,Natural Resources Canada
+ed1fc2eb74e9bbb89a4db563eb981809,ports and marinas,mixed,Three Fathom Harbour,Core Fishing,...,Fisheries and Oceans Canada
+ed2617ad33b42af6203fdf277683eb94,oil and gas,pipelines,..,..,...,Natural Resources Canada
+ed34e23985126ea7d15eaedd982c54a0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ed44afa7e59d450cef9b1503ae508ee5,railways,track,Rockingham,...,...,Natural Resources Canada
+ed5d20a90260dfed437ce79d791a25ac,railways,track,..,...,...,Natural Resources Canada
+ee693908a33428fd38cf1840b17650ca,bridges and tunnels,mixed,EXHIBITION GROUNDS,..,..,Province of Nova Scotia
+ee7bd03a4b02129c1a54f35a1d8dc22f,bridges and tunnels,mixed,"COBEQUID RD O/P, Highway 102 SB",..,..,Province of Nova Scotia
+eeaa347db23250921260e146b7cc1b91,bridges and tunnels,mixed,"PORTO BELLO, Highway 118 O/P NB",..,..,Province of Nova Scotia
+eed345e8041a31b52a416a504bce10bf,bridges and tunnels,bridge,Fairview Overpass,VHB,Vehicle Bridge,Halifax Regional Municipality
+ef2508e16d03deeb12cdd70953d2a1b3,bridges and tunnels,mixed,BOGG'S BROOK #2,..,..,Province of Nova Scotia
+ef43b0cb4447b3c85f25769665d07548,bridges and tunnels,mixed,"PORTO BELLO O/P @ exit 13, Highway 118",..,..,Province of Nova Scotia
+ef50cc7c8e425e774e699c48223d7c0d,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+efa03f6231272a0a146c047ac2a90eba,bridges and tunnels,bridge,Hemlock Ravine Park,PDB,Footbridge,Halifax Regional Municipality
+efae09b7caca255babb1e8876eff7b71,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+efafb47222591ac7e79ee64a5b85ccda,bridges and tunnels,bridge,PARTRIDGE RIVER,VHB,Vehicle Bridge,Halifax Regional Municipality
+f052a5f154a708c033dfdcb34bd76f70,bridges and tunnels,bridge,Hector Gate,VHB,Vehicle Bridge,Halifax Regional Municipality
+f055b3f0bb4bfcd2507ea7487e797678,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+f07a4c4bfac20679d75f04806c763015,railways,track,Rockingham,...,...,Natural Resources Canada
+f08de3a1e01487ca8b4790f78c5cfe64,telecom,tower,...,...,...,Natural Resources Canada
+f08e2cadaee707e019516cf9493cef83,bridges and tunnels,mixed,LITTLE FIFTEEN MILE STREAM,..,..,Province of Nova Scotia
+f09294330f4795c613e6f95e5198816f,railways,track,Rockingham,...,...,Natural Resources Canada
+f0bd6c6a88478c72c7913b0e6d7bf1a1,bridges and tunnels,culvert,Thompson Run Culvert,BRCUL,Culvert,Halifax Regional Municipality
+f14755176b5aa4a2314359ce315e8a8e,low carbon,hydro,Ruth Falls,...,...,World Resources Institute
+f170f6ee148c1907fea2bd63813186bf,wastewater and storm water,facilities_waste,Aerotech Wastewater Treatment Facility,"Grit Removal, Screening, Sequencing Batch Reactor, Biological Ammonia Removal – Nitrification Only , Chemical Precipitation (Phosphorus), Disinfection",Unclassified,Environment and Climate Change Canada
+f17b7ab386087f6d4c2399717ca5c5ed,oil and gas,pipelines,..,..,...,Natural Resources Canada
+f17feb8e578b6173f5f25f20a68b0378,bridges and tunnels,mixed,LITTLE RIVER,..,..,Province of Nova Scotia
+f18cbf9b599297d487f15bfe54fdc6a1,bridges and tunnels,mixed,PADDY'S HEAD ROAD,..,..,Province of Nova Scotia
+f1a76af16d8b7954b706d7bce122c22b,bridges and tunnels,mixed,MOSHER RIVER NORTH - does not exist,..,..,Province of Nova Scotia
+f1af5c2a74fe0262f67e48853364d0de,low carbon,wind,Chebucto Terence Bay,...,...,"Government of Canada, Natural Resources Canada"
+f1efe94a1b96b3285abb4a13ab611b66,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f22f17e672b44612153052a66ec7be21,railways,track,..,...,...,Natural Resources Canada
+f236b947a1bff63b2a98087b01ac6b34,ports and marinas,mixed,Mossman Wharf,WHF,...,Halifax Regional Municipality
+f24ee50136039e9d937b755d93c9a43b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f257d0e995c5c762936c73cc71331e34,bridges and tunnels,bridge,..,PDB,Footbridge,Halifax Regional Municipality
+f285f378c0e84973531fbb747dc95297,bridges and tunnels,mixed,JENNINGS (EAST FRASER BROOK),..,..,Province of Nova Scotia
+f28b4e260c8e2487c88e0280b85520ad,low carbon,wind,Chebucto Terence Bay,...,...,"Government of Canada, Natural Resources Canada"
+f2912b8020fa3c93d45620a22b3bf153,ports and marinas,mixed,Little Harbour (halifax County),Core Fishing,...,Fisheries and Oceans Canada
+f2b096c441eb7e8ac6b38b4fbb77d598,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+f2c0dd90a35d3c9c42307af78c4868f4,railways,track,..,...,...,Natural Resources Canada
+f2cbe92030352edfdf5f5f92d475e31d,bridges and tunnels,mixed,WYSES ROAD,..,..,Province of Nova Scotia

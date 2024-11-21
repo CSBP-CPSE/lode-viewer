@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-"ROUTE 215 U/P, Highway 102",BRIDGES AND TUNNELS,"Bridges, Culverts"
-RINES CREEK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-"MILFORD MULTIPLATE, Highway 102",BRIDGES AND TUNNELS,"Bridges, Culverts"
-BLACK BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-TUNNELL CROMBE ROAD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-GRANT BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Garden Road,BRIDGES AND TUNNELS,Footbridges
-Walton Woods Road,BRIDGES AND TUNNELS,Footbridges
-MILL BROOK (Barr Settlement Road),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 236,BRIDGES AND TUNNELS,Footbridges
-TENNYCAPE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Douglas Road,BRIDGES AND TUNNELS,Footbridges
-GARDINERS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-North Salem Road,BRIDGES AND TUNNELS,Footbridges
-INDIAN BROOK #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Weatherhead Road,BRIDGES AND TUNNELS,Footbridges
-DAVISONS OR STEPHENS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WALTON ABOITEAU,BRIDGES AND TUNNELS,"Bridges, Culverts"
-NINE MILE RIVER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MACK BROWN,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 354,BRIDGES AND TUNNELS,Footbridges
-Georgefield Road,BRIDGES AND TUNNELS,Footbridges
-MCINNES BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BIRCH BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Bishop Road,BRIDGES AND TUNNELS,Footbridges
-MEANDER RUN #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MACPHEE BROOK #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Highway 2,BRIDGES AND TUNNELS,Footbridges
-RINES BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Crombe Road,BRIDGES AND TUNNELS,Footbridges
-"BARNEY'S BROOK, Highway 102",BRIDGES AND TUNNELS,"Bridges, Culverts"
-BLACKS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LITTLE NINE MILE RIVER #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Findley Road,BRIDGES AND TUNNELS,Footbridges
-ROBINSON BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-McCULLOCH ROAD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Rhines Road,BRIDGES AND TUNNELS,Footbridges
-NIX BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Blois Road,BRIDGES AND TUNNELS,Footbridges
-SACKVILLE RIVER #1,BRIDGES AND TUNNELS,"Bridges, Culverts"
-"SHUBENACADIE, Trunk 2",BRIDGES AND TUNNELS,"Bridges, Culverts"
-O'HEARN,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 215,BRIDGES AND TUNNELS,Footbridges
-Service Road HAN 102-02,BRIDGES AND TUNNELS,Footbridges
-North River Road,BRIDGES AND TUNNELS,Footbridges
-"ELMSDALE ROAD O/P, Highway 102",BRIDGES AND TUNNELS,"Bridges, Culverts"
-"MILFORD U/P Trunk 14 @ Hwy 102, Exit 9",BRIDGES AND TUNNELS,"Bridges, Culverts"
-WHALE CREEK,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+7df00d213a022fe6b77e7a073f8e8c50,bridges and tunnels,mixed,NIX BROOK,..,..,Province of Nova Scotia
+7e4af08046314ccf80f383845a35a2fa,bridges and tunnels,mixed,MILFORD STATION Railway Overpass,..,..,Province of Nova Scotia
+7fd3c109a6c94f1c44d966660425bddd,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+7feb76b034d129da4e396837d5d7ec43,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7fee19e1d2651ec615f67dba5c1b22d7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7ffd4642cbda60add6789392fc56b11d,telecom,tower,...,...,...,Natural Resources Canada
+8198373bbb72cdf52d1acf218043ff19,bridges and tunnels,mixed,WALTON,..,..,Province of Nova Scotia
+82a9c09ef212edc8b0f6c27a311f21f5,low carbon,wind,Hardwood Lands Community Winds,...,...,"Government of Canada, Natural Resources Canada"
+82efc6c652a40c250e59af4f421e6890,bridges and tunnels,mixed,MILL POND (Carrigan Brook Headwater),..,..,Province of Nova Scotia
+84f4adfb90b65bed7cd2ec1b62bd1d4d,bridges and tunnels,mixed,INDIAN BROOK #2,..,..,Province of Nova Scotia
+85fac54efdd2ba64eb72e0f437b4eecf,bridges and tunnels,mixed,BARNEY'S BROOK,..,..,Province of Nova Scotia
+879597d3879321c80815f5048b23359a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8828ed66a09c0ed56f1282cfef02f436,bridges and tunnels,mixed,"MILL VILLAGE ROAD O/P, Highway 102NB",..,..,Province of Nova Scotia
+88d720f6c6f835945cbed3d4667855d2,bridges and tunnels,mixed,MEANDER RUN #2,..,..,Province of Nova Scotia
+8ac733f7f2070f4e1aa5435088938cfa,bridges and tunnels,mixed,BARR BROOK (Barr Settlement),..,..,Province of Nova Scotia
+8c1bff20c5db56066d43982fcff00dd5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8c330f85bb2f0c4dd75afcaf0a9ea431,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8f1abd085225361ee6aa36c9e7a3b035,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+915aad7478430a951aa84030e68724e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+937638ee32bcb5afd87a71ad6457881a,electric grid,power_plants,..,...,...,Natural Resources Canada
+93fbea1bb4a88925eb688d3aef1c8262,bridges and tunnels,mixed,GLEN BROOK #2,..,..,Province of Nova Scotia
+9463afa57049e4ee6aff2d8c0056dd07,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+949c364458d85478c4dff540de0cea0c,bridges and tunnels,mixed,MEANDER RUN #1,..,..,Province of Nova Scotia
+993f1d9f502952ec30f50cc834427676,low carbon,wind,Hardwood Lands Community Winds,...,...,"Government of Canada, Natural Resources Canada"
+99648a818c27d52c43d8214b97dd12af,bridges and tunnels,mixed,GRANT BROOK,..,..,Province of Nova Scotia
+9a45ffbf95e65b05c858f4b61aef869d,telecom,tower,...,...,...,Natural Resources Canada
+9b0efa2f065406e6f426fb7eeed7f988,railways,track,..,...,...,Natural Resources Canada
+9d26662f1d20cb81ea5baa5b97dc34ae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9f43ee28abc68691b358ace24be4119a,bridges and tunnels,mixed,SACKVILLE RIVER #1,..,..,Province of Nova Scotia
+9f7134a9730fca1937ee017feb3df0dd,bridges and tunnels,mixed,ART ETTINGER,..,..,Province of Nova Scotia
+a38848281180001a2c6bb2502b285ea4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a83c82d7eacab32859f0d24ce16b077f,bridges and tunnels,mixed,EAST NOEL RIVER,..,..,Province of Nova Scotia
+a85bdba31227cb3dc0c97218bf7f34da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a91a56f9691b9c959ccd5eb21ebf787a,bridges and tunnels,mixed,"HORNE SETTLEMENT U/P, Highway 102",..,..,Province of Nova Scotia
+a929fd3eadc1955092409a0e7c8e87d5,bridges and tunnels,mixed,"NINE MILE RIVER O/P, Highway 102SB",..,..,Province of Nova Scotia
+abdccf06c9ca91c07c8e2d412e1b563a,bridges and tunnels,mixed,UNIACKE BROOK,..,..,Province of Nova Scotia
+ac2dd0b72f3503cd811a91da4f6c3454,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ac4880a10b10acebe131958b0d880825,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ad1f9c1afea4a3de13c84aebd83fdb37,bridges and tunnels,mixed,NEWPORT CORNER,..,..,Province of Nova Scotia
+af7b66416085570b056025e0dec2e251,bridges and tunnels,mixed,BURTONS BROOK,..,..,Province of Nova Scotia
+b0856acb9b13e4949852b57a61ca1347,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+b2596a4bfa44e74674520ee65a91bd35,electric grid,power_plants,..,...,...,Natural Resources Canada
+b44e53a0322fe00dbba93c23c67e5ac4,bridges and tunnels,mixed,McLEOD BROOK,..,..,Province of Nova Scotia
+b877b6ac849744609d856f67c8b43948,bridges and tunnels,mixed,CAPTAIN McPHEE BROOK,..,..,Province of Nova Scotia
+ba65ccee04c6f4d06d7c35704c035596,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bc38320e6bb56ed72b051638c814c9c8,bridges and tunnels,mixed,MILL RACE BROOK,..,..,Province of Nova Scotia
+bdf3cc76e922360197659081b89bed81,bridges and tunnels,mixed,HANNA BROOK,..,..,Province of Nova Scotia
+c1d4df49be3713dc19791ea88623bbd9,bridges and tunnels,mixed,MUNGO BROOK,..,..,Province of Nova Scotia
+c2282d9a28ceb6f0dbaee6ad0bedb926,airports,...,Stanley Airport,small_airport,...,OurAirports

@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-LAWRENCE SMITH,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-TIDNISH,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SOUTH ALBION ST O/P (WESTBOUND,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Service Road CUM 104-06,BRIDGES AND TUNNELS,Footbridges
-Kolbec Road,BRIDGES AND TUNNELS,Footbridges
-Dickson Road,BRIDGES AND TUNNELS,Footbridges
-SPRINGHILL CONNECTOR U/P 142,BRIDGES AND TUNNELS,"Bridges, Culverts"
-KEINER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CNR O/P ON 104 (NORTHBOUND),BRIDGES AND TUNNELS,"Bridges, Culverts"
-OVERLAND,BRIDGES AND TUNNELS,"Bridges, Culverts"
-EDDY,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SOUTH ALBION ST O/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Larry Brander Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-OLD HALIFAX RD ACCESS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Green Road,BRIDGES AND TUNNELS,Footbridges
-Eddy Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-LEFT BRANCH,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CNR/TK O/P ON 104 (EBL),BRIDGES AND TUNNELS,"Bridges, Culverts"
-HENRY SMITH,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LAPLANCHE (EASTBOUND),BRIDGES AND TUNNELS,"Bridges, Culverts"
-BLACK RIVER CULV #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-DOYLE'S MILL,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 104,BRIDGES AND TUNNELS,Footbridges
-AMHERST MARSH,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SEAMAN LOWE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LAPLANCHE RIVER BRIDGE (WB),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Route 2 Highway West,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-GLENVILLE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 2,BRIDGES AND TUNNELS,Footbridges
-LITTLE FORKS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Casey Road,BRIDGES AND TUNNELS,Footbridges
-Highway 142,BRIDGES AND TUNNELS,Footbridges
-Lower Porter Road,BRIDGES AND TUNNELS,Footbridges
-Amherst Scale Inbound,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MCLELLAN'S BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ROGER S BACON BRIDGE (NAPPAN MARSH),BRIDGES AND TUNNELS,"Bridges, Culverts"
-SHINIMICAS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MACDONALD RD U/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LITTLE RIVER #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 204,BRIDGES AND TUNNELS,Footbridges
-Old Halifax Road,BRIDGES AND TUNNELS,Footbridges
-Route 2 Highway East,BRIDGES AND TUNNELS,Footbridges
-Annabelle's Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-AMHERST,BRIDGES AND TUNNELS,"Bridges, Culverts"
-GORDON CREEK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Mud Creek Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+03583bdc6a06666c6a8ffaabb7187b77,bridges and tunnels,mixed,KEINER,..,..,Province of Nova Scotia
+03761042de84f334288e460bc402c95f,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+043bd580f4b6d32e11894253d1a8adb4,low carbon,wind,Amherst I Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+043d82cdb17f44c1c7e5ec4d8bbb8000,low carbon,wind,Amherst I Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+049dfa293a859ef5c1d412d5c3a962fc,telecom,tower,...,...,...,Natural Resources Canada
+05867e5a23d49229b44debe74ca092ab,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+06c0fb5a43fd987650834af4be02232e,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+079222049716b0a86a7972d35f0acb20,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0867097c8f9d81177646ba48bfe839fe,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+0a55dc183e4216de80ab54bd431e1120,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0a922bff3ac3f9ea7dc7dee1bcc2c5e0,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+0c608987ca62eac3c338232d93107180,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0cef727ed60c807b61ff29d92257f71b,low carbon,wind,Amherst I Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+0f7bfe418331d401d945fcef7d5a83d6,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+13a2857bfff88986f7a863d137a4569f,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+17f023c74629f3f8445842bffa82235b,wastewater and storm water,facilities_waste,Town Of Amherst Wwtp,"Grit Removal, Screening, Primary Sedimentation/Clarification, Lagoons - Aerated, Filtration",Unclassified,Environment and Climate Change Canada
+195016692c9c6a2322a93fadf01341d1,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+1965bf36a03508f72c8c13b5377d27f7,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (6-15m diameter) point,Lagoon,Government of Nova Scotia
+1a96b3636dcbb2b87e18eeff230a0315,low carbon,wind,Amherst Community Wind Farm,...,...,World Resources Institute
+1b08107c0fee6e58a35f111ae0887316,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+1f403cfd31284c75daa7934f0952bfaa,airports,...,Cumberland Regional Health Care Centre Heliport,heliport,...,OurAirports
+1fa568d4880148b05f371236e4847eec,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+21984a2f9bef666dae31322aad0e1fd2,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+228dbd368905ed1d671426a7856b919e,bridges and tunnels,mixed,TR SMITH,..,..,Province of Nova Scotia
+2325253aaa6caf616e5213774c0cb461,low carbon,wind,Amherst I Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+23998b7f38a7e90902855d92792c4ba1,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+25bf2e597863a7415e8cf2fe5222a86a,bridges and tunnels,mixed,LOGAN,..,..,Province of Nova Scotia
+280d8aa6199008a4c2fe7e85a2fc5576,low carbon,wind,Amherst I Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+2828f59bc330505906dfc3ca9a9e6f94,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c1c59a09b8a10c63608ef515e4d4a35,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+2ecd371dec63f871f4a48127618b3543,railways,track,..,...,...,Natural Resources Canada
+2ef1feef8df08d9d920112c50bbd5235,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31dfad3c42de90d3fac72eccd7e36c25,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+34d4b264a66845ff6261b8611249b2b2,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+350629d052e8ed5ebd0a6a4e188d5f34,bridges and tunnels,mixed,SOUTH ALBION ST O/P (WESTBOUND,..,..,Province of Nova Scotia
+35c22ee9a952cb8b0140e4a5b7f91a6c,bridges and tunnels,mixed,BURNS,..,..,Province of Nova Scotia
+35dfe86c45fa160305d7366fb62994db,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+36e6eb83bf5d61d71a7707696fb4e2ab,low carbon,wind,Amherst Community Wind,...,...,"Government of Canada, Natural Resources Canada"
+37c29c6112baba9c6967a804ed63e595,bridges and tunnels,mixed,MISSIGUASH,..,..,Province of Nova Scotia
+38228ad6101aa764e432914d06a39833,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+39023e20b74f5b90bf53f5183495db11,ports and marinas,mixed,Northport,Non-Core Fishing,...,Fisheries and Oceans Canada
+39a26c359c5e50df5307c2305baa9acb,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+3b426523aa2d3cf63c3bebd1273a7e31,low carbon,wind,Amherst I Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+3d7f3491c5381f4c09952420909067fb,bridges and tunnels,mixed,TIDNISH,..,..,Province of Nova Scotia
+3efb8e990abf227fa8f164070e3cb373,bridges and tunnels,mixed,VICTORIA RD U/P ON 104,..,..,Province of Nova Scotia
+405d65203c05425c661d47e7001d0521,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+41f11fc2b4b44f295ef5b34d4c4d6ed9,bridges and tunnels,mixed,LOWER EEL CREEK,..,..,Province of Nova Scotia
+42009d1f736cad06f7f0c0b91ca5b673,bridges and tunnels,mixed,SPRINGHILL CONNECTOR U/P 142,..,..,Province of Nova Scotia
+43a4e67a1ceffc944611610bb390d1b4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
