@@ -1,13 +1,18 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-River Road East,BRIDGES AND TUNNELS,Footbridges
-River Road West,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Sunnidale Road South,BRIDGES AND TUNNELS,Footbridges
-HWY 26 - COLLINGWOOD AIRPORT ROAD CULVERT,BRIDGES AND TUNNELS,..
-HWY 26 - WEST OF MIDDLEBROOK AVE. CULVERT,BRIDGES AND TUNNELS,..
-Cedar Grove Parkway,BRIDGES AND TUNNELS,Footbridges
-Klondike Park Road,BRIDGES AND TUNNELS,Footbridges
-Culvert at Station 28+430,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-Main Street,BRIDGES AND TUNNELS,Footbridges
-Freethy Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0be0bbf97d2dbaa4598639cfe5ca199a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0d740a3f03de9a6414e6ba0b0b2f1688,wastewater and storm water,facilities_waste,Wasaga Beach Wastewater Treatment Plant,"Grit Removal, Screening, Extended Aeration Activated Sludge, Biological Ammonia Removal – Nitrification Only , Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+1051f02e402ef26e3579997428eff887,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+132f037958f0e5b3c5a5b781e25376eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1a637798c6bd65dc596467c12839d1b5,bridges and tunnels,culvert,Culvert at Station 28+430,Culvert,Culvert,Province of Ontario
+2d691e82965c778de34e576f32817cc7,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+3796203d8a79e19dbfd72a8fa2ef7ca0,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+37ea9ae50328f477264242ba5a19cfce,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+521448539549fa6c57f830352540d915,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+60add82799c33850479191a8f1c11575,bridges and tunnels,culvert,HWY 26 - COLLINGWOOD AIRPORT ROAD CULVERT,Culvert,Culvert,Province of Ontario
+6acd003b0395c1c8cc5c8255de3d6916,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b62c0416f8967a2053392ce8a5edb54,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a6b77402b4f0cdfbef83ca2bc092dd8c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b9404378298e1928c0c49bd7eba0d4c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cf4ab6aad12eea9118a03f45defd82db,telecom,tower,...,...,...,Natural Resources Canada
+e91183028894abff234ead16a3adbe8e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eda0a3859de1046464481a86befa6e34,bridges and tunnels,culvert,HWY 26 - WEST OF MIDDLEBROOK AVE. CULVERT,Culvert,Culvert,Province of Ontario

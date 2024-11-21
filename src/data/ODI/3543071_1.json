@@ -1,28 +1,46 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-MATCHEDASH BAY BRIDGE NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-Highway 12,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Quarry Road,BRIDGES AND TUNNELS,Footbridges
-HIGHWAY 12 OVERPASS SOUTHBOUND LANES,BRIDGES AND TUNNELS,..
-HOGG CREEK BRIDGE - VICTORIA,BRIDGES AND TUNNELS,..
-MATCHEDASH BAY BRIDGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Hearthstone Drive,BRIDGES AND TUNNELS,Footbridges
-Tay Shore Trail Culvert,BRIDGES AND TUNNELS,..
-Duck Bay Road,BRIDGES AND TUNNELS,Footbridges
-QUARRY ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-WYE RIVER BRIDGE (NORTH BOUND LANES),BRIDGES AND TUNNELS,..
-Granny White Sideroad,BRIDGES AND TUNNELS,Footbridges
-Rumney Road,BRIDGES AND TUNNELS,Footbridges
-Vasey Road,BRIDGES AND TUNNELS,Footbridges
-Old Fort Road,BRIDGES AND TUNNELS,Footbridges
-CNR OVERHEAD IN WAUBAUSHENE NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-Rosemount Road,BRIDGES AND TUNNELS,Footbridges
-Highway 400,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,Footbridges
-Reeves Road,BRIDGES AND TUNNELS,Footbridges
-WYE RIVER BRIDGE (SOUTH BOUND LANES),BRIDGES AND TUNNELS,..
-SEVERN RIVER BRIDGE PORT SEVERN SOUTHBOUND LANES,BRIDGES AND TUNNELS,..
-HIGHWAY #12 OVERPASS (NORTHBOUND LANES),BRIDGES AND TUNNELS,..
-CNR OVERHEAD IN WAUBAUSHENE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Sturgeon River Bridge,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+1698ac6507efda4f3c36323c35ac65b3,telecom,tower,...,...,...,Natural Resources Canada
+195e02ad6d0c2950163318517b0cef6b,bridges and tunnels,bridge,PORT SEVERN ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+19beddadaba15d536b1ec74995b83d5d,bridges and tunnels,bridge,Sturgeon River Bridge,Bridge,Bridge,Province of Ontario
+1c7fcc61037e8d36c9626a35010ecd83,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+2432073bac1c1a4ef8826a2a2be72d37,low carbon,solar,Raylight,...,...,World Resources Institute
+2df93aac2f1d58850616c9c7aa0bba08,ports and marinas,port,Tiffin,..,...,National Geospatial-Intelligence Agency (NGA)
+33f2f02a668e6525753ef585de432206,bridges and tunnels,bridge,MATCHEDASH BAY BRIDGE SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+366c72ebceb649e3b48763ca0de9e640,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b925d1e2897c0d14cc17ccd5a245fe2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3c53d87f0afdf841d65183326d13570e,bridges and tunnels,bridge,CNR OVERHEAD IN WAUBAUSHENE SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+3cc419e50fa3261a2f09d78629f280ba,electric grid,power_plants,..,...,...,Natural Resources Canada
+409a2365ca121184ed7ddcb9ae206bc7,electric grid,power_plants,..,...,...,Natural Resources Canada
+424edbc72dfe1d973d6419215648c289,bridges and tunnels,bridge,HIGHWAY 12 OVERPASS SOUTHBOUND LANES,Bridge,Bridge,Province of Ontario
+42c1ed26a7c628dc53b03a37a170272c,ports and marinas,port,Waubaushene,..,...,National Geospatial-Intelligence Agency (NGA)
+48212e6ab704fdfbd1f51611e0091b7d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+53f1628390450e98b5f03d0712ba8797,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+5ad3082c51b43fa020de93e178c4a6df,bridges and tunnels,bridge,SEVERN RIVER BRIDGE PORT SEVERN SOUTHBOUND LANES,Bridge,Bridge,Province of Ontario
+614d40aac7736a3d628f0a7725527324,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+63085ba61c965a315154f6e4a483e7f0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+656279cffe7e2ddd2185b35841944507,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+68757fff1ba053b53465ebf11d4aa2de,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6b094642d72792d299666bc4272b198b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+76e055c4134d0158286e660e456a7f40,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7a8b1b14fa27c4afadde6f6560b6ed46,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8530fd970797f009137ac0106b8d50f8,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+85c4d442efc51a16ae80edf666a2e89c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+918bdaadf8a8192c49b3874781e4678f,ports and marinas,port,Port Mcnicoll,..,...,National Geospatial-Intelligence Agency (NGA)
+95556a42c5db88709ccddb63a72aee8a,bridges and tunnels,bridge,QUARRY ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+971b147caa20a60a18e74b9a53d069ad,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9c4a5abdecd83dd1dd9aa9a77af7e9eb,wastewater and storm water,facilities_waste,Victoria Harbour Wastewater Treatment Plant,"Extended Aeration Activated Sludge, Disinfection",Unclassified,Environment and Climate Change Canada
+a1a1305dec23877fa50f942343540e09,bridges and tunnels,bridge,HOGG CREEK BRIDGE - VICTORIA,Bridge,Bridge,Province of Ontario
+a3579ae4ed689ea0c8ad0187a27baf64,low carbon,solar,Waubaushene 3,...,...,World Resources Institute
+b51f7abfec688f6d2acfbec318bac31a,bridges and tunnels,bridge,HIGHWAY #12 OVERPASS (NORTHBOUND LANES),Bridge,Bridge,Province of Ontario
+bfce8b69d240ca6309acd36f745d6d64,bridges and tunnels,culvert,Tay Shore Trail Culvert,Culvert,Culvert,Province of Ontario
+cf3e4792740a7df2e3d9172760800ddd,wastewater and storm water,facilities_waste,Port Mcnicoll Wastewater Treatment Plant,"Activated Sludge, Other Treatment, Disinfection",Unclassified,Environment and Climate Change Canada
+dfb0b9adb8035228192a8e26cf66b85b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e25aee3c1c6cac7fa0938d689517f642,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e5f276e2e203a0df8e65d52cab418add,airports,...,Richards Beach Water Aerodrome,seaplane_base,...,OurAirports
+e733e170bd70f9c457c305c8b401721e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e94462c1bf6de1d00133d0d9fcab6c6e,bridges and tunnels,bridge,WYE RIVER BRIDGE (SOUTH BOUND LANES),Bridge,Bridge,Province of Ontario
+ea4cd2d98723ca3376854031700cfdf3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f0e8538657d34bd5c25c8a14e9b336b0,bridges and tunnels,bridge,SEVERN RIVER BOAT CHANEL BRIDGE SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+f52dc4754a14818c42aa1b99a1bd0cc8,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+fa8e163d779f4ee1ee0ad55a7bd81e60,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fb51516213637a874dc0535f1c8c46ec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

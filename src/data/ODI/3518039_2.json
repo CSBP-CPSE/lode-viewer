@@ -1,24 +1,46 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Simcoe St. E. @ John St. S.,..,..
-Canal Road,BRIDGES AND TUNNELS,Footbridges
-Highway 7,BRIDGES AND TUNNELS,Footbridges
-Thorah Concession Road 4,BRIDGES AND TUNNELS,Footbridges
-Sideroad 18a,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Bridges
-TRENT CANAL BRIDGE,BRIDGES AND TUNNELS,..
-Thorah Concession Road 3,BRIDGES AND TUNNELS,Footbridges
-Brock Concession Road 11,BRIDGES AND TUNNELS,Footbridges
-Albert St. S. @ River St.,..,..
-Brock Concession Road 13,BRIDGES AND TUNNELS,Footbridges
-Brock Concession Road 6,BRIDGES AND TUNNELS,Footbridges
-Brock Concession Road 5,BRIDGES AND TUNNELS,Footbridges
-Thorah Concession Road 7,BRIDGES AND TUNNELS,Footbridges
-Concession 12 @ Sideroad 18A (Brock High School),..,..
-Brock Concession Road 2,BRIDGES AND TUNNELS,Footbridges
-Mara Road,BRIDGES AND TUNNELS,Footbridges
-Regional Road 12,BRIDGES AND TUNNELS,Footbridges
-Cameron St. W. @ Country Ln.,..,..
-Brock Concession Road 7,BRIDGES AND TUNNELS,Footbridges
-Hwy 12/Vrooman Creek Bridge,BRIDGES AND TUNNELS,..
-Simcoe St. E. @ Union St.,..,..
-Brock Concession Road 1,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+7d4d0a97578f5cc1da982d6e6c79a8f7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+80e37163b673cd9c13c70f695b6d6624,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+888013e06ca7bbf6f1d06b4bef294cec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8974b020ee0d0d7c73957607743ee00e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8bffcb09b6d037e2dc55f6abe9a63fbc,railways,track,..,...,...,Natural Resources Canada
+8c9f1c83f2b2137939161f98b13953ee,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8e2ab0c8972b4e5ebac152ee649ac251,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+910d626aa86befa6178d7dc2bd6db783,bridges and tunnels,bridge,Highway 12/ Beaverton Creek Bridge,Bridge,Bridge,Province of Ontario
+91526fe7f00d0b5a0ab3364640617c79,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+93238eacd47dbaa27b6dca5715d1d942,wastewater and storm water,facilities_waste,Cannington Wpcp (lagoon),"Lagoon - Facultative, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+9352ddd0fe72e7204df3686331328447,bridges and tunnels,culvert,HIGHWAY 12 - TRIBUTARY TO TALBOT RIVER CULVERT,Culvert,Culvert,Province of Ontario
+96529286bcd7a2d35614e9c360936938,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9a205c52d89460c6daf214ab051c6fb1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9d58fb26e508b4b79f64591a704d4280,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a24c4125f4d1e99c2228432beb878773,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a5f1ab4244ee8a0f504f5519e6007c91,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a7fe7bd98f5a889f2a01f104582f6994,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+a8f4af4c5d660efc625fd8d9163334d6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ad12adf5018b07f5cc697e961c560916,bridges and tunnels,culvert,BEAVER RIVER CULVERT,Culvert,Culvert,Province of Ontario
+ad9bac2b0d93229c0e3e9a4de01326c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aebf9cc5044fcf4e8c8ae5120944a9e3,railways,track,..,...,...,Natural Resources Canada
+af1bde8c8be743fc922a6490d7772001,low carbon,solar,Solray Energy Sunderland,...,...,World Resources Institute
+b281f1fc9ffb35a1a9b500c2154d8430,electric grid,power_plants,..,...,...,Natural Resources Canada
+b53cf8a113c428b5f2793229b3d4bef8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b6474707ad01fd29170aa0610efb80c7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b8b1ec09b9f741cd2779c9a0a9318737,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c1c727714a9b7dedca44ce49a9fb97b8,ports and marinas,mixed,Beaverton,Recreational,...,Fisheries and Oceans Canada
+c4788ad3bb49b7542450c8683de30ede,low carbon,solar,Sparklelight,...,...,World Resources Institute
+cc8c8191bf7263c533f84ed1f1d48d36,bridges and tunnels,culvert,HIGHWAY 12 - TRIBUTARY TO BEAVERTON RIVER CULVERT,Culvert,Culvert,Province of Ontario
+cd7cbf43e35b36cdb596fe409b893776,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cea0ce0d8e054f87d937ea7e3fb67aea,telecom,tower,...,...,...,Natural Resources Canada
+cf46fe898d6730987053000a89b1aee3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d33c779ca907251dfc465d60fec12cce,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d41f7920bc85d60cb7d301d42880dc4b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d674317384df4ff88d3641b4a250179d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d856865c45842b6cbe7f127a45100756,airports,...,Beaverton Airport,small_airport,...,OurAirports
+dd7ba482e25ef2df5a96a7720b53bd3b,solid waste,landfill,Highway 48 Landfill,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+e2a4703b7b3e8517d9d9f5e08083ea5a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e3595ae64f059e6ea65e6b530e04c20a,wastewater and storm water,facilities_waste,Lake Simcoe Wpcp,"Grit Removal, Screening, Extended Aeration Activated Sludge, Storage Ponds, Biological Ammonia Removal – Nitrification Only , Chemical Precipitation (Phosphorus), Filtration, Other Treatment",Unclassified,Environment and Climate Change Canada
+ea91ec1c5ede2df93e1997959c334e37,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eb2e918c37d215b837bc5b4ba8c1e8b4,bridges and tunnels,culvert,HIGHWAY 12 - SOUTH OF THORAH CONCESSION ROAD 8 CULVERT,Culvert,Culvert,Province of Ontario
+ece18a4b0a8d96bbc00838fcb82f0a98,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f564e7b15c1e22755332eb1a7fc634cd,telecom,tower,...,...,...,Natural Resources Canada
+fbe7c26b6f6845879952f9f4570786ae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fea98dc36f82a9733edaac54c7bb9d00,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

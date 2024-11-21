@@ -1,47 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-South Bay Road,BRIDGES AND TUNNELS,Footbridges
-Tower Road,BRIDGES AND TUNNELS,Footbridges
-Gibson River Bridge,BRIDGES AND TUNNELS,..
-BAXTER NARROWS BRIDGE NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-MUSKOKA ROAD 32/38 INTERCHANGE UNDERPASS NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-McDonald Lake Culvert (Northbound Lane),BRIDGES AND TUNNELS,..
-SEVERN RIVER. BOAT CHANEL BRIDGE NORTH BOUND LANE,BRIDGES AND TUNNELS,..
-SEVERN RIVER OVERFLOW BRIDGE-NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-SEVERN RIVER OVERFLOW BRIDGE-SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-MUSKOKA ROAD 5 OVERPASS SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Highway 400,BRIDGES AND TUNNELS,Footbridges
-BAXTER LAKE NORTH SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-MUSKOKA ROAD 32/38 INTERCHANGE UNDERPASS SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-GEORGIAN/CROOKED BAY OVERPASS SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-MOON RIVER BRIDGE NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-MOON RIVER BRIDGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-SEVERN RIVER BOAT CHANEL BRIDGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-MCDONALD LAKE BRIDGE (SOUTHBOUND LANE)      ,BRIDGES AND TUNNELS,..
-TOWER ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Prisque Road,BRIDGES AND TUNNELS,Footbridges
-Cowies Road,BRIDGES AND TUNNELS,Footbridges
-SNOWMOBILE CROSSING CULVERT SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-GIBSON RIVER SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-BAXTER NARROWS BRIDGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Culvert Southbound Lane,BRIDGES AND TUNNELS,..
-SNOWMOBILE CROSSING CULVERT NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-Picnic Island Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Lake Joseph Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-BAXTER LAKE NORTH CROSSING NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-GEORGIAN/CROOKED OVERPASS NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-MUSKOKA ROAD 33 INTERCHANGE UNDERPASS,BRIDGES AND TUNNELS,..
-MUSKOKA ROAD 34/48 UNDERPASS,BRIDGES AND TUNNELS,..
-CULVERT NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-C.P.R. OVERHEAD AT MACTIER,BRIDGES AND TUNNELS,..
-MUSKOKA ROAD 5 OVERPASS NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-Whites Falls Road,BRIDGES AND TUNNELS,Footbridges
-LAKE JOSEPH RD (OLD HWY 69) INTERCHANGE UNDERPASS,BRIDGES AND TUNNELS,..
-SNOWMOBILE TRAIL PATHWAY SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-JOE KINGS ROAD OVERPASS NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-SNOWMOBILE TRAIL PATHWAY NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-JOE KING'S ROAD OVERPASS SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Muskoka Road 38,BRIDGES AND TUNNELS,Footbridges
-Go Home Lake Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+008a990732def3615bc4b4d4a9a1fdf1,airports,...,Bala/gibson Lake Seaplane Base,seaplane_base,...,OurAirports
+03bc669c97826264ef8cc32bfe160748,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+05d1b33da69d8bd175e779600a8c47bc,solid waste,mixed,South Gibson Depot,Transfer Station,Transfer station,Province of Ontario
+05e704856e0a61ab6ef5c868dcb3e46f,bridges and tunnels,bridge,MUSKOKA ROAD 12 INTERCHANGE OVERPASS SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+08d2c210b33743817975cbc7eb586094,bridges and tunnels,bridge,BAXTER NARROWS BRIDGE SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+0b194b4fc0b10d1316e9b4d71c0e740e,telecom,tower,...,...,...,Natural Resources Canada
+10cd74b32df17fa893e47a2eec161b32,bridges and tunnels,bridge,BAXTER NARROWS BRIDGE NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+145ac07eae453127c1d81fb93991c027,bridges and tunnels,culvert,Culvert Southbound Lane,Culvert,Culvert,Province of Ontario
+146fd0bff7c4132da388ccfbbdd0b1eb,railways,track,..,...,...,Natural Resources Canada
+284430e2db8f5820d49b21484c555f7b,railways,track,..,...,...,Natural Resources Canada
+2b9518b90112afdf81a46c6a9fd64e97,railways,track,..,...,...,Natural Resources Canada
+2c55771cb1bf7f834494ed6475d5b529,bridges and tunnels,bridge,SEVERN RIVER OVERFLOW BRIDGE-NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+33d190e2e670cbfe83cec751d2c7eac0,bridges and tunnels,bridge,BAXTER LAKE NORTH SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+38a7c4b8d3e2bc7f1c13f97d36e98bd5,railways,track,..,...,...,Natural Resources Canada
+3b1df929a29db4b815db186a3f04cfd1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3fc24dc8542f426d6fccd019f8a98f1d,bridges and tunnels,culvert,SNOWMOBILE CROSSING CULVERT NORTHBOUND LANE,Culvert,Culvert,Province of Ontario
+43c59a98d7fea329344a51fbf6a051c3,bridges and tunnels,bridge,SEVERN RIVER. BOAT CHANEL BRIDGE NORTH BOUND LANE,Bridge,Bridge,Province of Ontario
+44c6d0553e2f9fd6d95c79f7dca4aef4,railways,track,..,...,...,Natural Resources Canada
+46c2790bf2632f286af9383b5051faf0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+46f994f1379dc249c855fa6b49e36e6e,bridges and tunnels,bridge,MUSKOKA ROAD 5 OVERPASS SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+4a43ed9b10d940b3fcd902da3faeb355,bridges and tunnels,culvert,SNOWMOBILE TRAIL PATHWAY SOUTHBOUND LANE,Culvert,Culvert,Province of Ontario
+4c270a88d5347a712ea5807c2be6045e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4cda24721ef9b6a4ca8cefcded1da842,railways,track,..,...,...,Natural Resources Canada
+4d7b8d135ddb63b56125b80e9b5a9166,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4df8f6f12e2416525a0a7d09dc610bb8,bridges and tunnels,bridge,MCDONALD LAKE BRIDGE (SOUTHBOUND LANE),Bridge,Bridge,Province of Ontario
+4e02257b3925a5df8ad33c06f46fd3fc,bridges and tunnels,culvert,McDonald Lake Culvert (Northbound Lane),Culvert,Culvert,Province of Ontario
+4fdf95ab04b183519eb1f88f4f1ab28c,bridges and tunnels,bridge,GEORGIAN/CROOKED BAY OVERPASS SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+53686e2420c4dbb3b2329035b1b32584,bridges and tunnels,bridge,MUSKOKA ROAD 33 INTERCHANGE UNDERPASS,Bridge,Bridge,Province of Ontario
+59e7ccb5adbaabdf5e78e456311d8045,telecom,tower,...,...,...,Natural Resources Canada
+5b31a51abacbeb5a19e4563b0c092d21,bridges and tunnels,bridge,MUSKOKA ROAD 32/38 INTERCHANGE UNDERPASS SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+6251a1c7f16d2a0fc10d8f96313a9746,railways,track,..,...,...,Natural Resources Canada
+65322efa791cec3e87cdafe6419011ac,railways,track,..,...,...,Natural Resources Canada
+65da63e30f7893850dd96df4679d5e2d,bridges and tunnels,bridge,MUSKOKA ROAD 5 OVERPASS NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+65efda69a8cbe5e18e3280dff5b94283,bridges and tunnels,culvert,SNOWMOBILE CROSSING CULVERT SOUTHBOUND LANE,Culvert,Culvert,Province of Ontario
+6a02f13d31a352b0cce109251a2a38c6,bridges and tunnels,bridge,JOE KING'S ROAD OVERPASS SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+6af35b0d3792b9f3f19b13bade8c4e96,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+6e9f3b4321af5da3e17093d922f74d67,railways,track,..,...,...,Natural Resources Canada
+6ec7b3e009568ea41d1cf569f48e089f,railways,track,..,...,...,Natural Resources Canada
+753b6387bd503c0e717d3e0a8af9739f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+756bfa416d146ee31cebff24e75ae67d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7900ad3ca8e57d8a59543195e044ba65,railways,track,..,...,...,Natural Resources Canada
+7e8b0c430398a06edc81180121de481e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7ee27ed68a60cf3acb6190839f4ef8eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+88db099f721d66e4b1ec810697a0490d,railways,track,..,...,...,Natural Resources Canada
+8b6a80ed80c757a6b130347b73b9c088,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8cff5f4c96f642c4f9c53f7cbeb57973,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9229f27205e4e7a5d23c87c6c2dded1d,bridges and tunnels,bridge,TOWER ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+94414ec9e8207149e164f1a08f75b48a,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+98c43b296ba4c4a7e95e194d97ef6904,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

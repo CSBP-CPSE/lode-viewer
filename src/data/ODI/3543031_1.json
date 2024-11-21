@@ -1,16 +1,24 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-6th Street,BRIDGES AND TUNNELS,Footbridges
-"HWY 26 - SILVER CREEK, WEST CULVERT",BRIDGES AND TUNNELS,..
-Beachwood Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-Mountain Road,BRIDGES AND TUNNELS,Footbridges
-"HWY 26 - SILVER CREEK, EAST CULVERT",BRIDGES AND TUNNELS,..
-Pretty River Parkway,BRIDGES AND TUNNELS,Footbridges
-Hume Street,BRIDGES AND TUNNELS,Footbridges
-Cranberry Trail East,BRIDGES AND TUNNELS,Footbridges
-2nd Street,BRIDGES AND TUNNELS,Footbridges
-HWY 26 - WEST OF NEWPORT BLVD. CULVERT,BRIDGES AND TUNNELS,..
-Balsam Street,BRIDGES AND TUNNELS,Footbridges
-HWY 26 - EAST OF CRANBERRY TRAIL CULVERT,BRIDGES AND TUNNELS,..
-BATTEAUX RIVER BRIDGE,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0b9d459d9cc57a753147cf83a313a0c3,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+11dad5927cea2331a40af8d18883772c,bridges and tunnels,culvert,"HWY 26 - SILVER CREEK, WEST CULVERT",Culvert,Culvert,Province of Ontario
+248c48ed0a4fc5a3f6b5dd035029859e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2bb4b65c78592f24802275fcbbdf3acc,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+3f91b64abbedff6e5c67bd63445a4e64,telecom,tower,...,...,...,Natural Resources Canada
+4a580b24494005d9a944460d1f5e87d2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4eb88becd06602ce724977bfcf68bbc6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a4ecb1d67eecf372139878e7d60231d,wastewater and storm water,facilities_waste,Craigleith Wastewater Treatment Plant,"Grit Removal, Screening, Activated Sludge, Extended Aeration Activated Sludge, Biological Nitrogen Removal - Nitrification and Denitrification, Biological Phosphorus Removal, Biological Nutrient Removal (Nitrogen and Phosphorus), Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+611a5c987fc6d19dd2d3539d2bcad811,airports,...,Collingwood (wilsons),heliport,...,OurAirports
+66e123908ea03a0376de9e08e3c2dbc1,ports and marinas,port,Collingwood,..,...,National Geospatial-Intelligence Agency (NGA)
+7a296ac434b89d7ca03a162a6770e306,bridges and tunnels,culvert,"HWY 26 - SILVER CREEK, EAST CULVERT",Culvert,Culvert,Province of Ontario
+7dc73fdf489e27c91973e6bdfab24ff5,bridges and tunnels,culvert,HWY 26 - EAST OF CRANBERRY TRAIL CULVERT,Culvert,Culvert,Province of Ontario
+7de80873524d721cd897a1cef6e5d228,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7e3ce9a5e630391a5b4ba35d71f77ed5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+88ed1a644f96e433c60fcd0ff09ff209,wastewater and storm water,facilities_waste,Wastewater Treatment Plant,..,Waste treatment plant,Environment and Climate Change Canada
+99b6f276438451fb90cf0eeb05b7ade2,bridges and tunnels,bridge,BATTEAUX RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+9b869d5238aa65e22539a2b51268311e,telecom,tower,...,...,...,Natural Resources Canada
+aa69139a90db8b74a0b71050a033a206,airports,...,Collingwood (general And Marine Hospital) Heliport,heliport,...,OurAirports
+b3ee0d4d2551a9e1d0063fa8bc1a8ec1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bc22192e7ad6f76a4d42f00386e08d33,bridges and tunnels,culvert,HWY 26 - WEST OF NEWPORT BLVD. CULVERT,Culvert,Culvert,Province of Ontario
+c61b82a6adf46c702fe1ec33a40f2d48,telecom,tower,...,...,...,Natural Resources Canada
+f5544c109a138e8ea86831fb4c3778cd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+faa6c6cfed274015bb0c496ee2fa2ffa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

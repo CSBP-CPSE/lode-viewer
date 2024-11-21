@@ -1,32 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Riverdale Road,BRIDGES AND TUNNELS,Footbridges
-Clear Lake Road,BRIDGES AND TUNNELS,Footbridges
-Beatrice Townline Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Island Park Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Ragged Rapids Road,BRIDGES AND TUNNELS,Footbridges
-Medora Lake Road,BRIDGES AND TUNNELS,Footbridges
-Bala Falls Road,BRIDGES AND TUNNELS,Footbridges
-Highway 141,BRIDGES AND TUNNELS,Footbridges
-Acton Island Road,BRIDGES AND TUNNELS,Footbridges
-Skeleton River Culvert,BRIDGES AND TUNNELS,..
-Rosseau Lake 3 Road,BRIDGES AND TUNNELS,Footbridges
-Hekkla Road,BRIDGES AND TUNNELS,Footbridges
-CNR Subway Bridge at Footes Bay,BRIDGES AND TUNNELS,..
-Muskoka Road 169,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Doherty Road,BRIDGES AND TUNNELS,Footbridges
-PEDESTRIAN CULVERT,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Herman Tibbel Road,BRIDGES AND TUNNELS,Footbridges
-Rostrevor Road,BRIDGES AND TUNNELS,Footbridges
-Milford Bay Road,BRIDGES AND TUNNELS,Footbridges
-Peninsula Road,BRIDGES AND TUNNELS,Footbridges
-Deebank Road,BRIDGES AND TUNNELS,Footbridges
-Henry Road,BRIDGES AND TUNNELS,Footbridges
-Windermere Road,BRIDGES AND TUNNELS,Footbridges
-Beaumaris Road,BRIDGES AND TUNNELS,Footbridges
-Rosseau River,BRIDGES AND TUNNELS,..
-Aspdin Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+039823f6ba6db859714e3a28a92183b6,telecom,tower,...,...,...,Natural Resources Canada
+05cfaae9e3e6774804cb7db4affb7c74,airports,...,Bala Airport,small_airport,...,OurAirports
+05fb0569ee23212d91173389df65a1ab,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+0aa998421ec07248edfc56b058bde1bf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0e2b0777603e2567836ca1a55a55c005,telecom,tower,...,...,...,Natural Resources Canada
+0e80dfa6106edb17fdd005a0455bc134,wastewater and storm water,facilities_waste,Tower Road Wwtp,"Grit Removal, Extended Aeration Activated Sludge, Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+0f589c54a89bc3b07b0a1ab61ca6b59a,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+103fbe13b096288316bd8307419921b5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1088dbd4c4fb1d8f0a92ac8bec1ebb27,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+10958801ae193ee1a2d2c52e173e7d16,railways,station,Bala,...,...,Natural Resources Canada
+14fd991b1a353db29cb098e918c11d47,electric grid,power_plants,..,...,...,Natural Resources Canada
+1501365e8c7a4e504a40a9b3b0a39a47,airports,...,Lake Rosseau/windermere Seaplane Base,seaplane_base,...,OurAirports
+15cac4ca583eb4bed7c921c02e141e02,airports,...,Bracebridge West Airfield,small_airport,...,OurAirports
+1994dc2fbfa1ef0639df43e2baa90bf5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1a1d677971576cb3de58d3e9c15e82ac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1aeea6b826913980f7f909230e8a64a2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1b09c4500ad4eb211ac05e5c54b2bb36,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+1d4b844b16aef5dcd1fbbfe76ee6bdc8,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1da4d813c68925aa100bde770d9cfabe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+204fa7ca384b155abb4eb8c687f5d03d,railways,track,..,...,...,Natural Resources Canada
+20d9a9b9627ddf60b4744c12f30c98f9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+221ee7a30596835ffc64d35bbcd6b867,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+237fe974d4057fa8745e811505688874,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+258dee20534b305298a0eddac781cfdc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+29ff4555e9cc99bee5e9466e059831a4,railways,station,Medora,...,...,Natural Resources Canada
+2e776c48546f8006912c60f859c6367b,airports,...,Port Carling/butterfly Lake Seaplane Base,seaplane_base,...,OurAirports
+31ba12ac55ff348218f36b995dd22663,bridges and tunnels,culvert,PEDESTRIAN CULVERT,Culvert,Culvert,Province of Ontario
+327cd5d9799e5265c2e86a6343897933,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+33123d1859f4ec367a33086d30acbc27,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+33b0f21135feb73df8f611a58b75e27e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+353e00613fac801da343d675b8758353,airports,...,Bala (medora Lake),small_airport,...,OurAirports
+3675eb5c6a50d857eddfed9ebc86b799,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3826ac4e9dc93b65238a9d1a5881f363,telecom,tower,...,...,...,Natural Resources Canada
+38dd93c741186fff3ee47470e24a6239,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3e43ff7fe6c571fba37e283ae045829c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+41f628150f604347ecc80a2de1c2148c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+438b701d4c8104911b81ee64e0b8a43b,railways,track,..,...,...,Natural Resources Canada
+448a57c4fd9705f241e6cb429fc51031,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+597fef2df0b280fe9e557d0c15e2499f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b0e3194bcecc7fd2e265aa083ceba9a,low carbon,hydro,Ragged Rapids,...,...,World Resources Institute
+5d6fdcbef0abccdfd9134d79fe5c2f74,telecom,tower,...,...,...,Natural Resources Canada
+5eb2d49fa3623275be3b6a32f00ae52f,wastewater and storm water,facilities_waste,Municpality Of Dysart Wwtp,"Grit Removal, Screening, Extended Aeration Activated Sludge, Biological Nitrogen Removal - Nitrification and Denitrification, Biological Nutrient Removal (Nitrogen and Phosphorus), Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+5eb6e6b7a385a0356ad870853f6e3413,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+603d1b14c3e4dc7118261a97443358db,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6055a74d8d33be50c30852ed78a7b329,railways,station,Woodward,...,...,Natural Resources Canada
+627564543f1659dcf9d2f7a9c140e390,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+65b15816640594bcb9027e278e0a7001,airports,...,Lake Rosseau/arthurlie Bay Seaplane Base,seaplane_base,...,OurAirports
+71eab7ce2a9d318b878ee5bde3e1fc2a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+76e3d5f2b078208c3b1db5e1655a25cb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

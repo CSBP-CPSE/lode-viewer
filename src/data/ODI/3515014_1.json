@@ -1,41 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-King Street,BRIDGES AND TUNNELS,Footbridges
-George Street North,BRIDGES AND TUNNELS,Footbridges
-Charlotte Street,BRIDGES AND TUNNELS,Footbridges
-"BENSFORT ROAD OPS, WBL",BRIDGES AND TUNNELS,..
-..,POTABLE WATER,Water Treatment Plant
-"CNR OVERHEAD, EBL",BRIDGES AND TUNNELS,..
-"ASHBURNHAM DRIVE UPS, NBL",BRIDGES AND TUNNELS,..
-Television Road,BRIDGES AND TUNNELS,Footbridges
-OTONABEE RIVER BRIDGE WBL,BRIDGES AND TUNNELS,..
-Crawford Dr. @ Harper Rd. Park & Ride,..,..
-Nassau Mills Road,BRIDGES AND TUNNELS,Footbridges
-Bonaccord Street,BRIDGES AND TUNNELS,Footbridges
-Caddy Street,BRIDGES AND TUNNELS,Footbridges
-McDonnel Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,Footbridges
-"CNR OVERHEAD, WBL",BRIDGES AND TUNNELS,..
-Peterborough Bus Terminal,..,..
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-Parkhill Road West,BRIDGES AND TUNNELS,Footbridges
-HWY 7 WBL / Parkway SB Overpass (BR #2),BRIDGES AND TUNNELS,..
-Culvert (0.5km south of Hwy 7- Queensway IC),BRIDGES AND TUNNELS,..
-Highway 7 & 115,BRIDGES AND TUNNELS,Footbridges
-Ashburnham Drive,BRIDGES AND TUNNELS,Footbridges
-Trent University,..,..
-CULVERT - 200m E of County Road 30,BRIDGES AND TUNNELS,..
-McFarlane Street,BRIDGES AND TUNNELS,Footbridges
-HWY 7 EBL / Parkway SB Overpass (BR #1) ,BRIDGES AND TUNNELS,..
-Edgewater Boulevard,BRIDGES AND TUNNELS,Footbridges
-Dalhousie Street,BRIDGES AND TUNNELS,Footbridges
-Sir Sandford Fleming Drive,BRIDGES AND TUNNELS,Footbridges
-OTONABEE RIVER BRIDGE EBL,BRIDGES AND TUNNELS,..
-"ASHBURNHAM DRIVE UPS, SBL",BRIDGES AND TUNNELS,..
-HWY 7 - QUEENSWAY IC (BR #3)..... EBL,BRIDGES AND TUNNELS,..
-HWY 7 - QUEENSWAY IC (BR #4)...... WBL,BRIDGES AND TUNNELS,..
-Hunter Street East,BRIDGES AND TUNNELS,Footbridges
-"BENSFORT ROAD OPS, EBL",BRIDGES AND TUNNELS,..
-Bethune Street,BRIDGES AND TUNNELS,Footbridges
-Hunter Street West,BRIDGES AND TUNNELS,Footbridges
-Lansdowne Street West,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+021caf47aa27336f9f38807c6a28281b,railways,track,..,...,...,Natural Resources Canada
+063443c76161c82deb215b27f8a11dac,bridges and tunnels,bridge,"CNR OVERHEAD, WBL",Bridge,Bridge,Province of Ontario
+07235d15aa67f457e047fec466117c98,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+087ff607b3d5255eaf7486945ec69d78,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+09a42048473d92afe37077c6793d9c27,railways,track,..,...,...,Natural Resources Canada
+0a007e87d1b3e30175fca83de9703ef7,wastewater and storm water,facilities_waste,Ptbo Waste Water Treatment Plant,..,Waste treatment plant,Environment and Climate Change Canada
+0aebefdda44f789d48cae91f64a8ac08,airports,...,Peterborough (civic Hospital) Heliport,heliport,...,OurAirports
+0af79cb523ff742b079d801c8aa207ad,railways,track,..,...,...,Natural Resources Canada
+0cb38fec3b3342a0ffa1c3450d5db054,railways,track,..,...,...,Natural Resources Canada
+0d37d16fee6635261d1d7cdc64f54168,railways,track,Quaker Oats,...,...,Natural Resources Canada
+0d41520b4f242b38f1027249f21082cf,telecom,tower,...,...,...,Natural Resources Canada
+0d8555aaba3936ad1b736134143bd8e6,low carbon,hydro,London Street,...,...,World Resources Institute
+0db6c5d31834d6e67d847e29f3e21ce6,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+12826873d475cfa69166636fd939c9ef,low carbon,hydro,Water Street Pumphouse,...,...,World Resources Institute
+12ced6a781ce3e74ddc409f1707c584f,railways,track,..,...,...,Natural Resources Canada
+13c1e73dc4ffadec84a0fafa93fe8a7a,railways,track,Peterborough Industrial,...,...,Natural Resources Canada
+13eb25b2eaf4d6e536cb78cd9231f116,bridges and tunnels,culvert,Culvert (0.5km south of Hwy 7- Queensway IC),Culvert,Culvert,Province of Ontario
+14fcfff6d2c88c0318e3ef0ae399ae4f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1bf9dda863ecda918bf029203f925bbc,bridges and tunnels,bridge,OTONABEE RIVER BRIDGE WBL,Bridge,Bridge,Province of Ontario
+23891a8af17ac7ec8a80a0f904a898d3,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+2ee453a95aed678c371a03aa7d476791,railways,track,..,...,...,Natural Resources Canada
+2f55ee6405a17df862bf94af2dfc26b5,bridges and tunnels,culvert,CULVERT - 200m E of County Road 30,Culvert,Culvert,Province of Ontario
+30fa0168dbaf79177584ba2994f6b796,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+310104e17a3a7830f17914a9c6df7a7d,railways,track,..,...,...,Natural Resources Canada
+33f23ac2db035c57b7a3e06d3e2e5d5b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+36c1c9109102a72a83798db2dc48c17f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+386cccc9117c60915047ed313aa0a982,railways,track,..,...,...,Natural Resources Canada
+39ad99ccc34e9a091c8d80446a6bcdb8,bridges and tunnels,bridge,HWY 7 - QUEENSWAY IC (BR #3)..... EBL,Bridge,Bridge,Province of Ontario
+3a9345458f9782735ac1906c419e48c8,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+3eb9bbbb097d48e98379e245ad432520,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+3fc025d646acedfc945a038fd6e43086,railways,track,..,...,...,Natural Resources Canada
+4254a4fcda673cbab61abb95bddd73e6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+42986deaf777dc4142ab37c5a81493dc,potable water,facility,Peterborough Water Treatment Plant,..,Treatment plant,Environement and Climate Change Canada
+4419793caa47b07d379ab66c423eec1c,bridges and tunnels,bridge,"CNR OVERHEAD, EBL",Bridge,Bridge,Province of Ontario
+4af3e3811ae5563fa62113adc650f454,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+5522ed8b94be4f09e84bd6f2f6bd3f15,wastewater and storm water,facilities_waste,Ptbo Waste Water Treatment Plant,"Grit Removal, Screening, Chemical Flocculation, Primary Sedimentation/Clarification, Activated Sludge, Other Treatment, Disinfection",Unclassified,Environment and Climate Change Canada
+588fef3d85116837c2d9a046e40b8691,telecom,tower,...,...,...,Natural Resources Canada
+5db1679c87a3db27d17dcadf5ed2ab08,railways,track,..,...,...,Natural Resources Canada
+5e2a4b1929da313bd11f216ee035f6cb,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+5ff09a332950db2f44ae3fbbc68849ef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6152c4eaa673d41bff735bf5b518ff16,railways,track,..,...,...,Natural Resources Canada
+61e091be47c1fc919e846423ebc2f528,railways,track,..,...,...,Natural Resources Canada
+63023c4922c8daea7002ce8178f3cea3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+66f5fb60b2162868bcdf968d6d36e94d,bridges and tunnels,bridge,"BENSFORT ROAD OPS, EBL",Bridge,Bridge,Province of Ontario
+67b74f48bc7d6c2613464b1e9a494532,railways,track,Lead To Peterborough,...,...,Natural Resources Canada
+696a26be05109946b7124b15cc9ea83b,railways,track,Peterborough Industrial,...,...,Natural Resources Canada
+6b5529d843c22aab6c96ba2790979dc0,bridges and tunnels,bridge,HWY 7 WBL / Parkway SB Overpass (BR #2),Bridge,Bridge,Province of Ontario
+6ca057525079f0c1787d8bcbe96dade9,telecom,tower,...,...,...,Natural Resources Canada
+6cde612bc67aaa77eff78254f3e4637f,bridges and tunnels,bridge,"BENSFORT ROAD OPS, WBL",Bridge,Bridge,Province of Ontario

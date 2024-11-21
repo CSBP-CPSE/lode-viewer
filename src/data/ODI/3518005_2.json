@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Clements Westbound @ Finley,..,..
-Clements Westbound @ Finley,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Westbound @ 132 Kingston,..,..
-Westbound @ 132 Kingston,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-Harwood Northbound @ Bayly,..,..
-Harwood Northbound @ Bayly,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Storm Water Management (Ponds and Wetlands)
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Westney Northbound @ Williamson,..,..
-Westney Northbound @ Williamson,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Westney Northbound @ Sullivan,..,..
-Westney Northbound @ Sullivan,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Taunton Eastbound @ Gillett,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+42e731718a4a64dd00ffdb4e7aeb97f7,wastewater and storm water,facilities_storm,Medallion Castlefields Phase 5,..,Stormwater pond,Town of Ajax
+43609908af8a41e20d01528ce97483a2,wastewater and storm water,facilities_storm,East Pond - Markborough Commercial Developments,..,Stormwater pond,Town of Ajax
+438b1d0bb2bebc76b393191d88361745,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+43a519bc342c8e94c378f3aabf50e783,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+447eb4a929189353ad17c9409eabfc0c,railways,track,..,...,...,Natural Resources Canada
+44e7b4d1d59222d272ca2f8b36ca9b3e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+461ecc7c6175efe4ac443c05a9289261,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+466a0ce777cf0bf9dc103bdbe4a184b4,wastewater and storm water,facilities_storm,Kerrision Road Wetlands/wet Meadow,..,Stormwater pond,Town of Ajax
+49d879ddac9d87c40cc6fc7ac3906e93,wastewater and storm water,facilities_storm,Duffins Village Pond,..,Stormwater pond,Town of Ajax
+49ee7a4ae4e55ef806cfb28dee5b7c8f,railways,track,Lakeshore East,...,...,Natural Resources Canada
+4b394734072280813c349244d6671f0d,wastewater and storm water,facilities_storm,Hampstock Pond Phase 1,..,Stormwater pond,Town of Ajax
+4b73729abe6adabee43df3546c877847,railways,track,Ajax Industrial Lead #1,...,...,Natural Resources Canada
+4ef86ed6ef73be98d1e3424bf094c3ca,wastewater and storm water,facilities_storm,John Boddy A3,..,Stormwater pond,Town of Ajax
+50e5dd475b8895a88b1edd76caf2a2ae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+521068dd38e11c77e38d7a2ff29b3e2b,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+527f943cb20ac7ab2d264c788896031e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+53885ce6125d2b7721c2970af0bf4cfe,railways,track,Lakeshore East,...,...,Natural Resources Canada
+550ba31e2cc278254e0a1a7a411d8f3d,wastewater and storm water,facilities_storm,Hermitage - Church & Meekings,..,Stormwater pond,Town of Ajax
+5786fee4f3db5c5cb25c36222b57e6b1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+57afe2d03b6420ab04b5462433994d25,wastewater and storm water,facilities_storm,Steele Valley - A6 N2 Pond 1,..,Stormwater pond,Town of Ajax
+5868422294098586633d6cd723fad8a6,bridges and tunnels,bridge,Realigned Lakeridge Road Over Realigned Hwy 401/CNR/GO,Bridge,Bridge,Province of Ontario
+590055d8f1dc05b46482e971ac45cf3b,railways,track,Ajax,...,...,Natural Resources Canada
+5c914b90f54c9d7b37be636045568d39,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5df344b69e8ee0c90a5e26132107a9e7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5e3d5a5fc2e3ea627eea9b2d7ef7bc29,railways,track,Ajax,...,...,Natural Resources Canada
+5e6bcb5ca19d91156f3cd2e76e40ce95,electric grid,power_plants,..,...,...,Natural Resources Canada
+5f99845e67e65f3310b1e111e288cf52,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+601ef5d2bc729062b09c8e2e29ab4ca3,wastewater and storm water,facilities_storm,Devonside Estates Pond,..,Stormwater pond,Town of Ajax
+6082cdd8884f549f31362216d598d206,railways,station,Harwood,...,...,Natural Resources Canada
+6140fc558dda4afad99cdc169828279a,railways,track,..,...,...,Natural Resources Canada
+614f24b2d5fc56c31ba4ac28040e0723,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+64609e748a294f69feba0c9ccb2f5858,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+66f4817baf38399e54193c2896b1a631,wastewater and storm water,facilities_storm,Pond 1 - Forest Ridge Subdivision,..,Stormwater pond,Town of Ajax
+6860bf64e9f3b85555713266dcd6d0ab,telecom,tower,...,...,...,Natural Resources Canada
+687a4b0d1c226931c0d333e131b40015,railways,track,Ajax,...,...,Natural Resources Canada
+6958072540be8ab40a5f20d0714d3433,wastewater and storm water,facilities_storm,Pickering Beach Subdivision Pond,..,Stormwater pond,Town of Ajax
+6a54c103eec9584026737c4dbbd4b6af,wastewater and storm water,facilities_storm,Hampstock Pond Phase 2b,..,Stormwater pond,Town of Ajax
+6a8eb8b1264a4b4bad2ffa1fb781434f,railways,track,Ajax,...,...,Natural Resources Canada
+6aa3d076ee7dd66c6a492b03b70f47c8,railways,track,Ajax Industrial Lead #1,...,...,Natural Resources Canada
+6aeabff47f0729ae8092b2f600ea956f,railways,track,Ajax Industrial Lead #1,...,...,Natural Resources Canada
+6ca11aa38d3fd2aad627e7bf0dfb2768,wastewater and storm water,facilities_storm,Riocan-westney/taunton,..,Stormwater pond,Town of Ajax
+6dda67b83a5130253599f36b339026c0,wastewater and storm water,facilities_storm,Runneymede Westney - A6n2 Phase 4,..,Stormwater pond,Town of Ajax
+719d2c94768ff3f066694010bd3011df,wastewater and storm water,facilities_storm,Monarch Lexington Phase 1,..,Stormwater pond,Town of Ajax
+71d662b06f0655a365d0cc473b56cf6f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+75594473316b9b80a5ed90e98a7f05f2,wastewater and storm water,facilities_storm,Grove/guthrie Commercial Site,..,Stormwater pond,Town of Ajax
+769b9f20699e7dbdfb966259d2181600,wastewater and storm water,facilities_storm,Danovilla Subdivision - Pond 2 (south Pond),..,Stormwater pond,Town of Ajax
+770190578b51c056274c30229cee2702,railways,track,Ajax Industrial Lead #1,...,...,Natural Resources Canada
+78a880ee258017327db630f9219967a7,wastewater and storm water,facilities_storm,Hampstock Pond Imagination Phase 1,..,Stormwater pond,Town of Ajax
+78acf39f5fe6ffad63b5ef6c51645f53,wastewater and storm water,facilities_storm,Porte Road (national Homes),..,Stormwater pond,Town of Ajax

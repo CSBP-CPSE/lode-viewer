@@ -1,43 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,multi-use
-SITE 6-404 Outer Boulevard,BRIDGES AND TUNNELS,..
-North Talbot at Halford,..,..
-SITE 6-407,BRIDGES AND TUNNELS,..
-SITE 6-405 Big Chief Gas Station Culvert,BRIDGES AND TUNNELS,..
-SITE 6-406,BRIDGES AND TUNNELS,..
-Walker at Highway 401,..,..
-9th Concession Road,BRIDGES AND TUNNELS,Footbridges
-8th Concession Road,BRIDGES AND TUNNELS,Footbridges
-Walker at North Talbot,..,..
-SANDWICH SOUTH TWP CO RD #8 U/P,BRIDGES AND TUNNELS,..
-Concession Road 6,BRIDGES AND TUNNELS,Footbridges
-COUNTY ROAD #46 OVERPASS,BRIDGES AND TUNNELS,..
-Highway 3,BRIDGES AND TUNNELS,Footbridges
-WALKER and NORTH TALBOT,..,..
-North Talbot at Burke,..,..
-North Talbot Road Underpass,BRIDGES AND TUNNELS,..
-ESSEX CTY RD 17 U'PASS,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Culvert- Wolfe Drain,BRIDGES AND TUNNELS,..
-C & O/CONRAIL OVERHEAD,BRIDGES AND TUNNELS,..
-Snake Lane Road,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-Concession Road 12,BRIDGES AND TUNNELS,Footbridges
-Site 6-467,BRIDGES AND TUNNELS,..
-SANDWICH S TWP RD CON 11 U'PASS,BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,multi-use
-South Talbot Road,BRIDGES AND TUNNELS,Footbridges
-Highway 3 Underpass at East of Howard Avenue,BRIDGES AND TUNNELS,..
-Riverside Drive,BRIDGES AND TUNNELS,Footbridges
-Concession Road 11,BRIDGES AND TUNNELS,Footbridges
-Ramp WBR10 (E-E/W) Underpass,BRIDGES AND TUNNELS,..
-Walker at U-Haul,..,..
-Concession Road 8,BRIDGES AND TUNNELS,Footbridges
-PIKE CREEK BR.,BRIDGES AND TUNNELS,..
-Tecumseh Road,BRIDGES AND TUNNELS,Footbridges
-North Talbot at Dumouchelle,..,..
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-SANDWICH SOUTH TWP CON 9 U'PASS,BRIDGES AND TUNNELS,..
-SULLIVAN'S DRAIN,BRIDGES AND TUNNELS,..
-10th Concession Road,BRIDGES AND TUNNELS,Footbridges
-North Talbot Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02b5b1c477d1e414f3aa2f2fdce1007c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f0b9c08eda80ef47b5a2e78cab2580a,bridges and tunnels,culvert,SITE 6-405 Big Chief Gas Station Culvert,Culvert,Culvert,Province of Ontario
+19775b1ddf7ad9618a108415e7ccaa1b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1ffaae939a468571b7e39ba6f11edd78,bridges and tunnels,bridge,SANDWICH SOUTH TWP CON 9 U'PASS,Bridge,Bridge,Province of Ontario
+2146e7595b0af0a42ec132ff40bd7f3a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2df5d6831950dd18121800340a4efdba,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Windsor
+2eb07e0d17e9d71fff0a18fefd07cdf3,bridges and tunnels,bridge,C & O/CONRAIL OVERHEAD,Bridge,Bridge,Province of Ontario
+30826c45ccf06cd481617d43b5e7bb0c,bridges and tunnels,bridge,ESSEX COUNTY ROAD 19 UNDERPASS,Bridge,Bridge,Province of Ontario
+3762335083357f2b694d9037d6536487,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3d7fcd771c74acdd8b0568e1cd1d42ea,oil and gas,pipelines,..,..,...,Natural Resources Canada
+3e2831b277b14b361faa11e0c984290f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+49bc6f6f46c644dc316ff23e5a1d050f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+49d062be5629a2303ac80a7554feb3be,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Windsor
+50d47025c4a7b999eda0f58a0002c6e8,railways,track,..,...,...,Natural Resources Canada
+5141526bf1a9ccab32ad772f27277e75,telecom,tower,...,...,...,Natural Resources Canada
+53f67f46c9c2b4df4984d8e69fc965d2,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Windsor
+58ce2a98024f811b7683c5d97db026fd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+59ffc3d207e896429b48d8a4d5e5e78d,bridges and tunnels,bridge,COUNTY ROAD #46 OVERPASS,Bridge,Bridge,Province of Ontario
+5cc9d82b05add4b9db595e7d3cf9556d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f799c33620035204e06d6985af2eab2,bridges and tunnels,bridge,PIKE CREEK BR.,Bridge,Bridge,Province of Ontario
+6443734a258d56a18c2a00e8c24e07de,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+64df73b0cdd0f48b74a564f183883234,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+66677d6295d9844e98b817e0992a8608,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+672b472f64bae65dd96e7da4556b35f6,bridges and tunnels,bridge,North Talbot Road Underpass,Bridge,Bridge,Province of Ontario
+68fc758f94c32f57006362c1d6003283,oil and gas,facilities,..,..,...,Natural Resources Canada
+6a035725653a18775ddb6cc3257ff4a5,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+718312b308cca2800259d1e26279f9ba,bridges and tunnels,bridge,Highway 3 Underpass at East of Howard Avenue,Bridge,Bridge,Province of Ontario
+74a641ce00a94c4fabac9d9395935292,bridges and tunnels,bridge,SANDWICH SOUTH TWP CO RD #8 U/P,Bridge,Bridge,Province of Ontario
+81975de6f1391d0cdd23b57b763f64cd,railways,station,Lacasse,...,...,Natural Resources Canada
+82fbfdd3c41bcd115fd10afe1bc63cbc,railways,track,..,...,...,Natural Resources Canada
+8cc47d083b558f0ee7f0706f1d87a32a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9737de817b6996218917f71caa4e60fb,bridges and tunnels,bridge,Howard Ave Underpass,Bridge,Bridge,Province of Ontario
+974266abe60369b00d9e780cb8e1a29e,bridges and tunnels,culvert,SITE 6-406,Culvert,Culvert,Province of Ontario
+a223d7aa9252e9899543c5ab9d2f183b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a33daba2ac725eac1c6a3e53bd89f66f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a420c8262862c3ac22b4618e4ec4a837,bridges and tunnels,culvert,Site 6-467,Culvert,Culvert,Province of Ontario
+a5c4a221579159f790a3b029a7515efa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a63640a7560f55c7be19bb216489bb42,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b28e063f6228d1d97ee3d555641cbaf2,bridges and tunnels,culvert,SITE 6-404 Outer Boulevard,Culvert,Culvert,Province of Ontario
+b9337a04a806b6593e65bd8d0d05cd5e,bridges and tunnels,bridge,SANDWICH S TWP RD CON 11 U'PASS,Bridge,Bridge,Province of Ontario
+bde16a0b25759290c969e44bd7d12971,bridges and tunnels,bridge,ESSEX CTY RD 17 U'PASS,Bridge,Bridge,Province of Ontario
+bfa134d7b017165281b8e3f714fba3a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c2e1b399b3b68ddd9acbda35448de05d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c5e232c6c4c37ed115fdb9e13a6dd9cf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cbcc97ac470e04a964dbcda060960f00,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ce09d0dd39e9c775dbe5bc1253c58885,telecom,tower,...,...,...,Natural Resources Canada
+d183a92d369fcd78760aa52fddf70244,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d3060823d773a8d76aebe2664d514b10,bridges and tunnels,culvert,SULLIVAN'S DRAIN,Culvert,Culvert,Province of Ontario
+d51a541936ea0e7e105afe4fd94adfc1,bridges and tunnels,culvert,Culvert- Wolfe Drain,Culvert,Culvert,Province of Ontario

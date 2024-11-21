@@ -1,18 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-McPhail Road,BRIDGES AND TUNNELS,Footbridges
-Long Sault Parkway,BRIDGES AND TUNNELS,Footbridges
-Aultsville Road,BRIDGES AND TUNNELS,Footbridges
-AVONMORE ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Culvert (0.6km West of Post Rd),BRIDGES AND TUNNELS,..
-HOOPLE CREEK BRIDGE (WBL),BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,multi-use
-POWER DAM DRIVE UNDERPASS,BRIDGES AND TUNNELS,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Culvert (0.15km East of Post Rd),BRIDGES AND TUNNELS,..
-Power Dam Drive,BRIDGES AND TUNNELS,Footbridges
-North Lunenburg Road West,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Transmission Pipes (>416mm)
-HOOPLE CREEK BRIDGE (EBL),BRIDGES AND TUNNELS,..
-Beaver Creek,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+3e91a9198054916c95b660a8c1f44796,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+3eabcb76c26898b70cdcb48bc077ee78,electric grid,power_plants,..,...,...,Natural Resources Canada
+3f5c7423c7db281a7f0ee5cb22cb66e7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3fa4124d14b843711392d62890d08a48,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+3ff70ce8bd0ec018d05823cba60049a9,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+423c7dfbd9a1dbdee5891822737bbeb6,bridges and tunnels,culvert,Culvert (0.15km East of Post Rd),Culvert,Culvert,Province of Ontario
+42c537d9ff4f7e8223deebf679531cc0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4466e29c2dffb7e15ba1cc7d95448e85,bridges and tunnels,bridge,POWER DAM DRIVE UNDERPASS,Bridge,Bridge,Province of Ontario
+45814baa3cc4e8c091ff51406f9972b7,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+467bea1844c9b2f0417e230b2457bc08,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+498d15ebcfb4a7d8aa70ea3ee2748c98,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+4a1fcee97d18aeb8ce489e9c2b69346f,bridges and tunnels,bridge,MOULINETTE ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+4a78ee4aeb3bd3acfd9da90974e1e850,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+4b251afc0deef0de553b763036f218aa,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+4c3e7092273cccc31fcee21ffbecdc28,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+50b1a2655ac21191561297615f7d0d3e,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+51da8a982bc7a6777e11ad24f561c6d2,bridges and tunnels,culvert,Culvert WB (3.6km East of Dickinson Dr),Culvert,Culvert,Province of Ontario
+51e266f32d4286dfac2bfd1f5dc91426,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+523866a8661b55c222e9b982f2994aa5,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+52653321fb1fdce5f801631d984407a5,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+54bfdc48daa3831617e5263d44f9efab,telecom,tower,...,...,...,Natural Resources Canada
+561ea05bcd4a4d3c2d7b7197062ed7e1,oil and gas,pipelines,..,..,...,Natural Resources Canada
+5939c44cbe58e573f01db7cdba576793,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+5990ce62d891eb9e68e42d6071ec3838,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a6031e81f5be026506a4c8bd8a7362d,electric grid,power_plants,..,...,...,Natural Resources Canada
+5bae5a4ff0635d0030c733279dcda8b0,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+5bdf20df23e8efdbb48cb55df135053c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5c22d6ff229a7fd33ba3dca47852446f,railways,track,..,...,...,Natural Resources Canada
+5cf328ca42b42c3420cdc77d0a8014bc,wastewater and storm water,facilities_waste,Long Sault Waste Water Treatment Plant,"Grit Removal, Screening, Sequencing Batch Reactor",Unclassified,Environment and Climate Change Canada
+5efb27b77ce3ed0127a9b5bd25d0545b,telecom,tower,...,...,...,Natural Resources Canada
+5fe2a3a4eb13a6955a8a6a2466964623,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+6097376cac94ae5a2ec103b6228d5fad,potable water,pipe,..,..,Pipe main,City of Cornwall
+60cd5fa5e1bea313aaca08167edc9930,telecom,tower,...,...,...,Natural Resources Canada
+60e661dbc496e64d505adadde1c03f58,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+616605eb3ded6bfd35dc621b95cfb332,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+63ceb39aaaaa1f64016d717a2a8bb86b,oil and gas,pipelines,..,..,...,Natural Resources Canada
+672143f86e58cc9c2c37d27822b815b6,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+672d0d8b502e50e8ac1c889c99e90ec7,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+6770da57487619cae957235d3fed8c91,low carbon,solar,Sune Rutley,...,...,World Resources Institute
+67f734f0e3ac7de4d0383dd08f746811,oil and gas,pipelines,..,..,...,Natural Resources Canada
+698670755d36ae817557fa396e9a35b5,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+6aaa4b22099ef902cf32685fd43eac48,railways,track,..,...,...,Natural Resources Canada
+6cb8f4889daf396513a421f7a7f07900,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+6d58155cac0dd9223c781b5b32a7a631,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+6e4e71ca1d051f3194854b399ca2dc20,railways,track,..,...,...,Natural Resources Canada
+6f936a3603dbc651b9191c6b628f3e53,bridges and tunnels,bridge,POST ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+701aafd41f37fb127d73d769c218e97c,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+707e4eef3ad974fcf1fa463a6e4302b1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+72071885c83749cfacf38152f3d14b71,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall

@@ -1,25 +1,51 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-Paul Latour Road,BRIDGES AND TUNNELS,Footbridges
-Route 800 West,BRIDGES AND TUNNELS,Footbridges
-De L'Eglise Street,BRIDGES AND TUNNELS,Footbridges
-River Bank Road,BRIDGES AND TUNNELS,Footbridges
-"SCOTCH RIVER (E-BRANCH)...(WBL)
-East of Cty Rd. 20 Exit 51",BRIDGES AND TUNNELS,..
-Culvert (3.5km west of Principale St. Underpass),BRIDGES AND TUNNELS,..
-County Road 8,BRIDGES AND TUNNELS,Footbridges
-Concession Road 19,BRIDGES AND TUNNELS,Footbridges
-Concession Road 20,BRIDGES AND TUNNELS,Footbridges
-Robillard Road,BRIDGES AND TUNNELS,Footbridges
-County Road 9,BRIDGES AND TUNNELS,Footbridges
-SOUTH NATION R BRIDGE (WBL),BRIDGES AND TUNNELS,..
-"CO RD 3 O/P-WBL
-West of Casselman Interchange 66",BRIDGES AND TUNNELS,..
-Culvert (1.7km east of Limoges Road Underpass),BRIDGES AND TUNNELS,..
-Stewarts Glen Road,BRIDGES AND TUNNELS,Footbridges
-"Hwy 417 WBL Culvert, 3.2km west of County Rd 23",BRIDGES AND TUNNELS,..
-County Road 19,BRIDGES AND TUNNELS,Footbridges
-Scotch River Road,BRIDGES AND TUNNELS,Footbridges
-Culvert (3km west of Prescott Russel Road 3 Overpass),BRIDGES AND TUNNELS,..
-St Albert Road West,BRIDGES AND TUNNELS,Footbridges
-Ste Catherine Street,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+87fc4ded3b64c0543b17bdadb4da48e3,bridges and tunnels,bridge,HWY 138 U/P OVER HWY 417,Bridge,Bridge,Province of Ontario
+917c9cdd49cd8a898edba3a83621882c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+928f0870ee2f5a5bd07e87d37c7e7109,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+92c423fc6bcdcacad172670bffb82935,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+92f9eb88000cbabaa8815efb2d14b88e,wastewater and storm water,facilities_waste,Limoges Lagoon,"Lagoons - Aerated, Lagoon - Aerobic",Unclassified,Environment and Climate Change Canada
+964b25ca028cd50fd77e4cf01ba46a5e,bridges and tunnels,culvert,Culvert (5.8km west of Prescott-Russel Road 3 Overpass),Culvert,Culvert,Province of Ontario
+99d19701276ff030eb0dbfc654b0776e,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+9ce957036b2e85003576e477048bf08b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a9a8685910bbbccb9f8ebada41754a5d,bridges and tunnels,bridge,Skye Rd. U/P,Bridge,Bridge,Province of Ontario
+aecfc8f88f3072546e7f1ae8cac9612f,bridges and tunnels,bridge,"CO RD 3 O/P-WBL
+West of Casselman Interchange 66",Bridge,Bridge,Province of Ontario
+b208198428c4558282dd0e17cd85fcf8,bridges and tunnels,culvert,"Hwy 417 WBL Culvert, 3.2km west of County Rd 23",Culvert,Culvert,Province of Ontario
+b5aa73dd11c35d7165adba19afa3b89d,bridges and tunnels,culvert,Culvert (1.7km east of Limoges Road Underpass),Culvert,Culvert,Province of Ontario
+b74344629a05a030d34b3ee5fd1c55f9,wastewater and storm water,facilities_waste,Casselman Waste Treatment,"Lagoons - Aerated, Lagoon - Facultative",Lagoon,Environment and Climate Change Canada
+c18b604151e63e7e5d1062d56789ae89,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c49b7ac01fe7f41d5b0592cf6fee1d65,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c4bf2ed27c600929a768efe0083f03bb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cae1867ae66969a66e44dd1a2262cba9,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+cf9f4bf2204dbc6b5312b3c60f3a6b81,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d3e4c159d7388769a390ccb6fdc6f477,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d57f21fa929506f2c10a637f5a1e147c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d597bbd7bd569ab53c2f080ca628adb6,low carbon,biomass,Ferme Geranik,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+d813c0e6bab78a88e795ad32575168df,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d84b4c8631605243139541b29a2ff8fd,bridges and tunnels,bridge,"SCOTCH RIVER (E-BRANCH)...(WBL)
+East of Cty Rd. 20 Exit 51",Bridge,Bridge,Province of Ontario
+dc4343e99b6eddc0020d075a1eed28f0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dddcf03d1b2cc31711186b0ac9394e1c,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+e1302d260b313c01a5ab3933e09e445d,bridges and tunnels,culvert,MOOSE CK CULV.,Culvert,Culvert,Province of Ontario
+e192b30358a8a57a3b6786234616652b,low carbon,solar,St. Isidore B,...,...,World Resources Institute
+e2b3c4a6e8353f4b106bb0005ebc49f8,bridges and tunnels,culvert,CULVERT 950 M WEST OF PRINCIPALE STREET,Culvert,Culvert,Province of Ontario
+e2dc401a8b59661bc1d7823eb94471a1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e3e18c35bc55efd8f191bb9b0f80f7a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e3f583f9753936e780f478266ad145ca,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+e56a16fca337752987f4817cb08892fc,bridges and tunnels,bridge,SOUTH NATION R BRIDGE (WBL),Bridge,Bridge,Province of Ontario
+e5ab928dd276b3d82967c6b1d1796b0c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ed979d6449a5b012df80a934e9b93cba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+edad8f1d9b8271d1ca4f7f520acd9af0,bridges and tunnels,bridge,"SCOTCH RIVER (E-BRANCH)...(EBL)
+East of Cty Rd 20 Exit 51",Bridge,Bridge,Province of Ontario
+ee2ec3d33c169c37b6ff011c2354b9ca,bridges and tunnels,culvert,CULVERT 300 M EAST OF SOUTH NATION RIVER (HWY 417 WBL),Culvert,Culvert,Province of Ontario
+f04382b4767670babb2747983d27d8e4,bridges and tunnels,bridge,CO RD 3 O/P-EBL,Bridge,Bridge,Province of Ontario
+f1677964384c23e32b53979ea820f227,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f297481649af48dfd32d522c2eb50baa,bridges and tunnels,culvert,"SOUTH INDIAN CREEK CULVERT
+(EBL)",Culvert,Culvert,Province of Ontario
+f43e79c347119622dcaf4361d341e8c2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f53eec7715223b645e71b01d6832e5e1,bridges and tunnels,culvert,"Hwy 417 WBL Culvert, 1.3km west of County Rd 23",Culvert,Culvert,Province of Ontario
+f73780cbafd88a41e594485699c8bfd0,bridges and tunnels,culvert,Culvert (3km west of Prescott Russel Road 3 Overpass),Culvert,Culvert,Province of Ontario
+f7533688a6d5cac3bab3258d1c2d2b9a,bridges and tunnels,culvert,"Hwy 417 EBL Culvert, 2.7km east of County Rd 9",Culvert,Culvert,Province of Ontario
+f992bb9561a0502d6b8a9943b11651de,electric grid,power_plants,..,...,...,Natural Resources Canada
+fa3e15be761366fb2ba8613353a36ae3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fb2e8e37a65a7a847b20a021830ac136,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

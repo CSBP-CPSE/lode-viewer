@@ -1,8 +1,51 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Chapel Road,BRIDGES AND TUNNELS,Footbridges
-Glen Roy Road,BRIDGES AND TUNNELS,Footbridges
-Concession Road 9,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+9b481762a9d08cc3799d659ecb585d97,bridges and tunnels,bridge,FRASER RD UNDERPASS,Bridge,Bridge,Province of Ontario
+9b63c61a2d048ccd25f98f3fa3b0ae59,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9bb4e9ef90bb33283d792c7e82b135f0,railways,track,..,...,...,Natural Resources Canada
+9c67723295669d4e0e51b28edd73a4f0,railways,track,..,...,...,Natural Resources Canada
+9dd0a13b95c5993533dee9ea8e6e9449,oil and gas,pipelines,..,..,...,Natural Resources Canada
+9ebcef46f77887ed3e7d89a4d2caf8c9,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+9fcf246db581903bbaf9b4da6fa713b7,oil and gas,pipelines,..,..,...,Natural Resources Canada
+a09b6dedd4a4f6af2f466105ce4abb89,ports and marinas,port,South Lancaster,..,...,National Geospatial-Intelligence Agency (NGA)
+a0f99bf3d7ce1f2d42b20963c4ae9d87,railways,station,Garry,...,...,Natural Resources Canada
+a399d1df2043393d010ad361fbfa43cf,potable water,pipe,..,..,Pipe main,City of Cornwall
+a4045964535f03f6123a95e39d4038e6,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+a4aa5955d85a6988882076d29d0b805a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a88e662ac3055b75bbf90338315d6542,wastewater and storm water,facilities_waste,Lancaster Wwtp,"Lagoon - Aerobic, Lagoon - Facultative, Storage Ponds",Lagoon,Environment and Climate Change Canada
+aaa30c2392e2c735ff0dd4566d0c1781,railways,track,..,...,...,Natural Resources Canada
+ac6196ca422175303a64a30d27124405,railways,track,..,...,...,Natural Resources Canada
+b01e6ba4d198e6bddf85d83d17a0f88f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b0d4170f85d67589ae7a66447db5a7ef,railways,track,..,...,...,Natural Resources Canada
+b1200fe7ff947968d33e86e783493780,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b52281d922a6159bfd9e9ce759e7b9ff,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+b82313a7d4b7fd20856a4e9e247bfe94,railways,track,..,...,...,Natural Resources Canada
+b8d6116b2239e78ccb166afef3bcb292,oil and gas,facilities,..,..,...,Natural Resources Canada
+b9b9a546b8729259435659289a2165b5,railways,track,..,...,...,Natural Resources Canada
+ba7202d0c8836c6b091f5fa3a4c80b97,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+bc41c9fa7a1ba8f1f7aadb05adf6b956,railways,track,..,...,...,Natural Resources Canada
+bcdc106091930035c50bac51e577791a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+be07f22627ea2ea41abad08dc34c0f85,wastewater and storm water,facilities_waste,Creg Quay Limited,"Chemical Flocculation, Lagoon - Facultative",Unclassified,Environment and Climate Change Canada
+bf1f36bb2054524b7a0ab8ebba25dc5b,potable water,pipe,..,..,Pipe main,City of Cornwall
+bf4dfe65c137bd18c4d525e7649edbbe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c2e29b222d22fc35917369739f7d3e3a,bridges and tunnels,bridge,BOUNDARY ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+c3772dadabcc9c7c153a7c4f296bc330,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c3e8b5f84ed39f985dfd07b73fda7fc1,potable water,pipe,..,..,Pipe main,City of Cornwall
+c6f315b156c8b16b30db90abfa54271b,low carbon,solar,Cornwall,...,...,World Resources Institute
+cb87224e544282de0d78f94813591ed9,bridges and tunnels,bridge,"COUNTY ROAD #2 UNDERPASS
+W of Curry Hill Interchange #825",Bridge,Bridge,Province of Ontario
+cfc0c8470f79768938b71195ddb02690,railways,track,..,...,...,Natural Resources Canada
+d3f88d49e3742d01f2ee14e72f64c384,bridges and tunnels,bridge,RAISIN RIVER BRIDGE (EBL)......,Bridge,Bridge,Province of Ontario
+d51a191b874f12fc64ac7dbd65d3f3ce,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+d6ed9c148972b839235f8feb23c5aad6,railways,track,..,...,...,Natural Resources Canada
+d712525545ab0be4b2b4b137e993ae14,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d7bb5774645aaa336eac3934ef3abbd0,potable water,pipe,..,..,Pipe main,City of Cornwall
+d915f1058c53faf8f3668c765ed477c7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d9f36dc864c6ee9d8163ec98fe2286e4,telecom,tower,...,...,...,Natural Resources Canada
+da71206624056c554b406faa15cc1764,railways,track,..,...,...,Natural Resources Canada
+dda6184ecbb9d9a0bf143646e2625a78,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ddc912ac49b10b2ecc919497c8214e22,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e02532e605dbc5fbe3fd2af6cce7a3ac,bridges and tunnels,culvert,Finney Creek Culvert,Culvert,Culvert,Province of Ontario
+e0c4aa2d8ccb9ea5d36e52e5bdb2713a,bridges and tunnels,bridge,CNR OVERHEAD (EBL),Bridge,Bridge,Province of Ontario
+e138693ec977af832cc61f15dd734af2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e19e29c4b2b1f8358d418a8ab11d3062,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e1dd7e966d2588abfcaf08d86ce51ba2,railways,track,..,...,...,Natural Resources Canada

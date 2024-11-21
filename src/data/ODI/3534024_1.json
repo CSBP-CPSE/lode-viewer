@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Lyle Road,BRIDGES AND TUNNELS,Footbridges
-IONA ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Burwell Road,BRIDGES AND TUNNELS,Footbridges
-MILL ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-DODD CREEK BRIDGE (WBL),BRIDGES AND TUNNELS,..
-Lawrence Road,BRIDGES AND TUNNELS,Footbridges
-Iona Road,BRIDGES AND TUNNELS,Footbridges
-Clinton Line,BRIDGES AND TUNNELS,Footbridges
-Highway 4,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-CULVERT 294 - (BAIRD CREEK),BRIDGES AND TUNNELS,..
-DODDS CREEK BRIDGE,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-Talbot Line,BRIDGES AND TUNNELS,Footbridges
-Sparta Line,BRIDGES AND TUNNELS,Footbridges
-LAWRENCE STATION ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Bush Line,BRIDGES AND TUNNELS,Footbridges
-Fulton Bridge Line,BRIDGES AND TUNNELS,Footbridges
-McDiarmid Line,BRIDGES AND TUNNELS,Footbridges
-DODD CREEK BRIDGE (EBL),BRIDGES AND TUNNELS,..
-UNION ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Parson Road,BRIDGES AND TUNNELS,Footbridges
-CNR OVERHEAD (LAWRENCE STA.) EBL,BRIDGES AND TUNNELS,..
-Union Road,BRIDGES AND TUNNELS,Footbridges
-CULVERT 295,BRIDGES AND TUNNELS,..
-CULVERT - DODD'S CREEK,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-..,SOLID WASTE,..
-Culvert -  McLelland Mun. Drain,BRIDGES AND TUNNELS,..
-CNR OVERHEAD (LAWRENCE STA.) WBL,BRIDGES AND TUNNELS,..
-Mill Road,BRIDGES AND TUNNELS,Footbridges
-Oneida Road,BRIDGES AND TUNNELS,Footbridges
-CULVERT 296,BRIDGES AND TUNNELS,..
-Hunter Line,BRIDGES AND TUNNELS,Footbridges
-Fingal Line,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0106e87b63ee1f761805e5853920a921,bridges and tunnels,culvert,CULVERT 296,Culvert,Culvert,Province of Ontario
+02daf4adf070596ab985601cbc19be55,oil and gas,facilities,..,..,...,Natural Resources Canada
+05a0aaa935ac4bc4ed9e601e4815d5a4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+08875a09086f227765c1dacb61fbf7bf,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+0b80ea75b9c2d00af2a10edfb9047afe,bridges and tunnels,bridge,CNR OVERHEAD (LAWRENCE STA.) WBL,Bridge,Bridge,Province of Ontario
+0beb238b9e7da95ef7a66830e9f924d4,railways,track,..,...,...,Natural Resources Canada
+0e59552fb63cbd0b576e310c2f4334f3,telecom,tower,...,...,...,Natural Resources Canada
+0e9bbfdae4976b6b88e96b6e4dee0e44,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+155454ff41efc51915cf897807577f41,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+180c91bf9fe5a79a12a8191c69748c96,telecom,tower,...,...,...,Natural Resources Canada
+1b21d9ee747b9a15c4698e811662ab00,solid waste,landfill,Green Lane Landfill,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+2292063cccdcb8b210446a5a4749ad09,railways,station,Paynes,...,...,Natural Resources Canada
+2924df76a87318566df4556648c422a2,bridges and tunnels,culvert,CULVERT 295,Culvert,Culvert,Province of Ontario
+3726f5246de77ee9c8d0fa79a8b2af5b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3780d9bfe4f0a1526a3468387b8affba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+46959db2ad0f998ff603f9f6418a9559,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+54e9337908ab0a6a4faf982eafdf8990,oil and gas,pipelines,..,..,...,Natural Resources Canada
+61871eb8ea8abcc8517c5db1efcd1887,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6a9522851b74a3671515b280dabce60e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+79c92e0981f783b887b72249c5d987ba,oil and gas,pipelines,..,..,...,Natural Resources Canada
+7a29c172fda0113ad54613f866f1e5f3,bridges and tunnels,bridge,MILL ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+7ee3db714c0ea052bb5dc17e3b658e27,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7f787d2dbfa774a26110121e545b161f,bridges and tunnels,bridge,LAWRENCE STATION ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+807ba3ce4d1f63052d41768848daef37,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8344af5c97ef3458ed8a8c2d1f755134,oil and gas,pipelines,..,..,...,Natural Resources Canada
+843bf46d033a91b4b1fcc373931d5154,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+912821bc9514c60547ffb2373bd9fd2f,bridges and tunnels,bridge,DODD CREEK BRIDGE (EBL),Bridge,Bridge,Province of Ontario
+9aa0560dd8f17c9c26911e4f571b5f6e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ab56153b736614b3e779e78b02a56527,bridges and tunnels,bridge,DODD CREEK BRIDGE (WBL),Bridge,Bridge,Province of Ontario
+abfda85e5901c3d4d3ee9d40a0f63dff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ac2f6273f59a71e0c7d91b3ba550dd12,bridges and tunnels,bridge,UNION ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+ac584329982b00dcf0b9d364f4c72c98,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b3b5e4234625025d78fca7456fac8db9,wastewater and storm water,facilities_waste,Port Stanley Wastewater Treatment Facility,"Grit Removal, Screening, Chemical Flocculation, Skimming, Extended Aeration Activated Sludge, Storage Ponds, Biological Ammonia Removal – Nitrification Only , Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+bbc504690a74142d8e9430fd8b518d62,solid waste,landfill,City Of Toronto,..,Dump site,Province of Ontario
+bc8abcf1d9aa498c20d3924c5aca329c,bridges and tunnels,culvert,CULVERT 294 - (BAIRD CREEK),Culvert,Culvert,Province of Ontario
+c4086cd4cd00e39a5d279314c2fd1409,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c8a33291c3b6962ff7bb10b5fcdc1502,oil and gas,pipelines,..,..,...,Natural Resources Canada
+c8dbb395718627453961012bf7c53260,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c8dc4973158f6f7baa764a928267c258,oil and gas,pipelines,..,..,...,Natural Resources Canada
+ce88ded1bb0bb691084d0bbab913ade3,bridges and tunnels,bridge,CNR OVERHEAD (LAWRENCE STA.) EBL,Bridge,Bridge,Province of Ontario
+d424867fb77a37b63562911995a688f0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d9550f273b47f3258787c69ba58b7b76,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e7faad432a1c3c58df2a15137a95e0ee,telecom,tower,...,...,...,Natural Resources Canada
+ec2b0990c0414638828bb86918a022e4,oil and gas,facilities,..,..,...,Natural Resources Canada
+f2d4e3cd8d7fcdf384a676a160fea2c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f38d48bfe022ad6475f0acce34d5f366,bridges and tunnels,culvert,CULVERT - DODD'S CREEK,Culvert,Culvert,Province of Ontario
+f6d9f63f87a5e7c60e4ce580984b068f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f7b5c5cd3f9c0adf1e9bd7b0b198b4e4,bridges and tunnels,bridge,DODDS CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+fe4d0736379ac83c6d291646bb06843c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

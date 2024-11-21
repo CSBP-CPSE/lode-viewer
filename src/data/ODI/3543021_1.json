@@ -1,23 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-King Street,BRIDGES AND TUNNELS,Footbridges
-County Road 21,BRIDGES AND TUNNELS,Footbridges
-30th Sideroad,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-6th Line,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-5th Line,BRIDGES AND TUNNELS,Footbridges
-5th Sideroad,BRIDGES AND TUNNELS,Footbridges
-Brentwood Road,BRIDGES AND TUNNELS,Footbridges
-Kearnan Road,BRIDGES AND TUNNELS,Footbridges
-Mill Street,BRIDGES AND TUNNELS,Footbridges
-County Road 10,BRIDGES AND TUNNELS,Footbridges
-County Road 56,BRIDGES AND TUNNELS,Footbridges
-Centre Street,BRIDGES AND TUNNELS,Footbridges
-Willoughby Road,BRIDGES AND TUNNELS,Footbridges
-NOTTAWASGA RIVER BRIDGE,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-8th Line,BRIDGES AND TUNNELS,Footbridges
-9th Line,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-HWY 89 - NICOLSTON CULVERT,BRIDGES AND TUNNELS,..
-County Road 90,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+039b931408e03a9f4e2ccd6aa299f4c9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0d90dc188596e6fe7ab5ef55d3d9f35e,railways,track,..,...,...,Natural Resources Canada
+10158d3b56a3606a0d4aaa8b9d1f1daa,railways,track,..,...,...,Natural Resources Canada
+10647e796b13d593e2f0c539cd09c79e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1705ae6fb35d979c7a339cf7a296818a,airports,...,Alliston Airport,small_airport,...,OurAirports
+1750176718f32389d957b4da1b1d4bc5,railways,track,..,...,...,Natural Resources Canada
+17b0a2b756c928448d4200d8b55941ff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+17c11d61fdc7e6c8077888684ae86972,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+18a106450f125a92c402baabb42aa9ee,oil and gas,pipelines,..,..,...,Natural Resources Canada
+197d4ac88c25f6b49cd9a972f60169af,railways,track,..,...,...,Natural Resources Canada
+1b9a0643143a98d1456a2e5505ed5f36,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1bb05bb82cbed2ff3036b09ef581b00c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1c1dbe4a68343a10be9acade5bf5c9f6,railways,track,..,...,...,Natural Resources Canada
+201999823d4c0c33e42797857e6feb02,railways,track,..,...,...,Natural Resources Canada
+2245d5af61ba9545b1dc1cef72726922,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+23781277ad1a8b473e6b96f92ca8d75e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2d11e588c95d05d55d1b481881c11c96,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+389e53d9cbebb36276f379ca5d97bcb0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+397e9296ceb472fcc618074a70de9318,railways,track,..,...,...,Natural Resources Canada
+3a4ab510974ac891b0862adb00bcf709,railways,track,..,...,...,Natural Resources Canada
+3e259f960a7670906b34905cae705eef,wastewater and storm water,facilities_waste,Angus Wastewater Treatment Plant,"Grit Removal, Screening, Extended Aeration Activated Sludge, Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+4045b99702a665f16505c2c302277b8f,railways,track,..,...,...,Natural Resources Canada
+42b96cb74ae3e31278dadd5a99624e72,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4942ba77b765e8c938da102db7d6f4b3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+49c818d3e3249d15d86420fcaca2f275,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4ba5885a08a0b0d846376fc0f70c6a47,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5088871bb5d115b6fdc6450589ae2c2b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+52f3da10d6faeee5ec4a93cb634a2062,railways,track,..,...,...,Natural Resources Canada
+562c997e366400cc4ade0d92525d21ba,railways,track,..,...,...,Natural Resources Canada
+5ba32e0e71036bc33f0fc7247d202c91,railways,track,..,...,...,Natural Resources Canada
+5c8ec20baec9e9fcb1d763defd7f808d,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+5e82b8e66ee5e0085307b3ba86febbb6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f177b947510eb098c00f4196c986111,railways,track,..,...,...,Natural Resources Canada
+5f94b3e313663bcd46ab925c24eab36e,railways,track,..,...,...,Natural Resources Canada
+5fb391a555852ccea3d8477b6f87e449,railways,track,..,...,...,Natural Resources Canada
+66697d9813214791a22dfb1b7b6443b4,railways,track,..,...,...,Natural Resources Canada
+675cb5669ff47be779e9ad2ed4c37e9f,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+785e4be2eff1b242a09b0da0fedc4abf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7c379f08bfbd41b7f0f028dfed9d7dda,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+7e962ce244f94f05224fbf9dcda3c387,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8512b5897dc1b9a66ab5679bdc644b64,railways,track,..,...,...,Natural Resources Canada
+881aca7d6ddc084bc59d9260b016b246,bridges and tunnels,culvert,HWY 89 - NICOLSTON CULVERT,Culvert,Culvert,Province of Ontario
+89de394b8e57d7760c1bc30f0799f86d,railways,station,Angus,...,...,Natural Resources Canada
+8a62b6dd727090c5eaff50f175dfe3a5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8bbb736247a734e747b8ae749c44e4f5,railways,track,..,...,...,Natural Resources Canada
+8c42467fd3abc7abb12a7a3ff3654c56,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+8ebc74536815a6a634a070a574201452,railways,track,..,...,...,Natural Resources Canada
+91f10ae9546dd97e31eef2a95da4e7b7,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+9897bfa45ab9a4b28856d944f63c619f,railways,track,..,...,...,Natural Resources Canada

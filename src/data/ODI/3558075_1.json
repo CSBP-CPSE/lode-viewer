@@ -1,40 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-BLACKWATER R. TRIBUTARY CULVERT,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-"GORGE CREEK CULVERT
-Hwy. 11",BRIDGES AND TUNNELS,..
-MAGNET CREEK CULVERT,BRIDGES AND TUNNELS,..
-LEGAULT CREEK CULVERT,BRIDGES AND TUNNELS,..
-BLACKWATER RIVER BRIDGE,BRIDGES AND TUNNELS,..
-WATSON CREEK CULVERT,BRIDGES AND TUNNELS,..
-CREELMAN CREEK CULVERT ,BRIDGES AND TUNNELS,..
-River Drive,BRIDGES AND TUNNELS,Footbridges
-Nissiamkikan Creek Culverts,BRIDGES AND TUNNELS,..
-POSTAGONI RIVER CULVERT,BRIDGES AND TUNNELS,..
-Highway 584,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Waba Road,BRIDGES AND TUNNELS,Footbridges
-Shadow Creek Road,BRIDGES AND TUNNELS,Footbridges
-Camp 72 Road,BRIDGES AND TUNNELS,Footbridges
-Crib Road,BRIDGES AND TUNNELS,Footbridges
-MINERAL CREEK CULVERT,BRIDGES AND TUNNELS,..
-Highway 11,BRIDGES AND TUNNELS,Footbridges
-SUCKLE CREEK CULVERT,BRIDGES AND TUNNELS,..
-NORAMI CREEK CULVERT Hwy. 11,BRIDGES AND TUNNELS,..
-Greta Road,BRIDGES AND TUNNELS,Footbridges
-OMER LAKE CULVERT,BRIDGES AND TUNNELS,..
-"PHIPPS LAKE CREEK CULVERT
-Hwy. 11",BRIDGES AND TUNNELS,..
-LONG LAC BRIDGE & C N OVERHEAD,BRIDGES AND TUNNELS,..
-Twin Lakes Road,BRIDGES AND TUNNELS,Footbridges
-Kinghorn Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-STURGEON RIVER BRIDGE NO. 4,BRIDGES AND TUNNELS,..
-"ROCKYSHORE CREEK CULVERT
-Hwy. 11",BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-KENOGAMISIS LAKE BRIDGE (WEST NARROWS),BRIDGES AND TUNNELS,..
-CAMPROAD CK. CULVERT,BRIDGES AND TUNNELS,..
-KENOGAMISIS LAKE BRIDGE (EAST NARROWS),BRIDGES AND TUNNELS,..
-ANGLE CREEK CULVERT,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01f10065c98cc78f5b6078f2cd891b5c,telecom,tower,...,...,...,Natural Resources Canada
+05d19412afde205ce6e93999f904934d,telecom,tower,...,...,...,Natural Resources Canada
+063a2130c05d65fc46f6ad18601eeda0,railways,track,..,...,...,Natural Resources Canada
+07b9ec857b98df38083f0921248eee55,oil and gas,pipelines,..,..,...,Natural Resources Canada
+084b781fa503634fc277f6728217cb04,oil and gas,facilities,..,..,...,Natural Resources Canada
+0934739577aff1d17f491e035eb810f1,railways,track,..,...,...,Natural Resources Canada
+0c91565222b7bc4cd42b6e17c343e3e7,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0e05b6949595d7e32586cdfcf5a90489,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0f24e320d77ad43434f282e96e59f3d0,low carbon,biomass,Longlac Biomass Cogeneration,...,...,World Resources Institute
+0ff7588638903127cee620b6d6aaf5ba,telecom,tower,...,...,...,Natural Resources Canada
+1369a7344920b40a85f21567f78b9273,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+17f27e90b6714fe39e616d34ea5bdba9,telecom,tower,...,...,...,Natural Resources Canada
+19b2ae0fb7273e698de144052360b6ec,telecom,tower,...,...,...,Natural Resources Canada
+1b9c67ca94c1067673fd44ed192b4a58,airports,...,Geraldton Greenstone Regional Airport,medium_airport,...,OurAirports
+1de584e15572ae8f5d8d06540d405693,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+204445a36978371561b21110d3c42501,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2212b7a861dcf5b406a6936d52b1b9a1,oil and gas,pipelines,..,..,...,Natural Resources Canada
+229637c08244e5a3465422cbb793d8cb,airports,...,Nakina Airport,medium_airport,...,OurAirports
+234aa9900e08fb10d28b86a333ff61df,railways,track,Nakina Forest Products,...,...,Natural Resources Canada
+23e3aaa6b9b9387e4a1025434cb3e12d,wastewater and storm water,facilities_waste,Longlac Wastewater Treatment Plant And Collection System,"Grit Removal, Activated Sludge, Disinfection",Unclassified,Environment and Climate Change Canada
+242cd94dd1369198b7cb28f4176406a0,railways,track,Longlac Wood Industries,...,...,Natural Resources Canada
+248208fbd332c87ad49a5ddde3246676,railways,track,..,...,...,Natural Resources Canada
+275837e877bfcafb192b760121ca83ba,solid waste,mixed,Pamela Lake,Landfill,Engineered landfill,Province of Ontario
+282d98d6d9610c03760cdb4b5f5797fe,railways,station,Caramat,...,...,Natural Resources Canada
+2ba19571cdd59c2b4595c73221ba908a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2ec87da06e77ca08cce4b0effac37be1,railways,track,..,...,...,Natural Resources Canada
+2efc4bafbe6c162f29acc04a7e987577,airports,...,Geraldton (district Hospital) Heliport,heliport,...,OurAirports
+2f1e25fa005ceb6b2388d72b1293885b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3576aba3e2b176664247f87fdd3055dc,railways,track,Longlac Wood Industries,...,...,Natural Resources Canada
+373f701e00d9dbb7abbdcbb938458b6d,railways,track,..,...,...,Natural Resources Canada
+380241a76da3bffdbe81edf65dc4c067,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+39568e7eb8e2bbdeb26509a4425950cd,bridges and tunnels,culvert,BLACKWATER R. TRIBUTARY CULVERT,Culvert,Culvert,Province of Ontario
+39d5a998d69218b8e8aaed45fec2be84,telecom,tower,...,...,...,Natural Resources Canada
+3ae42cef6e92eab8bb05ec5434483d62,oil and gas,pipelines,..,..,...,Natural Resources Canada
+3afb664a0add4c54300f2375a85f9c58,bridges and tunnels,culvert,MAGNET CREEK CULVERT,Culvert,Culvert,Province of Ontario
+3c22ed273451215e042374bed2098ef0,railways,track,..,...,...,Natural Resources Canada
+3c7692e45feb59a29bca587ee7c8329c,railways,track,Longlac Wood Industries,...,...,Natural Resources Canada
+3cf5d8d9c403468ac3be39f0c6a75e83,wastewater and storm water,facilities_waste,Biinjitiwaabik Zaaging Anishinaabek Wastewater Treatment Plant,"Grit Removal, Primary Sedimentation/Clarification, Rotating Biological Contactor, Disinfection",Unclassified,Environment and Climate Change Canada
+3d96e42269cb03df3001c05e45dfaa6f,telecom,tower,...,...,...,Natural Resources Canada
+4034111d7fdc6526fb2be380043ff507,bridges and tunnels,culvert,Nissiamkikan Creek Culverts,Culvert,Culvert,Province of Ontario
+411bdd1affed0e16b892e965e03ee140,railways,station,Longlac,...,...,Natural Resources Canada
+413f865f99d2b3b4dd4d8fc1d1ae16ad,bridges and tunnels,bridge,STURGEON RIVER BRIDGE NO. 4,Bridge,Bridge,Province of Ontario
+426315cd12e5f02a1017176b3e788282,railways,track,Longlac Wood Industries1,...,...,Natural Resources Canada
+4270e6fa2db7ee148c6075c4b3f735e0,solid waste,mixed,Macdiarmid,Landfill,Engineered landfill,Province of Ontario
+441b89c71afbe61d532d7ee66aed2715,telecom,tower,...,...,...,Natural Resources Canada
+450d4c536f90934c37d6d2df4d35704d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+45d81a741b423dec6572a5a6d816b301,railways,track,Kinghorn,...,...,Natural Resources Canada
+47b10d1e54f5d4cd1675ed59dca4c5cf,railways,track,Longlac Wood Industries,...,...,Natural Resources Canada
+496202d4d24ced01c823b3c334f30f8d,bridges and tunnels,culvert,MINERAL CREEK CULVERT,Culvert,Culvert,Province of Ontario

@@ -1,10 +1,47 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-..,SOLID WASTE,Active Dump Sites
-AMIKOUGAMI RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Lull Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-CULVERT,BRIDGES AND TUNNELS,..
-Highway 66,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-BLANCHE RIVER BRIDGE,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+04cc9e4e0d1fe7213f63e4866974f080,oil and gas,facilities,..,..,...,Natural Resources Canada
+08ccb652c61c6f4fca2b0cc172597524,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0dcda1704bad9b9ea836ef2ad4f81269,electric grid,power_plants,..,...,...,Natural Resources Canada
+0e2d9e99b333aa45e1da72f8e4bc20b0,railways,track,..,...,...,Natural Resources Canada
+1657ace02d2f86d758ee48fe546605e0,solid waste,mixed,Kirkland Lake,562920,Material recovery,Environment and Climate Change Canada
+180e8f2b856b99bb15c678f9638ee123,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+187249826f4e14f401cac4eaeb96430c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+270e4bd79ec5978d7effe1827e6d6bd3,telecom,tower,...,...,...,Natural Resources Canada
+277895a74a054629a91e5d8d81ccd11c,railways,track,..,...,...,Natural Resources Canada
+2b58acb1c70398c119f189d15b2bd0c6,railways,track,..,...,...,Natural Resources Canada
+2f7fa7107c3a7490231046ba9803f78c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3137bf2f54c2f0fbdd134494027a675e,railways,track,..,...,...,Natural Resources Canada
+42568d43f8a9e0d176efd9ce5e36cdbe,telecom,tower,...,...,...,Natural Resources Canada
+43839c3d40cc20f2bd7d1a001e4410cc,wastewater and storm water,facilities_waste,Kirkland Lake Wastewater Treatment Plant,..,Waste treatment plant,Environment and Climate Change Canada
+4b34ee4d8a1d0c30a81ff3630d2df664,railways,track,..,...,...,Natural Resources Canada
+4c2a0846460e4f3189262c9543c1cb5a,railways,track,..,...,...,Natural Resources Canada
+5dce388345fec256664b1a8833f44e2f,wastewater and storm water,facilities_waste,Kirkland Lake Wastewater Treatment Plant,"Grit Removal, Screening, Primary Sedimentation/Clarification, Extended Aeration Activated Sludge, Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+5e471ea54fa4e33d159039b3c0b70466,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+71dc5d158b16e3e3133a4605d6fbf452,wastewater and storm water,facilities_waste,Swastika Water Pollution Control Plant,"Grit Removal, Screening, Chemical Flocculation, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Extended Aeration Activated Sludge",Unclassified,Environment and Climate Change Canada
+71f924592d560ca082a4256d3337b1ce,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+74d389d04b8678e4d41b3955ee6ccc81,railways,track,..,...,...,Natural Resources Canada
+778aed575d31613a6ed86387e2405974,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7f1c518a1d99d9ee85da05d5064058ec,bridges and tunnels,bridge,BLANCHE RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+8161d26e6e5e64bcb32d7650e34aea95,bridges and tunnels,culvert,CULVERT,Culvert,Culvert,Province of Ontario
+84f8a06168bc218847a036b14cc3bb92,railways,track,..,...,...,Natural Resources Canada
+8bc45326efdefaa091631da73a3ebb82,oil and gas,facilities,..,..,...,Natural Resources Canada
+8cc126fd5c211aacd345a425081b8288,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8cef39525b6759a43723666f7c88ad43,railways,track,..,...,...,Natural Resources Canada
+8f177f798166da8df7893e1b89e26f6c,oil and gas,pipelines,..,..,...,Natural Resources Canada
+90faa63bc10cee0d1b0a03273b06a3c4,railways,track,..,...,...,Natural Resources Canada
+9401aed7e5523d4b31c3fcec71688cce,telecom,tower,...,...,...,Natural Resources Canada
+96d8e8cb437d957ae6d2bfa67aa405eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9a43a8b443feb510d317856b85279194,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9f1c536c7aae458d59f801002732e17c,airports,...,Kirkland Lake Airport,medium_airport,...,OurAirports
+abd4610f6db0835cd5e6b1c4eceab9a3,telecom,tower,...,...,...,Natural Resources Canada
+ae8a638afe304d427218d9be72c17e2d,railways,track,..,...,...,Natural Resources Canada
+b7c18913e88cbaea562bc6e99d7016d8,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c58ac2f12ac43b779e6f13f20f6e5de5,railways,track,..,...,...,Natural Resources Canada
+c74d0337cd4a349e36400e4a1b7a8cd6,railways,track,..,...,...,Natural Resources Canada
+cb052aef7b93c0a90a3947a37550e1d7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d63e932b9d8b73a03e264f81282dd390,railways,track,..,...,...,Natural Resources Canada
+e1a9037b0ab320b2d72ece30d713294b,railways,track,..,...,...,Natural Resources Canada
+e596044c1de8e884a3b50c5c3dd94925,railways,track,..,...,...,Natural Resources Canada
+e6ac1d603baed828bdfd62e72a86f42b,bridges and tunnels,bridge,AMIKOUGAMI RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+f2a02a0295f5ca1ba297db9f2c76e4a7,railways,track,..,...,...,Natural Resources Canada
+fb79c6a2fbd356a0d47b6f6b9ff165e9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

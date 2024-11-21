@@ -1,50 +1,38 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-YORK AT OLD GUELPH,..,..
-KING at MELROSE,..,..
-King Street East,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,biking
-Mud Street East,BRIDGES AND TUNNELS,Footbridges
-RYMAL at SPADARA,..,..
-QUEENSDALE at EAST 16TH,..,..
-VICTORIA at WILSON,..,..
-JAMES at WOOD,..,..
-..,PEDESTRIAN AND CYCLING,biking
-JAMES opposite WEST HARBOUR GO STATION,..,..
-WILSON at GIBSON,..,..
-MAIN at EMERALD,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-DUNDAS at DENNIS,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-At 195 LIMERIDGE,..,..
-..,PEDESTRIAN AND CYCLING,biking
-KING opposite SUMMERS LANE,..,..
-YORK AT QUEEN,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-QEW - east of Teal Ave. Culvert,BRIDGES AND TUNNELS,..
-QUIGLEY at GREENHILL,..,..
-AIRPORT opposite CANADIAN WARPLANE HERITAGE,..,..
-BEACH opposite PANDORA,..,..
-GAGE at BEACH,..,..
-..,WASTEWATER STORMWATER,Storm Water Management (Ponds and Wetlands)
-WILSON at FIDDLER'S GREEN EAST,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-GARTH at BENDAMERE,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Highway 5,BRIDGES AND TUNNELS,Footbridges
-FENNELL at EAST 24TH,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-WOODWARD at BRAMPTON,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+fa73a97c257eb9980377b17aa0e999de,railways,track,Lakeshore West,...,...,Natural Resources Canada
+fa8abc57a2dee79bc8dba50fa15dfa2c,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+fb0b772d6071d5505026af995057aa61,solid waste,landfill,Mountain Transfer Station,Community Recycling Centre,Material recovery,City of Hamilton
+fb1c3b8be7a2eb78a96a49fbbae1facf,telecom,tower,...,...,...,Natural Resources Canada
+fb2b40c10dc1cc9c45e223360c2d8c1c,railways,track,..,...,...,Natural Resources Canada
+fb2fd1cb5141349b59821461da9c5e84,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+fc1ad4550897432a70b06e869d5cfd85,railways,track,Parkdale,...,...,Natural Resources Canada
+fc263d14430daa7ced5aed882d4b9080,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+fc409f5766b7fa41730fd8ac7b05dfa5,wastewater and storm water,pipes_storm,..,MAINLINE,Storm pipe main,City of Burlington
+fc54ee9c15e8d132043559efd4e3458b,railways,track,Lakeshore West,...,...,Natural Resources Canada
+fc7188db8fbb9f3428ca3c7858d13dba,telecom,tower,...,...,...,Natural Resources Canada
+fcdbdf0a146af66671fab31a5602e757,railways,track,..,...,...,Natural Resources Canada
+fcf800938c77f0f46db55380a1380a59,railways,track,..,...,...,Natural Resources Canada
+fcf8db34dca75952a2576e38443e48ac,railways,track,Parkdale,...,...,Natural Resources Canada
+fd509f7078729e1a75f9b4d078cf9311,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fd5374c6fca87db6b0b3051b63fed56f,railways,track,..,...,...,Natural Resources Canada
+fd60b52a4211096e7df105d8972fd54d,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+fd963d74f1df6c7b3d134edca82ea24a,railways,track,Parkdale,...,...,Natural Resources Canada
+fda563c5e451037e1c5ddc278460d218,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fdb0183e79175d884a85df90179c8321,bridges and tunnels,culvert,"Hwy 6 - Grindstone Creek Culvert, north of Concession Rd. 5W",Culvert,Culvert,Province of Ontario
+fdc4b149214d11e16103adcc496d6e23,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+fe19dd4933f11968a1f85623c1ec2aaa,railways,track,Parkdale,...,...,Natural Resources Canada
+fe34235db0dfc1677fdc48f752cfb866,wastewater and storm water,facilities_storm,..,..,Stormwater pond,City of Burlington
+fe4d24dee46446c52fd2c57cd47e41dd,railways,track,Belt Line,...,...,Natural Resources Canada
+fe52eda536311d966cfdc7b6c017381c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fe6423cd96c391cc7ad83def7d470c4e,railways,track,..,...,...,Natural Resources Canada
+fed0d4d2ddea0101982c47eb673fb7ec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fef40f1c4e6cf227268ca0f922e0baca,railways,track,Belt Line,...,...,Natural Resources Canada
+fef75c1f9818a6288e22cf670de0f4fc,railways,track,Parkdale,...,...,Natural Resources Canada
+ff21e6fc0ba7d54b8c8f4d5f2910e653,railways,track,Parkdale,...,...,Natural Resources Canada
+ff2358aff061e4332dc73a9746e3e723,railways,track,Parkdale,...,...,Natural Resources Canada
+ff2885091be9a64ca382aae9beffef31,railways,track,Parkdale,...,...,Natural Resources Canada
+ff338de988c9f3bb3edcdab736bb6b03,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+ff3b2203661618b8ac455468e6f1436a,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+ff4d1cbf42062f13a233437ec9402183,railways,track,..,...,...,Natural Resources Canada
+ff5b001834a4bebf5e4ccce95630dac3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ffe872f9252805c64d9351ee6a393283,railways,track,Parkdale,...,...,Natural Resources Canada

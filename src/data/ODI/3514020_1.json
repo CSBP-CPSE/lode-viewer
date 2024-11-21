@@ -1,39 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Mill Street,BRIDGES AND TUNNELS,Footbridges
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-Jocelyn Street,BRIDGES AND TUNNELS,Footbridges
-COUNTY RD 28 UNDERPASS,BRIDGES AND TUNNELS,..
-4th Line,BRIDGES AND TUNNELS,Footbridges
-Ontario Street,BRIDGES AND TUNNELS,Footbridges
-COUNTY RD # 2 OVERPASS,BRIDGES AND TUNNELS,..
-Culvert (0.7km east of Deer Park Rd U/P),BRIDGES AND TUNNELS,..
-Stacey Road,BRIDGES AND TUNNELS,Footbridges
-Peter Street,BRIDGES AND TUNNELS,Footbridges
-Barrett Street,BRIDGES AND TUNNELS,Footbridges
-Morrish Church Road,BRIDGES AND TUNNELS,Footbridges
-MORRISH CREEK CULVERT - PORT BRITAIN,BRIDGES AND TUNNELS,..
-Cranberry Road,BRIDGES AND TUNNELS,Footbridges
-Dickinson Road,BRIDGES AND TUNNELS,Footbridges
-Robertson Street,BRIDGES AND TUNNELS,Footbridges
-CRANBERRY ROAD U/PASS,BRIDGES AND TUNNELS,..
-Kellogg Road,BRIDGES AND TUNNELS,Footbridges
-CHOATE ROAD BRIDGE O'PASS & CNR,BRIDGES AND TUNNELS,..
-Deer Park Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Molson Street,BRIDGES AND TUNNELS,Footbridges
-Wesleyville Road,BRIDGES AND TUNNELS,Footbridges
-Woolacott Lane,BRIDGES AND TUNNELS,Footbridges
-County Road 10,BRIDGES AND TUNNELS,Footbridges
-Lakeshore Road,BRIDGES AND TUNNELS,Footbridges
-GANARASKA RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Sylvan Glen Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,Footbridges
-Ganaraska Road,BRIDGES AND TUNNELS,Footbridges
-County Road 65,BRIDGES AND TUNNELS,Footbridges
-Dale Road,BRIDGES AND TUNNELS,Footbridges
-7th Line,BRIDGES AND TUNNELS,Footbridges
-WESLEYVILLE ROAD U/P (HOPE TWP BR NO 5),BRIDGES AND TUNNELS,..
-Walton Street,BRIDGES AND TUNNELS,Footbridges
-DEER PARK ROAD U'PASS,BRIDGES AND TUNNELS,..
-Anderson Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+016ac2b73eb3f46143d0c110a942b780,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+061e761dbb49a5dc58cc74ecb5b01114,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0817e993439f4bd12cad5d9635a6ce34,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0874d6a5c02916f7e46084cb0f07be9b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+098400b0d9633b7d52f576bbf111d01f,railways,track,..,...,...,Natural Resources Canada
+0cf9a08aa2e17745a94a071a99c5f6b3,oil and gas,facilities,..,..,...,Natural Resources Canada
+0d01fd4a741f5e262439464deffe5378,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+10dadaa62bad3ee54b807f98b833bd5b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+13dba3894615bcb09a041dbf30a530e0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+14521dd5a874c0a03e699c9fad84828e,telecom,tower,...,...,...,Natural Resources Canada
+16a30c4e5574d1fea0263cda50429a2c,bridges and tunnels,bridge,CRANBERRY ROAD U/PASS,Bridge,Bridge,Province of Ontario
+16d3762c423ff3768683b449e302eb0b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1a4e8f9d75aeb7722f6f7f9c93cca77c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1aed8c518f0477656560d2707033758b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1b342159f0728673fac6948d7921e8d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1ede42be975125dd11aa569af316eb65,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+222bcbfacd78d1a09b975e4c9de4d48b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+26f621eaa7cc856f6e0be4c22d0df287,railways,track,..,...,...,Natural Resources Canada
+2797255fe39cdbdc2f71cd8f07a5ea4d,railways,track,..,...,...,Natural Resources Canada
+296b08e7efec3329c0014d75efb7026e,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+2af1acd3944b56e591b3bc02447ecac6,railways,track,..,...,...,Natural Resources Canada
+2ecd557502cb1cd5d87936ebb81f7ea9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f5f6ced87914767f7ef074b624d0946,airports,...,Elizabethville Airstrip,small_airport,...,OurAirports
+3010e890d275336a891e8931bd40fbac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+307da7cc843765b2860211544579bfb9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+31c48fd8525eae457ea5f1351db2a40c,bridges and tunnels,culvert,MORRISH CREEK CULVERT - PORT BRITAIN,Culvert,Culvert,Province of Ontario
+31cbd4f032de67f7097200f797f6c58e,railways,track,..,...,...,Natural Resources Canada
+3b94ad7a7aed0ec551ba8822f9085998,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ba38ff697bedb0f36c3c45629e53717,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3c3826dd20c9a586cbcceee5641f5c6f,airports,...,Newtonville / Steeves Field,small_airport,...,OurAirports
+403b4ff30f76794cd2e3b847c117863d,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+40ffa1a10add6a01fd5f9a554a89892d,low carbon,solar,Penn Energy - Vandorp,...,...,World Resources Institute
+45c2e360b54b3959ff83f91c199f4894,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+46d9e02b9ecdb5a51e644088ef8d7634,bridges and tunnels,bridge,WESLEYVILLE ROAD U/P (HOPE TWP BR NO 5),Bridge,Bridge,Province of Ontario
+46f8429d157d2197357cb9f1cd559f50,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4ff0293af07f2e9c6d89654e41e80b12,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+50d80b5e9c4b4cff4f28cc37e73f909b,railways,station,Newtonville,...,...,Natural Resources Canada
+50dc8ad94ea208cc44896e517b6ca177,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+512a21d3144aefba9b6c999bcead716e,oil and gas,pipelines,..,..,...,Natural Resources Canada
+51dbe9a924a030ad93161fdc8b12d8d3,airports,...,Canton Aerodrome,small_airport,...,OurAirports
+54d8dfcc176b6dd8a8da8fdf6f3f9b3a,electric grid,power_plants,..,...,...,Natural Resources Canada
+58bb66b3df76bef086fb79dfe598cc84,railways,track,..,...,...,Natural Resources Canada
+58ca764125f3f32df0cc43ebd6eba6de,bridges and tunnels,culvert,Culvert (0.7km east of Deer Park Rd U/P),Culvert,Culvert,Province of Ontario
+5c18ab756d0e4fbe4a6d48de9f6c0f05,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5d456c752fc5f26e51409be4aa3d4fb2,railways,track,..,...,...,Natural Resources Canada
+5f007d5dfba4470753afd3e3edaa2b4c,railways,track,..,...,...,Natural Resources Canada
+5fb1b8765cadbd214dd3916bc50ec7b8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+61a3b59c37ff71c4bdb586fa72ee2da9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6b580863d34a9c4cbeaaef0dfd675362,railways,track,Eldorado Res. Ltd,...,...,Natural Resources Canada

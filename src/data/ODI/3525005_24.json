@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-KING at CORMAN,..,..
-..,PEDESTRIAN AND CYCLING,biking
-QUEEN at ABERDEEN,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-GLOVER RD UPASS,BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,biking
-..,SOLID WASTE,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-WINTERBERRY at PARAMOUNT,..,..
-STONE CHURCH at UPPER MOUNT ALBION,..,..
-OTTAWA at ROXBOROUGH,..,..
-..,WASTEWATER STORMWATER,Storm Water Management (Ponds and Wetlands)
-GOLF LINKS RD UPASS,BRIDGES AND TUNNELS,..
-GARNER at PANABAKER,..,..
-..,PEDESTRIAN AND CYCLING,biking
-PARKSIDE at MOSAIC,..,..
-YORK AT JAMES,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-JOHN at KING WILLIAM,..,..
-..,PEDESTRIAN AND CYCLING,biking
-UPPER KENILWORTH at RACALMUTO,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-FENNELL at CASTLEFIELD,..,..
-GOVERNOR'S at CREIGHTON,..,..
-..,PEDESTRIAN AND CYCLING,biking
-QUEENSTON opposite IRENE,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-FENNELL at EAST 12TH,..,..
-..,PEDESTRIAN AND CYCLING,biking
-KING opposite MACNAB TERMINAL,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-ST. JOSEPH'S at JAMES,..,..
-..,PEDESTRIAN AND CYCLING,biking
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+8ab6d28d8d639a6ece966cd8e9efb7f1,wastewater and storm water,pipes_storm,..,SMCULVERT,Culverts,City of Burlington
+8abf483fc440436e081ffc9d6cff0316,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+8ad621ef19ed8408ffa196a72764fe56,solid waste,landfill,87 Acre Park,Landfill Site,Engineered landfill,City of Hamilton
+8adb8038139ad1bf39c78f3a9baa9684,railways,track,Firestone Lead,...,...,Natural Resources Canada
+8adf570bc691ca3c81b27f4a24151b00,bridges and tunnels,culvert,Welland River  Culvert,Culvert,Culvert,Province of Ontario
+8aeb7e5c0529cd0e9e7b5c1eb27458a8,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+8b5cfac08f798760206e56c39ded25cb,railways,station,Hamilton Junction,...,...,Natural Resources Canada
+8b8c2a0318ed4d802eb4a91583a41629,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+8b9e4c56fea3ceb9ce0c6c1a1499d3ef,railways,track,..,...,...,Natural Resources Canada
+8badd022d53bf031aff37dc4577ea990,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+8bd1f2d24331c1490c862186db7b35c8,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+8bdf7c2b09324f37ae9413dc8448708b,railways,track,Parkdale,...,...,Natural Resources Canada
+8be3f24f6cde32a775d694b9caae3284,railways,track,Belt Line,...,...,Natural Resources Canada
+8bef293a277875a9a7d4308e57175f31,railways,track,Parkdale,...,...,Natural Resources Canada
+8bf5f91442200bf57be913819160fd45,railways,track,N & Nw,...,...,Natural Resources Canada
+8c2cb74929eb099d93f5d1752a6e46b1,bridges and tunnels,culvert,Barlow Creek Culvert,Culvert,Culvert,Province of Ontario
+8ca2a90caed455cfa86610292dcf2cd3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8cb3a2f9752991d6197adb7dcbf790ca,railways,track,Stuart Street,...,...,Natural Resources Canada
+8cbda00902a366d83b90add76ceee8ea,airports,...,Campbellville (bellshill Airpark),small_airport,...,OurAirports
+8cf06d58ac653a9b239a46341aafbac9,railways,track,Parkdale,...,...,Natural Resources Canada
+8cf869c6f6c90a141cdf488a2f3675eb,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+8d337242cb7623d1ee4aac4fb41097d0,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+8d56cd4b9566dc44b81f04d78f178142,bridges and tunnels,culvert,"Battlefield Creek, East Culvert",Culvert,Culvert,Province of Ontario
+8d5ccbdf63837bda82c82f62b4997353,bridges and tunnels,bridge,RHCE S-E RAMP OVER CENTENNIAL W-N/S  (BR. 9),Bridge,Bridge,Province of Ontario
+8d6d2f5cf1ad9730a875c78bc4a6263f,railways,track,Parkdale,...,...,Natural Resources Canada
+8da89f02d4454f35e62e14fdf1fa151e,railways,track,..,...,...,Natural Resources Canada
+8dac6c78b649556b4883b0f935e648cf,railways,track,Parkdale,...,...,Natural Resources Canada
+8dad89099d3de46d0f4c73dd10f43596,bridges and tunnels,culvert,Hwy 6 Culvert N of White Church Rd.,Culvert,Culvert,Province of Ontario
+8e1773eb9ac13149375806bae272cc3d,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+8e3197f25c3a1ddc3084c905d1737b99,railways,track,Parkdale,...,...,Natural Resources Canada
+8e732d6267bbd07fccd7a9d4929d8018,railways,track,Parkdale,...,...,Natural Resources Canada
+8e9f040044b949cd3ccc57a8a6ede43b,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+8ef17e4f5e9217a04b53ea4902c2f3a1,railways,track,..,...,...,Natural Resources Canada
+8efd1e3137699cd97844d3c8ce526416,railways,track,Stuart Street,...,...,Natural Resources Canada
+8f1361c344fe9b1d2aaec0fb5de2c1e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8f31cddd442dae25e27206e7ab3f91ed,railways,track,Parkdale,...,...,Natural Resources Canada
+8f5e3e9a618fedf2b9afb56a67034a75,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+8f68b62b073a04444775e1ca1c855bb1,railways,track,Parkdale,...,...,Natural Resources Canada
+8fdb9c669cbf517cb74adfd0b4c57095,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+90407e82e1ae92138bae7f3f8fd55e92,wastewater and storm water,pipes_storm,..,SMCULVERT,Culverts,City of Burlington
+9052324ea1af3835211302051d4666cf,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+90721df5be7c0d56b350b577cfc0f22b,railways,track,Parkdale,...,...,Natural Resources Canada
+907ab3205edd5660d171c3662c88dbf9,railways,track,Parkdale,...,...,Natural Resources Canada
+907d7e5848783c776c407066f0a3f7e8,railways,track,Parkdale,...,...,Natural Resources Canada
+9092745603c9e90db16dc7e5074776ac,railways,track,Parkdale,...,...,Natural Resources Canada
+90fac0898a6aef5cc5a4badd0eee0ac6,oil and gas,pipelines,..,..,...,Natural Resources Canada
+913f729610af63862b505e55eb5b8c8f,bridges and tunnels,bridge,RHCE E-S RAMP OVER CENTENNIAL PKWY  (BR. 10),Bridge,Bridge,Province of Ontario
+9186f9f58eaf8c078e6ab6b68bb20d8f,railways,track,..,...,...,Natural Resources Canada
+91b61c0132f1bf3b1820d3b3fc9eadbe,railways,track,..,...,...,Natural Resources Canada

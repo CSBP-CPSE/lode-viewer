@@ -1,16 +1,45 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Mahzenazing River (West Branch),BRIDGES AND TUNNELS,..
-Hartley Bay Road,BRIDGES AND TUNNELS,Footbridges
-# 54 Culvert Southbound,BRIDGES AND TUNNELS,..
-Hwy 64 Interchange Underpass,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-Un-Named Culvert,BRIDGES AND TUNNELS,..
-Highway 637,BRIDGES AND TUNNELS,Footbridges
-KEY RIVER,BRIDGES AND TUNNELS,..
-CHIKANISHING RIVER CULVERT,BRIDGES AND TUNNELS,..
-WOLF CREEK (TYSON CHANNEL),BRIDGES AND TUNNELS,..
-# 54 Culvert Northbound,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-Highway 69,BRIDGES AND TUNNELS,Footbridges
-C.N.R OVERHEAD AT CRANBERRY LAKE,BRIDGES AND TUNNELS,..
-MAHZENAZING RIVER (EAST CROSSING),BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+03952a850d6ffa09f6311fccc869a415,airports,...,Voyageur Channel Water Aerodrome,seaplane_base,...,OurAirports
+046e5b961f86a5267ff6faad7980cc4d,bridges and tunnels,culvert,Un-Named Culvert,Culvert,Culvert,Province of Ontario
+0bf2ea7b250341329b4ea5c8d71c2735,telecom,tower,...,...,...,Natural Resources Canada
+2efe74cfbabf6f95a933a91cc10c896f,wastewater and storm water,facilities_waste,Killarney Wastewater Treatment Lagoon,"Lagoon - Facultative, Other Treatment",Lagoon,Environment and Climate Change Canada
+2f9d98ab203498253197ba72b84d60c7,solid waste,mixed,Key River,Dump,Dump,Province of Ontario
+33571aca044e4f9558d6d93311dee435,railways,track,..,...,...,Natural Resources Canada
+3a24771842c5530f7018705ab0eede46,telecom,tower,...,...,...,Natural Resources Canada
+3fa37e16a4cf86a88e13325fc44f677c,airports,...,Killarney Airport,small_airport,...,OurAirports
+6334e4a5404cfe1c45084f9bc0e0ca67,railways,track,..,...,...,Natural Resources Canada
+703ee2a1cc49398e45486894e6749f4d,telecom,tower,...,...,...,Natural Resources Canada
+7662ce77573b65f2be795d46e7b54e65,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+769fe43d92fcef9ca978bc1fa08d3de5,railways,track,..,...,...,Natural Resources Canada
+814d8bd602f14fefd061c1cbfc9429cc,railways,station,Key Junction,...,...,Natural Resources Canada
+83ae73f0e3b575e2222a8cd9a90821fd,low carbon,wind,Henvey Inlet Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+8e8d8e94bf85b39af3ffdb375b153a84,railways,track,Bayswater,...,...,Natural Resources Canada
+8f5a27683dcc2bd69c7edc0ce1b30e21,railways,station,Bayswater,...,...,Natural Resources Canada
+950a2c6f194d3a12ef923f1abf8853bf,ports and marinas,port,Key Harbour,..,...,National Geospatial-Intelligence Agency (NGA)
+9a1e18d1537dc2dfd46b95fccaf4d92b,telecom,tower,...,...,...,Natural Resources Canada
+a0ad1f69bc3d0e2d4efb03eb5de1690e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a4ab01526a34bb1733685bb062b2f919,bridges and tunnels,bridge,C.N.R OVERHEAD AT CRANBERRY LAKE,Bridge,Bridge,Province of Ontario
+a5ddb1c16f2ad530f29b5458c6c54e1a,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+ad28ac301b860e7dc7c5e0444da890f3,bridges and tunnels,bridge,MAHZENAZING RIVER (EAST CROSSING),Bridge,Bridge,Province of Ontario
+ad6230d32f55548d7636a057b5862af4,bridges and tunnels,bridge,WOLF CREEK (TYSON CHANNEL),Bridge,Bridge,Province of Ontario
+b3f129b5a90d7029a116965ba58cf731,telecom,tower,...,...,...,Natural Resources Canada
+b906d58bcfac0ae656c8c7193ee4a004,bridges and tunnels,culvert,# 54 Culvert Southbound,Culvert,Culvert,Province of Ontario
+ba5a23dfea28ea901211daf0d4327523,telecom,tower,...,...,...,Natural Resources Canada
+ba5aa1d041a72fe72a369c0f3bc98660,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+bfc67508390d9a70c54d1c57b02e87ba,railways,track,..,...,...,Natural Resources Canada
+c13cae192f8a3d8b71693467d87fd609,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c7e520bc752dfcbf06fd9321e8f6f11a,bridges and tunnels,bridge,KEY RIVER,Bridge,Bridge,Province of Ontario
+cf63f64d2f4b8584491898645958defb,bridges and tunnels,culvert,CHIKANISHING RIVER CULVERT,Culvert,Culvert,Province of Ontario
+d21bd1fa7226b85695b2338fce46bf97,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d3c1639ddd84ed8234db186f121015c4,railways,track,..,...,...,Natural Resources Canada
+d53d6db4bc84f495bea3e5eac6bac154,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d5d001e4f72f2ef97fd7ea4405141c4d,railways,track,..,...,...,Natural Resources Canada
+d7e2715cfa0f0608495eddf257b4a1b2,low carbon,wind,Henvey Inlet Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+e3ed4c8298851959e637aca6b4b26459,railways,track,Key Jonction,...,...,Natural Resources Canada
+ec3dc26b828f92c6e712b559364c3718,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ed8e78d568486da358ae67009060d9e1,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+ee2452ef94b97d5708a179f35829f7ae,solid waste,mixed,Hartley Bay,Dump,Dump,Province of Ontario
+ee4264abf6431778d4fb5e2d2d90e8b9,airports,...,Killarney (killarney Mountain Lodge) Seaplane Base,seaplane_base,...,OurAirports
+ef89cded8337acbd1b2e7e5ef6a4e248,bridges and tunnels,bridge,Hwy 64 Interchange Underpass,Bridge,Bridge,Province of Ontario
+f2dec604f033037bb829a179829f8c41,low carbon,hydro,Allen & Struthers 2130769,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+fd0f93a5d28e135c56161d5e7b682830,bridges and tunnels,bridge,Mahzenazing River (West Branch),Bridge,Bridge,Province of Ontario

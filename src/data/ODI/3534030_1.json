@@ -1,33 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-"Culvert 290
-",BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-Thomson Line,BRIDGES AND TUNNELS,Footbridges
-Edinborough Line,BRIDGES AND TUNNELS,Footbridges
-CURRIE ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Pioneer Line,BRIDGES AND TUNNELS,Footbridges
-Iona Road,BRIDGES AND TUNNELS,Footbridges
-Celtic Line,BRIDGES AND TUNNELS,Footbridges
-Duff Line,BRIDGES AND TUNNELS,Footbridges
-Chambers Line,BRIDGES AND TUNNELS,Footbridges
-Culvert - McLelland Mun. Drain,BRIDGES AND TUNNELS,..
-Currie Road,BRIDGES AND TUNNELS,Footbridges
-Coyne Road,BRIDGES AND TUNNELS,Footbridges
-Largie Road,BRIDGES AND TUNNELS,Footbridges
-Culvert - McLelland Mun. Drain,BRIDGES AND TUNNELS,..
-Homestead Road,BRIDGES AND TUNNELS,Footbridges
-Fingal Line,BRIDGES AND TUNNELS,Footbridges
-Willey Road,BRIDGES AND TUNNELS,Footbridges
-WILLEY ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-DUNBOROUGH ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-CULVERT 289,BRIDGES AND TUNNELS,..
-COYNE ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Ash Line,BRIDGES AND TUNNELS,Footbridges
-Walnut Line,BRIDGES AND TUNNELS,Footbridges
-Dunborough Road,BRIDGES AND TUNNELS,Footbridges
-Culvert- NRF on Hwy 401 Sta. 20+290,BRIDGES AND TUNNELS,..
-Melbourne Road,BRIDGES AND TUNNELS,Footbridges
-Aberdeen Line,BRIDGES AND TUNNELS,Footbridges
-Silver Clay Line,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0433a0d69bbb452a4f3b2a83f17ab29b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0d2cb0a897a4d750ad2ecc7bcc3af341,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0eb15aa32546f6dbe313672faecb6803,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+106c225d4229651ad333dd8b3a7010e5,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+2059fc5795c43cbb0470fe2fc70655a3,bridges and tunnels,bridge,WILLEY ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+2680900f969988b3b6a50b88a6d6a01d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b6685a4a2e777a94e56d61efdb24ebc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c6c33799995bd5368e2e6e13a08dd20,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2d7f51837373a6352185bdc02c8ed0af,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+312fa916aea913a0492b93c8a7bc3d7f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31982c3e2fbadfa4f08c3a6cc728ea93,bridges and tunnels,bridge,COYNE ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+34a80116d6e1adcfac92c555237fb0bd,bridges and tunnels,culvert,Culvert -  McLelland Mun. Drain,Culvert,Culvert,Province of Ontario
+3db86b7971643fa90722041ee6709818,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4b590f7fd7d97e8f92f9a04ddbb99656,bridges and tunnels,culvert,Culvert - McLelland Mun. Drain,Culvert,Culvert,Province of Ontario
+4eadf9b1abc882348ae3da20258fa163,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4eef47b5edc9fd7fe71df7525f88c992,telecom,tower,...,...,...,Natural Resources Canada
+4efa5cc73a9546bdd45d96c22e70ac1f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+61164e299858504e43bc2ac4a1dfae1c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6ed43915b5f3e802176d4e0984846245,bridges and tunnels,culvert,Culvert - McLelland Mun. Drain,Culvert,Culvert,Province of Ontario
+6fd7d4bda38e574a93d4b174a408b4c2,airports,...,Iona Station (bobier Strip),small_airport,...,OurAirports
+727b2d3427080d847f875c2ba0096925,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7536773f2cf6576bd0da4cf70fba1355,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+75690f76abd838bdf01d303f2eecc6da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+782c364bb96450f77cf058bd067c4ec0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+792a9425020ce292d0384e4797a860df,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+795a0c636c6ae3fc23079f8131e290a2,bridges and tunnels,bridge,IONA ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+7cbbad9a1a5150e8ad6c207d86fdfcc8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7d695f2999c97e6f00559b2228830f88,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+81e81b5c6106c76e09a4cd4ec8d7bbb1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+83c96ddef87102cab7bf50519063ca8b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+85fab9e2d37c0ad3a9ff12f7da24a1c4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+87875e17cfc2ae3278da93fb8d0dd575,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8c7ec1ba1bd62e47939f71b873c393f7,wastewater and storm water,facilities_waste,Mount Brydges Wpcp,"Rotating Biological Contactor, Biological Ammonia Removal – Nitrification Only , Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+8d840be5600c860501aee5b01b72f0ed,airports,...,Dutton Airport,small_airport,...,OurAirports
+8e574886fdfef63cfa5342305a42882d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9a7ac7a2567f159878039cb7fb2fbb16,bridges and tunnels,culvert,CULVERT 289,Culvert,Culvert,Province of Ontario
+9d11ed2ff80c19f452fe415ceee337eb,bridges and tunnels,culvert,Culvert 290,Culvert,Culvert,Province of Ontario
+9e21704e73e6368e06b170be9ef0cefa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a56a0d05cb46a9d725cbc4910fdfaf96,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aa5dddb5097279a4d765353766b9f99f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ac562a6754dce1278bc48044fd47ebd8,wastewater and storm water,facilities_waste,Dutton Sewage Treatment Plant,"Screening, Extended Aeration Activated Sludge, Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+b4e97e1bcce99e7ce335c3a23749dee8,telecom,tower,...,...,...,Natural Resources Canada
+b717508b791d76354517a96f7332e311,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+b96344ccad7a6b1283aba2418fd74f93,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b98992bad21be1ad41121a3463f20e78,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+caf71f603bc56c3dac7e811d5b176831,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d08569d8983b515360b6c15081298d71,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d30eb490f9152117b214d5441d11f56e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d493c643258bee89806312ee9316ab35,bridges and tunnels,culvert,Culvert- NRF on Hwy 401 Sta. 20+290,Culvert,Culvert,Province of Ontario

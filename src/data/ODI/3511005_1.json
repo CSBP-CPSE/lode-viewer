@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-County Road 6,BRIDGES AND TUNNELS,Footbridges
-Fairfield Boulevard (south side of Amherst),..,..
-117 Sherwood Avenue (north side),..,..
-WILTON CREEK SERVICE ROAD,BRIDGES AND TUNNELS,..
-Brandon Road,BRIDGES AND TUNNELS,Footbridges
-BRANDON CREEK BRIDGE (WBL),BRIDGES AND TUNNELS,..
-CAMDEN EAST UNDERPASS,BRIDGES AND TUNNELS,..
-ODESSA ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Coronation Boulevard (south side of Bath),..,..
-Henry Crescent (west side of Loyalist),..,..
-Speers Boulevard (south side of Amherst),..,..
-The Moorings (north side of Bath),..,..
-Kildare Avenue (east side of Kidd),..,..
-PARROTTS BAY FLOATING BRIDGE,BRIDGES AND TUNNELS,..
-Amherst Drive (west side of Pratt),..,..
-Switzerville Road,BRIDGES AND TUNNELS,Footbridges
-Loyalist Avenue (east side of Fairfield),..,..
-W. J. Henderson Recreation Centre,..,..
-Simmons Road,BRIDGES AND TUNNELS,Footbridges
-Maple Road,BRIDGES AND TUNNELS,Footbridges
-Addington Street (west side of Loyalist),..,..
-Spring Creek Culvert EB,BRIDGES AND TUNNELS,..
-Briscoe Street (west side of Manitou),..,..
-BRANDON CREEK BRIDGE (EBL),BRIDGES AND TUNNELS,..
-"MILLHAVEN CREEK BRIDGE, W.B.L.",BRIDGES AND TUNNELS,..
-Addington Street (east side of Loyalist),..,..
-Speers Boulevard (north side of Kildare),..,..
-County Road 2,BRIDGES AND TUNNELS,Footbridges
-Amherst Drive (east side of Manitou),..,..
-McDonough Crescent (south side of Kildare),..,..
-Wing Road,BRIDGES AND TUNNELS,Footbridges
-Upper Park Road (south side of Amherst),..,..
-WILTON CREEK BRIDGE (WBL),BRIDGES AND TUNNELS,..
-Pittsfield Street (south side of Amherst),..,..
-Big Creek Road,BRIDGES AND TUNNELS,Footbridges
-Upper Park Road (north side of Amherst),..,..
-County Road 4,BRIDGES AND TUNNELS,Footbridges
-Kildare Avenue (east side of Pratt),..,..
-WILTON CREEK BRIDGE (EBL),BRIDGES AND TUNNELS,..
-WILTON ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Thorpe Road,BRIDGES AND TUNNELS,Footbridges
-Main Street Odessa,BRIDGES AND TUNNELS,Footbridges
-Lucas Road,BRIDGES AND TUNNELS,Footbridges
-MILLHAVEN CREEK BRIDGE,BRIDGES AND TUNNELS,..
-Amherst Drive (east side of Pratt),..,..
-282 Amherst Drive (north side),..,..
-Helen Henderson Centre (north side of Amherst),..,..
-Speers Boulevard (north side of Amherst),..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00364e47246b433a69d978051b719d90,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kingston
+00d6376b232961abb3aaa9e694badec0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+07e964e3a16fbf102b80bcb6f6f76627,railways,track,..,...,...,Natural Resources Canada
+07ecad634c72d8d630602036b6de1b7f,railways,station,Ernestown,...,...,Natural Resources Canada
+08553db11e351d0c81bf6df1ba726804,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+093e973f8c9e95ab8caeece12833d1f3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0a4710085cea22362461c5861a0b6f61,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+0a8b67ba8e0a1e31c9123d0b30c123a6,railways,track,..,...,...,Natural Resources Canada
+0b0092c49455f7a86d26575b55c7a001,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+0d68fb1407f78d3a1904f6843d79f79c,railways,track,..,...,...,Natural Resources Canada
+113550e0a8032ff5c3e2ded367b1b8f2,oil and gas,pipelines,..,..,...,Natural Resources Canada
+119175cb4f8afaf08b8e4fa93c1b5a0b,oil and gas,facilities,..,..,...,Natural Resources Canada
+130aba176f49c0bb7d3d9e846c1f27c9,electric grid,power_plants,..,...,...,Natural Resources Canada
+13a41c759427c09495fc32d9e744bc50,railways,track,Bath,...,...,Natural Resources Canada
+16113d03b7d3823a3f13bdb2eb9ac69c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+16505ec1ec59c5b1b944a089b6e551ea,railways,track,Millhaven,...,...,Natural Resources Canada
+1776454972a0ab30540984e141e1cd00,oil and gas,pipelines,..,..,...,Natural Resources Canada
+1e8f62d7034a2db515b015bfce65b6f9,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+2104f35d9f452b31bbd590ca53d1c889,railways,track,Millhaven,...,...,Natural Resources Canada
+23a85cdca24ada9dd724df3419bc6d52,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2408cd7e16d975c514961b59cf3928e5,bridges and tunnels,bridge,"MILLHAVEN CREEK BRIDGE, W.B.L.",Bridge,Bridge,Province of Ontario
+246c09fbf23a93a6b9cbfb73f142d27e,bridges and tunnels,bridge,ODESSA ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+24d6af3ce1b34360f7c9101266c03ad6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+28b0d8d5648a8013bf2ac29bb9697670,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2945170145edcb6b3f78ec40d0122e22,electric grid,power_plants,..,...,...,Natural Resources Canada
+29a86be064ca9633177936b8d18196bd,low carbon,solar,Kingston Gardiner Ts Odessa,...,...,World Resources Institute
+29d856889ff3c9f3bc2cb70800cfcd41,railways,track,Millhaven,...,...,Natural Resources Canada
+2b226399a90b4c4345e2999423dd5ae0,bridges and tunnels,bridge,BRANDON CREEK BRIDGE (WBL),Bridge,Bridge,Province of Ontario
+2be001613719ba6a7e3905f32d850759,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2c3814213e5290fbb84a3739b03a3af1,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2d5b32457a1c1b8cd5f8af0e33f0cbb0,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+2e69d24cc65a3fed4b6efec26484ed47,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f03ea30a1d1e1b364594e9c356b1c1c,railways,track,..,...,...,Natural Resources Canada
+2fcad9e34f7bc0b2bc7b0930dcd3dc31,railways,track,..,...,...,Natural Resources Canada
+2fec74ea29d2b8a42ab884d9ca8d1899,railways,track,Bath,...,...,Natural Resources Canada
+31457c15216ac8290a8094deff520351,railways,track,Bath,...,...,Natural Resources Canada
+3405ed24491b6cbbf479a913a6664589,railways,track,..,...,...,Natural Resources Canada
+344bb828ba8d64e7807d72c5c9c59512,railways,track,..,...,...,Natural Resources Canada
+354a5aa4c1cdfd4a514c917f5abd50d8,low carbon,wind,Ernestown,...,...,World Resources Institute
+35c6a0c3c132e5c188f5f3eedc245efb,bridges and tunnels,bridge,PARROTTS BAY FLOATING BRIDGE,Bridge,Bridge,Province of Ontario
+36c967ff4c6d72a282c2cb1f108c022d,railways,track,..,...,...,Natural Resources Canada
+37c44d6b44b91ce00744534079c4d09d,railways,track,..,...,...,Natural Resources Canada
+37db5250807f6e86a157dbfa22056d28,bridges and tunnels,culvert,BATH ROAD CULVERT,Culvert,Culvert,Province of Ontario
+39e3b8b8fe531fd27cb3dbf6edf4b220,oil and gas,pipelines,..,..,...,Natural Resources Canada
+39f4aa584c136a75708ba647fe6608be,railways,track,Bath,...,...,Natural Resources Canada
+3a8bafdeace112a10a9cbb0fc3bd7d93,railways,track,..,...,...,Natural Resources Canada
+3c9b65d98cd31181457f1d593099811d,railways,track,..,...,...,Natural Resources Canada
+3d3943fb3713e469f24f53954f3c5ed6,railways,track,Bath,...,...,Natural Resources Canada
+3e47b781d2336a4b1cc323d4affdb1ca,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

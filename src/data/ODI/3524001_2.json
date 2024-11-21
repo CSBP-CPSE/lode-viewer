@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-1185 North Service Rd East,..,..
-Nottinghill Gate + Runnymead Cr (2nd Stop),..,..
-Trafalgar Rd + River Oaks Blvd,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-1218 South Service Rd West,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-Bridge Rd + Seymour Dr,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Speers Rd east of Kerr St,..,..
-BURLOAK AT EATON,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Dundas St West + 4th Line,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Pilgrims Way west of Potters Wheel Cr,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Third Line north of Abbeywood Dr,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0edede47938ae3557545f6c029492b48,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f1b270a3a02718dd0cafc2277b75725,wastewater and storm water,pipes_combined,..,CBLEAD,Combined pipes,City of Burlington
+0f6d2ea5c3e036e90c968cee0c8e209f,wastewater and storm water,pipes_storm,..,MAINLINE,Storm pipe main,City of Burlington
+10921f5560103cdacb749337ac867957,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Mississauga
+10b72911603c624681b459eb48cfa575,wastewater and storm water,pipes_combined,..,CBLEAD,Combined pipes,City of Burlington
+112683069d85664d96b0544201aba8f1,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Mississauga
+11adc22312313776e65bf2d809994fea,railways,track,Lakeshore West,...,...,Natural Resources Canada
+126126d1d876270f4067ef322f30e76d,railways,track,Oakville,...,...,Natural Resources Canada
+12cd03f832b27fe646c622fb20f34538,railways,track,Oakville,...,...,Natural Resources Canada
+12d0afb447b1c722ad6cf329425c2816,bridges and tunnels,bridge,Bronte Road (CR 25) & BRONTE CREEK Overpass,Bridge,Bridge,Province of Ontario
+12f477d15b24ea95d51c7b25cfef2174,oil and gas,pipelines,..,..,...,Natural Resources Canada
+133d7c65e67c36420bc83517960897e9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+13474f35637e4ea292ee17f03db29df8,railways,track,Ford Motor Co,...,...,Natural Resources Canada
+13b558b8cb507391e32be21ee6df69ae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+143319d30c7038692a675ea399d787f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+143d84899a0cbf817041e6b58c7f2a6e,railways,track,..,...,...,Natural Resources Canada
+14c3831fd623a23990238f89da48541a,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Mississauga
+150fede3271c2bfc5e509ba7ec5782d2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+154a689dc6d2218a15ab70144ac20c63,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+159728f67f21d100d4296c4eb115c7ba,bridges and tunnels,culvert,McCraney Creek Culvert,Culvert,Culvert,Province of Ontario
+15b073d5232c1bf7c618b86b85877e86,telecom,tower,...,...,...,Natural Resources Canada
+15b3005710904bc5ceb8b06f2ceb814f,oil and gas,pipelines,..,..,...,Natural Resources Canada
+15eb21254c679e9145d5f8824b57f6ab,wastewater and storm water,pipes_storm,..,MAINLINE,Storm pipe main,City of Burlington
+1641060bfb4b1585ac1148b093dd4890,railways,track,Oakville,...,...,Natural Resources Canada
+165595080120a2879d249140165db817,railways,track,..,...,...,Natural Resources Canada
+16589d6f6f7810c1bf8ce278f43ff3cd,railways,track,Lakeshore West,...,...,Natural Resources Canada
+167e00605786bcce66e78ddd3ef89c40,bridges and tunnels,culvert,QEW Ramp S-E @ Sheldon Creek Culvert,Culvert,Culvert,Province of Ontario
+16ea1c3d57361157555a8d344cbf8672,railways,track,Oakville,...,...,Natural Resources Canada
+16eefb2315faca6b4ab7b09aba80d0bd,railways,track,Lakeshore West,...,...,Natural Resources Canada
+1714b8eef255172d2b7c59da9bea0a50,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+17269d7ee4bab050f64b5f96173f4bbe,railways,track,Oakville,...,...,Natural Resources Canada
+183b2b2a554f24cb4a86e374e11b0f23,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+184abef9d3a0722949804885ab921295,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+187c161f3c36f69460cb4d1a73fb10f0,bridges and tunnels,bridge,Bronte Road Overpas EBL,Bridge,Bridge,Province of Ontario
+190182fb3699d9832f861bb79373e851,airports,...,New Oakville Trafalgar Memorial Hospital Heliport,heliport,...,OurAirports
+1901e06571338f8d0ec887ce01a4ea0f,railways,track,Oakville,...,...,Natural Resources Canada
+192ce224e9d2ccdda8bc92a818104fce,railways,track,Oakville,...,...,Natural Resources Canada
+19d394d384418f3cb18304599d269667,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1a4584e2cb2bfbf03de8ed3593971827,railways,track,Oakville,...,...,Natural Resources Canada
+1a78b32f7bca1a5e5914ed3e4aa49433,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1a848e34dea31956c00cffc13fb6bf1e,railways,track,Lakeshore West,...,...,Natural Resources Canada
+1a91fa63267f689946238d51aae3ed12,wastewater and storm water,pipes_combined,..,CBLEAD,Combined pipes,City of Burlington
+1ab22f2b9cde5d82f9607d7e7b36b0ea,railways,track,Oakville,...,...,Natural Resources Canada
+1b2ae8e2d24c28a8e3918dc644fefd08,railways,track,Lakeshore West,...,...,Natural Resources Canada
+1b7808adb1ca297cdc7362307599bb7a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1bfd80af5f32ef8402d81248e1dcfeab,bridges and tunnels,bridge,TRAFALGAR TWP U'PASS 4TH LINE,Bridge,Bridge,Province of Ontario
+1bfdba59c8807236d41cd575da860b2c,telecom,tower,...,...,...,Natural Resources Canada
+1d3a4ece41ff4e9f3e4258fee0953278,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Mississauga
+1d6c3f49122e7e3b5094a1f0ad0cc9a1,railways,track,Ford Motor Co,...,...,Natural Resources Canada

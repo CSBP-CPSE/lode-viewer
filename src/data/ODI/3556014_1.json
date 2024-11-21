@@ -1,41 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Cardinal Road,BRIDGES AND TUNNELS,Footbridges
-ANTHONY CREEK CULVERT ,BRIDGES AND TUNNELS,..
-RUSSELL CREEK CULVERT,BRIDGES AND TUNNELS,..
-Pine Road,BRIDGES AND TUNNELS,Footbridges
-NORTH DRIFTWOOD RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Tamarack Road,BRIDGES AND TUNNELS,Footbridges
-BLACK RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Copper Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-GARDINER'S CREEK CULVERT,BRIDGES AND TUNNELS,..
-RUSSELL CREEK CULVERT,BRIDGES AND TUNNELS,..
-UNKNOWN CULVERT,BRIDGES AND TUNNELS,..
-SALVE (PAINKILLER) CREEK BRIDGE,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-Monteith Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-UNKNOWN CREEK CULVERT,BRIDGES AND TUNNELS,..
-PIKE RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Grouse Road,BRIDGES AND TUNNELS,Footbridges
-SHILLINGTON CREEK CULVERT,BRIDGES AND TUNNELS,..
-BEATTY TWP CULVERT,BRIDGES AND TUNNELS,..
-Highway 101,BRIDGES AND TUNNELS,Footbridges
-WATABEAG RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Red Deer Road,BRIDGES AND TUNNELS,Footbridges
-MELOCHE CREEK CULVERT,BRIDGES AND TUNNELS,..
-Fisher Road,BRIDGES AND TUNNELS,Footbridges
-Highway 572,BRIDGES AND TUNNELS,Footbridges
-WABBLER CREEK CULVERT,BRIDGES AND TUNNELS,..
-DRIFTWOOD RIVER BRIDGE AT SHILLINGTON,BRIDGES AND TUNNELS,..
-Highway 11 & 101,BRIDGES AND TUNNELS,Footbridges
-DRIFTWOOD RIVER BRIDGE,BRIDGES AND TUNNELS,..
-WILDGOOSE CREEK CULVERT,BRIDGES AND TUNNELS,..
-Mallard Road,BRIDGES AND TUNNELS,Footbridges
-Stock 1 Concession,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Grindstone Road,BRIDGES AND TUNNELS,Footbridges
-Lava Mountain Road,BRIDGES AND TUNNELS,Footbridges
-Monahan Road,BRIDGES AND TUNNELS,Footbridges
-BLACK RIVER BRIDGE,BRIDGES AND TUNNELS,..
-DRIFTWOOD RIVER BRIDGE EAST,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+005caf6268c5e198733c901f6865958c,railways,track,..,...,...,Natural Resources Canada
+04a4362b80e4cbc2f011ac5a4defa110,bridges and tunnels,bridge,BLACK RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+05b479f63a3bb5b9f6f96f0317bc0e89,solid waste,mixed,..,Landfill,Engineered landfill,Province of Ontario
+092b53c281c7c6241e12f22dbb30b309,railways,track,..,...,...,Natural Resources Canada
+0a29c9f8524d8e6d1effd13795ddc57b,solid waste,mixed,Playfair Licence Of Occupation,Landfill,Engineered landfill,Province of Ontario
+0c946eb5f9364ee82f62f17e1bcbc889,telecom,tower,...,...,...,Natural Resources Canada
+0eff70d46fec33236fa7bf299005fc0d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+112900a20a6f83feafa14ee5d826d922,oil and gas,pipelines,..,..,...,Natural Resources Canada
+15dd83979a535319b62d0618f661abfb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d9a991a26e47e216b65d0441dbd60d7,bridges and tunnels,bridge,SALVE (PAINKILLER) CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+252cba874f7a1b1980e37cb8947e523e,wastewater and storm water,facilities_waste,Ramore (playfair) Wastewater Treatment Lagoon,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+2626a07a0acd352c989da51c8262204b,solid waste,mixed,..,Landfill,Engineered landfill,Province of Ontario
+267019f82ac09e7e71e7f3048e883751,railways,track,..,...,...,Natural Resources Canada
+26b4e7538b0c774b8fb88cd9f42fdc83,railways,track,..,...,...,Natural Resources Canada
+2aff40e2c1e9e06d594d775b9eed1d0c,bridges and tunnels,culvert,WILDGOOSE CREEK CULVERT,Culvert,Culvert,Province of Ontario
+2de0cfd426cea58e816998f9d1596d73,bridges and tunnels,bridge,DRIFTWOOD RIVER BRIDGE EAST,Bridge,Bridge,Province of Ontario
+2fc34aa4f2a5d19015049db7ec8cd5d1,railways,track,..,...,...,Natural Resources Canada
+35ae4f63b84eddb158b9020af2dfdcf8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3a9ff3ad766bd03ef09a34dc49f54b3e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3aa2d1f3e0fae995aa55a2756836f10a,telecom,tower,...,...,...,Natural Resources Canada
+3d11881d0056671e14a73e6ebdab2954,bridges and tunnels,culvert,SHILLINGTON CREEK CULVERT,Culvert,Culvert,Province of Ontario
+469af0683026152f504f1dea1b1a05d4,railways,track,..,...,...,Natural Resources Canada
+46f059e5e2ff11f72963578d0078a236,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4809dd6bfcbfbb9154bd715e9dd7c6a4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+498e3407f4a9fe2ffa772bfd0c4ea73f,bridges and tunnels,culvert,BEATTY TWP CULVERT,Culvert,Culvert,Province of Ontario
+4de26fada5c83b760e7606f831c76318,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4f600a97516e22cc9af9c1adb5ba116e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+50a75540bcd95c108ec16c9d11dd151c,bridges and tunnels,bridge,DRIFTWOOD RIVER BRIDGE AT SHILLINGTON,Bridge,Bridge,Province of Ontario
+51b788168c9b5dcb6e8ec57106b3daa8,low carbon,solar,Ramore,...,...,World Resources Institute
+5234ef067ee1b2c9a1d4c42084bdcb73,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+523a324dc066f6928f528927de35f319,bridges and tunnels,bridge,WATABEAG RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+547d1a0803ecfe3f2d81cae68abe4df6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5e0127f87b6134136c7860b77bd45129,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f8d9fffdb16b7f5b40153e686b6967d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+62aeccece74b505c4384640f0e03c75e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6d1efb85639a273934b9929695969961,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6d33b6b852aaae27fd1aa58f9fd8c20f,electric grid,power_plants,..,...,...,Natural Resources Canada
+6faeec55c37c577cff333f333f2f8b71,bridges and tunnels,bridge,PIKE RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+73a70d98759d0ee84168bd699b1defe6,wastewater and storm water,facilities_waste,Matheson Wastewater Treatment Plant & Collection System,"Primary Sedimentation/Clarification, Activated Sludge, Disinfection",Unclassified,Environment and Climate Change Canada
+754d4501a862c56c6eaccb070e33f05f,solid waste,mixed,..,Landfill,Engineered landfill,Province of Ontario
+7a24267bed3e46b35ee162175cfe6342,bridges and tunnels,culvert,WABBLER CREEK CULVERT,Culvert,Culvert,Province of Ontario
+7e3df7a312ba8d97ac0152ffa9333c92,bridges and tunnels,bridge,DRIFTWOOD RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+81f5d777b759aca32def227af450f626,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8272fc855d36e48f70bc82db0b7065b7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+87cf7ccc77aeab40c499c7001cfbd071,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+88408084f3aafa92ee1d10b08a2abbc4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8a0d7945fc9e0577d181f8cd506cde77,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8e98945a853fee456e6d72414faa7ecc,bridges and tunnels,culvert,MELOCHE CREEK CULVERT,Culvert,Culvert,Province of Ontario
+9078190b804071d2b7d3649eda96c2d5,railways,track,..,...,...,Natural Resources Canada

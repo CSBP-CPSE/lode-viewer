@@ -1,35 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Larkin Road,BRIDGES AND TUNNELS,Footbridges
-Line 3 Road,BRIDGES AND TUNNELS,Footbridges
-Seaway Haulage Road,BRIDGES AND TUNNELS,Footbridges
-Line 6 Road,BRIDGES AND TUNNELS,Footbridges
-Niagara College,..,..
-..,WASTEWATER STORMWATER,..
-Hwy 405 - west of Concession Rd. 6 Culvert,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,biking
-Highway 405,BRIDGES AND TUNNELS,Footbridges
-East & West Line,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Firelane 11a Road,BRIDGES AND TUNNELS,Footbridges
-Queenston Street,BRIDGES AND TUNNELS,Footbridges
-Glendale Avenue,BRIDGES AND TUNNELS,Footbridges
-Niagara College - N.O.T.L. Campus,..,..
-Line 1 Road,BRIDGES AND TUNNELS,Footbridges
-Lakeshore Road,BRIDGES AND TUNNELS,Footbridges
-Niagara Stone Road,BRIDGES AND TUNNELS,Footbridges
-Hwy 405 - Mewburn Rd. Underpass (formerly GRAVEL RD. BR.),BRIDGES AND TUNNELS,..
-Concession Road 6,BRIDGES AND TUNNELS,Footbridges
-Queenston Lewiston Bridge,BRIDGES AND TUNNELS,Footbridges
-Carlton Street,BRIDGES AND TUNNELS,Footbridges
-Line 5 Road,BRIDGES AND TUNNELS,Footbridges
-Line 2 Road,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-Outlet Collection at Niagara,..,..
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Line 4 Road,BRIDGES AND TUNNELS,Footbridges
-International Crossing,BRIDGES AND TUNNELS,Footbridges
-Line 7 Road,BRIDGES AND TUNNELS,Footbridges
-Hwy 405/NIAGARA TWP. QEW. INT.O/P,BRIDGES AND TUNNELS,..
-GLENDALE AVENUE UNDERPASS......,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0742d9f06175e96f31a726dbf21a8bef,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+0e2ef10f5e5393a5fa558df3383150e6,telecom,tower,...,...,...,Natural Resources Canada
+132e58ecffb6e734206e8c56d5457549,telecom,tower,...,...,...,Natural Resources Canada
+181151c07c9f5c6baa94e4e8eb4d7c77,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1a587819c96f0b702d1500f884fbc0e0,wastewater and storm water,facilities_waste,Niagara-on-the-lake Wwtp,"Grit Removal, Screening, Extended Aeration Activated Sludge, Biological Ammonia Removal - Nitrification Only, Chemical Precipitation (Phosphorus), Disinfection",Unclassified,Environment and Climate Change Canada
+1b7acc2801a7c646059710c64f2f55fc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d69b691a1d7ce5fe3df18177f0f1d3f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1e4493756b1e09d7f1161a23bc028cc9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2109381e73b1c8d29f354b0927b583df,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2582e7132d44d81b811f5df4bdd007ba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f161c341139650c7d19ee3ae91e89da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+323acfe5eb16c1fd884b86bebe92befd,bridges and tunnels,bridge,Hwy 405 - Mewburn Rd. Underpass (formerly GRAVEL RD. BR.),Bridge,Bridge,Province of Ontario
+32c8dd853f2e25449fee0d266770c61d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+382c8d3cc6a8282a697e20f7d573951f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+40177ebb07107f4c87e3b4a09a46d06a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+47e4844d7c9ebb62082e72c71a29971e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4a34418f419d79989b05b1608d08e249,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4b5bc8243fc066dace3194a0bc37c799,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+52aebe37c5a714580ed365c83821a857,telecom,tower,...,...,...,Natural Resources Canada
+58c57cbfd49956f8ae6e8d987d7b8f0d,bridges and tunnels,bridge,GLENDALE AVENUE UNDERPASS......,Bridge,Bridge,Province of Ontario
+5c1a92ec7084ab7db5e10ef33e2a94ee,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+648974ef3fa8cda075ac5b989d39867a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+68a87872e21cfe3dc948c1b893a66c94,ports and marinas,marina,Niagara On The Lake Sailing Club,..,...,Statistics Canada
+69e8ca13472e1cda4f52293a24bd3a5b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+72e8a93830020bee42726644e8af2d72,ports and marinas,port,Queenston,..,...,National Geospatial-Intelligence Agency (NGA)
+74b9914d90a6433967904a94f8aeb863,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+773c24002883ccdae47bc6c76ad8b7c6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+85e7522134690e7c003c3f7194b52d63,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+883aeaea3b3d394cf01e652dc08622ed,low carbon,hydro,Welland,...,...,World Resources Institute
+890574dc33928d0326d451b6d0a49539,wastewater and storm water,facilities_waste,Queenston Wastewater Treatment,"Grit Removal, Screening, Activated Sludge, Biological Ammonia Removal – Nitrification Only , Disinfection",Unclassified,Environment and Climate Change Canada
+8b9c3ef21bade2897adfc3c7f621040b,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+8cc2ea77ea5601296b022c0c9ae0d36c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+952b20cae81b4aac0174b36e133ab348,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+95c40475d042797b93254679d5b007f8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+965c25e958709f26112ca22c8db4a13e,bridges and tunnels,culvert,Hwy 405 - west of Concession Rd. 6 Culvert,Culvert,Culvert,Province of Ontario
+993c44a8727a643410de064f022edbc0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9b78feada033d2c866faa2bbc30bfe5c,airports,...,Niagara District Airport,medium_airport,...,OurAirports
+9c15f7d3092855cd1b6ebb84829733aa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9e331edf5fe1276338c06d969fbaf58a,electric grid,power_plants,..,...,...,Natural Resources Canada
+a07b3ea422c01fdd4393bb17833d7a59,wastewater and storm water,facilities_waste,Niagara-on-the-lake Lagoon,"Screening, Lagoons - Aerated, Lagoon - Facultative, Chemical Precipitation (Phosphorus), Disinfection",Unclassified,Environment and Climate Change Canada
+a17d61c982877a0fcbcc5085fecda6a7,telecom,tower,...,...,...,Natural Resources Canada
+a18968d6ef9079bc9b2547d1c87d2c38,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a2c499f59984224fb736d87acaa377c1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a5b26eab55a1f59da79991bf47fccc11,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a77196a698cda4ecafd64314fa24d7be,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ab4070f9de166738e489b00cc8612d6b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ac17dc44ed0b33ed9b8815e4b61aaac2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b0ed558ffed8ed899863534c2cd4c433,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b55a8e65e4e08d72258b4aed7522ec94,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

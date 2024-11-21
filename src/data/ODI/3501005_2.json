@@ -1,51 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-1st Line Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,Footbridges
-Frog Hollow Road,BRIDGES AND TUNNELS,Footbridges
-WESTLEY ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,multi-use
-CNR OVERHEAD..............(WBL),BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-"HWY 401 U'PASS AT CURRY HILL RD
-Interchange 825",BRIDGES AND TUNNELS,..
-Culvert (.5m East of 2nd Line Rd),BRIDGES AND TUNNELS,..
-Culvert (2km East of 2nd Line Rd),BRIDGES AND TUNNELS,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-FRASER RD UNDERPASS,BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,multi-use
-WESTLEY CREEK BRIDGE (EBL),BRIDGES AND TUNNELS,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,multi-use
-3rd Line Road,BRIDGES AND TUNNELS,Footbridges
-HWY#2 & 34 INTERCHANGE (UP),BRIDGES AND TUNNELS,..
-Hwy 401 Culvert east of Boundary Rd.,BRIDGES AND TUNNELS,..
-SUTHERLAND CREEK BRIDGE (WBL),BRIDGES AND TUNNELS,..
-Old Highway 2,BRIDGES AND TUNNELS,Footbridges
-County Road 27,BRIDGES AND TUNNELS,Footbridges
-Finney Creek Culvert,BRIDGES AND TUNNELS,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-North Service Road,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Bridge Street,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-WESTLEY CREEK BRIDGE (WBL),BRIDGES AND TUNNELS,..
-Boundary Rd. & Holy Trinity High School,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Concession Road 5,BRIDGES AND TUNNELS,Footbridges
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-Culvert (1km West of 2nd Line Rd),BRIDGES AND TUNNELS,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Gunn Creek,BRIDGES AND TUNNELS,..
-County Road 26,BRIDGES AND TUNNELS,Footbridges
-South Service Road,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Cashion Road,BRIDGES AND TUNNELS,Footbridges
-BAINSVILLE ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,multi-use
-County Road 34,BRIDGES AND TUNNELS,Footbridges
-2nd Line Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+44b2d74598faefeb11dc7b6cf6fc4c86,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4500fe1671758e81be04d83f92879143,oil and gas,pipelines,..,..,...,Natural Resources Canada
+45ef090d59a9c15effdb105feb1f1c23,bridges and tunnels,bridge,SUTHERLAND CREEK BRIDGE (WBL),Bridge,Bridge,Province of Ontario
+4af5576f6d2cee88750f6738ba249218,railways,track,..,...,...,Natural Resources Canada
+4b4eb1d146fb725eb009269009a0a760,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4e2169f6c100440f22f358c14cd998fe,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+4ea0dad729f76e767bef69c2fb9e4838,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+53e0ce8eb3f2bd1d09931ffde00dac9d,telecom,tower,...,...,...,Natural Resources Canada
+5414edfd0c457595518328af25d2d7c1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+553fef5d6bce008f18448d557c44ab68,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+56d4f97c85d4fe3fe6a88d8a9bef2e3b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5962398793c3067dfa392670f9e78be6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a29957ead88bef2fd71aa92c338d56e,bridges and tunnels,bridge,WOOD CREEK BRIDGE (EBL),Bridge,Bridge,Province of Ontario
+5b410361c0501ac49033d20350070b40,bridges and tunnels,culvert,Culvert (2km East of 2nd Line Rd),Culvert,Culvert,Province of Ontario
+5d247e2cd7046d0069ddc1e16f6254a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5da330e3546eafb14cb88bdf6fa40e81,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+64406e4ad30f8265d7471509cf8577da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+64fbb9daa5467ddbcf44032d7d59c871,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+693ef3e12cb522427ed16e165986e4bd,railways,track,..,...,...,Natural Resources Canada
+6962e6e4878dd5087169ba7126937984,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6b801f42336e4c1f3f557326ee7d7ee1,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+6da97646ad6ce9d499205bcfa33de15f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+704c0fdceb88eccaff648c51f8231124,bridges and tunnels,bridge,RAISIN RIVER BRIDGE (WBL)......,Bridge,Bridge,Province of Ontario
+73a3147b6b67e3617cf77a1908362fe4,bridges and tunnels,bridge,WESTLEY ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+73f7583785261bc515a945f0415b5d90,bridges and tunnels,bridge,WESTLEY CREEK BRIDGE (EBL),Bridge,Bridge,Province of Ontario
+78eca41ca78526bd5eb59d0fcd8c830c,oil and gas,pipelines,..,..,...,Natural Resources Canada
+7998ecec1e44cad2cdd037c7d59a53ea,bridges and tunnels,bridge,..,Covered Bridge,Bridge,Natural Resources Canada
+7aa46b0820290a0198b8422f4c1288d1,bridges and tunnels,bridge,FORCE ROAD UNDERPASS(5th Line Rd.),Bridge,Bridge,Province of Ontario
+7d69060a80f178b19fd8a536f2ada3c7,oil and gas,facilities,..,..,...,Natural Resources Canada
+7f48175309538ec07bed6a03daf3b32d,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+80944d2751417df124f988671b39f479,telecom,tower,...,...,...,Natural Resources Canada
+817d3e4e7dbdc7ae805a78c43c817d08,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+841c61c6da84fd8213fcae6b1d91dbea,electric grid,power_plants,..,...,...,Natural Resources Canada
+84be95a1eb34356d7ad41e0537ba86d7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+87e8b23271afb7846a00b289abbd4096,railways,track,..,...,...,Natural Resources Canada
+88f0d4d369f18da61ce79fe69b99d398,oil and gas,pipelines,..,..,...,Natural Resources Canada
+89492910a05bba344f426fa03fa26504,bridges and tunnels,culvert,Hwy 401 Culvert east of Boundary Rd.,Culvert,Culvert,Province of Ontario
+8961f30ffac1db21b9984095cac00f40,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8a5f228bf17bb919157e96fb0011c98f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8a7318e479ee941e52daeb2a28dcb3e5,electric grid,power_plants,..,...,...,Natural Resources Canada
+9132fa0c5a5b9cab6ea61643adf0640c,bridges and tunnels,bridge,WESTLEY CREEK BRIDGE (WBL),Bridge,Bridge,Province of Ontario
+91da0d1f7dcfb3b02a3e326ab2c1c18a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+91e1844123700d0896377ffe1ae814b3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+93022c1094e933b8c5a689278d5e5e97,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9310fe98a0def51bfb8b5ffe24d1a7f0,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Cornwall
+93d9889d271ed99e34cebccbe1c816a9,bridges and tunnels,culvert,Culvert (.5m East of 2nd Line Rd),Culvert,Culvert,Province of Ontario
+948641e4baa3c6dc41b6a135cf9a695e,oil and gas,facilities,..,..,...,Natural Resources Canada
+96054b6c2864f86b175e70ef8c0e374c,low carbon,solar,Penn Energy - S. Glengarry St. Lawrence-1,...,...,World Resources Institute
+99b982f913dcae1787a5de283fe7aaa2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

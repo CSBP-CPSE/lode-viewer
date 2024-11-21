@@ -1,27 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Matchett Line,BRIDGES AND TUNNELS,Footbridges
-Old Norwood Road,BRIDGES AND TUNNELS,Footbridges
-David Fife Line,BRIDGES AND TUNNELS,Footbridges
-Wallace Point Road,BRIDGES AND TUNNELS,Footbridges
-4th Line,BRIDGES AND TUNNELS,Footbridges
-Highway 7,BRIDGES AND TUNNELS,Footbridges
-Hope Mill Road,BRIDGES AND TUNNELS,Footbridges
-CULVERT - 400m W of Drummond Line,BRIDGES AND TUNNELS,..
-Indian River Line,BRIDGES AND TUNNELS,Footbridges
-Settlers Line,BRIDGES AND TUNNELS,Footbridges
-INDIAN RIVER BRIDGE,BRIDGES AND TUNNELS,..
-CULVERT - 350m W of Drummond Line,BRIDGES AND TUNNELS,..
-"Hwy 7 Culvert, E of County Rd 34",BRIDGES AND TUNNELS,..
-CULVERT 150 M WEST OF SETTLERS LINE,BRIDGES AND TUNNELS,..
-CULVERT 500 M EAST OF SETTLERS LINE,BRIDGES AND TUNNELS,..
-..,SOLID WASTE,..
-"Hwy 7 Culvert, E of Leanne Ave",BRIDGES AND TUNNELS,..
-Robyn's Motel Culvert,BRIDGES AND TUNNELS,..
-Division Road,BRIDGES AND TUNNELS,Footbridges
-Culvert  @ David Fife Line,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-"Hwy 7 Culvert, E of Providence Line",BRIDGES AND TUNNELS,..
-..,SOLID WASTE,Active Dump Sites
-Baseline,BRIDGES AND TUNNELS,Footbridges
-County Road 2,BRIDGES AND TUNNELS,Footbridges
-Lang Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+048c9815459726bece7474c00bc657ed,electric grid,power_plants,..,...,...,Natural Resources Canada
+07c0a00ed4093ee676f13a286954a468,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0c7d22543d07aa43ebb1e156711ae30c,airports,...,Elmhirst's Resort Airport,small_airport,...,OurAirports
+0dfe3da431e682a84d03a48513fae62c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1ce7b1fa14ff02dcd91be9a6d3649d00,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d829a59d9fbd66b9c822a50018cd898,bridges and tunnels,culvert,"Hwy 7 Culvert, E of Providence Line",Culvert,Culvert,Province of Ontario
+1ef5d7db165d32049eef830f568319ee,railways,track,Lead To Peterborough,...,...,Natural Resources Canada
+1f3a03e29c412e73865616173df53980,telecom,tower,...,...,...,Natural Resources Canada
+21ceb88488330ec0c5a8d4f623d8fb65,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+26d0d149f5994b61e028b518f43aeeb6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2a0b08e7e377a8e017b09e60e4011c21,low carbon,biomass,Bensfort Road Lfg,...,...,World Resources Institute
+2df945a56b49f0f1ecabf0b2f47245cb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2e2f7e97195fba866cd68e362e2e9577,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31ef5fa858efea9bbe789a91d09409b1,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+35442e22a513516044ada60bcdc96992,telecom,tower,...,...,...,Natural Resources Canada
+356028a1e60842679d6208ca9aa44da8,bridges and tunnels,culvert,CULVERT - 350m W of Drummond Line,Culvert,Culvert,Province of Ontario
+3697cee91f90b60f11fcfd1f7f454df5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+36fc448f340e79d241a6268353c50bab,bridges and tunnels,culvert,CULVERT - 400m W of Drummond Line,Culvert,Culvert,Province of Ontario
+38f8e61a6a838fb8af43b11cdec9da16,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b7aaa63b0bf1b527f55730fe1259a69,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+42257e62f37a47672930b42be2387195,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+440ae298f4822b6ceebc8d98a9e584b4,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+452cca3cc3fb114f7fd39ebebfa8e962,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+45816df09710f579f6d2080c0f49d686,railways,track,..,...,...,Natural Resources Canada
+4dc70b1b3e6e2b74e032d4d0e99691a0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+54d59fdfc661fbc3e0db1a841763eb39,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+55e7d6aa123fa05307ca4996e5a13abe,bridges and tunnels,culvert,CULVERT 500 M EAST OF SETTLERS LINE,Culvert,Culvert,Province of Ontario
+5d65e387d7408f51cdd06c584bfa8899,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5eedffddb3fe4228a2250e5cc6b34721,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5ef3cc6bff345bef501f70a87aa00759,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+61db9863eabeb15d6a528cb16935ac3a,bridges and tunnels,culvert,Robyn's Motel Culvert,Culvert,Culvert,Province of Ontario
+73c08145e496679ad311ea97596434f4,railways,track,Peterborough Industrial Park,...,...,Natural Resources Canada
+75938e57ccee0380f81583b6b07be1db,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7c735df1a36bf10bd642612f4311a6a4,telecom,tower,...,...,...,Natural Resources Canada
+7ed320cc1b0e23cf8932ce3ba60f9fc8,telecom,tower,...,...,...,Natural Resources Canada
+82d29448868b7d91f500797fa12e7464,bridges and tunnels,culvert,CULVERT 150 M WEST OF SETTLERS LINE,Culvert,Culvert,Province of Ontario
+95db6c8d4f7d1baf076fb2c6e69a876d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9a69efd257678d34690aadd5dc6f3f44,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a3e8ee1783fce7b833766cc83c9398cc,solid waste,landfill,The Corporation Of The City Of Peterborough,..,Dump site,Province of Ontario
+b51d7cf8ffedac1868aadcb3282833d3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b648926e1142189024e976396defc3fd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+be4fd333c1f732d6f1bd3c0727ae6ce5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cf7d5375c8ff2518ed22e18d0bd86072,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d1ae2886952c999ffcdc4c591f8ff137,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d265388c2b06d7da891e9d0181923073,airports,...,Keene/elmhirst's Resort Seaplane Base,seaplane_base,...,OurAirports
+d2c52e3ce10548fe6a18c2fb80e4b7a5,bridges and tunnels,bridge,INDIAN RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+d379cb794911e28b840cadef160e6444,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d4aa286fc827f82dcb2b37aee84d6b9f,bridges and tunnels,culvert,Culvert  @ David Fife Line,Culvert,Culvert,Province of Ontario
+dc6c3ded99fc8900cce187210ea60b68,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

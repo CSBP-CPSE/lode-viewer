@@ -1,33 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-PEARSALL CREEK CULVERT,BRIDGES AND TUNNELS,..
-Hubbs Creek Road,BRIDGES AND TUNNELS,Footbridges
-Hubbs Creek Crescent,BRIDGES AND TUNNELS,Footbridges
-Lakeside Drive,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-County Road 17,BRIDGES AND TUNNELS,Footbridges
-Melville Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-County Road 4,BRIDGES AND TUNNELS,Footbridges
-MAIN CHANNEL CULVERT,BRIDGES AND TUNNELS,..
-County Road 29,BRIDGES AND TUNNELS,Footbridges
-Skyway Bridge,BRIDGES AND TUNNELS,Footbridges
-County Road 2,BRIDGES AND TUNNELS,Footbridges
-Gilead Road,BRIDGES AND TUNNELS,Footbridges
-County Road 13,BRIDGES AND TUNNELS,Footbridges
-Gommorah Road,BRIDGES AND TUNNELS,Footbridges
-Christian Road,BRIDGES AND TUNNELS,Footbridges
-Union Road Culvert,BRIDGES AND TUNNELS,..
-County Road 5,BRIDGES AND TUNNELS,Footbridges
-Highway 62,BRIDGES AND TUNNELS,Footbridges
-Highway 49,BRIDGES AND TUNNELS,Footbridges
-Provincial Park Road,BRIDGES AND TUNNELS,Footbridges
-Mill Street,BRIDGES AND TUNNELS,Footbridges
-County Road 12,BRIDGES AND TUNNELS,Footbridges
-Pleasant Bay Road,BRIDGES AND TUNNELS,Footbridges
-Crowes Road,BRIDGES AND TUNNELS,Footbridges
-Gore Road,BRIDGES AND TUNNELS,Footbridges
-Consecon Main Street,BRIDGES AND TUNNELS,Footbridges
-CULVERT 200 M WEST OF MATHIE ROAD,BRIDGES AND TUNNELS,..
-Loyalist Parkway,BRIDGES AND TUNNELS,Footbridges
-Wesley Acres Road,BRIDGES AND TUNNELS,Footbridges
-County Road 18,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0162b787fe9c9d42f7aa2e0ee7c89ca3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+041c80019d63d96259c2111b9c231e83,airports,...,Clapp Farm Heliport,heliport,...,OurAirports
+0456e6d1fd2b2eeccdfa50f4da73c189,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+05b9ffef6e898ff006483e81783d9129,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+062e3af7582307bac529aaf07b4888a6,telecom,tower,...,...,...,Natural Resources Canada
+077617c9d0c747d2158bb688cf88c3f1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0dceb2556a2b8962a9efc8544f6f6b13,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+139b4058be22aec06a0b7f661baba5ea,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+18edc899839fca6f50993affe258dce4,low carbon,solar,Fotolight,...,...,World Resources Institute
+1dd7f366d0062803a0035245267386ba,electric grid,power_plants,..,...,...,Natural Resources Canada
+1ea4c0157171f5876453a744cea1bb96,telecom,tower,...,...,...,Natural Resources Canada
+1eabc7da31e8dee10c2bf1c7d35d2c18,airports,...,Picton (prince Edward County Hospital) Heliport,heliport,...,OurAirports
+217488d479cc5d9f032b36abb1ec1d5f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+22268c3c09b13524970c11381b2dabf2,electric grid,power_plants,..,...,...,Natural Resources Canada
+22df68f8aca4706e19d107b3ea6bd4ba,low carbon,wind,White Pines,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+232caf66bedebd466b51672d38196f77,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+233095f85d10cdfdcf088d7f6848a6de,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+240a6c8ec2581e1e8440cf76e4dcea63,wastewater and storm water,facilities_waste,Wellington Wastewater Treatment Facility,"Grit Removal, Screening, Chemical Flocculation, Extended Aeration Activated Sludge, Disinfection",Unclassified,Environment and Climate Change Canada
+27135aae6900ce1c92ad3a3b1ae8763e,bridges and tunnels,culvert,Union Road Culvert,Culvert,Culvert,Province of Ontario
+2915778405e906c34eed5c703b58a0e6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2ccdb684815bd4a86c5335fc8f1edad8,telecom,tower,...,...,...,Natural Resources Canada
+2dfcddb3eff0694b68eb6cb175f18b1b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f4f6829c89980e71b0e5af097c72002,low carbon,solar,Northland Power Solar Belleville South,...,...,World Resources Institute
+301ee19cfd2aedcd5bcc794593878955,electric grid,power_plants,..,...,...,Natural Resources Canada
+3039fa3d9ee1c079a52aca214422a7eb,telecom,tower,...,...,...,Natural Resources Canada
+304a7d77422a7d1c32d6919567f3f8b9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3094ffc2d3271daae77f1501c4016ef8,telecom,tower,...,...,...,Natural Resources Canada
+3280a89b8abb690655bbf323b6f94c4a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+32a9b8680e48d03971326a26311b6604,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+332c16cc7cd2c728882bc4617f94cd29,bridges and tunnels,culvert,PEARSALL CREEK CULVERT,Culvert,Culvert,Province of Ontario
+395f3651089233571503a85c9b0602b8,telecom,tower,...,...,...,Natural Resources Canada
+3bbe1ead5f789aaf3cfd9231be5bfb97,telecom,tower,...,...,...,Natural Resources Canada
+3e18bf8ec9e58339d7eddca3d20b1c76,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3eae248d528f7ea89613cd3d7fd37391,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+40147b23a728252a2ee259e3b701f8fc,telecom,tower,...,...,...,Natural Resources Canada
+40c694df9868c587fc3bd1b4af92f53e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+41ab5b89bfe2ac29a933441f8cc02f11,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4810c7b899e2e01efdd58abf710890d0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4fb7037985cdbc98a86edcebd31d5ad1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5206d119932138ca56b5842373a178d0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+58487f850866db9c28ab7775811efa23,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+596569d7a864ebd78e0d1c7c279548ab,electric grid,power_plants,..,...,...,Natural Resources Canada
+5a708864c78099f1a2c507c03ef003bc,bridges and tunnels,culvert,CULVERT 200 M WEST OF MATHIE ROAD,Culvert,Culvert,Province of Ontario
+5af8709cc8cda272681030c58cbdac39,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b28e53813823217ca189f66fc7f3e44,telecom,tower,...,...,...,Natural Resources Canada
+5cabfcfd2fb7952d0a74a014ca4d6195,ports and marinas,port,Picton,..,...,National Geospatial-Intelligence Agency (NGA)
+5fc74fbec91c4af39fb636443660a549,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+60e88b96252ac6b033622ecd077c6869,low carbon,solar,Sunny Shores,...,...,World Resources Institute
+64cdd6dff21482215d9b42f833112107,airports,...,Rednersville / Aery,small_airport,...,OurAirports

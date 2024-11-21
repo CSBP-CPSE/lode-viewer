@@ -1,33 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-"Culvert 56
-",BRIDGES AND TUNNELS,..
-Culvert No. 1 Sta 10+100,BRIDGES AND TUNNELS,..
-Highway 64,BRIDGES AND TUNNELS,Footbridges
-Culvert No. 2 Sta 10+100,BRIDGES AND TUNNELS,..
-WOLSELEY CREEK CULVERT,BRIDGES AND TUNNELS,..
-PINE RIVER CULVERT,BRIDGES AND TUNNELS,..
-Highway 69,BRIDGES AND TUNNELS,Footbridges
-Dry Pine Bay Road,BRIDGES AND TUNNELS,Footbridges
-Highway 535,BRIDGES AND TUNNELS,Footbridges
-WOLSELEY RIVER BRIDGE,BRIDGES AND TUNNELS,..
-ASH CULVERT,BRIDGES AND TUNNELS,..
-Culvert 52 NBL,BRIDGES AND TUNNELS,..
-WOLF RIVER CULVERT,BRIDGES AND TUNNELS,..
-"Culvert 56
-",BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-Little French River Culvert,BRIDGES AND TUNNELS,..
-MURDOCK RIVER BRIDGE,BRIDGES AND TUNNELS,..
-# 62a Culvert Southbound,BRIDGES AND TUNNELS,..
-Murdock River Culvert,BRIDGES AND TUNNELS,..
-Bay of the French River Bridge,BRIDGES AND TUNNELS,..
-SOUTHWEST ARM OF LAKE NIPISSING BRIDGE,BRIDGES AND TUNNELS,..
-Culvert 52 SBL,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-# 62a Culvert Northbound,BRIDGES AND TUNNELS,..
-Highway 607,BRIDGES AND TUNNELS,Footbridges
-Turenne Road,BRIDGES AND TUNNELS,Footbridges
-WOLSELEY RIVER BRIDGE,BRIDGES AND TUNNELS,..
-NORTHWEST ARM OF LAKE NIPISSING BRIDGE,BRIDGES AND TUNNELS,..
-# 36 Culvert Northbound,BRIDGES AND TUNNELS,..
-# 36 Culvert Southbound,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+05182830447ec4cfc0e880071276bdeb,bridges and tunnels,culvert,WOLF RIVER CULVERT,Culvert,Culvert,Province of Ontario
+0a6752f5f2853dea8f99d4d012f9e93b,railways,track,..,...,...,Natural Resources Canada
+0d9ddaa86d6aab8e34c0e471999853db,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+10cc99e782122a808d44de7933b776ee,airports,...,Alban Airport,small_airport,...,OurAirports
+25c788ee1004f37cdc6f8fef1e1b2d81,telecom,tower,...,...,...,Natural Resources Canada
+25e354e396de78999da3c084b00b75f4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+25f8cf29c0fe2617b3182ed16c0bf594,bridges and tunnels,culvert,Culvert No. 1 Sta 10+100,Culvert,Culvert,Province of Ontario
+3694242ba539e18415ec1a1ff536ea27,railways,track,..,...,...,Natural Resources Canada
+37016976a6ea3956883e710ad9ce793f,bridges and tunnels,culvert,ASH CULVERT,Culvert,Culvert,Province of Ontario
+3ca6c51b7d9091d778464053bce6aafc,bridges and tunnels,bridge,SOUTHWEST ARM OF LAKE NIPISSING BRIDGE,Bridge,Bridge,Province of Ontario
+46134430ca83a2101bd386ab7b81b112,bridges and tunnels,culvert,PINE RIVER CULVERT,Culvert,Culvert,Province of Ontario
+47d2b7560e1c8da9c26600da294e3962,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4c5e50a45092263ffe31938d20544c1f,bridges and tunnels,bridge,MURDOCK RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+55acd33d54832089a80bd79802dd13c4,ports and marinas,mixed,Ouellette Rapids (french River),Recreational,...,Fisheries and Oceans Canada
+5656dbb26418184aca46a1c7425b3f9a,bridges and tunnels,culvert,WOLSELEY CREEK CULVERT,Culvert,Culvert,Province of Ontario
+5dee136a696afb868a80e64f0f6f06cd,bridges and tunnels,culvert,Culvert 52 NBL,Culvert,Culvert,Province of Ontario
+5e7ab1eae4a0b8d5e1459b03f75c82ce,bridges and tunnels,culvert,Culvert 52 SBL,Culvert,Culvert,Province of Ontario
+64ffda266c6abcc30e397dfbad11758c,telecom,tower,...,...,...,Natural Resources Canada
+66bbf0f5d1e2e99327e69fec0a89cca3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6b2ae93c67bc8d8e8de502465f7d871b,bridges and tunnels,culvert,Culvert 56,Culvert,Culvert,Province of Ontario
+6b642c5143b299597690028ceaf44dc2,bridges and tunnels,culvert,Little French River Culvert,Culvert,Culvert,Province of Ontario
+7311738467b64308c25888fff73b896b,railways,track,..,...,...,Natural Resources Canada
+76b96ecf560cb5ba4d60f6391f6d9154,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+78228117995cfe596041f476a35b7a35,bridges and tunnels,bridge,NORTHWEST ARM OF LAKE NIPISSING BRIDGE,Bridge,Bridge,Province of Ontario
+7be5b19b04c687059dcb5f9c68e3812c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+801195320908ada4a0638c16f647dfa3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+863c4020b3c856f951fc220e89013682,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8fcc87f2618f4f6e9803dcedf18ceb85,bridges and tunnels,culvert,# 62a Culvert Southbound,Culvert,Culvert,Province of Ontario
+91a2782764c6ba9ba2728fb8db2d8fd9,bridges and tunnels,culvert,Murdock River Culvert,Culvert,Culvert,Province of Ontario
+99709af6b701932a1145bb20f4e77905,telecom,tower,...,...,...,Natural Resources Canada
+a2bb0d6c3d334d66cb3acb79066e7c71,railways,track,..,...,...,Natural Resources Canada
+a8f6c14320940286932711298fac44d6,wastewater and storm water,facilities_waste,Noelville Wastewater Treatment Lagoon,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+ae3966e8c39977b267c3c5050d74d01f,railways,track,..,...,...,Natural Resources Canada
+b38f2baa4c770dd963dea05ad5a57dd8,bridges and tunnels,culvert,# 62a Culvert Northbound,Culvert,Culvert,Province of Ontario
+b7c50af5316341563fafa07bf12eace9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b87f9adebf550d933ca72e8e8e18bf1e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ba59191f44996468ebcfe594d97612a5,bridges and tunnels,bridge,WOLSELEY RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+bccae696f4f031a2ac78582a74238e3e,bridges and tunnels,culvert,Culvert No. 2 Sta 10+100,Culvert,Culvert,Province of Ontario
+c5e27a411afd7b8fdbedfb05bde76031,telecom,tower,...,...,...,Natural Resources Canada
+cd21687e22b89e87314efb223fe572b6,solid waste,mixed,Delamere,Dump,Dump,Province of Ontario
+cd845603ca9d067c773bed8beb2cef8b,telecom,tower,...,...,...,Natural Resources Canada
+cf349b64f9bfd5af1a50a18ea80a88f1,bridges and tunnels,culvert,Culvert 56,Culvert,Culvert,Province of Ontario
+d16336aef9010bf8d6a8f39e2ccc76ce,bridges and tunnels,culvert,# 54 Culvert Northbound,Culvert,Culvert,Province of Ontario
+d44b683a5c02541968c338c4e5e072ed,telecom,tower,...,...,...,Natural Resources Canada
+dde6afb5331ade5128038304fbb3acfd,bridges and tunnels,bridge,WOLSELEY RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+e9aae69b4a35cc5af77cf1316a041224,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+eb5733d155d25ba0cfab7aa099fe9846,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f221f7c140ca2f9abb8140859b0a3dc9,bridges and tunnels,bridge,Bay of the French River Bridge,Bridge,Bridge,Province of Ontario
+f7fca231b4737ffc7ba94b16c08cb618,railways,track,..,...,...,Natural Resources Canada

@@ -1,30 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Front Road North,BRIDGES AND TUNNELS,Footbridges
-Concession Road 8,BRIDGES AND TUNNELS,Footbridges
-Pike Road,BRIDGES AND TUNNELS,Footbridges
-Middle Sideroad,BRIDGES AND TUNNELS,Footbridges
-County Road 9,BRIDGES AND TUNNELS,Footbridges
-County Road 20,BRIDGES AND TUNNELS,Footbridges
-Concession Road 2,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Walker Road,BRIDGES AND TUNNELS,Footbridges
-Concession Road 7,BRIDGES AND TUNNELS,Footbridges
-Concession Road 9,BRIDGES AND TUNNELS,Footbridges
-Creek Road,BRIDGES AND TUNNELS,Footbridges
-Canal Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,WASTEWATER STORMWATER,..
-..,WASTEWATER STORMWATER,..
-Concession Road 5 North,BRIDGES AND TUNNELS,Footbridges
-North Sideroad,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Meloche Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Lowes Sideroad,BRIDGES AND TUNNELS,Footbridges
-Concession Road 4 North,BRIDGES AND TUNNELS,Footbridges
-Texas Road,BRIDGES AND TUNNELS,Footbridges
-Concession Road 6 North,BRIDGES AND TUNNELS,Footbridges
-Alma Street,BRIDGES AND TUNNELS,Footbridges
-Howard Avenue,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Concession Road 3,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+019ec0c63d4c7a6a2f1a8be29438b541,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+01a97c52308f8c756a178d1cc064c5ab,railways,track,..,...,...,Natural Resources Canada
+045079cd8ad03e4b17045de95a087d38,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+046dc67c5dd876a91b16eff6312060ed,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+06bd862bc5aae0e30b7139e132c97371,electric grid,power_plants,..,...,...,Natural Resources Canada
+0738c3c28ecfb4b4a381a18a926c657f,railways,track,..,...,...,Natural Resources Canada
+095c53682113895184a2b2e71c80b4fd,railways,track,..,...,...,Natural Resources Canada
+108bf29476c99eb7addd31a756db8d48,telecom,tower,...,...,...,Natural Resources Canada
+13f4fdac7ea6a9b4b4567cddef17585c,telecom,tower,...,...,...,Natural Resources Canada
+1443317d84956178de862722cf8cdfa3,railways,track,..,...,...,Natural Resources Canada
+16a7bdb0a0b8949d0fa26aba6681614e,railways,track,..,...,...,Natural Resources Canada
+198a2d36bf391083476265cb5e453b60,railways,track,..,...,...,Natural Resources Canada
+1b5ceaeb7866965655474230b9b22587,telecom,tower,...,...,...,Natural Resources Canada
+1b9283d1d32779edab7fe0cdfe670624,low carbon,wind,South Side (thames River Ii),...,...,"Government of Canada, Natural Resources Canada"
+1c9acc2a58b719236069689047572d05,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d0ed6f77480c84d627307311cb3a0f9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1ff5c76bd943b7ccdf178d7efadada46,railways,track,..,...,...,Natural Resources Canada
+204d1fee02d6e3fdb9723ded8b83f187,railways,track,..,...,...,Natural Resources Canada
+21fff29b8fcedb16b4219429ea871bd9,telecom,tower,...,...,...,Natural Resources Canada
+240d4c6f92323c8e6f6e6065d58489ed,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+262a8b2aa20f2c460e47c6a986d37573,railways,track,..,...,...,Natural Resources Canada
+27ea6d60d88ba441583c8f3736272396,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+28031121e5b0d0feb0a3e0ba5eccf276,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+29093cd19839ee619f35d46a9d90f70e,railways,track,..,...,...,Natural Resources Canada
+295b5d071761c4d235c6850be17c5b26,railways,track,..,...,...,Natural Resources Canada
+2d0d4404da3dce7e8b5a5f98723f3ea9,railways,track,..,...,...,Natural Resources Canada
+2eb462dd4a047ed964413dcbc8bf969d,wastewater and storm water,facilities_waste,Big Creek Marsh Stp,"Chemical Flocculation, Primary Sedimentation/Clarification, Rotating Biological Contractor, Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+2f08dbab886fc2f03d032bf893e3e849,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f8c9151792ed8c3ad28a17524a37d83,wastewater and storm water,facilities_waste,Boblo Island Sewage Treatment Plant,"Chemical Flocculation, Primary Sedimentation/Clarification, Rotating Biological Contactor, Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+3305f0997608328b0ee84a6db942b071,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+34733e21e82bed8e2e8188e25e501458,railways,track,..,...,...,Natural Resources Canada
+3528e60d8ff8695444ffa6cb322c1f21,railways,track,..,...,...,Natural Resources Canada
+366b87cb276b937998771bf48262290d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+36c27fe4e14902fbf5c0a82d13ff3a5e,low carbon,wind,South Side (thames River Ii),...,...,"Government of Canada, Natural Resources Canada"
+37db46c71c7c99bea9571c9ee474ccfd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3831eb23469ef94ca83b0056a4835ebf,railways,track,..,...,...,Natural Resources Canada
+39074e513f448e092c9fa36f9d9f512a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+395d4f93fd8b30964150dd92724f0805,railways,track,..,...,...,Natural Resources Canada
+3acabe57e7d426f1b5d8b317e1de52bb,railways,track,..,...,...,Natural Resources Canada
+3b18b4a14f333a698c421ceed2fb6238,telecom,tower,...,...,...,Natural Resources Canada
+3ee3964035c7be4805924f01b8cbd260,telecom,tower,...,...,...,Natural Resources Canada
+41d4a1596521711a920f642d07494a21,railways,track,..,...,...,Natural Resources Canada
+431af03e590497b420caf06504269d5e,railways,track,..,...,...,Natural Resources Canada
+457389ffe83db6471d13e4c527cd48e2,telecom,tower,...,...,...,Natural Resources Canada
+45f42a784da67eba3317088e25b7d37d,railways,track,..,...,...,Natural Resources Canada
+467d6d37ba1c7fe80d119d6d51370969,railways,track,..,...,...,Natural Resources Canada
+4b3c2edb08ce83ab1ea0fe4e9eb8e38a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4b8d4d02ef8290b1418f6d12404ef5d5,railways,track,..,...,...,Natural Resources Canada
+4bbcbc3e4d0290eda0d9430a94b0ff4d,railways,track,..,...,...,Natural Resources Canada

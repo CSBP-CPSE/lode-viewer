@@ -1,23 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-King Street West,BRIDGES AND TUNNELS,Footbridges
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-Elgin Street West,BRIDGES AND TUNNELS,Footbridges
-Nagle Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-ONTARIO STREET / HAMILTON TWP BR #9 U/P,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-Baltimore Road,BRIDGES AND TUNNELS,Footbridges
-HIGHWAY 45 UNDERPASS (DIVISION ST),BRIDGES AND TUNNELS,..
-Ontario Street,BRIDGES AND TUNNELS,Footbridges
-Spencer Street West,BRIDGES AND TUNNELS,Footbridges
-NAGLE ROAD U/PASS,BRIDGES AND TUNNELS,..
-Acadia Drive,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Harden Street,BRIDGES AND TUNNELS,Footbridges
-Burnham Street,BRIDGES AND TUNNELS,Footbridges
-County Road 2,BRIDGES AND TUNNELS,Footbridges
-COBOURG CREEK / HAMILTON TWP BR #10,BRIDGES AND TUNNELS,..
-DYEWORKS CREEK CULVERT,BRIDGES AND TUNNELS,..
-William Street,BRIDGES AND TUNNELS,Footbridges
-BURNHAM STREET / HAMILTON TWP BR #7 U/P,BRIDGES AND TUNNELS,..
-Lakeshore Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02f0baf226ac87b5183fe80b37db635a,railways,track,..,...,...,Natural Resources Canada
+04cef7c40970ac821c1d8186c6a68291,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+07d025e9b7de111739b65f1e7266a94d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+09bc7e1207500d1d7018dbe0a7fed848,railways,track,..,...,...,Natural Resources Canada
+0b74c58e773e8d083da147659f8c6193,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0d38aae64f4ff8b31f20f64e2ad974c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0d857bb824e71a373b01e09bcac519c8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f737297c4c2589676715524784b2425,railways,track,..,...,...,Natural Resources Canada
+0fe5ea078c97e33bc53bd6e3dd0cc948,railways,track,Cobourg Industrial,...,...,Natural Resources Canada
+11e2b38757bc19941cb05fd0feecefda,railways,track,Cobourg Industrial,...,...,Natural Resources Canada
+13ea8634e75b7e06fc3247c821f058e7,railways,track,..,...,...,Natural Resources Canada
+167139336c9f633f46357229379dc4fb,airports,...,Cobourg (northumberland Hills Hospital) Heliport,heliport,...,OurAirports
+1ad08191e148c3e29900389e8b7cfe58,railways,track,G.e. Plastics,...,...,Natural Resources Canada
+21cf8612b715188197f4681a96f11f7a,railways,track,Cobourg Industrial,...,...,Natural Resources Canada
+232bc62bea277bf4b7eb813919574c6d,railways,track,..,...,...,Natural Resources Canada
+251cb35fb7e19e896d2769658fbd0e58,railways,track,Cobourg Industrial,...,...,Natural Resources Canada
+2a6489ef9fb8bf952beeef3cd6382266,wastewater and storm water,facilities_waste,Water Pollution Control Plant #1,"Grit Removal, Screening, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+3352d38568964a77c574bc63dcb0d701,railways,track,..,...,...,Natural Resources Canada
+36e023f511b0528851ec4b38d52581d6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+38fee708a8d6bea5d496c2062cd13274,bridges and tunnels,bridge,COBOURG CREEK / HAMILTON TWP BR #10,Bridge,Bridge,Province of Ontario
+39240a942212c170fd65d45af544f2d7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+424fe29c01aa893647d41ea334116761,railways,track,..,...,...,Natural Resources Canada
+47eb1a844ac76d309b2c8f966cc74882,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4a1428fad1f430dcd1281f6e62e16dd0,railways,track,Cobourg Industrial,...,...,Natural Resources Canada
+4adedcaae62dff621cffcef2ba2ec37f,bridges and tunnels,culvert,Midtown Creek East Culvert,Culvert,Culvert,Province of Ontario
+4d52af33b287d66e6a60a71b1caf8afe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4dd2b79d2f43b6f1a1250ecfcfa5f053,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+589956df9fdc89b966d5cf163985cd19,railways,track,Cobourg Industrial,...,...,Natural Resources Canada
+58bca1e1906d4fc1e5f7967c33ca97e7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+59b2da5920e7ffd4ee23eaf12715dad6,railways,track,..,...,...,Natural Resources Canada
+5be15b65ce5b456bc43701faeb2d15f2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5c94900ed4d766be20de4fc8ce4ab7b2,railways,track,..,...,...,Natural Resources Canada
+5e886d831558b4f8ef5bfa6877b9daa1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+622ce8a4eb48b5e48643384cffb39fbd,railways,track,Cobourg Industrial,...,...,Natural Resources Canada
+66345dbfe9d1935cf2d93c3d8bc63f14,railways,track,..,...,...,Natural Resources Canada
+6ce925d35d8d536c3f9462a6167c8c9f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e5bb4303842500698e842e23547cd13,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6f1b9a4c18cc9f7ae2ec12a25acdf424,railways,track,Cobourg Industrial,...,...,Natural Resources Canada
+703949eb6bc721a636782f2fb15ef97e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+73933bb08051437cdb77a14f1d54580c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+765184d7f811a558e23c77810cd125c1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77113c9477b6e763edae0330a72bd605,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+7a8780a00ce0b770744e85be107c50c4,railways,track,General Foods,...,...,Natural Resources Canada
+7ae3773fd408d3bfb371c49ca82618f4,wastewater and storm water,facilities_waste,Water Pollution Control Plant #2,"Grit Removal, Screening, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Sequencing Batch Reactor, Chemical Precipitation (Phosphorus), Disinfection",Unclassified,Environment and Climate Change Canada
+7d119bdab55319c8e5774b6ca4754870,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+80b3a75f396161da6956f6e1c583dd26,ports and marinas,port,Cobourg,..,...,National Geospatial-Intelligence Agency (NGA)
+82e1ee903d45eaa6c5237995153cd82d,railways,track,Cobourg Industrial,...,...,Natural Resources Canada
+87636919b14c18e349cd5c020aef17b3,bridges and tunnels,bridge,HIGHWAY 45 UNDERPASS (DIVISION ST),Bridge,Bridge,Province of Ontario
+8886764c285c5a926b8a5bbe7c5c1e17,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

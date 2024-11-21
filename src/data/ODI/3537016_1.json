@@ -1,48 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Ferris Road,BRIDGES AND TUNNELS,Footbridges
-Marsh Road,BRIDGES AND TUNNELS,Footbridges
-Gesto Sideroad,BRIDGES AND TUNNELS,Footbridges
-SITE 6-412,BRIDGES AND TUNNELS,..
-Concession Road 12,BRIDGES AND TUNNELS,Footbridges
-Iler Road,BRIDGES AND TUNNELS,Footbridges
-Snake Lane,BRIDGES AND TUNNELS,Footbridges
-SITE 6-416,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-South Malden Road,BRIDGES AND TUNNELS,Footbridges
-Concession Road 13,BRIDGES AND TUNNELS,Footbridges
-Maple Avenue,BRIDGES AND TUNNELS,Footbridges
-Batton Sideroad,BRIDGES AND TUNNELS,Footbridges
-Concession Road 8,BRIDGES AND TUNNELS,Footbridges
-Walker Sideroad,BRIDGES AND TUNNELS,Footbridges
-Drummond Road,BRIDGES AND TUNNELS,Footbridges
-County Road 15,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-Concession Road 3,BRIDGES AND TUNNELS,Footbridges
-Dolson Road,BRIDGES AND TUNNELS,Footbridges
-County Road 20,BRIDGES AND TUNNELS,Footbridges
-Mole Sideroad,BRIDGES AND TUNNELS,Footbridges
-Brush Sideroad,BRIDGES AND TUNNELS,Footbridges
-Old Malden Road,BRIDGES AND TUNNELS,Footbridges
-Townline Road Colchester South Malden,BRIDGES AND TUNNELS,Footbridges
-Concession Road 10,BRIDGES AND TUNNELS,Footbridges
-Pinkerton Road,BRIDGES AND TUNNELS,Footbridges
-Concession Road 5,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Trembley Sideroad,BRIDGES AND TUNNELS,Footbridges
-North Malden Road,BRIDGES AND TUNNELS,Footbridges
-County Road 50 East,BRIDGES AND TUNNELS,Footbridges
-Concession Road 6,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-Townline Road Malden Colchester South,BRIDGES AND TUNNELS,Footbridges
-Lypps Beach Road,BRIDGES AND TUNNELS,Footbridges
-CULVERT #588,BRIDGES AND TUNNELS,..
-SITE 6-414 Essex Sewage Works,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-Concession Road 4,BRIDGES AND TUNNELS,Footbridges
-County Road 12,BRIDGES AND TUNNELS,Footbridges
-Culvert #589,BRIDGES AND TUNNELS,..
-Walker Road,BRIDGES AND TUNNELS,Footbridges
-County Road 18,BRIDGES AND TUNNELS,Footbridges
-ESSEX ARENA,..,..
-McCormick Road,BRIDGES AND TUNNELS,Footbridges
-Essex Arena,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+009e72f8ad03d7db874be761fdcf10c4,electric grid,power_plants,..,...,...,Natural Resources Canada
+00a8d6cde4b1f64d215674052b300be8,low carbon,wind,Harrow,...,...,"Government of Canada, Natural Resources Canada"
+016ea200ad8c3551cecea97ccaf83d4f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+04a929bd1fc4572caf3b956e0e292bf3,telecom,tower,...,...,...,Natural Resources Canada
+04e7f7031b776e2de7810620eda458d7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+04e899cd6485d5bce8cd47247882594a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+06c2fac7eca760b1b98533499a9c7073,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0fca643ce3e4ca9639d4f9e41fcf3369,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+10e2ad48e758c370ce47a8bb0def658f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+12b63a34aba366c0b43a0942cf6b83fa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+15f367c060654bf288e70995302f729f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+16da539357e4906beff4c5d7253601cc,telecom,tower,...,...,...,Natural Resources Canada
+171b366a2bb4a405a88d67893461e11b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19634f9e9e2469d8f45d35b24eced660,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19adcf61f4ee68f4528c979d73eaf206,solid waste,landfill,Essex-windsor Regional Landfill,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+1b2755baabbee83a1b8b4006ff72bfaf,airports,...,Essex Airport,small_airport,...,OurAirports
+1ba5338556e11acd0af7ed9ccd4ce3c3,telecom,tower,...,...,...,Natural Resources Canada
+1c8fd19231b8d40127975f44a488354f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f8389355c864fd3c2fc7937f2210592,low carbon,wind,Harrow,...,...,"Government of Canada, Natural Resources Canada"
+226a3aa8cf6d689eab419afda3f0e78b,low carbon,wind,Harrow,...,...,"Government of Canada, Natural Resources Canada"
+265569ae9028efbb29b255e2e09c1b68,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+28031ad5f7f90fafb665eb377168f9d7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f3c6fcef74776e05cc720f6bfdeb710,bridges and tunnels,culvert,CULVERT #588,Culvert,Culvert,Province of Ontario
+2fdc05f40862ed0cb872479eda03fefb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3277c31365c1534873ca10df084eaea4,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+32d3a874edecdc82cdd3380fb215d3ce,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+367371da615106c66b1dd492e288f562,low carbon,wind,Harrow,...,...,"Government of Canada, Natural Resources Canada"
+37432314a46d8c77de53b480949f51ce,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+376e94ee77b86cd263a7c7507cdac3c4,low carbon,wind,Harrow,...,...,"Government of Canada, Natural Resources Canada"
+38839606c326d67fd526afffc90ad32a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+39286583b6dc9e86f884eb91b6965121,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+39f2d27e69b7a9b5e56300d2d0c9dd83,bridges and tunnels,culvert,SITE 6-416,Culvert,Culvert,Province of Ontario
+3b30572da111307d59d9b205857334ad,low carbon,wind,Oxley Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+3cb26ebd266235a74ed0212890b65468,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+40a89b04cd24396ab2ed95f52f5ce983,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+46e20b204935311edb8684129f4677fe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+473e73247cf8da1d3a091d63f44b4b3d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+49e388ec3a194d0f3355b6ed97f1e159,bridges and tunnels,culvert,Culvert #589,Culvert,Culvert,Province of Ontario
+4c632f9003d0a8780308254ad206a5bc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4f15adf9b4a9e44d08f6e3e6163ef2d0,low carbon,wind,North Malden (thames River Ii),...,...,"Government of Canada, Natural Resources Canada"
+5032d1bdd69dd207749be6f02a114832,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5175418f127e6cadee5c5aae3d7947af,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+557f684a39074e30b1d78dfb38b67fa9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+596d896caac198ef00ffaedd5e00a8a5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a019947652d403c3baec3741b4de4c8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5cb2a32f60a9675e46173cecffaeeb36,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+65485daeaba2accd3ed1e5095f7c59f9,low carbon,wind,Harrow,...,...,"Government of Canada, Natural Resources Canada"
+6577bcb4bb820843d3d3a361f3de78e3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6676f5a762c51de6196b203d485c3f04,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

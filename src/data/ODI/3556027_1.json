@@ -1,40 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-Airport Road,BRIDGES AND TUNNELS,Footbridges
-Bruce Avenue West,BRIDGES AND TUNNELS,Footbridges
-Hillside Avenue,BRIDGES AND TUNNELS,Footbridges
-CRIPPLE CREEK BRIDGE,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-Golden Avenue,BRIDGES AND TUNNELS,Footbridges
-Carlin Avenue,BRIDGES AND TUNNELS,Footbridges
-Polaris Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-MOOSE (MATHESON) CREEK BRIDGE,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-..,WASTEWATER STORMWATER,..
-Dalton Road,BRIDGES AND TUNNELS,Footbridges
-FREDERICKHOUSE RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Vimy Avenue,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Highway 144,BRIDGES AND TUNNELS,Footbridges
-PORCUPINE RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Laforest Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-TATACHIKAPIKA RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Pearl Avenue,BRIDGES AND TUNNELS,Footbridges
-Finn Road,BRIDGES AND TUNNELS,Footbridges
-CULVERT,BRIDGES AND TUNNELS,..
-CULVERT,BRIDGES AND TUNNELS,..
-MOOSE CREEK BRIDGE,BRIDGES AND TUNNELS,..
-Lafleur Drive,BRIDGES AND TUNNELS,Footbridges
-Feldman Road,BRIDGES AND TUNNELS,Footbridges
-Pine Street South,BRIDGES AND TUNNELS,Footbridges
-Highway 101,BRIDGES AND TUNNELS,Footbridges
-Frederick House Lake Road,BRIDGES AND TUNNELS,Footbridges
-Algonquin Boulevard West,BRIDGES AND TUNNELS,Footbridges
-Highway 101 East,BRIDGES AND TUNNELS,Footbridges
-Municipal Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Evans Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0015b861c4b1e71f2b9064e26224c48e,railways,track,..,...,...,Natural Resources Canada
+00d50fedc080770cab771226523305dd,railways,track,..,...,...,Natural Resources Canada
+016613a80d4ad160d75293b698d5b499,railways,track,..,...,...,Natural Resources Canada
+03e9f7a6445c5adc0c39344c2827734e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+06711eeef8737cdb060c2f181bd7a2ed,railways,track,..,...,...,Natural Resources Canada
+09ce45981ea2b92ab032c5dca75f8269,wastewater and storm water,facilities_waste,Whitney-tisdale Wpcp,"Grit Removal, Screening, Other Treatment",Unclassified,Environment and Climate Change Canada
+0a263495b6ec531ea1bf82f5abdf5980,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0a38a08cda10f1e271154a9f22bc8dae,solid waste,mixed,Gagnon & Sons Enterprises,Waste Processing or Sorting,Material recovery,Province of Ontario
+0acc7aecbadb6e93b494770e5e6d3e44,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0ba0cd9c3f00e4af3b0fd02fd9592899,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0c324a2ba0bb67ae442ea408ddbfdda9,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0e9083c9339f186736f1f5c76eb3d9f0,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0ebd08eec35edb66f23dc0d1241c9849,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0fa11501aa7e0e4973ad519579b010f6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0fcf4c0bd0f864fe6c47464698f3ed83,railways,track,..,...,...,Natural Resources Canada
+0fecd9567c66c0577f44a9c46fb20c0d,railways,track,..,...,...,Natural Resources Canada
+10120935e17c3e2fb0fdf65f94177e37,solid waste,landfill,The Corporation Of The City Of Timmins,..,Dump site,Province of Ontario
+125fe5c0d5316285ad684ed1eeb27e96,railways,track,..,...,...,Natural Resources Canada
+1301acc76c8e3bc3ea40cf798fe4124b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+136824396a0e30dbea851ef034a397e9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+139ac525d860594b3c71197877b85ea7,railways,track,..,...,...,Natural Resources Canada
+13fe1e7e451b6b13f22e5021ce3cffac,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+145c7a554e02e6810533a9cf456085a6,railways,track,..,...,...,Natural Resources Canada
+14ec7ae74ad98cb533ef6d919b522a9b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+15ce3849f29820e7a42567421912880d,railways,track,..,...,...,Natural Resources Canada
+16415b7a31a121d58b2d54a392aaae05,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1652cfae8c7132aa344976cd1de8872a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+16a28dcf54e066e46d88d69c93e0f8f4,railways,track,..,...,...,Natural Resources Canada
+16faf58aa3239b3cac76b2123b28177e,wastewater and storm water,facilities_waste,Mattagami Water Pollution Control Plan,"Grit Removal, Screening, Primary Sedimentation/Clarification",Unclassified,Environment and Climate Change Canada
+17c5fbe8f1aca6309feafe55caf28962,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+17f0ca48b59a2861da42477f1e942f54,telecom,tower,...,...,...,Natural Resources Canada
+18a7426a6d7dce1bca129fd6239da78e,railways,track,..,...,...,Natural Resources Canada
+1b01b34084dc061f6c6b7e0a18f135c0,railways,track,..,...,...,Natural Resources Canada
+1bcc4f321018f57d506f12eea8c3e9e8,railways,track,..,...,...,Natural Resources Canada
+1c93521928819377ae0758cae1b66b14,railways,track,..,...,...,Natural Resources Canada
+1d1707126417c0eb8c841855a6b123a7,railways,track,..,...,...,Natural Resources Canada
+1e08b1a8808243b3036a9d3f6e39ffc8,railways,track,..,...,...,Natural Resources Canada
+1e5f0d87711d96818e2dee10be0e29d7,railways,track,..,...,...,Natural Resources Canada
+1eb8744bb2d3a003bef9a7537761eeef,solid waste,mixed,Evelyn Dump,Landfill,Engineered landfill,Province of Ontario
+21542658e8279492a6ef45aca9a2684c,railways,track,..,...,...,Natural Resources Canada
+21ce518b7a85c072dced5b16a0176291,railways,track,..,...,...,Natural Resources Canada
+2243938c42d9fa8c48beb9444cbfe3b9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2456cebbeb5c44d3865062ffe65bbbdb,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2514eb4e93c1ce3fe36501cff75d741c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+26a96ea658edf5d4d65a75d9006ab01b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+27a336112b74137503c4e8c7acaa2c0d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+28efc5ffd943b331ca73edb461ecbde7,railways,track,..,...,...,Natural Resources Canada
+2a025002a2321049de448686cbffd9cd,railways,track,..,...,...,Natural Resources Canada
+2a52e17ae6f3f1907951e660cfd97552,railways,track,..,...,...,Natural Resources Canada

@@ -1,29 +1,49 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-East Linton Sideroad West,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Grey Road 18,BRIDGES AND TUNNELS,Footbridges
-Grey Road 16,BRIDGES AND TUNNELS,Footbridges
-Ledgerock Road,BRIDGES AND TUNNELS,Footbridges
-Church Sideroad West,BRIDGES AND TUNNELS,Footbridges
-Grey Road 3,BRIDGES AND TUNNELS,Footbridges
-Grey Road 170,BRIDGES AND TUNNELS,Footbridges
-Old Mill Road,BRIDGES AND TUNNELS,Footbridges
-Indian Acres Road West,BRIDGES AND TUNNELS,Footbridges
-Concession 3 Derby,BRIDGES AND TUNNELS,Footbridges
-Grey Road 1,BRIDGES AND TUNNELS,Footbridges
-Sideroad 3,BRIDGES AND TUNNELS,Footbridges
-Shallow Lake Bridge,BRIDGES AND TUNNELS,..
-Princess Street,BRIDGES AND TUNNELS,Footbridges
-Dawson Road,BRIDGES AND TUNNELS,Footbridges
-Portland Street,BRIDGES AND TUNNELS,Footbridges
-POTTAWATOMI RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Cruickshank Street,BRIDGES AND TUNNELS,Footbridges
-Main Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Concession 14,BRIDGES AND TUNNELS,Footbridges
-CULVERT 482,BRIDGES AND TUNNELS,..
-Sarawak Keppel Townline,BRIDGES AND TUNNELS,Footbridges
-CULVERT 483,BRIDGES AND TUNNELS,..
-Concession 16,BRIDGES AND TUNNELS,Footbridges
-Highway 6 & 21,BRIDGES AND TUNNELS,Footbridges
-Lindenwood Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+04d9b95256a91d35e8c50e2b701fba32,bridges and tunnels,culvert,CULVERT,Culvert,Culvert,Province of Ontario
+0a908803a447ef45b16538ca11af9a38,bridges and tunnels,bridge,Shallow Lake Bridge,Bridge,Bridge,Province of Ontario
+0d630e15b5ae9f8087f49764d4f1341e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+18f83a30b4117ca2bd3c7cff036936f0,telecom,tower,...,...,...,Natural Resources Canada
+1c3ba86a38e1e7dfc2af58fc645e90f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+27e1521cd5b24a44e7c0c8898e26821e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2fd6ba6ce70bdcd3eaf29a1826989d8f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+47ef43e7a0c8b34f685c0571422fae95,bridges and tunnels,culvert,CULVERT - CLAVERING CREEK,Culvert,Culvert,Province of Ontario
+51e7d38f4f1cffab717de35f47e1572d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5270de3b15fc687bef5e16d4cc53a177,telecom,tower,...,...,...,Natural Resources Canada
+540f24e0d65006d1b5ed186d411abd70,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+54e60e8d24a1377bde6556c3fc283aa9,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+57b985f707ecd299c85c79a0da3fa54d,telecom,tower,...,...,...,Natural Resources Canada
+58bcba285c2436e34914ff34da8f4c4c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+599eb86ec9b41c157793820c200223aa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5ee22c6a3fbd144ab761d22b1059dd95,bridges and tunnels,culvert,CULVERT,Culvert,Culvert,Province of Ontario
+5f7b5499fcbaef7c56344411781b506f,ports and marinas,mixed,Big Bay (north Keppel),Recreational,...,Fisheries and Oceans Canada
+6060258eb26dd548957d6d47cd0c57ab,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+608b0333515a5974afa5dc4ccf2cd552,airports,...,East Linton (kerr Field),small_airport,...,OurAirports
+6777a80958c4e2f689c671170a768712,telecom,tower,...,...,...,Natural Resources Canada
+6b4be9501183b996401a2fe70c2c3801,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e3f5257d741879c13e6b1bb00b74fba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+712201be92363ab1a338eb9d2de78766,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+74ace5bbe7936f70ae3007ef1e96890c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7cee2d393aac368f9301eff6f54ba7a8,telecom,tower,...,...,...,Natural Resources Canada
+8173eef7716580027cf7e12a61d35d00,telecom,tower,...,...,...,Natural Resources Canada
+818e985776ff741c2c82e53292049fc1,bridges and tunnels,bridge,POTTAWATOMI RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+81dbe362aa538eb967e03e95b3aec444,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+83e4485b63a188cb8f4c5688cb395eb8,bridges and tunnels,culvert,NORTH SPEY RIVER CULVERT,Culvert,Culvert,Province of Ontario
+860f8bb9ce305e2fdcf9cabb84e71f21,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+894ebe044c9de75432e7c0a298cdbae5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+90fad1f1e33987ebff13c65506ef2e1a,bridges and tunnels,culvert,CULVERT 483,Culvert,Culvert,Province of Ontario
+a5ac0fd3539097077b94847f61b63a9d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+af49f21732866e93421a5b75be94f734,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b024347dc2dabcb0ff900c5d0ea2c29f,airports,...,Griffith Island,small_airport,...,OurAirports
+b2f1873e1a5a3914660f4a6407fc63f6,bridges and tunnels,culvert,CULVERT 482,Culvert,Culvert,Province of Ontario
+b5356d9a59d4de28afb55294cadd9953,airports,...,Wiarton Airport,medium_airport,...,OurAirports
+c484acd2a7dc44a6b003fcc1d170bd2b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c5d09b41356b0d2a30f9c3bf396bbe7d,wastewater and storm water,facilities_waste,Wiarton Wastewater Treatment Lagoon,"Chemical Flocculation, Lagoons - Aerated, Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+cdd991242d8394f74b671ffd6590d14d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cfa9c72d97ba7a8b2499e55d779354c5,ports and marinas,mixed,Owen Sound-marina,Recreational,...,Fisheries and Oceans Canada
+da351ad07202ec1b0b16633f7cd4bac9,bridges and tunnels,culvert,CULVERT,Culvert,Culvert,Province of Ontario
+da358fba0048a52dc0bdbb7adc920530,ports and marinas,mixed,White Cloud Island (north Keppel),Recreational,...,Fisheries and Oceans Canada
+e32df95571f3776ceebde0a6365af5f6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e603fef734c49e2979d37d458e65f93a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eb9ad2f968ce0d83cb565ae2d238cc4e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ee48a6feaa1f71cf35bfd789847fc07c,airports,...,White Cloud Island,small_airport,...,OurAirports
+f62399aef791e4ddbd5228ee21a4ad04,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

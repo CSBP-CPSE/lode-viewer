@@ -1,25 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Adair Road,BRIDGES AND TUNNELS,Footbridges
-McQuay Road,BRIDGES AND TUNNELS,Footbridges
-County Road 4,BRIDGES AND TUNNELS,Footbridges
-Ottawa Street,BRIDGES AND TUNNELS,Footbridges
-County Road 41,BRIDGES AND TUNNELS,Footbridges
-Colebrook Road,BRIDGES AND TUNNELS,Footbridges
-9th Concession Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Shibagua Road,BRIDGES AND TUNNELS,Footbridges
-County Road 6,BRIDGES AND TUNNELS,Footbridges
-Teskey Road,BRIDGES AND TUNNELS,Footbridges
-Bridge Street East,BRIDGES AND TUNNELS,Footbridges
-Tweed Road,BRIDGES AND TUNNELS,Footbridges
-County Road 1 East,BRIDGES AND TUNNELS,Footbridges
-Main Street,BRIDGES AND TUNNELS,Footbridges
-County Road 15,BRIDGES AND TUNNELS,Footbridges
-Sheffield Bridge Road,BRIDGES AND TUNNELS,Footbridges
-California Road,BRIDGES AND TUNNELS,Footbridges
-County Road 27,BRIDGES AND TUNNELS,Footbridges
-County Road 16,BRIDGES AND TUNNELS,Footbridges
-Woodcocks Mills Road,BRIDGES AND TUNNELS,Footbridges
-Curl Road,BRIDGES AND TUNNELS,Footbridges
-Thompson Hill Road,BRIDGES AND TUNNELS,Footbridges
-County Road 14,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+05b2107a69c7d3729302695d43ca43fc,electric grid,power_plants,..,...,...,Natural Resources Canada
+1c33328d64540a1a66f2750963ecec30,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f0a432ec56807ab247f875f561eaca1,telecom,tower,...,...,...,Natural Resources Canada
+26bdf4edc9dec237a9f07b00a25b66df,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f4c6084de2e8066d339e5d6e32f8735,electric grid,power_plants,..,...,...,Natural Resources Canada
+3ee4db91912462c430a9ce6e4110d619,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+43fb01211a482c61994246f9aa5b8f63,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+48403a943278b91239187190a389142f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4cb23c07590b02a6f18a963169f2a8be,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+531523f580172272433462a7a56febf8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+55aa6e617bdeae8512233f8b3998d322,railways,track,..,...,...,Natural Resources Canada
+56c05c90b2c84d47efa0a5b3a88bf628,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5892ea85708102a742b06f07dd6283b9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+58e7f3868af1ec4190d97487bff3cd42,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e32fdd254d2b52ad49e97af0a3881f2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6e8143dc3c7c479c94085525a01b0bde,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7113f90bb19588dd53a17d33aa6a9b2f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+76dd611956bdd325de3b3b54070ceaf5,airports,...,D.c. Heliport,heliport,...,OurAirports
+770c9fb02b31cc692169f2254eeb16f9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+783af1236322392a6a639aca49dc68e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7f94f9232427e89fba517ed142308c03,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+848bc73207ff9345a7243c25e4460975,low carbon,solar,First Light I,...,...,World Resources Institute
+87288002e9fe5df0a1b180af36e4e251,electric grid,power_plants,..,...,...,Natural Resources Canada
+87b3d6a81a1c2b1111af2168d1df3f96,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+88e6df2f1d527df10e6a85ab412885a3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8c00c3f6d72ee91d55c1b24534890db0,airports,...,Selby - Howard's Airstrip,small_airport,...,OurAirports
+8f1bbe8760a94243eee611978d9c6ddb,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+8fe1c924178d3abe151052ac795b08fe,railways,track,..,...,...,Natural Resources Canada
+9295c48f4d53ecfb033842aa5edd2bf3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9c4ade3854070588ff560a02fb90bc89,low carbon,solar,Loyalist,...,...,World Resources Institute
+a0383b7926703981c8358dfc431b8852,low carbon,solar,Stone Mills,...,...,World Resources Institute
+a0819af3716aa895379d438fe1c8fec2,airports,...,Camden East / Varty Lake Airport,small_airport,...,OurAirports
+a22cd56185d5e1f02c96a7c0f5d4b3b2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aa66634f554f77619510f99e6fa2cb9d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aebfd1a7fbb12fe5311217352a5307b0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b5b68f72ba30fecabf5caad4e44ba958,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b9768240a575310041c2ca2944fa149c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+be31a7008019fb4419186de188440958,low carbon,solar,Stonepeak Stone Mills,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+caa6a9b80f4df491ea7b750befea445b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cd229e23f25d91347baf9ae930667db0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d065ccb32d0558ad765ccd46a1e60c62,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d56f6f4d4412565509aa9a0d7610fb3d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d65fdda7979d77746e2e9ce19edd2971,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d8c018cce053299bdc5bc1f0043685f1,telecom,tower,...,...,...,Natural Resources Canada
+e15223daf62f729d2eb732d72f825ba3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ea37a39038126d7e271b05cdef29a851,low carbon,solar,First Light Ii,...,...,World Resources Institute
+eae3f0abd86d3731527762b23be52170,telecom,tower,...,...,...,Natural Resources Canada
+f3af3023c6df5b59a0e201a976e3d16c,airports,...,Newburgh - R.s. (bob) Clapp Memorial Airstrip,small_airport,...,OurAirports
+f726856bb0e9ce108b5021275cc00e94,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

@@ -1,32 +1,27 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-QEW - east of Casablanca Blvd. Culvert,BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,biking
-Casablanca Blvd. @ QEW Park & Ride,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Queen Elizabeth Way,BRIDGES AND TUNNELS,Footbridges
-CHRISTIE ST UPASS (QEW),BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-"40-MI. CK. BR. AT GRIMSBY-WBL.
-South Bridge",BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,..
-"BARTLETT AVE. BRIDGE, E.B.L.",BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Casablanca Blvd. U'Pass,BRIDGES AND TUNNELS,..
- ONTARIO  ST.  U/P   Q.E.W.,BRIDGES AND TUNNELS,..
-Ontario Street,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-"BARTLETT AVE. BRIDGE, W.B.L.",BRIDGES AND TUNNELS,..
-Oakes Road North,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+a88cec4d6887b42c21b01b61fa359e45,telecom,tower,...,...,...,Natural Resources Canada
+a92728e42ccaba0c62955cf3de894b6c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a9804b2e9617924eae9f0b8fadc174c3,telecom,tower,...,...,...,Natural Resources Canada
+aade675ed37626906a452bb181f85bdd,bridges and tunnels,bridge,Casablanca Blvd. U'Pass,Bridge,Bridge,Province of Ontario
+ad2d5bf19e48fbed98b4ff213324f584,bridges and tunnels,bridge,ONTARIO  ST.  U/P   Q.E.W.,Bridge,Bridge,Province of Ontario
+b11ab363cdad11da2f7a4918676586b7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b2fde1a40a97b0bd013265d641b9557f,bridges and tunnels,culvert,40 Mile Creek Bridge at Olive St,Culvert,Culvert,Province of Ontario
+b356b3999b61cc71537dfc009502b97b,bridges and tunnels,culvert,QEW - east of Casablanca Blvd. Culvert,Culvert,Culvert,Province of Ontario
+b699f7d763a28a4dfecc4397df584b52,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ba606e3c7e4b8eaa326bd650a16811c5,electric grid,power_plants,..,...,...,Natural Resources Canada
+c16a6c0c27329eb8cc93414faaa2a29d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c2abb7f66cb9afaf7b0503639eb86549,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cb2d1b38bcdbd130e6fc8693414f55ce,railways,station,Nelles Road,...,...,Natural Resources Canada
+ce7c7a6e2a03d0304813369651aadb84,bridges and tunnels,bridge,MAPLE AVE U/P ON QEW (SBL),Bridge,Bridge,Province of Ontario
+d199ba7c59e4e8369c2cbba411788944,telecom,tower,...,...,...,Natural Resources Canada
+d1ec876361684ad7b296a618d59aa73d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d363ecbdbef596e21da7e0286cfee99b,bridges and tunnels,culvert,QEW - west of Baker Road Culvert,Culvert,Culvert,Province of Ontario
+d63438edcff3987eac1a618a015320d9,railways,track,..,...,...,Natural Resources Canada
+dde521df9985cc9d93a212865a5c8dd9,wastewater and storm water,facilities_waste,Baker Road Wastewater Treatment Plant,..,Waste treatment plant,Environment and Climate Change Canada
+e8a9a7037b5c8b41e513c623f0536593,solid waste,landfill,Park Road Landfill,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+f270f4a6dbd15df0e879cba6848fc6a0,telecom,tower,...,...,...,Natural Resources Canada
+f49b78c1f1fa18939c57bf73d1c4c2eb,bridges and tunnels,bridge,CHRISTIE ST UPASS (QEW),Bridge,Bridge,Province of Ontario
+f5831d53b084e7a35029acdd800862ed,telecom,tower,...,...,...,Natural Resources Canada
+f87ef964f3f82f95685c1bb98f620453,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fcb5efccc643747d085840f831484391,telecom,tower,...,...,...,Natural Resources Canada
+fffedd8e9a8cf6bf07a7afef047daad5,telecom,tower,...,...,...,Natural Resources Canada

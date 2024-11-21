@@ -1,32 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Big Fournier Creek Culvert,BRIDGES AND TUNNELS,..
-OTTAWA RIVER TRIBUTARY CULVERT,BRIDGES AND TUNNELS,..
-DUCHESNAY CREEK CULVERT,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-DUCHESNAY CREEK BRIDGE ,BRIDGES AND TUNNELS,..
-Highway 805,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-GRASSY LAKE BRIDGE,BRIDGES AND TUNNELS,..
-Marten Lake Culvert,BRIDGES AND TUNNELS,..
-Tomiko River Bridge,BRIDGES AND TUNNELS,..
-Redbridge Creek Culvert,BRIDGES AND TUNNELS,..
-Highway 64,BRIDGES AND TUNNELS,Footbridges
-Songis Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-Bridge Over Little Jocko River,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-EAST BALSAM CREEK CULVERT,BRIDGES AND TUNNELS,..
-..,SOLID WASTE,Active Dump Sites
-North Creek Culvert,BRIDGES AND TUNNELS,..
-Big Jocko River Bridge,BRIDGES AND TUNNELS,..
-Highway 17b,BRIDGES AND TUNNELS,Footbridges
-Marten Lake Road,BRIDGES AND TUNNELS,Footbridges
-Holdridge Creek,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-Highway 11,BRIDGES AND TUNNELS,Footbridges
-Highway 63,BRIDGES AND TUNNELS,Footbridges
-Couchie Memorial Dr,..,..
-BALSAM CREEK CULVERT,BRIDGES AND TUNNELS,..
-Little Sturgeon River,BRIDGES AND TUNNELS,..
-CNR OVERHEAD,BRIDGES AND TUNNELS,..
-MCINNIS CREEK CULVERT,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+092e505c413b770dc3447738519ec85b,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+11d125082c952dec3f56fe5c9b1ef409,solid waste,landfill,Corporation Of The City Of North Bay,..,Dump site,Province of Ontario
+1572167c14e4d741b027170842c0818c,oil and gas,pipelines,..,..,...,Natural Resources Canada
+169030fe127d5af1c41e3a77255be2a6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f24e187ee5bc557f3ed4edbbd11f7f0,telecom,tower,...,...,...,Natural Resources Canada
+1f492bc1fc37d2b0d06a8b2b60f4cb60,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+1fbc8083dd36b48fd4c4ab72fbe813c4,bridges and tunnels,bridge,DUCHESNAY CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+2182849b88c105667f42d73300062ae6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+21989259a8b4610b840c54f8f8f845f9,telecom,tower,...,...,...,Natural Resources Canada
+21b88d80a1219747a1242a178c0557d6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+22b0da726028865e071ce5139d00f65c,bridges and tunnels,bridge,Big Jocko River Bridge,Bridge,Bridge,Province of Ontario
+23bdf0d65295bc723e91ed7a2d5420d0,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+250829cd45a3378bf28bb1cee0082a4e,solid waste,mixed,Songis Road,Dump,Dump,Province of Ontario
+26b224ecac8fb20c7660a1a01b510b79,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+26ff50f188926349b39e44238a46c3c2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+27f5db87a94b79d06e8b9ce96f7994b2,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+28c2f6bea61878ebe718176b2f4918be,bridges and tunnels,culvert,Marten Lake Culvert,Culvert,Culvert,Province of Ontario
+2a15a517859961631732517440bfecc0,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+303ee66440da99b18e5e1e459031ed98,railways,track,..,...,...,Natural Resources Canada
+34d3dd78d8ecf9d37b694d52f4b631d6,solid waste,mixed,Balsam Creek,Dump,Dump,Province of Ontario
+351703c8d3c276cea8026458d31a6fe5,telecom,tower,...,...,...,Natural Resources Canada
+3531e038536ed3126080db23ad0eebe0,railways,track,..,...,...,Natural Resources Canada
+387cfc7a560ad0669bcd4659eb7d9d81,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+38a91f5dd94a47a186f24148f59b3f98,railways,track,..,...,...,Natural Resources Canada
+39e63ca27e37c2bb193b8aefe4976ffc,railways,track,..,...,...,Natural Resources Canada
+3a9dde6f1864bb588cb811743ed5758a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ac331cfecb0cef3d8d8a7eeba92a58d,solid waste,mixed,..,Other or Mixed,Facility mixed,Province of Ontario
+40a94dbe38ced8b971273b5dd7a4ceb5,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+43f7794848a580e5e330bef7c1addb71,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+457d181ec3663efa2a679be21032d27d,bridges and tunnels,culvert,North Creek Culvert,Culvert,Culvert,Province of Ontario
+47393e154c7af582b3482286b776b5a4,oil and gas,facilities,..,..,...,Natural Resources Canada
+54bca08ac1dd0d536eb39becabf74a66,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+58889ceb09aadc9ce871970ae8467412,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+5acd96454262895c81fd0ed6b611eb57,oil and gas,facilities,..,..,...,Natural Resources Canada
+5d0beb75385b027970f50482dcb88bea,telecom,tower,...,...,...,Natural Resources Canada
+5e96060a3d12106dca809101c61b488b,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+5f086562eac0200368f1cc1e3940342d,bridges and tunnels,bridge,CNR OVERHEAD,Bridge,Bridge,Province of Ontario
+5fd3841d227c7aab840a2b82ab836340,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+607b7631478527fce4fd79df00d30c05,low carbon,biomass,Merrick Landfill,...,...,World Resources Institute
+65ae6b2c011041695d8af6bd268a1b47,bridges and tunnels,bridge,GRASSY LAKE BRIDGE,Bridge,Bridge,Province of Ontario
+66147ebbc5956292e875184221cd7bc8,bridges and tunnels,culvert,OTTAWA RIVER TRIBUTARY CULVERT,Culvert,Culvert,Province of Ontario
+665d3fea33828ee6b0383c6932d32822,railways,track,..,...,...,Natural Resources Canada
+6f385adc456ca51702cc0dd4f34d4e62,telecom,tower,...,...,...,Natural Resources Canada
+706041986e4195d74ec1aebc065d3dcf,bridges and tunnels,bridge,Holdridge Creek,Bridge,Bridge,Province of Ontario
+71732afdec3ab5abf6a3c19f4802903d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+719abfbe670e2c82a798c674af5183ae,bridges and tunnels,culvert,MCINNIS CREEK CULVERT,Culvert,Culvert,Province of Ontario
+72745790841ceaf36e550a9fa887297f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77e785da8cf51aae3814bed125d1279a,railways,track,..,...,...,Natural Resources Canada
+7a2be604a0570317fd800791ad678c12,oil and gas,pipelines,..,..,...,Governmnt of Ontario

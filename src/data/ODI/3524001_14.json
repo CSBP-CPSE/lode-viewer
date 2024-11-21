@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Pine Glen Rd + Falling Green Dr,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-2393 Speers Rd,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Forsythe St + Head St,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-McCraney St East + Trafalgar Rd,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+e87ecb466209fb1a3b24e3815d578d8f,wastewater and storm water,pipes_combined,..,CBLEAD,Combined pipes,City of Burlington
+e8d675fb029b824a935f3213e19cbb4c,oil and gas,facilities,..,..,...,Natural Resources Canada
+e8f63041119ca2f7967847c6bbd8af4d,railways,track,Ford Motor Co,...,...,Natural Resources Canada
+e991c7367c022768941cb0d6521cf98c,railways,track,Ford Motor Co,...,...,Natural Resources Canada
+e9d75f952bb5191c8337c546345ef4a6,railways,track,..,...,...,Natural Resources Canada
+e9e1b6f612d0a89618f510602b715da5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ea0a8a4868e5a63e5dbbb5693e05c5b5,railways,track,Oakville,...,...,Natural Resources Canada
+ea26cf37b6f7e3810e38193c55e33bc6,railways,track,..,...,...,Natural Resources Canada
+ea5260f1dd475f18fe2ed614a54de903,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ea6dbc34b58a92bfbd11aa2f329c6236,wastewater and storm water,pipes_storm,..,MAINLINE,Storm pipe main,City of Burlington
+eacb36fe313914c1893402e356e0577f,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Mississauga
+eb896d790b5d2cdfe113c5ccf35fffe2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eb9e96c6795a5cab194270ac591efdf4,wastewater and storm water,pipes_combined,..,CBLEAD,Combined pipes,City of Burlington
+ec2f9a56618527e5b3ff0f59e5748dcd,railways,track,..,...,...,Natural Resources Canada
+ec4a2b72a6c69f5aae6eadce1388fe03,oil and gas,facilities,..,..,...,Natural Resources Canada
+ec64cc6a19d1fb35c0925d85cc708d48,bridges and tunnels,bridge,"Burloak Dr U'Pass, NBL",Bridge,Bridge,Province of Ontario
+ec79774a4e0a1ba7dfe621a82ace973a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ece755c1e92f37bd9e99ddc05e3464d1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ed328ba3330b23e9dc0ea05ae76d1438,railways,track,Oakville,...,...,Natural Resources Canada
+ed354561f893b1d6f51bef10fb09526b,wastewater and storm water,pipes_storm,..,MAINLINE,Storm pipe main,City of Burlington
+edb8f226b92b275e7284827fce06dab7,railways,track,Lakeshore West,...,...,Natural Resources Canada
+ee0fb31aa8d4328ce43aaa9aab0cdc9e,railways,track,..,...,...,Natural Resources Canada
+ee510c8a3425e400b7da54d30f224ed5,railways,track,Ford Motor Co,...,...,Natural Resources Canada
+eea3520fcf2a1ea8144248045174e66f,railways,track,Lakeshore West,...,...,Natural Resources Canada
+eefaa9c2baffcb8de53c56f7ee4bb042,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Mississauga
+ef0b67618f61c1a5307a95728b582da0,wastewater and storm water,pipes_storm,..,MAINLINE,Storm pipe main,City of Burlington
+ef2d5fc9afb3933874461b94e9846bd8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ef4a5cd4a22df46a9ab85ca5e72d08a4,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Mississauga
+efe6d234ab17091e5240d2da31ca98f1,wastewater and storm water,pipes_combined,..,CBLEAD,Combined pipes,City of Burlington
+f00eaad8c38068de4c9d6cf966548f24,bridges and tunnels,culvert,Taplow Creek Culvert,Culvert,Culvert,Province of Ontario
+f0710eb804d031f100ed7a8ba1e58c6b,oil and gas,pipelines,..,..,...,Natural Resources Canada
+f0b303c38bc3059c9970ed2f243f1303,railways,track,Oakville,...,...,Natural Resources Canada
+f0f538c01a04d7d614557a8cf72bf62e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f13e6310fbdf4e5f7faba8493ba385c4,railways,track,Ford Motor Co,...,...,Natural Resources Canada
+f18398846b150cdb7aab296f902c6f19,railways,track,Lakeshore West,...,...,Natural Resources Canada
+f1871fd9183153af89b7eb0583a78537,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f1ca7b3f3fd65d553828f0b5be7e4f27,railways,track,Oakville,...,...,Natural Resources Canada
+f2067898411d1c9057d5e2df99141f21,wastewater and storm water,pipes_combined,..,CBLEAD,Combined pipes,City of Burlington
+f21bcc42a52115968b75f1a9ddb0b78c,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+f226271321ed9b643ac79cd8427b4535,railways,track,..,...,...,Natural Resources Canada
+f235ad7aedd953afbc2ee51dbe29e2b4,railways,track,Oakville,...,...,Natural Resources Canada
+f2d415e1e413960b29d7498ca0c18213,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Mississauga
+f2e686034d967231bbb6b8715392e630,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f2f815168dd4efb94065504821be0996,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f324c5fcbe307225e30e57d9246b9c37,wastewater and storm water,pipes_combined,..,CBLEAD,Combined pipes,City of Burlington
+f366280348ec13181f96ec35d8821a2b,railways,track,Oakville,...,...,Natural Resources Canada
+f37b7a32a9d65581804ba54faf4816d6,railways,track,Oakville,...,...,Natural Resources Canada
+f38057d57a334cac24913f9948221f41,railways,track,Lakeshore West,...,...,Natural Resources Canada
+f382bab1c09d741c789579769b22eb14,railways,track,Oakville,...,...,Natural Resources Canada

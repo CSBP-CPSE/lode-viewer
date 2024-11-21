@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Peel / Bleams,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Culvert - Alder Creek Under NS-W Ramp at Reg. Rd. 12 Interch,BRIDGES AND TUNNELS,..
-Foundry Street,BRIDGES AND TUNNELS,Footbridges
-Perth Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Regional Road 12 Underpass,BRIDGES AND TUNNELS,..
-Peel / Boullee,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Waterloo St. / Christner,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Waterloo St. / Christner,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Snyders / Brewery (Temporary Stop),..,..
-Huron / Union,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Highway 7 & 8,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Waterloo St. / Huron,..,..
-Mackays No Frills New Hamburg,..,..
-Culvert - Baden Creek - West of Reg. Rd. 51,BRIDGES AND TUNNELS,..
-Wilby Road,BRIDGES AND TUNNELS,Footbridges
-Waterloo St. / Huron,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Bridge Street,BRIDGES AND TUNNELS,Footbridges
-ALDER CREEK CULVERT EBL,BRIDGES AND TUNNELS,..
-Holland Mills Road,BRIDGES AND TUNNELS,Footbridges
-Christner Road,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Snyders / Notre Dame,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Queen Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Carmel Koch Road,BRIDGES AND TUNNELS,Footbridges
-Brewery / Snyders (Temporary Stop),..,..
-Bethel Road,BRIDGES AND TUNNELS,Footbridges
-Township Road 16 Underpass,BRIDGES AND TUNNELS,..
-Waterloo St. / Wilmot Family Resource Centre,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0220243be0a2a02e34c76e1516d45f0b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+02c55566fe4dd1f463cbcb96407cacb3,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+06c5e181b0ff94fc11754c5a2af3bb65,potable water,pipe,..,..,Pipe main,City of Kitchener
+0afd522f3091ebd3bd6d0c0a37026da3,bridges and tunnels,culvert,Alder Creek Culvert under Reg. Rd. 12,Culvert,Culvert,Province of Ontario
+0baa85a6930daff64bccbb98fc218685,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0bd61de24254f5f03c75bbbd10e37e5b,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+0da59cd340273f03c9b0972509b48319,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+0dae276dd2d0dbc1f0ebb7219af0d4a3,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+0e13f26482b6fe023de065ef0b720ab2,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+12df0b997ca285a4eb80031c8ea81a3b,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+1497f09bb7a1fe8ca1646fbf12396067,low carbon,biomass,Waterloo Lfg,...,...,World Resources Institute
+173dcab93b63bc63a1022ba4f6416892,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+17499cdab53641f391abaa9488715606,railways,track,..,...,...,Natural Resources Canada
+19611956ec0e657128462f44c437e742,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19c6d695475b02a080b220532e9b0923,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1b61225162ad56b7475e15f905993492,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+1bfbec2f522acbd2823f267c6e4d5690,bridges and tunnels,bridge,Trussler Road Overpass EBL,Bridge,Bridge,Province of Ontario
+1d489fb1b55b43ad5d76f9f38aef99cc,potable water,pipe,..,..,Pipe main,City of Kitchener
+1d62734b2f31ab2da59156ad814dd62e,potable water,pipe,..,..,Pipe main,City of Waterloo
+1ebaaedfba227da5178117b7329473e0,potable water,pipe,..,..,Pipe main,City of Waterloo
+1f4db2ecad00aabbc6c81f24f1642bc6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+223cf0270c8a03ad957d68bab9b02eb8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+22cc4a81a924ce24e5e838988f87ebd8,potable water,pipe,..,..,Pipe main,City of Waterloo
+22f9f40813047835e66204727e987968,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+246479855aea44786de92528422df9ef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2865adebe89ef9c8fe2d8cb6adcb2d31,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+28a3be1a8cdc89dd5f1eaa1c2607cb6d,railways,track,..,...,...,Natural Resources Canada
+2a6cd5e95cc306ea3c2e2cb121ec723c,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+2c683568999081849c15f44cb852283c,potable water,pipe,..,..,Pipe main,City of Waterloo
+2f51c44ee8b9b29b81cdd53762be250b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3005ccd8584f6d456cd6e4f80cfc8b9a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3182f9bd8fea4899f28447a684024a9a,potable water,pipe,..,..,Pipe main,City of Waterloo
+35f47fa5f77df396e9b345d0a75dc1bc,railways,track,..,...,...,Natural Resources Canada
+36b85cbd2c561093808960d2edf59092,potable water,pipe,..,..,Pipe main,City of Kitchener
+377de115cc5fbf32071408680ce39474,wastewater and storm water,facilities_waste,Wellesley Wastewater Treatment Plant,"Grit Removal, Screening, Extended Aeration Activated Sludge, Biological Nitrogen Removal - Nitrification and Denitrification, Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+382123ebf1d6f175bf04ee35df7bebaa,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+38e8e589a8e9037c1089b493630ee7d1,railways,track,..,...,...,Natural Resources Canada
+38fbec0688bf52e51728691299a15b0f,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+392cbc7ae08358db47c6cadb28ab9618,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3a51062831fe8e026fc29c3bd49fe01c,bridges and tunnels,bridge,Regional Road 51 Overpass EBL,Bridge,Bridge,Province of Ontario
+3c19491bd1fbb8644c9e5ace2aeb23ec,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+3c424747940b51ccb4ff54dcf3b3a6a7,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+3dec581006fa202dcff5b78ca3f8ca73,potable water,pipe,..,..,Pipe main,City of Kitchener
+3fcdf8acf8e9626da78cc87846f6b5fe,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+401cb2fc5916a3e766060b1f0b38564d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+43539aeb108a8fca3dc451e553e382a5,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+4513abf50ca5a6c961f7dd4764eba3ae,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+47b409d88f02f2c20bfa25d3f51ca85e,bridges and tunnels,culvert,RS-92,Corrugated Steel Pipe,Culvert,City of Cambridge
+48f31ce2dc59bc9133a7878582d86717,potable water,pipe,..,..,Pipe main,City of Kitchener

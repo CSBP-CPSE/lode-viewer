@@ -1,36 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-CULVERT 475,BRIDGES AND TUNNELS,..
-CULVERT 473,BRIDGES AND TUNNELS,..
-Highway 26,BRIDGES AND TUNNELS,Footbridges
-Peel Street Culvert,BRIDGES AND TUNNELS,..
-CULVERT 474,BRIDGES AND TUNNELS,..
-Alfred Street West,BRIDGES AND TUNNELS,Footbridges
-12th Sideroad,BRIDGES AND TUNNELS,Footbridges
-6th Line,BRIDGES AND TUNNELS,Footbridges
-Marsh Street,BRIDGES AND TUNNELS,Footbridges
-CULVERT 472,BRIDGES AND TUNNELS,..
-10th Line,BRIDGES AND TUNNELS,Footbridges
-CULVERT 471,BRIDGES AND TUNNELS,..
-Grey Road 40,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Concrete Culvert West of Townline Road,BRIDGES AND TUNNELS,..
-Clark Street,BRIDGES AND TUNNELS,Footbridges
-Grey Road 2,BRIDGES AND TUNNELS,Footbridges
-Bridge Street East,BRIDGES AND TUNNELS,Footbridges
-CULVERT - ,BRIDGES AND TUNNELS,..
-CULVERT 476,BRIDGES AND TUNNELS,..
-CULVERT 480,BRIDGES AND TUNNELS,..
-INDIAN BROOK BRIDGE,BRIDGES AND TUNNELS,..
-9th Sideroad,BRIDGES AND TUNNELS,Footbridges
-CULVERT 479,BRIDGES AND TUNNELS,..
-Main Street,BRIDGES AND TUNNELS,Footbridges
-21st Sideroad,BRIDGES AND TUNNELS,Footbridges
-6th Sideroad,BRIDGES AND TUNNELS,Footbridges
-Slabtown Road,BRIDGES AND TUNNELS,Footbridges
-Concrete Culvert West of Lora Bay Road,BRIDGES AND TUNNELS,..
-CULVERT 478,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-The Blue Mountains Euphrasia Townline,BRIDGES AND TUNNELS,Footbridges
-Grey Road 13,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-24th Sideroad,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+09b621fd1e71cb78fdb65b7d5ab3ad92,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0d099026fe9579d0381f06e9cd4b7c56,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0e297035d4c8838d2e04ba974dcae084,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+138fc2e6b92f158236315396b52f5445,airports,...,Collingwood / Alta Heliport,heliport,...,OurAirports
+143d82d5d0cbb47fd5028d915dc5780c,airports,...,Wilkinson Field,small_airport,...,OurAirports
+1b4f3176b07f3d2fe6e71aec81dd5401,telecom,tower,...,...,...,Natural Resources Canada
+28121161599c734a0c942ad81c3e9dfa,bridges and tunnels,culvert,CULVERT 478,Culvert,Culvert,Province of Ontario
+28f8ada3143ca4253b62ed2b60009c39,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+34c5821b6dc78b8679ab8adcc37daf36,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+418ba254c6a621cae3f21c4436d55cae,airports,...,Collingwood (blue Mountain) Heliport,heliport,...,OurAirports
+420029fa21f3414ca94fe86101dd8271,bridges and tunnels,culvert,CULVERT 476,Culvert,Culvert,Province of Ontario
+44cbccfd95589562f9e6c67ea5193c3f,bridges and tunnels,culvert,CULVERT 475,Culvert,Culvert,Province of Ontario
+4717038f370d10f2412535c997e404f9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+49314223cae27563b2e54f60788f18c5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+50b3c009369b355142ebb33888f778a7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+539aa49f9572400eb19431297fcb484e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5863997ba9954253ead3bde4c2351d1f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+59bb946f0ba7a4406ef05aa8c6a9b3c9,telecom,tower,...,...,...,Natural Resources Canada
+661f9bce07505016eaa98e0d7e1042f4,telecom,tower,...,...,...,Natural Resources Canada
+6ca88e7a66ad3deba9ee07aa34e05811,bridges and tunnels,culvert,CULVERT 471,Culvert,Culvert,Province of Ontario
+7aaf0eb7441bee203f361c1c97dff622,bridges and tunnels,culvert,CULVERT -,Culvert,Culvert,Province of Ontario
+854419710b2821a7743e04c3d96cb775,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+89f2368c76bdf47ed1a17d591d9544db,telecom,tower,...,...,...,Natural Resources Canada
+8ac538a53b7f755f61d296ad8fc73bf3,bridges and tunnels,culvert,CULVERT 472,Culvert,Culvert,Province of Ontario
+8b71c6ace4a66cdfdcf0e2df8ad185ea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8ee2d2287d942c2bfc19fbdc669e8168,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+91de7ede3d30f3a939839ce82b8f3752,bridges and tunnels,culvert,Concrete Culvert West of Lora Bay Road,Culvert,Culvert,Province of Ontario
+95ba53c127ba6663fa1f20035c892672,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a0747eecfc179591df1134ce518299cd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aab8661a0a1b9a005860edaf5fd1ffd0,wastewater and storm water,facilities_waste,Thornbury Wastewater Treatment Plant,"Grit Removal, Screening, Activated Sludge, Extended Aeration Activated Sludge, Lagoon - Facultative, Storage Ponds, Polishing Ponds",Unclassified,Environment and Climate Change Canada
+ad8d3981a30cdbf6156fcf7ab1610172,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+adc5ef38517d03e1bf137404c9b9952e,bridges and tunnels,bridge,INDIAN BROOK BRIDGE,Bridge,Bridge,Province of Ontario
+b37265c8e232cfa70f95b9a374033051,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b4e843a0f863cb8f3d2cfc10aa82d05c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b6ba9a20b997f933a1d432e3f0a25062,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b87709a1b5ac9481f7c1a40a78676673,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+be9be9e9eddbee439021cc8505f1758f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c31da9df3f12a19d2d8b94a45b13e28b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c3fd486cda4aac11584c0cb1b5213a13,bridges and tunnels,culvert,CULVERT 473,Culvert,Culvert,Province of Ontario
+cd3642c9b30ed71fe6a5cfebf689391a,bridges and tunnels,culvert,Peel Street Culvert,Culvert,Culvert,Province of Ontario
+cf5fc101216e3dd88fecde0360709ac4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d15b86c423f5a82b8531b29743d5fdd2,bridges and tunnels,culvert,CULVERT 480,Culvert,Culvert,Province of Ontario
+d40114de24726f80d05f38d3fedd708f,bridges and tunnels,culvert,CULVERT 479,Culvert,Culvert,Province of Ontario
+dab5f283b800ecb98351e6a8e835564d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dc74f4d7d10d094740846ae018dd76cd,bridges and tunnels,culvert,Concrete Culvert West of Townline Road,Culvert,Culvert,Province of Ontario
+e8a282b1aab2a66a00a0c6407e238063,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eb634a96d13d1f45f7205a5bf523e757,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ed5fe7b55f31287dd827a189a254b66f,ports and marinas,mixed,Thornbury,Recreational,...,Fisheries and Oceans Canada
+eec8bdd0426608808b0ab934fb9a2d95,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

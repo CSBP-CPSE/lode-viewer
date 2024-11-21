@@ -1,10 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Summer Haven Bridge,BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
-Chippewa Trail Bridge,BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
-Lot 4 Concession 17,BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
-Concession Road 3,BRIDGES AND TUNNELS,Footbridges
-River Road,BRIDGES AND TUNNELS,Footbridges
-"Concession 2, Seneca",BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
-Wardell's Creek Bridge,BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
-..,WASTEWATER STORMWATER,..
-Sulphur Creek Culvert,BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+6d0351077b30ab8f497c86e79d6a09a7,bridges and tunnels,culvert,Lakeshore Road Culvert,Culvert,Culvert,Haldimand County
+6d2adf241e46bbd9ce028cb26af8aa41,railways,track,..,...,...,Natural Resources Canada
+6d2d8142de432a9989ea2d75ecc08ef9,bridges and tunnels,mixed,Jenny Jump Road Drain,..,..,Haldimand County
+6d5df08ed9aa966d23927926506a81ef,wastewater and storm water,facilities_waste,Hagersville Wwtp,"Grit Removal, Screening, Extended Aeration Activated Sludge, Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+6d627755132a546fa6a85bc287246653,bridges and tunnels,mixed,Haldimand Road,..,..,Haldimand County
+6d70da8ba11529d4320e73e41a70660c,railways,track,..,...,...,Natural Resources Canada
+6d8ad1a070258212eda45438b490342b,railways,track,..,...,...,Natural Resources Canada
+6dcd7a2e16be472a37eb869d9a733956,bridges and tunnels,culvert,Lagoon Access Culvert,Culvert,Culvert,Haldimand County
+6e0f7f64bebc27d864ba97342ad75baa,bridges and tunnels,mixed,Oneida-Rainham Townline,..,..,Haldimand County
+6e504bc812dc637d09b3564a877574e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e97ab50ed3b2ddccb861bf6f675e389,low carbon,wind,Grand Renewable Wind,...,...,"Government of Canada, Natural Resources Canada"
+6ea2529b815879a0a77c907986159911,bridges and tunnels,mixed,Seneca-Canborough Townline,..,..,Haldimand County
+6ecbe7006c6f0da70453df871a11f237,railways,track,..,...,...,Natural Resources Canada
+6f427e4557b9fa956d8967a13a6ff819,low carbon,wind,Port Dover And Nanticoke,...,...,"Government of Canada, Natural Resources Canada"
+6f48e1a73f7890261b02cf8ebe17f6f9,bridges and tunnels,bridge,South Coast Drive Bridge,Bridge,Bridge,Haldimand County
+6f625e3d17eb25b49f2626ffaed25443,railways,track,..,...,...,Natural Resources Canada
+700538d3785480c85f00ce16e6eb3061,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+701eef5c6d8b4803bdc5ff6bf5346b7c,bridges and tunnels,mixed,Kelly Creek,..,..,Haldimand County
+70312a93142da97bbb559f0869313ab3,railways,track,Rymal,...,...,Natural Resources Canada
+7059052946f2dd38d964ab2e71d6bc87,railways,track,..,...,...,Natural Resources Canada
+706e967aeba20d4ad51d7d6d3c4827d8,railways,track,Hydro,...,...,Natural Resources Canada
+708aba0465337a8497e317b7de8756bf,low carbon,wind,Niagara Region,...,...,"Government of Canada, Natural Resources Canada"
+70ac2830c4d040566aa6dc832626ada5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70d0698b668202b6279f08bc4a1450ae,low carbon,wind,Grand Renewable Wind,...,...,"Government of Canada, Natural Resources Canada"
+70d5d945779acb244a36ece95522ffc3,railways,track,..,...,...,Natural Resources Canada
+71256fe95a03f8b4408c57e0cb0adb16,bridges and tunnels,culvert,Concession 9 Culvert,Culvert,Culvert,Haldimand County
+725e78b53b2a55178f650c0da13e5e85,telecom,tower,...,...,...,Natural Resources Canada
+72bb99915d94cbdd03312b3b67e5768b,railways,track,..,...,...,Natural Resources Canada
+7302c98cc73cfac27bb6c7db7e2b2eb9,low carbon,wind,Summerhaven,...,...,"Government of Canada, Natural Resources Canada"
+7316ab5d29b35b3bf84957d74cd272e6,bridges and tunnels,bridge,Kinsmen Park Pedestrian Bridge,Pedestrian Bridge,Footbridge,Haldimand County
+73ecaaa6030b25b2cfd42daf14b8329b,low carbon,wind,Port Dover And Nanticoke,...,...,"Government of Canada, Natural Resources Canada"
+748452b489f4ec844201a1c47b5e310e,bridges and tunnels,bridge,Chippewa Trail Bridge,Pedestrian Bridge,Footbridge,Haldimand County
+755a62904c97ba8b18331af44933f808,bridges and tunnels,bridge,Cheapside Road Bridge,Bridge,Bridge,Haldimand County
+75652d287f43ced7f3d7b19abd542092,railways,track,Hydro,...,...,Natural Resources Canada
+75892c5026e3e04e597bd7fff238ef0d,airports,...,York Airport,small_airport,...,OurAirports
+760dde934d8250e27b48a70844c51e28,low carbon,wind,Mohawk,...,...,"Government of Canada, Natural Resources Canada"
+76631084ed05a9cc8d865e65f7cdf751,low carbon,wind,Niagara Region,...,...,"Government of Canada, Natural Resources Canada"
+76c32f05827ed127e4557ae2748a9f93,telecom,tower,...,...,...,Natural Resources Canada
+76eb644eba6765646a5f9c2ec5ddd184,railways,track,..,...,...,Natural Resources Canada
+76f4f28e72c2cbe72f19f65593db9ccc,bridges and tunnels,bridge,MACKENZIE CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+770bf59df1ec8974a9284ea6d49ba02d,railways,track,..,...,...,Natural Resources Canada
+775c0a27c42a1a15e111839b4c4c10e7,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+77a3cef7bed4fb24d6d61ebd404c0a43,bridges and tunnels,culvert,Box Culvert,Culvert,Culvert,Haldimand County
+77b48cf17833a857cff95f2e4e69f8d1,bridges and tunnels,culvert,Haldimand Road 56 Culvert,Culvert,Culvert,Haldimand County
+77d865040d4d9ff2c7630e072f1d2338,railways,track,..,...,...,Natural Resources Canada
+781c0cca152b6f53c6fe59e269f2f12c,bridges and tunnels,culvert,Caithness Street Culvert,Culvert,Culvert,Haldimand County
+78378821f871e3708f7b469566689763,low carbon,wind,Mohawk,...,...,"Government of Canada, Natural Resources Canada"
+78a498c0e82fcaa75dd430561a0052a1,railways,track,..,...,...,Natural Resources Canada
+795d5d9d620b21c4adc3db974d9e55e0,railways,track,..,...,...,Natural Resources Canada

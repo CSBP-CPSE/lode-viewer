@@ -1,18 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-SOUTH JUNCTION HIGHWAY 65 OVERPASS,BRIDGES AND TUNNELS,..
-Highway 11,BRIDGES AND TUNNELS,Footbridges
-Armstrong Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Highway 11 & 65,BRIDGES AND TUNNELS,Footbridges
-Highway 558,BRIDGES AND TUNNELS,Footbridges
-CALAMITY CREEK CULVERT,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-WABI RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Petes Dam Road,BRIDGES AND TUNNELS,Footbridges
-Uno Park Road,BRIDGES AND TUNNELS,Footbridges
-Golf Course Road,BRIDGES AND TUNNELS,Footbridges
-SOUTH WABI RIVER (CHESTER CREEK),BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-Main Street,BRIDGES AND TUNNELS,Footbridges
-Highway 65,BRIDGES AND TUNNELS,Footbridges
-Rockley Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+007f6cf40d045df1d8105a314a6b3514,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+02c11cddd7647508ae3264b04a813b8e,electric grid,power_plants,..,...,...,Natural Resources Canada
+05c1e0f5466528fcad387f89a7a45e74,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+07dd76a0ecc1458027fdbbfb35ddb0f4,railways,track,..,...,...,Natural Resources Canada
+0b7f1d73b46d11623b18c0f71b5a7594,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0bbc26b840428f002c69c15631a45906,low carbon,solar,Liskeard 1,...,...,World Resources Institute
+0bc2e57b062cc3a79c2e8a97858d2062,wastewater and storm water,facilities_waste,Haileybury Mechanical Sewage Treatment Plant,"Grit Removal, Screening, Primary Sedimentation/Clarification, Skimming, Extended Aeration Activated Sludge, Disinfection",Unclassified,Environment and Climate Change Canada
+147c311153bd4a8badf91f145db52174,bridges and tunnels,bridge,SOUTH JUNCTION HIGHWAY 65 OVERPASS,Bridge,Bridge,Province of Ontario
+18c00427b65f437ccc7b17886e5a268f,oil and gas,pipelines,..,..,...,Natural Resources Canada
+1a9f27da9a91c3ec831f147047a0ba5b,railways,track,..,...,...,Natural Resources Canada
+1fc879172a527b71d1816a4d3e100c8f,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+212201513964531f0f5ebf2a439033c9,telecom,tower,...,...,...,Natural Resources Canada
+216e9b347a0ad5996b4affeeca09de9f,bridges and tunnels,bridge,SOUTH WABI RIVER (CHESTER CREEK),Bridge,Bridge,Province of Ontario
+2191f0eef5b5b153fc83414914683b33,bridges and tunnels,bridge,WABI RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+235148e984b1b44d1d9992edda54e97e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+29c90c54c15a1b9bd7c1e50e66c79253,telecom,tower,...,...,...,Natural Resources Canada
+2de566c016010094a0b802ff3ca33b10,railways,track,..,...,...,Natural Resources Canada
+2f6c2746fe10a1592018aaea859d32b5,wastewater and storm water,facilities_waste,North Cobalt Wastewater Lagoon,"Grit Removal, Screening, Lagoons - Aerated, Chemical Precipitation (Phosphorus), Disinfection",Unclassified,Environment and Climate Change Canada
+2febc16a3e396e6f3b8ba6263b331bad,railways,track,..,...,...,Natural Resources Canada
+35c1ae88bc72c9b4453a50d7bd5788df,railways,track,..,...,...,Natural Resources Canada
+3af341ea6d8563b5049cf63a8ac90a7d,telecom,tower,...,...,...,Natural Resources Canada
+3afb8825a1026a6a53bb409894e74c8b,railways,track,..,...,...,Natural Resources Canada
+3d9328adca80409d522d7374d523068a,solid waste,mixed,Temiskaming Shores,Dump,Dump,Province of Ontario
+46ac4894510ee1704e81369e6fb03d34,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4ae2298dc5f114e34c90f6da65f10631,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4b6a974513f4bc1a04cb56bd6652d0df,railways,track,..,...,...,Natural Resources Canada
+5952fc596ffd6bfcf8b7d4dc1fee07bc,railways,track,..,...,...,Natural Resources Canada
+59cc8d396e33dbc6710d5aeb8f8e496f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+59d16dbf4a0e7ce2ae2b7e20ca26aab8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+61935c6a3f0a5b91f9047e248a2516de,railways,track,..,...,...,Natural Resources Canada
+63cdd523f0eecc80e08e745a3c36e9ae,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6466bcc549b909bb5d5d85fd569780c2,airports,...,New Liskeard (temiskaming Hospital) Heliport,heliport,...,OurAirports
+647c85db73a85019d282e7f999d61c1f,railways,track,..,...,...,Natural Resources Canada
+685a00b7d771a54d430119c0319e3501,low carbon,solar,Liskeard 3,...,...,World Resources Institute
+690bd60bb97e3226fc33adfa2be07cc5,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+6d548145e33783b55be415ddca236a90,wastewater and storm water,facilities_waste,New Liskeard Lagoon,"Screening, Lagoons - Aerated, Storage Ponds, Chemical Precipitation (Phosphorus), Polishing Ponds",Unclassified,Environment and Climate Change Canada
+6e1e157431011d3e345129b2f5288802,railways,track,..,...,...,Natural Resources Canada
+75aa94d336acdba0fee7de715734f348,oil and gas,pipelines,..,..,...,Natural Resources Canada
+79cb295c21da76b8a70dd1f904b770fa,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7c3672cdf644377692b66c2158b37c16,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+842785e5f0f1b89b69faab41763596a6,railways,track,..,...,...,Natural Resources Canada
+874460268d4fe89b473b42b305048dec,railways,track,..,...,...,Natural Resources Canada
+896c255430804ab332b51450fdc06d58,railways,track,..,...,...,Natural Resources Canada
+9f0a0011567d9e019c13b2fbec57e0ed,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a0a1014b18055d67a20b7d6214ee10c7,oil and gas,pipelines,..,..,...,Natural Resources Canada
+a14f3f764a7befb562de9231bbec3282,railways,track,..,...,...,Natural Resources Canada
+a219346c2d0f5783f5dfd61a4847f043,oil and gas,pipelines,..,..,...,Natural Resources Canada
+aa69afa8c1f44b94baf25ef24a2d9d74,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+af4f9def8808f881af06c6319b2de667,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

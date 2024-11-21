@@ -1,25 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Oxford Ave. at Scace Ave.,..,..
-COUNTY RD 2 UNDERPASS,BRIDGES AND TUNNELS,..
-HALLECKS ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-County Road 7,BRIDGES AND TUNNELS,Footbridges
-County Road 27,BRIDGES AND TUNNELS,Footbridges
-LYN ROAD OVERPASS,BRIDGES AND TUNNELS,..
-Oxford Ave. at King St. E,..,..
-Oxford Ave. at Crawford St.,..,..
-Culvert (1.1km west of Lyn Rd. (Brockville)),BRIDGES AND TUNNELS,..
-Oxford Ave. - North End,..,..
-Mud Creek Road,BRIDGES AND TUNNELS,Footbridges
-Rosedale Retirement Centre,..,..
-Sherwood Park Manor,..,..
-CRYSTAL BEACH UNDERPASS,BRIDGES AND TUNNELS,..
-Hallecks Road North,BRIDGES AND TUNNELS,Footbridges
-County Road 2,BRIDGES AND TUNNELS,Footbridges
-SHARPES LANE UNDERPASS.........,BRIDGES AND TUNNELS,..
-Hallecks Road South,BRIDGES AND TUNNELS,Footbridges
-Sharpes Lane,BRIDGES AND TUNNELS,Footbridges
-CNR OVERHEAD,BRIDGES AND TUNNELS,..
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-Kitley Line 1,BRIDGES AND TUNNELS,Footbridges
-Butler Creek Culvert,BRIDGES AND TUNNELS,..
-Kinch Street,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01f49321664e99b8e242cd5c18fc1951,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+066ff17cfb768dbd50c1cc23f70e4ba5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0875c99dc0cae42f008d83c1d310d242,railways,track,..,...,...,Natural Resources Canada
+0c88f56bc98604e471596efe8f9c2b1f,telecom,tower,...,...,...,Natural Resources Canada
+102d6787a2a583d1b479bed9434db6d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+12220b897bb2bac92d8c1de58a0dd916,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+130b3543b7c2d28535c2350761bb700f,telecom,tower,...,...,...,Natural Resources Canada
+14e528dbf1b4451c9feff28b8f624d7f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+16ad20f9cbb21b748305405a9068da34,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+174241050f304154838f8f00d4c5aeba,railways,track,..,...,...,Natural Resources Canada
+20eb2cfc0a0f673bc3af4fd91a6d50b7,telecom,tower,...,...,...,Natural Resources Canada
+24e15fdac62254d123c17da8f680669d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+27a5f5bf01f0e100b747ada77f46464d,electric grid,power_plants,..,...,...,Natural Resources Canada
+2e9546affe49cbe2429ca80d2f4702e0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3afa755186046d58e8ff068d19024a85,telecom,tower,...,...,...,Natural Resources Canada
+3ea253e59b91e34ef9f4647f031f99c4,railways,station,Lyn,...,...,Natural Resources Canada
+44cc248c26a41d70c7447b19befda0f8,low carbon,solar,Brockville 2,...,...,World Resources Institute
+45fb09f48dcc66d0e2728284abc33fab,bridges and tunnels,bridge,SHARPES LANE UNDERPASS.........,Bridge,Bridge,Province of Ontario
+4a0b4ea4af263b3b487a5f924a8827be,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+51a7ffec7251f60d674d1a5252d64f3a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+540e0190cba59cf3f930141a3e3e125f,low carbon,solar,Brockville 1,...,...,World Resources Institute
+5e891ea5e233a05367c3893bc60ae806,telecom,tower,...,...,...,Natural Resources Canada
+6d701cd8423501cdb76f602175693d08,bridges and tunnels,bridge,COUNTY RD 2 UNDERPASS,Bridge,Bridge,Province of Ontario
+6d908afe25a4f3d147bcf2033a1c3a63,railways,station,Maitland,...,...,Natural Resources Canada
+6e1fd78e5c93e9e54f8fa89582b2bcc7,electric grid,power_plants,..,...,...,Natural Resources Canada
+6eea244515c1b9f94aea4b59d2544e25,telecom,tower,...,...,...,Natural Resources Canada
+6f21b1ba3553e083c95b7827c9c86127,low carbon,solar,Spring Valley On,...,...,World Resources Institute
+70645e428aacb959a7229d7519bb4a9c,bridges and tunnels,bridge,CNR OVERHEAD,Bridge,Bridge,Province of Ontario
+74ac1ad2c71e59ca730bb1155def16e1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7a277310a0bb8bef85f3f013cae38698,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7d8c25c77b9b75c530e38ccb9e58e510,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+840d0312e5814f36b91f94b582a4b9c9,telecom,tower,...,...,...,Natural Resources Canada
+8cbbf929614e53be3a9c4b6f6865db4d,telecom,tower,...,...,...,Natural Resources Canada
+8d3e9931162714529f4cf9795472189f,telecom,tower,...,...,...,Natural Resources Canada
+8e5ce9974869bb0da98d713574d5728f,railways,track,..,...,...,Natural Resources Canada
+903d7c0747ee6ef29b14755e5fee31a0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+92fb79b4ddfcb9bb4db78954f3ce4e10,telecom,tower,...,...,...,Natural Resources Canada
+9ae1dc8024d2f97582a52cef99e3fd95,railways,track,..,...,...,Natural Resources Canada
+9bd7b7493bfb52f174ec1af08e663b03,bridges and tunnels,culvert,Culvert (1.1km west of Lyn Rd. (Brockville)),Culvert,Culvert,Province of Ontario
+a14e1c2c50b4a8fbbcbc42eb6181ba89,bridges and tunnels,bridge,HALLECKS ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+a455b27ba389b8095f405e25f0645c24,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a4b79c1f523e1ff1f578dc0c72c1a3fa,telecom,tower,...,...,...,Natural Resources Canada
+b1381740d0eb3a35d98091effb2ef0ed,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b4d1e20c7aa1be8f4c21ef322c2e71c1,railways,track,..,...,...,Natural Resources Canada
+b505933ec23a2e99b1ba2be148a59e13,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b67f44f3f07f82d561d5c7e9b9fca805,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bb49ff12c63cde83e63eb0d117cbed97,electric grid,power_plants,..,...,...,Natural Resources Canada
+be4429d359e05fb898200211701964f7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bedd01f837d3ddfee1949b281e5ae907,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

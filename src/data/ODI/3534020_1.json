@@ -1,40 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Thomson Line,BRIDGES AND TUNNELS,Footbridges
-Brouwers Line,BRIDGES AND TUNNELS,Footbridges
-Southdale Line,BRIDGES AND TUNNELS,Footbridges
-Warren Street,BRIDGES AND TUNNELS,Footbridges
-CATFISH CREEK BRIDGE,BRIDGES AND TUNNELS,..
-Edgeware Line,BRIDGES AND TUNNELS,Footbridges
-Helkaa Line,BRIDGES AND TUNNELS,Footbridges
-Yarmouth Centre Road,BRIDGES AND TUNNELS,Footbridges
-KETTLE CREEK BRIDGE,BRIDGES AND TUNNELS,..
-Goudy Road,BRIDGES AND TUNNELS,Footbridges
-CULVERT 268,BRIDGES AND TUNNELS,..
-Tower Road,BRIDGES AND TUNNELS,Footbridges
-Highway 3,BRIDGES AND TUNNELS,Footbridges
-Ferguson Line,BRIDGES AND TUNNELS,Footbridges
-Dalewood Road,BRIDGES AND TUNNELS,Footbridges
-Fairview Road,BRIDGES AND TUNNELS,Footbridges
-Pleasant Valley Line,BRIDGES AND TUNNELS,Footbridges
-SITE 5-269-1C & 2C,BRIDGES AND TUNNELS,..
-CATFISH CREEK BRIDGE (WEST BRANCH),BRIDGES AND TUNNELS,..
-Culvert 68 - Nineteen Mile Creek (Catfish),BRIDGES AND TUNNELS,..
-Ron McNeil Line,BRIDGES AND TUNNELS,Footbridges
-BAILEY DRAIN,BRIDGES AND TUNNELS,..
-..,POTABLE WATER,Water Treatment Plant
-Highbury Avenue,BRIDGES AND TUNNELS,Footbridges
-Wellington Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Belmont Road,BRIDGES AND TUNNELS,Footbridges
-John Wise Line,BRIDGES AND TUNNELS,Footbridges
-Sparta Line,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-Truman Line,BRIDGES AND TUNNELS,Footbridges
-NORMAN DRAIN WEST,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-Willsie Bourne,BRIDGES AND TUNNELS,Footbridges
-CULVERT 271,BRIDGES AND TUNNELS,..
-Mapleton Line,BRIDGES AND TUNNELS,Footbridges
-Springwater Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-CULVERT - UNDERHILL DRAIN,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00a3364d8985b0a87e39b07acd06cf48,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+00b851538c625d291f3101fad1d2b362,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+052ced8395b7467c0366d894e093e300,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0727b3d1f008dc53ce721cc83d770770,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+0a29864c73f181fef2aba902dfc2f622,bridges and tunnels,bridge,CATFISH CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+0e630965525f5432e583e0b423211a0b,telecom,tower,...,...,...,Natural Resources Canada
+0e74cdac6e8fbe08fad880e50d8cb5a6,bridges and tunnels,culvert,CULVERT - UNDERHILL DRAIN,Culvert,Culvert,Province of Ontario
+1434a233a58df6f42cad420a78c80cb2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+148fd119dbc028b2ebc8aebcc6ac34fa,railways,track,..,...,...,Natural Resources Canada
+172c344d1c141dbbd015bceafebd9340,ports and marinas,port,Port Stanley,..,...,National Geospatial-Intelligence Agency (NGA)
+1732dce406dd5dc34d6c259b33f7312f,telecom,tower,...,...,...,Natural Resources Canada
+1786110f41cac5da69d3a5b2ede5c9f6,telecom,tower,...,...,...,Natural Resources Canada
+1a3c8d26657f43ee2e00e042c2471a89,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1a76c9a7d2980095d5d9a20ababd99d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1dc5ceef02db9ad54e725712295d2e7c,bridges and tunnels,culvert,SITE 5-269-1C & 2C,Culvert,Culvert,Province of Ontario
+255d4871a3c0383d5721e09a1fe178b5,bridges and tunnels,bridge,CATFISH CREEK BRIDGE (WEST BRANCH),Bridge,Bridge,Province of Ontario
+26f3439bceaad7c0b97c75ad6a869ad9,railways,track,..,...,...,Natural Resources Canada
+27b234a815898628660507058814d1d8,railways,track,..,...,...,Natural Resources Canada
+290d8ea0586b84e73c3cecc164b72a3a,railways,track,..,...,...,Natural Resources Canada
+2a3152da7e43b684a6b0c7c3b6e5b487,railways,track,..,...,...,Natural Resources Canada
+3282b843a7199c8a4682296cbf4a6654,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32b7f9353c3410f4ec4180f0b8cddc9d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32d50663ed4f1c1568fe5e886c906b96,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3c631359397e6121c99b0770df46b62d,telecom,tower,...,...,...,Natural Resources Canada
+3f22403c314429fb6827fb9b9ee63ca8,bridges and tunnels,culvert,BAILEY DRAIN,Culvert,Culvert,Province of Ontario
+3f605796115d72415fce8ec43c140af1,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+470995a21d5bf2321b7441150d125cc7,telecom,tower,...,...,...,Natural Resources Canada
+5104de892fa532c3c238bb305dfe4488,low carbon,solar,Belmont,...,...,World Resources Institute
+51afefa94d320f607913d529e9b2f1d6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+51c2dab3c7ccd3d54bd52098c6323449,telecom,tower,...,...,...,Natural Resources Canada
+53b7ed1a8178fd3762c9f7a053441fa6,railways,track,..,...,...,Natural Resources Canada
+5b22ebbc16891b40f1aff9c9398b7ac4,railways,track,..,...,...,Natural Resources Canada
+5b36e5db4388198c750ebc0bbc89b017,telecom,tower,...,...,...,Natural Resources Canada
+5de37fb40d01cb08c3f09375192f0dbe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5e52ec9bcf38dcf5e18cc4a2b334d3f9,wastewater and storm water,facilities_waste,Belmont Wastewater Treatment Facility,"Lagoons - Aerated, Lagoon - Facultative, Storage Ponds, Filtration",Unclassified,Environment and Climate Change Canada
+5ee13ead86ca6d84ee3725ae61cbe35e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5ef3e40d68c49d09ae79297676ec1da6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5fcaee0d0f73446a9e023df0080ad0b1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6040a9ed53521e4967831971ca1ae763,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+606a67f500becba2ee8c44cb41f2422f,railways,station,Port Stanley,...,...,Natural Resources Canada
+60773dd3e8faa736e771dcf3d5cd9b42,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+609624d8ea186e8b6908144b6a379f1f,bridges and tunnels,culvert,CULVERT 268,Culvert,Culvert,Province of Ontario
+624c29ca781ff12fe3a27ecfd2b668e9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+65953354cbde1e171fbe1ea8d453aac5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6614b20d007231d0ff8e8b29a3df631a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+68f05b0c0398fe8d06349b60a6071070,railways,track,..,...,...,Natural Resources Canada
+6b306f27340f76d3e16fa221f15716ac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+700a1f50e4dbdf4d50d9ea38e0e4b852,railways,track,..,...,...,Natural Resources Canada
+71e9800c2848644ebaca85946b81cfc4,railways,track,..,...,...,Natural Resources Canada

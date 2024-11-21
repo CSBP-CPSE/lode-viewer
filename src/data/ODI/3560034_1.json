@@ -1,17 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Aubrey Lake Culvert,BRIDGES AND TUNNELS,..
-MOOSE CREEK BRIDGE,BRIDGES AND TUNNELS,..
-1st Avenue,BRIDGES AND TUNNELS,Footbridges
-Highway 72,BRIDGES AND TUNNELS,Footbridges
-Highway 664,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Abram Lake Culvert,BRIDGES AND TUNNELS,..
-C N OVERHEAD @ SIOUX LOOKOUT,BRIDGES AND TUNNELS,..
-Sam Lake Culvert,BRIDGES AND TUNNELS,..
-FROG RAPIDS BRIDGE @ SIOUX LOOKOUT,BRIDGES AND TUNNELS,..
-VERMILION LAKE NARROWS BRIDGE,BRIDGES AND TUNNELS,..
-Highway 642,BRIDGES AND TUNNELS,Footbridges
-PELICAN RIVER BRIDGE @ SIOUX LOOKOUT,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-STURGEON RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Mill Street,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02e4f14b69e3b78a0c145a91b1e37c7a,airports,...,Hudson Seaplane Base,seaplane_base,...,OurAirports
+091268d733d9d6a83a138f15da325656,railways,track,..,...,...,Natural Resources Canada
+095bc6706478d0530ff50a11ba3c55d6,railways,track,..,...,...,Natural Resources Canada
+097e307c48eb7f4eadf2ccabf377ec84,railways,track,..,...,...,Natural Resources Canada
+0eeee8a6f88c11574eb138829f06945e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f205ba20b4a5012c7a35554f9ade20a,railways,track,..,...,...,Natural Resources Canada
+0f2144eb47110514681495427c5bc2df,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+175aede6f55ec6dfdcd983f616b4f97f,bridges and tunnels,culvert,Abram Lake Culvert,Culvert,Culvert,Province of Ontario
+1819c36b51db96c10738063b97956d26,railways,track,..,...,...,Natural Resources Canada
+1ac100479850fd0b3d4dccbc1514bd22,railways,track,..,...,...,Natural Resources Canada
+1d1f77b3268e230a9bbdbe210879c7c0,railways,track,..,...,...,Natural Resources Canada
+1d80f55e52aa94af3b7e56dfb0d78104,railways,track,..,...,...,Natural Resources Canada
+1eec19cfa3a9b363ff7922145cf3f4d9,airports,...,Sioux Lookout Seaplane Base,seaplane_base,...,OurAirports
+20151c231aaa16afbe4f7817bb3dea7d,railways,track,..,...,...,Natural Resources Canada
+241d053738c0728ede7db01afff5aea2,railways,station,Sioux Lookout,...,...,Natural Resources Canada
+2431056f6481b2caaeddc6b899786447,railways,track,..,...,...,Natural Resources Canada
+2708637624c91085c5a43d46eb3ca4e2,railways,track,..,...,...,Natural Resources Canada
+2b91b8dc794be88debb64406334f196d,bridges and tunnels,culvert,Sam Lake Culvert,Culvert,Culvert,Province of Ontario
+3211dbf634a84ae25b6c152bbab85e31,railways,track,..,...,...,Natural Resources Canada
+321d77cd4149aa5c91b3eed3c8627aac,railways,track,..,...,...,Natural Resources Canada
+3af3c6825a486df821fc2c2a8b77542e,railways,track,..,...,...,Natural Resources Canada
+3f4ec2ba1c761ea814535f20bc7deb7a,bridges and tunnels,bridge,VERMILION LAKE NARROWS BRIDGE,Bridge,Bridge,Province of Ontario
+45ff3dd5402b899a2c520307098bd635,bridges and tunnels,bridge,PELICAN RIVER BRIDGE @ SIOUX LOOKOUT,Bridge,Bridge,Province of Ontario
+4640bad9c04bd59c47da6c0e3d37e49c,telecom,tower,...,...,...,Natural Resources Canada
+474fc9ae45e31f32024c799ed9c8de44,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+482fc750b092bb463830a0354f61bee0,railways,track,..,...,...,Natural Resources Canada
+4d04c532628ea815d75e25a969146e6e,railways,track,..,...,...,Natural Resources Canada
+4da612b4591dc4fcb59c78f747bb3011,railways,track,..,...,...,Natural Resources Canada
+4f0bbf318810cf31e21347c79ca3c71f,railways,track,..,...,...,Natural Resources Canada
+56713325f9dae5100772c31914590e86,railways,station,Pelican,...,...,Natural Resources Canada
+5724da6aed2fb7bc59a12f815ce05170,railways,track,..,...,...,Natural Resources Canada
+5e7a22901384b8c22ff9f1d3f0537748,railways,track,..,...,...,Natural Resources Canada
+61308ab3abc828d8540c2ab969bb0d39,railways,track,..,...,...,Natural Resources Canada
+67a120d8eda1eb1ab514292567b8124e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+688ddfe87c312ff3cbb955f66c761292,railways,track,..,...,...,Natural Resources Canada
+6929ca29100576fe66727f3ce96105d5,railways,track,..,...,...,Natural Resources Canada
+6958113424aff86a66b966043747d83c,railways,track,..,...,...,Natural Resources Canada
+6a5522547af7d4e5191ee4b05d0be3f2,railways,track,..,...,...,Natural Resources Canada
+6b39108b0838731da5fb3f2bbd0ceea9,telecom,tower,...,...,...,Natural Resources Canada
+7092be06e182e5398f2f39a84111ebb2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+719ad4af9921d33f2e6c61c6172411b1,railways,track,..,...,...,Natural Resources Canada
+7527a62a8d7540cd5f76941590c72d61,telecom,tower,...,...,...,Natural Resources Canada
+77950214129a36c508b5bf6e5e739bdc,railways,track,..,...,...,Natural Resources Canada
+7c412dd340487471f7e092c905efced7,telecom,tower,...,...,...,Natural Resources Canada
+7eb41c774b73ea60fabcbbd402c981c2,bridges and tunnels,bridge,MOOSE CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+8128a24279aba7dd533cbd3cb85c0588,railways,station,Superior Junction,...,...,Natural Resources Canada
+83e9dc15079c399619c17c25d9c27f12,railways,track,..,...,...,Natural Resources Canada
+880c0f2fe99543d661adc48a9d309e9a,telecom,tower,...,...,...,Natural Resources Canada
+88ebc59b38899bd4fb4f57128ebc5b89,railways,track,..,...,...,Natural Resources Canada

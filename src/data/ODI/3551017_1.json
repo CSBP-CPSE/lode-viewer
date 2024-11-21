@@ -1,13 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Highway 6,BRIDGES AND TUNNELS,Footbridges
-Highway 540,BRIDGES AND TUNNELS,Footbridges
-GOAT ISLAND CULVERT,BRIDGES AND TUNNELS,..
-GRAHM'S CREEK CULVERT,BRIDGES AND TUNNELS,..
-CULVERT,BRIDGES AND TUNNELS,..
-RITCHY'S CREEK CULVERT,BRIDGES AND TUNNELS,..
-Honora Lakeshore Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Limit Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-BASS CREEK CULVERT,BRIDGES AND TUNNELS,..
-CPR SWING BRIDGE,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+019645ca17e90d6db05358cbe9ee8110,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0214ed0ecb18d5b88b7e3bfa89e48faa,bridges and tunnels,culvert,GRAHM'S CREEK CULVERT,Culvert,Culvert,Province of Ontario
+11a481ea0f14e38376d3dc2f392a5f1a,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+128a67e570eeec619bb51a82eb03acb6,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+18c861225c4625ea2f2c1dc289d7ca6e,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+1fc88f240a9803b9143a0f70edaeeae1,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+2697119daca0c9f748c07d2f85b4eadb,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+29db30bc8dd3d2f10946dff171558ab6,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+336123dd2123ccbeffea3053a5fff3f6,telecom,tower,...,...,...,Natural Resources Canada
+35c38bd34633e4a1e32e20f50afb2813,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+36c7845e55c29e3952b3f00806f86d93,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+3a64e9bf64df0855219b51598e1b69ee,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3de13924f39807104c173577f1462d0d,airports,...,Little Current Seaplane Base,seaplane_base,...,OurAirports
+40077fc2f478d263302ca3a26b676cf2,electric grid,power_plants,..,...,...,Natural Resources Canada
+41beaac8291d1bfd324bc2dd8c59fbe2,telecom,tower,...,...,...,Natural Resources Canada
+4318ff3ed07f6b6f2ea449bba6375e52,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+43bf2fdc06655b9736199a5c311df9a4,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+49911535516c0075e705bfdde944d989,ports and marinas,port,Little Current,..,...,National Geospatial-Intelligence Agency (NGA)
+4fc5214ddce50c7db64626209a130b26,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+5393abfcc20be457ee41e1f60113ded3,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+703414208522ffdae0aec8dd7fefbc31,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+706d6106bf462b5eac5a3f0680790ad3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+71872ea79a98bd4fe8872f61a9fe6f05,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+725abc0576da1803aebe1abce012a781,bridges and tunnels,bridge,CPR SWING BRIDGE,Bridge,Bridge,Province of Ontario
+78f432e7f44f80fd4db614597b3f60ca,airports,...,Manitoulin East Municipal Airport,medium_airport,...,OurAirports
+79ae1a9bbf644cbab61d1a4838d00d54,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b8b3301bd1101cbb9c01cc1f5f9f744,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+7baabe8f753005ef05aa159d839739a2,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+80e453ff1a018531410284ee7982dae6,bridges and tunnels,culvert,RITCHY'S CREEK CULVERT,Culvert,Culvert,Province of Ontario
+81aee18c76a16fae53d179ac22532954,bridges and tunnels,culvert,GOAT ISLAND CULVERT,Culvert,Culvert,Province of Ontario
+83deac01f310fa1822a0d94c6d1655fe,ports and marinas,mixed,Providence Bay,Core Fishing,...,Fisheries and Oceans Canada
+93891d34b0c3c8f054bac11af5eb1a14,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+9b0bce5cf0d510758d0992d0c294e5a6,wastewater and storm water,facilities_waste,Little Current Wastewater Treatment Lagoon,"Lagoon - Facultative, Other Treatment",Lagoon,Environment and Climate Change Canada
+9d012e7b41f09ceb92f9be927b1f83da,ports and marinas,port,Sheguiandah,..,...,National Geospatial-Intelligence Agency (NGA)
+a11bef643f6d521774df354380c7490f,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+a208170743e31ce67e148c746b83b3bc,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+a45596a463fcaefd0cd1387c51597cb8,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+ab952be73ca4d01051b6d71e5d4715b6,bridges and tunnels,culvert,LACLOCHE CHANNEL CULVERT,Culvert,Culvert,Province of Ontario
+b73d3430e478b87c814970f43c3fc3fe,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+b814d872b6b1a430fe4df803381567c0,telecom,tower,...,...,...,Natural Resources Canada
+bf49a80add2eab3f716fa4d6d7a5f773,ports and marinas,mixed,Silver Water,Core Fishing,...,Fisheries and Oceans Canada
+c2a6946c8131e3d8975be24edee29647,bridges and tunnels,culvert,CULVERT,Culvert,Culvert,Province of Ontario
+cae7a3caa88d0a7a82741677b6710401,telecom,tower,...,...,...,Natural Resources Canada
+d317f76c4ac6dfc3ba1e24d30d6a6841,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+d7f6593bfadb98b46937eeed8e5cda82,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d9c06a5dc356d8351876a03914760fbb,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+dae09a1d3a5a72faa426e0024f8d8333,low carbon,wind,Mclean's Mountain,...,...,"Government of Canada, Natural Resources Canada"
+dbc2d9c3c4ca574e54580a4fae754da1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ddc5e6cb22ec4294f75ef32b70e0d75c,low carbon,wind,Mclean's Mountain,...,...,World Resources Institute

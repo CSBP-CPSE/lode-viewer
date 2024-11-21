@@ -1,20 +1,45 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-CNR OVERHEAD NORTHEAST/NORTHWEST RAMP,BRIDGES AND TUNNELS,..
-HWY 124 INTERCHANGE NBL,BRIDGES AND TUNNELS,..
-LAKE FOREST DR OVERPASS SBL,BRIDGES AND TUNNELS,..
-Burnside Bridge Road,BRIDGES AND TUNNELS,Footbridges
-LAKE FOREST DR OVERPASS NBL,BRIDGES AND TUNNELS,..
-AVRO ARROW ROAD INTERCHANGE,BRIDGES AND TUNNELS,..
-McDougall Road,BRIDGES AND TUNNELS,Footbridges
-Highway 400 & 69,BRIDGES AND TUNNELS,Footbridges
-PORTAGE LAKE BRIDGE (SBL),BRIDGES AND TUNNELS,..
-PINERIDGE ROAD U'PASS,BRIDGES AND TUNNELS,..
-HWY 124 INTERCHANGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-PORTAGE LAKE BRIDGE (NBL),BRIDGES AND TUNNELS,..
-BOWES STREET/MCDOUGALLL ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-HARRIS CREEK CULVERT,BRIDGES AND TUNNELS,..
-PORTAGE CREEK CULVERT,BRIDGES AND TUNNELS,..
-C.N.R. Overhead NBL,BRIDGES AND TUNNELS,..
-C.N.R. Overhead Southbound Lane,BRIDGES AND TUNNELS,..
-CNR OVERHEAD SOUTHBOUND RAMP,BRIDGES AND TUNNELS,..
-Bayside Drive,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0bc4ac518d91ca5e20b58b8a203c1fcd,bridges and tunnels,bridge,LAKE FOREST DR OVERPASS NBL,Bridge,Bridge,Province of Ontario
+0f2aaa265fd78b3f09d5698e6693d720,bridges and tunnels,bridge,PORTAGE LAKE BRIDGE (SBL),Bridge,Bridge,Province of Ontario
+14ebaaaba3354d08193120167bb48d88,railways,track,..,...,...,Natural Resources Canada
+1601fee3a8429a1a78aec401538cf86d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1e7ee9a6e88153220da23624891d12f7,bridges and tunnels,culvert,PORTAGE CREEK CULVERT,Culvert,Culvert,Province of Ontario
+22d7c706da69e93f6dbcfaa9a05a67c9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+30a2795e582dd247a1b8b578180f4ff9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32b1d89d2656b6bd8cc77601aa054f71,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+33661efa9f067d8f44960915349df768,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+34279db38165a588ec08a82b9a743f3d,telecom,tower,...,...,...,Natural Resources Canada
+38b25d4fc643dd4eba6bd39977c3e8b9,bridges and tunnels,bridge,PINERIDGE ROAD U'PASS,Bridge,Bridge,Province of Ontario
+39e8a79043cf6644b87b8addbbc3af86,railways,track,..,...,...,Natural Resources Canada
+3d0dde4661c3b259af403d4c5cdd3fab,telecom,tower,...,...,...,Natural Resources Canada
+4ac12da344c89d36cb55b90a4c45c2c5,bridges and tunnels,bridge,BOWES STREET/MCDOUGALLL ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+55b55890ab9c5dbf5ab1e1184d872820,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5781508438bcc7bda900f954479c0f7a,bridges and tunnels,bridge,CNR OVERHEAD SOUTHBOUND RAMP,Bridge,Bridge,Province of Ontario
+59ece795b801ce2e1ee37888395cfcb6,railways,track,..,...,...,Natural Resources Canada
+644a6e09b527fdb7dde1df49245fb370,railways,track,..,...,...,Natural Resources Canada
+654d8b81ea758a28b8862540f651b34d,railways,station,Nobel,...,...,Natural Resources Canada
+6978d943451e19e88c3570ba7ebeea98,railways,track,..,...,...,Natural Resources Canada
+6a9d21c2a7d4b3f9e332e4d23da98cf5,bridges and tunnels,bridge,C.N.R. Overhead NBL,Bridge,Bridge,Province of Ontario
+765625eb48863b9021c68d30e947cb25,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7d8a20803e46b3ab7d756d82c0e745b9,bridges and tunnels,bridge,HWY 124 INTERCHANGE NBL,Bridge,Bridge,Province of Ontario
+80b4bf6e85f609c32131d5edbd70aef6,airports,...,Nobel / Lumsden Air Park,small_airport,...,OurAirports
+81cf2864f1c92d12f25d92ff63eab4da,bridges and tunnels,bridge,CNR OVERHEAD NORTHEAST/NORTHWEST RAMP,Bridge,Bridge,Province of Ontario
+8bd295592d18947c7a5345a91ec4f1e1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9618755b18c45f5a42bea5ecc37d5856,railways,track,Waubamik,...,...,Natural Resources Canada
+974665db46b0075af0547686f8cc5b9f,telecom,tower,...,...,...,Natural Resources Canada
+9de31d31dac3f89362fffe4a75c9606b,telecom,tower,...,...,...,Natural Resources Canada
+9e5430cd1c44e10c7cb81099849be656,bridges and tunnels,bridge,AVRO ARROW ROAD INTERCHANGE,Bridge,Bridge,Province of Ontario
+a28666834793c48236c385c5dbff22ec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a5b48ba96f44ce80face2a04fc02a916,railways,station,Waubamik,...,...,Natural Resources Canada
+ac1f1843497bd5983e849a9f8a07452d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b3b744c6d43da578056f4e9652ca205d,railways,track,..,...,...,Natural Resources Canada
+ba8be3528856ab8859e44c8a7b5e217c,bridges and tunnels,bridge,PORTAGE LAKE BRIDGE (NBL),Bridge,Bridge,Province of Ontario
+cf79c1d6a3e5e3cabe6162c24ac15296,bridges and tunnels,bridge,C.N.R. Overhead Southbound Lane,Bridge,Bridge,Province of Ontario
+dbf9cf65f901c4721667218aa96dbd95,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dd2cf8d9e16f5eef32cca6ae596a1176,railways,track,..,...,...,Natural Resources Canada
+dfda631cd6e97f8af8e735280a4e8fe1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+f2cffce87843a74552d997db797f735b,bridges and tunnels,culvert,HARRIS CREEK CULVERT,Culvert,Culvert,Province of Ontario
+f36d1dc098d99eeb3a851cb745bb741e,bridges and tunnels,bridge,LAKE FOREST DR OVERPASS SBL,Bridge,Bridge,Province of Ontario
+f38e2f2acae1028de157690bc8b4c620,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fb4b103e59a9c60272cac1624ca39313,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fe21a91a0d5251511d7452e187d204bb,bridges and tunnels,bridge,HWY 124 INTERCHANGE SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario

@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,biking
-PARKDALE at MORLEY,..,..
-GLOW at DUNN,..,..
-UPPER SHERMAN opposite DALIA,..,..
-AMBERLY opposite MELANIE WEST,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-At 760 MOHAWK,..,..
-MAPLEWOOD at SPRINGER,..,..
-FENNELL opposite AUCHMAR,..,..
-..,PEDESTRIAN AND CYCLING,biking
-MEADOWLANDS TERMINAL PLATFORM 3,..,..
-..,PEDESTRIAN AND CYCLING,biking
-RYMAL at WESTLAWN,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,biking
-Hall Road,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,biking
-STINSON at VICTORIA,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,biking
-MAIN at BAY,..,..
-GOVERNOR'S at MAIN,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-MOHAWK at REGENCY,..,..
-HUNTER at BAY,..,..
-ROXBOROUGH at PARKDALE,..,..
-..,PEDESTRIAN AND CYCLING,biking
-UPPER GAGE at EDWINA,..,..
-NASH at GLEN ECHO,..,..
-..,PEDESTRIAN AND CYCLING,biking
-YORK opposite WATSONS,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-UPPER WENTWORTH at BRUCEDALE,..,..
-GARNER opposite GLANCASTER,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-PARK at CHARLTON,..,..
-..,PEDESTRIAN AND CYCLING,biking
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+077aae5633de20158bd737b7b21ab2d0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+077dea361f33948dd190bda69af128c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+07e19b28628023ecdc120cc4fadaad1c,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+07f804b6cf884ae26a985a6e0ed97359,railways,track,Stuart Street,...,...,Natural Resources Canada
+08568d2d21e7007e1058172cb4171f53,railways,track,..,...,...,Natural Resources Canada
+0863a806aad6fbacf58b1eef7e717b01,railways,track,..,...,...,Natural Resources Canada
+0880e6f4a371cb9169951224c6de56ab,telecom,tower,...,...,...,Natural Resources Canada
+0893274a3aa0d337352d4b08b55a1e96,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+08d999c61cc2e6dd7aaa8c31c57a3695,railways,track,..,...,...,Natural Resources Canada
+08dad5cb040068c5131a26bd33005073,wastewater and storm water,pipes_storm,..,DITCH,Open ditches,City of Burlington
+08ff7a7e55425153eb1c7081afdc9310,railways,track,Stuart Street,...,...,Natural Resources Canada
+0906b7730df5d8385c184e8bfdfc1f29,railways,track,..,...,...,Natural Resources Canada
+090ff75ac843204f9c26c86f0c61582e,railways,track,Parkdale,...,...,Natural Resources Canada
+092e9bc64eef37ce4c946459adb45f62,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+09569e741545a22eb680eaead4ddc01d,railways,track,..,...,...,Natural Resources Canada
+0962b04267d6c85cf3aca705bc3904b2,railways,track,Parkdale,...,...,Natural Resources Canada
+098b6ec7265f0907453c822cf5cff204,telecom,tower,...,...,...,Natural Resources Canada
+0990338bd7c6913e9f5c796266c1ea5d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+09a678458755f8c97dee0baf93a40f9a,railways,track,N & Nw,...,...,Natural Resources Canada
+09c73fb13b456580958de8a0eb07e082,railways,track,Parkdale,...,...,Natural Resources Canada
+09d3e488653513d17252af2a2dfb6f8a,telecom,tower,...,...,...,Natural Resources Canada
+09f4b2ec82e384acc03cb9922d626535,railways,track,Parkdale,...,...,Natural Resources Canada
+0a0092d333361cc67294d2149c11c5ea,railways,track,Parkdale,...,...,Natural Resources Canada
+0a09d2a5eae7597a82e1483baab6799e,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+0a3d96bc7f8101e85950145ea4d5b126,railways,track,Parkdale,...,...,Natural Resources Canada
+0a5fc52427cb5b07f493e8fa77a17ca9,railways,track,Parkdale,...,...,Natural Resources Canada
+0a6cdfca96e1ba61c90b3810a7731997,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+0a78d71598eceaad7eebaec0aeffb1bc,railways,track,Parkdale,...,...,Natural Resources Canada
+0ab18a86fd50c145a8170de2bbcc9e10,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+0b68e48ebfee01a094d39bf159bd40aa,railways,track,Parkdale,...,...,Natural Resources Canada
+0b6cf2e87a7ced29dced4e996b938e2a,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+0b7a99c6dc7b23df38f5813d92a3d781,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0b84f76ff711dc1e993a9e87703c5ac5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0b920d1a649036b99af1a402b3f7ccb8,low carbon,charging_stations,Hmcs Haida National Historic Site,...,...,City of Hamilton
+0bb850564c703a716910ae15d473245d,telecom,tower,...,...,...,Natural Resources Canada
+0bb8aed1ab1a3fda87c7ecf0e7ee4b60,telecom,tower,...,...,...,Natural Resources Canada
+0bc2771f11db115885b9a83c82a27c20,railways,track,Parkdale,...,...,Natural Resources Canada
+0be44642f284698406632aa841ac9d1e,railways,track,Kinnear,...,...,Natural Resources Canada
+0bed6f75bd9fb4459505bec9065903bd,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+0bf16812da1eadaeca1214772d1bdab3,railways,track,..,...,...,Natural Resources Canada
+0bf37e029241b164ad2b0241d21155e6,railways,track,Parkdale,...,...,Natural Resources Canada
+0c5515633233862ec6479bcba2214071,railways,track,Parkdale,...,...,Natural Resources Canada
+0c648b4b0464aaec993126f073d8b5c3,railways,track,Parkdale,...,...,Natural Resources Canada
+0c6bda363dc2f0c6f6b6c599c04ae7cf,railways,track,Parkdale,...,...,Natural Resources Canada
+0c7ed65e10fcd2406c90ee64fb4a6343,railways,track,..,...,...,Natural Resources Canada
+0c846b4b35729286412d8ef50ed60e78,railways,track,Parkdale,...,...,Natural Resources Canada
+0c8d931db918e5f687fb50f4171c8143,railways,track,..,...,...,Natural Resources Canada
+0ca711a091a1155f0440a7e214e46655,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+0ce848d1f5b0b65a675ed4d5b7c90d41,railways,track,Parkdale,...,...,Natural Resources Canada

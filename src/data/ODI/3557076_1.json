@@ -1,11 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Highway 17,BRIDGES AND TUNNELS,Footbridges
-ALGOMA CENTRAL OVERHEAD,BRIDGES AND TUNNELS,..
-Queen Street,BRIDGES AND TUNNELS,Footbridges
-MAGPIE RIVER BRIDGE,BRIDGES AND TUNNELS,..
-WAWA CREEK CULVERT,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-Government Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-MICHIPICOTEN RIVER BRIDGE,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00b45886970cf50518ef672591d01851,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0c3bfd137463c8816195d17f3330afcc,bridges and tunnels,bridge,ALGOMA CENTRAL OVERHEAD,Bridge,Bridge,Province of Ontario
+1180a544fc0f6252e10ab04306916403,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+19455f1ecefd7deed2ab3a71022c74ad,low carbon,hydro,Mission,...,...,World Resources Institute
+2b17a1dc51ef0177c9760f1844893ccf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+43e9e23e82bca2fe49b1478a75f30816,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+47b4a4279a0baac010a982832f171f3b,telecom,tower,...,...,...,Natural Resources Canada
+4add2b3b4eef1e4a227aef11342e0155,electric grid,power_plants,..,...,...,Natural Resources Canada
+4f5b4cdf1a822ce919d3806ecaeb804f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+52af79f78e4de2462780894d704803fe,bridges and tunnels,culvert,WAWA CREEK CULVERT,Culvert,Culvert,Province of Ontario
+555092e2c133ecd285401f234c4c30ca,electric grid,power_plants,..,...,...,Natural Resources Canada
+5847512f0166008b5570f1a70eb17216,wastewater and storm water,facilities_waste,Wawa Sewage Treatment Facility,"Screening, Lagoons - Aerated, Chemical Precipitation (Phosphorus), Polishing Ponds , Other Treatment",Unclassified,Environment and Climate Change Canada
+5abe6aa4dff78b43aa42887e7bf8ce36,airports,...,Wawa Airport,medium_airport,...,OurAirports
+60b0b6cdd3022ef10287f0eb3d24b268,telecom,tower,...,...,...,Natural Resources Canada
+64519ad58615978011e1a3d5593a4ba1,telecom,tower,...,...,...,Natural Resources Canada
+693ff1e4d6a6022a56142247d9b6b6b3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6d5ba6ad3a27e4aaf8d1695b64ecad48,telecom,tower,...,...,...,Natural Resources Canada
+7758491841908f8b4f6c499709b7f3e0,telecom,tower,...,...,...,Natural Resources Canada
+7968ab4900b03008aa3f5de88a5b755d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7a00352ef9dd37f4f7c2223df93a5660,telecom,tower,...,...,...,Natural Resources Canada
+7b93f3d61d295de8b4983fad431436c2,electric grid,power_plants,..,...,...,Natural Resources Canada
+827fe94c42c2c46aab7f56ac94637337,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8452842ea1175b079a76e092db9c3159,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8d94567f44dd048a018f2bef754523db,telecom,tower,...,...,...,Natural Resources Canada
+92895a89e10d58dd64a80a332d72de11,telecom,tower,...,...,...,Natural Resources Canada
+929d3cf52c49501fdb397b95105bd90b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+96945eb7e0259023bd388e6310c90f2b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+98f89b48005cbd6ec69d341b97608dc0,telecom,tower,...,...,...,Natural Resources Canada
+a09d4f5b7ea9e479f4787099575fcae2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a241634112f40bab9c1aaf0166c87671,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a817700f2492296036b6749bffbf2ef0,low carbon,hydro,Steephill,...,...,World Resources Institute
+ae3b1eaf1fd6c3792a013f69827789e4,electric grid,power_plants,..,...,...,Natural Resources Canada
+b05db98ac39b3f47bc2cd728d7f638a3,telecom,tower,...,...,...,Natural Resources Canada
+b394a8fe4d9c1cd15fb0a546b4b09191,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+b709464d12ed59891e1c864ecc056f70,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b761dbbcef49f200e24be008ba94f56d,low carbon,hydro,Scott Falls,...,...,World Resources Institute
+be032194e086f7d602ba2322ce8c8f3d,low carbon,hydro,Dunford,...,...,World Resources Institute
+c167d4afc468b1fb03d92e5be5d5bb0d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c261837a5e956a7debef7b8afb320495,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c5746318a259b9b5ec80ccd24cc6c951,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c8ebbe739d2b7cfc52b3f06a56081abf,low carbon,hydro,Harris,...,...,World Resources Institute
+ca8b26efbdffdae729be96af29ea4b11,low carbon,hydro,Mcphail,...,...,World Resources Institute
+d5e443fafda539ff1bf5a38e0e0c9cac,telecom,tower,...,...,...,Natural Resources Canada
+d67446e7c6f146326b07eb001b0d53a1,bridges and tunnels,bridge,MAGPIE RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+d890479cdc214831b092b834badbc8f3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+dc189aac2bd7ee124fb40236a84980e0,telecom,tower,...,...,...,Natural Resources Canada
+dd9dad5cc4213e2583b507d36a688cac,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+e1bf19c0de88f5abaf8c5d1d74ca6ea5,electric grid,power_plants,..,...,...,Natural Resources Canada
+e2dc2dcd12f41bcc2c5d1abd67f80f52,telecom,tower,...,...,...,Natural Resources Canada
