@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Westbound Ovens Ave @ Colborne St,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Southbound 2nd St @ 3rd Ave,..,..
-Columbia Station @ Platform 1,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Northbound 8th St @ 7th Ave,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-New Westminster Station @ Bay 2,..,..
-Eastbound Ewen Ave @ McGillivray Place,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-22nd Street Station @ Platform 2,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Brunette Avenue,BRIDGES AND TUNNELS,Footbridges
-Westbound Sixth Ave @ Eighth St,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Eastbound Ewen Ave @ Wood St,..,..
-Westbound 6th Ave @ 1st St,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,PEDESTRIAN AND CYCLING,multi-use
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Westbound Ewen Ave @ Howes St,..,..
-Southbound 12 St @ 7th Ave,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Northbound 2nd St @ Clinton Place,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Southbound 6th St @ 5th Ave,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Eastbound Hospital St @ Richmond St,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Southbound 4th St @ Agnes St,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Northbound E Columbia St @ Keary St,..,..
-Northbound Hwy 91A Onramp @ Howes St,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Braid Station @ Bay 2,..,..
-Eastbound 8th Ave @ 6th St,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+c24a2f9c6390299ffa99424cdfd975d1,railways,track,Marpole,...,...,Natural Resources Canada
+c24df2f7ef6294950a250277cb1403a1,railways,station,South Fraser,...,...,Natural Resources Canada
+c28591401d98d9bd708140e966f0e97b,low carbon,biomass,Kruger Products Paper Mill,...,...,World Resources Institute
+c2c5d4a1a81f12cd75a78e41fb47c71c,railways,track,..,...,...,Natural Resources Canada
+c37f80678dc87ff7e16299add970eb05,railways,station,Fraser River Bridge,...,...,Natural Resources Canada
+c3f0ce95ef5656fbb231fdbc290dfb16,railways,station,Brunette,...,...,Natural Resources Canada
+c479db70b8ef06629401cdce519faa89,railways,track,..,...,...,Natural Resources Canada
+c49b1ac7810eff9f7ad423595a0b706f,railways,track,..,...,...,Natural Resources Canada
+c5682eee6c3f898ce17c0831a53f11c1,potable water,pipe,..,..,Pipe main,City of Burnaby
+c57e1c89eb0f46b281577f23288ead67,wastewater and storm water,pipes_combined,..,..,Pipes combined,City of Burnaby
+c64b2357f354f8265083c4595896525f,railways,track,Marpole,...,...,Natural Resources Canada
+c68dd82000e37b3370cf1a575d74a364,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby
+c6fe3ff6de0c7fa20dc1c4063a90676f,railways,track,..,...,...,Natural Resources Canada
+c7e2b94f587d12028878473474a1a884,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c82d64c635a3e970d2ab4ef54f234549,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+c8424dccb1992cddb06f7e27d75543ec,railways,track,Sapperton Bridge,...,...,Natural Resources Canada
+cab6053d4b6c5ea08295d5711a1ad8a3,railways,track,..,...,...,Natural Resources Canada
+cabd7430b590f0cf8a73fb9b2d74f5a5,railways,track,Head Block Mile 145.06,...,...,Natural Resources Canada
+cb3a7acb619c23495c3f2de3db1ce9d0,railways,track,Lulu Island Industrial,...,...,Natural Resources Canada
+cbd5b3b449cac024d503fcd9dc09c29b,railways,track,..,...,...,Natural Resources Canada
+cbde2f6bfa6e768b3bac11173389bdf1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cbdf8a2e89b422c6b14339a0e6659dc4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cc870b693de47bcc747fcb8c2bac8948,railways,station,Columbia,...,...,Natural Resources Canada
+cdaef41c3025b19f7507f4f0b79bd442,bridges and tunnels,bridge,QUEENSBOROUGH,BRIDGE,Bridge,Province of British Columbia
+cdba7607a897b11bbb6302f7df43d14a,bridges and tunnels,bridge,BRUNETTE ST RIVER,BRIDGE,Bridge,Province of British Columbia
+cff13b8bd2c587585fd952971236edec,railways,track,..,...,...,Natural Resources Canada
+d016673bf7ea0b3e4f372328d7b79c62,oil and gas,pipelines,..,Intermediate,...,British Columbia Energy Regulator
+d0367ce1d2f090dd2979be2b2eba5afa,railways,track,..,...,...,Natural Resources Canada
+d0745585b21d6bca7fd3440149cfc39b,railways,track,Marpole,...,...,Natural Resources Canada
+d28b9b541b7369ea5af73d38364b2d7a,railways,track,Marpole,...,...,Natural Resources Canada
+d33939263887b6bbb7b446cfb6911dd2,railways,track,Marpole,...,...,Natural Resources Canada
+d38d4b5a8778f994ffdc7e879d99f8a2,railways,track,..,...,...,Natural Resources Canada
+d3d8e2b0f123eff23dbc09cb3cea2e93,railways,track,Marpole,...,...,Natural Resources Canada
+d453b39e9bde03d1812a1d04f2f6cdd6,railways,track,Marpole,...,...,Natural Resources Canada
+d46895d343650719f05867d2063728f7,railways,track,Marpole,...,...,Natural Resources Canada
+d501018008c7110842f2cf7ccdff08da,railways,track,Marpole,...,...,Natural Resources Canada
+d51d8f73931210fc63b80599efb233a3,railways,track,Marpole,...,...,Natural Resources Canada
+d641dc495130be8c3aae0497a0162b58,bridges and tunnels,bridge,QUEENSBOROUGH W PED RAMP,BRIDGE,Bridge,Province of British Columbia
+d75dd399149b4e064ba94fc6f817f91e,railways,track,Expo Line,...,...,Natural Resources Canada
+d78b6304a12d7b8b4b6c568120c7c71a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d858390edea036f39ac554695ba7e1e6,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+d883fa2776dd103bec899d76313ad4b0,railways,track,..,...,...,Natural Resources Canada
+d900a56a840f66541fe05fa9cb153e0e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d9b561757fd1e4efe95c2edb8f2fa4d1,railways,track,..,...,...,Natural Resources Canada
+d9cb74e4a390a35f7f60bccdf68544c9,railways,track,..,...,...,Natural Resources Canada
+d9d5689da45d352f298835c842d58093,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+da0b0bb64c9fb73efef9e8f5493cb3f4,railways,track,..,...,...,Natural Resources Canada
+daa7c1f82436e0f1d1032b8e0e1858d6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+db24fda0144bd45c9050f09c37f02997,wastewater and storm water,pipes_combined,..,..,Pipes combined,City of Burnaby

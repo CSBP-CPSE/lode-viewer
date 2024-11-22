@@ -1,29 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,POTABLE WATER,Transmission Pipes (>416mm)
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+aa35d2c7f618d1883a02c847415fa13d,potable water,pipe,..,..,Pipe main,City of Delta
+aa3b64659f52817cf67602710380ea0b,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa3d2a71beabafbc4b872bef8c7e46d0,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Delta
+aa3eebf2391f3fc912e75f58fc694bbb,potable water,pipe,..,..,Pipe main,City of Delta
+aa3f17001bf66d56ee15fadd415c366a,potable water,pipe,..,..,Pipe main,City of Delta
+aa40c939c75d270ceec53985b9eb5d12,bridges and tunnels,bridge,NORDEL U/P,BRIDGE,Bridge,Province of British Columbia
+aa428f719c9d7329ab3d2bdb8c7bcfee,potable water,pipe,..,..,Pipe main,City of Delta
+aa4588c7f8ed24e43b18638bef61b7f3,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa472a6685c62e162b969da1d4138fbe,potable water,pipe,..,..,Pipe main,City of Delta
+aa4b5f195a81af3562fce6d03b9521ca,potable water,pipe,..,..,Pipe main,City of Delta
+aa4c492453aef027871fea0f316d5544,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Delta
+aa4efd07c307fbdfef3349e25dc75039,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa5070453cddbf363ae3b8e2fd98edee,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Delta
+aa521703677ee9e74af16282b9d1d064,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Delta
+aa54906e4f7eeb822c348e9c7b8c256d,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa54fa69f492e81784b692c44a0aabc9,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Delta
+aa567939ec4f62d7ecc2ce1def123ecc,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+aa57dfc2fc6b98ddd27810beacbdfbbb,potable water,pipe,..,..,Pipe main,City of Delta
+aa5afda7fd08af87c99b360b02d1e08a,potable water,pipe,..,..,Pipe main,City of Delta
+aa5c7e354d2d8c1cfb62949c2ba734e6,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Delta
+aa5f5abbfa22912b46a3c8d2081b0703,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa618ce2f2f4dd4c1eb3c9d6b1441e26,potable water,pipe,..,..,Pipe main,City of Delta
+aa628f1e2835b252f929cab2a72df0d9,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Delta
+aa62b594ce5dd2a0cf4a4974bb1fe247,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa634d8ee6645f551a06b65a508f3152,railways,track,..,...,...,Natural Resources Canada
+aa63a58c3ea3d15b84bff92cb75d5275,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Delta
+aa648a8cc79b8ef30bf97ab7ed2d9df9,potable water,pipe,..,..,Pipe main,City of Delta
+aa65f7a339edb07a43f70dc02a38b5b7,potable water,pipe,..,..,Pipe main,City of Delta
+aa6854461e9d2a694b2d66b7cd275ee1,potable water,pipe,..,..,Pipe main,City of Delta
+aa6900658d2cff25b76e8680eb2c623e,potable water,pipe,..,..,Pipe main,City of Delta
+aa6bcc6d0436d0a0e83b18162b0d1d23,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa6cc18762b728932139f55bbc3135e1,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa6d22eea5a201419e196f2bda7e39ae,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Delta
+aa708ff83250913f1db87f361eae8670,potable water,pipe,..,..,Pipe main,City of Delta
+aa70db3151101e93c3e793be5d5bf7c0,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa719efe183e497bdf416bb808d4cebf,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa73e42f77c1c7c5286b07453b22e0a9,potable water,pipe,..,..,Pipe main,City of Delta
+aa777ab8da2181804abdd250f623caf9,potable water,pipe,..,..,Pipe main,City of Delta
+aa79f6e995b12eb324cf7fd3c3692741,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa7b6d1053a9a8d72682e50695289a31,potable water,pipe,..,..,Pipe main,City of Delta
+aa7f0cbc95219f1bd8787cc337a61419,potable water,pipe,..,..,Pipe main,City of Delta
+aa838cddd36a85b488414061f6f2530b,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa88d792f9955c1aa19549141c95f8ac,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Delta
+aa8afb2240e9e3b6c98d65cbd8e9d6be,potable water,pipe,..,..,Pipe main,City of Delta
+aa8d11d5bdfafa1d96de5b5f80ad1540,potable water,pipe,..,..,Pipe main,City of Delta
+aa90c107ed29a19d5233cbe2ceb439df,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Delta
+aa90d78c47bb0572a535240fbb37fa2a,potable water,pipe,..,..,Pipe main,City of Delta
+aa91de6f71f5a2d21780d7e6d793835d,potable water,pipe,..,..,Pipe main,City of Delta
+aa94102ead01937383950928cb5421ca,potable water,pipe,..,..,Pipe main,City of Delta

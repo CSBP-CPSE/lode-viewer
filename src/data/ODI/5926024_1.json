@@ -1,32 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Tammy at MacAuley,..,..
-Island Hwy N at White,..,..
-Farnham Road,BRIDGES AND TUNNELS,Footbridges
-Inland Island Highway,BRIDGES AND TUNNELS,Footbridges
-Island Hwy N at Sackville,..,..
-Forbidden Plateau Road,BRIDGES AND TUNNELS,Footbridges
-Island Hwy N at Krueger,..,..
-Miracle Beach at Island Hwy S,..,..
-Merville Rd Farside Island Hwy,..,..
-Comox Lake Mainline,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-Comox Logging Road,BRIDGES AND TUNNELS,Footbridges
-Dzini Road,BRIDGES AND TUNNELS,Footbridges
-Miracle Beach Drive,BRIDGES AND TUNNELS,Footbridges
-Island Hwy N at Sackville,..,..
-Regent Road,BRIDGES AND TUNNELS,Footbridges
-Island Hwy N at Black Creek Rd,..,..
-Dove Creek Road,BRIDGES AND TUNNELS,Footbridges
-Duncan Bay Main,BRIDGES AND TUNNELS,Footbridges
-Marsden Road,BRIDGES AND TUNNELS,Footbridges
-Endall Road,BRIDGES AND TUNNELS,Footbridges
-Fitzgerald Road,BRIDGES AND TUNNELS,Footbridges
-MacAulay at Hamm,..,..
-Duncan Bay Mainline,BRIDGES AND TUNNELS,Footbridges
-Clarkson at Eyre,..,..
-Island Hwy at White,..,..
-Island Hwy N at Endall,..,..
-Island Highway North,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Powerhouse Road,BRIDGES AND TUNNELS,Footbridges
-Lalum Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0087c0a997b4ee7c039b7dbc0838c68d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0121293e5c2a78178bc77a4a4d2fd3e8,bridges and tunnels,bridge,D.B.MAIN BROWNS U/P,BRIDGE,Bridge,Province of British Columbia
+04e81f1104a5c7d749fc9c7574e02a9f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0523350a81569c7ee3e2826ea1154883,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+070a69214619b6db3eaffef5a53fdc2f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+08de893c8c5a5f907c02732ea47afdde,bridges and tunnels,bridge,BEVAN WETLAND,BRIDGE,Bridge,Province of British Columbia
+09d2c6d1fad881c05e51ddae63d8bfb2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0a58190768ec99f2b6fe05b0dd6fa059,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0e168c122387d666e4a26d0d805ed3e5,bridges and tunnels,bridge,BROWNS RIVER,BRIDGE,Bridge,Province of British Columbia
+1157b1bc8599dee164a68dcb5936665f,bridges and tunnels,bridge,REES,BRIDGE,Bridge,Province of British Columbia
+1244ad2b91b0e69560c0a8b42dd4acd2,bridges and tunnels,bridge,OYSTER RIVER OLD,BRIDGE,Bridge,Province of British Columbia
+132bf681968c2ef638838a97fe382256,bridges and tunnels,bridge,POWERHOUSE ROAD,BRIDGE,Bridge,Province of British Columbia
+1725757393b493d526565bdb55f5fd48,bridges and tunnels,bridge,KELLAND ROAD,BRIDGE,Bridge,Province of British Columbia
+1762a8c56cf66ff305372db7bffe7126,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+25c9cd8096507e36f9b3c9938f7a99ab,bridges and tunnels,bridge,BLACK CREEK TRIB,BRIDGE,Bridge,Province of British Columbia
+26c1a15ae171c759a18133ef6282b849,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+27a74c006e978a06ae1fe4244301c126,bridges and tunnels,bridge,BLACK CR UPSTRM,BRIDGE,Bridge,Province of British Columbia
+2e2169d7eb23b1b1c1e2d183473b4c97,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+3889c5a9cef94683035b14b6bd979f65,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3a79872067c77992829410a5f1e5b8d5,low carbon,hydro,Puntledge,...,...,World Resources Institute
+3f669615ca9123c199b26e8dc52ad4c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+405d25f59d00e6bc141b48291bea9199,bridges and tunnels,bridge,FORBID PLAT RD U/P,BRIDGE,Bridge,Province of British Columbia
+438178c791369c30ccc65ccdf9095942,bridges and tunnels,bridge,OYSTER RIVER UPSTRM,BRIDGE,Bridge,Province of British Columbia
+53148fc975b1f7c1157d036782471831,bridges and tunnels,bridge,MCEACHREN,BRIDGE,Bridge,Province of British Columbia
+53583456c440e6f6aef576ed79f9d88c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b77cdfebce514256ce914e086ae5432,bridges and tunnels,bridge,HERMITAGE,BRIDGE,Bridge,Province of British Columbia
+5ba8817db9e5abd5b7266a3b78f09df6,bridges and tunnels,bridge,D.B.MAIN BLACK U/P,BRIDGE,Bridge,Province of British Columbia
+5bd0a09e9b9eed56c6f27a1ab1a4f2b3,bridges and tunnels,bridge,MACMILLAN,BRIDGE,Bridge,Province of British Columbia
+5bfad363042e3f7b85aa70604c43c01c,bridges and tunnels,bridge,DOVE CR UPSTRM,BRIDGE,Bridge,Province of British Columbia
+5ddbb5d9024b7fbd4f0575d9963f2bb2,bridges and tunnels,bridge,BRIDGE ROAD,BRIDGE,Bridge,Province of British Columbia
+5e85e5cd3fe735543ed79b2ab0810562,electric grid,power_plants,..,...,...,Natural Resources Canada
+5f28280da6da14c08b8d9bae17dbe21d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5fa6bf2cc90a4d92f76fb1a9b893b50d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+65ead57cd0df44801a92d8b9f2c43d77,bridges and tunnels,bridge,PUNTLEDGE PENSTK O/P,BRIDGE,Bridge,Province of British Columbia
+68157eb60db35277b36c8456ca66c888,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+68a5096fd1301159506b06dd9c35f0a3,oil and gas,pipelines,..,..,...,Natural Resources Canada
+6a8b4b69ab1f469d7a10177878fa31f6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6acf9243b5a9864f827eaa49df9313b4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+79abe9e6f851c9f1a5523337c747ae46,bridges and tunnels,bridge,BROWNS RIVER UPSTRM,BRIDGE,Bridge,Province of British Columbia
+7b9224f6a9e786a0a331eecbb0e9c7fa,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+7dabb64868324fa0dd7bba1b143c9b77,bridges and tunnels,bridge,LK TRAIL/MORRISON CR E,BRIDGE,Bridge,Province of British Columbia
+838129331c000a664a99918247493078,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+84c34a6e4936eab05fb6d5909528ad52,bridges and tunnels,bridge,FARNHAM ROAD,BRIDGE,Bridge,Province of British Columbia
+85e61e7e5eeb65126b476cf677d349d5,bridges and tunnels,bridge,HOPKINS,BRIDGE,Bridge,Province of British Columbia
+86e0621e06d6625f08b15ad049579cca,bridges and tunnels,bridge,DZINI ROAD,BRIDGE,Bridge,Province of British Columbia
+891594176a4cd5c19fcfd2023f704df1,bridges and tunnels,bridge,BLACK CREEK,BRIDGE,Bridge,Province of British Columbia
+941a38462b5e84833bafa128c231ab6f,bridges and tunnels,bridge,TEST 0 - HYDRO DOCUMENTS,BRIDGE,Bridge,Province of British Columbia
+9741fc6819a8b43ee590a0c22f9a3b5a,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+98b1b20fe993bc72b45d7b2d1ccaad0d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

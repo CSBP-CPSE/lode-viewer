@@ -1,50 +1,42 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Richardson at Vancouver,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Ross at St Charles,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Oswego at St James,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-Eberts at May,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Hillside at Higgins,..,..
-..,PEDESTRIAN AND CYCLING,biking
-Fort at Elford,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Bushby at Joseph,..,..
-Shelbourne at Myrtle,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Fairfield at Linden,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-Foul Bay at Meadow,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Fort at Linden,..,..
-..,PEDESTRIAN AND CYCLING,biking
-Cook at Richardson,..,..
-Fairfield at Blanshard,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-Bay at Douglas / Westbourne,..,..
-..,PEDESTRIAN AND CYCLING,biking
-Douglas at Superior,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-Fairfield at Kipling,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+be159e937a7dabb0224e219eec3a4137,wastewater and storm water,pipes_waste,..,..,Sewer main,District of Saanich
+bf8536db4a64b85e79e3af4acc7d2e0a,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+bf93a899ae5d99e72d3b736994f77a8f,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+bfac99057d710927fea801798cf5f003,airports,...,Victoria Harbour (camel Point) Heliport,heliport,...,OurAirports
+c2740225ab31215937846ca49499357e,low carbon,charging_stations,..,...,...,City of Victoria
+c723eb5f970265f914d2a2e2d5efef43,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+c82a685d68dd3c6f883755f47819eac5,railways,track,..,...,...,Natural Resources Canada
+c8a6eaf4106e8e17701e5659cb11103f,low carbon,charging_stations,..,...,...,City of Victoria
+ca554ac4dccf882373ca1b86629eb0d3,bridges and tunnels,bridge,Pedestrian and Bike bridge next to E&N 0.2 Mile Bridge,Bridge,Bridge,City of Victoria
+cb781b278656e6331135db433c17eab0,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+cbccb149d6660b83ba8d23d2233dcd1e,railways,track,..,...,...,Natural Resources Canada
+ce3d19d749872fa8edb5564e3987ea49,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+cf52ba79c9f41f5a1d1eb0e96e73aa27,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+d156db065da719262bc438b24a4b56fe,bridges and tunnels,bridge,Pedestrian and Bike bridge over Esquimalt Rd at Harbour Rd,Bridge,Bridge,City of Victoria
+d5c7c57748b1bdcbb19dee806f7dd110,low carbon,charging_stations,..,...,...,City of Victoria
+d5ca5c5615fa341f0314de314c28b625,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+d6ecd2140c09e929e85115d1187aa696,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+d9f28f568d72db8d14f8c573681f7148,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+db6ce0f73a61251fb7f92d8bd24126c5,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+defee0adcc3289331cbaa91a1f133e1f,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,District of Saanich
+e17a738fa1ada184dc046984ca2a66a4,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+e26699316d1acb0716d72bc9f57a3575,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+e3295a0252d2f8c5a2b261cca3b85057,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+e5d8d860570277f4cbe8869a8aab6b76,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+e694ebfcfd1b0ecd9b668655be3ff2e1,bridges and tunnels,bridge,Johnson Street Bridge South Pedestrian Bridge,Bridge,Bridge,City of Victoria
+e7470870bebb90f3e739887d7bffef0e,wastewater and storm water,pipes_waste,..,..,Sewer main,District of Saanich
+e7e9a09ee71f26f9c0d7e51e6e0efb47,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+ea03044e85f00708bb177fa7695cdee7,low carbon,charging_stations,..,...,...,City of Victoria
+ea44abb654d4e5355345bb56961300b4,railways,track,..,...,...,Natural Resources Canada
+ec27379966522e75823781cad9c5b0e4,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+ed02739584bdbee7c73b2fe9263409f4,railways,track,..,...,...,Natural Resources Canada
+ee5d50dea133240890ccb62fba6c5e27,low carbon,charging_stations,..,...,...,City of Victoria
+ee81fe284522bb601fc64ff7f2c185ac,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,District of Saanich
+f098a62d0c5787b5cd09006cada654c2,bridges and tunnels,bridge,Burnside Road Bridge,Bridge,Bridge,City of Victoria
+f301921b040273bea3ced5b91b05d01d,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+f43e9669ebd4c6206ace24856cc25296,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+f530cc4b72515e5ff8ce1d249f135a48,railways,track,..,...,...,Natural Resources Canada
+f91a90da7ecbfa76d03ede93f2243d70,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+f96097041c8bc546bed00757958e3231,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+f9acd14952611c938375c8015035e27a,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+fca1279576e8399f4751af76129ef443,low carbon,charging_stations,..,...,...,City of Victoria

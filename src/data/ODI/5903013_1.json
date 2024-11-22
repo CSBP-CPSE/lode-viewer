@@ -1,19 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Leadville Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Goat River Bridge,BRIDGES AND TUNNELS,Footbridges
-Glenlilly Road,BRIDGES AND TUNNELS,Footbridges
-Hall Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Goat River Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Leadville Road,BRIDGES AND TUNNELS,Footbridges
-Highway 3 And 95,BRIDGES AND TUNNELS,Footbridges
-Skelly Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Shorty Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Kitchener Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Canyon-Lister Road,BRIDGES AND TUNNELS,Footbridges
-Highway 3,BRIDGES AND TUNNELS,Footbridges
-Hawkins-Canuck Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Kamma Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Highway 21 South,BRIDGES AND TUNNELS,Footbridges
-Highway 95,BRIDGES AND TUNNELS,Footbridges
-Kid Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00660fab56b251edb1b5e38c78e8291a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+00d9645a962ed178d7d780e00d50bee7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+01618f103ae2ce1c6a0e2eb3e38fcd48,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+0751d9fd14b4a62da54114c31108cb11,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+07ab158285674610b96d60822ad02970,bridges and tunnels,bridge,CANYON LISTER,BRIDGE,Bridge,Province of British Columbia
+07b64c83556886fdfd2f4ae6e0176abb,railways,track,..,...,...,Natural Resources Canada
+0a41b5bcb870f5c7b84bac3c58312d71,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0c1962f26239dbdf4b31187210e73c4d,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0c5cdc5c28e1f9337a604a8e83040a25,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+0d030eb615eba8d5b11e0026fde114e8,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+0e042d802cd184a90029acf63027b0fe,oil and gas,pipelines,..,..,...,Natural Resources Canada
+10b4c1b316f986745e0aa4def494edbb,telecom,tower,...,...,...,Natural Resources Canada
+10d04dac4c56b53eece5663072bcd403,railways,track,..,...,...,Natural Resources Canada
+10eb4563ab1577e193b9a9b20b1b9d60,bridges and tunnels,bridge,YAHK SLOUGH,BRIDGE,Bridge,Province of British Columbia
+136b285006e95700f13866aaf63a3858,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+16a949029e380a9713c135ae09cd1fff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1aba8a6bfe5e7bdeefdb94ace159ea12,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+22401cd8c14d7a9e3ac7364abdd62ce7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+23044eb6de11dad46452b19be3fe28f0,railways,track,..,...,...,Natural Resources Canada
+25b190a729735ecd978e99e5f42a02b9,bridges and tunnels,bridge,CURZON CPR U/P,BRIDGE,Bridge,Province of British Columbia
+28a4515dfc3bc269cc7003f8010797b6,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+28a95bfc1a9c77b4c4a289b8b253a83a,railways,track,..,...,...,Natural Resources Canada
+2ea8a0cfa94861314af9183d1b909ec4,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+3022e9a81e1b579cee7ca4db88da5444,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+30475e9a4e179f5bd8eec1572b444c47,railways,track,..,...,...,Natural Resources Canada
+305ff5cb7d256c53332fda4492508c7d,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+3123f52f62cb530294138584d43e9568,railways,track,..,...,...,Natural Resources Canada
+319e1603bc1befdb06666bb3a44dfc74,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+32c29cea3646515f4252fb809ca2fca8,railways,track,..,...,...,Natural Resources Canada
+3861c3d536cfa47b31480e13300405c6,bridges and tunnels,bridge,KIDD CREEK,BRIDGE,Bridge,Province of British Columbia
+3a1bd705e2b86b4182b3e785021f0f28,oil and gas,facilities,Fortis Kitchener D-093-f/082-f-01 002,Compressor Station,...,British Columbia Energy Regulator
+3fc1dd5cf99bea19a398cac0b0a36305,telecom,tower,...,...,...,Natural Resources Canada
+41861480187b32cd6482996c32a02283,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+46d96ef1b131a160d897f0815fda5b29,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+47fb772bc62f42a4ad2099b35f0d404a,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+4b6df2a08aa0dfffb463c811d1eed0cd,oil and gas,facilities,..,..,...,Natural Resources Canada
+4d0981e216e8f4e4b57257ba449ae259,bridges and tunnels,bridge,LEADVILLE,BRIDGE,Bridge,Province of British Columbia
+4e2e2da9cdb6c22801a685c0fb71b95d,railways,track,..,...,...,Natural Resources Canada
+4fb59c9b882beaab3cc85e3417e7a8a1,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4fc2753283ce1834a3df7920944c4836,bridges and tunnels,bridge,MOYIE R/GLENLILLY,BRIDGE,Bridge,Province of British Columbia
+50b3bd83496c8022138482a5abce4e53,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+511ed8ac7a93eae2a24d3216c8b0e3a8,railways,track,..,...,...,Natural Resources Canada
+5291048e1930b7dfb0a9301c60032fab,railways,track,..,...,...,Natural Resources Canada
+5981f9ef7bf13dcc5697712a7b71d0ea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5afdba628e46bb3f654051e828ee4bd8,bridges and tunnels,bridge,MEADOW CREEK NO2,BRIDGE,Bridge,Province of British Columbia
+5c08a928fbcbdfa48232863ec8696487,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+5d02aca301131d585651d660c610cd1a,bridges and tunnels,bridge,WHITE OVER GOAT R,BRIDGE,Bridge,Province of British Columbia
+5e48ae7825fc04a09834b4b8756566db,oil and gas,pipelines,..,..,...,Natural Resources Canada
+5ee1752f86d0f18cd1ce0320da97da2c,oil and gas,pipelines,..,..,...,Natural Resources Canada

@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Metrotown Station @ Bay 10,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Northbound Boundary Rd @ 2nd Ave,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Southbound Gilmore Ave @ Venables St,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+c8fd6a8386905c4749ad8f81f24e7a4d,potable water,pipe,..,..,Pipe main,City of Burnaby
+c8ff6fa0fb24b5e84b3e6d2689c28af6,potable water,pipe,..,..,Pipe main,City of Burnaby
+c8ff928e8c00226df96e44657b1221eb,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+c9000c3b8cbb34f538673d9791c330d4,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby
+c900756a2792398e0d8059f214cf9cd6,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby
+c900ce68428de6fbf408ab6a78581e0f,potable water,pipe,..,..,Pipe main,City of Burnaby
+c900ce7652487d486e1c2190189956b9,potable water,pipe,..,..,Pipe main,City of Burnaby
+c90120259be7d275f7925a97cbdbfdb0,potable water,pipe,..,..,Pipe main,City of Burnaby
+c90135badfeba20b4d30054cc0f3e1ef,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+c901c29cb36d7b84ee1da0f070dbb41c,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+c9025ad21032db0c80f989073bc89ee8,potable water,pipe,..,..,Pipe main,City of Burnaby
+c902750a694c7513ce9534e465846271,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Burnaby
+c90341298b283f65fdfb1d0c822099bd,railways,station,Sperling-burnaby Lake,...,...,Natural Resources Canada
+c903c283dc6dda230d97c1858121dfae,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby
+c903cf09623bb921e2fbac8ae8e07038,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby
+c903d319f298741ac01d9948b42aed52,potable water,pipe,..,..,Pipe main,City of Burnaby
+c903dccb5d675ed80f13746a96e7f6e9,wastewater and storm water,pipes_combined,..,..,Pipes combined,City of Burnaby
+c9048308aa8bf50fd90fb7b02d83af8e,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby
+c905b21670a3053e20957763827cf648,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Burnaby
+c9079d4eb2e60bda86e3e7923e08fada,potable water,pipe,..,..,Pipe main,City of Burnaby
+c90bd7adb8d1ab41a44cce491079d12d,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+c90d86ea149a056cfe0eaf593e22927c,potable water,pipe,..,..,Pipe main,City of Burnaby
+c90e79a735a2c32a288e755fcd009ba5,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Burnaby
+c90ee19a774adba7460d904d5e06e743,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+c9105f1b22113bb4bf256b3db84c8de3,potable water,pipe,..,..,Pipe main,City of Burnaby
+c910facb72514a27a081b6b7bd85cc14,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby
+c912b5fb98604609ea0f0ec2cf539922,potable water,pipe,..,..,Pipe main,City of Burnaby
+c913816d78913b7b480b5962e91b67db,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby
+c913e87a86f1adb8708e6c14c0f39f1e,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Burnaby
+c9140c7e09e92b6f1f3021c23411a0b8,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby
+c9153ee962a26cbf0ce8a39c37bf2822,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+c91645a9e5f40520c797d01ee4490683,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Burnaby
+c91959159cbcb6f6f327b5003a4d57e0,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+c91995c06fe7bbedce8ceb443f93cdf2,potable water,pipe,..,..,Pipe main,City of Burnaby
+c91c11d0408fd7fb16acd2fdb0ed0f1c,potable water,pipe,..,..,Pipe main,City of Burnaby
+c91c41ce4a41a328da030245c842ff33,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+c91c99c1033665ed9989d122fcacb16e,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby
+c91dd145de5b18d131ea310eac541b73,potable water,pipe,..,..,Pipe main,City of Burnaby
+c91e2ee9eeffb4553e2e8235849010fb,potable water,pipe,..,..,Pipe main,City of Burnaby
+c91ed76f941da517780be02bd9d833bc,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+c91fcd13d3cbd39d151237a6b2713620,potable water,pipe,..,..,Pipe main,City of Burnaby
+c920719afdbf0328fb08ebc4acfc21a2,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby
+c9209eb86d3493909820bcd56d57b329,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+c921e919cd632949ed909121c915a8cb,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Burnaby
+c922a6ae2c3034feec7f46b24ecf5716,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Burnaby
+c9240a2940023dcac946f60424916ecf,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Burnaby
+c92536f8aca6f5e83edb83dd3e54cc25,potable water,pipe,..,..,Pipe main,City of Burnaby
+c9260f04e86cc5864498b551208e5d2f,potable water,pipe,..,..,Pipe main,City of Burnaby
+c9267aa56ddeefa8f3f2a442602031da,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Burnaby

@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+c923103f753b7dbba4b93383f93d7846,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+c923b652a90bd29dfd19f71571f1f3ed,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c924a53a3fa01c25c0e170c132de0a13,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c9251e5aa8ee30765b33791c6056acf9,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c9253b584ccc0e94497f2e6ecd60a6b7,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c925f5d720abeece39784289a4e4a923,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c926363a84b7b40b639247adb777a0d9,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c926918f3a4194312fd1d0f09a0a8301,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+c9275c1172c2eef6ab03f475c37031df,potable water,pipe,..,..,Pipe lateral,City of Abbotsford
+c92761f42439526fa45a5bb270538b42,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+c927cdbf926dcff58cfb43f8b5005dd2,wastewater and storm water,facilities_storm,..,..,Culvert,City of Abbotsford
+c927f83b2352e1e9a953a2f158f325b6,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c929bb41f8b675a8ae5441b60d4b7c27,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+c92aa38f0f960ae14b541657b17c87a1,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c92d59d36c1bedc401736f6d4eaf3fd6,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c92d62794b0a404c648cc69f12f32d6e,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c92d838395aa81f3e27a082f00bece9f,wastewater and storm water,facilities_storm,..,..,Culvert,City of Abbotsford
+c92eda60ab34c6578dc5fb04ab767f47,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c93141ffe2ef8a286d3f5239d5835f62,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c93274a9baf2e72e3124c954de653817,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c934017a6ee9e388a66b6d7d91e1aa32,potable water,pipe,..,..,Pipe lateral,City of Abbotsford
+c936d86a28806cf1e459ed9b01a0b069,potable water,pipe,..,..,Pipe lateral,City of Abbotsford
+c9391313f2293d2e0c461f1c5f949e16,potable water,pipe,..,..,Pipe lateral,City of Abbotsford
+c93b6bf45fd5881c97c43c00ae7fe687,wastewater and storm water,facilities_storm,..,..,Culvert,City of Abbotsford
+c93e2969daf9ea8771c6f796dafdf398,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c93e9eae6ab4a3f02adc26ae4d65a7e9,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+c93eb61f07352dfd17f464351943f0bf,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c93f94723b83b9a8e011262c12fa2432,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+c9411f619ca79c38cbab921f8358e5bc,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+c9421f9caf7a0b00cfe92edf532162cb,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c94243b9acdc696553521907a008951f,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c9449f3525308dba9340997ef1999222,potable water,pipe,..,..,Pipe lateral,City of Abbotsford
+c944afc9d1b5166e6cf61fedcc9dd5b5,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c9459be036b7b91350fe4cc882dd2eee,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c945fe2e67d561cd02094842848cae14,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c9473a1baef1ef065bc733c2bd27f2db,wastewater and storm water,facilities_storm,..,..,Culvert,City of Abbotsford
+c9474fb2e095fefdf5e849081051b17c,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c94980eeb6f8367d746de65906201297,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+c94a60fdad3c20a4e22d95db099723e7,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+c94c87b83dd5863d0f0cfc7f1e7f1a6d,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c94cec3e36f1a40278c9639911445062,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c9505f73ed3b4d98ab45b822e3c52e0f,potable water,pipe,..,..,Pipe lateral,City of Abbotsford
+c950c0f81b3e6b150c13fd0f0f6cc884,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+c9513b72e8873f8c3c7e48c30bddd896,potable water,pipe,..,..,Pipe lateral,City of Abbotsford
+c952fa4a606edeb2b7266de1dbdb3d10,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+c953e7d107237516924622160603c997,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c9541388f160e81cc3d0c08bedde47fe,potable water,pipe,..,..,Pipe lateral,City of Abbotsford
+c9551e794e21118fe12a4979f744f3b6,potable water,pipe,..,..,Pipe main,City of Abbotsford
+c95539d8e70aba8a18281ddf305caaa5,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford

@@ -1,50 +1,27 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Cariboo at Toba,..,..
-Cranberry at Manson Farside,..,..
-Manson at Cassiar,..,..
-Sutherland at Fraser,..,..
-Marine at Windsor,..,..
-Barnet at Redonda,..,..
-Columbia at King,..,..
-Lund at Sutherland Nearside,..,..
-Maple at Fir,..,..
-Joyce at Richmond,..,..
-Maple at Elm,..,..
-Quadra at Oliver,..,..
-Cranberry at Marlatt,..,..
-Hawthorn at Maple,..,..
-Alberni at Fernwood,..,..
-Marine at Quesnel,..,..
-Manson at Artaban,..,..
-Cranberry at Dieppe,..,..
-Manson at Duncan,..,..
-Joyce at Duncan,..,..
-Maple at Chestnut,..,..
-Church at Manson,..,..
-Duncan at Bowness,..,..
-Manson at Church,..,..
-Arbutus at Sycamore,..,..
-Joyce at Kamloops,..,..
-Columbia at Seton,..,..
-Marlatt at Rodell,..,..
-Quadra at Oliver,..,..
-Church at Nelson,..,..
-Manson 5070 Block,..,..
-..,WASTEWATER STORMWATER,..
-Joyce at Lytton,..,..
-Arbutus at Oak,..,..
-Lois at King,..,..
-Joyce at Hospital Entrance,..,..
-Kemano at Westview,..,..
-Joyce at Oliver,..,..
-Joyce 4700 Block,..,..
-Cranberry at Manson Nearside,..,..
-Lois at Nechako,..,..
-Cranberry at Marlatt,..,..
-Joyce at Harvie,..,..
-Barnet at Manson,..,..
-Cranberry at Manson Farside,..,..
-Lund at Sutherland Farside,..,..
-Hawthorn at Maple,..,..
-Marlatt at Church,..,..
-Maple at Elm,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+06845d1c8268211f9c9291a421e9b8a5,ports and marinas,port,Powell River Paper Dock,Terminal,...,Province of British Columbia
+07d08c8e5ebbc047856a4fb7a0d02d6d,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+07f8826d1f9f13df20a23a68a63eb0ab,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+0c2fb770d2d9dbe9b7930c5eafabbfae,telecom,tower,...,...,...,Natural Resources Canada
+14ce2b13536ba233f3668850e14ceaf3,airports,...,Powell River (hospital) Heliport,heliport,...,OurAirports
+1dfcfbed5134521a1def83790f10d311,low carbon,hydro,Powell Lake,...,...,World Resources Institute
+2286b0e79c7c407a7dac4865c400db56,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+3390a067f4eb9df2e157d51f6b8dfe36,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+35c44df40e6ab7df62791fb8c228b9ec,bridges and tunnels,bridge,WILDWOOD,BRIDGE,Bridge,Province of British Columbia
+38c6589f5556921315cff3855cd4f511,electric grid,power_plants,..,...,...,Natural Resources Canada
+4aa53fe555d2ced8fce8facf4f1f63f0,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+551388b49c54a13400ebc09eec7e1132,wastewater and storm water,facilities_waste,Westview Wwtp,"Grit Removal, Screening, Disinfection",Unclassified,Environment and Climate Change Canada
+6dfd68a62bed45dc4df8872a1a41d73e,wastewater and storm water,facilities_waste,Townsite Wwtp,"Grit Removal, Activated Sludge",Unclassified,Environment and Climate Change Canada
+772a10d7e5ffe171b2adf8c7462cb033,oil and gas,pipelines,..,Intermediate,...,British Columbia Energy Regulator
+7ea068c23c4888699771d7588b63a36b,ports and marinas,port,Powell River South,Port,...,Province of British Columbia
+7facee6c8f1fc05001c27430c4bd8d5a,airports,...,Powell River Airport,medium_airport,...,OurAirports
+82c12664e98474e8396aa24b44af6c49,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+9104f89030f908631c6a253d71c83c75,oil and gas,pipelines,..,Intermediate,...,British Columbia Energy Regulator
+92c83b1d1641e88784c8583c16e6e974,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a9dc81be819d399810eed5f6be6fa8fa,electric grid,power_plants,..,...,...,Natural Resources Canada
+aa92c43c7f714125bfc9c4a6e2b461c6,wastewater and storm water,facilities_waste,Wildwood Wwtp,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+b502021c695794adf9573b5f2d7f38a3,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+c53d99c1a27ce27d2a3cb598350511ae,low carbon,biomass,Powell River,...,...,World Resources Institute
+e9651a72b69a3d4f89ddafd0670bf420,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+ee8ba1969344fd808f32fe3b203ff182,ports and marinas,port,Powell River Municipal Barge,Terminal,...,Province of British Columbia
+ff59a2b381d440a6acb7c7183279fe9e,airports,...,Powell Lake Seaplane Base,seaplane_base,...,OurAirports

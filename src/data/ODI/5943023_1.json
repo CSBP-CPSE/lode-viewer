@@ -1,43 +1,25 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Port Hardy Transit Centre,..,..
-9360 Block Trustee,..,..
-Quarterdeck,..,..
-Thunderbird Mall,..,..
-Clyde Creek Road,BRIDGES AND TUNNELS,Footbridges
-Hardy Bay Road,BRIDGES AND TUNNELS,Footbridges
-Park & East Eagle Cresent,..,..
-Highland & McDougal,..,..
-Napa,..,..
-Bear Cove Highway,BRIDGES AND TUNNELS,Footbridges
-Hardy Bay & Lansdowne,..,..
-Beaver Harbour & Byng,..,..
-..,WASTEWATER STORMWATER,..
-Rupert & Market,..,..
-Market & Hastings,..,..
-Hardy Bay & Goodacre,..,..
-9150 Block Trustee,..,..
-Fort Rupert Park and Ride,..,..
-Gray & Rupert,..,..
-Beaver Harbour & Weynton,..,..
-Port Hardy Airport,..,..
-Baas Road,BRIDGES AND TUNNELS,Footbridges
-Park & Highland,..,..
-Glen Lyon North,..,..
-Byng & Avalon School,..,..
-Byng & Beaver Harbour,..,..
-Island Highway,BRIDGES AND TUNNELS,Footbridges
-Beaver Harbour & Fort Rupert Rd,..,..
-Highland & Chancellor,..,..
-Park & Carnarvon,..,..
-Hardy Bay & Founders Blvd,..,..
-Glen Lyon South,..,..
-Byng Road,BRIDGES AND TUNNELS,Footbridges
-Port Hardy Hospital,..,..
-Byng & Metchosin,..,..
-Columbia & Central,..,..
-Park Drive & Tsulquate,..,..
-Rupert & Seaview,..,..
-Hardy Bay & Gibraltar,..,..
-..,WASTEWATER STORMWATER,..
-Beaver Harbour & Peel,..,..
-Hardy Bay & Lansdowne,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+029bb80301f0559acf55a8e479478fdc,wastewater and storm water,facilities_waste,Port Hardy Wastewater Treatment Plant (airport),"Screening, Primary Sedimentation/Clarification, Extended Aeration Activated Sludge, Disinfection",Unclassified,Environment and Climate Change Canada
+25173d33b9ad9ba36ef3a8fe308093f9,airports,...,Port Hardy Seaplane Base,seaplane_base,...,OurAirports
+2625964b3002ca4dad223926e2c93caa,telecom,tower,...,...,...,Natural Resources Canada
+2dfa45b63fd575bd38f3b1e8f35c56b4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3262988987ac8949009322015862779b,bridges and tunnels,bridge,QUATSE RIVER LOWER,BRIDGE,Bridge,Province of British Columbia
+40e56f1bf68e3aa770f4942bd1796ba8,telecom,tower,...,...,...,Natural Resources Canada
+48af491f8c2ef9af80e0b1f8c9c1210a,telecom,line,...,...,...,Natural Resources Canada
+4f126b133884619b8ca69e0b63ffc4b9,telecom,tower,...,...,...,Natural Resources Canada
+5741090b1a8544994ce26ba8ef1f69c3,bridges and tunnels,bridge,QUATESI CREEK,BRIDGE,Bridge,Province of British Columbia
+59f384e34588f5fb14f327d0e767e35c,telecom,tower,...,...,...,Natural Resources Canada
+6659c4c46c4c16efef27b7c1445ff4e2,bridges and tunnels,bridge,BYNG,BRIDGE,Bridge,Province of British Columbia
+6fe0ba171198af6c90b77ec0073f75f7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7028b01ddd5b59da43547d5ea31c86a7,telecom,tower,...,...,...,Natural Resources Canada
+76455eaee33ce4c6dd6d3b0267b1307e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7712a12f9c62a3626e79d748a385b6d8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8de9e9b23121bd6f1558e59a0f68373c,telecom,tower,...,...,...,Natural Resources Canada
+908716f826f89229fef655f204bd477d,wastewater and storm water,facilities_waste,Port Hardy Wastewater Treatment Plant (tsulquate),"Grit Removal, Screening, Primary Sedimentation/Clarification, Extended Aeration Activated Sludge, Sequencing Batch Reactor, Disinfection",Unclassified,Environment and Climate Change Canada
+ad9029b1dc13d7233771f2436ec0ff85,bridges and tunnels,bridge,GLENLYON RIVER LOWER,BRIDGE,Bridge,Province of British Columbia
+b9f50f1009132479c14eb905c3ec2800,airports,...,Port Hardy (hospital) Heliport,heliport,...,OurAirports
+ce0373f67b1dce44b5215bb5aaf29ccd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cfae388a948d20b1d2cc193874d36dfd,airports,...,Port Hardy Airport,medium_airport,...,OurAirports
+d48a0aff59e591c36dff2cb4b133ca02,ports and marinas,port,Port Hardy,Port,...,Province of British Columbia
+dc3eb278998d22449f3d8d8c916c0336,telecom,tower,...,...,...,Natural Resources Canada
+fbd790f240a8e6fa4373bf42e3ca9d02,telecom,tower,...,...,...,Natural Resources Canada

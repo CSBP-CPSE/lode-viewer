@@ -1,19 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Old Salmo Rd 1900 block 1900 block,..,..
-Bluebird Road,BRIDGES AND TUNNELS,Footbridges
-Highway 22A,BRIDGES AND TUNNELS,Footbridges
-Champion Park Road,BRIDGES AND TUNNELS,Footbridges
-Main Street,BRIDGES AND TUNNELS,Footbridges
-Green at Mill,..,..
-Hwy 3B at Beaver,..,..
-Old Salmo Rd at Mollar,..,..
-Pend-dOreille River Bridge,BRIDGES AND TUNNELS,Footbridges
-Hwy 3B at Beaver,..,..
-Mill at Columbia Gardens,..,..
-Hwy 3B at Robinson,..,..
-Webster Road,BRIDGES AND TUNNELS,Footbridges
-Hwy 3B at Robinson,..,..
-Marsh Creek Road,BRIDGES AND TUNNELS,Footbridges
-Hwy 3B 1000 block 1000 block,..,..
-Hwy 3B 1000 block 1000 block,..,..
-Hudu Creek Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0062f982552b4fe5279ca401c6e5399d,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+01678336268ac9fd05b895a615232122,bridges and tunnels,bridge,KELLY CREEK NO3,BRIDGE,Bridge,Province of British Columbia
+060e2f65f1b9c43216ae53e5394eb3c3,railways,track,..,...,...,Natural Resources Canada
+0aa02d3ae645edc577b822c95d264a12,railways,track,..,...,...,Natural Resources Canada
+0c665c4079db97e029c7f46038bc7b9f,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+1022cdaba9d2fd63fc03f1c28be98a93,electric grid,power_plants,..,...,...,Natural Resources Canada
+11846b093e6c465b25ae736fd00b8bf2,bridges and tunnels,bridge,BEAVER CREEK NO7,BRIDGE,Bridge,Province of British Columbia
+1319ba6581e7ac33bd64dc79fba19a73,railways,track,Reload Line,...,...,Natural Resources Canada
+1ad5abbe3d85acbb4260b723f0c9e938,railways,track,..,...,...,Natural Resources Canada
+1e93bc5ca9fe841967c458f6c704f707,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+202aaa16312998d36e47c981e9fac10b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+26cbc5da0a42abedf3ad411090bc8fe5,bridges and tunnels,bridge,WANETA,BRIDGE,Bridge,Province of British Columbia
+27bb68c23402afae3ff41c41134cc04a,railways,track,..,...,...,Natural Resources Canada
+2e89f314e6d393ed1151b04cba14c783,railways,track,Reload Line,...,...,Natural Resources Canada
+32801d5e74f404e738c91b2ac8b109c2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+33b761f9f6840a7cfe110c113e2d11d6,airports,...,Trail Airport,small_airport,...,OurAirports
+370f35e07e545271ae6953189ee27a36,railways,track,..,...,...,Natural Resources Canada
+3bd07f7c7fe139b9b3123ac52a3f762d,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+3d5b0bfee1c722cd54bbb393f43a2b2e,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+4209fbaa92c3b91fb26bbda53c87169a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+480be0506098c2a37805bbd44425b877,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4c37bde614a6b32714a62022b0bfa139,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4e56f6dcb84af5c57107bc92c90b19b6,railways,track,..,...,...,Natural Resources Canada
+50e982d19c7abbe2d7c940af53f45bb4,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+5df9a07988b846f314bbf9e639bef2e6,railways,track,..,...,...,Natural Resources Canada
+6120f3b835a2ea22ecc604bad9405527,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+62240359d9553f59e57b9a1d31831f50,bridges and tunnels,bridge,BEAVER CREEK NO9,BRIDGE,Bridge,Province of British Columbia
+63ccc5654b1adbf099d9ba1273a89c98,bridges and tunnels,bridge,BEAVER CREEK NO5,BRIDGE,Bridge,Province of British Columbia
+65c0444e0e7c872261a28ca4c7797a30,railways,track,..,...,...,Natural Resources Canada
+6bef68708c2605ba5f8d5a41a84fae9f,railways,track,Reload Line,...,...,Natural Resources Canada
+6d3e0c7ac8be9e635e4630c1f5aa65aa,telecom,tower,...,...,...,Natural Resources Canada
+6eb3f2f7aaf0de60a7f08a7125204d24,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+76c9ae03dfff868336a9f57eda6d674f,electric grid,power_plants,..,...,...,Natural Resources Canada
+77622922608c5c8c1d02a25f7587cd47,railways,track,..,...,...,Natural Resources Canada
+7b508f3c900a2a65a344387aef5564fe,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+7c5312db6b86127664205d7806263392,railways,track,..,...,...,Natural Resources Canada
+800c4450ddf32500d62fffef1da08884,bridges and tunnels,bridge,BEAVER CREEK NO8,BRIDGE,Bridge,Province of British Columbia
+81d1be46eee3aaf4476076224dcf1ff1,bridges and tunnels,bridge,BEAVER CREEK NO4,BRIDGE,Bridge,Province of British Columbia
+880a755ad950de948b4900cd716b2f48,railways,track,Reload Line,...,...,Natural Resources Canada
+8c8b41286b35e04bcbc14fae1645062c,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+8d16eaf15a42cab2b667dec8160ee28f,railways,track,Reload Line,...,...,Natural Resources Canada
+903a8a9ea65956bf9e413b87ad96971a,low carbon,hydro,Waneta,...,...,World Resources Institute
+947409334d3d2156c045454b31b27b47,railways,track,..,...,...,Natural Resources Canada
+9528bfe760fd204853fca0cbfe0d1045,railways,track,Reload Line,...,...,Natural Resources Canada
+95ebeaf04982122bfa785884f3055e31,railways,track,..,...,...,Natural Resources Canada
+96169bbe452475f7027c718f440709dc,railways,track,..,...,...,Natural Resources Canada
+9a20fd0e12c769e3fee52028762df921,railways,track,..,...,...,Natural Resources Canada
+9a48dbb2c9eccef79b4629fbf9452a08,telecom,tower,...,...,...,Natural Resources Canada
+9c15b8c4caac79d6cc69483fb9bbe212,railways,track,..,...,...,Natural Resources Canada

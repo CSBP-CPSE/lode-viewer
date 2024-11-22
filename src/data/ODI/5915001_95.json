@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Storm Water Management (Ponds and Wetlands)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+12b0ae76d388e4982f07af0803c01ef7,wastewater and storm water,facilities_storm,..,..,Culvert,Township of Langley
+12b0b0bdcdb391bd54983a166f3864c9,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12b0ba9e88e61539694d2e600a45119e,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+12b444e05367d50f3c286057818f6246,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12b48bd0506a54cc5cca8872831d2940,potable water,pipe,..,..,Pipe main,Township of Langley
+12b5cc2001ccbadfe2a2913fed05dd63,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12b7dff9fee8dfdbdaecb68550dc4565,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12ba4576e538f5e2c91b1e1547d452a6,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12bc9db2870b5141cd98b1cee7d772a9,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12bd7380ce9ce54211608be3575c4cff,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12bd7f881ca03cb027305cf825abd51a,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Surrey
+12bdf85f80bebaf1fa63032f78b8587e,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12bee80f50438130921783bf0a00687f,wastewater and storm water,facilities_storm,..,..,Culvert,Township of Langley
+12bf55fb2d63b58833197179901510b0,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12bfbbe981c9918670fa00706c7a0636,wastewater and storm water,facilities_storm,..,..,Culvert,Township of Langley
+12c0f8b699856e0f4b6b6468b5521fd6,potable water,pipe,..,..,Pipe main,Township of Langley
+12c35460444ca9603fbe4be2272eeb6b,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12c79147961eba0d13d29de1db87d8e4,potable water,pipe,..,..,Pipe main,Township of Langley
+12c823bb1f60866956faf5e56a196561,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12c86ac221851c2b9ad946a1d057565b,wastewater and storm water,facilities_storm,..,..,Culvert,Township of Langley
+12c94b332ee87b7e1c024d218722d1d1,wastewater and storm water,facilities_storm,..,..,Culvert,Township of Langley
+12cc2562e6f649713fd7e456d31a02bb,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12cd95e6f181339043d1da8ad1b072e2,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+12d1248e13be05059d8fe26d7f015fb5,potable water,pipe,..,..,Pipe main,Township of Langley
+12d21b63cc2514efe8eb3e247db58acc,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12d338a9a4316fb03b4a2ee414660122,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12d43e69874857dd51cf0b45203aa4bf,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12d4f1cfe4c5aa9e593270278227f319,potable water,pipe,..,..,Pipe main,Township of Langley
+12d6c942c3d36f946a6cdb5efd5dd2d7,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12daf8f0411be1422260a7d8a071b7c1,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12db0ada71ebb3e0f9df64477d77f7e2,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12dc474ca8d466884d019fa33a14aef2,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12de0863363306a6c0611727ac77aae1,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12de9c1dc6078c76520fe2cdc2ab077c,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12df21d78745a3dc387c7658a6551a70,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12e10cfe0acc8b334be3a8a32fbc3f2c,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12e1835bad981fc3e2b81dfc88fd662a,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12e2045f3eded2d48cf7115dd8ddecd2,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12e285f087ee0247afa7d1dee7c65545,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12e35e4ebac2463256fd1360a4fb4af9,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12e51b007b5dbc92f24f40fc523ca683,potable water,pipe,..,..,Pipe main,Township of Langley
+12e6e97068b8a725b1dcb1dc2b463027,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12e8b619aec54ba69c5eb19032b5bd51,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12e9dd37369c35057b461f3ccf4757e9,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+12ebea4e9102f5a318915e737030037b,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12ebf735af2a32dc4b1524184bd38269,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12ecbd04810d1a6e33b2e0a3f5a5f4d8,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+12ecf73ad738969423a973db50905fff,potable water,pipe,..,..,Pipe lateral,Township of Langley
+12ecf911c7a5fef6f9796f098333772e,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley

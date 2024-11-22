@@ -1,28 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Cowie Creek Road,BRIDGES AND TUNNELS,Footbridges
-Highway 29,BRIDGES AND TUNNELS,Footbridges
-Hasler Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Pine River Bridge,BRIDGES AND TUNNELS,Footbridges
-261 Road,BRIDGES AND TUNNELS,Footbridges
-265 Road,BRIDGES AND TUNNELS,Footbridges
-Clearwater Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Sukunka Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-267 Road,BRIDGES AND TUNNELS,Footbridges
-281 Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Highway 97,BRIDGES AND TUNNELS,Footbridges
-269 Road,BRIDGES AND TUNNELS,Footbridges
-Johnson Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Lone Prairie Road,BRIDGES AND TUNNELS,Footbridges
-Dorney Road,BRIDGES AND TUNNELS,Footbridges
-Westcoast Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Highway 97 South,BRIDGES AND TUNNELS,Footbridges
-Willow Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Hasler Road,BRIDGES AND TUNNELS,Footbridges
-Zonnebeke Road,BRIDGES AND TUNNELS,Footbridges
-Sukunka River Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Wolverine Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Bedell Road,BRIDGES AND TUNNELS,Footbridges
-251 Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Braden Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+001c799a0ca1a38979c3710692d7eb53,low carbon,wind,Dokie Ridge Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+0045dbb23445dad1dbbcf1f92302c67d,oil and gas,wells,Cve Energy Hz Brassey B- 061-d/093-p-10,..,...,British Columbia Energy Regulator
+0068cfda9954bf686713abc1e82bcaab,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+006f30444e38d809092025df29a1706d,oil and gas,wells,Strathcona Et Al Brassey C-a054-d/093-p-10,..,...,British Columbia Energy Regulator
+00767ac1b123bfb8223493c059fa0b6e,oil and gas,pipelines,..,Gathering,...,British Columbia Energy Regulator
+00958e1c55f75bbf22d67595b87e4f7c,railways,station,Teko,...,...,Natural Resources Canada
+00a75962bd7289497b0d6e6d4fdd5383,oil and gas,wells,Ovv Et Al Hz Brassey C- 048-c/093-p-10,..,...,British Columbia Energy Regulator
+00c5214b51e7735885fdd857873f38cd,oil and gas,wells,Shell Hz Saturn 09-11-080-19,..,...,British Columbia Energy Regulator
+00ccd02180f50e6ae83a80f228b611f8,oil and gas,facilities,Shell Heritage 14-21-080-18 006,Well Facility,...,British Columbia Energy Regulator
+00e5455fffac26a098946746a4d7f060,oil and gas,wells,Arcres Hz Sunrise D07-27-078-18,..,...,British Columbia Energy Regulator
+00e74dbff915f56d35982d20050be690,oil and gas,pipelines,..,Gathering,...,British Columbia Energy Regulator
+00e9c2db4be6a2277029bf0e882505fb,oil and gas,wells,Cve Energy Et Al Brassey C-c088-d/093-p-10,..,...,British Columbia Energy Regulator
+00eaa7cd457b901094c26b798e49ae2b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0114137f0305803ba790646fd9a6f093,oil and gas,pipelines,..,Gathering,...,British Columbia Energy Regulator
+0124821c6e9db7e8a08e638e14f5e95b,oil and gas,facilities,Cnrl Heritage 04-05-082-19 004,Well Facility,...,British Columbia Energy Regulator
+01304e1517bd5a86186ac4b39706c26f,oil and gas,wells,Shell Hz Sunset F06-16-079-18,..,...,British Columbia Energy Regulator
+013ee308eb4cb09bb23b6e15988178a3,oil and gas,wells,Shell Hz Sunset B14-21-080-18,..,...,British Columbia Energy Regulator
+0151797af0744d6bb06f6822e579009a,oil and gas,wells,Shell Hz Sunset G16-29-080-18,..,...,British Columbia Energy Regulator
+0154f59720c66e09166b68f87df7ab2c,oil and gas,pipelines,..,Line Heater,...,British Columbia Energy Regulator
+0163dd4a03c43465d8a9c5161d330eef,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+017395c43a4737aa5d04b1a4f236827c,low carbon,wind,Meikle,...,...,"Government of Canada, Natural Resources Canada"
+017ae1285b17aeee9a27eb5b0d72b8ae,oil and gas,wells,Cnrl Hz Septimus F05-23-081-19,..,...,British Columbia Energy Regulator
+017c44e9035d4e3d8ac3151078f965d1,railways,track,..,...,...,Natural Resources Canada
+01852286864927b1d6f2c7c1f5ccc9e3,oil and gas,wells,Cve Energy Et Al Brassey D-c038-e/093-p-10,..,...,British Columbia Energy Regulator
+019ca4e536d67a062a67ca8e27623b98,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+01c210d1188bea0d5181c68b315e037e,oil and gas,wells,Shell Hz Sunset I10-09-080-18,..,...,British Columbia Energy Regulator
+0203d28cbd6a441d2d70103b8fb24f4a,oil and gas,wells,Crew Hz Septimus F09-03-082-19,..,...,British Columbia Energy Regulator
+020995ade30b48300c701b8257f53eec,oil and gas,wells,Shell Et Al Hz Groundbirch E16-09-080-19,..,...,British Columbia Energy Regulator
+02235dfd2b6dcea730a9977323ff441e,oil and gas,facilities,Shell Heritage 12-11-081-21 006,Well Facility,...,British Columbia Energy Regulator
+02479c31815545e9d9900c75ecb3f027,oil and gas,wells,Shell Hz Saturn E09-11-080-19,..,...,British Columbia Energy Regulator
+028cfba3f4dfbc56697be56edd53fdf2,oil and gas,facilities,Shell Heritage 11-25-078-20 004,Well Facility,...,British Columbia Energy Regulator
+02a6dbc70cdc4f5793d7cca78c2196d0,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+02a7775ae7849b6351697e53d257b85b,oil and gas,facilities,Shell Heritage 06-16-079-18 013,Well Facility,...,British Columbia Energy Regulator
+02efc7a026ca9be11ac50947081771eb,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+02fcb6b79ab8b6544d614a8fea1ab6d0,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+0304aaef74552ca7db9e7103ee3e5191,oil and gas,wells,Arcres Hz Sunrise L09-13-078-18,..,...,British Columbia Energy Regulator
+034b0326d6b6bf87366518cdc73747b0,oil and gas,facilities,Shell Heritage 05-32-077-19 002,Well Facility,...,British Columbia Energy Regulator
+0371bf33b8bae7ed07957aa965f84326,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+03843a19d747b80fec51698f7c9cfaed,oil and gas,wells,Arcres Hz Sundown J08-24-078-18,..,...,British Columbia Energy Regulator
+03873553459b899619bc6775c4bea93b,low carbon,wind,Meikle,...,...,"Government of Canada, Natural Resources Canada"
+039fcf7ed79d63eab60d3ecd63b8864c,oil and gas,facilities,Crew Heritage 04-02-082-19 004,Well Facility,...,British Columbia Energy Regulator
+03a1f3b40b512cf750717b94e6b0eb96,oil and gas,wells,Crew Hz Septimus E04-24-082-20,..,...,British Columbia Energy Regulator
+03d1f0cb33f16c47c8832d09e4c83dca,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+03d1f52a3c62bb7cdae26d527e82dddb,oil and gas,wells,Cnrl Hz Septimus C09-21-081-19,..,...,British Columbia Energy Regulator
+03d8a09f4eca01247d3d70192e4534c5,oil and gas,pipelines,..,Gathering,...,British Columbia Energy Regulator
+03f754c13b531d67c24fb9f333b8c31d,oil and gas,wells,Arcres Hz Sunrise 13-30-078-17,..,...,British Columbia Energy Regulator
+041030ba1d7c5c95140be103fcf9cb33,oil and gas,wells,Shell Hz Groundbirch 07-28-079-20,..,...,British Columbia Energy Regulator
+0414e02cb6d45cb6155929625926fc78,oil and gas,wells,Tourmaline Hz Sunset F08-15-080-18,..,...,British Columbia Energy Regulator
+0451d2a7fdf6e128ab2dc2ceb3341ad9,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator

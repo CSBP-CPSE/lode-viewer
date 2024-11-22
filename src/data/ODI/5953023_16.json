@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,"Bridges, Footbridges"
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-Ferry at Westwood,..,..
-Tabor at Genevieve,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-10th Ave at Douglas,..,..
-Upland at St Laurent,..,..
-Dominion at 6th Ave,..,..
-N Ospika at McRae,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Simon Fraser at Brock,..,..
-Weisbrod at Dagg,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Hart Highway at Nordic,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Upland at Emmet,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Spruceland Exchange Bay C,..,..
-Griffiths 2870 block,..,..
-Tabor at Hill,..,..
-Laurier at Lethbridge,..,..
-Ferry at Clapperton,..,..
-15th Ave at Drummond,..,..
-Pearson at Upland,..,..
-Westwood at Fairview,..,..
-15th Ave at Endako,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-Malaspina at Rochester,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-Pine Centre Exchange Bay A,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+d0fa5d8f31f497a35c4c7ce6c82cabc0,railways,track,..,...,...,Natural Resources Canada
+d13c4107ef9cb73eddcb1e1bb0e18e41,railways,track,Prince George South,...,...,Natural Resources Canada
+d14ddf1a655cf3fe6f30380bec0a4e3a,railways,track,Prince George South,...,...,Natural Resources Canada
+d19f627a4d5e85493c52c654af5d50b9,railways,track,Prince George,...,...,Natural Resources Canada
+d19f9e66605583cdb4f8181f27992c86,railways,track,..,...,...,Natural Resources Canada
+d1c32ab04c5921561971709ef524a72b,oil and gas,pipelines,..,Intermediate,...,British Columbia Energy Regulator
+d242d1c6df153adf34ef78d14ef9c585,railways,track,..,...,...,Natural Resources Canada
+d2720124705c520a8b2148688f8e09cb,railways,track,..,...,...,Natural Resources Canada
+d2826cdf127bc39b640f6a850c1055e7,railways,track,..,...,...,Natural Resources Canada
+d2d504e7703fcf833dc488c5ae707c41,bridges and tunnels,mixed,..,..,..,City of Prince George
+d359ccc18a3077b76d7f5d01ed76289d,railways,track,..,...,...,Natural Resources Canada
+d3699cf8878e342e90f82e19185b131a,railways,track,..,...,...,Natural Resources Canada
+d374452faa6a4366986ade258f545047,railways,track,..,...,...,Natural Resources Canada
+d48d2d73d6a2c687408b42f66104732d,railways,track,Prince George South,...,...,Natural Resources Canada
+d4eba123010da47822ee9d06ab51f8de,railways,track,..,...,...,Natural Resources Canada
+d55bb24b58457d8e1f60ab5b083718a2,railways,track,Prince George South,...,...,Natural Resources Canada
+d581af6b1f66dc823100ff2eea346d9f,bridges and tunnels,mixed,..,..,..,City of Prince George
+d5c256819669bf3ad0d93d2cfed89ad6,railways,track,Prince George South,...,...,Natural Resources Canada
+d6214c3f073e8c8d80f64c0945009b6a,railways,track,..,...,...,Natural Resources Canada
+d6d0532da4a1213d95bb2bab6c396909,railways,track,Industrial Lead 1&2,...,...,Natural Resources Canada
+d703a5affe1f94fc4f2b05bd17462dbe,wastewater and storm water,facilities_waste,Danson Wastewater Treatment Plant,..,Waste treatment plant,Environment and Climate Change Canada
+d7404af4572e835e13859262e531a032,railways,track,..,...,...,Natural Resources Canada
+d750fa34361d3e40e1ea476bed8d40f8,railways,track,Prince George,...,...,Natural Resources Canada
+d7608338505c580d3a65f3141a1872ce,railways,track,..,...,...,Natural Resources Canada
+d83e73c217e86f10688d73296f0d211b,railways,track,..,...,...,Natural Resources Canada
+d86f29fce54126d03fb10d0ff293ce5a,railways,track,..,...,...,Natural Resources Canada
+d8746f2f0bddd7e3dce43e4aede12f53,railways,track,..,...,...,Natural Resources Canada
+d92ae467ab0a07c0bf9a47f84aa22818,railways,track,Pulp Mill,...,...,Natural Resources Canada
+d9a4ba2403829104d9164bbaf1708b28,railways,track,..,...,...,Natural Resources Canada
+d9ad4a683b6e0b3dc034c3bb62b29d0d,railways,track,Prince George,...,...,Natural Resources Canada
+d9dd41a1671f2e1c4ca57a921f178e0f,railways,track,Prince George South,...,...,Natural Resources Canada
+da42e26a4061022295aaad20dc3a27f5,railways,track,Prince George,...,...,Natural Resources Canada
+dabd23f9fcbbb6a85ae18648cc095481,solid waste,landfill,Foothills Boulevard Regional Landfill,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+db681a4eb671c44870d3037988dd2b82,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+db7203838bdda0599ec03ceef78e7964,railways,track,..,...,...,Natural Resources Canada
+dbcbe9eba3e857e51dea61e956624fe3,railways,track,..,...,...,Natural Resources Canada
+dc5201797f59a32effe213aa465a2532,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+dce21189ce2073476932648b364497be,railways,track,..,...,...,Natural Resources Canada
+dd241da54328b67278dca67ecdebd49e,railways,track,Prince George South,...,...,Natural Resources Canada
+dd44ff62a8a3ef0d24d5dc7f86f12187,railways,track,Industrial Lead 1&2,...,...,Natural Resources Canada
+ddd94d9790ea5ab2991bfb89ce51efb1,railways,track,Prince George,...,...,Natural Resources Canada
+de87be505497f77510161e4a740666ef,railways,track,..,...,...,Natural Resources Canada
+deca783c33a9d95fadf1d8b616e351d1,railways,track,Prince George South,...,...,Natural Resources Canada
+df1cf430f6fa30ba1f00bdbab925a5d3,railways,track,South Leg,...,...,Natural Resources Canada
+df24e2ac1daf004a3ccead9c5ccbe9a6,railways,track,..,...,...,Natural Resources Canada
+df563c24c52caaa0e91b746d6c8a93c6,railways,track,..,...,...,Natural Resources Canada
+df8f11b0f9e7859d91d33c92f85f60da,railways,track,Prince George,...,...,Natural Resources Canada
+df8f5430126a880cd14b4cd51d0b2c2c,railways,track,..,...,...,Natural Resources Canada
+df910fb427af7511139b583124e44a1a,railways,track,Prince George South,...,...,Natural Resources Canada

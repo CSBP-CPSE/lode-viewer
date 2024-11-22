@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-Yates at Ormond,..,..
-Douglas at Pandora - City Hall,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Fairfield at Arnold,..,..
-..,PEDESTRIAN AND CYCLING,biking
-Richardson at Arnold,..,..
-Foul Bay at Fairfield,..,..
-Esquimalt at Harbour,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,biking
-Fort at Cook,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Finlayson at Glasgow,..,..
-Foul Bay at Fairfield,..,..
-Hillside at Gosworth,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Hillside at Cedar Hill,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-Yates at Broad / Douglas,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Hillside at Blackwood,..,..
-Fernwood at Yates,..,..
-..,PEDESTRIAN AND CYCLING,biking
-Pandora at Fernwood,..,..
-Cook at Sutlej,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Legislature Terminal,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-Crescent at Richmond,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-Quadra at Topaz,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+029a19d8c9b78d484f9e0043238f87b3,ports and marinas,port,Point Hope Maritime Ltd.,Shipyard,...,Province of British Columbia
+03bfc299ccef79c9a5b6905984f8addf,railways,track,..,...,...,Natural Resources Canada
+03dd2e0ab76b3227662ebaaa17f2f0ab,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+03f6212b88799dd6cd1a96072e43231c,bridges and tunnels,bridge,Stone Bridge,Bridge,Bridge,City of Victoria
+050f0684898b7c413804ca683150daa8,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+05cabb0dbe19f56716132a0ca0f9ca8c,low carbon,charging_stations,..,...,...,City of Victoria
+07254b4d82a0052ea251964806ee9b7b,railways,track,..,...,...,Natural Resources Canada
+07522870570e55170ebdf0112eb77a9b,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,District of Saanich
+07956ecf0145d4aca6a75649f4d7e525,railways,track,..,...,...,Natural Resources Canada
+079c5d63b039bf5c63651225c0850653,wastewater and storm water,pipes_waste,..,..,Sewer main,District of Saanich
+081f202a92f0394cfb9970a99779c289,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+084578047d44b3643decbd3725a0012b,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+093ab5282e7fdf55f0f044cbaafd536c,railways,track,..,...,...,Natural Resources Canada
+0b147b3071aca6efa9dcc39a25de5795,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,District of Saanich
+0c6ce65400df8b718d95850136f699e5,low carbon,charging_stations,..,...,...,City of Victoria
+0d2c5381c286bb4261b9afa00eb909cd,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+0d65e5e1b0a70999209d298131902ba3,low carbon,charging_stations,..,...,...,City of Victoria
+10097a7c46867178e00ec8906bdb983f,railways,track,..,...,...,Natural Resources Canada
+102e513ca8d6ce41504549d0911290e7,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+1046e8ddfcd1eb3647c6e8e10fd8fb47,wastewater and storm water,pipes_waste,..,..,Sewer main,District of Saanich
+109cccf7889cd3fa92e5297f24050bd7,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+11979cd518375fc34666bb261abe6731,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,District of Saanich
+15fcb57ba8ffb0202826938cf50ed362,low carbon,charging_stations,..,...,...,City of Victoria
+165325395271870e1a20d2470da105ab,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,District of Saanich
+1970d30ded982b953aecf1afc0c9cc0c,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+1b6a4059fe52b0cf87e77e65ad3d1549,low carbon,charging_stations,..,...,...,City of Victoria
+1c8a15013ec60b6dc9520eecad749a63,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,District of Saanich
+1e3ad28ec07aff157caac848d29d7c5c,ports and marinas,port,Ogden Point Terminal,Terminal,...,Province of British Columbia
+1e4dd6b107ee9c618b6c8a0a528221d7,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,District of Saanich
+2021fe886f72987385cb4540c3347872,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+231e122667a6297e82947f0fc50c2eac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2414c82379464e2eccf1a00f6f0d7f61,railways,track,..,...,...,Natural Resources Canada
+24528608a15061f281994855912be929,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+258e99bd60b5705b83c74f9024b8bba0,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+271076449fea5e2cf05f0c4ec3b9531c,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+27b03a3e4744cf71e9a38fa0c482c620,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+28e47e40351c7a3b060693855a06aa65,low carbon,charging_stations,..,...,...,City of Victoria
+2934a78399daa6b328645250b209aff0,bridges and tunnels,bridge,Gorge Road Bridge,Bridge,Bridge,City of Victoria
+2fefb98a5342ecf62d82e601bfc1c2db,railways,track,..,...,...,Natural Resources Canada
+3239b36578b79ef1e4ae3b7a1e41dd34,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,District of Saanich
+3415f2cb47eb08f539e01f4acb4e5ea8,low carbon,charging_stations,..,...,...,City of Victoria
+35769e61c89950ecd86ea59b2754e8ab,ports and marinas,port,Victoria Harbor,..,...,National Geospatial-Intelligence Agency (NGA)
+372489e8a0f09aea910675fa4450b288,railways,track,..,...,...,Natural Resources Canada
+3933e2139e655def03f62b220a90928b,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,District of Saanich
+39e6574d50da966e29f5c36bb32e0d44,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+3a05b00108158daed2e57710e59ddc32,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich
+3cfc0eb201ee55d32891eae59b5e3dff,wastewater and storm water,pipes_storm,..,..,Storm pipe main,District of Saanich
+3d0b054ffcc97e9f8775b7dc8131a36c,low carbon,charging_stations,..,...,...,City of Victoria
+3da8fb05442b15efcc41cb5d6cbadd5a,wastewater and storm water,pipes_waste,..,..,Sewer lateral,District of Saanich

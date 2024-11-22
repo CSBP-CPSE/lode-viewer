@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Vimy at Elm,..,..
-Johnson Road,BRIDGES AND TUNNELS,Footbridges
-Morrow at Logan,..,..
-Pioneer at Evergreen,..,..
-Elm at Pinewood,..,..
-Chaplin Road,BRIDGES AND TUNNELS,Footbridges
-Pioneer at Park,..,..
-Elm at Arbutus,..,..
-Caignou Road,BRIDGES AND TUNNELS,Footbridges
-Agassiz-Rosedale Hwy Exit at Tuyttens Rd,..,..
-Heath at Vimy,..,..
-Pioneer at Evergreen,..,..
-McDonald at Hwy 9,..,..
-Lougheed at McCaffrey,..,..
-Heath at Vimy,..,..
-Sasquatch Park,BRIDGES AND TUNNELS,Footbridges
-Elm at 7430 Block,..,..
-Elm at Pinewood,..,..
-Elm 7340 block,..,..
-Highway 9,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Cuthbert Road,BRIDGES AND TUNNELS,Footbridges
-McDonald at York,..,..
-Logan at Morrow,..,..
-Lougheed at McCaffrey,..,..
-Pioneer at Park,..,..
-Agassiz-Rosedale Hwy at McDonald,..,..
-Morrow at Garden,..,..
-McDonald at York,..,..
-Elm at Arbutus,..,..
-Morrow at Heath,..,..
-Tuyttens Road,BRIDGES AND TUNNELS,Footbridges
-Lougheed Highway,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Agassiz Bypass,BRIDGES AND TUNNELS,Footbridges
-Morrow 7280 block,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+1260a02c98ee09fc8ed00ef2adf9d247,bridges and tunnels,bridge,HARRISON RIVER,BRIDGE,Bridge,Province of British Columbia
+19721b0709f5ac78cba3568a28bff8bf,oil and gas,pipelines,..,Line Heater,...,British Columbia Energy Regulator
+2482708226c8329a6aa472c3c5f5f1af,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+28a25036276ea8e6b0d27c65216fe503,bridges and tunnels,bridge,MARIA SLOUGH,BRIDGE,Bridge,Province of British Columbia
+2c1d49793e2b150fa689e9ab45f8496f,wastewater and storm water,facilities_waste,Pa Region - Kent/mountain Institution,"Screening, Oxidation Ditch, Other Treatment, Disinfection",Unclassified,Environment and Climate Change Canada
+2cfcbcc7ab7b9353bf5fddb6e0da842d,railways,track,..,...,...,Natural Resources Canada
+2ec87e9e449086bf91e076e66114fda5,telecom,tower,...,...,...,Natural Resources Canada
+2f340bc45ca7931bb0efe022ed764ca4,bridges and tunnels,bridge,AGASSIZ-ROSEDALE,BRIDGE,Bridge,Province of British Columbia
+310e14118e9ee72e2df2f3e5862df1ac,bridges and tunnels,bridge,PUMP HOUSE,BRIDGE,Bridge,Province of British Columbia
+34db3ab44c03ca90b5014be62575ed7f,railways,track,..,...,...,Natural Resources Canada
+3c6760a1dc87832709402eaf6f132bb2,railways,track,..,...,...,Natural Resources Canada
+3da3960652579093f57affc834486830,railways,track,..,...,...,Natural Resources Canada
+45d424b56415726903356b8a2607a8bc,bridges and tunnels,bridge,ROCKWELL DRIVE,BRIDGE,Bridge,Province of British Columbia
+48a776d2ba7c7bca8d6fd50ee92e78dd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5116a84651cd8affea123a8f6e3ebde8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+51e5ab8973a2b983d78a16b8ad1ea93f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+60908031c2d1a79825a58028907d255c,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+64be31d4df57f34d75f774781f1abc16,bridges and tunnels,bridge,JOHNSON SLOUGH,BRIDGE,Bridge,Province of British Columbia
+6a059743ab0e57e05e3e416a3d10b9b2,railways,track,..,...,...,Natural Resources Canada
+6a5330711afdc9c429be6a4a7c7a5bb4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6fefbdf8bbd1d252b1e638e5cbb355e7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77f2c3284c5727e5edda13d41f1e7ade,bridges and tunnels,bridge,THUNDERBIRD,BRIDGE,Bridge,Province of British Columbia
+7a8c11c2a1b136408525ab4683478d06,railways,track,..,...,...,Natural Resources Canada
+7f3db742746dabe8d60303bb6c6e96f9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+812ede694d9887d05e01872c05c48829,railways,track,..,...,...,Natural Resources Canada
+8503751986fedd3004764f8f955b651e,railways,track,..,...,...,Natural Resources Canada
+930367eb4f36221c4c469107de9cfa9d,railways,track,..,...,...,Natural Resources Canada
+95bf87eb1bf2709efc70a0312a5380b7,railways,station,Agassiz,...,...,Natural Resources Canada
+9dd17f7c594d8ce58a05711d47568b1e,railways,track,..,...,...,Natural Resources Canada
+a503b0b328db3b4fff0600f7227c6e70,railways,track,..,...,...,Natural Resources Canada
+a6f5e560eccaa5756a1582f4d5a77cde,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b8483a00fd9bb6e6b748eab7df69d556,railways,track,..,...,...,Natural Resources Canada
+b97a4e3129a8d549eb3467b200ba03b8,railways,track,..,...,...,Natural Resources Canada
+bc052c08e07937303027494974b64f44,oil and gas,pipelines,..,Intermediate,...,British Columbia Energy Regulator
+be491657dd0a843a1624bdd6e9e79053,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c20b09928e91f03a190d663ffd3da562,railways,track,..,...,...,Natural Resources Canada
+c4c1e0469fb59ff16eab83a389eb9266,railways,track,..,...,...,Natural Resources Canada
+c7168baabc5c377e6465e88eaabaf532,railways,track,..,...,...,Natural Resources Canada
+c783d1dd9d44d8f5ba81486180b60841,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c9ca3bce2a46aebd6058efd09ec6ce70,bridges and tunnels,bridge,GREEN POINT,BRIDGE,Bridge,Province of British Columbia
+ca17368d39377f6b5ca758727293a1a3,railways,track,..,...,...,Natural Resources Canada
+d933539e0f918705a670e98c82e030ed,railways,station,Agassiz Ims,...,...,Natural Resources Canada
+da3a35845ac923b1d3d6a99e2cef8883,railways,track,..,...,...,Natural Resources Canada
+dcc31472dbe9b049458cef37cbff00fc,railways,track,..,...,...,Natural Resources Canada
+dd27f6a35f9990539225c7feece76fd7,railways,track,..,...,...,Natural Resources Canada
+e2a118d34754640692c4e539cf95c041,railways,track,..,...,...,Natural Resources Canada
+e5f9084c23653a54ab856760ef0bca14,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+e67058580b14d9fea7cb05e433c9e846,railways,track,..,...,...,Natural Resources Canada
+e6cc6a5abc96ee9ceae92b090502308f,railways,track,..,...,...,Natural Resources Canada

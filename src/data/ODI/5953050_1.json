@@ -1,28 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Causeway Bridge Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Davie Muskeg Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Darby Road,BRIDGES AND TUNNELS,Footbridges
-Parsnip West Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-1500 Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Finlay Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Davie Weedon Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-100 Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Chuchinka-Colbourne Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Salmon River Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-North Fraser Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Averil Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Chuchinka Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Carp Lake Road,BRIDGES AND TUNNELS,Footbridges
-Morfee Mountain Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-West Creek Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Hart Highway,BRIDGES AND TUNNELS,Footbridges
-Highway 39,BRIDGES AND TUNNELS,Footbridges
-Merton Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Caine Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Hambone Road,BRIDGES AND TUNNELS,Footbridges
-800 Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Kennedy Road,BRIDGES AND TUNNELS,Footbridges
-Finlay-Nation Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Teardrop-Massvale Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Parsnip East Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Kerry Lake Forest Service Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+002406492119fe9e37f22a16e1669a0f,telecom,tower,...,...,...,Natural Resources Canada
+00dae4b87a4318d573a4cc706a4bb636,oil and gas,pipelines,..,..,...,Natural Resources Canada
+00eb8e0ee03667b7fee0449835748089,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+0126c838d457569604ff43af2900a861,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+012ba8e6a8a651ad67f29fa17dc1b976,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+02e208a940796d9a5e87cdddb6855009,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+030100d11d3b2da92a876c0197bab872,railways,track,..,...,...,Natural Resources Canada
+04d5f1c93b30aafaca0be7f7b2b51aee,railways,track,North Leg Wye Wakely,...,...,Natural Resources Canada
+05885c7c9388138dd440890f7e226376,railways,station,Barney,...,...,Natural Resources Canada
+067052e1a00c5dfb1eceafefa41ff28b,oil and gas,facilities,Png Summit Lake D-050-a/093-j-07 001,Compressor Station,...,British Columbia Energy Regulator
+06bea8532b9af57681cc73e3d315efcc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+074879523ef00056496e23cf3ac977e7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+089ed4bf07334cdb8dfdfcf3319a6519,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+08a9eeebe65890c0f3a02144b4624746,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+096e756feefeb7d1b4d3fb911844572a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0b14d2dfdc794947da686d28409a073d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0b539d26914abe4146eb31a9dc9b5ec2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0bde1298cb9fd51417680e093eea89d2,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0c10cc37d1536e15a1be7748cfe171e3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0e663d90a3962296e0dec20f8ecce8c6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f35265d1b8e413b3053c8ebd31b9c25,railways,track,..,...,...,Natural Resources Canada
+1034f429d3aaa7224ef7b94b3a3e1ab9,railways,track,..,...,...,Natural Resources Canada
+1063840bc87976b560f9d1175f6f0b49,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+11c48fbd0ac63149b0b84a1da779712d,railways,station,Kennedy,...,...,Natural Resources Canada
+11ec0d748b479128e89806a8a83a3080,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1274e1f05f27b60692e53248bdedadb4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+136f9968962c40ff9cf105875a9e4bc8,railways,track,..,...,...,Natural Resources Canada
+140e5683af5f0853e3e0993283962f6a,bridges and tunnels,bridge,BEAR CR/JOHN HART,BRIDGE,Bridge,Province of British Columbia
+1472b448de88c4a49bcf881d2a7d0cec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+15a3b2d5ef83c0759bf7e0cbcdc90a7a,railways,track,..,...,...,Natural Resources Canada
+15bcd5ee6be72d50ae019d05fc6424e0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+16e64a687762fbcf83b1641d288d4bf7,railways,station,Table,...,...,Natural Resources Canada
+17aa2db3362b418ee3b34fae2e83d6e6,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+18aaa7e85ca3bc92b6e1f02d901f0aee,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+18f6a63b1de89ca5c4b934bb208a0f68,railways,track,..,...,...,Natural Resources Canada
+1abda6f0666d2cb84d04397c6b17e232,railways,track,..,...,...,Natural Resources Canada
+1af3c0088a24cc513cde53a55ce111bc,bridges and tunnels,bridge,ROLSTON CREEK,BRIDGE,Bridge,Province of British Columbia
+1b1338752ebbea34d1fc967113f27229,railways,track,..,...,...,Natural Resources Canada
+1b21d2121e891b3251054c6ae0ee4368,railways,track,..,...,...,Natural Resources Canada
+1b782bb4598ca8b94b2b728f8305769c,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+1be86594c176e4ec5b11131ae78e6ef3,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+1c36f108feba41952b9ac5927fb4c009,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+1cb2cbb1bf32c2c74f39168fe7b90f10,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d0cdf8877ed88caea255bb361c1de80,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+1d3074e8772344ed05cc9445592bd0ea,railways,track,..,...,...,Natural Resources Canada
+1d3277e6a7b3f75b6ac2fd1543fb7395,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1e20b9afc820d55ef6877765b6f651bf,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+20dd9da9a69c8063ac226affbbc8a540,bridges and tunnels,bridge,PARSNIP RIVER BRIDGE,BRIDGE,Bridge,Province of British Columbia
+22199ef25d668ea2266290f7438aba7d,railways,track,..,...,...,Natural Resources Canada

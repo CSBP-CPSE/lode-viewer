@@ -1,22 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Coyote Valley Road,BRIDGES AND TUNNELS,Footbridges
-Aberdeen Road,BRIDGES AND TUNNELS,Footbridges
-Sunset Main Road,BRIDGES AND TUNNELS,Footbridges
-The Wart Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Loon Lake Road,BRIDGES AND TUNNELS,Footbridges
-Merritt-Spences Bridge Hwy 8,BRIDGES AND TUNNELS,Footbridges
-Quilchena Creek Road,BRIDGES AND TUNNELS,Footbridges
-Kamloops-Merritt Hwy 5A,BRIDGES AND TUNNELS,Footbridges
-Highway 97C,BRIDGES AND TUNNELS,Footbridges
-Douglas Lake Road,BRIDGES AND TUNNELS,Footbridges
-Grimshire Road,BRIDGES AND TUNNELS,Footbridges
-Q6 Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-unsigned,BRIDGES AND TUNNELS,Footbridges
-Lauder Road,BRIDGES AND TUNNELS,Footbridges
-Helmer Road,BRIDGES AND TUNNELS,Footbridges
-Thelma Mine Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Marshall Road,BRIDGES AND TUNNELS,Footbridges
-Sunshine Valley Road,BRIDGES AND TUNNELS,Footbridges
-Salmon River Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Bear Creek Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+04c21b229d9ff4db225771599e3bdfae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+076d4062c816ae1a72face9679b6f61d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+08bc1007fc1d30829bc0106c90a912b5,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+0b4b11e4729e6a68a0efdd5f70bade48,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+0badaa3fa635029ac27b147b0a552c93,telecom,line,...,...,...,Natural Resources Canada
+0c20d34ff46652799637af78060239c1,bridges and tunnels,bridge,ENGLISH,BRIDGE,Bridge,Province of British Columbia
+0e970bdb7ae6b51b13e0e3e99b686395,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19f109ddf57fc55a67f881fe80f1830a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+1a048135c32d3e271baa7dd5583d5562,electric grid,power_plants,..,...,...,Natural Resources Canada
+1a1c29fd9a01564e5c5c6ebfdda3528a,low carbon,wind,Pennask,...,...,World Resources Institute
+1b6273b806b9fde582d6d062ee60c774,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+23523fef69e39f4764632e8224f772d0,bridges and tunnels,bridge,GUICHON,BRIDGE,Bridge,Province of British Columbia
+276af67de2c1fbaa7321c520eedbb49b,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+286fb6860935da539738f7b7a2e0614e,oil and gas,pipelines,..,..,...,Natural Resources Canada
+296d85b000fe10b4149d0b1677cc1865,telecom,tower,...,...,...,Natural Resources Canada
+2a6b68480f448bb5c4fc45da4a0c12fb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2be0d62c81ced556326901abc319d029,bridges and tunnels,bridge,ENGLISH,BRIDGE,Bridge,Province of British Columbia
+2c33e1310b5713bd4111687d9338ec56,bridges and tunnels,bridge,POTHOLE CREEK EAST,BRIDGE,Bridge,Province of British Columbia
+3596b280f44bfdc0c28ec328f20dc3e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+36420421bfddbb1c2d2c84cf4f0a70af,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+3a661d8ccccfc346912bff1d21329ff3,bridges and tunnels,bridge,HELMER I/C NB GUARD,BRIDGE,Bridge,Province of British Columbia
+3ed68677afb0ea75e3d02ae08ac23d12,bridges and tunnels,bridge,GRIMSHIRE ROAD U/P,BRIDGE,Bridge,Province of British Columbia
+3fba8b2364ceeade6dc881d1e9176565,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4b74027e3cd6755b44ccd95ce4a5d8be,bridges and tunnels,bridge,WARD,BRIDGE,Bridge,Province of British Columbia
+4ba248d777eedaa90ee395304b0f9d65,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4bbbc9e2333f099bca6742b63c22e8ad,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+50105e6168d9812d63d255d7386ef004,airports,...,Douglas Lake Airport,small_airport,...,OurAirports
+588c15c42a99c78c7f7b25f7eb5af41d,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+5b681c6b1449f5290c7fa6dfd41e1e6f,low carbon,wind,Pennask,...,...,"Government of Canada, Natural Resources Canada"
+5d09293e49cacf4e4fec75db8625c8df,bridges and tunnels,bridge,GRIMSHIRE ROAD U/P,BRIDGE,Bridge,Province of British Columbia
+5de88156cc3c56ab583e743d2bd226ee,low carbon,wind,Pennask,...,...,"Government of Canada, Natural Resources Canada"
+67e8580aa4a745f97169669411fd4a2e,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+705d83c0a420312a26f8021fa8cd8116,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7491dcff0c02266e41863b613cb06b75,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77bc81c2b70ca689e24733d206d614d1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7acaad401bab1c43dcae9d41505a2861,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+83abf97b4f1c70d6683331fae12d9c95,bridges and tunnels,bridge,BEAKS,BRIDGE,Bridge,Province of British Columbia
+845b5af9c675c4ca49a29578cc6d58e8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8734f871c9eeaf0c23a785e43b51cde7,bridges and tunnels,bridge,CAMPBELL,BRIDGE,Bridge,Province of British Columbia
+881c00d427095940cafdb45f7193ec67,bridges and tunnels,bridge,CLAPPERTON CREEK NO. 2,BRIDGE,Bridge,Province of British Columbia
+91b048089a1238c32aa7249a1b92195b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+94ff7d9aaf604e79ff44c03e8735b359,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9b3a77e9c212b6f614f325383711ed86,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a2b067df2de98418d4e94d396048ca58,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a2b8746ec031e117c8f9e0acbfe32843,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+a3a59d7e2b8d4c4caaf54f0a0fa8319d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+abf047a92bc440e790044a2f439d63b4,low carbon,wind,Pennask,...,...,"Government of Canada, Natural Resources Canada"
+abfc2ea186ff68447453e015283251c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b5e94caf28d2478312f7e2efc9830075,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator

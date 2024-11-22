@@ -1,9 +1,4 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Nanaimo Parkway,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+fecc22df1c7609c904d593964c68ac09,wastewater and storm water,pipes_storm,..,..,Culvert,City of Nanaimo
+ff884d7cdad86936c08d75867adac5fa,potable water,pipe,..,..,Pipe lateral,City of Nanaimo
+ff97a3d83ef23bd7998705b83f96b1a3,wastewater and storm water,pipes_storm,..,..,Culvert,City of Nanaimo

@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,biking
-Westbound E Hastings St @ Templeton Dr,..,..
-Eastbound W Broadway @ Larch St,..,..
-Northbound Cambie St @ W 12 Ave,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Northbound Matheson Cres @ Champlain Cres,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,biking
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,PEDESTRIAN AND CYCLING,biking
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Westbound W King Edward Ave @ Columbia St,..,..
-Eastbound W Georgia St @ Gilford St,..,..
-Westbound E 29 Ave @ Nootka St,..,..
-Northbound Victoria Dr @ E 32 Ave,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Northbound Fraser St @ E 12 Ave,..,..
-..,PEDESTRIAN AND CYCLING,biking
-Westbound E Hastings St @ Renfrew St,..,..
-Rupert Station @ Bay 1,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+031c43bdfcf753dbfd222287c81c8b76,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+031c8d1511633cc901b6350c4c602da4,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+031e7dd60f224ece602490be47a237e8,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+031ef91e54c39ef7b7cd37b4504008ad,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+031f3541f81a395041cf40e3d3afa2ad,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+031f4889b6c915387455e9940ef7fbe1,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+031f8b7ee7f4862ef39ff1362167d978,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+0320ec4113881ae3bb8ab34daeb59b9a,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+03211e28085068ac20ab29366a9d708a,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+03218bf5ad8a034b05a9e1bacf323808,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+032199826f0a58400b370d69179aba4d,wastewater and storm water,pipes_combined,..,Combined,Combined pipes,City of Vancouver
+03229783fb3f1cfe2611e58167cbab76,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+0322a07793e19ce6ae2e1601c4b9990d,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+032408d4e2b3447415b9cb48456d5f09,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+032415a265fc91f8f0c7bd70cb57da5a,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+03245e46054fb69c59bb92f44f7e2b94,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+0325bf8f69d768c867e7592a7d0bf654,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+03262dd4fdcec1a1686651092fd3f6db,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+032787a585198cc8393bdb8222f21630,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+032824a6587dfbc9b70a0b204c4790d8,wastewater and storm water,pipes_combined,..,Combined,Combined pipes,City of Vancouver
+0328b88c58b495405c3868708741c947,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+032a91322e48a1c9c677e88079a38f89,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+032b1ad465fbd5c6dabf897a76eec661,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+032c29a06a4331976a18d698c9552aac,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+032cca218ac5455bd0e885eb6fbb56a9,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+032d2b87d01cde73cc5b37692a747507,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+032db9518ced7a9a600012ff2bdf2f33,wastewater and storm water,pipes_combined,..,Combined,Combined pipes,City of Vancouver
+032de9adfec25f6882bd5311254bb6d7,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+032e512d62857fa19e4e6efa4ff66f7f,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+032e72c604279fde5a8a25f633492776,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+032ef064342e103b8dc01390459f87f0,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+033008e922172223c441b241e4df9ca6,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+033076eb1ba9407f21c38aa19c6daa97,potable water,pipe,..,..,Pipe main,City of Vancouver
+0330cc1b0ea115c3b6f11ae949d37983,wastewater and storm water,pipes_combined,..,Combined,Combined pipes,City of Vancouver
+03315316884b6bf9d41951734a8376ee,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+03326d38455f5a47814f81ebc7e58165,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+0333a98369b8716dc8891c8062d93cde,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+0333ab658f356b5edd4ebef1c1564574,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0333e5e003c5cc672c595b8b4cb7c544,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+03350fd35b0dc4ac74375dda73159e5e,wastewater and storm water,pipes_combined,..,Combined,Combined pipes,City of Vancouver
+0336ed85b36d81a5a4ba9e99163eab41,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+033701c92bbb05f4ccb1626d41be0010,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+033739e00f8c4861b64901c05d3073d5,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+0338349c954a23c6a901c95d5f24e695,potable water,pipe,..,..,Pipe main,City of Vancouver
+03392bae9644ad1224efae8e914b4182,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+033af328449197e5b87b7f2d07f717eb,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+033bc640d8a941820fbede6baf7edda3,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+033cc6194e0b980f4a94e1d87cd05860,wastewater and storm water,pipes_combined,..,Combined,Combined pipes,City of Vancouver
+033dd4aaa54e020033970d55fba2d779,potable water,pipe,..,..,Pipe lateral,City of Vancouver

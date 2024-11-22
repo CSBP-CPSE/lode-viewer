@@ -1,17 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,Footbridges
-Rossland-Cascade Road,BRIDGES AND TUNNELS,Footbridges
-12th at 6th,..,..
-12th at 15th,..,..
-Hwy 22 at 1st,..,..
-12th at Highway 22,..,..
-12th at 15th,..,..
-12th at 5th,..,..
-Hwy 3B 600 block 600 block,..,..
-12th at 6th,..,..
-12th at 5th,..,..
-Highway 22 at Birchbank Golf Road,..,..
-Hwy 22 at 1st,..,..
-Hadley Road,BRIDGES AND TUNNELS,Footbridges
-12th Avenue at Highway 22,..,..
-Highway 22 at Birchbank Golf Road,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+07458879d1b30cff3cd7e07235d64377,railways,track,..,...,...,Natural Resources Canada
+0b6fea0e8c0406991df34f838990f6f5,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+0fdc50bde03a7b1183af84eda27082a2,railways,track,..,...,...,Natural Resources Canada
+17a7d8066e702ccbb11c9033db425161,bridges and tunnels,bridge,BIG SHEEP CREEK,BRIDGE,Bridge,Province of British Columbia
+18b6fc8d7e5332b943ae3336f6e4184c,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+1e5f4487fd794276ba3b3f6b2fec2f46,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+301521723be60ca067b8cc998c0336fc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+38f580baf6d7bac511575e930ea3a2c2,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+3a6226ea4bf475ae606b750da456d598,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+3d067e6eed136dd79b1df343b457eeb9,oil and gas,pipelines,..,Regulator,...,British Columbia Energy Regulator
+40790e2840efced07c12617721e94dbd,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+417c33f0229b54920313e5d7f0e44b9b,telecom,tower,...,...,...,Natural Resources Canada
+4459674b7b45da2bc9e401105dbacc4e,oil and gas,pipelines,..,..,...,Natural Resources Canada
+48c6a88e961f3ca21958831b8c2613df,railways,track,..,...,...,Natural Resources Canada
+4ffc5d18ee3c53e5d415bf4861549ff5,railways,track,..,...,...,Natural Resources Canada
+5340f91980ecb19dc2e8017f215527bc,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+61b13e93860fb9c943e80d44b6057c74,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+646f0663dad33e65b0082b3552ea6d04,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+6686d1d8e56b1238849d509c7b182442,oil and gas,pipelines,..,..,...,Natural Resources Canada
+6d8998f35e8ed34265c512d868a924a7,bridges and tunnels,bridge,PAULSON,BRIDGE,Bridge,Province of British Columbia
+7150ab2dfd69d1ef89843be0e84e3aa6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7219f3c5cc47afe34c44a332f151f042,oil and gas,facilities,..,..,...,Natural Resources Canada
+810d166c18d0dcb56d6da31f36ac1f54,railways,track,..,...,...,Natural Resources Canada
+85138129e653917413b9665fb7375c67,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+86aceb2f23fd7ae8df46776896fc20d3,telecom,tower,...,...,...,Natural Resources Canada
+86b6ca957c0e88446ec592386bce24f9,railways,track,..,...,...,Natural Resources Canada
+8708ecd4009c403723df5f39271ec392,oil and gas,pipelines,..,..,...,Natural Resources Canada
+8b406516dade673474f33627024b2c4a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+92caa92d419e2845103134b6d3b42aad,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+991577f039af4f902cb9b6acb86612c0,bridges and tunnels,bridge,SANTA ROSA,BRIDGE,Bridge,Province of British Columbia
+9c6216fbfcc4e71b9f1ce14bde9de072,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+a0819eb6cc9983a85875033582c6fe25,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+a55e1dd6e767a529fdf3e0961d515be8,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+a58a7630c282c215d081ec2853b7f6bf,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+adcb866c020cad21bd5d2942e40bdfb1,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+b7a155fdd63bc148f7b881a101728201,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+bb7af868a8c8885da39a187c7745416c,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+bd3b3f141a27d2801c7a9462967a03e2,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+cdebc5f57cc81a50ed2f707eed9baef5,railways,track,..,...,...,Natural Resources Canada
+da7787baad13fa296ac38a763d1a1acb,telecom,tower,...,...,...,Natural Resources Canada
+dc99c0694fec7ce8e446d718e2e9db71,railways,track,..,...,...,Natural Resources Canada
+e513d415e6ef84abab14e968649e7896,bridges and tunnels,bridge,IXL ROAD,BRIDGE,Bridge,Province of British Columbia
+e5e12d5e8aad29e921de1e979c6ffa71,oil and gas,facilities,Fortis Warfield D-041-f/082-f-04 001,Compressor Station,...,British Columbia Energy Regulator
+ea34b9fe86befce6c2d074e35c61aa3f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ea9e56e559c61e75914f5eb95b453445,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ebb58db4ee7ddbd4ff6b318a532cd2ed,railways,track,..,...,...,Natural Resources Canada
+f4e8c0a999c4553cec63dc295fc3817c,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+f8c92f5baa08352660d3f5b3406dba99,telecom,tower,...,...,...,Natural Resources Canada
+fa8345366d4de8b60991237d505b8166,railways,track,..,...,...,Natural Resources Canada

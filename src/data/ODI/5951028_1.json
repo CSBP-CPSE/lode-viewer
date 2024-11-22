@@ -1,13 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-unsigned,BRIDGES AND TUNNELS,Footbridges
-West Decker Road,BRIDGES AND TUNNELS,Footbridges
-Highway 118,BRIDGES AND TUNNELS,Footbridges
-Augier Main East Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Crow Creek Road,BRIDGES AND TUNNELS,Footbridges
-Highway 16 East,BRIDGES AND TUNNELS,Footbridges
-Maxan Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Valley Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Augier Main Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Babine Lake Road,BRIDGES AND TUNNELS,Footbridges
-Augier Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Burns Lake Trestle,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0210400be8c98702cadefbb53a937999,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+042c6157512a7ca7ce714f410e627a2e,railways,track,..,...,...,Natural Resources Canada
+0e4a1da1487f1a4c918dce3b8a070d92,telecom,tower,...,...,...,Natural Resources Canada
+0ed74478a263b3866a3ff577d5b31f08,bridges and tunnels,bridge,LEWIS,BRIDGE,Bridge,Province of British Columbia
+114641373931538023404898aa23eb82,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+118d100513ac94a8c005a1cea435a27d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1213512dddedccdfa09dd857950e8c8e,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+136c729fa64a34a8e2ae16a60fba874b,railways,station,Watson Bc,...,...,Natural Resources Canada
+1397702abfdd3588a5a44158cbd2cf7d,railways,track,Rose Lake Pit,...,...,Natural Resources Canada
+1855cf5a1aef9021d72549df29ec2a06,telecom,tower,...,...,...,Natural Resources Canada
+1d8144d23a2a55db0490dce4bc108c98,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+1dd023635adf94fdc5703ff042ad8947,railways,station,Sheraton,...,...,Natural Resources Canada
+24ca22641af559acee7aa289d165be4d,railways,track,Watson Siding,...,...,Natural Resources Canada
+2a09050b4263fa7717ec1808769bed6c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2d6414655e4fce0cff2f10b1aa3926aa,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+2e428bcc733e2aa202d709ebc2befe4a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2fe1a32a14817c77687185db039d0225,oil and gas,pipelines,..,..,...,Natural Resources Canada
+325cc5c109f3c3fa2b2f2098fc322525,railways,station,Rose Lake,...,...,Natural Resources Canada
+3bd2c3d6363b1a6911d0834a50120f97,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+3e492dac527c8b8851deedda828f5a15,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3f15865c51ec9227eee9727075a14286,airports,...,Burns Lake (ld Air) Water Aerodrome,seaplane_base,...,OurAirports
+4299d5353f5fed6176d1e26dab389a97,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4731bad86ec0916a9a4bf5af249d33b3,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4b4536c619cafa3e2aff6bf8ebb728b1,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+4f5f96c6c70da6922beb463470ac26c2,oil and gas,pipelines,..,..,...,Natural Resources Canada
+53b204046c64e5256af765ab1b33fdba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+57817e8c014eb2f61e59a589db0ce2ae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+57b05282f9ae00b2e14d2e2502fa1f0a,bridges and tunnels,bridge,SHERATON O/H,BRIDGE,Bridge,Province of British Columbia
+582e32fb639468b59dd9dcb8d6fd6314,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5cdab7239d830f030309c9ea590c5a2b,railways,track,..,...,...,Natural Resources Canada
+5d1de797b0a2d11192913c625ae73952,railways,station,Tintagel,...,...,Natural Resources Canada
+5d79f5be5dfe82c38bdb55c7d1f3d369,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f7fa34928daab9eccf5b95c2ad985a4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+622d61c3fd0b0275c42b1995c0912aa0,bridges and tunnels,bridge,HAWSE,BRIDGE,Bridge,Province of British Columbia
+667fc2f2808bb4ead7b46c7e1d174ce3,railways,track,Munsey,...,...,Natural Resources Canada
+688e11d7fdd5872b0a0d3af48b11680f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6a5a6b25d335104704e91c995d6d4f97,oil and gas,facilities,Png Burns Lake B-070-b/093-k-05 001,Compressor Station,...,British Columbia Energy Regulator
+6ad12986c507be3dc2e03850ac353ea8,railways,track,..,...,...,Natural Resources Canada
+6e73e391fa13c1ebf3414b2caedd8259,railways,track,..,...,...,Natural Resources Canada
+6edbe60c736930da52f50c4058e9d8bc,oil and gas,pipelines,..,..,...,Natural Resources Canada
+785f8718bf2d6e312b88bb2a4c302bf4,railways,track,..,...,...,Natural Resources Canada
+793c02c62e00b9a58f849eb61cb5b761,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+7b3bee14a54a8400ca66334af3ce4138,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7cd977e2ed393f47097dff2910b6b30f,railways,station,Decker Lake,...,...,Natural Resources Canada
+7d0a453b5bf66dd05635f714e3585813,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+7e6ce4f8406a979f360f61d87a5069e9,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+7f92a2574f5185d0d4721e22be3f7d84,railways,track,..,...,...,Natural Resources Canada
+8257988edaba0b4987e60082e92c959c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8286628cfac3904db564e8ed8e707695,railways,track,..,...,...,Natural Resources Canada

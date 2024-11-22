@@ -1,26 +1,7 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-McNeill & Campbell Way,..,..
-Broughton Blvd & Campbell Way,..,..
-..,WASTEWATER STORMWATER,..
-Camosun & Kokish,..,..
-Kingcome & Englewood,..,..
-Broughton & Grenville,..,..
-Kingcome & Mine,..,..
-Campbell Way & Mine,..,..
-Pioneer Mall,..,..
-McNeill & Hemlock,..,..
-Argus & Chelan,..,..
-Cedar & Broughton,..,..
-Haddington & Kingcome,..,..
-Kingcome & Englewood,..,..
-Port McNeill Transit Centre,..,..
-Cedar & Haddington,..,..
-Haddington & Quatsino,..,..
-Broughton & Cedar,..,..
-Mine & Tower,..,..
-Haddington & Woodland,..,..
-Haddington & Cardena,..,..
-Port McNeill Ferry Terminal,..,..
-Haddington & Pine,..,..
-Mine & Campbell Way,..,..
-Port McNeill Hospital,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+273b505d7f95b667bb9cbbf2fdb76695,airports,...,Port Mcneill (hospital) Heliport,heliport,...,OurAirports
+452c7021fbcbd015918e92f2c9bb450c,wastewater and storm water,facilities_waste,Port Mcneill Waste Water Treatment Plant,"Grit Removal, Screening, Primary Sedimentation/Clarification, Sequencing Batch Reactor",Unclassified,Environment and Climate Change Canada
+610e23146f0ac00e8ea0bdce19279984,ports and marinas,port,Orca Quarry Marine Terminal,Terminal,...,Province of British Columbia
+61c5694000f75083afa480e0587cb3b0,airports,...,Port Mcneill Seaplane Base,seaplane_base,...,OurAirports
+f18f03bd8d87e7cc506fd22a7e60b008,telecom,tower,...,...,...,Natural Resources Canada
+f916daeb8fb3d672834a6502e5b82bf8,ports and marinas,port,Port Mcneill,Port,...,Province of British Columbia
