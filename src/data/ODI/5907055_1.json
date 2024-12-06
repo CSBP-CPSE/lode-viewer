@@ -1,21 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-2nd Street,BRIDGES AND TUNNELS,Footbridges
-Rice Road,BRIDGES AND TUNNELS,Footbridges
-Bobs Lake Pit Road,BRIDGES AND TUNNELS,Footbridges
-Bettes Avenue,BRIDGES AND TUNNELS,Footbridges
-Princeton-Summerland Road,BRIDGES AND TUNNELS,Footbridges
-Pasayten River Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Summers Creek Road,BRIDGES AND TUNNELS,Footbridges
-Highway 3 West,BRIDGES AND TUNNELS,Footbridges
-unsigned,BRIDGES AND TUNNELS,Footbridges
-Tulameen-Champion Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Highway 3,BRIDGES AND TUNNELS,Footbridges
-Highway 97C,BRIDGES AND TUNNELS,Footbridges
-Manning Station Road,BRIDGES AND TUNNELS,Footbridges
-Coalmont Road,BRIDGES AND TUNNELS,Footbridges
-Highway 5A,BRIDGES AND TUNNELS,Footbridges
-Tulameen Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Lightning Lake Campground Access,BRIDGES AND TUNNELS,Footbridges
-Old Hedley Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02f6bfff3e9c8862c2cd2d736dd7f0b5,bridges and tunnels,bridge,ONE MILE/PRINCETON2,BRIDGE,Bridge,Province of British Columbia
+0454afec72ca490b825e69030d8ae7cb,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+06b07cb0d91193a8d543a1d130f8a655,telecom,tower,...,...,...,Natural Resources Canada
+09a751f798d72551b00aacc0a9f9e6fa,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0a88367e269d4a243437b155ce821c18,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0b77b4abfad9f754c64621b465fd0eac,low carbon,wind,Shinish Creek Wind Farm,...,...,World Resources Institute
+0bb9256d0baa150e755c41c97013eb73,bridges and tunnels,bridge,COALMONT,BRIDGE,Bridge,Province of British Columbia
+0d0a0a3f18ba852c4aa7a394e47fa0fb,bridges and tunnels,bridge,TULAMEEN,BRIDGE,Bridge,Province of British Columbia
+0eef175e983be714d05827863cf0e212,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+137a91b8355af19d49ff3212e1618c3a,bridges and tunnels,bridge,ONE MILE CR/PR-HEDLY,BRIDGE,Bridge,Province of British Columbia
+1a28ac94e4c2809c0d36c04f348fe76c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1bdd56e88ffa12597cbc045f4f2d65b2,low carbon,wind,Shinish,...,...,"Government of Canada, Natural Resources Canada"
+1c5c4d48d4a627555209498012eb0be1,bridges and tunnels,bridge,PROULX,BRIDGE,Bridge,Province of British Columbia
+245c0cd20f78f216e738d7cfae1f1927,bridges and tunnels,bridge,RICE,BRIDGE,Bridge,Province of British Columbia
+2495775fa1adfaceadc38a2246332149,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+2631217b8f398172a492df07f01ad41b,bridges and tunnels,bridge,FIVE MILE NO4,BRIDGE,Bridge,Province of British Columbia
+270273556e99075ed8eb0d2c62f71589,bridges and tunnels,bridge,SUMMERS CR NO8,BRIDGE,Bridge,Province of British Columbia
+2bb162a823d64324550f3895bb8948a8,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2bb27be710330a1b44041b216063f0c3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c0333cf2857df84d102274a328b91a2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2ed19f0edb3c5a55114040e453e435c7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+302c36785fd7a30bfa29a95699dc30eb,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+399b520ecdb1fcb7fc24a514e0e015ea,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+3bc1c6cfd8528e5fbf682c85b9ea10f3,bridges and tunnels,bridge,ONE MILE/PRINCETON1,BRIDGE,Bridge,Province of British Columbia
+3bd2c3420cdcfa3138e79b2c7d17b874,telecom,tower,...,...,...,Natural Resources Canada
+3edff8702ab67c48e4e089576e36872b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3fdb8820f139fc2345dec297eaa717d5,bridges and tunnels,bridge,MCGEE,BRIDGE,Bridge,Province of British Columbia
+424f111a1c4938bb61a3a8da4b6412c9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+441b021928dcdfa558cb901a79173c3b,bridges and tunnels,bridge,GIBSON PASS,BRIDGE,Bridge,Province of British Columbia
+45790cd8e2c8572c52ac51549df5ce18,oil and gas,pipelines,..,..,...,Natural Resources Canada
+45a740f169a478177f60ee7d82c5b2a0,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+46b01df76265c27d1b3b9ba65f6b46f3,bridges and tunnels,bridge,LOCKIE,BRIDGE,Bridge,Province of British Columbia
+521752ba3e908bc3724cfd15a438dc53,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+53652e938bce751a1aa9d0899693ad68,bridges and tunnels,bridge,WHIPSAW,BRIDGE,Bridge,Province of British Columbia
+53681b8f841f5a01b25fc318f6a9671c,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+56fd570e421a6975380ea99997affce3,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+58dc35a1b30fba5b32c3d05fddba24dc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+61ff3a4f311ee43c7992394d784ba360,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+69bc9ae4dc9c965010101b44791afd5a,bridges and tunnels,bridge,CAMBIE CREEK,BRIDGE,Bridge,Province of British Columbia
+6a5eda34d49b275e8fe13048b51b46a0,bridges and tunnels,bridge,SUMMERS CREEK NO10,BRIDGE,Bridge,Province of British Columbia
+6b109dacb36333b9cf8491bbe1e8bb50,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+6df02ffb404fe67a1e3474f1be2a763e,oil and gas,pipelines,..,..,...,Natural Resources Canada
+6ead65676ddd081529507a58150e2626,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6f78de1dd83e9c61e7ecf0d206f695c7,bridges and tunnels,bridge,ALLISON CREEK,BRIDGE,Bridge,Province of British Columbia
+70bb5c23d9dda0db8e2f2fe9c990fd51,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+73723118b9f74fd949a1659171d34d1c,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+7728d37de4dcf314d3fc26e390aec8a0,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+783b5e91b740c696e191cbea77109102,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+787fa17935e3f8332013d9ab903f4eb8,bridges and tunnels,bridge,SUMMERS CREEK NO11,BRIDGE,Bridge,Province of British Columbia

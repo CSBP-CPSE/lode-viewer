@@ -1,20 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-HWY 400 - 1 KM SOUTH OF MEDONTE LINE 6 CULVERT,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Line 14 North,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Line 1 South,BRIDGES AND TUNNELS,Footbridges
-HIGHWAY #93 OVERPASS - S.B.L.,BRIDGES AND TUNNELS,..
-Moonstone Road East,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-HWY 11 - NORTH OF ORO LINE 13 CULVERT,BRIDGES AND TUNNELS,..
-Line 9 North,BRIDGES AND TUNNELS,Footbridges
-Highway 400,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Line 11 North,BRIDGES AND TUNNELS,Footbridges
-HWY 11 AT ORO LINE 10 CULVERT,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Highway 11,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Warminster Sideroad,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+ab34484f018afeab395f430b24d615ed,telecom,tower,...,...,...,Natural Resources Canada
+ae2fd2205348fe38f5773d0f021417a7,electric grid,power_plants,..,...,...,Natural Resources Canada
+b077ac80809a5b5feba25188a2bc09da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b5d8ade26998954caf600ffce96e6863,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b613630e2efbdc26852ef44e560d746d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b9c31d6575b4d0573a4a50495025834e,telecom,tower,...,...,...,Natural Resources Canada
+bc786023183c61dd83e18bba9de397cb,wastewater and storm water,pipes_combined,..,..,Sewer unknown,City of Barrie
+bcb1070d7c1829e03a30b96a5df93c16,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c03927d0e9f7ff3e3ba7dd87749f365d,bridges and tunnels,culvert,HWY 400 - 1 KM SOUTH OF MEDONTE LINE 6 CULVERT,Culvert,Culvert,Province of Ontario
+c0c5a878bb7f01adaca4a0a5c70ea8b3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c142448f6203b85da77494dc7ea94741,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c403b1bd1345194bc4c9453eb8497981,wastewater and storm water,pipes_combined,..,..,Sewer unknown,City of Barrie
+c5842194a1d21fd8ce78ac0f7959d187,wastewater and storm water,pipes_combined,..,..,Sewer unknown,City of Barrie
+c5fd50010b32000a5429cf87c171c8a6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c65cbb83c9181bd59ea21122bff8719e,railways,track,..,...,...,Natural Resources Canada
+c75564afa3a71831e0993802e5267898,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c8b8d651dbcc430a35b983cde18e7632,bridges and tunnels,bridge,ORILLIA TOWNSHIP LINE UNDERPASS,Bridge,Bridge,Province of Ontario
+ca488ac42aa4ebabf14f80cb10aa168e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cb51e34583859c12d20803de79a7ae8c,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+cb9807e6b0b22ef90c699b8aaa8f6f95,electric grid,power_plants,..,...,...,Natural Resources Canada
+cd93c13abd998920842ada2c31f1024a,telecom,tower,...,...,...,Natural Resources Canada
+cdd08148dfa42ea6781d604c32e7b478,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ce756f0d7ac724dcf5d286eee316deef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ce770d5540c44b43d6b5cd2fbc26f27b,telecom,tower,...,...,...,Natural Resources Canada
+cf73ca4dd482ac8dac7bac562081d8d9,telecom,tower,...,...,...,Natural Resources Canada
+d0ec6366813140ad28f258bd738ebbaf,bridges and tunnels,bridge,HIGHWAY #93 OVERPASS - S.B.L.,Bridge,Bridge,Province of Ontario
+d177fcfafe2388382f3d395d96b5b334,bridges and tunnels,bridge,MOUNT ST LOUIS ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+d1f9bbfe53740f2a8e207830f97589c7,low carbon,solar,Orillia 3,...,...,World Resources Institute
+d4059869aa3fb9ab6b20c2fa59e09c5f,low carbon,solar,Orillia 1,...,...,World Resources Institute
+d4afad9e07c4835dda874c57bcb02be5,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+d5063f0a529c9955ef0f1d7ac8b2b55b,telecom,tower,...,...,...,Natural Resources Canada
+d710fa356be8889800ab5cb109ea597e,telecom,tower,...,...,...,Natural Resources Canada
+d7f8212ac5319f6bb369a36395c513d4,bridges and tunnels,culvert,HWY 400 - SOUTH OF MOONSTONE ROAD CULVERT,Culvert,Culvert,Province of Ontario
+da7b6c20b8aa135a29909e268b9cd930,telecom,tower,...,...,...,Natural Resources Canada
+dc654bdb9406ac74b0401d3f64d10e3c,bridges and tunnels,bridge,ORO LINE 9 UNDERPASS,Bridge,Bridge,Province of Ontario
+de32f898d26b862c0c24d9cbf0f5dd5f,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+de490718eac0e94ae8aa4db27ef0ce43,telecom,tower,...,...,...,Natural Resources Canada
+df7f6c22b6807572c8ff901449b6ad11,bridges and tunnels,culvert,HWY 11 AT ORO LINE 10 CULVERT,Culvert,Culvert,Province of Ontario
+dfa63eb05c37eab7fb445c633a05093e,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+e04afa8735fa40532044c038ee9ecbb6,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+e2ace68d12265e6724b343692349a68e,telecom,tower,...,...,...,Natural Resources Canada
+e337e5192a9d3f4177700117ee191067,bridges and tunnels,bridge,MEDONTE CONCESSION 4 UNDERPASS,Bridge,Bridge,Province of Ontario
+e73f770625bccf2e0e526abae608412e,bridges and tunnels,culvert,HWY 11 - HAWSTONE CREEK CULVERT,Culvert,Culvert,Province of Ontario
+e8d910b821af0ec67eafaea4cd3042bf,bridges and tunnels,bridge,HIGHWAY #93 OVERPASS - N.B.L.,Bridge,Bridge,Province of Ontario
+ec471abf895b722cbc785433f8b203f4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ec70b6ed38a7325661c646f54bd513a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ed963d36caa18192610bc3f08f362466,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ede648c00f8d621cb9b3e7c513ce27c6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ef9ac8b69810ef8ef7cc44d5eb0e29b5,bridges and tunnels,mixed,..,..,..,Natural Resources Canada

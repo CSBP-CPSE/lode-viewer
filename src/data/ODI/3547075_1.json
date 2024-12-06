@@ -1,24 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Sandy Beach Road,BRIDGES AND TUNNELS,Footbridges
-Mud Lake Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-Recreational Trail Culvert,BRIDGES AND TUNNELS,..
-INDIAN RIVER BRIDGE,BRIDGES AND TUNNELS,..
-White Water Road,BRIDGES AND TUNNELS,Footbridges
-Highway 17,BRIDGES AND TUNNELS,Footbridges
-Forest Park Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-HAZLEY  BAY  BR.,BRIDGES AND TUNNELS,..
-Stafford 3rd Line,BRIDGES AND TUNNELS,Footbridges
-B Line Road,BRIDGES AND TUNNELS,Footbridges
-Boundary Road East,BRIDGES AND TUNNELS,Footbridges
-C.N.R. O/H PEMBROKE BYPASS,BRIDGES AND TUNNELS,..
-Borne Road,BRIDGES AND TUNNELS,Footbridges
-Doran Road,BRIDGES AND TUNNELS,Footbridges
-Round Lake Road,BRIDGES AND TUNNELS,Footbridges
-MUSKRAT RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Culvert N. of White Lk Rd,BRIDGES AND TUNNELS,..
-Highway 148,BRIDGES AND TUNNELS,Footbridges
-Golf Course Road,BRIDGES AND TUNNELS,Footbridges
-Hales Creek Culvert,BRIDGES AND TUNNELS,..
-Zanders Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00175a58b2ba8a436eb33727a69f27a6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+04508a40a3c5e01f59e40703c64b79f1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+04a3c573ed11225d75523c8719e33f6d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+067fbe1a1fb90d30799ecd860e0f0e1c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+094cf6aec4fd11028097519917b6826b,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+0ac29b7eeeb20ac2905fa5deaf550185,bridges and tunnels,bridge,INDIAN RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+0afb1f13da5032e37dfd1cab806f8704,bridges and tunnels,bridge,MUSKRAT RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+0cfa70b933ed28d8b624385be4650013,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+136601e7f78480e38127b255a0d14285,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1c11e86b9dd0d0a588965f8d3b6159ce,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2bb45836bf726e5936e707e3e2316b6f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f94bdd9032c0b7a853288b9d4ca2ada,telecom,tower,...,...,...,Natural Resources Canada
+2fa1000788d2c2798235726cca44c305,railways,track,..,...,...,Natural Resources Canada
+3372f36ff0799e20c46004d309db6083,telecom,tower,...,...,...,Natural Resources Canada
+384b05664c9b21c679ba220cd2d86ab1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ccef07d57959e1c87e0b18232e041c8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+44c4c985d1e63127c5cd8bdbd89fe9b9,telecom,tower,...,...,...,Natural Resources Canada
+4e1b1d6092544195a46477c73a915ab8,telecom,tower,...,...,...,Natural Resources Canada
+60bd13aad9b50644c81be917538a7f29,bridges and tunnels,culvert,CULVERT 650 M SOUTH OF WOITO STATION ROAD,Culvert,Culvert,Province of Ontario
+6e9e0b20ddaf48af51144640b706a403,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+71ef74de55d61a6f4de388b566186f2d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+72ba9d5912248873ce9636dfba3d3704,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+73cfaed46ff82544e6b1058e3cb2e7f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7539a1ba3ca97b477741aad309c83d12,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b0adddd793ce11ab0c45898b444a373,telecom,tower,...,...,...,Natural Resources Canada
+7bf550af292e9e04d98cf764b708d8ad,bridges and tunnels,culvert,Hales Creek Culvert,Culvert,Culvert,Province of Ontario
+803484f7d49d95febae1b71a85add70c,telecom,tower,...,...,...,Natural Resources Canada
+805687a1fa9afc9be4f3fee8501e4f58,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+91eed7ba28f3a5e07f45b85b10ec30e0,bridges and tunnels,bridge,C.N.R. O/H PEMBROKE BYPASS,Bridge,Bridge,Province of Ontario
+98c2efb7008434a5ac1cc7c974b69284,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+991c856904f7db64188a2adc8cc82e61,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9a630604606f5e33598d52a0f8a4fadc,bridges and tunnels,culvert,Recreational Trail Culvert,Culvert,Culvert,Province of Ontario
+a3a69c884fdb8acdb3c9cd066a39ff89,solid waste,mixed,..,Waste Processing or Sorting,Material recovery,Province of Ontario
+a7d45f9c093be0fec6e2005e43be917c,solid waste,landfill,The Corporation Of The Township Of Laurentian Valley,..,Dump site,Province of Ontario
+a854084315cda29f3ef8e65237a8028c,bridges and tunnels,bridge,HAZLEY  BAY  BR.,Bridge,Bridge,Province of Ontario
+b08e4b193f6f24a8beb92c8d0a26e85b,telecom,tower,...,...,...,Natural Resources Canada
+b0ba877b72a12e80ceb487676de18772,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b173312fe5d0f472799a8adb9b5a7c5e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b5da55e5fdafcca1dbff8923d5112094,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c2329896deb0fbe2d58b618c0df81cb6,bridges and tunnels,culvert,Culvert N. of White Lk Rd,Culvert,Culvert,Province of Ontario
+d70c13f4b1bf25199fd26324806bee85,oil and gas,pipelines,..,..,...,Natural Resources Canada
+d72eb3c893368bc4ac0b99c9238fe211,telecom,tower,...,...,...,Natural Resources Canada
+e113d361be1c0e95bd02caa4099dcc9d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e2a89272db38a212f46582562be6d0a5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eaa2c11a12d818072ff578566e3cab01,telecom,tower,...,...,...,Natural Resources Canada
+f0336cb72cfa9739252654611fdd2b3c,solid waste,landfill,Ottawa Valley Waste Recovery Centre,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+fa11c0ee797c7c08385a3cd0a53a5d0e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fbb0d57b82d72ac317f81e4732c649ae,telecom,tower,...,...,...,Natural Resources Canada
+ffe4855a47a1a8d4dd0259e2b6ae9ffa,telecom,tower,...,...,...,Natural Resources Canada

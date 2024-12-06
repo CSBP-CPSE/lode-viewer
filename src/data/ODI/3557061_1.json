@@ -1,30 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Wallace Terrace,BRIDGES AND TUNNELS,Footbridges
-Baseline,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-BLACK CREEK BRIDGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Bay Street West,BRIDGES AND TUNNELS,Footbridges
-Highway 17,BRIDGES AND TUNNELS,Footbridges
-Sussex Road,BRIDGES AND TUNNELS,Footbridges
-Carpin Beach Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-4th Line East,BRIDGES AND TUNNELS,Footbridges
-Landslide Road,BRIDGES AND TUNNELS,Footbridges
-Townline Road,BRIDGES AND TUNNELS,Footbridges
-Allens Sideroad,BRIDGES AND TUNNELS,Footbridges
-Rossmore Road,BRIDGES AND TUNNELS,Footbridges
-International Crossing,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-BLACK CREEK BRIDGE NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-Whitney Avenue,BRIDGES AND TUNNELS,Footbridges
-Old Goulais Bay Road,BRIDGES AND TUNNELS,Footbridges
-Old Garden River Road,BRIDGES AND TUNNELS,Footbridges
-5th Line East,BRIDGES AND TUNNELS,Footbridges
-Herkimer Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,WASTEWATER STORMWATER,..
-Great Northern Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-6th Line East,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0039efcec4b54b8faa4b04e13c890c74,railways,track,..,...,...,Natural Resources Canada
+00488b05f1a1bcb18d5ff164e5050f05,railways,track,..,...,...,Natural Resources Canada
+005e2dc8998424d43c5d8b82a4c26886,railways,track,..,...,...,Natural Resources Canada
+00a3bfa6e7ab8e3637703bfe2d00d497,railways,track,..,...,...,Natural Resources Canada
+00a46c3a10fa0cc3c225166ab8e2a8f6,railways,track,..,...,...,Natural Resources Canada
+00f944c6a80cd76d8aa44d9f321bcbdd,railways,track,..,...,...,Natural Resources Canada
+016b5559bf03a0f8108d4d8c850c023a,railways,track,..,...,...,Natural Resources Canada
+0269a7694d1ac4d6350829473851fde4,railways,track,..,...,...,Natural Resources Canada
+02bb1265ee35c6bf356e1a9f5e0c9f5a,telecom,tower,...,...,...,Natural Resources Canada
+02d41d3cf3754481618091cb1f17a3b5,railways,track,..,...,...,Natural Resources Canada
+037c4126dce4c4ef6c3cca577c7210d6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+03b5d508b9e4fb22260c5e9b447ce7b1,railways,track,..,...,...,Natural Resources Canada
+041a00ba35e83cb0f55ed230a0d27235,railways,track,..,...,...,Natural Resources Canada
+0447b5d24afc3d6d4a3f24e12c156951,railways,track,..,...,...,Natural Resources Canada
+04605489a72380367e6d1f70563401be,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+049794b497fa0649086b6cab60584528,railways,track,Welded Beam,...,...,Natural Resources Canada
+04bda773f97aec13a444a32be230bba6,railways,track,..,...,...,Natural Resources Canada
+04f8b2cfedee063fdfe8fc363726aa25,railways,track,..,...,...,Natural Resources Canada
+053497e6dfaef8e434fc9bd78e53445b,railways,track,..,...,...,Natural Resources Canada
+06961d8688d1c7a021f27261d09b2b61,railways,track,Welded Beam,...,...,Natural Resources Canada
+06a644f4d8ba7fb3ce9c8bebfa5b2f9e,railways,track,..,...,...,Natural Resources Canada
+06ad7ddf30af82ab8b6b507da4829c2c,railways,track,..,...,...,Natural Resources Canada
+07c97eef08b4aefce8795df5c78abe0b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+07d25f12122b8b3f1d425859db26029a,railways,track,..,...,...,Natural Resources Canada
+07eeaf64fcf270d1c67ca70e27864ed9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+090b4817fa2c014d2901f3354642403c,railways,track,..,...,...,Natural Resources Canada
+094c7314244bd0224e14fff435775aa2,railways,track,..,...,...,Natural Resources Canada
+0967d1c9db6c703d1d7b7931d1e98f5f,railways,track,..,...,...,Natural Resources Canada
+09809640da549683b9b39f1a9017f704,railways,track,..,...,...,Natural Resources Canada
+09b113ee427b8dc57b0ca6e5c004e6bf,wastewater and storm water,facilities_waste,East Wastewater Treatment Plant,..,Waste treatment plant,Environment and Climate Change Canada
+0ab73a388fd3c23a78faf55587fa1135,railways,track,..,...,...,Natural Resources Canada
+0b9713e3655e90c509a293c2f12a4987,railways,track,..,...,...,Natural Resources Canada
+0c207360dcf7138b923e766a5f8e6fc6,railways,track,..,...,...,Natural Resources Canada
+0c336fc22af45fd2d3381cca122f5bba,railways,track,Welded Beam,...,...,Natural Resources Canada
+0c70571ab3796b850127f4ddb8967fc8,railways,track,..,...,...,Natural Resources Canada
+0c7dab08eeced011373a33853226df67,railways,track,..,...,...,Natural Resources Canada
+0d2cc42db99dcd381531fdcf619bd46f,railways,track,..,...,...,Natural Resources Canada
+0d3a1f01d4c299918450a5fa2504c4ba,railways,track,..,...,...,Natural Resources Canada
+0f16f68c6a42a38ec3c394ad10ae2830,railways,track,..,...,...,Natural Resources Canada
+0f8846c06ad4fc1b232ead46abcb8495,railways,track,..,...,...,Natural Resources Canada
+0f98e96123c947b66801229cb2c05144,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1015e7e404c2f21dbdc7f9b8f8e1a981,railways,track,..,...,...,Natural Resources Canada
+1054aeb042b9c740d96982a3ea4227a7,railways,track,..,...,...,Natural Resources Canada
+10712a287a994729d58411c5a5c67616,railways,track,..,...,...,Natural Resources Canada
+11543ddf76310aa4c71920f4f9b584bf,bridges and tunnels,bridge,BLACK CREEK BRIDGE SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+124ac402d74c821ec4c2e8f6bd2e0b2e,railways,track,..,...,...,Natural Resources Canada
+129f743ae630854f9b6fc2a38056d29e,railways,track,..,...,...,Natural Resources Canada
+12cacc97619872f4b9dcea58574acb9e,railways,track,..,...,...,Natural Resources Canada
+132ed720b8e0d4ac075248ed88e0b333,railways,track,..,...,...,Natural Resources Canada

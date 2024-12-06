@@ -1,26 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-MacPHERSON BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-TARBOTVALE #1 CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Rear Barachois Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-MACDONALD BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BAY ST LAWERENCE (SALMON RIVER),BRIDGES AND TUNNELS,"Bridges, Culverts"
-WILKIE'S BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CAMERON CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-INGONISH FERRY CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-DAISLEY CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WRECK COVE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-South Ridge Road,BRIDGES AND TUNNELS,Footbridges
-FAIRVIEW BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacLEOD (DONALD NEIL) BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ROPERS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ELDERS BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-PATH END BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-JERSEY COVE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SMELT BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WEST TARBOT #2 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-NEW HAVEN (TROUT RIVER) BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MILL BROOK #2 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BIG SARAH CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-INGONISH BEACH BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+713b2f0d687b2af11f809af42d9ae466,telecom,tower,...,...,...,Natural Resources Canada
+71b39f18298851419b13217639005d32,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+72193fb3013911f21e58ca03ced3b35a,ports and marinas,mixed,Ingonish (macleods Point),Core Fishing,...,Fisheries and Oceans Canada
+749c42e947a823a381933ae8983bfa61,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+74dce9a93c3eec47193cef21fea6b252,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+75492246ad72a60db07515459b6b2dc4,ports and marinas,mixed,Bay St. Lawrence,Core Fishing,...,Fisheries and Oceans Canada
+760f2fe6be279a54b70aa99607c5c4b9,bridges and tunnels,bridge,LITTLE RIVER BRIDGE,..,..,Province of Nova Scotia
+77945c9a3fc81136386b67ac85290014,bridges and tunnels,bridge,GREYS HOLLOW BRIDGE,..,..,Province of Nova Scotia
+77e02bc8197c1f6c6c7d3c3d139b4489,bridges and tunnels,culvert,TARBOTVALE #2 CULVERT,..,..,Province of Nova Scotia
+7a563b407cde5e9e9ed59bbf0ac1931a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b3511f625ee7e52d4337e68d5bb8107,bridges and tunnels,bridge,HELENES BRIDGE,..,..,Province of Nova Scotia
+7b94f8a6bb3132e9c98d79b363f767de,bridges and tunnels,culvert,FUR FARM CULVERT,..,..,Province of Nova Scotia
+7d16675ac03dca54f279351977a5be35,ports and marinas,mixed,White Point,Core Fishing,...,Fisheries and Oceans Canada
+7d33f36acad14c966315723f38c5c2f7,bridges and tunnels,bridge,INDIAN BROOK BRIDGE,..,..,Province of Nova Scotia
+820c9dcc39313a0ce8585e18e5e96e72,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+828923cb8ff09697e813229ee96c8bd3,bridges and tunnels,bridge,SOUTH BRANCH BRIDGE,..,..,Province of Nova Scotia
+82a27bd562d21b8cadaf90c21e36ac93,bridges and tunnels,mixed,RIVER BENNET,..,..,Province of Nova Scotia
+8370383048df730fdb9d3da1fdc7c001,bridges and tunnels,bridge,REAR LITTLE RIVER BRIDGE,..,..,Province of Nova Scotia
+85343200f75ba639e62347ed033d4b3f,telecom,tower,...,...,...,Natural Resources Canada
+8684e35c151894b37094a1ab838c7e92,bridges and tunnels,mixed,JERSEY COVE,..,..,Province of Nova Scotia
+8bd2b79ca9006591efcf6588848c66e2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8be8e4e96b61b975b16f13ed95279090,electric grid,substations,SUBSTATION (transformer) point,...,...,Government of Nova Scotia
+8c1c006b16f1696373a58c57b19dc149,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+903ee8e4402294fee59aba35c16ea57e,ports and marinas,mixed,Little River (victoria County),Core Fishing,...,Fisheries and Oceans Canada
+90606d9f3a07ec95fe1c29fab35aa309,ports and marinas,port,Dingwall Harbor,..,...,National Geospatial-Intelligence Agency (NGA)
+910b4953a4f1386e146c29d2312f787a,bridges and tunnels,bridge,FAIRVIEW BRIDGE,..,..,Province of Nova Scotia
+91b19ce1cca9e2bd7b6a04cda79f8495,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+92ecb23963ce3923516b2c770947ce5e,bridges and tunnels,mixed,BARRACHOIS TARBOT TRUSS,..,..,Province of Nova Scotia
+94ae95950c2372dd9245ed40445fd19a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+98af76908a80b077938bc2b5858f9769,bridges and tunnels,culvert,MORRISON MILL #2 CULVERT,..,..,Province of Nova Scotia
+9a0f2058920f7ccc1a06e3cdda80425e,bridges and tunnels,bridge,MacDONALD #1 BRIDGE,..,..,Province of Nova Scotia
+9c8a1a1fde881a7d3ddd980ab39a2357,bridges and tunnels,bridge,CORSONS BRIDGE,..,..,Province of Nova Scotia
+9dd344c7aff974d88d6f8ee751d933d2,bridges and tunnels,bridge,BIG TIMBER BROOK BRIDGE,..,..,Province of Nova Scotia
+9f396957590d8a5e34495c5c95c1ff17,bridges and tunnels,bridge,MacLEOD (ANGUS) BRIDGE,..,..,Province of Nova Scotia
+a0325dca43390bea205a176ba2eacac8,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+a30d84b00d3049152e02197a41b77df7,bridges and tunnels,bridge,MACDONALD BROOK BRIDGE,..,..,Province of Nova Scotia
+a4cf46b12380ec0b175415a0648affb1,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+a6745c7ff44445f2d27e48312ab67a80,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+abd0a9fe7ff49c4dedcc27501c900062,telecom,tower,...,...,...,Natural Resources Canada
+adf8a9611c63e13ab043a2f607d37dda,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+af594c54ccb3970cbd1e815eb7adf1cc,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+b3d3335b313e361f5cdb9f744cdac265,bridges and tunnels,bridge,MORRISON MILL BRIDGE,..,..,Province of Nova Scotia
+b4e55d01543de3d293892755a8c9849f,bridges and tunnels,culvert,INGONISH FERRY CULVERT,..,..,Province of Nova Scotia
+b816e5349b43fa477a61534cc5b2b924,bridges and tunnels,bridge,JARVIS BRIDGE,..,..,Province of Nova Scotia
+babc0e9c06e0fb5f8cc3d686df36659e,low carbon,hydro,Gisborne,...,...,World Resources Institute
+bbd4e14422f554b853b18708462cf75c,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+bbdfc3962b215b07494b9ef41470c7d1,bridges and tunnels,bridge,NORTH RIVER BRIDGE,..,..,Province of Nova Scotia
+be768c1b9c0473e711d21e6bf0b1cd43,ports and marinas,mixed,Ingonish Ferry (south Ingonish),Core Fishing,...,Fisheries and Oceans Canada
+bf2c406b1578f9d6595f75dad3211e98,bridges and tunnels,mixed,BAY ST LAWERENCE (SALMON RIVER),..,..,Province of Nova Scotia

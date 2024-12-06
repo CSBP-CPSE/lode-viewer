@@ -1,27 +1,37 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Avenue 2e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Saint-Charles,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard De Lanaudière,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang du Rapide Nord,BRIDGES AND TUNNELS,Footbridges
-Autoroute Félix-Leclerc,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Montée de l'Enseigne,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+071a84f9753d9f6e884d65cae2a83f1f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0749f892c57e28a72c9e81416697fb00,bridges and tunnels,mixed,..,..,..,La Province de Québec
+167831255543ef74393b12d481ac32eb,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Sainte-anne-de-la-pérade,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+1ab7903d9901f20ea351d60b6508b16f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+23cb3ecebc83c7365ca0bb330bfaeeca,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2a794a10d1a07351bea227ef5019ba28,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2bab4438d864aaed019575f21b137d75,low carbon,charging_stations,Brcc - Sainte-anne-de-la-pérade - Ferme Du Tarieu,...,...,Government of Quebec
+307da4df55e5413e339d0b83d76bd4a8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31410f0a75d430726a1a911319797067,bridges and tunnels,mixed,..,..,..,La Province de Québec
+318df6772c43c89ce883a5cdbbce18cf,low carbon,charging_stations,Ste-anne-de-la-pérade - Sde La Pérade,...,...,Government of Quebec
+326239e3ecd73bafd3ef7decfc5867d0,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4f8e9e3d77ede62579d8f033d6b4be08,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a7c2bcb0ce882d58d0a3b40ee0add94,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5e62dd1eacbf846bf33ffb02ebc55a8d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+61238b9413152200a92bc93207215718,bridges and tunnels,mixed,..,..,..,La Province de Québec
+62c8cf1c5291fab609681565133e87ab,bridges and tunnels,mixed,..,..,..,La Province de Québec
+63cb0bb94d796418a93bc113246a4a5c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+692af0b7b6ea887405cd2a1a491a30e5,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6c2b2f64a6ec39631b8a3ecc014c3205,railways,track,..,...,...,Natural Resources Canada
+7032542f7455c464ef34fbfb0a1f5223,bridges and tunnels,mixed,..,..,..,La Province de Québec
+73abf1e411335945caca82dc15d72ddc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+79fa669520c4c5e99aa204ed14c582d6,bridges and tunnels,mixed,..,..,..,La Province de Québec
+83031a933f80d0e720a52e5468e6a167,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+833179c02ebb8e88b6184c62542ce77e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+866ffe361e3c780560a40b60a4592e54,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8a172652153df0ec1165d48f16912cf5,oil and gas,facilities,..,..,...,Natural Resources Canada
+a2e5719d5ccac0412145977ab2ebe927,railways,track,..,...,...,Natural Resources Canada
+aa7a2b7e7da8f449a286e89d212b8235,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c4da7c52845f302046d3973547cc462f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c97e2aeccbcc62c15fe62e99b664ee16,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d320d907ba282a07219fb0784e46faa3,oil and gas,pipelines,..,..,...,Natural Resources Canada
+d4c58493a28d74bb41385f325a82c512,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ea98003a7900cd30e7cc3cf09a7146f4,low carbon,charging_stations,Brcc - Sainte-anne-de-la-pérade - Info Touristique,...,...,Government of Quebec
+eac620c2d8bc0be65e82a4e54396e084,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fb85dfae5f9ba374b970298d83b33ac5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ff51c078ca12ce6ee236d47422286a47,railways,track,..,...,...,Natural Resources Canada

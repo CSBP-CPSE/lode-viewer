@@ -1,16 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-McInnis Road,BRIDGES AND TUNNELS,Footbridges
-LANGILLE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lake Road,BRIDGES AND TUNNELS,Footbridges
-TENNYCAPE WHARF ROAD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Barr Settlement Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-"MILL VILLAGE ROAD O/P, Highway 102SB",BRIDGES AND TUNNELS,"Bridges, Culverts"
-SHAKY LAKE BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-"ELMSDALE #2, (Elmsdale Legion Bridge)",BRIDGES AND TUNNELS,"Bridges, Culverts"
-ART ETTINGER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Caldwell Road,BRIDGES AND TUNNELS,Footbridges
-LITTLE RIVER #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-McLEOD BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BURNS BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 14,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+c3ebd908a9b086ad8efe95ac710b6b74,bridges and tunnels,mixed,BROOK,..,..,Province of Nova Scotia
+c622269c9ea078ad26100d758d60b6aa,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c7c92f0cb0efd1abe655792998075134,bridges and tunnels,bridge,BLACK BROOK BRIDGE,..,..,Province of Nova Scotia
+c96330e45208c3e473626a801256f726,bridges and tunnels,mixed,MILL BROOK (Barr Settlement Road),..,..,Province of Nova Scotia
+c9e343a2e6991c5e0cafd38881249cb7,bridges and tunnels,mixed,SHUBENACADIE RIVER AT ENFIELD,..,..,Province of Nova Scotia
+cb55b44febe1c3877430a8cd3270bb26,bridges and tunnels,mixed,BIRCH BROOK,..,..,Province of Nova Scotia
+cdf9e87528c77b44bbcbabe575af4eb8,bridges and tunnels,mixed,GARDINERS,..,..,Province of Nova Scotia
+d00711b37810bb2a4bef69d0c11fef74,bridges and tunnels,mixed,MACK BROWN,..,..,Province of Nova Scotia
+d4b9f8ebaebbff427094b80bde7a203b,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+d8ffb383b9aa8c8acc400a6774f7bcf1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d9d7d6a796b32c973791a4d077643169,wastewater and storm water,facilities_waste,Shubenacadie Wastewater Treatment Plant,"Grit Removal, Screening, Oxidation Ditch, Disinfection",Unclassified,Environment and Climate Change Canada
+da4db6db8a771ae6e01be446c7f42d5a,bridges and tunnels,mixed,WALKER,..,..,Province of Nova Scotia
+daac8e587a6fe72e62a935bf8c13934b,bridges and tunnels,mixed,HERBERT RIVER,..,..,Province of Nova Scotia
+dab4a3c4203eec04315ce31d779b3791,railways,station,Milford,...,...,Natural Resources Canada
+db5064cf1945cda605278df8f8e86381,bridges and tunnels,mixed,RINES CREEK,..,..,Province of Nova Scotia
+dbc7ab6da0670baf99014dc6caa036a7,low carbon,wind,Walton Community Wind Project,...,...,World Resources Institute
+dc2bc85f252c5d2a97a3effe353137a1,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+dc5052089c2fa905107df3a50bdadf0b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+de82c3a007c8fca45a88a7e278db4f28,bridges and tunnels,mixed,WALTON ABOITEAU,..,..,Province of Nova Scotia
+ded74dc909ee585c0efa5efc9676230f,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+e007ee55928ab88d764a4a1eafbb1e1f,bridges and tunnels,mixed,ANTHONY,..,..,Province of Nova Scotia
+e06e4f059bd544ac19d37ef073fcba10,bridges and tunnels,mixed,ESS ROAD (Little Nine Mile River),..,..,Province of Nova Scotia
+e290ce5ad51b8b18e376bfce44898c67,bridges and tunnels,mixed,LITTLE RIVER #1,..,..,Province of Nova Scotia
+e2f3f2e01033ae8543c0ac6a8f41d3ff,bridges and tunnels,mixed,TURPLE ROAD,..,..,Province of Nova Scotia
+e3ef243b7a7b7790982d0ef974445273,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e3fe42efbe90f783864ad91800bb62b4,bridges and tunnels,mixed,MCINNIS GLEN BROOK,..,..,Province of Nova Scotia
+e5373d58b482b38a66deabae1d4511cb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e67ab0e53772b99c5800283db5df70cf,bridges and tunnels,mixed,"SHUBENACADIE, Trunk 2",..,..,Province of Nova Scotia
+e87a45749251c9314e42203755420639,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e918953c24ed74292ddb9bda8eee7075,bridges and tunnels,mixed,LITTLE NINE MILE RIVER #2,..,..,Province of Nova Scotia
+eb26aa8b13a1e7ae3a142e96914e625e,bridges and tunnels,mixed,MILFORD (Caldwell HN045),..,..,Province of Nova Scotia
+ecbfd9a84ec029401337c3e80580fcf8,low carbon,wind,Nine Mile River,...,...,World Resources Institute
+ed45d592264065afc1bfc5e73027d5c6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ed77d72ee42ccf6ec09b4bed69abd5c5,bridges and tunnels,mixed,TUNNELL CROMBE ROAD,..,..,Province of Nova Scotia
+ef5cc8c7868e46d6a4d9d82c91f07076,bridges and tunnels,mixed,"ELMSDALE ROAD O/P, Highway 102",..,..,Province of Nova Scotia
+efd60ee21d788ce5a2b2cdb4c5a09567,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f1f91c0074b397abeb7f58019838aa38,railways,track,..,...,...,Natural Resources Canada
+f3b5f3e732ab44bdf9a56f3a44446d91,bridges and tunnels,mixed,CALDWELL,..,..,Province of Nova Scotia
+f40fdec5bbf1d933b7132bdc6c8b56e2,airports,...,East Gore Eco Airpark,small_airport,...,OurAirports
+f4a04b2d9a60327fa775aea1e5578b5a,telecom,tower,...,...,...,Natural Resources Canada
+f55a8bb724f9a4ed8efcde809248c925,bridges and tunnels,mixed,LITTLE NINE MILE RIVER,..,..,Province of Nova Scotia
+f68f0138694ddbe16aa83e4c8e38aa1a,bridges and tunnels,mixed,BLACK BROOK,..,..,Province of Nova Scotia
+f6e20662400519a166a80aae94c321e3,bridges and tunnels,mixed,ROBINSON BROOK,..,..,Province of Nova Scotia
+f74d8722d266c777aded6f40d8c57384,bridges and tunnels,mixed,FIVE MILE RIVER,..,..,Province of Nova Scotia
+f7502ff796f9d2de681c5d1b94f62a86,bridges and tunnels,mixed,SHAKY LAKE BROOK,..,..,Province of Nova Scotia
+f896cf577c1dea340c8f56a2cc059e09,bridges and tunnels,mixed,NORTH BROOK,..,..,Province of Nova Scotia
+f9e3dffcbc55937bbd76b38ed39f3c77,bridges and tunnels,mixed,"NINE MILE RIVER O/P, Highway 102NB",..,..,Province of Nova Scotia
+fa9c10e7c62e8363e0b9c75cdc1d1dfa,bridges and tunnels,mixed,"HALIFAX HANTS U/P, Highway 101 @ Exit 3",..,..,Province of Nova Scotia
+fc0b2457b00fca813bf8d40320e9a591,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

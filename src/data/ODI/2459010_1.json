@@ -1,50 +1,38 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Nobel / devant le #2181,..,..
-du Ponceau / De La Salle,..,..
-du Sorbier / du Sureau,..,..
-Charlebois / devant le #568,..,..
-Léonard-De Vinci / Raymond-Blais,..,..
-Savaria / Paul-Sauvé,..,..
-Jules-Choquet / Saint-Louis,..,..
-Autoroute Jean-Lesage,BRIDGES AND TUNNELS,Footbridges
-Rang de la Belle-Rivière / de Touraine,..,..
-du Liseron / du Fer-à-Cheval,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-N.-P.-Lapierre / Savaria,..,..
-Montée Sainte-Julie / Savaria,..,..
-Bombardier / Marconi,..,..
-Montée Sainte-Julie / Calixa-Lavallée,..,..
-Borduas / de Grenoble,..,..
-Saint-Joseph / De Lévis,..,..
-Jules-Choquet / Robert,..,..
-de l'Abbé-Théoret / Lionel-Groulx,..,..
-Terminus Sainte-Julie - quai taxi,..,..
-Saint-Joseph / de Normandie,..,..
-Armand-Frappier / devant le #210,..,..
-Daoust / de la Bretagne,..,..
-Montée des Quarante-Deux / du Crépuscule,..,..
-Calixa-Lavallée / Albert-Ferland,..,..
-Montée Sainte-Julie / Savaria,..,..
-du Fer-à-Cheval / Jacquelin-Beaulieu,..,..
-Bombardier / Marconi,..,..
-Bombardier / Marconi,..,..
-Montée Sainte-Julie / de la Verdure,..,..
-du Fer-à-Cheval / des Iris,..,..
-Terminus Sainte-Julie - quai 5,..,..
-Jules-Choquet / Robert,..,..
-N.-P.-Lapierre / Principale,..,..
-Terminus Sainte-Julie - quai 2,..,..
-Jacques-De Sainte-Hélène / du Mont-Saint-Bruno,..,..
-Daoust / de Bourgogne,..,..
-du Moulin / de l'Abbé-Théoret,..,..
-du Fer-à-Cheval / Saint-Joseph,..,..
-du Fer-à-Cheval / Saint-Joseph,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Principale / Montée Sainte-Julie,..,..
-du Moulin / Arthur-Buies,..,..
-Montée Sainte-Julie / du Moulin,..,..
-Principale / Coulombe,..,..
-Principale / Coulombe,..,..
-Terminus Sainte-Julie - quai 4,..,..
-du Fer-à-Cheval / Jules-Choquet,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01d7bb250ac023151c0f760ca96f2948,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+07f47e3589f8f5b58baa3948161d5a5a,wastewater and storm water,facilities_waste,Usine D'épuration Des Eaux Usées,"Screening, Lagoons - Aerated, Trickling Filter, Biological Nitrogen Removal - Nitrification and Denitrification, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+094d9442e58febd470fc951f37cc5192,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f1523a6c783c9b9eb4abd9b89e38498,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2081d4971f71356aa52208d159ce2d50,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2607178a2dffa32320487bd272701bd0,wastewater and storm water,facilities_waste,St.augustine Wastewater,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+275d3cf7b9c849a8086c8cba774a29ae,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+29440469b24c3a1b09bb7f389d81bd31,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2e5f15804f4bb871651a11e6641972ff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3036a1e268e34ae212177a658fd91057,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+33968cea1b7f33915b7cb97c6ad96046,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+34322e292c5df05caeff5a00d7a7dac7,low carbon,charging_stations,Exo - Stationnement Incitatif Sainte-julie,...,...,Government of Quebec
+36ee751e58f430bc309f500d467cbcb4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4138972df8c621c9a42fc4490ddcfd6e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+449d3e6a49948fe647e9e21489273459,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5c510cf0ce3ddee94dc859068c9c30ea,bridges and tunnels,mixed,..,..,..,La Province de Québec
+603a9a9bbc9c2d570b3c630335079212,low carbon,charging_stations,Brcc - Sainte-julie,...,...,Government of Quebec
+6ad5dce49171946d06e0aeff68ce28f7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6f54855d34beee574729abb14618240b,wastewater and storm water,facilities_waste,Usine D'épuration Des Eaux Usées,..,Waste treatment plant,Environment and Climate Change Canada
+74fbeea702b572b502fad462909e570a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7927c3004e04b255dc2c89b89f5d5203,low carbon,charging_stations,Hydro-québec - Électrium,...,...,Government of Quebec
+79668ae8170c2d1120232903a63a3d8f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7f17c2a723c379092ddc0e93c9b5ea9c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8e0ef1f8334e0bcad11f038e065e7de5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+91f05774c02da9917481c28343b0d71b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9562923c278d846f272f988ac3c20ef1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9b77e499b06e6b023f524ebf30c5018e,low carbon,charging_stations,St-hubert - Sainte-julie,...,...,Government of Quebec
+a3cb976364046ac9f0a757d2fe518639,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a8c4ee3cc880ee6d9692522aebd4c844,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aa883220cb70645d44e62657dbda8bc4,telecom,tower,...,...,...,Natural Resources Canada
+b62bf47f409d224fcbb08e15010527e7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b928584f505b2810756a7ff393353d0a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+be4c6b5fc2d6ae2664b06641e0428935,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cd42303af1c2c805ab38bc6397f65226,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+dcaa19b842ad127e09afb4a09a0b002b,low carbon,charging_stations,Sainte-julie - Hôtel De Ville,...,...,Government of Quebec
+e4f111213506ea60a71df431d4244c91,low carbon,charging_stations,Brcc - Sainte-julie - Aréna,...,...,Government of Quebec
+f8d64701b152e05e33fe9f22870a3e4e,low carbon,charging_stations,Ccssj,...,...,Government of Quebec

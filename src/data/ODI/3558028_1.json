@@ -1,35 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Copenhagen Road,BRIDGES AND TUNNELS,Footbridges
-BLENDE CREEK BRIDGE,BRIDGES AND TUNNELS,..
-CPR OVERHEAD @ SHUNIAH MILEAGE 119.12,BRIDGES AND TUNNELS,..
-5 Road North,BRIDGES AND TUNNELS,Footbridges
-Shalala Creek WBL,BRIDGES AND TUNNELS,..
-Passage Lake Road,BRIDGES AND TUNNELS,Footbridges
-McKenzie River Bridge (Eastbound),BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Bridges
-"PEARL RIVER CULVERT
-",BRIDGES AND TUNNELS,..
-Grandview Creek Culvert - EBL,BRIDGES AND TUNNELS,..
-Shalala Creek EBL,BRIDGES AND TUNNELS,..
-Isku Park Road,BRIDGES AND TUNNELS,Footbridges
-NORTH CURRENT R. CULVERTS,BRIDGES AND TUNNELS,..
-WILD GOOSE CREEK CULVERT - EBL,BRIDGES AND TUNNELS,..
-McKenzie Station Road,BRIDGES AND TUNNELS,Footbridges
-BLIND CREEK CULVERT - EBL,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-NORTH CURRENT RIVER CULVERTS,BRIDGES AND TUNNELS,..
-Mackenzie River Concrete Barrel Arch,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-BLIND CREEK CULVERT - WBL,BRIDGES AND TUNNELS,..
-Blind Creek Culvert West - WBL,BRIDGES AND TUNNELS,..
-East Loon Road,BRIDGES AND TUNNELS,Footbridges
-Lambert Island Road,BRIDGES AND TUNNELS,Footbridges
-Amethyst Avenue,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-WILD GOOSE CREEK CULVERT - WBL,BRIDGES AND TUNNELS,..
-Mitchell Road,BRIDGES AND TUNNELS,Footbridges
-CPR OVERHEAD @ SHUNIAH MILEAGE 119.12,BRIDGES AND TUNNELS,..
-Grandview Creek Culvert - WBL,BRIDGES AND TUNNELS,..
-McKenzie River Bridge (Westbound),BRIDGES AND TUNNELS,..
-Blind Creek Culvert West - EBL,BRIDGES AND TUNNELS,..
-Highway 11 & 17,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00bbb746d83e5be158a45f346966a5a1,bridges and tunnels,culvert,BLIND CREEK CULVERT - EBL,Culvert,Culvert,Province of Ontario
+032906b43251116237dd649d3aeb05f8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+05166cc6359cb8620748ebbe9e002a5d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+06147a4d038031317ef5ecd19edd04ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+08e7dec9dd92f8c9dcb70b1194e827b2,oil and gas,pipelines,..,..,...,Natural Resources Canada
+092a0fc0e4deca19d68ad3d0d231175c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0b65a574004b91289aae756b292bc70d,railways,track,..,...,...,Natural Resources Canada
+0fb0f2d23271196c29a7b0b966d87622,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+103eeb1171080ef99a8be5045cdfc757,bridges and tunnels,culvert,Shalala Creek WBL,Culvert,Culvert,Province of Ontario
+16005a2650d728aaf9a57b981f0aa12b,bridges and tunnels,bridge,McKenzie River Bridge (Westbound),Bridge,Bridge,Province of Ontario
+1733f2c9940f53d0e580f1a6edeb5630,oil and gas,pipelines,..,..,...,Natural Resources Canada
+184a8a23a8cec0fd0c4d4d837c54b2f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1b2c5db1dfd41866b6298a4e37e2cfaf,bridges and tunnels,culvert,WILD GOOSE CREEK CULVERT - WBL,Culvert,Culvert,Province of Ontario
+1e9092e35c3a8f00983da44d6ec73848,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+1ee4acfa521afeef025881bceb22d066,railways,track,..,...,...,Natural Resources Canada
+257b56d6a584e7dc57fabc2b7b896795,telecom,tower,...,...,...,Natural Resources Canada
+37482fe1be23fcb784c1180806d3fb70,bridges and tunnels,bridge,BLENDE CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+379050f69d0bb711098047df1d0526ee,railways,track,..,...,...,Natural Resources Canada
+3a0c021f996edc93e197f4b1ddbd137a,bridges and tunnels,culvert,NORTH CURRENT R. CULVERTS,Culvert,Culvert,Province of Ontario
+3bba14caa6139e16ed8851dc77dea928,railways,track,..,...,...,Natural Resources Canada
+3e19b7b7e9ee19fb1714e9ad04dc4bf7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3e19ca0c76435269097764b7f170f724,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3e917b4929354797e5273d48b8f55dc7,bridges and tunnels,culvert,Savigny Creek Culvert (Copenhagen Rd),Culvert,Culvert,Province of Ontario
+3fa4df00c9a8a849b81d6136b46af8f1,railways,track,..,...,...,Natural Resources Canada
+4af5a3c6d5443e4fad8b3d55ef168002,bridges and tunnels,culvert,NORTH CURRENT RIVER CULVERTS,Culvert,Culvert,Province of Ontario
+4b8f62e156939bb69863c400dec46735,telecom,tower,...,...,...,Natural Resources Canada
+4d90c4da88b1ec90060a43ec82033012,railways,track,..,...,...,Natural Resources Canada
+50931cf40fb907bb908d587078beb0ef,bridges and tunnels,culvert,Shalala Creek EBL,Culvert,Culvert,Province of Ontario
+53af328cd720df5871fc3f7d1dc707e4,railways,track,..,...,...,Natural Resources Canada
+57394bfd50004628633cd1f9bd816ca4,bridges and tunnels,culvert,Blind Creek Culvert West - WBL,Culvert,Culvert,Province of Ontario
+5cec0749d3d12f62beedb1ae5337842b,oil and gas,pipelines,..,..,...,Natural Resources Canada
+5e2a2c709acf94ebc95d2610beea3b37,bridges and tunnels,bridge,CPR OVERHEAD @ SHUNIAH MILEAGE 119.12,Bridge,Bridge,Province of Ontario
+615620b07f3d2541393108fbf0fd0056,railways,track,..,...,...,Natural Resources Canada
+6c8cb1bf31348cad0f5aec12a0aa67e6,bridges and tunnels,culvert,Grandview Creek Culvert - EBL,Culvert,Culvert,Province of Ontario
+70a063e583f07c491dea162dc2378020,airports,...,Thunderbay / Eldorado Field,small_airport,...,OurAirports
+74ff3b1cdbfe54a72e2b4f8851e4eacd,railways,track,..,...,...,Natural Resources Canada
+787e5c12126e0e802a9eadf13782e6ce,oil and gas,pipelines,..,..,...,Natural Resources Canada
+7a7a9ac85c0cfb154147c2d59519acfe,telecom,tower,...,...,...,Natural Resources Canada
+7a8f1807bedeb2df936dc2a66c365d28,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7ada5ddbc455f39c54ab4e12dc4e2fa8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7d65fdc61aa8d7ed59836062de5b113b,railways,track,..,...,...,Natural Resources Canada
+87a9f60f30b572de24f6c0cf790636e3,oil and gas,facilities,..,..,...,Natural Resources Canada
+87c6a2cecb19b4fb64fc4b05e2882f12,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9722831582ab584cb2fa3fb711b72824,railways,track,..,...,...,Natural Resources Canada
+974b7d9eb6510040f107e6f050447735,bridges and tunnels,bridge,McKenzie River Bridge (Eastbound),Bridge,Bridge,Province of Ontario
+9cd57446ec90ced5d52bbc66ec3cd8b6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9fcb29dc5c978e67fa7e7398141a4b3f,bridges and tunnels,culvert,Blind Creek Culvert West - EBL,Culvert,Culvert,Province of Ontario
+a56cb2e87c8d23d965243e743d80e8ba,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+a67f8f70b08d4b6d8c1f9e76d0ac6ff8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

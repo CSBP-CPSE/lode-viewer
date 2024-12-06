@@ -1,31 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-"Hwy 417 EBL Culvert, 4.7km east of Hwy 138",BRIDGES AND TUNNELS,..
-Ashburn Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-County Road 14,BRIDGES AND TUNNELS,Footbridges
-Queen Street,BRIDGES AND TUNNELS,Footbridges
-Concession Road 8 & 9,BRIDGES AND TUNNELS,Footbridges
-NORTH RAISIN RIVER (North Crossing),BRIDGES AND TUNNELS,..
-Concession Road 4 & 5,BRIDGES AND TUNNELS,Footbridges
-Concession Road 3 & 4,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-..,WASTEWATER STORMWATER,..
-1km South of Hwy 417,BRIDGES AND TUNNELS,..
-Lafleur Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-MacKillican Road,BRIDGES AND TUNNELS,Footbridges
-County Road 13,BRIDGES AND TUNNELS,Footbridges
-St Lukes Road,BRIDGES AND TUNNELS,Footbridges
-Concession Road 1 & 2,BRIDGES AND TUNNELS,Footbridges
-Union Street,BRIDGES AND TUNNELS,Footbridges
-Highway 138,BRIDGES AND TUNNELS,Footbridges
-Tayside Municipal Drain,BRIDGES AND TUNNELS,..
-Bender Road,BRIDGES AND TUNNELS,Footbridges
-Bridge Street,BRIDGES AND TUNNELS,Footbridges
-"Hwy 417 WBL Culvert, 2.4km west of Highland Rd",BRIDGES AND TUNNELS,..
-..,SOLID WASTE,Active Dump Sites
-County Road 9,BRIDGES AND TUNNELS,Footbridges
-Front Street,BRIDGES AND TUNNELS,Footbridges
-Goldfield Road,BRIDGES AND TUNNELS,Footbridges
-Concession Road 6 & 7,BRIDGES AND TUNNELS,Footbridges
-NORTH RAISIN RIVER BRIDGE (SOUTH CROSSING),BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+020f7e9396c2b5cd62f7fa652242b47f,wastewater and storm water,facilities_waste,Crysler Wastewater Treatment Lagoon,"Chemical Flocculation, Lagoon - Facultative",Unclassified,Environment and Climate Change Canada
+05c5c026f3e282e0e1f0a8f6da598d5c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+123a67de690150c58368c77970b51d86,railways,track,..,...,...,Natural Resources Canada
+132012869c4de70d6f2568b678fb7448,railways,track,..,...,...,Natural Resources Canada
+15b479f4b3f5910dd2cc7a5e5a9f1cf2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+17a02e7e02679f24b565f4203a73212d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+18c3b1849608821d5dc174a5e828a817,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1ce6c3abb893a2d2498b840b481d7a54,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1de2e5843b27e11e77ab7f54df9068ec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1e9148a4d973a7e0649fe8025cd90de5,railways,track,..,...,...,Natural Resources Canada
+2360aff1dee3d592047ad1c6e064abab,railways,track,..,...,...,Natural Resources Canada
+264c3a055716f0192be1f1d45cff8e33,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+264e73c64f790cb7f5778b0321c10da5,railways,track,..,...,...,Natural Resources Canada
+2a7bee2f94529ab36ec47500c484cdf6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2a9bbaa2d5c079e39bc7d2cc3991d812,railways,track,..,...,...,Natural Resources Canada
+2d79c3e953259134ceae64b803926283,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2d8ab1cb85e10768a1ea9e0c55d8e7cb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2effff80592c9e09d65147af4e0ac202,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+30e07235acd7f869cb7c177ac59209a7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+322380db2c93aa3ac7887ca5514debb0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3398d48cc0176759edff71d0f479da88,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3f9a41d60fe8f983a9ee1add1826f13f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3fee81a82de9f5c20b42436f3bea56b9,railways,track,..,...,...,Natural Resources Canada
+41c056b138f4231ef00032addb42011c,railways,track,..,...,...,Natural Resources Canada
+441ef42df067480a16b9f2607ca965e5,bridges and tunnels,bridge,NORTH RAISIN RIVER BRIDGE (SOUTH CROSSING),Bridge,Bridge,Province of Ontario
+4695e6b8d742510a385274b2f655fce8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+477333c1b8fb81e84ebcc67aec5334a4,wastewater and storm water,facilities_waste,St Albert Lagoon,"Lagoons - Aerated, Lagoon - Aerobic, Lagoon - Facultative",Unclassified,Environment and Climate Change Canada
+49a875d5e011f5fac2397f0e803eab3f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5697d2b23bec1b46d6807ba5f6a849fa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+583b88d44d2f435ab62cd4b8feaf1331,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+591772d184c07852d8326fe2f407386d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5d454ef549a10e8eb71de867b2d5b501,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+5d4b65c92d9ba20545d9ee1cf8382111,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+603fcc0d3bb1c0f7381baad595345b0f,railways,track,..,...,...,Natural Resources Canada
+60b271806278b591c331762a4c048bfa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+623983c876ba899538dfe1e16e37a0ea,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+630a8c13b14ea40b9340c54eca77d126,railways,track,..,...,...,Natural Resources Canada
+637916d787ce986f39d002ff5a43d7c0,solid waste,landfill,Eastern Ontario Landfill,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+6f5ff792e578e210d47c7a1cfc19f1b1,railways,track,..,...,...,Natural Resources Canada
+723d8d84eefaf7e916966995a2a65d48,railways,track,..,...,...,Natural Resources Canada
+726c4350e48aafa9eedaea252b38cea0,bridges and tunnels,culvert,"Hwy 417 WBL Culvert, 2.4km west of Highland Rd",Culvert,Culvert,Province of Ontario
+7824f69687ace06562b357061f27010a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+787b2ee797cfeac0fa7b9f055d5d3177,solid waste,landfill,Gfl Environmental Inc. (formerly Lafleche Environmental Inc.),..,Dump site,Province of Ontario
+7cd9fb7fb595a7202b5d67e97a9c292d,railways,track,..,...,...,Natural Resources Canada
+7d8a3f0c1b4a7d1c4bc7557a03936851,railways,track,..,...,...,Natural Resources Canada
+7ea3296d8f617018422fe539aa4138e0,electric grid,power_plants,..,...,...,Natural Resources Canada
+84556b32851a856e5b3cd4714f7eb4b6,bridges and tunnels,culvert,Tayside Municipal Drain,Culvert,Culvert,Province of Ontario
+8a16580705cee824f8ebf3ee7f79243f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+96c1189c4ac337327e40c87b51228372,railways,track,..,...,...,Natural Resources Canada

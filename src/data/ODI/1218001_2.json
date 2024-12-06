@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-BLACKIE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-GUNNS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ALLANS CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-RICE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BARRA GLEN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CENTRE (CAMPBELLS) TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Cabot Trail,BRIDGES AND TUNNELS,Footbridges
-Big Baddeck Road Extension,BRIDGES AND TUNNELS,Footbridges
-Yankee Line Road,BRIDGES AND TUNNELS,Footbridges
-SOUTH GUT BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacIntyre Road,BRIDGES AND TUNNELS,Footbridges
-JAMESVILLE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-KELLY COVE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-New Harris Road,BRIDGES AND TUNNELS,Footbridges
-ZION TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Black Rock Road,BRIDGES AND TUNNELS,Footbridges
-Church Cross Road,BRIDGES AND TUNNELS,Footbridges
-BUCKWHEAT CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacDONALD #3 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-OYSTER CREEK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Old Margaree Road,BRIDGES AND TUNNELS,Footbridges
-PORTAGE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Kempt Head Road,BRIDGES AND TUNNELS,Footbridges
-Baddeck Trail Hwy 105 Underpass,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FARQUHAR BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HARRIS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MASKELLS HARBOUR BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-JACQUELINE MacDONALD CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LAWSON BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacNAUGHTON CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-PLASTER COVE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FEDER #1 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Central Road,BRIDGES AND TUNNELS,Footbridges
-MacDONALD #2 CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Big Baddeck Road,BRIDGES AND TUNNELS,Footbridges
-Barra Glen Road,BRIDGES AND TUNNELS,Footbridges
-West Side Baddeck Road,BRIDGES AND TUNNELS,Footbridges
-MacMillan Mountain Road,BRIDGES AND TUNNELS,Footbridges
-BUCHANAN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FALLS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-JENKINS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ESTMERE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HUME BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-NORTH BRANCH BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-JAMES MacRAE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Campbell Road,BRIDGES AND TUNNELS,Footbridges
-MacLEAN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+3cecd34191093cc7f7091ecf2ac4eed8,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+3d8e350fcc98eaa4a9d1230e01e2bacf,airports,...,Baddeck (crown Jewel) Airport,small_airport,...,OurAirports
+3dc903d24bd12fcd739e232ad5f39907,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3fc5cef7e5a38c09bed1ac587b079d75,bridges and tunnels,bridge,BEINN BREAGH BRIDGE,..,..,Province of Nova Scotia
+4013f7879eec56f6bb0a603a26ce7ac7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+40ebbff4b35b0b8498acb9c5fbf8b211,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+439d3c21b97b699d7046ea6e9380174a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4435c88368128d615186b8deed48e99c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+450d3b46fafed885afff54adfdbdf243,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+46e8171838142088065b2a44df47b5b7,bridges and tunnels,bridge,GOOSE COVE BRIDGE,..,..,Province of Nova Scotia
+49e9aff562b0757dbedc9435777a56e5,bridges and tunnels,bridge,MacMULLIN BRIDGE,..,..,Province of Nova Scotia
+4c41f9b56d5cd04b82f85125e04b9bd1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4e0606497b25933d2185cab43d5c1f01,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+4eee9df902d7461ad268081b0ddfde80,bridges and tunnels,bridge,MILL BROOK #1 BRIDGE,..,..,Province of Nova Scotia
+4f7ae70b30fe03da9715e6127d1c945e,telecom,tower,...,...,...,Natural Resources Canada
+502296acea70ec4efc99f2ed9af5b4f3,bridges and tunnels,culvert,BUCKLAW CULVERT,..,..,Province of Nova Scotia
+5488bc41419f2e79e11e77680416c651,bridges and tunnels,bridge,LAWSON BRIDGE,..,..,Province of Nova Scotia
+56a51e414db19a2194c34ae5f5e72631,bridges and tunnels,bridge,RICE BRIDGE,..,..,Province of Nova Scotia
+5915fe1fa270c0e718d449f8fad4a24a,bridges and tunnels,culvert,MacCHARLES CULVERT,..,..,Province of Nova Scotia
+59a629007bd93eb748c81d742ab98435,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5def7d15f3f6b6e9042b7ed66c426f84,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+5ea238df04769f90b3f2f842774e7d1e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+5f870a2b283122e7d074bc13a40d1f97,bridges and tunnels,bridge,CENTRAL BRIDGE,..,..,Province of Nova Scotia
+61576519852901317400e0bb808a3996,bridges and tunnels,culvert,NORTH RIVER OVERFLOW CULVERT,..,..,Province of Nova Scotia
+62be1b6453a0ad59013c829a227b90fe,bridges and tunnels,bridge,RED BRIDGE,..,..,Province of Nova Scotia
+64a572fdd29cd930941e43fce1d089e7,bridges and tunnels,bridge,MacPHEE CROSS BRIDGE,..,..,Province of Nova Scotia
+6734077bf53cab722b32ccfa73c3342b,bridges and tunnels,bridge,MacKENZIE #3 BRIDGE,..,..,Province of Nova Scotia
+6a4f714fbd4d526a5a4736192f133d5a,telecom,tower,...,...,...,Natural Resources Canada
+6ad872306c428c0b7993ae5e3f47e8ca,bridges and tunnels,bridge,PETERS BROOK #1 BRIDGE,..,..,Province of Nova Scotia
+6e6a3ab620649eacdc5a91faa8f2c441,bridges and tunnels,bridge,MacDONALD #3 BRIDGE,..,..,Province of Nova Scotia
+70bc9f77dd2772d33189037a8e569f9d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+71de8605540639fc3a684dd8b078022c,railways,station,Mckinnons Harbour,...,...,Natural Resources Canada
+764631ba21873be41f8e9cb1a292a550,bridges and tunnels,bridge,MORRISONS POND BRIDGE,..,..,Province of Nova Scotia
+77499d6bb89f7b5b78196b1a3ba9ee40,bridges and tunnels,culvert,MacNAUGHTON CULVERT,..,..,Province of Nova Scotia
+77a590257d6d8f0070065e5eb068e374,bridges and tunnels,bridge,PLASTER COVE BRIDGE,..,..,Province of Nova Scotia
+782433d5b3dcca72f1f31b276e4c31a0,bridges and tunnels,bridge,GUNNS BRIDGE,..,..,Province of Nova Scotia
+78858775a71eff754dd7ccbec5b7ece2,bridges and tunnels,bridge,NICHOLSON BRIDGE,..,..,Province of Nova Scotia
+789fab0c59ab66c219103ad8a3f951ce,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7aa10a48ff29c92e79ff1318b68b6e79,telecom,tower,...,...,...,Natural Resources Canada
+7aae2ee87c6d431d44d6d7c01c497a21,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+7ae3f284a64f6eae6224cbce3cbdd0c6,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7b5b3efba6ef27a6db92f3cbee10304a,bridges and tunnels,mixed,CENTRE (CAMPBELLS) TRUSS,..,..,Province of Nova Scotia
+7d63685d0b1f2f3b308b5ae74189932f,bridges and tunnels,mixed,MIDDLE RIVER (LOWER) TRUSS,..,..,Province of Nova Scotia
+81901dffbb726c285649d75a9c90a59c,bridges and tunnels,mixed,MacLELLAN (CROSS) TRUSS,..,..,Province of Nova Scotia
+81daee4f295e20e862d18f95823272f6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+82dd843cd998da530452cd09dbd5a766,bridges and tunnels,bridge,MEADOW BRIDGE,..,..,Province of Nova Scotia
+84e5b030a91fb741d42879945e74c976,bridges and tunnels,culvert,BUCKWHEAT CULVERT,..,..,Province of Nova Scotia
+85afc925364b561b0a96295c94bec68c,bridges and tunnels,bridge,FALLS BRIDGE,..,..,Province of Nova Scotia
+8b317225a2ffbe83ec0e07e3e82f349d,bridges and tunnels,bridge,OLD SOUTH HAVEN CHURCH BRIDGE,..,..,Province of Nova Scotia

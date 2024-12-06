@@ -1,28 +1,46 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-GULL RIVER BRIDGE MINDEN,BRIDGES AND TUNNELS,..
-Francis Road,BRIDGES AND TUNNELS,Footbridges
-MOUNTAIN LAKE BRIDGE,BRIDGES AND TUNNELS,..
-ANSON CREEK BRIDGE,BRIDGES AND TUNNELS,..
-Black River Road,BRIDGES AND TUNNELS,Footbridges
-Gull River at Moore's Falls South,BRIDGES AND TUNNELS,..
-Mutual Road,BRIDGES AND TUNNELS,Footbridges
-Miners Bay Culvert,BRIDGES AND TUNNELS,..
-BLACK CREEK CULVERT,BRIDGES AND TUNNELS,..
-Irondale Road,BRIDGES AND TUNNELS,Footbridges
-Horseshoe Lake Road,BRIDGES AND TUNNELS,Footbridges
-Sedgwick Road,BRIDGES AND TUNNELS,Footbridges
-Highway 118,BRIDGES AND TUNNELS,Footbridges
-County Road 21,BRIDGES AND TUNNELS,Footbridges
-Kashagawigamog Lake Road,BRIDGES AND TUNNELS,Footbridges
-DENNA CREEK CULVERT,BRIDGES AND TUNNELS,..
-Ritchie Falls Road,BRIDGES AND TUNNELS,Footbridges
-Gelert Road,BRIDGES AND TUNNELS,Footbridges
-Howland Junction Road,BRIDGES AND TUNNELS,Footbridges
-Bobcaygeon Road,BRIDGES AND TUNNELS,Footbridges
-County Road 503,BRIDGES AND TUNNELS,Footbridges
-Bethel Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Gull River At Moore's Falls North,BRIDGES AND TUNNELS,..
-Soyers Lake Road,BRIDGES AND TUNNELS,Footbridges
-Milburn Road,BRIDGES AND TUNNELS,Footbridges
-Highway 35,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+043be2e85fc61472835928ca17df71f1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0c50a4515aed90681e254c18190a6fd6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0c64a81bfc52bda448d9dbc02fe7259d,bridges and tunnels,culvert,DENNA CREEK CULVERT,Culvert,Culvert,Province of Ontario
+0cffefcbdc3f645fb88bb58ed7033250,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+10130693569f5dc335cda6a19f354df1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+118b889db54cd7af99fe1c1847f0329e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+14c60fbe9ea305d807d33baed770ae2b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1606b8bb4a2913dddf15a40a5814b362,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+166d10d75ea152358957f6e912dd98bd,airports,...,Minden (hospital) Heliport,heliport,...,OurAirports
+1735a7bc5a6e89b9f2d26992fd149f87,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1c59995a46c136bf1ca2692685031afa,bridges and tunnels,culvert,BLACK CREEK CULVERT,Culvert,Culvert,Province of Ontario
+22d59b060a0e318b86467123df4505ee,telecom,tower,...,...,...,Natural Resources Canada
+33857d04b9c18d712b8817c0f761c93b,wastewater and storm water,facilities_waste,Minden Wastewater Treatment Plant,"Grit Removal, Screening, Chemical Flocculation, Skimming, Extended Aeration Activated Sludge, Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+3bf332311b812a1b134990988cb38e35,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3c6f440019334c2a66c8782229e52bd5,low carbon,hydro,Minden,...,...,World Resources Institute
+4873445150ed068898cddada66a23c87,telecom,tower,...,...,...,Natural Resources Canada
+4f3c562519d51012cfaec05799e32838,telecom,tower,...,...,...,Natural Resources Canada
+5165b69ee500cc532d02f7349e39e8a1,telecom,tower,...,...,...,Natural Resources Canada
+61ea69d01677462b7b309ca88ec3aa13,bridges and tunnels,bridge,Gull River at Moore's Falls South,Bridge,Bridge,Province of Ontario
+73cc24d012fecd3adefc195d3a3b5ed1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+74122c7b7c939f58e59e6bee3e3899fa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7831ef970209bbda4e97d21d621a71bb,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7afa2787660080488ae4aafd2c9dacb0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7d130de11849bee36e10ac6fde11a4a0,bridges and tunnels,bridge,Gull River At Moore's Falls North,Bridge,Bridge,Province of Ontario
+80ad09a8732a7d1854b11aa19007c718,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+85eba6ec4bd565515831bf68001d85ce,bridges and tunnels,bridge,GULL RIVER BRIDGE MINDEN,Bridge,Bridge,Province of Ontario
+876c196e8cf10212cad1e8fbc8149952,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+87a592594a2ef2dbcb63cbc719e7ebbd,bridges and tunnels,bridge,ANSON CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+943e4198fbd17fd870d2871f68da8b5c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+94a4eacc509d2447e6e64e08b1feff22,electric grid,power_plants,..,...,...,Natural Resources Canada
+98a5c821c91de3e4c0473c2777ed878b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9b41ccb1ac51d07911fa30635ada6e32,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9e830e4e1ec4d150a2b7464469e236e0,telecom,tower,...,...,...,Natural Resources Canada
+b5171ef29b62d273ef8d71268c994d38,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b85679e63c15524841ff6c0e2b3ef4e7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bcf6687b32fd4c06e834729dc2dd5ce2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c9ba68d4cf04de490c7df382a977a3b2,bridges and tunnels,bridge,MOUNTAIN LAKE BRIDGE,Bridge,Bridge,Province of Ontario
+ca36f1a7274ecf551e5c66991d31f47f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ce447d54696e241a67434cba982b5e04,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d2d117808662c78c760622419026084f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d869a5efa50f48e5e07f26a35d812633,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e25a4781c6bb1c0a19a8e15beea0368d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e3c1be9f09d879645f6d6dfbad56550c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f673e2bfe1885445f99de7dc5c3dcc6e,bridges and tunnels,culvert,Miners Bay Culvert,Culvert,Culvert,Province of Ontario
+fb746a88e7e614309d996cd6fe2ae799,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

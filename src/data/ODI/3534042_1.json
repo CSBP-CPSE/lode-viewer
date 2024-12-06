@@ -1,41 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-FLEMING CREEK BRIDGE EBL,BRIDGES AND TUNNELS,..
-Culvert - McDonald Drain,BRIDGES AND TUNNELS,..
-CULVERT 282,BRIDGES AND TUNNELS,..
-Kintyre Line,BRIDGES AND TUNNELS,Footbridges
-McDougall Line,BRIDGES AND TUNNELS,Footbridges
-DOWNIE LINE UNDERPASS,BRIDGES AND TUNNELS,..
-Culvert - Robinson Drain,BRIDGES AND TUNNELS,..
-Culvert -  Wilton Drain,BRIDGES AND TUNNELS,..
-Argyle Line,BRIDGES AND TUNNELS,Footbridges
-Morrison Road,BRIDGES AND TUNNELS,Footbridges
-Furnival Road,BRIDGES AND TUNNELS,Footbridges
-FLEMMING CREEK BRIDGE WBL,BRIDGES AND TUNNELS,..
-Graham Road,BRIDGES AND TUNNELS,Footbridges
-Carrol Line,BRIDGES AND TUNNELS,Footbridges
-McLean Line,BRIDGES AND TUNNELS,Footbridges
-Blacks Road Underpass,BRIDGES AND TUNNELS,..
-GRAHAM ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Dunborough Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Flemming Line,BRIDGES AND TUNNELS,Footbridges
-Culvert - Sixteen Mile Creek Drain,BRIDGES AND TUNNELS,..
-Culvert - King Drain,BRIDGES AND TUNNELS,..
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-Silver Clay Line,BRIDGES AND TUNNELS,Footbridges
-Downie Line,BRIDGES AND TUNNELS,Footbridges
-Gray Line,BRIDGES AND TUNNELS,Footbridges
-FURNIVAL ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Pratt Siding Road,BRIDGES AND TUNNELS,Footbridges
-McMillan Line,BRIDGES AND TUNNELS,Footbridges
-Blacks Road,BRIDGES AND TUNNELS,Footbridges
-Marsh Line,BRIDGES AND TUNNELS,Footbridges
-Crinian Line,BRIDGES AND TUNNELS,Footbridges
-Culvert - Valentine Drain,BRIDGES AND TUNNELS,..
-Stalker Line,BRIDGES AND TUNNELS,Footbridges
-Johnston Line,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Gibb Line,BRIDGES AND TUNNELS,Footbridges
-Thomson Line,BRIDGES AND TUNNELS,Footbridges
-Hoskins Line,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+044415583ecb73d103299413e66f4b5b,bridges and tunnels,bridge,FLEMING CREEK BRIDGE EBL,Bridge,Bridge,Province of Ontario
+0ce29c61855b4f1fc6fa54363c27d4e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+11625921e61165f456a8925a1ad0c956,bridges and tunnels,culvert,Culvert - McDonald Drain,Culvert,Culvert,Province of Ontario
+118906b59b5655c2c6b83f08865902b4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+12037f13ecf80feef6db430d13d2884f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+145989d5aa9a6bc4b16d5ccf5d90b126,bridges and tunnels,culvert,Culvert - Robinson Drain,Culvert,Culvert,Province of Ontario
+15939de609bbe78b3339e9fa66b820b5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+18077c60567cf7d9265476c50be0b07a,low carbon,biomass,West Lorne Biooil Cogeneration,...,...,World Resources Institute
+18307bebd5d69b3dc0cba17fb9ee11a1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19525c5e66a4076b6e405cf8a7290af9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+195bd52ccede17301cf7e4cdc40890be,bridges and tunnels,culvert,Culvert - King Drain,Culvert,Culvert,Province of Ontario
+207f349c8b1b81d4522dc773176266a3,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+2787def8b4f42e13ffd1e6ee75b4e37f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b091dc597760a0c28c0b557142fdef8,telecom,tower,...,...,...,Natural Resources Canada
+2e4d8ff7e5676c092d85da584af6167a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3412b484ee69787bd9263e9c999225b3,wastewater and storm water,facilities_waste,West Lorne Wastewater Treatment Plant,"Extended Aeration Activated Sludge, Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+347b3f825cf672ee90f965b4af49c2ea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4027b591077aa6c339f93352cd672fe2,bridges and tunnels,bridge,Blacks Road Underpass,Bridge,Bridge,Province of Ontario
+426b512423a24c1b095af0ed86b2187a,bridges and tunnels,culvert,Culvert - Valentine Drain,Culvert,Culvert,Province of Ontario
+47dcadb4084e650bbaf53c797c1902ec,oil and gas,pipelines,..,..,...,Natural Resources Canada
+48881b0131f783aa7776ae6865a38ca9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4d7e8185ce60ac7e5f2f6b2f4a11aecb,telecom,tower,...,...,...,Natural Resources Canada
+4dc5f8e6de818d66d0b81f1a1a672365,oil and gas,wells,Rodney,..,...,Natural Resources Canada
+4e56ee40ad6cdc1104c96587f0ffbc91,bridges and tunnels,culvert,Culvert - Sixteen Mile Creek Drain,Culvert,Culvert,Province of Ontario
+5a1eb5342e0435990140405a42d7539b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b9cb62bf523a232f72f4574a8a8210c,bridges and tunnels,culvert,Culvert -  Wilton Drain,Culvert,Culvert,Province of Ontario
+5e3f4836d32840f43928489acd68f43a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5e6798062c503e4d3e7c5b7d4ddc03d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+64ad52b4e57253d62a79dbd846298b07,bridges and tunnels,bridge,DOWNIE LINE UNDERPASS,Bridge,Bridge,Province of Ontario
+65fdaacfe42a143fb8987c0961fa9a59,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6ac557d158a82aa6e409bbc10d07d989,bridges and tunnels,bridge,DUNBOROUGH ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+70a6c312842d6f2f9f7c69ab375675aa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7838b6e263b48970c9d36279bf7caf5f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7e08602780097c999b22feaaa9ea74b3,oil and gas,facilities,..,..,...,Natural Resources Canada
+7f1550e19b22fbe8c93828b2952a4595,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8c306f47a2bdb311dcca4590dfcba424,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9417a751bc38ce1282c88d2d79379cc5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9dd17743480e1020c941d93a367c5281,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9ea53d5088decc0fcd96fbba0a4a4f6f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a28ffd6d8b86ad71078e773d69d09e05,telecom,tower,...,...,...,Natural Resources Canada
+a4685f47c76007f8578bfdea771b2bfa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a4ab45b39dee57b17083ffd15f441a8b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a8cffc7a810fd9ef7778b0708fdffb9d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b543a630ee4b5e8f5a49ca77b16197e1,oil and gas,pipelines,..,..,...,Natural Resources Canada
+b5c211ae35ae804de1c234a3aa2331a0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b80b12c03ca96b58a817b1cd91bcd565,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c341cc53ef12f6cd87a88e13945f9822,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c60605e3cb5d1246eebbff1db1ae6ef8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cf9f2ab0f9a4a7453a0fabf8d3bf0052,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

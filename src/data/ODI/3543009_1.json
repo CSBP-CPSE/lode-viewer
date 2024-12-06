@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Yonge Street South,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-Mill Street East,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Gill Road,BRIDGES AND TUNNELS,Footbridges
-Nursery Road,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,..
-HIGHWAY #93 UNDERPASS,BRIDGES AND TUNNELS,..
-Vespra Valley Road,BRIDGES AND TUNNELS,Footbridges
-WILLOW CREEK BRIDGE - SOUTHBOUND LANES,BRIDGES AND TUNNELS,..
-Horseshoe Valley Road West,BRIDGES AND TUNNELS,Footbridges
-CROWN HILL OVERPASS,BRIDGES AND TUNNELS,..
-Highway 26,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-Finlay Mill Road,BRIDGES AND TUNNELS,Footbridges
-VESPRA SIDEROAD 15 UNDERPASS,BRIDGES AND TUNNELS,..
-Golf Course Road,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,..
-Highway 400,BRIDGES AND TUNNELS,Footbridges
-MARL CREEK BRIDGE (HIGHWAY #26),BRIDGES AND TUNNELS,..
-WILLOW  CREEK  BRIDGE,BRIDGES AND TUNNELS,..
-Atkinson Road,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,..
-Flos Road 10 West,BRIDGES AND TUNNELS,Footbridges
-Ushers Road,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-..,POTABLE WATER,..
-DORAN COUNTY ROAD 11 OVERPASS (SOUTHBOUND LANE),BRIDGES AND TUNNELS,..
-NOTTAWASAGA BRIDGE,BRIDGES AND TUNNELS,..
-County Road 27,BRIDGES AND TUNNELS,Footbridges
-CPR OVERHEAD SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Saint Vincent Street,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-Partridge Road,BRIDGES AND TUNNELS,Footbridges
-HWY 26 - WEST OF HORSESHOE VALLEY RD. CULVERT,BRIDGES AND TUNNELS,..
-Glengarry Landing Road South,BRIDGES AND TUNNELS,Footbridges
-DORAN COUNTY ROAD 11 OVERPASS (NORTHBOUND LANE),BRIDGES AND TUNNELS,..
-Queen Street West,BRIDGES AND TUNNELS,Footbridges
-Wilson Drive,BRIDGES AND TUNNELS,Footbridges
-Penetanguishene Road,BRIDGES AND TUNNELS,Footbridges
-Highway 11,BRIDGES AND TUNNELS,Footbridges
-Flos Road 3 West,BRIDGES AND TUNNELS,Footbridges
-Flos Road 4 West,BRIDGES AND TUNNELS,Footbridges
-HWY 26 - WEST OF GOLF COURSE ROAD CULVERT,BRIDGES AND TUNNELS,..
-Flos Road 11 East,BRIDGES AND TUNNELS,Footbridges
-WILLOW CREEK BRIDGE - NORTHBOUND LANES,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+008c5e00fdb6723118aa346703e9e7b2,bridges and tunnels,bridge,WILLOW CREEK BRIDGE - NORTHBOUND LANES,Bridge,Bridge,Province of Ontario
+0c0a5c0b598d1270d9b71ab11232af30,railways,track,..,...,...,Natural Resources Canada
+0d067ae15644647d62deac6f29801b28,railways,station,Essa,...,...,Natural Resources Canada
+11ac450241e396a5106bb2749ca8d79a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+11c47a0f0386a714086fe53bd8b040fa,railways,track,..,...,...,Natural Resources Canada
+1781e3878a6a5cbadd39d2d55d9d4dd4,wastewater and storm water,pipes_combined,..,..,Sewer unknown,City of Barrie
+182c6db562de292b751b6eb6126f838e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+182f5d946cd47c67926bd1aa1f48692c,railways,track,..,...,...,Natural Resources Canada
+1a9e4e254255e788d31b07cf754c08e2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f305be3069d345037d8f2ddde5bfb5f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+259299530b0cfbcfb44ea1729c85736b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+27c9d3e45831efc3d8d6da52c1574122,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b529ca69d10c3678b30f32a36d60080,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32c62507d6218b56b2dd2029e5fc925e,railways,track,..,...,...,Natural Resources Canada
+33fab3dfc1c9485be43d9416637af81b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+36b8da287cd6a20526004a79ad497c08,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+38b94c077e779d23cd7dcd57c8d5a88c,bridges and tunnels,bridge,VESPRA SIDEROAD 15 UNDERPASS,Bridge,Bridge,Province of Ontario
+3a6b2ce3b7f1287eacb89f310fa2f8d1,bridges and tunnels,bridge,WILLOW  CREEK  BRIDGE,Bridge,Bridge,Province of Ontario
+3afd55902b46478d43ccc3057204bfca,bridges and tunnels,bridge,CPR OVERHEAD SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+3be02579b52f812aee34331b85e4838e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3f95d971641a136fb7428295e99bc41c,electric grid,power_plants,..,...,...,Natural Resources Canada
+40b10576e47b3402656c2865bf12c96c,low carbon,solar,Midhurst Ii,...,...,World Resources Institute
+41534265c8efc8623a207f96e05c336d,telecom,tower,...,...,...,Natural Resources Canada
+43ac0b85b48f9710c8f3d5ea63b99b51,telecom,tower,...,...,...,Natural Resources Canada
+4981cb2db21906438fe146f7966c8b40,railways,station,Midhurst,...,...,Natural Resources Canada
+4c3925a130ffa3dfd61d721ff1bab56f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+5329f27df28ff9ef5169db10515291c5,railways,track,..,...,...,Natural Resources Canada
+553cf9fc03fd159563c4edef5c59bf0c,railways,track,..,...,...,Natural Resources Canada
+5611daf9a84bc7ad2ce4819dfe5718a2,electric grid,power_plants,..,...,...,Natural Resources Canada
+5701639eacab2c4b1c6b972e1c64258d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+57e668df3729a36bc543db19dc7d95c3,wastewater and storm water,pipes_combined,..,..,Sewer unknown,City of Barrie
+5a1dfc4ea9cce9067ed32308ee0e746e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5c2f4ea5549a34ad6c1a5b4ecc41d26e,wastewater and storm water,pipes_combined,..,..,Sewer unknown,City of Barrie
+61f9cad19749d2e7f44bc0b6e8a386b3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+66fe7c565afa0d95f7f540a0e9a3c395,oil and gas,pipelines,..,..,...,Natural Resources Canada
+69a6b436ff217e7bfcf8b1050cc0fc39,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6d627c462a4db751528649517acf4b8d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6f0ead1bce5658f9d1c5ed200bd1c4c1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+72dcb9f6ba264f6ac6d85da78a0382f6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7329c272d45d5f45e7f745661870ec24,oil and gas,pipelines,..,..,...,Natural Resources Canada
+77b569d155c0402944285f553245b0a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77ef38ccdc6f81558ed5d2a325f5170a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7d17524cbc5c6eb800cb36b8500f3322,wastewater and storm water,pipes_combined,..,..,Sewer unknown,City of Barrie
+827d3942aa79ae1b8a51662623ddc136,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+843486259b9a4d495cf4f75874845334,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+84359f172280215c16a46fa3c93859b6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+85042ae9dd94913cd8a4cceb4ac5bccc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+85aa9ca1c76e4decce6261bc19d503ac,telecom,tower,...,...,...,Natural Resources Canada
+865475796baf41fd1ccbc8fb1d9bb53d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

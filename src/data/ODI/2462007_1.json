@@ -1,28 +1,34 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Domaine,BRIDGES AND TUNNELS,Footbridges
-rue principale / face à la Caisse Populaire,..,..
-..,WASTEWATER STORMWATER,..
-Chemin de Saint-Gabriel,BRIDGES AND TUNNELS,Footbridges
-Chemin de Saint-Norbert,BRIDGES AND TUNNELS,Footbridges
-rue Principale / face au Royaume de la Frite,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-rue Principale / face au Royaume de la Frite,..,..
-rue Principale / chemin Barette,..,..
-Chemin des Moulins,BRIDGES AND TUNNELS,Footbridges
-Rang du Domaine,BRIDGES AND TUNNELS,Footbridges
-chemin Barette / chemin de Joliette,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-rue Principale / rue de l'Église,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-rue Principale / chemin Barette,..,..
-1e rang de Castle Hill,BRIDGES AND TUNNELS,Footbridges
-rue Principale / route 131 (Pétro-Canada),..,..
-3e rang de Brandon,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Sainte-Cécile,BRIDGES AND TUNNELS,Footbridges
-rue Principale / rue de l'Église,..,..
-chemin Barette / chemin de Joliette,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0331d8c51bd3878f2173138f5c09bde0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+082671d192729a9c5d231c2cf665f8cc,railways,track,..,...,...,Natural Resources Canada
+0a040d403df1d25a56e3cf815055fdd2,railways,track,..,...,...,Natural Resources Canada
+0f9b9e9d9763dbb292c85686ded7b08c,telecom,tower,...,...,...,Natural Resources Canada
+15596831f2715a442f3ebcf783363567,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1c51b2cc9d5daaa11ec78a15a6460290,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+272a9b4c41d810eca939b76585e23fd9,low carbon,charging_stations,Desjardins - Cds Saint-félix-de-valois,...,...,Government of Quebec
+3418b8517146f7cfd4160ce2c25c21ee,railways,track,..,...,...,Natural Resources Canada
+3466037da18a982cbaa993fc090ad56a,railways,track,..,...,...,Natural Resources Canada
+3d7d7fb6aa9039b951155f4dc55e6d6c,railways,track,..,...,...,Natural Resources Canada
+3dcfbf2b3c27eb59d11a46d0c1aeb500,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+462d2359106b2ac84260dc41b5410155,railways,track,..,...,...,Natural Resources Canada
+466423c345ec252791bc7b1ea6615882,low carbon,charging_stations,Saint-félix-de-valois - Rue Reine-lafortune,...,...,Government of Quebec
+4c356813d6bba123039b6292a137816a,low carbon,charging_stations,Ville De Saint-félix-de-valois - 5090 Rue Michel,...,...,Government of Quebec
+5c7f44eecd767f0e2a5b66144e98fac8,railways,track,..,...,...,Natural Resources Canada
+65954563c08a9f31619327bd2ea0003d,railways,track,..,...,...,Natural Resources Canada
+67f48091942a305d53e69af2ef184a77,railways,track,..,...,...,Natural Resources Canada
+6a5b2334be57fc9191e692198dc01f42,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+71349517189160b439abbf5c15fe7551,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+740c93a57eb1cc7bd0635e5694619cf7,low carbon,charging_stations,Centre Pierre-dalcourt,...,...,Government of Quebec
+7828ed50eb425e39d653c7c656973cc0,railways,track,..,...,...,Natural Resources Canada
+a34325077835000da0a62d3670f6a5c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a643eb4a9c428a882bdf13aaedd238e2,railways,track,..,...,...,Natural Resources Canada
+a6df184597ad21f8584bc8478d8f9273,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b5bef4deed63a3f2b27d507d743fddbc,railways,track,..,...,...,Natural Resources Canada
+b90fa3e9147c2125cee1c1c7b2967254,railways,track,..,...,...,Natural Resources Canada
+c91e12fa4debd9a586308b2a56852b06,low carbon,charging_stations,St-félix-de-valois - Rue Georges,...,...,Government of Quebec
+d4f97cefcafa723b721fc4388ae46b58,low carbon,charging_stations,Brcc - Saint-félix-de-valois - Desjardins,...,...,Government of Quebec
+dc5681d2fd9c1a82861a34188ee45378,railways,track,..,...,...,Natural Resources Canada
+dff6e2d2fe878dc3c86ac5da48375ffa,railways,track,..,...,...,Natural Resources Canada
+e4e363587bc67216bd6cc1e0c086e138,wastewater and storm water,facilities_waste,Station D'épuration Saint-félix-de-valois,"Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Lagoon,Environment and Climate Change Canada
+e9bca1eaf20c238882638de6b14aa6a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ff0124d8f684efafa4c6f68e2226f608,low carbon,charging_stations,St-félix-de-valois - Rue Vincent,...,...,Government of Quebec

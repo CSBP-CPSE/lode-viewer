@@ -1,35 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-SEVERN RIVER BRIDGE-WEST BRANCH - SOUTHBOUND LANES,BRIDGES AND TUNNELS,..
-Reinbird Street,BRIDGES AND TUNNELS,Footbridges
-CANAL ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Carlyon Line,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Swift Rapids Road,BRIDGES AND TUNNELS,Footbridges
-Bayou Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-HWY 11 - NORTH OF BAYOU ROAD CULVERT,BRIDGES AND TUNNELS,..
-Wasdell Falls Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Orillia Square Mall Shelter,..,..
-Soules Road,BRIDGES AND TUNNELS,Footbridges
-MUSKOKA ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Muskoka Street,BRIDGES AND TUNNELS,Footbridges
-Jermey Road,BRIDGES AND TUNNELS,Footbridges
-Alcove Drive,BRIDGES AND TUNNELS,Footbridges
-PORT SEVERN ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-SEVERN RIVER BRIDGE PORT SEVERN NORTHBOUND LANES,BRIDGES AND TUNNELS,..
-Woodrow Road,BRIDGES AND TUNNELS,Footbridges
-Wainman Line,BRIDGES AND TUNNELS,Footbridges
-HWY 400 SBL - SOUTH OF SOUTH SIMCOE COUNTY ROAD #23 CULVERT ,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-County Road 169,BRIDGES AND TUNNELS,Footbridges
-HIGHWAY #169 UNDERPASS,BRIDGES AND TUNNELS,..
-SOUTH SIMCOE COUNTY ROAD #23 OVERPASS (SOUTHBOUND LANES),BRIDGES AND TUNNELS,..
-Canal Road,BRIDGES AND TUNNELS,Footbridges
-ORILLIA TOWNSHIP ROAD - CONCESSION 12 UNDERPASS,BRIDGES AND TUNNELS,..
-Foxmead Road,BRIDGES AND TUNNELS,Footbridges
-Townline,BRIDGES AND TUNNELS,Footbridges
-Cambrian Road,BRIDGES AND TUNNELS,Footbridges
-Taylor Line,BRIDGES AND TUNNELS,Footbridges
-TRENT VALLEY CANAL BRIDGE - N.B.L.,BRIDGES AND TUNNELS,..
-C.N.R. OVERHEAD AT WASHAGO - SOUTHBOUND LANES,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+54731964a23c4bdcf4c97a4b0cad2842,electric grid,power_plants,..,...,...,Natural Resources Canada
+5502db7b588927c72ddc7b981bfcab61,bridges and tunnels,bridge,TRENT VALLEY CANAL BRIDGE - SOUTHBOUND LANES,Bridge,Bridge,Province of Ontario
+5621af6ecb9fa909ec5fb5f29962d075,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5803927146618220885b339e74102d5c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a281e4556ff2e54b5f7bfef6797c1b8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5cc6d5d8083b733f8bd1ec5faa8fb9b7,telecom,tower,...,...,...,Natural Resources Canada
+5d70205232e06bf3fb9ea5104be22653,railways,track,..,...,...,Natural Resources Canada
+5d716bd7b704eac2ba28962ca0fd9232,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5d795d5e1f468441cc0816d813d86b17,low carbon,solar,Waubaushene 4,...,...,World Resources Institute
+5dc769c968c1da95bde114b4e7c302df,railways,track,..,...,...,Natural Resources Canada
+5dd91288d183b7c2f120c9a8451d21f1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f108a1bf659d81be195144567cab47d,railways,station,Medonte,...,...,Natural Resources Canada
+5f447eaf4fb2fa0ab9044c9aba700974,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+62604e2689eb73a854b558b22aa2a46b,electric grid,power_plants,..,...,...,Natural Resources Canada
+644c6ee41514f2b7f0e460c94459176c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+649e88826023a921f6df1cd525b20c1a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+64ecacd673f9e3407faed377533ab5a7,telecom,tower,...,...,...,Natural Resources Canada
+668e7c776a009cf914d32b411d621f6a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+69697b7793b9080cabfb5eab8ce9532c,railways,track,..,...,...,Natural Resources Canada
+6b85abfe01236d70d6f1285608060b2d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e71becb68174a0f9b81d865aa8154b8,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+708034ccb1b705dfd76b0d1238cfdf53,bridges and tunnels,bridge,FESSERTON ROAD OVERPASS SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+71ecfe0af1af9beb31b15bfe20045a07,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+72b963e49722392e58796e9e2866482e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+754f92261377772198697f7921f9f611,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+767a784764b0a8d82ae44fdd3f7ddb3f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+76d0b6de631f12bf3b1d21e4cf142702,railways,track,Sparrow Lake,...,...,Natural Resources Canada
+778ddfd5913375455cf06736548a5562,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77aa7d3717f4d9ef865efd01b36b8880,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77bf016ae3825c2587e3ff561df12a16,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+78a21c89327d31e2eb3002f1f530452f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+78f2c4c5d307fc9a50dafe0de11db4dc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7f101300332c1076c4e3286ebcc0d806,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7f91a51f3b3f5eb351a927c2fdd0d2d4,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+805cd8779f8e1208ade374861dd968af,airports,...,Buck Lake Seaplane Base,seaplane_base,...,OurAirports
+84442bf4d0dcf0f1e93df05fa78a1c39,bridges and tunnels,bridge,MUSKOKA ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+85f9ca98878e591cccf83ca8281ec6dc,railways,track,..,...,...,Natural Resources Canada
+8712f1164778f510c328a8821972919c,wastewater and storm water,facilities_waste,Washago Lagoon,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+8805f76e141a50a0584f1c713017bd29,railways,track,..,...,...,Natural Resources Canada
+88b099a7685bf0f28e95e0c5ec89dde0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+89990176de13f3ba7c3a0bc7784ffc36,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8ba6015832f53d2f37f56ceeabdb25eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8bb79005ff0441fa5b054dca2110f4c8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8be056999eef6edc42a74166008de975,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8bfea1ffa3ad694acd86c20b22bd6108,railways,track,..,...,...,Natural Resources Canada
+8c990570ba03db313a5b46ddf6f8503c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8d56db252cf816feddb11b69e82e1c80,bridges and tunnels,culvert,HWY 400 NBL - SOUTH OF SOUTH SIMCOE COUNTY ROAD #23 CULVERT,Culvert,Culvert,Province of Ontario
+8dd68a5ca3d447c5edef130051fff614,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9364e8590c37baf40d5fe536b15bfffb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

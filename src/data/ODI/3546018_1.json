@@ -1,26 +1,37 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Little Hawk Lake Road,BRIDGES AND TUNNELS,Footbridges
-BLACK RIVER BRIDGE,BRIDGES AND TUNNELS,..
-North Creek Drive,BRIDGES AND TUNNELS,Footbridges
-Big Hawk Lake Road,BRIDGES AND TUNNELS,Footbridges
-Stanhope Airport Road,BRIDGES AND TUNNELS,Footbridges
-Muskoka River - Dorset,BRIDGES AND TUNNELS,..
-St Peters Road,BRIDGES AND TUNNELS,Footbridges
-CULVERT,BRIDGES AND TUNNELS,..
-LONG LAKE (PARK LAKE) CULVERT,BRIDGES AND TUNNELS,..
-OXTONGUE RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Main Street,BRIDGES AND TUNNELS,Footbridges
-OXTONGUE LAKE BRIDGE (NORTH STRUCTURE),BRIDGES AND TUNNELS,..
-"OX NARROWS BRIDGE (KUSHOG LAKE)
-",BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-KINNISSIS RIVER BRIDGE (HALL'S LAKE DAM),BRIDGES AND TUNNELS,..
-Highway 118,BRIDGES AND TUNNELS,Footbridges
-Kawagama Lake Road,BRIDGES AND TUNNELS,Footbridges
-HALLS LAKE CULVERT,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-Highway 35,BRIDGES AND TUNNELS,Footbridges
-Boshkung (Damions) Bridge,BRIDGES AND TUNNELS,..
-Highway 60,BRIDGES AND TUNNELS,Footbridges
-BEECH RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Bear Lake Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0ecdb9d6bb8442c1a4f93dce02ddcb24,bridges and tunnels,bridge,OXTONGUE RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+1e4a4d96cca8c5d71fc0b63ab5b3c2f2,bridges and tunnels,bridge,Boshkung (Damions) Bridge,Bridge,Bridge,Province of Ontario
+1e538a1b132470078f41ac6374a966bf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+26335d138343a87687eaa227d47ff809,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+26f0847e6a505f6bd363ed9f06cb2fc6,airports,...,Dorset/kawagama Lake (old Mill Marina) Seaplane Base,seaplane_base,...,OurAirports
+26f3efec8d585d5d615dccffd7c39ab0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2912f64ad802c0658628d6c2de1ecad0,bridges and tunnels,bridge,KINNISSIS RIVER BRIDGE (HALL'S LAKE DAM),Bridge,Bridge,Province of Ontario
+2ab96a5a13c115a0d1072f3cfb0544b6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2d332e2f412e76eee913d2b2ffe7567e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2e5f43a0d7eefb26ab5b7a6797b85c8a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+393e6dcbfc81f8b28b1978ec93850cde,airports,...,Averell's Cove Water Aerodrome,seaplane_base,...,OurAirports
+3a7c13fe63c1eab740a88cd1592015b6,telecom,tower,...,...,...,Natural Resources Canada
+3af2d70bf1923ae9c4cc4c02aec51408,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3d936e358fda6e74544b1045ee88a614,bridges and tunnels,culvert,CULVERT,Culvert,Culvert,Province of Ontario
+49eb4e273cea23e64933ed22e9cd9cdf,bridges and tunnels,bridge,BLACK RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+4d2728af74505ba908de50a221fbfa27,airports,...,Dorset/kawagama Lake (south) Seaplane Base,seaplane_base,...,OurAirports
+531ab90cd017655e0096b3f9dd551628,bridges and tunnels,culvert,LONG LAKE (PARK LAKE) CULVERT,Culvert,Culvert,Province of Ontario
+53819b0c324a315fc80b53aaa0587734,bridges and tunnels,bridge,BEECH RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+716d18a8ba00f9af818a118f0df54f8b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+72bd936fa5593b349fc2842beffac7e9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+742311b7424cf2ed8024d4f3338015c3,bridges and tunnels,culvert,HALLS LAKE CULVERT,Culvert,Culvert,Province of Ontario
+74eda837e7e4327e6fb81f2ef637c514,bridges and tunnels,bridge,OXTONGUE LAKE BRIDGE (NORTH STRUCTURE),Bridge,Bridge,Province of Ontario
+8abe02ab56f4a3ffa5f799cb510c8bbc,airports,...,Stanhope Municipal Airport,small_airport,...,OurAirports
+8e8d2f47f5b068c53d3e4f16bc04583f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+90db6b416e09d3e8ce37d8cacd4da040,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+96818391de7cbb0c8bc7a0f467cc6447,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+9ac8e84df7a8fcf609b035d44b1ae79c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9bed97070f6443f05335036781efd449,bridges and tunnels,bridge,Muskoka River - Dorset,Bridge,Bridge,Province of Ontario
+a0ce6a9ce26a7faeb8a3cba54c08dba5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+af0a0587e40ce630337ed4c457a30c7a,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+b26bfb17e98c06b3b40ebb435dac4db6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cd089da6188730afee9d56ad22c0ecd6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e04ffb0ac9dd31c9618e0eb8f5f70b76,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+e50e29e7e4eb643ce0c5284760ab816d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f9be6ba3a99561d1557e101a13e13182,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fb691c748a9fdffac3990f26223319a4,bridges and tunnels,bridge,OX NARROWS BRIDGE (KUSHOG LAKE),Bridge,Bridge,Province of Ontario

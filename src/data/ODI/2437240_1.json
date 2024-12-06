@@ -1,19 +1,23 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Principale,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route du Moulin,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang du Haut-de-la-Grande-Ligne,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Trépanier,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang 3e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Saint-Félix,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0de711c3318f03ca739e102cd6cce9ae,wastewater and storm water,facilities_waste,Étang,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+257d209cf32bdc3e58d265d7f105a438,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2f815ec11ccec416ef80384c1ec14803,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+39fd30c0a01491d27c01507cf8c2e927,low carbon,charging_stations,511 Rue Massicotte Saint-narcisse,...,...,Government of Quebec
+452e0680a7e9aa0b0ef9e9b5c512453e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+55d68a3bf84695e8c7f3a99e1be0e554,low carbon,charging_stations,Parc De La Rivière Batiscan,...,...,Government of Quebec
+635e412dddadf50653d024ee9398a8e8,low carbon,hydro,Saint-narcisse,...,...,World Resources Institute
+953b72899496d9ec5935200e96f50769,bridges and tunnels,mixed,..,..,..,La Province de Québec
+98f1d156df60772dc0131e6791418477,bridges and tunnels,mixed,..,..,..,La Province de Québec
+aee18e567c06947cf3d164d36c3e7348,low carbon,charging_stations,353 Rue Notre-dame Saint-narcisse,...,...,Government of Quebec
+c38844c8af8f3abaf93e30435f6ef517,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c39d3e7029ef7063cd7ddb7902a92c3d,low carbon,charging_stations,1 Place Du Centre Saint-narcisse,...,...,Government of Quebec
+c43e85815ae96d52983bcbbff799cce5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c6cfd817403104c18955ccfc9e2280c7,bridges and tunnels,mixed,..,..,..,La Province de Québec
+cc2e499fa0d67169ebf320519d06c03c,electric grid,power_plants,..,...,...,Natural Resources Canada
+d14001f1a498429f5956a6739305201d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+d23936edbe9787942ff67925579077ea,low carbon,charging_stations,Salle Municipale (st-narcisse),...,...,Government of Quebec
+d63a8c1758bac8b79c02807af83e2a20,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d854bdeac91ac13d0100fe55369e5487,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d9d0e39e3ac2ade055f0d2e51d95009c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e40226b36d11fbbf47d18812d9e9982f,telecom,tower,...,...,...,Natural Resources Canada
+f1e69e0c5578ac278afb412c23ca6d03,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

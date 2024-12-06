@@ -1,21 +1,28 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Petit rang Saint-François,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang de la Rivière Nord,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang de la Presqu'île,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Rang du Bas-de-la-Rivière,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 235,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-3e rang de Milton,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang de la Rivière Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0884a63995bcc5a10a2cc15268de162b,railways,track,..,...,...,Natural Resources Canada
+0911897bbd52f37b1e8955e541a12e1a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0bb215abc65122265aed4f827474d824,railways,track,..,...,...,Natural Resources Canada
+206a0989fb9722e32299d932c691feea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+21d5a330a4f1dd450faff86abf448bc1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32a7df2897f1a53e17f2e2f97582dfda,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+47b2a7a13728ddae02058f4ba8e281ba,low carbon,charging_stations,Ville De Sainte-pie - Parc Euclide-lacasse,...,...,Government of Quebec
+63f58020a3260f70e538ff170fca4999,railways,track,..,...,...,Natural Resources Canada
+6a44cfcc697f55d0013412ea2f31c9d7,railways,track,..,...,...,Natural Resources Canada
+6b219dec079ea1e9b9c60420094444db,railways,track,..,...,...,Natural Resources Canada
+6d90469f8d1b482e4797fbee750f14f7,railways,track,..,...,...,Natural Resources Canada
+89ab88b6ef6fe98bffed47e67f0b6925,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8abeb5b891fc2ec4454f08451980a44f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+91e0c1253a8e3cbe08b8d0a64ffbaf25,railways,track,..,...,...,Natural Resources Canada
+95b318e1140a5fbed15014fd5c6fd972,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+965c2fd6d4dc60fca679d9edf049f79e,low carbon,charging_stations,Desjardins - Cds Saint-pie,...,...,Government of Quebec
+9dc1d168931423fb38e4fc8d0330fbc9,railways,track,..,...,...,Natural Resources Canada
+aaedb47cfbf9a76f9a48df27320279a5,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ae648923d27a2545ffa2499f6b16ac53,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c3aca81acf59f729f377499a48e81ef1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dc9fc764fb746cb78466682ae6e0fb6f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ea1913d60b0b8bb02baa0b2748456e82,low carbon,charging_stations,Ville De Sainte-pie-rue St-pierre,...,...,Government of Quebec
+ee3dcb4095eca097bdb5d894fac1b49c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+f0585c53c9f6dd3aafae324e9b92a648,wastewater and storm water,facilities_waste,Station Épuration (étangs Aérés),"Grit Removal, Screening, Lagoons - Aerated",Lagoon,Environment and Climate Change Canada
+f28bfb8d3b0b8bf64ad088754d867ac8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f35d0a66fea20b13cb04385576160b44,railways,track,..,...,...,Natural Resources Canada
+f75243cf6bca0ba0f3622c0251c5e9a1,bridges and tunnels,mixed,..,..,..,La Province de Québec

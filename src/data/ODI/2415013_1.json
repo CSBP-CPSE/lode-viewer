@@ -1,28 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Rang Sainte-Anne,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Rang Saint-Charles,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de Grand-Fonds,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Sainte-Julie,BRIDGES AND TUNNELS,Footbridges
-Chemin de la Vallée,BRIDGES AND TUNNELS,Footbridges
-Chemin du Golf,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Malcolm-Fraser,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+031b081003c86441ffcebe5492e5d927,bridges and tunnels,mixed,..,..,..,La Province de Québec
+03621c9b2568b4318d26966fd80e604a,railways,track,..,...,...,Natural Resources Canada
+0f60d5762a6c06b4bbd471b96b525b4c,railways,track,..,...,...,Natural Resources Canada
+0fab8c58b54a67d1f5a19b3c9e2e13aa,railways,track,..,...,...,Natural Resources Canada
+1704e60a63d482c9f26b1bc1164186d3,railways,track,..,...,...,Natural Resources Canada
+18e0f0e9ba7eb23116e042b5b879e939,low carbon,charging_stations,Borne De Recharge Pointe-au-pic,...,...,Government of Quebec
+23dc1ad7dad4a74fc92e06f9c60e6dac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b1b9e9c04d4dbd98b721641db9b54d1,low carbon,charging_stations,Brcc - La Malbaie - Rue John Nairne,...,...,Government of Quebec
+300e16d95ca187afe71f98c80e58e944,telecom,tower,...,...,...,Natural Resources Canada
+30b48757821b3f90a7eee3b175c36178,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+37c5937fe63634b484bc7ef2f50e1ed6,telecom,tower,...,...,...,Natural Resources Canada
+43bfc6562d27fcec39f42d26e1c39f62,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+4b848f647b198ebe176c13fe7e7bcbdb,railways,track,..,...,...,Natural Resources Canada
+4ba134d6005d3cecbf7beddbb73c8b41,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4fb6d1e9cdff61b3fcd7c9651fe1cad9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+582a85599afb2f5b1a0fcdd5458e3545,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+625d7e6e5a68d92eab004bc7fc27b213,telecom,tower,...,...,...,Natural Resources Canada
+682c9c9b615984cdc3142ee2b8ae3b07,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6ea190559fa76a046d0b4c32e4a2e1ff,telecom,tower,...,...,...,Natural Resources Canada
+71effb6095588539870c82a07015151f,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+726b62da4dd479a651d39a58f337bc7b,telecom,tower,...,...,...,Natural Resources Canada
+7469e268f73dbea4d1fe5bc8b1e2265d,telecom,tower,...,...,...,Natural Resources Canada
+77ca43a160299e270652dea22bbf78fe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7c04f971433447a77d0458fc408e4703,railways,track,..,...,...,Natural Resources Canada
+82ed7d62ddf952acfaf61414e1fbc25e,telecom,tower,...,...,...,Natural Resources Canada
+87c9ee8c413ea750fa93e7dfb4a0a87b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8bd4a9c528d83a081c9ca17ba626b119,bridges and tunnels,mixed,..,..,..,La Province de Québec
+912244486d06b75443e465b7b74be01e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+917e4829458b05ab8f493a893ff6fda9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+92a9615e72a3e37374464d1a0183a423,bridges and tunnels,mixed,..,..,..,La Province de Québec
+92d2862a3fe29919f5c08e594337a188,low carbon,charging_stations,Desjardins - Charlevoix-est,...,...,Government of Quebec
+96a0bf7e2e18a60931dbd36f93196806,bridges and tunnels,mixed,..,..,..,La Province de Québec
+99d366540332f8c39641bca65003febd,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9a97e2d4f0391ea988e7545ae24c9c99,low carbon,charging_stations,Fairmont Manoir Richelieu,...,...,Government of Quebec
+9cba2136a361a46da5948c45d125e133,telecom,tower,...,...,...,Natural Resources Canada
+9d70062c4c97ee594a8355c783234b64,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a37375123ae2d22271453966c0aea374,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a6f7eacd922e177bda107953ed57edad,railways,track,..,...,...,Natural Resources Canada
+a710ad80fcf901fa7293f02c944d7ad1,low carbon,charging_stations,La Malbaie - 280 John-nairne,...,...,Government of Quebec
+bf9b387e12e731e56314af60681123e5,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+c1aec4e573a057676bdcf2212dca2de9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+c8e5084ffd08c98b51babb64016db026,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cb4743f59ba22a31be9df1942fe5e759,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cc837244f0f4be11f976af117e904dab,railways,track,..,...,...,Natural Resources Canada
+cccd12a73239850dfe1d93405a4445b4,telecom,tower,...,...,...,Natural Resources Canada
+d0905a2ef7806c549dc3a561b295abce,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d486ffc9470d0d8e6ee53a671f8c893c,railways,track,..,...,...,Natural Resources Canada
+deecb1d7f5271bc69becbadc8d493161,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e504d65cfee7c936cb36762ba3674786,low carbon,charging_stations,Brcc - La Malbaie,...,...,Government of Quebec

@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Elm & Cherry,..,..
-Cedar Street,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Delrose Retirement Residence,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Queensway West B,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Oakwood Avenue,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Concession 13 Townsend,BRIDGES AND TUNNELS,Footbridges
-Concession 8 Townsend,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Queensway West A,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Cedar & King,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Decou Road,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-Concession 6 Woodhouse,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Queensway East,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-Arena,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Argyle Street,..,..
-38 Erie Street,..,..
-2nd Concession Road,BRIDGES AND TUNNELS,Footbridges
-4th Concession Road,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+5da2b6e9e7bbfe793239406a6fab2c59,airports,...,Simcoe (norfolk General Hospital) Heliport,heliport,...,OurAirports
+5da7933546fb21eb0a484026f5e67179,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5e33fc23b623e5f41caf1edebc7eef39,railways,track,..,...,...,Natural Resources Canada
+5e9f5d882b3806150af684bc5de12c77,low carbon,wind,Cultus,...,...,"Government of Canada, Natural Resources Canada"
+5fbc6c68c60e07477bf66e18fa38b14c,low carbon,wind,Clear Creek,...,...,"Government of Canada, Natural Resources Canada"
+61352412b84c43a4e6ad6d1e95c95971,railways,track,..,...,...,Natural Resources Canada
+61eb4020301b0c94020babfc5ce86869,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+623ee9ea00521d494a38c3e02a5d46a3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+63b3c8abffc2eeae58015ca25fe61ae8,low carbon,wind,Frogmore,...,...,World Resources Institute
+648d6ee7b000e1baf77257e5db506099,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+65fe7e02d0203f2592e3bd56304026f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+66414d46d03dbe84532fe09b7b5f88c6,electric grid,power_plants,..,...,...,Natural Resources Canada
+66f02553fe3c8ac25f375519f9cb2758,railways,track,..,...,...,Natural Resources Canada
+6889299c3ddac4da5955f90e4c52eb54,wastewater and storm water,facilities_waste,Port Rowan Wwtf,"Grit Removal, Screening, Chemical Flocculation, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Chemical Precipitation (Phosphorus), Filtration",Unclassified,Environment and Climate Change Canada
+6be7a1a0c6db23487fd7cbec25007262,telecom,tower,...,...,...,Natural Resources Canada
+6bf46e2ed8ea4924d41f4304a832429c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6c5b8bba055f5ed64f4d1bf4b6ac4396,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+6c925649b015f3310915c0aff5faf3ae,railways,track,..,...,...,Natural Resources Canada
+6e0b8005c5082803643be7dab9c5e52c,telecom,tower,...,...,...,Natural Resources Canada
+6e1aa180bd9ebd53ed8e424bbdde310a,telecom,tower,...,...,...,Natural Resources Canada
+7246526923f590f6616d6a39cd88054a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+739a7dfec8747c3d4f54ade801070fb4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+73e61a527ccf14b92e7ca0d36c32c1ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+753cf22cfc1e5c01c01582c5990c8ff4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+75b0c48bea34041050de85963f53c8f6,low carbon,wind,Port Dover And Nanticoke,...,...,"Government of Canada, Natural Resources Canada"
+77afbbbf7a5cc0884f940c43e7af7d0f,wastewater and storm water,facilities_waste,Simcoe Sewage Treatment Plant,"Grit Removal, Screening, Chemical Flocculation, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Filtration",Unclassified,Environment and Climate Change Canada
+78805216f9550027896d36a9a3137c1b,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+7ae95c31c8feea30ad3c99b230dd11e7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7b1764ad3eb5bb1fa7ca404b7398c6b0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b2154df39e10aa1f4863b1f53bbfe98,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+7b2a29093ab52e86e9a0ef3dc3c5455b,railways,track,..,...,...,Natural Resources Canada
+7b39a75be98ccede69c153c01bb137c8,railways,track,..,...,...,Natural Resources Canada
+7b6a8efb6eae839830abd809a536258a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7bb40e1f9b60fa6054cf453e95d60d18,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7d308d5c464c85ec8efb8e758cf50894,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7d9a91d9569581722300df82498b18da,low carbon,wind,Frogmore,...,...,"Government of Canada, Natural Resources Canada"
+7dbdb9276d3b03f9cf7c52cd76081435,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+7df15f798bce3b366487327d04784626,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8037bfd4e2dc421e0af7bf77f105d33e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+82bed2f9826ae857e801a9bb1e560f24,telecom,tower,...,...,...,Natural Resources Canada
+83e9423ddec747c2f985392b62638f4c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+84609bbb9c20a71eab42cc28e197c3e6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+84a291decae5e59b46b89c646189b5d1,railways,track,..,...,...,Natural Resources Canada
+84d2e724b93b8d0a6251a30ab292f83a,low carbon,wind,Clear Creek,...,...,World Resources Institute
+8668f7a027f5f200e595d9e915e6bbcc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+86ba9854064968fc47e9d5da1fed35ac,low carbon,wind,Clear Creek,...,...,"Government of Canada, Natural Resources Canada"
+86d22ec4509b58146d318f306523d27f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8a80f30dde6fbcebb1cbaecc0dd5fef4,low carbon,wind,Port Ryerse,...,...,"Government of Canada, Natural Resources Canada"
+8aaa3ad907a6d56dde43a2ad1bb28732,wastewater and storm water,facilities_waste,Waterford Wwtf,"Screening, Lagoons - Aerated, Lagoon - Facultative, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada

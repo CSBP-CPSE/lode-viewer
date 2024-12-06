@@ -1,41 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Cameron Road,BRIDGES AND TUNNELS,Footbridges
-County Road 18,BRIDGES AND TUNNELS,Footbridges
-Acton Corners Road,BRIDGES AND TUNNELS,Footbridges
-South Gower Drive,BRIDGES AND TUNNELS,Footbridges
-Grenville Street,BRIDGES AND TUNNELS,Footbridges
-CPR OVERPASS (S.B.L.),BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-Gabert Road,BRIDGES AND TUNNELS,Footbridges
-Mill Street,BRIDGES AND TUNNELS,Footbridges
-Beach Road,BRIDGES AND TUNNELS,Footbridges
-Dennison Road,BRIDGES AND TUNNELS,Footbridges
-Highway 416,BRIDGES AND TUNNELS,Footbridges
-Bridge Street South,BRIDGES AND TUNNELS,Footbridges
-County Road 20,BRIDGES AND TUNNELS,Footbridges
-Rideau River Road,BRIDGES AND TUNNELS,Footbridges
-Hurd Street,BRIDGES AND TUNNELS,Footbridges
-CULVERT 2.4 KM NORTH OF COUNTY ROAD 43 UNDERPASS BRIDGE,BRIDGES AND TUNNELS,..
-CULVERT 775 M SOUTH OF LEEDS AND GRENVILLE ROAD 20,BRIDGES AND TUNNELS,..
-County Road 44,BRIDGES AND TUNNELS,Footbridges
-Limerick Road,BRIDGES AND TUNNELS,Footbridges
-Merlyn Wilson Road,BRIDGES AND TUNNELS,Footbridges
-Water Street,BRIDGES AND TUNNELS,Footbridges
-COUNTY RD. 19 UNDERPASS ,BRIDGES AND TUNNELS,..
-Townline Road,BRIDGES AND TUNNELS,Footbridges
-Prescott Street,BRIDGES AND TUNNELS,Footbridges
-COUNTY RD. 44 UNDERPASS,BRIDGES AND TUNNELS,..
-County Road 43,BRIDGES AND TUNNELS,Footbridges
-County Rd 43 U/P,BRIDGES AND TUNNELS,..
-County Road 24,BRIDGES AND TUNNELS,Footbridges
-Pattersons Corners Road,BRIDGES AND TUNNELS,Footbridges
-Beach Road East,BRIDGES AND TUNNELS,Footbridges
-COUNTY RD. 20 UNDERPASS,BRIDGES AND TUNNELS,..
-Bridge Street,BRIDGES AND TUNNELS,Footbridges
-ALLEN CREEK CULVERT,BRIDGES AND TUNNELS,..
-CPR OVERHEAD (N.B.L.),BRIDGES AND TUNNELS,..
-COUNTY RD. 24 VANBUREN STREET,BRIDGES AND TUNNELS,..
-BEACH RD. UNDERPASS,BRIDGES AND TUNNELS,..
-River Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-CULVERT 1.5 KM NORTH OF COUNTY ROAD 43 UNDERPASS BRIDGE,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+05376d7736da2b6783fd6effc1a2ea83,telecom,tower,...,...,...,Natural Resources Canada
+05618f4ba5becb47e5ec14b5c05fd57c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+06b46543abb45598203c68eec1fd69a6,bridges and tunnels,bridge,COUNTY RD. 24 VANBUREN STREET,Bridge,Bridge,Province of Ontario
+0b4389ebf7adb15ff523e8839a60138b,bridges and tunnels,culvert,CULVERT 2.4 KM NORTH OF COUNTY ROAD 43 UNDERPASS BRIDGE,Culvert,Culvert,Province of Ontario
+0b81a4779f36d536e65cd8a4af3b2a42,railways,track,..,...,...,Natural Resources Canada
+0c527944febe1a7420da0b93817b6ad4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+13ac022b61a2246ca2f9e67a9b4b694c,oil and gas,pipelines,..,..,...,Natural Resources Canada
+146f2f59d2dbab0f7e1c26c8fdc9ab1e,railways,track,..,...,...,Natural Resources Canada
+1578367b7722a66632024d1b9a5db537,railways,track,..,...,...,Natural Resources Canada
+16928e621108fb0608759d734a530761,telecom,tower,...,...,...,Natural Resources Canada
+18520fd9c3df530e2adecbe2f57ca76e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1becd81ec1a2625e709f380da79861fb,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1d1d5a762432edb5870f635d90fd98e9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d47331bf69197306caf816af698b3b2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+23e4b19c8a5c1d3844bad73172c47a0b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2917bf9e17cf065c6db450d4db5ddf26,solid waste,mixed,..,Landfill,Engineered landfill,Province of Ontario
+2e38b74edf0f7cd05ad1bb4864293f05,railways,track,..,...,...,Natural Resources Canada
+2e61891478c176bf8bedb14ceaf7c2c9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2ebbda6d1f80f9365b45d9c6596ebd73,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+307503e2d27d4a9d22a19696b676b708,railways,track,..,...,...,Natural Resources Canada
+30f3c527d6552ade2031af8f127c326d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+33c20bbb6524691ac2ede4b9b459c0a2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+36aaed8368339662aea75f0004a10553,railways,track,South Prescott,...,...,Natural Resources Canada
+3c84484b9586d4e6281893e8f20c13c1,railways,track,..,...,...,Natural Resources Canada
+3f177b8487b4a84af4624c4eef21ddf4,solid waste,mixed,..,Landfill,Engineered landfill,Province of Ontario
+4577bf6b4c918f45353177b94967e6ff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4ba95ef9f793395bad16a007498aecbc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4d016029d330eec2120de59a642088a6,telecom,tower,...,...,...,Natural Resources Canada
+5003e3eb913022900f630753b5b33666,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+50524412ca42be7872dc41c88e895546,bridges and tunnels,culvert,CULVERT 775 M SOUTH OF LEEDS AND GRENVILLE ROAD 20,Culvert,Culvert,Province of Ontario
+50dd5ee8c27a30cde8be260896b28045,railways,track,..,...,...,Natural Resources Canada
+5a201af9f65d875e533a5a427b2fadaa,railways,track,..,...,...,Natural Resources Canada
+5d7de340209de464e1cbb16149556822,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5e1fd1e55f3590d06103e1869e969102,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+64b4ff867faed40bdc30ebdc060d4ac6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+69e22e6425ac98a1cc89fb8e50b42cf9,railways,track,..,...,...,Natural Resources Canada
+6d85dd8ef557d44c7ddc70876550034b,railways,track,..,...,...,Natural Resources Canada
+71387497ee0306f71213ce4c8473b44f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7465010d3de1830dc8382ccdf505b245,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7545104e9bb6ba78c4f6eb09062426c5,railways,track,..,...,...,Natural Resources Canada
+76075ee79e6cfb66a4498a787646bc84,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77e6ea8dd742c0c4658c9bde136a3a16,bridges and tunnels,culvert,ALLEN CREEK CULVERT,Culvert,Culvert,Province of Ontario
+7844ad17a6249c30a5bc9326cf7d423e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7b60365b2848902412ed64849a7c72c6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7cd3a50bef38e6bae88407ca5705e158,railways,track,..,...,...,Natural Resources Canada
+8183cf7d35a700611e1489767318c77d,railways,track,..,...,...,Natural Resources Canada
+8885198ffa0dacf80890e19db9bd49ba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8964fc9b201f14e15eeb60f68bbdfa4f,railways,track,..,...,...,Natural Resources Canada
+8d13026f75b5c165d5b0cc6a03cbac20,railways,track,..,...,...,Natural Resources Canada

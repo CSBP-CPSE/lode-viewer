@@ -1,47 +1,28 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de l'Achigan Est,BRIDGES AND TUNNELS,Footbridges
-Rang de la Rivière Nord,BRIDGES AND TUNNELS,Footbridges
-rue St-Louis / 12e avenue,..,..
-..,WASTEWATER STORMWATER,..
-rue du Marché / route 335,..,..
-rue St-Isidore / face à la COOP,..,..
-route 335 / face au 284,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-chemin St-Stanilas / rang St-Henriette,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-rue St-Isidore / face au 510 (Salle l'Opale),..,..
-Route 335,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-rang de la Rivière Nord / rue Lapalme,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-chemin St-Stanilas / rang St-Henriette,..,..
-rue du Marché / rue de Maraicher,..,..
-route 335 / rue Wilfrid-Laurier,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-route 335 / face à Usine Côté,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-route 335 / Côte de Grâce,..,..
-rue du Marché / route 335,..,..
-Rue Saint-Isidore,BRIDGES AND TUNNELS,Footbridges
-rue St-Isidore / face au 944 (Couche-Tard),..,..
-rue du Marché / chemin St-Stanislas,..,..
-route 335 / rue des Sorbiers,..,..
-rang de la Rivière Nord / rue Lapalme,..,..
-12e avenue / face au 920,..,..
-Rang de la Rivière Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-rue du Marché / face au 899 (passage piétonnier),..,..
-..,BRIDGES AND TUNNELS,Footbridges
-rue du Marché / rue des Cépages,..,..
-route 335 / rue des Primevères,..,..
-Côte Saint-Ambroise,BRIDGES AND TUNNELS,Footbridges
-rang St-Henriette / route 335,..,..
-rue du Marché / chemin St-Stanislas,..,..
-rue du Marché / face au 914 (passage piétonnier),..,..
-rang St-Henriette / route 335,..,..
-rue St-Isidore / face au Provigo,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01a8b0388ea1704ad177aea096021923,bridges and tunnels,mixed,..,..,..,La Province de Québec
+05e2b86da9125632f4c752e4b3c5932b,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+08d997ff38b2675c7c8c445e723bf8f9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+08e5ca98a23249b7c8b064e224d6fd3b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+149cf82e5fe589e1d13a90d98b32216c,low carbon,charging_stations,Desjardins - Cds Saint-lin-des-laurentides,...,...,Government of Quebec
+2a465748fb428874cfc6d41297cfbd69,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2cc640b2c08d60357aa01f7321e46040,low carbon,charging_stations,St-hubert Express St-lin-laurendides,...,...,Government of Quebec
+39f638bda5b8afd5782afd9b1a7d8647,low carbon,charging_stations,Parc Récréotouristique,...,...,Government of Quebec
+6ed429f694af799eed99d723d34a0ad7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+72ecccf2e302e97e9a76334c242754a6,low carbon,charging_stations,Parc Ovila-bernier,...,...,Government of Quebec
+75b97c35b4394022d90a12b2200c4923,bridges and tunnels,mixed,..,..,..,La Province de Québec
+78b9b6609e7eb3cf8f9cfaaaed04a4a6,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7bb962d484e933b9786cb1b21c10de0a,low carbon,charging_stations,Centre Aquatique,...,...,Government of Quebec
+7e2e7bb0675574399ea92aa16a910580,low carbon,charging_stations,Pavillon Beaudoin,...,...,Government of Quebec
+805a5dc4af6429ce1028df664c976f12,low carbon,charging_stations,Brcc - Saint-lin-laurentides - Aréna,...,...,Government of Quebec
+88f57f87acb8db0c8590defd35fcbfc8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+92c8b30836c985a1a55508a9fefd5f11,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9a3ea5270d1bdf43c82c4eba124cd564,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9adf69f9c77cda0ff3e239f6d4ca7f21,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a3fd922e2f619acd32656824f1e9db3f,low carbon,charging_stations,Salle L'opale,...,...,Government of Quebec
+d2ad8ee87bc7b2df8165a035c964881a,telecom,tower,...,...,...,Natural Resources Canada
+d8c823ccfbed6d6349ac9b33e52fcf2c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+de0f3bd32648fcc1aedbf1faf1709fef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e0247cb1ad97fed2ad8ef0f99b8578ef,wastewater and storm water,facilities_waste,Station D'épuration Des Eaux Usées,"Grit Removal, Screening, Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+f992be3363ae480c13e4b4c2926a97c8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fb4631f342b838475a583998a59faff9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+fe37a49864c6d5acec98073aba9e3911,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

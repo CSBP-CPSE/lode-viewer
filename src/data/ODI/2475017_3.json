@@ -1,50 +1,30 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-Rue De Martigny Ouest,BRIDGES AND TUNNELS,Footbridges
-Castonguay / de Sainte-Marcelle,..,..
-Ouimet / Madeleine,..,..
-Monseigneur-Dubois / Laviolette,..,..
-Filion / devant le civique #512,..,..
-Fournier / de Sainte-Paule,..,..
-..,WASTEWATER STORMWATER,..
-Gauthier / De Martigny Ouest,..,..
-Melançon / devant le civique #795,..,..
-Rue Saint-Camille,BRIDGES AND TUNNELS,Footbridges
-Laviolette / Saint-Louis,..,..
-Saint-Georges / Aubry,..,..
-du Palais / Cégep de Saint-Jérôme,..,..
-Saint-Joseph / Labelle,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-du Palais / Melançon,..,..
-114e Avenue / du Pavillon,..,..
-20e Avenue / 19e Rue,..,..
-Boulevard de La Salette,BRIDGES AND TUNNELS,Footbridges
-Roland-Godard / devant le civique #721,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-112e Avenue / Isaac-Jogues,..,..
-Filion / des Prés,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Maurice / Lafontaine,..,..
-Lajeunesse Ouest / Grignon,..,..
-de la Salette / Roland-Godard,..,..
-Saint-Antoine / 24e Avenue,..,..
-du Grand-Héron / Valmont,..,..
-Saint-Georges / de Sainte-Paule,..,..
-Place du Curé-Labelle / devant le civique #100,..,..
-Rue De Martigny Est,BRIDGES AND TUNNELS,Footbridges
-114e Avenue / devant le civique #207,..,..
-Fournier / des Pins,..,..
-Saint-Antoine / 17e Avenue,..,..
-Maurice / 113e Avenue,..,..
-Saint-Georges / 104e Avenue,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-des Prés / Ouimet,..,..
-Melançon / face au marché public de Saint-Jérôme,..,..
-du Grand-Héron / devant le Wal-Mart,..,..
-36e Avenue / 1er Boulevard,..,..
-Saint-Georges / 103e Avenue,..,..
-Jean-Baptiste-Rolland Est / 20e Avenue,..,..
-Montée Sainte-Thérèse / de la Promenade,..,..
-Bélanger / Fournier,..,..
-Maurice / Francine,..,..
-Castonguay / des Tilleuls,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+cb62fa89f692faca812055c489427b55,low carbon,charging_stations,Régie Intermunicipale Du Parc Régional De La Rivière-du-nord,...,...,Government of Quebec
+ccce8c2fe4a5af07a067bc0da9c3f5e4,railways,track,St-jerome Industrial,...,...,Natural Resources Canada
+cf08a6e7d0663a6366911fc3853ff19a,railways,track,St-jerome Industrial,...,...,Natural Resources Canada
+d008f85dca500f9056966075d801ff36,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d0fbf449278aaf7ebe9773c15454695f,railways,track,St-jerome Industrial,...,...,Natural Resources Canada
+d1a5d8bd0a4cbdc3bc7457cc500e01a6,railways,track,..,...,...,Natural Resources Canada
+d603fd6340d413b0327e6f2cd2b813b4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+d6bff694247c6d65ead494f519451349,wastewater and storm water,facilities_waste,Station D’épuration Des Eaux Usées,..,Waste treatment plant,Environment and Climate Change Canada
+d95721ad3a9bb45561631f96429be5ed,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d967c12ec13bfb88c98953002ed9f1a1,railways,track,St-jerome Industrial,...,...,Natural Resources Canada
+dbfbee61b76342335bbc875c6711ee57,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+de58974b24b1671f57b8d2fab7e1e6e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+deeff151756965845aefc5329a19d0a2,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e3f7d662698c415465c84407e81cedf4,telecom,tower,...,...,...,Natural Resources Canada
+e7c14bc63141d58ffd6f4d0fba53a5ae,railways,track,St-jerome Industrial,...,...,Natural Resources Canada
+ea678d5cb723d6832f47e43cf9fc62ff,railways,track,..,...,...,Natural Resources Canada
+eab4b8d3f806a5f7cd09bbc56720733b,railways,track,St-jerome Industrial,...,...,Natural Resources Canada
+eb6e3481ff9e21e6beb811df00f10af9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ecf4614dd1cc42b4c7a7d16de18c7b6f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ed3e5a1e331ecef8788e84eec992672e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ed62cd9bd3a9f1597e6a4abe77b44f86,bridges and tunnels,mixed,..,..,..,La Province de Québec
+f3b706faefc7f6d6a0b414187073ee22,railways,track,St-jerome Industrial,...,...,Natural Resources Canada
+f3ba246bd81d0e915dda9f821123f84c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f3c0e049b2c6b807d88dfc8a0e9fe0b5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f79f01f159c904183bb9bfd47752bea5,railways,track,..,...,...,Natural Resources Canada
+fa550a97f5c7727e9e19944f6e75ec2a,railways,track,..,...,...,Natural Resources Canada
+fb8b129d7d6aaa68892339af738ed9ee,railways,track,St-jerome Industrial,...,...,Natural Resources Canada
+fcafef1348663a7ec924cfe7a11228c1,telecom,tower,...,...,...,Natural Resources Canada
+fcc451c959929931e5ddfde9db149e24,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

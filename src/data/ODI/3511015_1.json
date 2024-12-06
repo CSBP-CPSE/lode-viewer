@@ -1,42 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,Footbridges
-County Road 8,BRIDGES AND TUNNELS,Footbridges
-BEECHWOOD RD UNDERPASS,BRIDGES AND TUNNELS,..
-Little Creek Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-NAPANEE RIVER BRIDGE,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-PALACE RD OVERPASS (EBL),BRIDGES AND TUNNELS,..
-Townline Road,BRIDGES AND TUNNELS,Footbridges
-Pine Grove Road,BRIDGES AND TUNNELS,Footbridges
-Beechwood Road,BRIDGES AND TUNNELS,Footbridges
-SELBY CREEK BRIDGE,BRIDGES AND TUNNELS,..
-SELBY CREEK BRIDGE,BRIDGES AND TUNNELS,..
-Palace Road,BRIDGES AND TUNNELS,Footbridges
-County Road 12,BRIDGES AND TUNNELS,Footbridges
-Deseronto Road,BRIDGES AND TUNNELS,Footbridges
-Jim Kimmett Boulevard,BRIDGES AND TUNNELS,Footbridges
-Oliver Sideroad,BRIDGES AND TUNNELS,Footbridges
-Centre Street South,BRIDGES AND TUNNELS,Footbridges
-COUNTY RD 41 OVERPASS,BRIDGES AND TUNNELS,..
-PALACE ROAD OVERPASS  (WBL),BRIDGES AND TUNNELS,..
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,Footbridges
-County Road 11,BRIDGES AND TUNNELS,Footbridges
-Vanluven Road,BRIDGES AND TUNNELS,Footbridges
-Glennelm Road,BRIDGES AND TUNNELS,Footbridges
-NEWBURGH UNDERPASS  U/P,BRIDGES AND TUNNELS,..
-HEPC DISCHARGE CHANNEL BRIDGE,BRIDGES AND TUNNELS,..
-DESERONTO ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-Herrington Lane,BRIDGES AND TUNNELS,Footbridges
-Highway 33,BRIDGES AND TUNNELS,Footbridges
-Big Creek Road,BRIDGES AND TUNNELS,Footbridges
-Salmon River Road,BRIDGES AND TUNNELS,Footbridges
-County Road 2,BRIDGES AND TUNNELS,Footbridges
-Pleasant Drive,BRIDGES AND TUNNELS,Footbridges
-County Road 1 West,BRIDGES AND TUNNELS,Footbridges
-County Road 9,BRIDGES AND TUNNELS,Footbridges
-Culvert (1km East of Deseronto Road),BRIDGES AND TUNNELS,..
-County Road 41,BRIDGES AND TUNNELS,Footbridges
-County Road 1 East,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+020cbd9bf81b131fb799ee7b8edbc1db,bridges and tunnels,bridge,COUNTY RD 41 OVERPASS,Bridge,Bridge,Province of Ontario
+0228016abbfa3351c991de80742252a6,telecom,tower,...,...,...,Natural Resources Canada
+039d34ef5559225eee0b1242dac685c7,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0429ce19f6632880024386db21c41725,railways,track,..,...,...,Natural Resources Canada
+069cfd367a01bd6419d24a07a55f4371,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+07d9e19dbf856915571d477a9b563a02,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+089f3f773ce1d539cffa2f24669cb999,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+09453f9f0117f3e72206114d7df0b408,railways,station,Mohawk,...,...,Natural Resources Canada
+0b58ac920524e36df50241d38a185ecf,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0c151b15b0f3c70f98e75c5ba4bf2472,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1cf310413bca40c9ea23c9bfe3453efc,railways,track,Bath,...,...,Natural Resources Canada
+1e8b2ed6ac5d4ad17f519dbbd7463247,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+20827b49a2a20e80a5846437a66baf49,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+22030819b64910c901a9a6c0868df8c8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+23a2311ee3bdd0a24ecf45ef157d73cf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+26c1a315b76c0406f36c70a2985fad4f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+275ba6ccd9e7b3f3d007d39a61e8269a,telecom,tower,...,...,...,Natural Resources Canada
+285e9df8b17384cf4ec615f763b8ba63,oil and gas,pipelines,..,..,...,Natural Resources Canada
+28dcd960b4c806450996e2245514a8f2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2ad894d3bd0d6bc5801c4914ba691072,oil and gas,facilities,..,..,...,Natural Resources Canada
+2b7765ac640e28e27e272f4d6db3239f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2bc4be06f83c0abfe3378fa8c7c778ec,bridges and tunnels,bridge,PALACE RD OVERPASS (EBL),Bridge,Bridge,Province of Ontario
+2d495fd7dc311b8d19b408ad0fc6716c,wastewater and storm water,facilities_waste,Napanee Onroute Service Center,"Screening, Primary Sedimentation/Clarification, Extended Aeration Activated Sludge, Biological Nutrient Removal (Nitrogen and Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+2e2b2b5b746050e23a2c74b24e1ddf05,wastewater and storm water,facilities_waste,Napanee Water Pollution Control Plant,"Grit Removal, Screening, Chemical Flocculation, Primary Sedimentation/Clarification, Skimming, Activated Sludge",Unclassified,Environment and Climate Change Canada
+30e235c127c42e1cd38b3b0157e09007,electric grid,power_plants,..,...,...,Natural Resources Canada
+313b7c4479544c66a6c2fbdb8c9fec4f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32bc77d37fa4fe673f67ee2178a72b12,airports,...,Napanee Airstrip,small_airport,...,OurAirports
+3b894ed9730350fdc4aaa6ee6ed3e66b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ebd1319c7b13f508fd510496827d321,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+42a394a8f262534877e9a0e3bf7b0f1a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+43305bb4cb2a8d57951c862e292bfc72,oil and gas,pipelines,..,..,...,Natural Resources Canada
+443d0d72ebf880ce7ba91abe5faaac84,railways,track,..,...,...,Natural Resources Canada
+447d0913f0156f3c0620b30503e20598,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+45df0de3bc6addaa2ede3527bc6d881f,railways,track,Bath,...,...,Natural Resources Canada
+4b81b2856213eab2a152a0a050dec8ee,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4d20766f75609d55d138d838da5a6c81,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+51af86df243c6cf3e833e697de71d29e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+52162da5d2109f3b26168c4b5453cbd7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+536a28f593a1ae43b42090ba491e51bc,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+58bfb3c9aea6690a9ef86705f9ee5849,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b6a2f0bf39e2215cfe501c8c11aa77c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5d95285055e4f13f7fb518b10336ae3a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+6005e596043cf4ef1a05621ea041b96b,oil and gas,pipelines,..,..,...,Natural Resources Canada
+64c7861decb0a5579a7e700828f0df9e,bridges and tunnels,bridge,HEPC DISCHARGE CHANNEL BRIDGE,Bridge,Bridge,Province of Ontario
+6505fdc6b0f0cfd6a903e9ee5e401b55,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+675c1786604a423ded6efc5d3cb67ce7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+67eb2ed610836dcbac5fcf21431bf662,bridges and tunnels,bridge,SELBY CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+6a3022ccb9b14ffdfe9c71a43d1fc714,electric grid,power_plants,..,...,...,Natural Resources Canada
+6eb58cd6ddb08cb03dcf8aa00d2e7d51,railways,track,Bath,...,...,Natural Resources Canada

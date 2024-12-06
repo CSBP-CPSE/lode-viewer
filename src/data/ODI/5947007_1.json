@@ -1,11 +1,49 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Skeena at Sunset,..,..
-Oceanview at Hillcrest,..,..
-Evergreen at Skeena,..,..
-Alder at Pacific,..,..
-Highway 16,BRIDGES AND TUNNELS,Footbridges
-Skeena at Alder,..,..
-Evergreen at 470 Blk,..,..
-Skeena at Harbourview,..,..
-..,WASTEWATER STORMWATER,..
-Evergreen at Wildwood,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0231ba241bb827215ca3187dcc446187,railways,track,..,...,...,Natural Resources Canada
+02edf7ea57aedd6f3b47ce8c465eee1b,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+04457b28d58015f075662d410f2b0b5f,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+0bcd08bdd264496a2bf5a749df2e2498,railways,station,Port Edward,...,...,Natural Resources Canada
+106f70f34ef82149804ed741372fc183,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+15917ce2002ba22c50c905383ab93527,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+21b1f34e78bf7d0a57736d21e3e88efe,railways,track,..,...,...,Natural Resources Canada
+22c81de962637e1bf7a22bc8ca8f82cf,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+253f2237187391d1222ed34de604f318,railways,station,Phelan,...,...,Natural Resources Canada
+3106b938bac13587ee7982f4c6ebf89e,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+32cdb688b8478b88a5e05a94daaca6bf,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+33e64658831e7e31d1dbd99d4b5c5a73,railways,track,..,...,...,Natural Resources Canada
+38b1333031bcab52c11edaa65375c449,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+3aca3e077b257eed48acba3785ec845e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ca5058dd3454c5c42738d68243aa34f,railways,track,Tyee Siding,...,...,Natural Resources Canada
+3f6f1ce86a14f6be6817ee5610bb65c3,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+46dceef2005a1e5a651f85ca3a5986f0,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+500c694be0c34113241df6b19a600fa4,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+68fdb986c913ca85d42d4c636e1e2040,ports and marinas,port,Porpoise Harbor,..,...,National Geospatial-Intelligence Agency (NGA)
+695dbaa27850bad6e39cc4734e7b6afe,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+6b097208b6553b5ab504fa02786a1676,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+6c4baba923d93a181703aca6871fe69f,railways,track,..,...,...,Natural Resources Canada
+6ca4912ef8885b063c56aad695a651eb,wastewater and storm water,facilities_waste,District Of Port Edward Water Polution Control Centre,"Grit Removal, Screening, Primary Sedimentation/Clarification, Extended Aeration Activated Sludge, Oxidation Ditch, Other Treatment",Unclassified,Environment and Climate Change Canada
+6fe09b6434b1be0b1845a921a81f754b,railways,track,Sockeye Backtrack,...,...,Natural Resources Canada
+7893d934966dc61d01e17d3d0c22b630,bridges and tunnels,bridge,DIANA CREEK,BRIDGE,Bridge,Province of British Columbia
+8397077d456dcd1962d51b50dd945149,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+85c83a37e8f0c116ffba6cf154db3f6d,railways,station,Tyee,...,...,Natural Resources Canada
+8ea85e6d4cba589b3d7a01ead64c81cf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+909906671a27e772b963a0191430e9b9,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+934b8d0d72134f3e5ff0f06e73ef253f,oil and gas,pipelines,..,Regulator,...,British Columbia Energy Regulator
+939a862009b3313f55810b27f62276ff,railways,station,Sockeye,...,...,Natural Resources Canada
+9df5fa5e64d2a8248c3c596520dd84a4,bridges and tunnels,bridge,PORT EDWARD PIPELINE,BRIDGE,Bridge,Province of British Columbia
+9f6b4992e8b6f656d7954d546f9899d8,railways,track,Siding At Watson Island,...,...,Natural Resources Canada
+aa1dd5ac8e2522d19d29d50ca7465625,bridges and tunnels,bridge,MCNEIL RIVER,BRIDGE,Bridge,Province of British Columbia
+b1d9e380c237f287ecb3c34e5be21b55,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+b2a7f51b98b4da2ba5b3740961b60fe9,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+c1db421bab4f40a88427e764a9e97164,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+c50eed4142c4169078c813d042cd3432,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+c833a6245bad240b47dd1dd002398359,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d7dbaec2468075d3fd51bc367f31bfce,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+d8ee55b4e8739bd731e1654e1e306839,bridges and tunnels,bridge,GALLOWAY RAPIDS,BRIDGE,Bridge,Province of British Columbia
+dcda67f6a2ecd0d4ca073f7ae56bc8bf,railways,track,..,...,...,Natural Resources Canada
+e8054cd706c3b4f2cd205be081651a78,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e8521b52da2af873ddafa13f1ed95c3c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ebb18acc42b5972d434224bb1821808f,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+ef910ff9d3a72372ee458acdd2b70c86,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+f4a3cba894147640d5c693781eca72d3,oil and gas,pipelines,..,Gathering,...,British Columbia Energy Regulator
+f9ef119db9a60d2e2cb8fc25aad62f0c,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator

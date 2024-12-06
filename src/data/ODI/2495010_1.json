@@ -1,19 +1,29 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Vieux-Pont,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Route 172 Nord,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Robert,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02ac47cc8c882bd6495950c34bf21d1f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+02f1f3d0150ee41b7ddfa1bff57ea260,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+234a045378aa6418b55f779c4e2e0eb5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2afe2473fbaa0f347341a601576becc0,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+309b560b23f8a4c64343a77d4165937e,telecom,line,...,...,...,Natural Resources Canada
+3175178ea3720db4ed295450e6084f84,bridges and tunnels,mixed,..,..,..,La Province de Québec
+367ebfb903f6d946f21d4cd13b64478a,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+4d2c1579854bbceafe5077b863432de7,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5c378d2e972d2cf11f079c4abb87adc7,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+5d6004dc874034b2dc3c0ed1da2c78be,bridges and tunnels,mixed,..,..,..,La Province de Québec
+63d36316abb309f3dbb14e125d32d67a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+717f2a4851c26da992ee653b1ce9b707,telecom,tower,...,...,...,Natural Resources Canada
+73e354a6ecd504b9d985a05a5eeff954,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7e0882df66b7658ee22b47fc460703e4,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+8310f82e9f56e84447a9c343ef5c2436,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+89e0fce92279bfb6a51e8534a79f97f2,low carbon,charging_stations,Sacré-coeur - Édifice Municipal,...,...,Government of Quebec
+943aef98eccca37ac1bfba8038654220,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9488cf10ef5ff544e563a1de29f3e79f,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+9dc3b605060989af34908d53f6a4b36a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b563ffe5d9afbd8dccdf4198b8b705e2,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+b9727b7ecc169398705e5afddbc273c1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bdb84b3e3e96499ebeb22569163d50a3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cd172c0f6a41007011420722370a4997,bridges and tunnels,mixed,..,..,..,La Province de Québec
+d209457a24ed5a4567d61e56ae1c8230,bridges and tunnels,mixed,..,..,..,La Province de Québec
+d773141e99607af1cd41acd54d4c62a6,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Sacré-coeur,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+e70b3193aecea3a36c9b8489e9735e75,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ecd454e465cdae4070fa9d7ec0d800fb,low carbon,charging_stations,Brcc - Sacré-cœur - Édifice Municipal,...,...,Government of Quebec
+f3ca3a41d98c1126b0963914042f480b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

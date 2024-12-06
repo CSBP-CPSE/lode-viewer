@@ -1,28 +1,48 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Chemin Nadeau,BRIDGES AND TUNNELS,Footbridges
-Chemin Saint Germain,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,WASTEWATER STORMWATER,..
-Chemin Elias Daigle,BRIDGES AND TUNNELS,Footbridges
-Chemin Grand Reed,BRIDGES AND TUNNELS,Footbridges
-Chemin J Morneault,BRIDGES AND TUNNELS,Footbridges
-Rue Centrale,BRIDGES AND TUNNELS,Footbridges
-Chemin Petite Riviere,BRIDGES AND TUNNELS,Footbridges
-Chemin Beaulieu,BRIDGES AND TUNNELS,Footbridges
-Chemin Sylvain,BRIDGES AND TUNNELS,Footbridges
-Clair - Fort Kent Bridge,BRIDGES AND TUNNELS,Footbridges
-Chemin Foley Brook,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Chemin Laplante,BRIDGES AND TUNNELS,Footbridges
-Route 205 Highway,BRIDGES AND TUNNELS,Footbridges
-Chemin Richard,BRIDGES AND TUNNELS,Footbridges
-Chemin Riv Baker Brook,BRIDGES AND TUNNELS,Footbridges
-Rue Frontiere,BRIDGES AND TUNNELS,Footbridges
-Route 215 Highway,BRIDGES AND TUNNELS,Footbridges
-Chemin Belmont,BRIDGES AND TUNNELS,Footbridges
-Chemin Des Bouchard,BRIDGES AND TUNNELS,Footbridges
-Route 120 Highway,BRIDGES AND TUNNELS,Footbridges
-Rue Commerciale,BRIDGES AND TUNNELS,Footbridges
-Rue Principale,BRIDGES AND TUNNELS,Footbridges
-Chemin Rang 2,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+08a2ee3b6f5cba3053aa16b186f566b8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0ac745a6ca96e5930061504b613a6cde,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0d96ca932c796869421e49d9e49b4152,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+118813e0612c5484779fcd8ffce905ed,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+25dc95a33a2307320cb0d6d4025f6ef4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+25edd2d8243747c87145b9ef3a3e4021,wastewater and storm water,facilities_waste,Village De Baker Brook,Lagoon - Non-aerated,Lagoon,Environment and Climate Change Canada
+28b8707f911abc89716e4b2e74eeb012,bridges and tunnels,bridge,..,Unknown Bridge,Bridge,Natural Resources Canada
+3237c718bbbd3cdd1372012ed24ac356,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+386846ae1b937e807936e530bd82beff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b9f487a5e6db80c4cf9e48716dd22f8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3bad7047ea2885d3d5d4bfba5165166c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4ac89604c26adfbe767981067b52b095,wastewater and storm water,facilities_waste,Lagune Village De Clair,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+553126c23d4881a971d3a871d340cc1f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+55d12b7176091a67230de8a7aece6e83,railways,station,Albertine,...,...,Natural Resources Canada
+5b6c269893832b9d3db46bfd9dd057de,wastewater and storm water,facilities_waste,Lagoon,"Lagoon - Anaerobic, Lagoon - Non-aerated, Storage Ponds, No treatment",Unclassified,Environment and Climate Change Canada
+6947ceee2006a4b28929c971295295a5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7920a3ca8af0498d1e13f9457c9f53d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+94f7c15cc29ae208b882c250bb252981,telecom,tower,...,...,...,Natural Resources Canada
+95fb1856752fe7523954f237e9ea32a6,railways,track,..,...,...,Natural Resources Canada
+971ea6d5465193287993109edde4ef13,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+98bbd246c72fabc7750027369f5ef126,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9d18882ac1567a7df4dbb1b67079a93b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b00d4417d94477eac946fd889e463829,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b3446d7dc40929520b3cafc98a280387,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b7318b19477732a9c6746a1d39d7392d,railways,track,..,...,...,Natural Resources Canada
+b75f211cb3268f223631dfb5ccb9c24b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b9b47ea28d0fb9931c1972fec050fdc1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b9e134126e0a35939b6d2417a2889826,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bad22c2ebabbfe0a243131c755dfbc34,telecom,tower,...,...,...,Natural Resources Canada
+bcc95737b72a8c2a4c0b780ea9e11b21,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c1339dbd8318e92b14d9b076954f6d6f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c1c49f42e7ce675a43ffcb6cc8b48410,railways,track,..,...,...,Natural Resources Canada
+c6370a9972ed9c5844c4e5d4235be3ec,railways,track,Mackenzie,...,...,Natural Resources Canada
+c8463c59d4a3501df41bc52dca000301,bridges and tunnels,bridge,..,Unknown Bridge,Bridge,Natural Resources Canada
+cbb3a2c1343572676886385816afb453,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cc15038c0432043663240ae207289b9d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d06cf2ddf4fe503cd22c052c5e3fbbe9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d0be33ad8f99ab8df8c5aedea39de10a,railways,track,..,...,...,Natural Resources Canada
+d32ba2063d3cc229ac6f14d612b8a776,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d4979e1edc8c21ea0d05a0ab9998ef25,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d59230c1a0a413c21f94700e8f8ee8fc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d918451672196ba304853b7b86f81ca0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e85c5f3e0dc9d44af55760ef0107e530,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e9ecb91af16e1a750c5e74d9934faf35,railways,station,Mackenzie,...,...,Natural Resources Canada
+ecd79572ff5a3222d046f7866ea70f63,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f10bfcb80772aa5553593eb9ed7d97e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fc5596305af2320f82f2edc1dd4835aa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

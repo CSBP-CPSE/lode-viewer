@@ -1,10 +1,21 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-6 Avenue Southeast,BRIDGES AND TUNNELS,Footbridges
-88 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-2 Highway,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+06ea15c768c7e1bc3e9ad8a12f1830b5,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0feec5544a1d98c81269f6f8d2bf351d,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+1504f2a059dbcbd4bff27c4d70ec6e8a,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+1a7c7fdca545efcdee505496d5cec485,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+24872597468b4fc618cc0d15736caa69,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+466772d24578fd68add29330b986cdd4,airports,...,Slave Lake / Slave Lake Helicopters,heliport,...,OurAirports
+5af11a6fbad1000e73751f95668bdf8a,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+5f203055b5713786e350d7bc50d98601,wastewater and storm water,facilities_waste,Town Of Slave Lake Lagoon,"Screening, Lagoons - Aerated, Lagoon - Aerobic",Unclassified,Environment and Climate Change Canada
+66b133791575b52b17191b61e48c57e1,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+7ff539888364d228e5c3ed312da1caf7,railways,track,..,...,...,Natural Resources Canada
+9e702b08d480b33463117bca5fc20271,airports,...,Slave Lake Airport,medium_airport,...,OurAirports
+dbd1c698b11b7b648c2010945046dc2a,oil and gas,facilities,Slave Lake,..,...,Alberta Energy Regulator
+e3271bc72649584de6fe5f54dcd8943f,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+e33608f0aeda9799087f120374428729,railways,track,..,...,...,Natural Resources Canada
+e4c6bfa41ca21859dde998f78635c300,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+e96c658c0c415cc980761eb773119855,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ea141666d56189bc60e27ad829a68d9a,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+eff702d9a89f615e1afa19a4cb6aeac3,oil and gas,facilities,Mitsue Wash Water,..,...,Alberta Energy Regulator
+f0aa6cdf850bb0181c4f1499cb19ae1e,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+f15ad19458d109f44ad30a880c3bcfc6,railways,station,Slave Lake,...,...,Natural Resources Canada

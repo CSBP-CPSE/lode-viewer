@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Champlain/Gigaire,..,..
-Bellevue/Masson,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-125e Rue/101e Avenue,..,..
-105e Avenue/113e Rue,..,..
-105e Avenue/110e Rue,..,..
-5e Avenue/8e Rue,..,..
-119e Rue/101e Avenue,..,..
-Boulevard Pie-XII,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Saint-Georges/204e Avenue,..,..
-Hêtres/86e Rue,..,..
-125e Rue/105e Avenue,..,..
-Bellevue/La Salle,..,..
-Hêtres/74e Rue,..,..
-Royal/Frigon,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Royal/St-Joseph,..,..
-Hêtres/98e Rue,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-11e Avenue/7e Rue (Parc de la Rivière-Grand-Mère),..,..
-St-Sacrement/Aluminium,..,..
-105e Avenue/129e Rue,..,..
-Hêtres/57e Rue (Séminaire Sainte-Marie),..,..
-105e Avenue/Philibert-Dumas,..,..
-Hêtres/51e Rue (S.A.A.Q.),..,..
-Rue 15e,BRIDGES AND TUNNELS,Footbridges
-Hêtres/80e Rue,..,..
-Hêtres/84e Rue,..,..
-Cèdres/Station (Amphithéâtre municipal),..,..
-41e Rue/Hêtres,..,..
-105e Avenue/109e Rue,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-114e Avenue,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-41e Rue (Halles de la Mauricie),..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+ddf6fcc7199760104c26bec4aefcdeb1,railways,track,..,...,...,Natural Resources Canada
+de21a55a90f3f6ed03db9ed59d471263,railways,track,Garneau,...,...,Natural Resources Canada
+de4063cc0e35972fe007f035fca3a343,low carbon,hydro,Grand-mère,...,...,Hydro Quebec
+df144115028fd34580b4c441b1dbc037,railways,track,..,...,...,Natural Resources Canada
+df5d8a041f5869a0e677d8fddd57cca4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e0280e301f57d11ed81d75b6a38af7c4,railways,track,..,...,...,Natural Resources Canada
+e03361837ff2fc5ab577cfadd8ecd482,railways,track,Garneau,...,...,Natural Resources Canada
+e1824de8674b8dac464387238c6bc14a,telecom,tower,...,...,...,Natural Resources Canada
+e2e5fee77f3cc6cfa390d00555813d95,railways,track,..,...,...,Natural Resources Canada
+e3c168e9029c4c49dab588516bb44e22,railways,track,Alcan,...,...,Natural Resources Canada
+e3ed6df8dbf8d53d8cbdbfb6b3623aa4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e42b8be192ad1f4fd337f199836a4db5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e4687485a3d2410d2823c184e1c0f0d0,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e4cf2bffd53eddac16fcfd3d065c8371,railways,track,..,...,...,Natural Resources Canada
+e566cbd8450b76142fb16be726ada987,railways,track,..,...,...,Natural Resources Canada
+e5c524fb8c3590aa2036e1f915029bd6,railways,track,..,...,...,Natural Resources Canada
+e5eff54fc77ba4bb88ef8daa9b4a1f19,wastewater and storm water,facilities_waste,Site De Traitement Des Eaux Usées Du Secteur De St-gérard-des-laurentides,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+e6ceafe78764dae9ebd884761561eb27,railways,track,..,...,...,Natural Resources Canada
+e72dbed1957ba67f19d418fe6b7a7d6e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e79a82ec7cd808dcf084357bf3bc0605,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e81d39150f5fcb113e807dd4ee2687aa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e8af468d3026f14ca3dbbda01e665784,low carbon,hydro,Shawinigan-3,...,...,World Resources Institute
+e8ba18490216c3f1ffa6c51f063ac181,railways,track,Garneau,...,...,Natural Resources Canada
+ea5a49422cab78e998deacab6cbeb7d4,railways,track,Garneau,...,...,Natural Resources Canada
+eae888d9188f1c5117d18c09cf2a0f35,railways,track,..,...,...,Natural Resources Canada
+eafb72feec25b46091dc0840087eee3f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eaff1395a28dc6a67b86456fc9f2792b,railways,track,..,...,...,Natural Resources Canada
+eb71376d58d6a30dac539269a7c5b54c,low carbon,hydro,Rocher-de-grand-mère,...,...,World Resources Institute
+ebdea8237342a31c6bf8d5abba065e0a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ed1e4255d8f97e496b1e9fc49d14890f,wastewater and storm water,facilities_waste,Site De Traitement Des Eaux Usées Du Secteur Grand-mère & St-georges De Champlain,..,Waste treatment plant,Environment and Climate Change Canada
+eea4c9c5e6a4c491f76077985a56d94f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+eeb0549625134b246d26133ae8353ded,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+efcc2da22af68a326eb407083b24bb8a,airports,...,Lac-à-la-tortue (water Aerodrome) Airport,small_airport,...,OurAirports
+f2031fa095027d0d5d20ec42f09d8dac,railways,track,..,...,...,Natural Resources Canada
+f2c0ff49c0b1674ed4c276b7f8ebd968,railways,track,..,...,...,Natural Resources Canada
+f3640e69400b6a87e7b1d62133a708ba,railways,station,Garneau,...,...,Natural Resources Canada
+f3f95ed6bbe5569dc958381182757455,railways,track,..,...,...,Natural Resources Canada
+f53830e4ff53092376129374916fd5f4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+f552d78391c4bdeda9486a47769c7185,railways,track,Alcan,...,...,Natural Resources Canada
+f60b52d49e9c1646273ee46ad1cf6291,railways,track,..,...,...,Natural Resources Canada
+f6a5e62bc40befdc13c488e7aba2e422,railways,track,..,...,...,Natural Resources Canada
+f6be71a9349c9434c57c1945f12f5f54,telecom,tower,...,...,...,Natural Resources Canada
+f6e61d040367692afee563b4df23fef8,railways,track,..,...,...,Natural Resources Canada
+f75589655bb1814e15ea76653bb1db78,railways,track,Alcan,...,...,Natural Resources Canada
+f75b1508c03b3924f4d0906781f8216c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f8092e5acdf4ea0390e2e96b456ff7a0,railways,track,Garneau,...,...,Natural Resources Canada
+f949abaec714071784a6aef60d1f1422,telecom,tower,...,...,...,Natural Resources Canada
+f98e8f20266f3b6cf6f0011c0c9a418e,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+fa5ab84dca0f075528d6bce5cc9f77b9,railways,track,..,...,...,Natural Resources Canada

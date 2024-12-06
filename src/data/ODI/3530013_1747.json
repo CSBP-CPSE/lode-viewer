@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-University Ave. / Path To Countrystone Pl.,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-King / Wellington,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-King / Stirling,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+8d2d834e5d65c0ca4145261bb6cfc2e4,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d2d9e6f114e6b112bf079e43c51c86f,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d2f2676873288f63f6830821fec9585,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+8d2f34905d3ea1c797e96b762af294e8,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d2f65ec36673f6f8b25bc9886216bb7,potable water,pipe,..,..,Pipe main,City of Kitchener
+8d2fc9f42292d32e3767f387875013ea,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d2fff1daad246cf11d3e8c372e8296a,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d31257a428e50f7e1680511c0fd3bee,potable water,pipe,..,..,Pipe main,City of Kitchener
+8d316f71b1c2c3973739a8765b738ab0,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d320fae1f7085fd1ee2bc268af34ef5,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d331ab95486020cc892b1b0c5d296d8,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d336ab3c59910873082c61884a00c1e,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d34a8d1825e8ad69240f6f7d260105d,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d34e379a6e5badd25748973b9a01d76,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d35a95155d3662d6c2a4b434af60588,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d35abe6db7d8e68be9bb7a5417a1780,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d3683c266205bb986374f3e05e6275a,potable water,pipe,..,..,Pipe main,City of Kitchener
+8d37d22478d196805976e415e0e047b9,potable water,pipe,..,..,Pipe main,City of Kitchener
+8d3808b9baab586468eac102a952dab5,potable water,pipe,..,..,Pipe main,City of Kitchener
+8d381714ced1fd309687df7c2d20c0b4,potable water,pipe,..,..,Pipe main,City of Kitchener
+8d38593444ab39183985fb0ec5b02577,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d3a113e7bfcf0a7d145dba607debdf9,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d3a96489500576e71669b5407ac0243,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d3b343eb2249e693f4b845f938617c8,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d3b72db36dce48bbeb64b72a5cd10cf,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d3c00c96f07677b2c0d6ca268ac9d68,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d3c241d8840c696841d249a849794e6,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d3ce2b626222ba32b71df63af4d8598,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d3cfa49983be13b402f66ee9e2e6416,potable water,pipe,..,..,Pipe main,City of Kitchener
+8d3d2a1729b2b0f1f96a0954a3de0c29,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d3ddb66b7d6a8ba6cf38abde75b7811,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d3e104b439f53ac6ff88ca6fbc35592,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d3e462ba9a52ae086a21c3d4b49f686,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d3e76e90f433b409e730ea39f40c67c,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d3e90fb1d0f84a75a8bc2f6834f6c22,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d3f17ebf56de4955d8fec005e04cbcc,potable water,pipe,..,..,Pipe main,City of Kitchener
+8d3f4e91e0463f46c944e1cbb2a9c8f3,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d3f5f5ced038a7a4c51c0c95fc30794,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d403e5168c003bdfcbc887f0ab18659,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d40ad53749817d7443b6b21877e6ffb,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d4351272e7908c968c9714d0581eade,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d43c3b20678ced13d867b74fb64cc7b,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d4465e82e54489225999db8c46e6b1b,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d44d4090b75250a47e6e1eacc62c329,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+8d44e2c4ca34df9dff397987ae8ed9b9,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d45f199cb38e83641a760c323890ab0,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+8d45ff1197dcafcd1a4e905a5646cbd2,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+8d4635a5dd3ac6db1fb2659713a21d64,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+8d46ed94ac0390758f2a8a5c006f9829,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener

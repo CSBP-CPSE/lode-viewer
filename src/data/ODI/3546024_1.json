@@ -1,21 +1,44 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Kennisis Lake Road,BRIDGES AND TUNNELS,Footbridges
-Green Lake Road,BRIDGES AND TUNNELS,Footbridges
-Hodgson Road,BRIDGES AND TUNNELS,Footbridges
-Cranberry Lake Road,BRIDGES AND TUNNELS,Footbridges
-Eagle Lake Road,BRIDGES AND TUNNELS,Footbridges
-Pine Lake Road,BRIDGES AND TUNNELS,Footbridges
-County Road 21,BRIDGES AND TUNNELS,Footbridges
-Coleman Lake Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-LOON LAKE CULVERT,BRIDGES AND TUNNELS,..
-Elephant Lake Road,BRIDGES AND TUNNELS,Footbridges
-Dudley Road,BRIDGES AND TUNNELS,Footbridges
-Maple Avenue,BRIDGES AND TUNNELS,Footbridges
-Unicorn Road,BRIDGES AND TUNNELS,Footbridges
-Redkenn Road,BRIDGES AND TUNNELS,Footbridges
-Haliburton Lake Road,BRIDGES AND TUNNELS,Footbridges
-Hay Creek Road,BRIDGES AND TUNNELS,Footbridges
-Koshlong Lake Road,BRIDGES AND TUNNELS,Footbridges
-Barry Line Road,BRIDGES AND TUNNELS,Footbridges
-HURRICANE CREEK CULVERT,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+016128754404fd9fe5f7d666e939b11c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+01fba5aa9ebaf77905acf27a72d2cd6e,bridges and tunnels,culvert,LOON LAKE CULVERT,Culvert,Culvert,Province of Ontario
+04209f11315c14c5ddc1def4753e3977,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+047425135596fd92c574d33c48cbee76,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+07af07f1e2f82630331cb224dca03576,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+122e6481f5d28a0822a492a1024cad93,telecom,tower,...,...,...,Natural Resources Canada
+1d30ce587f1a94a517dd9913d6c85e40,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+24f88b63f6635519123a38c784276758,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2928958a7bc0238b2f65ecfaf342c732,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3a424d959b6cddfa67ab312968c4085d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4771da5e9fddbe7f54a0b72415a5c219,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5cfea40e3135df1d41b0f72f4a73d2d1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6222338aa562dcb1931e33090d31869b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+626f15c335e71ee6b154c997e0d63e07,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+69de32722dc24aa0d0a7d8e0e20051c7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6a56549215f1a609e3faee57100bd195,telecom,tower,...,...,...,Natural Resources Canada
+7060f62d55d00913f0c6b04bba59fb6d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+79e9916670e195bacfc702f2c52c8a44,airports,...,Haliburton (hospital) Heliport,heliport,...,OurAirports
+84ef33352f63c4fb51c563d29fc3c2ed,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+92895e65df979e96899134f6cdab8b85,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9b34739b8434c1f15f423c3715495e76,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a3ee46cea257e8b79cbd0c67a2863c88,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a430ef0e7cf953015fb28a5bc6a3322d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b1c1000329a92e79c7c3d5880f9d0b05,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b26073bc1280abd3919c9ecfa617f957,bridges and tunnels,culvert,HURRICANE CREEK CULVERT,Culvert,Culvert,Province of Ontario
+b60ffedc2f66c07cc7ed6ee29d8d071e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b86f58cf5dcf1d11c7e5ffde07c53992,telecom,tower,...,...,...,Natural Resources Canada
+be0d28ffeba2029a4197c84e8cac79d9,telecom,tower,...,...,...,Natural Resources Canada
+c2fafac5420f8b12de97fe3c2db641fd,telecom,tower,...,...,...,Natural Resources Canada
+c3eec7c6034b6ac032adfa0b46946258,airports,...,Haliburton Seaplane Base,seaplane_base,...,OurAirports
+cc745ca02b94c28a86b47bcbfec41d53,airports,...,West Guilford/redstone Lake Water Aerodrome,seaplane_base,...,OurAirports
+cca87ce0a204c7a278b74beaac68d7e6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d588c5062175d0dc75695054d229cdfc,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d857b906a1d6be7f53b6a6f628315875,telecom,tower,...,...,...,Natural Resources Canada
+ddedaf694b996a3f17620d748c5852c6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e6e4b9fc1c69b04440a108b453122d47,telecom,tower,...,...,...,Natural Resources Canada
+e81704565ba62bfa721b719ce03f7eb4,low carbon,biomass,Haliburton Forest Biopower 1,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+ea92a663d5dd4849eeb6e6588d295f24,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f328d152b80f93d83dad2b103b9ad215,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f338dfecca76acf4ea744c536a5477f5,telecom,tower,...,...,...,Natural Resources Canada
+f6eee0422d9a39965ebae54cf9c9b149,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fb861372ae1a7f5eba3ad7055bfb7d22,airports,...,Kennisis Lake Seaplane Base,seaplane_base,...,OurAirports
+fd642bf90d625e1f90da3c371b55b938,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

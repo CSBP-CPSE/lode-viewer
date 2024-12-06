@@ -1,14 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue 6e Ouest,BRIDGES AND TUNNELS,Footbridges
-Chemin Croinor,BRIDGES AND TUNNELS,Footbridges
-Rue 3e Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de Pénétration,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Rue du Parc,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0120e7999f2c13a3d007743a125c9fe1,railways,track,Senneterre,...,...,Natural Resources Canada
+0195ae5daa553422385a11e02890e3a1,railways,track,..,...,...,Natural Resources Canada
+02c228035d2db7096b93ee2c7a7360f0,bridges and tunnels,mixed,..,..,..,La Province de Québec
+03368077293f21c219e24eed60e6b45d,railways,track,..,...,...,Natural Resources Canada
+04394343a37261ca3b403d7d5f4e3a96,railways,track,..,...,...,Natural Resources Canada
+06d3041f49b65908861b43ff7076b263,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0743b5f975e143f5e3544b646e9117b9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+09306cd819572a7e9d93b98dc2013333,railways,track,..,...,...,Natural Resources Canada
+093f723c0b8abeb6b4bb0a5f3fa9cd25,railways,track,..,...,...,Natural Resources Canada
+0a88ffc27348070841b6f744d56da08b,railways,track,..,...,...,Natural Resources Canada
+0ba1c653d783ba9cd51f1dcd5364dd75,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+114d499572f5b814064ad440fb0ebde6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+114fe8f1c0d83598cb51da4bd1173dff,railways,station,Dix,...,...,Natural Resources Canada
+11a801c2419649ca0b1099aee826751c,telecom,tower,...,...,...,Natural Resources Canada
+11efa0a46db585ec4f04643ce83497d4,railways,track,Senneterre,...,...,Natural Resources Canada
+133c10639107e8978fb2a4717fb3e149,railways,station,Bolger,...,...,Natural Resources Canada
+15f6e2b4e3a3b29942789cff1a732905,railways,track,..,...,...,Natural Resources Canada
+16d5e312d1cce2980b56da5c8dea40fa,airports,...,Marina Senneterre,seaplane_base,...,OurAirports
+172449f634005abb826e4e1eedd98e70,railways,track,Senneterre,...,...,Natural Resources Canada
+17ecda1fa2693a380079b97816df8cbd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1896331b108f025601d26b4abda73061,railways,track,Senneterre,...,...,Natural Resources Canada
+18e49f87932a56e973f2548d5e88e1f7,railways,track,..,...,...,Natural Resources Canada
+1b3c7b6113bbbfc8634a453b47b8e8df,electric grid,power_plants,..,...,...,Natural Resources Canada
+1b8c0a868dd4ef5c0aefe431235a4e7d,railways,station,Langlade,...,...,Natural Resources Canada
+1c63060cd4c720894d711025c6f1d3e5,railways,track,..,...,...,Natural Resources Canada
+1d1aad3f8a26ea4c4cf197eeb404c249,railways,track,Senneterre,...,...,Natural Resources Canada
+1f37fd542c7ca6e361a44d0d2a570374,railways,station,Bourmont,...,...,Natural Resources Canada
+1fb3abad276760089601d2fe108ea01b,railways,station,Megiscane,...,...,Natural Resources Canada
+201ed2cf5162915c4dfbdc5d02ed934b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+20951afe89f64e02079f415634597cfa,railways,track,..,...,...,Natural Resources Canada
+22f90ce3051863d115de317eca29e6f6,railways,track,..,...,...,Natural Resources Canada
+23ece6f2aa0e2f218d96fa22ef70fbb0,railways,track,..,...,...,Natural Resources Canada
+245cdf270fe0c7cb13190cc16ae0fbbc,railways,track,..,...,...,Natural Resources Canada
+258383cee7e0d251d910b4bc2953c053,railways,track,Senneterre,...,...,Natural Resources Canada
+26a6588aa2bf6cd3c7aa40e849724893,low carbon,biomass,Senneterre,...,...,World Resources Institute
+272460332a3eff42ab69bce092f5c3a9,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+29467c1d4ec444b5eaad5dd6e528655e,airports,...,Senneterre Airport,small_airport,...,OurAirports
+29d4de4dca46bc5e40bff35a9fef37d8,railways,track,..,...,...,Natural Resources Canada
+2a64e37d65fc64d9f916ebc83991f4ee,railways,station,Press,...,...,Natural Resources Canada
+2cc0f3dded2b4c61d80f21d06d61755d,low carbon,charging_stations,Hôtel De Ville De Senneterre,...,...,Government of Quebec
+3199f473702fdc655e6ac2d4b3d76b51,railways,track,..,...,...,Natural Resources Canada
+330b84ad66eda800681cee1a5f935607,railways,track,..,...,...,Natural Resources Canada
+3a6d0535e889f122b6c34bf23e84bd6a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3c899a7a84f9d65200f1b28575f2b5e3,railways,track,Senneterre,...,...,Natural Resources Canada
+408064b25ab77b2a2a225a35655d918f,railways,station,Senneterre,...,...,Natural Resources Canada
+42c626a2c0aa7b62c2828222ec734345,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4520453c937ea649d0b78e0d687746ea,railways,track,Senneterre,...,...,Natural Resources Canada
+463db7fd08d9f7befb36f428ff015ae7,railways,station,Signai,...,...,Natural Resources Canada
+475adcc425ad2d4f2933a8d8aeaeb9d1,railways,track,Senneterre,...,...,Natural Resources Canada

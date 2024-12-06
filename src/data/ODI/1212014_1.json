@@ -1,5 +1,16 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-GEORGE ST,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-..,WASTEWATER STORMWATER,..
-George Street,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0419ba506f4d7266f16d994d09988a1c,telecom,tower,...,...,...,Natural Resources Canada
+166478e132374e35c26ab32b2cb27599,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+20c98ac1839f76aa5b31d3e103445ae2,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+2611d4a0b4534dd812ef3340bd23a80f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32a934498dafbb44f74f38bc346cb76e,airports,...,Aberdeen Hospital Heliport,heliport,...,OurAirports
+5bf503f31eee4434f8ec4299d919f911,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+81cd53a0ff25e2541d468e0ada43bcc7,railways,track,..,...,...,Natural Resources Canada
+903e19366b71cc635a0555ff4958facb,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+9d3e19532cbcb58fdfa041acb214b502,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a68deef72c7249a0b682abb884cf77b7,bridges and tunnels,mixed,GEORGE ST,..,..,Province of Nova Scotia
+ad5a806248e343942c1b6282317beca9,railways,track,Trenton,...,...,Natural Resources Canada
+b1e54d8f034d65bcdedec0f5f2f13d45,wastewater and storm water,facilities_waste,East River Environmental Control Centre,..,Waste treatment plant,Environment and Climate Change Canada
+cf1e02863cfaea3153c398bf321d459b,wastewater and storm water,facilities_waste,East River Environmental Control Centre,"Grit Removal, Screening, Activated Sludge, Biological Ammonia Removal – Nitrification Only , Disinfection",Unclassified,Environment and Climate Change Canada
+d3bae1444cec09ca94b9245052251520,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e9805db5894f6b842e07bbbcc875be82,railways,track,..,...,...,Natural Resources Canada

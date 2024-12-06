@@ -1,4 +1,6 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Spruce,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+21c180b9d40e4a71ce021fe1eba454df,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+76d8366f19c80aef2eb23ac78e9ada41,wastewater and storm water,facilities_waste,Aerated Lagoon,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+81f983ec9b55bea72a8125500460fd9c,electric grid,power_plants,..,...,...,Natural Resources Canada
+d284166eb3304611c12ac70876188dc2,airports,...,Wemindji Airport,medium_airport,...,OurAirports
+def5c506c2f39a3400e53a0a8e844116,low carbon,hydro,Maquatua,...,...,World Resources Institute

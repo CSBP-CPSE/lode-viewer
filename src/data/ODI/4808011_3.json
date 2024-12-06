@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-WB 60 ST @ 56 AV,..,..
-EB 32 ST @ 30 AV,..,..
-SB ELLENWOOD DR @ ELDRIDGE CR,..,..
-EB 39 ST @ DOWLER ST,..,..
-EB 62 ST @ 52 AV,..,..
-NB KENDREW DR @ KENT ST,..,..
-WB VISCOUNT DR @ VIOLET PL,..,..
-SB RIVERSIDE DR @ 77 ST,..,..
-EB 49 ST @ 52 AV,..,..
-WB_EVERGREEN_WAY,..,..
-WB Kendrew Dr @ Kingston Dr,..,..
-NB ELLENWOOD DR @ 39 ST,..,..
-NB DONLEVY AV @ DEMPSEY ST,..,..
-SB 50 AV @ NIVEN ST,..,..
-SB DUSTON ST @ DUBOIS CR,..,..
-EB ROLLIS ST @ 30 AV,..,..
-WB NOLAN ST @ NANCE AV,..,..
-NB KENTWOOD DR @ KINGSTON DR,..,..
-NB KENNEDY DR @ KOVAC ST,..,..
-NB CORNETT DR @ CARD CR,..,..
-SB ORR DR @ 66 ST,..,..
-NB GLENDALE BL @ GRANT ST,..,..
-SB 50 AV @ 30 ST,..,..
-NB ORR DR @ OGILVIE CL,..,..
-EB TIMOTHY DR @ TOBIN GT,..,..
-WB 19 ST @ 51 AV,..,..
-NB GAETZ AV @ 74 ST,..,..
-NB GAETZ AV @ 78 ST,..,..
-EB KERRY WOOD DR @ FIR ST,..,..
-11 Highway,BRIDGES AND TUNNELS,Footbridges
-SB 40 AV @ 39 ST,..,..
-NB 43 AV @ 46 ST,..,..
-WB 32 ST @ MITCHELL AV,..,..
-SB 50 AV @ 34 ST,..,..
-SB 50 AV  @ 32st,..,..
-50 Street,BRIDGES AND TUNNELS,Footbridges
-EB NOLAN ST @ NORTHEY AV,..,..
-NB 30 AV @ TIMBERLANDS DR,..,..
-NB KERRY WOOD DR @ 57 ST,..,..
-WB 60 ST @ GAETZ AV,..,..
-39 St @ Metcalf Av,..,..
-NB EDGAR IND DR @ EDGAR IND WAY,..,..
-EB 77 ST @ 40 AV,..,..
-EB AUSTIN DR @ 40 AV,..,..
-WB TEASDALE DR @ TRUANT CR,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-NB 57 AV @ WILSON CR,..,..
-EB 39 ST @ 43 AV,..,..
-WB RAMSEY AV @ RAMSEY CL,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+6072b2101b53801b4cf3f42e22b5e078,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+60a7d8cb3cb07888d94d6aaf5d37ce50,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+60d331eba2346346770c40205905c431,railways,track,Red Deer Industrial,...,...,Natural Resources Canada
+61f15477574eb1fce00883c14b665339,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+62f631d25471c94c6c9ed6804e2759dd,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+631bfef1bfbe41bdf0520b41a4b6ce97,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+636c3c64f5435d2c380c3818bea8d8b7,railways,track,..,...,...,Natural Resources Canada
+63e8c5f44b08ec77c617a1ec71272930,railways,track,..,...,...,Natural Resources Canada
+64a728039c42622da6871a9ac3243540,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+64e87d3a72142d5e67518cc49947610b,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+662d13b3cb88de1916524384be00ece1,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+671af94c49934e56243a3b7f1f09d106,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+68359f69154666bc370a4a2e89454934,railways,track,Red Deer Industrial,...,...,Natural Resources Canada
+683cbd42f4cd7c5d17fb46527bf9fa6b,railways,track,Red Deer Industrial,...,...,Natural Resources Canada
+69be7d3ca03f8d5f0b1a87285c23c4cd,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+6ab15333634812a7301b9f316365723d,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+6c1d434bf0b8be8df2e6e60fb1857b2b,railways,track,..,...,...,Natural Resources Canada
+6ce0247c730cad7c4f4a974abf841d4a,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+6da7b01e14a0fc28f391b4a5b9ffbd6c,railways,track,Red Deer Industrial,...,...,Natural Resources Canada
+6e234437d938304faaa0200370ee82ce,railways,track,Red Deer Industrial,...,...,Natural Resources Canada
+6e532e5309cbd3de884ef3ff6a704ffa,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+6ec291c51408e9d61c15f188e36f59b6,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+701586142df68111b58f2b5a81c68f11,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+72d5402da7d64c65c5dd5969aa2b7ea2,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+75e960320f74630d9437c0dde0e62939,railways,track,Red Deer Industrial,...,...,Natural Resources Canada
+79074fc1dd17a371a183100998b26ae6,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+795c98bcc7b9a0db6d4921617272b197,oil and gas,wells,..,..,...,Natural Resources Canada
+7ad1cca6b03090492c52cbff374e5933,potable water,facility,Water Treatment Plant,..,Treatment plant,Environement and Climate Change Canada
+7b1473f82117725b11a9a41d7c66edee,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+7b57e3c8fa6a216559425465f3200789,airports,...,Red Deer Regional Hospital Centre Heliport,heliport,...,OurAirports
+7b819c362da84e96616b552004955e85,railways,track,Red Deer Industrial,...,...,Natural Resources Canada
+7bd515121144ab22a84e054e6451bec7,railways,track,..,...,...,Natural Resources Canada
+7d0a0dae56754fea9f524bf5404d77b8,oil and gas,wells,..,..,...,Natural Resources Canada
+7d678f8a4e16f71cbcbb00fc1d0a7815,oil and gas,wells,..,..,...,Natural Resources Canada
+7de8e6b2c29353f4e288de80e45726f3,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+7e6ac027d6aac2c2de63b6a0f91b4e98,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+816bbfbed2b39dffc6262cacd8f0478e,railways,track,..,...,...,Natural Resources Canada
+8196f1720a97f5c05454ba224d47b631,railways,track,Red Deer Industrial,...,...,Natural Resources Canada
+83066333aa0195aeabe97dc3835930c5,railways,track,Red Deer Industrial,...,...,Natural Resources Canada
+83723249f462e821f487aa649bc03550,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+846bbd0a34df977cb4d6aaaae96c0831,railways,track,..,...,...,Natural Resources Canada
+8494721ca5bb1e9c7ab77cc3562c0efc,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+84de38a75084903a9ed88d86ae61c220,railways,track,Red Deer Industrial,...,...,Natural Resources Canada
+84f19592e68fc6d9ebd5a89fee86d032,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+860b5118f044a5eeb21c05e24fa96150,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+864214ca1553aa8b0401a0f0103c31ce,railways,track,Red Deer Industrial,...,...,Natural Resources Canada
+8696d9793c65729abe38419713a3a702,railways,track,..,...,...,Natural Resources Canada
+8762b94e2438f46ed182badd04eec49a,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+89a787a02281745eedae8e620a8bb0db,oil and gas,wells,..,..,...,Natural Resources Canada

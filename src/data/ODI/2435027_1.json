@@ -1,20 +1,26 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route 153,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang du Haut-du-Lac Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue du Moulin,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Rang du Haut-du-Lac Nord,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Germain,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang 4e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Dessureault,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0cf3a29f1f107883762e57ccda9a0b91,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0cfbd26eafdb3846ce256876fcf6d212,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0d771f961c28f2626bc4c5d3d3d30e71,railways,station,Saint-tite,...,...,Natural Resources Canada
+1153896ddbb53ea2fa98a8d153c54fd1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+18bfc443166497cc693cd35c695b50f1,low carbon,charging_stations,Stationnement Municipal Du Moulin,...,...,Government of Quebec
+249c8cc2bf5cc3909ac4126e4961cfef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+316848f7f43c8514dd3d6b510e2352fb,wastewater and storm water,facilities_waste,Steu Ville De Saint-tite,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+69ca456b97731aba3f74f60c163ec67f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6aded78175d521b436c6f1053f9c28ce,low carbon,charging_stations,Mrc Mékinac - Bureau Mrc,...,...,Government of Quebec
+7d2381e604fee1852c387ff3c1be54b5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8b7a79cf010bd0f46e9baa397a3cff56,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8f5d78e4ac1a201cbca81f87e716e4ba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+97a19dda7787a81a8ef2307a2acbc4d6,telecom,tower,...,...,...,Natural Resources Canada
+ab6980cdbd712526b08956a107d0e6dd,railways,track,..,...,...,Natural Resources Canada
+ab95ee3f0c0aa95a92d9b6562bdd6965,low carbon,charging_stations,Brcc - Saint-tite - Shell,...,...,Government of Quebec
+b3652d6d25bbf2803f79e11bc9841adb,bridges and tunnels,mixed,..,..,..,La Province de Québec
+b483c925b6292c63ec1489598562262b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c2d47585b134014204f37d12aed8c4f8,telecom,tower,...,...,...,Natural Resources Canada
+c61ca0cd7c17e2994c79d688782d2ca6,low carbon,charging_stations,Sportium Municipal,...,...,Government of Quebec
+dabe0f9fc4721503cfca93e47d86cc03,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e688b24cc1ca75fe52c34d2a248c1a9c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ea90d346381804b24c4d0025495c401e,low carbon,charging_stations,Desjardins - Mékinac Des Chenaux,...,...,Government of Quebec
+eb409eb1eeda85929e5bd3948e3dac0d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f8346697a991862e9c08910d37861321,railways,track,..,...,...,Natural Resources Canada
+fc56864d624709a50090e6ff98a6ec1e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

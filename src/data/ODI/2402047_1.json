@@ -1,37 +1,41 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route 132 Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route de Clemville,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route du Parc,BRIDGES AND TUNNELS,Footbridges
-Route Alexander,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Route de la Rivière,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 132,BRIDGES AND TUNNELS,Footbridges
-Route du Camp-des-Étudiants,BRIDGES AND TUNNELS,Footbridges
-Route de l'Anse-à-la-Barbe,BRIDGES AND TUNNELS,Footbridges
-Route de la Passerelle,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 132 Est,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Briand,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route de l'Anse-McInnis,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Canton,BRIDGES AND TUNNELS,Footbridges
-Chemin à Pierre,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+021bffff20ac1b3a477aa7bc33d0ec86,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d1021eef84c0e5923f06ada0409bec5,ports and marinas,mixed,Gascons (anse À La Barbe),Non-Core Fishing,...,Fisheries and Oceans Canada
+26d0ad7fc271589ae2ee2713d0435e33,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+28dacde24f9acba374512f2353d44f22,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f88894baa332866bc33ddbfbe0e9b65,ports and marinas,mixed,Port-daniel-est (à Bona),Core Fishing,...,Fisheries and Oceans Canada
+37d0f260f41817c42ca3def3513b9f25,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b6695a1f2a4adf8e1e6be676aaee17f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ca80090c1db0ae5fa966e58f34035b5,railways,station,Port Daniel,...,...,Natural Resources Canada
+3ee8effc088cbd9b46a3013a4eea6ce1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+413a3abf4a34ba499994b6fda50e1715,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+46c9245df48a04b1893ebf45241eb89f,ports and marinas,mixed,Port-daniel-ouest (marcil's Landing),Non-Core Fishing,...,Fisheries and Oceans Canada
+4c5f9273645c53041a611222cc4380ed,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4d470eff8a1e3f925d419c135ee9f1c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+615cf4a16e66c1c217dd8b80e5ff251a,railways,track,..,...,...,Natural Resources Canada
+6407f3143f015ca16c8fd14683d0f920,railways,track,..,...,...,Natural Resources Canada
+67d1a0c4c18dc418c8bad20ecfbd27d8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7df419c118d2bf7f1c2e0f65b179bb74,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7f6febc09314563c615d2c50655d574b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+839791638139775943c448e58850a2b3,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+878ac66076b7a675184e7e36aa600f4f,telecom,tower,...,...,...,Natural Resources Canada
+8b575dcef376cebb064e300b1ab45f16,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8feb858fa9ef6eb69a0ea6b5a9a7b716,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+94b4909aaa126591b8b46b3585332378,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9e87660bc882f141e66e1d065cd31288,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9f816c5a847e7a4cb0a748d07f5e69ac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a2926016f0167cbed121b38f2b723a1b,wastewater and storm water,facilities_waste,Etang Aeree,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+a9f58d08aa6f573812c471676df4e51a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+b7f65526038cccd97186a41ff633d530,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ba72d05779cad67bb8b7272e385f572f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+bd92e96e90e2545c5151087ef1399ad4,railways,track,..,...,...,Natural Resources Canada
+c12670a8e0005ef9a454d1ba8771eb41,bridges and tunnels,mixed,..,..,..,La Province de Québec
+c73461ba11abaf8092c97f2f6de41572,ports and marinas,mixed,Gascons (ruisseau Chapados),Core Fishing,...,Fisheries and Oceans Canada
+d410f9eea8807b755c4cf1b2d5e00f66,bridges and tunnels,mixed,..,..,..,La Province de Québec
+dab15ea07821eba46366b10f7f4ebf0f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dc969e90685bbd8fdca1d6f3941dac2f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e91ae9e4bd818bdf5a5c65a0487cf434,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ea9db648798414f7eb5290d76327e77a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eb46ecc617861213ae4661b5e1ba9d03,bridges and tunnels,mixed,..,..,..,La Province de Québec
+f3f9bfafb0d9a5176079015097afa168,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f6afdf22467f9706c76ecf4eeb316f4f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

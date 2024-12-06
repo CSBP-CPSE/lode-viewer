@@ -1,23 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Likely Road,BRIDGES AND TUNNELS,Footbridges
-Little Horsefly Road,BRIDGES AND TUNNELS,Footbridges
-Horsefly-Likely Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Jacobson Road,BRIDGES AND TUNNELS,Footbridges
-Beaver Crescent,BRIDGES AND TUNNELS,Footbridges
-Hatchery Road,BRIDGES AND TUNNELS,Footbridges
-Gavin Lake Road,BRIDGES AND TUNNELS,Footbridges
-Canim-Hendrix Lake Road,BRIDGES AND TUNNELS,Footbridges
-Kroener Road,BRIDGES AND TUNNELS,Footbridges
-Knife Creek Road,BRIDGES AND TUNNELS,Footbridges
-Horsefly Road,BRIDGES AND TUNNELS,Footbridges
-Cariboo River Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-6700 Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Opheim Lake Access Road,BRIDGES AND TUNNELS,Footbridges
-Pigeon Road,BRIDGES AND TUNNELS,Footbridges
-Horsefly-Woodjam Road,BRIDGES AND TUNNELS,Footbridges
-Walters Lake Road,BRIDGES AND TUNNELS,Footbridges
-Highway 97,BRIDGES AND TUNNELS,Footbridges
-Haggens Point Road,BRIDGES AND TUNNELS,Footbridges
-McKinley Trail,BRIDGES AND TUNNELS,Footbridges
-Keithley Creek Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01177b74565b7042a2fe6c709a691dd1,bridges and tunnels,bridge,RAT CREEK,BRIDGE,Bridge,Province of British Columbia
+02a6de5a542db91c40f25b56d3ab7b0d,airports,...,Penfold Airstrip,small_airport,...,OurAirports
+039a65c053a4c718f439f5e7b663dd3a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+08f6cfbf2bc86f6a6a8ae9fbef70f3fd,telecom,tower,...,...,...,Natural Resources Canada
+0d33c6a0f4439692cfe1dfb377c90001,bridges and tunnels,bridge,NICOL,BRIDGE,Bridge,Province of British Columbia
+1a16cfb5aa19b62bee0ab10bb1db6abf,bridges and tunnels,bridge,HATCHERY ROAD,BRIDGE,Bridge,Province of British Columbia
+1a5ada57983fe57f810a63c0b7bb2281,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1ba769648e34598b8244dc00d3b20416,bridges and tunnels,bridge,WIGGINS CREEK,BRIDGE,Bridge,Province of British Columbia
+21be87cfe45fc642be3b9dec5b44a51e,bridges and tunnels,bridge,COURSON,BRIDGE,Bridge,Province of British Columbia
+223863a643ece6e8e0058f4ee8e43462,railways,track,..,...,...,Natural Resources Canada
+23786b1eece8c7ce63f8caaecd991458,airports,...,Dugan Lake Air Strip,small_airport,...,OurAirports
+26e385fa829886e201d6ad5dd0084e34,bridges and tunnels,bridge,SPAWNING CHANNEL,BRIDGE,Bridge,Province of British Columbia
+2a9d83303b735abd1a3c52b2d12f622f,bridges and tunnels,bridge,CEDAR CREEK-LIKELY,BRIDGE,Bridge,Province of British Columbia
+2b6b8105947ca97f62359a07cab6f3bc,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2b952e7d6119443f3865eb4aa355bdbb,bridges and tunnels,bridge,DUCK,BRIDGE,Bridge,Province of British Columbia
+2c3f6226be22a49e4e3010d5f115a192,bridges and tunnels,bridge,PIGEON,BRIDGE,Bridge,Province of British Columbia
+3168e981e23e79727007445ca74f71f8,oil and gas,pipelines,..,..,...,Natural Resources Canada
+341b10f7bfd32c5dda8305208ee6197e,bridges and tunnels,bridge,TEASDALE,BRIDGE,Bridge,Province of British Columbia
+3471317367f5fe5d4269752f8ebb9936,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+356cc9afa9f15d94c63b9958c16b2acb,bridges and tunnels,bridge,JESSICA,BRIDGE,Bridge,Province of British Columbia
+384b64f3fdf176c3a0cbb1ca5b7f4ffd,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+3ebc2523f4115c814c37126816ccad58,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4167538587fee8bae5516a858627e306,bridges and tunnels,bridge,KEITHLEY CREEK,BRIDGE,Bridge,Province of British Columbia
+4286f45670b36a76534f390e5d42786e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4c8214f5ff53cf7ba811b997ae82f8e5,bridges and tunnels,bridge,CARIBOO RIVER,BRIDGE,Bridge,Province of British Columbia
+4d44afbfcea1d387d8dffb17ade3320f,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+50ed60db2d029f64343456cb87e02254,oil and gas,pipelines,..,..,...,Natural Resources Canada
+514ca772fd04bb3f2c71a36dddfceeaa,oil and gas,pipelines,..,..,...,Natural Resources Canada
+51a38cfb5b3594443ecd18a61161dae4,bridges and tunnels,bridge,KNIFE CREEK,BRIDGE,Bridge,Province of British Columbia
+51f1b46f36885176737f64de3658f8ed,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5332c8a6c31edee142a97d63e67ea651,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+56f0f4dd5ebddee48a82771f376cd3a9,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+5854c2eba413932a876bbf570086f8ea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a86f25706fe1244a3f3c6b9a8cb9f2d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5e05a20a58483fbe9055ceec4fbef9a6,bridges and tunnels,bridge,SUCKER POINT,BRIDGE,Bridge,Province of British Columbia
+5f01a1e0ddab5a6760b3e60a7aeffbd3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f3cab6727cda39fa37f6fdaec0024b3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+602da659e5af8c69f8d704c0b6af2dc8,bridges and tunnels,bridge,GRAVEL CREEK,BRIDGE,Bridge,Province of British Columbia
+612ecd1a731b2d67ec40b10328f3a407,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+61b602ea69be3efd72cf527031073ee1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6329620bbabdbef80725cc82ffcab151,bridges and tunnels,bridge,MILLAR/GIBBONS CR,BRIDGE,Bridge,Province of British Columbia
+63f262bb2fc3061ecf284db1e0beda00,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+673fa5c8bf85dbdf1b54883f9aecfaed,bridges and tunnels,bridge,COLDSPRING CREEK,BRIDGE,Bridge,Province of British Columbia
+674cf1f5746d717060f915eecb4cd617,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6a6f1fdf750fd345803ce3ad1a2e6d01,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6b74a280fdee6f572c4305cd852df1bc,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+6b9003e205f271cac85625bf9c91da2a,bridges and tunnels,bridge,LEMON LAKE,BRIDGE,Bridge,Province of British Columbia
+6c04afae4b072879d26649773bd11cb6,airports,...,Twin Lakes Airport,small_airport,...,OurAirports
+71ff934318311c4bf1dd29e07368cdeb,bridges and tunnels,bridge,BEAVER LAKE,BRIDGE,Bridge,Province of British Columbia

@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-WILKEN MUNICIPAL DRAIN - Rigid Frame Box - Highway 23,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-MUNICIPAL DRAIN #2 -  Rigid Frame Box - Highway 89,BRIDGES AND TUNNELS,..
-Young Street East,BRIDGES AND TUNNELS,Footbridges
-Culvert,BRIDGES AND TUNNELS,..
-MAITLAND RIVER BRIDGE (TRIBUTARY),BRIDGES AND TUNNELS,..
-Brides Road,BRIDGES AND TUNNELS,Footbridges
-Minto Normanby Townline,BRIDGES AND TUNNELS,Footbridges
-MINTO DRAIN - Rigid Frame Box - Highway 23,BRIDGES AND TUNNELS,..
-John Street South,BRIDGES AND TUNNELS,Footbridges
-William Street South,BRIDGES AND TUNNELS,Footbridges
-SAUGEEN RIVER BR SOUTH,BRIDGES AND TUNNELS,..
-Baseline,BRIDGES AND TUNNELS,Footbridges
-DREDGE CREEK BRIDGE (HARRISTON),BRIDGES AND TUNNELS,..
-John Street North,BRIDGES AND TUNNELS,Footbridges
-Wellington Road 5,BRIDGES AND TUNNELS,Footbridges
-5th Line,BRIDGES AND TUNNELS,Footbridges
-Wellington Road 87,BRIDGES AND TUNNELS,Footbridges
-Highway 23,BRIDGES AND TUNNELS,Footbridges
-8th Line,BRIDGES AND TUNNELS,Footbridges
-Wellington Road 109,BRIDGES AND TUNNELS,Footbridges
-Blind Line,BRIDGES AND TUNNELS,Footbridges
-7 School Road,BRIDGES AND TUNNELS,Footbridges
-MUNICIPAL DRAIN #1 - Rigid Frame Box - Highway 89,BRIDGES AND TUNNELS,..
-Wellington Road 6,BRIDGES AND TUNNELS,Footbridges
-6th Line,BRIDGES AND TUNNELS,Footbridges
-1 Road North,BRIDGES AND TUNNELS,Footbridges
-MUNICIPAL DRAIN #6 - Rigid Frame Box - Highway 23,BRIDGES AND TUNNELS,..
-4th Line,BRIDGES AND TUNNELS,Footbridges
-3rd Line,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Elora Street South,BRIDGES AND TUNNELS,Footbridges
-7th Line,BRIDGES AND TUNNELS,Footbridges
-12th Line,BRIDGES AND TUNNELS,Footbridges
-MUNICIPAL DRAIN #13 - Rigid Frame Box - Highway 23,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0a5edf4cf804d3bbabc0efbfe7ff3b97,bridges and tunnels,bridge,SAUGEEN RIVER BR SOUTH,Bridge,Bridge,Province of Ontario
+120ce85c714ab0c262e32f71b929c39f,bridges and tunnels,culvert,Culvert,Culvert,Culvert,Province of Ontario
+13774182d8f7f869aef320669dec16a5,bridges and tunnels,culvert,WILKEN MUNICIPAL DRAIN - Rigid Frame Box - Highway 23,Culvert,Culvert,Province of Ontario
+1aea8ce251a8f663d1447cfeeac21691,bridges and tunnels,culvert,MUNICIPAL DRAIN #13 - Rigid Frame Box - Highway 23,Culvert,Culvert,Province of Ontario
+202168cc5550ecc8dfc032c0f48abcd0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+22c476f6e008c8ed454f1857107207d8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2a1b0d051a4228725796f5a00e076167,airports,...,Palmerston Airport,small_airport,...,OurAirports
+2afc686385f7d334b1399a92c3f4bae9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+420d6e3eb2be9f1e3ba07c87c8cc4a3f,telecom,tower,...,...,...,Natural Resources Canada
+4579077c67d45e831f5cdcd7f2bff798,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+487ecd47a1a43f8bd87913e934003c61,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4bcb0b606cf77cdacaef645edf7a2b71,bridges and tunnels,bridge,MAITLAND RIVER BRIDGE (TRIBUTARY),Bridge,Bridge,Province of Ontario
+4eba5bddecaaa6a9852f83760b33ba98,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+58177b08126922e7e52669d6954e04cf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+589dd31cf0cd165491c37d53824b3734,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a1f99f3d8fc8a7d1a72ce3474553536,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b1da20d67f1a2ed8d4c1fe048a20046,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6123a66f1c2360c028a554970d5c547e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e2d15a06dd3de71067a539d490d017a,bridges and tunnels,culvert,MINTO DRAIN - Rigid Frame Box - Highway 23,Culvert,Culvert,Province of Ontario
+73c5a669eadeac64efd3c46d0997ea4f,bridges and tunnels,culvert,MUNICIPAL DRAIN #2 -  Rigid Frame Box - Highway 89,Culvert,Culvert,Province of Ontario
+7f95c69043f4883ab1daf84efe01a49f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8468b6981e900eafc07d3e415a92afde,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+85e26a300b6c54170de25fb69a0c0291,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8810ccb851db228b78bafe61d20c0f00,wastewater and storm water,facilities_waste,Harriston Wastewater Treatment Facility,"Lagoons - Aerated, Storage Ponds, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+950e00e7ebcf995141074eddf3c9f754,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+95a4c51102167ba8bc60c06ed1260f9b,bridges and tunnels,bridge,DREDGE CREEK BRIDGE (HARRISTON),Bridge,Bridge,Province of Ontario
+96938aeeff6b800feff40edfd56cc11b,bridges and tunnels,culvert,MUNICIPAL DRAIN #1 - Rigid Frame Box - Highway 89,Culvert,Culvert,Province of Ontario
+982dfa05e6e42e4bd5ef888ddc9b9193,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aa24794e774b2b71f4714771ded706ae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ad4da79d75861a71457bee7c6c4414eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b4f40dc6eb4c858ea120e90176374fcd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b5ebb330d74a7a5300ec0d1ee892fdec,telecom,tower,...,...,...,Natural Resources Canada
+bc31d873fd501d3cdab3592e6664c098,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bd88fa307079843c0e30162d4fa7c72d,wastewater and storm water,facilities_waste,Clifford Wastewater Treatment Facility,"Lagoon - Anaerobic, Lagoon - Facultative, Storage Ponds, Biological Ammonia Removal – Nitrification Only , Chemical Precipitation (Phosphorus), Filtration, Polishing Ponds",Unclassified,Environment and Climate Change Canada
+be585e909941d479711c8257c61bd9b1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bf79a0e72dfeee86b193cb1de7c9b67e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bfcf7ffb15153cb475942c0d61588b55,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c75e8eee795bb44fc9961ba55562b613,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c8e751b150ce4638f1f199432fe9daef,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ca4b2cbd8b582154b45f26465dce95d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cccb9ec39f1a46351b1d8e9151edf80b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ce1c7895bd6003240f8c246979d4dfc6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+d0d96ca20073084e42211e4b61576c89,airports,...,Palmerston (district Hospital) Heliport,heliport,...,OurAirports
+d4459a27b7f729f81a9b5f6d9f467d2d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e0d1809dbfea5e597019d166710a3f3a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e91cf21623dc33b03ead819215cb451b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f22dd6efa854a136a02082620d845ba4,bridges and tunnels,culvert,MUNICIPAL DRAIN #6 - Rigid Frame Box - Highway 23,Culvert,Culvert,Province of Ontario
+f3bcca557cd4f3fd44a01e4587f4b7b1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f42f73f5fb500e7ce16c3edb3eab074b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

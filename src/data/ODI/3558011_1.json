@@ -1,30 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-John Street Road,BRIDGES AND TUNNELS,Footbridges
-Gillespie Road,BRIDGES AND TUNNELS,Footbridges
-Highway 11 & 17,BRIDGES AND TUNNELS,Footbridges
-Pole Line Road,BRIDGES AND TUNNELS,Footbridges
-SLATE RIVER BRIDGE,BRIDGES AND TUNNELS,..
-KAMINISTIQUIA RIVER BRIDGE (SOUTH CHANNEL),BRIDGES AND TUNNELS,..
-PENNOCK CK. CULVERT,BRIDGES AND TUNNELS,..
-Boundary Drive,BRIDGES AND TUNNELS,Footbridges
-Highway 588,BRIDGES AND TUNNELS,Footbridges
-Veley Lane,BRIDGES AND TUNNELS,Footbridges
-KAMINISTIQUIA RIVER BRIDGE (NORTH CHANNEL),BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Bridges
-Hanna Road,BRIDGES AND TUNNELS,Footbridges
-Highway 61,BRIDGES AND TUNNELS,Footbridges
-PENNOCK CREEK  CULVERT,BRIDGES AND TUNNELS,..
-CP Overhead @ Paipoonge,BRIDGES AND TUNNELS,..
-KAKABEKA FALLS BRIDGE,BRIDGES AND TUNNELS,..
-KAMINISTIQUIA RIVER BRIDGE,BRIDGES AND TUNNELS,..
-NEWTON CREEK CULVERT,BRIDGES AND TUNNELS,..
-Harstone Road,BRIDGES AND TUNNELS,Footbridges
-Corbett Creek Concrete Barrel Arch,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-C.N. OVERHEAD HWY. 11/17 (PAIPOONGE) MILEAGE 16.46,BRIDGES AND TUNNELS,..
-"PENNOCK CREEK RIGID FRAME STEEL BOX CULVERT, Vibert Road",BRIDGES AND TUNNELS,..
-Maki Road,BRIDGES AND TUNNELS,Footbridges
-Highway 130,BRIDGES AND TUNNELS,Footbridges
-McNally Drive,BRIDGES AND TUNNELS,Footbridges
-Candy Mountain Drive,BRIDGES AND TUNNELS,Footbridges
-Arthur Street West,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0040b756160e52275c50e80a78c82c85,railways,track,..,...,...,Natural Resources Canada
+036897b14827e42a2e745c414e91a505,railways,track,..,...,...,Natural Resources Canada
+049f9ce76f273b7c8043e3733b4db498,railways,track,..,...,...,Natural Resources Canada
+07c85d4daf5d9db526cadd895022d811,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0b76727b0e61197b5860c140f9cfe0f2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0ba50a924007b700a41f47ab6f64afc5,railways,track,..,...,...,Natural Resources Canada
+0c727df3b9940df69e896fcb0fe5bdab,railways,track,..,...,...,Natural Resources Canada
+0cbf54a7e00a2fa76c0c287f52ed8827,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+12c3ff2023862fa1e25090335b41f6ba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1392cd2cc1c4f8e64691eea4a4a80ad1,telecom,tower,...,...,...,Natural Resources Canada
+1857977517f73419e5b5e5ca2895e552,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1958ac46cc9fac5b96b4290ee86f4697,electric grid,power_plants,..,...,...,Natural Resources Canada
+1b279e9d56ea4f7851254fc3ac4c55ed,bridges and tunnels,bridge,C.N. OVERHEAD HWY. 11/17 (PAIPOONGE) MILEAGE 16.46,Bridge,Bridge,Province of Ontario
+1ce4a2332e9d6268118d41c4bf05fe34,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2026fd534b6af4788535816180593db9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2728420bc0e03b3417c1cec96edcbe9f,railways,track,..,...,...,Natural Resources Canada
+27ab81b5fb0df77c14ebb5313826a3a7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2b4c8cc7a68c8504b5df2db1aa5d0329,railways,track,..,...,...,Natural Resources Canada
+2d60be9b446bb51ca67cd6fdf1e81411,bridges and tunnels,mixed,..,..,..,City of Thunder Bay
+2e610706ce07bdf583ad33f76ae470ca,railways,station,Evans,...,...,Natural Resources Canada
+2fc7e41c61d6934122c50408fa7a0094,telecom,tower,...,...,...,Natural Resources Canada
+35fcd23e08bb13a157716fea527887ed,bridges and tunnels,bridge,CP Overhead @ Paipoonge,Bridge,Bridge,Province of Ontario
+44a75db134783fb2b3ffcdae54fec3f9,telecom,tower,...,...,...,Natural Resources Canada
+486d6e767de70a91058c4a5b700bfc0e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+54648cd2ff0e8b0810e1463a1b226889,railways,track,..,...,...,Natural Resources Canada
+5e7ded426da6b98695cd34d4dff8c2ca,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f17c00c2a98d5b0fcdae3374075af4c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+63db6242369d5e6adc675ebd3aed1c7d,railways,track,..,...,...,Natural Resources Canada
+649849afb523203181054274710b4a8d,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+6658a3fdfb161c8755dcb01f41f76b25,railways,track,..,...,...,Natural Resources Canada
+67000cb38afc809ea9b0d64a7373897d,railways,track,..,...,...,Natural Resources Canada
+6701402064d178306976c831ab8b772e,bridges and tunnels,bridge,KAMINISTIQUIA RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+69feefddd43af5b067e6c72259eeb975,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+74217ee246b11e6999829aec79ce74e8,railways,track,..,...,...,Natural Resources Canada
+7b95fae3e9257645978a79c3452e8896,bridges and tunnels,bridge,KAMINISTIQUIA RIVER BRIDGE (SOUTH CHANNEL),Bridge,Bridge,Province of Ontario
+86db000c1382030e17ef215843b90e19,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8bed6b188485524d782ebbe93a501c45,railways,track,..,...,...,Natural Resources Canada
+8f492c4ac070892ca5f444d9c26ee2e8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8f4cf264be07fa52f46b4cba03c7c92c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8f6e8bfad1e67a499d4e77a90b61d898,oil and gas,pipelines,..,..,...,Natural Resources Canada
+9958cd80d762d2651bd53fcb7bce7cdd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+99e823a51d1e2e9e7c124439a011f304,railways,track,..,...,...,Natural Resources Canada
+9c5999493599040413df5b40188f9f86,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9fa1f66d79dd980fe37124d5fe5d83f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a05d19fcdcf1237e26bded0ae359e17a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a1a8ee48afeff11babd6f2d19a38435a,bridges and tunnels,culvert,NEWTON CREEK CULVERT,Culvert,Culvert,Province of Ontario
+a914bcc34b356522a432b550779d0be3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a928f5293959ddbde52ce7b96343e84a,railways,station,Kakabeka Falls,...,...,Natural Resources Canada
+b0bf91ee5ed2d442438e27c8d20094ee,bridges and tunnels,culvert,Corbett Creek Concrete Barrel Arch,Culvert,Culvert,Province of Ontario

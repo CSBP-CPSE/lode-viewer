@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Ripley No 4 Road,BRIDGES AND TUNNELS,Footbridges
-ATHOL,BRIDGES AND TUNNELS,"Bridges, Culverts"
-STILES,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SOUTH BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-O'Rooke Brook Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LITTLE FORKS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Leamington Brook Trail,BRIDGES AND TUNNELS,Footbridges
-POLLY'S,BRIDGES AND TUNNELS,"Bridges, Culverts"
-RAILROAD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ROBERTS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-COLLINGWOOD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lynn Road,BRIDGES AND TUNNELS,Footbridges
-Wentworth Collingwood Road,BRIDGES AND TUNNELS,Footbridges
-TAGGART CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-South Brook Road,BRIDGES AND TUNNELS,Footbridges
-Fenwick Road,BRIDGES AND TUNNELS,Footbridges
-West Brook Road,BRIDGES AND TUNNELS,Footbridges
-ROSCOE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HENWOOD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Atkinson Road,BRIDGES AND TUNNELS,Footbridges
-HEBB #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 142,BRIDGES AND TUNNELS,Footbridges
-WEST BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-JACKSON,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CNR O/P,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FULLERTON,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Gilroy Road,BRIDGES AND TUNNELS,Footbridges
-CANAAN,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Back Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Mountain Road,BRIDGES AND TUNNELS,Footbridges
-WHEATON,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HALFWAY RIVER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-RIVER HEBERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CHIMNEY BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 2,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Prospect Road,BRIDGES AND TUNNELS,Footbridges
-GILROY,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FIVE ISLANDS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MCALEESE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-FRANK SKIDMORE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Canaan Road,BRIDGES AND TUNNELS,Footbridges
-FENTON,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SHERMAN,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SUGARLOAF,BRIDGES AND TUNNELS,"Bridges, Culverts"
-UPPER EAST BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ELDERKIN,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+3c939ec42cdfc67196ee8723ba64450c,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+3ddce860dc6e7e6be80fbcaa20e801fb,telecom,tower,...,...,...,Natural Resources Canada
+3e0daf52b6acc5255471b5cf7c67a102,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+3ed15b79cc64a28fb9d5cbef51149687,bridges and tunnels,mixed,EAST BROOK,..,..,Province of Nova Scotia
+3f322f671021b4aed162ac2bdd689a63,bridges and tunnels,mixed,DAVISON,..,..,Province of Nova Scotia
+419a72051f0eebc4434194eb8c9c693b,bridges and tunnels,mixed,RALPHS,..,..,Province of Nova Scotia
+42bf2a11897b04f50e9f458a06e4e10d,railways,track,Springhill Junction,...,...,Natural Resources Canada
+467106c788c0dba81e26a9f1404a2e63,railways,station,Oxford Junction,...,...,Natural Resources Canada
+46baf54ad2b4f51e13dcd7c352d8784f,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+47343744461bd3fc3fb386a0682da287,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+48debfd365c9bb3fc57761d91b8a7363,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4aaa0b6ed0e9a67d1b1b105b7f653908,bridges and tunnels,bridge,ROBERTS BRIDGE,..,..,Province of Nova Scotia
+4ba53cb98c1f1a27471a1f828616a910,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4d2a6dd8881d3f5ff3460a98398768e7,bridges and tunnels,mixed,LOWER MOOSE RIVER,..,..,Province of Nova Scotia
+4d4a2bf395c041a6af4707ec88f2e1f0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4d84480a2feb561a39b2c2134f9684ca,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+52c9593cd3d0123b403579465650ccc3,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+53f16538c7609cb3394b10a83a7adc96,railways,track,..,...,...,Natural Resources Canada
+55fe13af9b4543efbdbde50ea3c83c96,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+566851bfdb332a3669470b8b98d73bcd,railways,track,..,...,...,Natural Resources Canada
+5bb7844b334ae1c187305664f97cf52d,bridges and tunnels,mixed,WOODS BROOK,..,..,Province of Nova Scotia
+5d886024d70c646675ecb799e3c8753d,bridges and tunnels,mixed,ELDERKIN,..,..,Province of Nova Scotia
+6317c21db13b710860e90f6c21a8f6f8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+666d9cbed97f69b29e9a6ba78b0b1959,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+67122f55272d1184a6004605d81f21e9,bridges and tunnels,mixed,FRANK SKIDMORE,..,..,Province of Nova Scotia
+67d3007a83d73504e02f8fce54874c62,railways,track,Oxford,...,...,Natural Resources Canada
+6af344b6330fe1c26d980c9233ba2b38,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e6076abfbaed1a63ab808a609e0a464,bridges and tunnels,mixed,GILROY,..,..,Province of Nova Scotia
+6ee4103032cf17366ed07173abd973de,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6f0a249ffe3b5b8d2637fd828a728613,railways,station,Salt Springs,...,...,Natural Resources Canada
+6f5ba7a2d3baade4570e88e58cf0b525,low carbon,wind,Springhill,...,...,"Government of Canada, Natural Resources Canada"
+701ba01c2e18550f9bd7268eef04f0a4,railways,station,Maccan,...,...,Natural Resources Canada
+70c8734b735ee58858c020470ae0c895,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7321a2e4f2add804eaff6c9781dd7d99,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+733dcab8bc291fdffdd6589384e373d6,bridges and tunnels,mixed,PUGSLEY'S MILL,..,..,Province of Nova Scotia
+758a9f5cb6af2cb455a6f7aef79d9076,bridges and tunnels,mixed,HARRINGTON,..,..,Province of Nova Scotia
+76c1b6b3370a05114407e1ed590d40f0,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+76d252bd77fbcd2c44b8a541d4572d75,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+77b264d888313f3ac95757c10d3d8ccf,bridges and tunnels,mixed,POLLY'S,..,..,Province of Nova Scotia
+7a12d8961610be69cad7dbbaf200fc62,telecom,tower,...,...,...,Natural Resources Canada
+7a98d1588dfdc739f8a143c4d4e26d60,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7aba1c723c00dd3e527087b067ca4ad3,railways,track,..,...,...,Natural Resources Canada
+7e09c38f0a29e02903b929a2592a1e32,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7e79d99c78fab0106f9e02cf0fe8b63c,railways,track,Springhill Junction,...,...,Natural Resources Canada
+7fc7710687453e635da69434ae8d394c,bridges and tunnels,mixed,FENTON,..,..,Province of Nova Scotia
+835f59a11f4b2f1e833071aa529855e0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+836c7030d88e3fc9e56d53419640d856,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+848ba88a58177cd7172ed610f0a2b39c,railways,track,Oxford,...,...,Natural Resources Canada
+852a583ead58c79d8e15c378f9add262,bridges and tunnels,mixed,MOUNTAIN ROAD,..,..,Province of Nova Scotia

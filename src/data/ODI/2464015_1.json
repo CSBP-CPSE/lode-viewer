@@ -1,50 +1,35 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Sainte-Marie / Mathieu,..,..
-des Anglais / Rawlinson,..,..
-Pincourt / Sainte-Marie,..,..
-de Mascouche / De Maupassant,..,..
-Gascon / Pascal-Gagnon,..,..
-des Appalaches / de l'Oural,..,..
-des Anglais / Phillips,..,..
-des Anglais / Annette,..,..
-Dupras / Montée Masson,..,..
-Sainte-Marie / de la Gare,..,..
-Sainte-Marie / de Châteaubriant,..,..
-Chemin de la Cabane-Ronde,BRIDGES AND TUNNELS,Footbridges
-Gare Mascouche,..,..
-de l'Esplanade / Montée Masson,..,..
-de Châteaubriant / de Charny,..,..
-des Anglais / du Suroît,..,..
-Saint-Henri / Sainte-Marie,..,..
-Therrien / de l'Étourneau,..,..
-des Laurentides / des Cascades,..,..
-Rawlinson / Guilbault,..,..
-Pincourt / des Bois-Francs (Transfert),..,..
-Sainte-Marie / de Mascouche,..,..
-Mathieu / Cantin,..,..
-de l'Étang / Croissant des Roitelets,..,..
-Montée Masson / de l'Esplanade,..,..
-Rue de l'Hirondelle / Rue Principale,..,..
-Sainte-Marie / Newton,..,..
-des Anglais / Croissant Duland,..,..
-de l'Esplanade / de la Gare,..,..
-de Mascouche / Crépeau,..,..
-de l'Étang / de l'Envolée,..,..
-Montée Masson / devant le civique #660,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-de Châteaubriant / du Havre,..,..
-Pincourt / face au civique #300,..,..
-de Mascouche / Crépeau,..,..
-Pincourt / Éthier,..,..
-de l'Esplanade / Bohémier,..,..
-des Anglais / Raymond,..,..
-Saint-Luc / Saint-Martin,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Sainte-Marie / Robincrest,..,..
-Sainte-Marie / de Charny,..,..
-de Mascouche / de l'Étang,..,..
-Sainte-Marie / Robincrest,..,..
-des Anglais / Pine,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-des Anglais / de l'Alizé,..,..
-Grande Allée / de Greenwich,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+04c743836562ee2822bf857568126de6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+10b65b80569430867b8dbd8beaeb0589,bridges and tunnels,mixed,..,..,..,La Province de Québec
+17d7bbf61b664e543dd26258f996c726,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19af6ea9f35941956d77eb3da21f3864,telecom,tower,...,...,...,Natural Resources Canada
+297f972ffddc88cd826c99e312a2e90f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b056eb3145eba4cc1f259da2f8c4412,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2fc1b41a59d7888408aab60b92c9d2bb,airports,...,Lac Agile (mascouche) Airport,small_airport,...,OurAirports
+33c9fc21bdc4d19a5d5c3566ae5a0f10,low carbon,charging_stations,St-hubert - Mascouche,...,...,Government of Quebec
+362c5702414c71a671b5ba3c2c799bdb,telecom,tower,...,...,...,Natural Resources Canada
+36dd62a3679974e9f10212d4354291d6,railways,track,..,...,...,Natural Resources Canada
+3fa0ae4569a6a7315fc61bb0e93fed50,oil and gas,facilities,..,..,...,Natural Resources Canada
+41969477cb75907ff516c549751c1e04,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4add931abd9bc2a162101380d6932f18,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4b17a99715927b64efa24eead21daf7d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+53b1dc7568c60369446f0fc4b2252667,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70b99fbce1d01caa85153e232dcde36b,railways,track,..,...,...,Natural Resources Canada
+747f875a623405db0952dd19e0e55cf7,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+749979f26c1878c4723d91f628627238,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b8957f0aa75a7ec4a9e8316d8369e4f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+80e94b9bc6a623610e64a8fbf1cc2ef9,low carbon,charging_stations,Brcc - Mascouche - Caisse Desjardins Le Manoir,...,...,Government of Quebec
+880c4588c72fae941c0a13aee57440d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+91a1f281030f7454b95dcd0f21aaa120,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+94f3bed998464e598d1b5fbaec065a41,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a2aea4cf0aeb5eeaec05c7ba599a6f81,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+af3205d42676458039cf2e8e2d09c206,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c93d6c42324acff51afdf7fee65b7b31,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d27c94da8614b5a9a6401fc2972bf16c,wastewater and storm water,facilities_waste,Station D'épuration Terrebonne-mascouche,..,Waste treatment plant,Environment and Climate Change Canada
+d7e0dbe6f7c397ef06752a43e07ac0af,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+daf5828ab5be404838266b19326010d5,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+e8e85cad1124e6ca3e84da741b93a8b5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f116d1cf70b1a45b1883c7db3edf81b8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f17ac6d771b363e82d4339d5cb9813ee,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f708579503be1eab69e6b5f2a33c8ebd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fd7d4591314c8afb35f9ce0e454673b6,bridges and tunnels,mixed,..,..,..,La Province de Québec

@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Mayor Magrath Dr & 12 Ave S,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-9 Ave & 10 St S,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-40 Ave & 41 Ave N,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Red Crow Blvd & Chilcotin Rd,..,..
-Mcgill Blvd & Laval Blvd,..,..
-Red Crow Blvd & Cowichan Ct,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-13 St & 15 Ave S,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+c2fc5fd6bc9d827714521a7a535ea0e0,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+c3a6cf0050274bd27ed343a62f57ffcb,railways,track,..,...,...,Natural Resources Canada
+c3b63a5068ad1d461d1c3394a4bd9486,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+c71959c4c0c73b23c2d888ed3cb75afa,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+c724fca6ccc9e219d87e7e2d17a965d2,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+c73985f6485a03b1f64f4dd6406ba702,railways,track,G Lead,...,...,Natural Resources Canada
+c8d5798e0686c0a6f50967d71da72b85,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+c981745dcb6f9668148cbefab62f3c87,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+cadb1274a375fa35d8b3e2a62d24ed4b,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+cb9ce679e8f64b5fda359905ed3369ae,railways,track,..,...,...,Natural Resources Canada
+cd4d815726125a2b2d3d31ccc853524a,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+ce00417a27b1646788be459eaef7dfaa,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+ce1d7a0ac40bdb0e75d9949b50788332,railways,track,..,...,...,Natural Resources Canada
+d155956bfe0c643df01745b4dc5d685b,railways,track,..,...,...,Natural Resources Canada
+d169abbae916af9d4f86afc1c6c2682f,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+d1e71f7ccb13f64ea8cfa56e357541fd,wastewater and storm water,facilities_waste,Lethbridge Wwtp,"Grit Removal, Screening, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Biological Nitrogen Removal - Nitrification and Denitrification, Biological Phosphorus Removal, Biological Nutrient Removal (Nitrogen and Phosphorus), Disinfection",Unclassified,Environment and Climate Change Canada
+d33c13e2434c53ecf36ddaa1eec2f9ec,railways,track,..,...,...,Natural Resources Canada
+d460bff4797e23ca88f81122fce962c6,railways,track,G C Lead,...,...,Natural Resources Canada
+d4b6f04d1abf4aa3d16501315f11d19a,railways,track,G C Lead,...,...,Natural Resources Canada
+d5383cd24a139fcf48cbae789be27aa6,railways,track,..,...,...,Natural Resources Canada
+d689cdb52f1500b8661b760a80048878,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+d6f40c0dd33d2408442a13dd8d3de162,railways,track,..,...,...,Natural Resources Canada
+d7755fdf2f1cf43366431ccb9f61d577,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+da94ed80dc6f3aec063df3415e4fe8b6,railways,track,..,...,...,Natural Resources Canada
+ddfe6ce44ef437e27dbdb7857bd1ce10,railways,track,..,...,...,Natural Resources Canada
+df7060be77d145e92884f25929c14523,oil and gas,facilities,Bonavista Blood 6-10,..,...,Alberta Energy Regulator
+e038cab660fa471c659db403e2a25e86,railways,track,..,...,...,Natural Resources Canada
+e0789bea65fcfe3126a42f2aca236466,railways,track,..,...,...,Natural Resources Canada
+e2802ae6546b2ad0116bb6c4e2685e20,railways,track,..,...,...,Natural Resources Canada
+e31af480049fd1092e730635474c4505,railways,track,..,...,...,Natural Resources Canada
+e413cda259f2380cc20ba1bf029edd86,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e543add03b7f31f510c2a2b02f108ef7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e695483a1022b4b3ada45d3b07ec26e3,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+e7855bedf68f48ffb59bb010356e1325,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+e8608c9bd922144b34c04b3fad880a42,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+e88af49ded4e4e814fe778deda96830c,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+ea4b5f224a31eca390c6b1dc79d35142,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+ec3fcfd1dbab746b41e0364223dc5a89,solid waste,mixed,South Side Recycling Station,Recycling Station,Material recovery,City of Lethbridge
+ecf9b13e33668d400ce7c86f85f8a109,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+ee3aed5bde0d7333322f31f637511de5,railways,track,..,...,...,Natural Resources Canada
+eecde29ab61219320bed00060ec48296,railways,track,C Lead,...,...,Natural Resources Canada
+eeefbb7decd8dda26b83625956f2c6f1,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+eefeee57a0992285892d95b1093a8122,solid waste,mixed,Stafford Drive North Recycling Station,Recycling Station,Material recovery,City of Lethbridge
+f08f999ebe88c6676c4dc9946119c371,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+f0b47d270c1d0e5b3ec6e5d5e720b7cf,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+f19621136f7ce8b664c7b4ad235750f7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f1ad6e089285caf9c4046868cec8a4be,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+f1f5d5fc34f02233874e58cf99e9411d,railways,track,..,...,...,Natural Resources Canada
+f24a1b223df0102f8f6815c8b81b0f34,electric grid,power_lines,..,...,...,Goverrnment of Alberta

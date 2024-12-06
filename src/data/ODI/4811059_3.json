@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-15 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 271,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 234,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-633 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 270,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 231,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 261,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 263,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-28 Highway,BRIDGES AND TUNNELS,Footbridges
-Range Road 243,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-644 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 240,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+08338e5c23c20c0f7d87d3d84c17d3a2,oil and gas,wells,..,..,...,Natural Resources Canada
+0866640e711069d3116da2301a2fbdaf,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+086fbf1cd44fbb9c9278443ff4ed3355,oil and gas,wells,..,..,...,Natural Resources Canada
+08744491197b41c356f9a6345029258e,oil and gas,wells,..,..,...,Natural Resources Canada
+0887c5e1ca22801f975e1b25a5fa3b6d,railways,track,Beamer,...,...,Natural Resources Canada
+089658600aa4714d71af5a6177cb682f,oil and gas,wells,..,..,...,Natural Resources Canada
+08a5baae370b47da3d4727b653684161,railways,track,Beamer,...,...,Natural Resources Canada
+08a95722e061432d1b21f3c589127757,oil and gas,wells,..,..,...,Natural Resources Canada
+08dbe77cf5ab39972b09d76d57d24b85,telecom,tower,...,...,...,Natural Resources Canada
+09418aecf8c6ee93b4d2651903bb5cac,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+096d236b74247e37f964e02a1e72dd18,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+09825029a3da235d8c01569bade0e715,railways,track,Beamer,...,...,Natural Resources Canada
+09941156d6d0fe4fa1f393c7d95d6ff4,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+09aad3165fa2e618205c2ad0c7b580d2,oil and gas,pipelines,..,..,...,Natural Resources Canada
+09cecde8efdc3b7363b4aabaddf26fb2,oil and gas,wells,..,..,...,Natural Resources Canada
+09f03f4eb887fe52547ee7d055aaa77c,oil and gas,wells,..,..,...,Natural Resources Canada
+09f577e2f6b674bed9891831ce6b56dc,oil and gas,facilities,Westfire Redwater 12-17-057-21w4,..,...,Alberta Energy Regulator
+09f60d82e11d780514be21d5b38dc496,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0a2291c92784ed1dd7957cc1f6acc451,oil and gas,wells,..,..,...,Natural Resources Canada
+0a25d6cfc54e4ad1c9cac6dd1db13fd1,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0a30c48c1bdc2cfef2ec7a369aa3b5e3,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0a3f1d3a4e4c71ede92d6e8662da86f1,oil and gas,wells,..,..,...,Natural Resources Canada
+0a4658629d485240c6d7a19bed4c1545,oil and gas,wells,..,..,...,Natural Resources Canada
+0a8a1976e8b9d35a01f2050624638cd2,wastewater and storm water,facilities_waste,Town Of Legal Wastewater System,"Lagoon - Anaerobic, Lagoon - Facultative, Storage Ponds, No treatment",Unclassified,Environment and Climate Change Canada
+0aa93b3366949b990d09885d65ad88bf,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0ae830107a3eff3498df40dcf2e2ef49,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0b26212e7874b7fdea5f9e21a7b0a90f,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0b2ee8cfe80596d3bcbb1fab3ebeee87,oil and gas,facilities,Redwater 10-30-056-21w4 Mwpb,..,...,Alberta Energy Regulator
+0b37f57c144d3e56ce1a23c70797aa65,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0b5ee3c514e51706cab3ba4dbdfbb7a5,oil and gas,wells,..,..,...,Natural Resources Canada
+0b6af530934d59fa39cced3fb22a5c67,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0b71f36954e50091ca7963526527b0f7,oil and gas,wells,..,..,...,Natural Resources Canada
+0b937ab1f0a6c815f01c61e210fbf520,oil and gas,wells,..,..,...,Natural Resources Canada
+0be5cc5242132677baf62832bba0d21c,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+0bef4f3974608f54af972ad338f107ce,oil and gas,wells,..,..,...,Natural Resources Canada
+0c193c759f740c0575d871b29f67bfa5,oil and gas,wells,..,..,...,Natural Resources Canada
+0c6bcb251aa791ebd77ab33890ece182,railways,track,Sturgeon Indutrial Lead,...,...,Natural Resources Canada
+0c786f2168f487eb3637a191f71c915a,oil and gas,facilities,Highland Morinville 10-8,..,...,Alberta Energy Regulator
+0c952bb143fe061361dc32dd213cf348,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0c9c94020105cee677d1415b98a67adf,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0ca4a53ede25826f4aefbca3519f4779,oil and gas,wells,..,..,...,Natural Resources Canada
+0cbb9f1ae4d40436880bc9ee7722986e,airports,...,Redwater (heliworks) Heliport,heliport,...,OurAirports
+0cce50a28ce7ba0977e3f09b72059bd2,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0ce51dfd2117724c6c5bcaded72a8047,oil and gas,wells,..,..,...,Natural Resources Canada
+0ceaa90cd3878049b3959ab21a96ee8a,oil and gas,wells,..,..,...,Natural Resources Canada
+0cee6e16e53bedb2672dc13f4d380c2e,oil and gas,wells,..,..,...,Natural Resources Canada
+0cf4a25da29bec70db386d78de68c34c,oil and gas,facilities,Redwater Cogen,..,...,Alberta Energy Regulator
+0d0075cd66520d78a3afb11ed85b804b,oil and gas,wells,..,..,...,Natural Resources Canada
+0d043bf9c5fa13664e79ec53891e3099,airports,...,Edmonton / Villeneuve (rose Field),small_airport,...,OurAirports

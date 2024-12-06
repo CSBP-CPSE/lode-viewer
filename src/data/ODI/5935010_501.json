@@ -1,50 +1,33 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Springfield at Graham,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Storm Water Management (Ponds and Wetlands)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+ffa68f096d7ecc8b8f14ad50c606c927,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffa84f7c94d8abe6e29411775b005ff3,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffab19707361be7aa6066bb869141858,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffade59f454075f7f5300350a69feba6,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+ffb055aea415da82b2b5973489b59485,potable water,pipe,..,..,Pipe main,City of Kelowna
+ffb0cfa8889b40bf4aee59147bc96415,potable water,pipe,..,..,Pipe main,City of Kelowna
+ffb33474d9341670cf3680e3607fd4f8,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffb558d4cd7bdd524b57c998f069387b,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+ffb61993aa81cbd78d7df9e04f3c08e1,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffb6bc7bd61fc03926f9d2be929e8c99,potable water,pipe,..,..,Pipe main,City of Kelowna
+ffba047c8dfd23992b26468150b982d9,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffba811dac3473b793f8ab089472a17a,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffbaae95cd35c2e33314f801211bf8ee,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffbc01abf79a20584a8179c131593d81,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffc3afe4c5773bcb7afd50dea421045c,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+ffc3fc98ea29043a2bc78942ad36c6d5,potable water,pipe,..,..,Pipe main,City of Kelowna
+ffc4f6a0dc2e1fe23fe9ad97efbc5989,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+ffc96205272c7bffc14299795239b4a7,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffc9c4b0319033f78ecd60b9b27a84ac,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffcfbc7971b424c77de2d86ef863f2dd,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffd3f83fc052a50f2e53f89ae76e1d96,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffd865504527ae93bcb8213c8a531de6,potable water,pipe,..,..,Pipe main,City of Kelowna
+ffde354c0929ba26ae563db878f90f0d,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+ffe1afba8c26831d60f46cc72025c413,wastewater and storm water,facilities_storm,Cerise Dr,..,Stormwater pond,City of Kelowna
+ffe5ba7068572424840f72758dfddb56,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ffe7a704acda04e0e5acc17736466530,potable water,facility,Crawford Booster Station,..,Pump station,City of Kelowna
+ffe9ec33e26b0068b9bf3ada32023db8,potable water,pipe,..,..,Pipe main,City of Kelowna
+ffecdea378865c688129e88f9fcde60b,potable water,pipe,..,..,Pipe main,City of Kelowna
+fff13997b792780a8b212ffa8eda75df,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+fff22bc5ba6c764c6dba3d1b95906cca,potable water,pipe,..,..,Pipe main,City of Kelowna
+fff276159080ac8780bae3d0e2fa36f3,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+fffe6ebfdb082deee5389c46d4e7437a,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna

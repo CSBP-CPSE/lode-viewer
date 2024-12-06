@@ -1,21 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-KEMPT ROAD CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 320,BRIDGES AND TUNNELS,Footbridges
-SCOTTS RIVER BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-MacNeil Road,BRIDGES AND TUNNELS,Footbridges
-HAWKER TK 4 O/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SHANNON BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Walkerville Road,BRIDGES AND TUNNELS,Footbridges
-Back Road,BRIDGES AND TUNNELS,Footbridges
-Highway 104,BRIDGES AND TUNNELS,Footbridges
-Highway 4,BRIDGES AND TUNNELS,Footbridges
-O'MELIAS CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-RICHARDS POND BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-RIVER TILLARD BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-RIVER INHABITANTS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LITTLE RIVER BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-JOE'S BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BLACK RIVER BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Mountain Road,BRIDGES AND TUNNELS,Footbridges
-SPORTING MTN RD O/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+5037e597fa28c7a29a109bf1e5b24937,railways,track,Nova Scotia Pulp Private,...,...,Natural Resources Canada
+54d32b4174c31864128673aba15ea097,railways,track,..,...,...,Natural Resources Canada
+58fb8c3656ece1b230e1abad0172bd0e,bridges and tunnels,bridge,MacLEODS BRIDGE,..,..,Province of Nova Scotia
+59f1818eb44f94693f29e0abfee89dfe,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+5a53801852519ba8cba91ab0056c53e7,low carbon,wind,Point Tupper,...,...,"Government of Canada, Natural Resources Canada"
+613cf3aef016f5dc366eed3ef389701e,bridges and tunnels,bridge,ROSS DONALD BRIDGE,..,..,Province of Nova Scotia
+62cffd101b7a393c82200ed331543caa,railways,track,..,...,...,Natural Resources Canada
+6d43f64a8e7a440ae191ec1f733b998c,electric grid,power_plants,..,...,...,Natural Resources Canada
+6dcb6a96f58393190d8efab224852e8f,railways,track,..,...,...,Natural Resources Canada
+6f1c434b782c2e907b85e68b772aa198,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+6fef027daec3504edd1ab51c417ac6f8,railways,track,..,...,...,Natural Resources Canada
+70c0dca9cbda7cbe41e8badff7ae47a4,bridges and tunnels,mixed,SPORTING MTN RD O/P ON 104,..,..,Province of Nova Scotia
+711085c75e1b7eb66c5642441ff5af94,bridges and tunnels,mixed,PT TUPPER CNR O/P ON A504 #2,..,..,Province of Nova Scotia
+7564e4cb9d2adfc717ca89da94d365e2,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+76716b01794e582ce61cdf075f53b6bc,railways,track,..,...,...,Natural Resources Canada
+7a8db5f1f277aded4d106c8c18687d10,bridges and tunnels,bridge,MacMILLAN BRIDGE,..,..,Province of Nova Scotia
+7a9379bdecd66f82f2edc50a67a5408a,railways,track,Nova Scotia Power,...,...,Natural Resources Canada
+7c99d6e85c4b9731a054908cce0c7f03,railways,track,..,...,...,Natural Resources Canada
+7e5bebee077bd8a7bdf3bede26a882f0,bridges and tunnels,mixed,HAWKER TK 4 O/P ON 104,..,..,Province of Nova Scotia
+7e89699b68bdafc2c4b7edb0275918f1,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7edf51a6f51177cb69b00b77f2394e4a,railways,track,..,...,...,Natural Resources Canada
+86952d87a493afea1501303fd64474a1,railways,track,Nova Scotia Pulp Private,...,...,Natural Resources Canada
+86bac1f30c0ff10ef8faefca32c7025a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+880bf29fd87f5d9eca7b512a6509b4dc,bridges and tunnels,mixed,Walkerville Road,..,..,Province of Nova Scotia
+8c01b81f21aafc5a76a7647295252b34,railways,track,Us Gypsum,...,...,Natural Resources Canada
+8c0d8b9367928080d71b2fb6cb620c94,bridges and tunnels,culvert,RAE COVE CULVERT,..,..,Province of Nova Scotia
+8fac20f6ee317f086e8a8dde362c7787,low carbon,biomass,Port Hawkesbury,...,...,World Resources Institute
+90f288f4d39d06bce1b568967c74b976,bridges and tunnels,bridge,LITTLE HARBOUR BRIDGE,..,..,Province of Nova Scotia
+92d670a1a94be0c415466dffb644eeed,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+92e31cf5724fdf7c7c32c125067d3655,railways,track,Nova Scotia Pulp Private,...,...,Natural Resources Canada
+934fe5b0cb2517219eba7764c35af456,bridges and tunnels,bridge,BIG MILL BRIDGE,..,..,Province of Nova Scotia
+9452c816526de8b1cc12589c30327b7c,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+95251a8b67034ff04b4fe3e8fa889147,railways,track,Us Gypsum,...,...,Natural Resources Canada
+96d8015064588cc1779a0d92fe64800d,railways,track,..,...,...,Natural Resources Canada
+998a3a2f8d35910b026eccff169a6809,railways,track,Nova Scotia Power,...,...,Natural Resources Canada
+99a71828eca726a946cd1af96d9d26de,railways,track,..,...,...,Natural Resources Canada
+9bcff992e45cbd5da567240f3b55e1e9,bridges and tunnels,mixed,NSPC PIPE U/P,..,..,Province of Nova Scotia
+9cdc51fb395e630b4687520639b5f69c,low carbon,wind,Point Tupper,...,...,"Government of Canada, Natural Resources Canada"
+9e8198eade72008d1eb23749a57f1d2d,bridges and tunnels,culvert,SHANNON BROOK CULVERT,..,..,Province of Nova Scotia
+9ed1e71825e0e8b5993c2346e694b8d3,bridges and tunnels,culvert,FALSE BAY BROOK CULVERT,..,..,Province of Nova Scotia
+9edf2a09ec0b675887132f981614353f,railways,track,Point Tupper,...,...,Natural Resources Canada
+9fba9f3187dde13682d870de9d65ca4d,low carbon,wind,Point Tupper,...,...,"Government of Canada, Natural Resources Canada"
+a4bc9ea0b9a18a2ee85d39c5c42af00f,railways,track,Nova Scotia Pulp Private,...,...,Natural Resources Canada
+a5602bc32e273e5cda7a4814161b545f,bridges and tunnels,bridge,LENNOX PASSAGE BRIDGE,..,..,Province of Nova Scotia
+a70c5b8a6f4119a0e31db41cbc68b252,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+a87157eaf661b9ee10efdb5506f2c61b,low carbon,wind,Point Tupper,...,...,World Resources Institute
+a8c71a3d7fb1ef54d6ab2b71fdf204c9,electric grid,power_plants,..,...,...,Natural Resources Canada
+aa2c017da0dd514b35eb421adf21ffd9,railways,track,..,...,...,Natural Resources Canada
+aadb2edbbd53ca07e121d80d21a3ce7a,telecom,tower,...,...,...,Natural Resources Canada

@@ -1,13 +1,12 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,Footbridges
-Route Pierre-Mercier,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Louis-Ouellet,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Prudent-Cloutier,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+13b28bd53483c4db7cccb1fd642d6c53,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+436c10514cae03cc1bb2939f1b935ab8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+50b3f7bbb19a454ed8fcc93a5c4c42b9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8fcaeece530252998754aba36d711edf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9be89521c2a754873e1a85ad722ce6fc,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+cda04ab4486024d3c0cb591b01bf948e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d8a150e3dd38be7bffd1b5084cac9a22,telecom,tower,...,...,...,Natural Resources Canada
+df1239151e893cc8c1d1cded0ce22b44,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ec1892f81ea1a94705122f629222ec11,wastewater and storm water,facilities_waste,Municipalité De Mont-saint-pierre,"Lagoons - Aerated, Lagoon - Aerobic",Unclassified,Environment and Climate Change Canada
+fd40d9c7bac0569afa37548e601ff447,bridges and tunnels,mixed,..,..,..,La Province de Québec
+fe1c0a5e4068ebe22631f165e5f5e2dd,bridges and tunnels,mixed,..,..,..,La Province de Québec

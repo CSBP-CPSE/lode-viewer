@@ -1,13 +1,20 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Sainte-Marie,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Boulevard de la Visitation,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,SOLID WASTE,Active Dump Sites
-Rang de Picardie,BRIDGES AND TUNNELS,Footbridges
-Rue Notre-Dame,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0d892988dc278f5ab4064f1e282c4335,railways,track,..,...,...,Natural Resources Canada
+0deb45263fe7cedb4a2c531ea26eb7f7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1fa615b0ee3885d5063a03fc68b704f7,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2bbe45280889f1b1761cadcebe41d85c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+434e3f85a9b01759c8c043d207a7cc68,oil and gas,facilities,..,..,...,Natural Resources Canada
+53a06e36396671a33a541ee17968a2d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+67d2486ae217c8c323a025ff24089af5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6ec643adfdfc7c64db39cde82aee78d8,low carbon,charging_stations,Centre Du Tricentenaire,...,...,Government of Quebec
+733122f9853523ab482ca075f02e4ddb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+82041e2f4cce52da6ade5fd67a48c621,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8b03b9695dd9fd3c854fb4575d884379,solid waste,mixed,Lieu Enfouissement Technique De Champlain,562990,Facility mixed,Environment and Climate Change Canada
+9165f512edd5fe731a70c055c7eda33f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a12c9f1ad0d073a7c3174957738cbc45,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a9615b8ec3a8af722b6d2fb024a7f3ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b5d265ac414ecf1bdedc78b4368c8456,bridges and tunnels,mixed,..,..,..,La Province de Québec
+c93640a1035e01ff63330640ce7db075,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e3c065c5709a9bc462c855fb5bc3bee5,railways,track,..,...,...,Natural Resources Canada
+e43d21d4877af6a98cf1f721cab6a8b1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f1bec0becfdc896c1b05e8932724c55b,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Champlain,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada

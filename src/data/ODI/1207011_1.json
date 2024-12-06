@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Ward Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Granite Drive Interchange,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Coldbrook Twins,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-Forest Home,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Charles Tupper Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Moore's Brook Culvert Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Cornwallis River #1 Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Coldbrook DAR U/P Bridge on 101,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 12,BRIDGES AND TUNNELS,Footbridges
-Gaspereau River  #2 Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lovett Road Overpass on 101,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Trunk 12 Overpass Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Brook Crescent,BRIDGES AND TUNNELS,Footbridges
-Salmontail Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Karen's Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Meadow Lane,BRIDGES AND TUNNELS,Footbridges
-"Highbury Underpass on 101 ""Interchange""",BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-Falls Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Coldbrook Overpass Bridge on 101,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Cornwallis River Crossing,BRIDGES AND TUNNELS,Footbridges
-Schofield Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Butler West Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Beach Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Alex Legge East Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Schofield Road,BRIDGES AND TUNNELS,Footbridges
-Cornwallis River & DAR Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 101,BRIDGES AND TUNNELS,Footbridges
-Legge Road,BRIDGES AND TUNNELS,Footbridges
-Gaspereaux River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Butler Road,BRIDGES AND TUNNELS,Footbridges
-Lovett Road,BRIDGES AND TUNNELS,Footbridges
-Jones Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Dodge Brook Culvert Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0438eb47eb4e98bcb91970b50a8a9dd8,bridges and tunnels,mixed,"Highbury Underpass on 101 ""Interchange""",..,..,Province of Nova Scotia
+04a2094ef5417655be847538cef5a360,telecom,tower,...,...,...,Natural Resources Canada
+086e3bd2df88a803f262c1cae56ea16c,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+11258586c7b62018ae976582da144a5f,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+1324c8a57639f88571f845e8c96fd4e6,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+1333cc9b6b00e74cf135aa2d70df6326,bridges and tunnels,bridge,Moore's Brook Culvert Bridge,..,..,Province of Nova Scotia
+1b95a38d39965b91a1718a478833751a,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+2555614bb11c5701a3dff05d9e39f806,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+2a7fcd205549b9bd52cadf6655010169,bridges and tunnels,mixed,Coldbrook Overpass Bridge on 101,..,..,Province of Nova Scotia
+2c76c2973ee623d138cafcaa0bf566f5,bridges and tunnels,bridge,Ward Bridge,..,..,Province of Nova Scotia
+31b86ba5b03c541c520693f51c23857d,wastewater and storm water,facilities_waste,Regional Sewage Treatment Plant,..,Waste treatment plant,Environment and Climate Change Canada
+3475feeb4020f1d3a27bc51ce1d7e187,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+3e906f0f08c7c2c2300918ec74a9aec0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ea67767469d939a10068bd0318fd9a8,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+44a96d3dc5e313f7e41c4b31edfe437b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4639b35496cd246a0d42f1d91dd2c3fd,bridges and tunnels,bridge,Gaspereaux River Bridge,..,..,Province of Nova Scotia
+46ab872d76b9911dc89ccd7eeb5ae5d0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4c62ed955099f0ab56c228a07353e154,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+56fc6e9e44adaebc6a8b33e42248a1a2,bridges and tunnels,mixed,Coldbrook Twins,..,..,Province of Nova Scotia
+5b45d1ee16996bd1574444dccdce4761,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+5c60436b73845a68440503b0ad1baab6,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+5ef65c02cafba72048dfc7f7024b5800,bridges and tunnels,bridge,Cornwallis River & DAR Bridge,..,..,Province of Nova Scotia
+6077c1a10d87aacf652e6f5cee9c7565,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+60ac6b11ad72d8a988a04dcf2c87333b,bridges and tunnels,bridge,Karen's Bridge,..,..,Province of Nova Scotia
+664ea1306f3e6ab7dd30ab06d0fc47bd,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+66e7511ebfe3e8cf197aa3d19d112ad5,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+6a87ca7bf53ed3a8a10c852d0ad3e24c,bridges and tunnels,bridge,Dodge Brook Culvert Bridge,..,..,Province of Nova Scotia
+6f6c9914c7852811368e058e66ca8a78,wastewater and storm water,facilities_waste,Regional Sewage Treatment Plant,"Screening, Lagoons - Aerated, Lagoon - Aerobic, Disinfection",Unclassified,Environment and Climate Change Canada
+7c74814a6c188147ee3924389f88dbd2,bridges and tunnels,bridge,Jones Bridge,..,..,Province of Nova Scotia
+833700bf8a2d8f81d10be908e66cca5e,bridges and tunnels,bridge,Falls Brook Bridge,..,..,Province of Nova Scotia
+86645295828968120cd40994d4be7da8,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+86a6154e0ce948ec79494cad5e659b41,bridges and tunnels,bridge,Schofield Bridge,..,..,Province of Nova Scotia
+8eeeff72b9e1e07cd6ccdd96e81cc44e,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+97a1f159aa669db1c59563667c7014c6,bridges and tunnels,bridge,Gaspereau River  #2 Bridge,..,..,Province of Nova Scotia
+987fa38dd049bf4e1ba7a37918afedde,electric grid,power_plants,..,...,...,Natural Resources Canada
+9ce09211cf7a5ed053cbd3f87759603a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a0c67d601b876784ff94b6d56727ec34,bridges and tunnels,mixed,Coldbrook DAR U/P Bridge on 101,..,..,Province of Nova Scotia
+aa9ae032273fce2ea3cb497681cef8bc,bridges and tunnels,bridge,Charles Tupper Bridge,..,..,Province of Nova Scotia
+b2c4e12a350ef67f060f531e88063770,bridges and tunnels,bridge,Trunk 12 Overpass Bridge,..,..,Province of Nova Scotia
+b5beb206e12e627f91482c6964760228,bridges and tunnels,bridge,Salmontail Bridge,..,..,Province of Nova Scotia
+b76f78b7da6bc64f5def17c022a585c8,bridges and tunnels,mixed,Lovett Road Overpass on 101,..,..,Province of Nova Scotia
+c24aac81ff557178502fe2db2c8bc562,low carbon,hydro,Methals,...,...,World Resources Institute
+c7417e4922040846d7e1278c3fedf8b8,bridges and tunnels,bridge,Butler West Bridge,..,..,Province of Nova Scotia
+d79498525f79c825ccc5487eeb3a954a,bridges and tunnels,bridge,Alex Legge East Bridge,..,..,Province of Nova Scotia
+dabfed1454d86d17b8559d4c8e3ab512,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+de0e151e34b71d0231ba11196ec8b0e4,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+e20f4cd3ff96ae8ed434c5cd64be07e1,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+eaeec5c8e36f598ce646b26c2e31fbfe,bridges and tunnels,mixed,Granite Drive Interchange,..,..,Province of Nova Scotia
+f2cc56dd922e1650f3873369ec07118d,bridges and tunnels,mixed,Forest Home,..,..,Province of Nova Scotia

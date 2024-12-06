@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Summit at Notre Dame,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-McGill at Chapperon,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+59e3756c5d75c5b7ab85849c560b1615,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+59e4146a843bd5aea0b61022f1e91a94,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+59e451f31cc9a01321ff8d38dfda3e3e,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+59e4c350db6c2025f3eb9f16f6912007,potable water,pipe,..,..,Pipe main,City of Kamloops
+59e56fbcbc4da50db59cf1b8f165effd,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kamloops
+59e5bc6940078edb2024b7ceafd3c705,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+59e69694b57a261ba6ac73a3234a57bc,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+59e6e9ade3dcdb184192b1feb0cbc7ef,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+59e6efd47a4c1cfb9cbb1168a46726f7,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kamloops
+59e6f3f7e61a69ddd7a369e02d6cfb90,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+59e7de926ee8dfb87330918ceb81b5cd,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+59e99c4787935bf24fb2fec4ae1fb5f8,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+59e9b8ca3a7af2b17c0f06fc886fa9a2,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kamloops
+59eb25ef1643673a46af6b65200072d7,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+59ec0612c5eeb047d1b66e9ac62431ba,potable water,pipe,..,..,Pipe main,City of Kamloops
+59ec8532c17355fdda15e90576e5cecd,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+59ee76fa2ca0e39a77c505fa97cb193b,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+59eef3810101c55349e04b2d861b4210,potable water,pipe,..,..,Pipe main,City of Kamloops
+59efa09ddc830257424f79c1da9e2b58,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kamloops
+59f15cfd8905bc4c73abec7f794f844e,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kamloops
+59f1f0aa3f97922a0fa667e293b478b9,potable water,pipe,..,..,Pipe main,City of Kamloops
+59f249d1110d97cb91016b84e9dfc977,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+59f3231af70dfce157a4f2c1d9fab2c2,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+59f35a9db9bb7ee61bce82dd6336867a,potable water,pipe,..,..,Pipe main,City of Kamloops
+59f4f318815574be1873aa38565b1e8d,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kamloops
+59f5635930ca2db5aeb5e1955399c9f8,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+59f5e510fc7dd5eb44c27871c0155669,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+59f8e98f5eb916329c1981e0d57dc151,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+59f90649c6d588455b4141e2ff25430e,potable water,pipe,..,..,Pipe main,City of Kamloops
+59f91174e3064a0ce6be9b93c2c1056a,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+59fa7b95d178dfa106f84fbbc43ecb02,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kamloops
+59fc98c346a183d1bdcaaf9e98eaf898,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+59fd9eedf9e3ff3c3a3ace18399cd2c4,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kamloops
+59fe984ecf9f3245c85149c9352181be,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+59fef454eb0d08e2a92d7ec34ce10dea,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+59ff70b8a490f8eda4a463b73dcaa886,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+5a00744756717ef5e097a01472f8b29e,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kamloops
+5a01e2a7184e1a48dd0664d4c564a7a5,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+5a020078d423bd6c38e8261cdc219251,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+5a02798620c3747a8cb4ca5a58bba6fe,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+5a044266873a34e5cb2c6edf2e172cfe,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+5a04b793208eaa88142e9d7edb70b640,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kamloops
+5a058660e77c020b19303795057bb836,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kamloops
+5a05a82e8b935fbc2e71f6b3c923bb96,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+5a05d05f5d057af3b1efeaa5a7423a29,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+5a0699c456cb82d3d73410cda28521b8,potable water,pipe,..,..,Pipe lateral,City of Kamloops
+5a0808b90fa67beed9f07bc7146e8275,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops
+5a0826fe5539a433800183f291085366,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kamloops
+5a0846f100a680d8b0d345f67d6564a4,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Kamloops

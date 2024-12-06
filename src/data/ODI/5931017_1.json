@@ -1,18 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Hurley River Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Highway 99,BRIDGES AND TUNNELS,Footbridges
-Meagher Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Devine Street,BRIDGES AND TUNNELS,Footbridges
-Main Street,BRIDGES AND TUNNELS,Footbridges
-Gimse Road,BRIDGES AND TUNNELS,Footbridges
-In-Shuck-Ch Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Upper Lillooet River Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Birkenhead Lake Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Riverside Drive,BRIDGES AND TUNNELS,Footbridges
-Blackwater Road,BRIDGES AND TUNNELS,Footbridges
-Pemberton Meadows Road,BRIDGES AND TUNNELS,Footbridges
-Sea to Sky Highway,BRIDGES AND TUNNELS,Footbridges
-Kwetsa Road,BRIDGES AND TUNNELS,Footbridges
-Wedge Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Cedar Grove Road,BRIDGES AND TUNNELS,Footbridges
-Spruce Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01bae7e26cffc1d50d30943b895a117d,railways,station,Spetch,...,...,Natural Resources Canada
+027bce07b5fc4f57302d2ed934731f23,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+05184e8dedacfb4128648585ed8f1ed9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+058eebb176440bfb52e9fa138ae8b9f6,railways,track,..,...,...,Natural Resources Canada
+059316f502885bb431aa6f62287acec3,low carbon,hydro,Boulder Creek,...,...,World Resources Institute
+0791bcf879aee2a8fd7eeda8b04b5bdf,railways,track,..,...,...,Natural Resources Canada
+0a5918afe79d33f95770f41730c4cacf,railways,station,Gates,...,...,Natural Resources Canada
+0ad98cd90cff3d561252c6061eaee0a4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0be2ed4b8536b577cf9b8d336ac7f1ac,bridges and tunnels,bridge,GIMSE,BRIDGE,Bridge,Province of British Columbia
+0c9e6eb44d313b04c585c510852b0e83,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+103db860e5ef1f18437ec74d153cbc95,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+15ea2d31b7f4dbd900a5923daca40cde,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+16fb2f2cc7de4753d27faf1f45f8bdf6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+18e6bd32f5afd1758bfd2b7ec8083fa9,bridges and tunnels,bridge,PEMBERTON FARM RD OH,BRIDGE,Bridge,Province of British Columbia
+19a56e5aa0f9ffd7faf8c2980ad9128c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1ff800ba83a15916f430ddeeda8c48c0,bridges and tunnels,bridge,BIRKENHEAD,BRIDGE,Bridge,Province of British Columbia
+21ab5fe41762168652eb3474858d3fbc,bridges and tunnels,bridge,OWL CR,BRIDGE,Bridge,Province of British Columbia
+231d4faa809a33327b2ba11f0f31c59d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+266429d07fb3f0526c03e281002e82c3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+275d074071c85e26d91920ec80ccfb4e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2a2d55d30c7b072706877275968a1dca,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2fa970afdf06014382db858ce9c042d8,bridges and tunnels,bridge,JOFFREY CR LOWER,BRIDGE,Bridge,Province of British Columbia
+33d9386e03c6dd5fcc4bb163064f4b28,electric grid,power_plants,..,...,...,Natural Resources Canada
+35eecb13dd6114236b0d79d2a46be0a1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+373d93c0fd39811325bab269a994c6a4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3782ca062f607698472d7ed700d0a256,low carbon,hydro,Upper Lillooet River,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+3eb54260f0db814ebe725fc9c2ec8445,electric grid,power_plants,..,...,...,Natural Resources Canada
+3f296f0262f2b04ac9d5f83459e2172a,bridges and tunnels,bridge,POOLE CR,BRIDGE,Bridge,Province of British Columbia
+418ff7b6e4db8d8b5fabf391450e4e8a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+423d954c1557b3ef960c89fd97adb3b8,bridges and tunnels,bridge,MILLER CR/PEMBERTON,BRIDGE,Bridge,Province of British Columbia
+440d203f751177a5b01c3e2a4dd95307,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+45da86d569e5387668c8c5d167844cbf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4b7a068a03442686cec96490176fd20f,railways,track,..,...,...,Natural Resources Canada
+58be163a8d7b5b774785643f5e9c36b2,railways,track,Birken Spur,...,...,Natural Resources Canada
+59e4fbc29f49767005c40ed27dcdfc14,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b70cddf25ce99f0cd9250b7372c09b0,electric grid,power_plants,..,...,...,Natural Resources Canada
+61ae7672ac14df8303fb32cd55c8e14a,railways,track,..,...,...,Natural Resources Canada
+65d1227564d84f5f7a8583e203692e6c,railways,station,Birken,...,...,Natural Resources Canada
+66480081501755298b739fa3d03b8aa8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+69620e1c3d632360ad0a93d53c452a52,railways,track,Passing Track Creekside,...,...,Natural Resources Canada
+69b07a97c4706835928abfaa1d2f6546,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6afe6bb26874aaf8eef323e9e8ad607a,railways,station,Creekside,...,...,Natural Resources Canada
+7481e5b9c5ec04ec28eb6846494e0f79,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77dcfbb60f67d3ce524e89f417c08272,low carbon,hydro,Soo River 2,...,...,World Resources Institute
+77e608774b4b1fe2f2af3ab19156d891,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+791d0c4e2c741e88d9d0b1b3e3732861,railways,track,..,...,...,Natural Resources Canada
+801f6b9242bf1d69bb979e6f96b25b92,bridges and tunnels,bridge,SALMON SLOUGH,BRIDGE,Bridge,Province of British Columbia
+815e23dcbfc2ed149bb8d5936e9c105f,telecom,tower,...,...,...,Natural Resources Canada
+8648a65d9fa24a423e541153b68047b4,railways,track,Passing Track Birken,...,...,Natural Resources Canada

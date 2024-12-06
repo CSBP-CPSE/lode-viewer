@@ -1,12 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Main Street,BRIDGES AND TUNNELS,Footbridges
-SALMON RIVER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Adams Street,BRIDGES AND TUNNELS,Footbridges
-CONNECTOR ROAD MULTIPLATE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Walker Street,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Prince Street,BRIDGES AND TUNNELS,Footbridges
-Willow Lane,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Park Street,BRIDGES AND TUNNELS,Footbridges
-EAST PRINCE,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00e3d2fc08870e92a4edf3ff8c6078cc,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+05d8d8386e97585fd2f4c7be6de777de,railways,track,Truro,...,...,Natural Resources Canada
+0867e2dda99967fd0e7ea73d6e868f22,railways,track,Tc01,...,...,Natural Resources Canada
+0988300cb488ce0b4c6f22187b145646,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+099cff8f73fcdd99dc29f90270944493,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+0fd0cf38fcafc382fed29ee525683615,railways,track,..,...,...,Natural Resources Canada
+1279cf0dd18d9822244be6e993d5a4d0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+245e3e6225b15176d5fe16435e52c06f,railways,track,..,...,...,Natural Resources Canada
+29ae1473437bd9e9509691ea2fb7b3fc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31e237b6151e718a7344f752b6188371,bridges and tunnels,mixed,SALMON RIVER,..,..,Province of Nova Scotia
+31f6a84decf66e769560f0baaf7d5818,railways,track,..,...,...,Natural Resources Canada
+3345dafdf774e42fdf5ba8da9495c062,bridges and tunnels,mixed,EAST PRINCE,..,..,Province of Nova Scotia
+33ad792bf6c62e8a0b19ad53da28cdd4,railways,track,..,...,...,Natural Resources Canada
+3415f539b9782aa1d4775e40e9e754d3,railways,track,Spur Hb 63.57,...,...,Natural Resources Canada
+357c897fd2941622ff9bdd5d6f074068,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3654a28f20cf0e99cf55f61137678b77,railways,track,Truro Industrial Park,...,...,Natural Resources Canada
+37f34c0843055edd47a8f31f163caf1b,railways,track,..,...,...,Natural Resources Canada
+3ea060bc5b6aafb9211cffd97b8f9c41,railways,track,Truro Industrial Park,...,...,Natural Resources Canada
+3f55f41d1f3a3b94494488e68e190049,telecom,tower,...,...,...,Natural Resources Canada
+46cf154f5128a618dca0ec5d6d34bf48,railways,track,Tc01,...,...,Natural Resources Canada
+46d66b34f087dd18998678fdfdd8de7f,railways,track,..,...,...,Natural Resources Canada
+48962c5681e6f2d988694ea0de6b7198,railways,track,..,...,...,Natural Resources Canada
+4ad84a53a44eee1211238c4a5bdf96d3,railways,track,..,...,...,Natural Resources Canada
+4d08f143a8239154f46ec869dc88cb79,railways,track,..,...,...,Natural Resources Canada
+563543f8e1a370389bd3d26dd5ce613f,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+56b82abb4cb61962d3b06361a6a657a6,railways,track,Truro,...,...,Natural Resources Canada
+587d2ebc92538016f506471f4b379876,railways,track,Tc01,...,...,Natural Resources Canada
+5af9bdcaff2a223ca0df46121632a178,railways,track,..,...,...,Natural Resources Canada
+5e7be45a92bd2f60dd4bd8fe1a9890e6,railways,track,Truro,...,...,Natural Resources Canada
+605a540ab203e63ba9266fc777505e33,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+635cfbb2278b63196cdbc182bb8b6430,telecom,tower,...,...,...,Natural Resources Canada
+6f1b15daf13531dfd49857e06db01aa9,railways,track,..,...,...,Natural Resources Canada
+6fea4c15b1246f54397e28253ec293d2,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+74b778730fb09b97bc576a410caa7553,railways,track,Tc01,...,...,Natural Resources Canada
+7d3771daaa371fa22899c93ce6363daa,railways,track,..,...,...,Natural Resources Canada
+844ea17b0c2226776f336ace66278534,railways,track,..,...,...,Natural Resources Canada
+8989f5269089d6972136b812a452fbeb,railways,track,Tc01,...,...,Natural Resources Canada
+8cc5b889237f125b492e53b3568faca0,railways,track,..,...,...,Natural Resources Canada
+8d959d1d96cdf8300b3fc9fde65404de,railways,track,..,...,...,Natural Resources Canada
+93395af1cf4a90f4db09e63d4e886d7b,bridges and tunnels,mixed,CONNECTOR ROAD MULTIPLATE,..,..,Province of Nova Scotia
+98eaaff27655c35d343a081b29b3f719,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9cc1ccc20d4925f3ebf0279c63ecf25a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a5f4054767854ce309bd6769994ce86b,railways,track,..,...,...,Natural Resources Canada
+a5fbc4437213d95def4a513dedddea19,railways,track,..,...,...,Natural Resources Canada
+af84c1e08a1a966eb3bca3b4cbc52286,railways,track,Tc01,...,...,Natural Resources Canada
+c0265dd9bd323982e297f234c40c0e07,railways,track,Truro Industrial Park,...,...,Natural Resources Canada
+c9d94ce3fd6026cc4114dbf3398ee2b7,telecom,tower,...,...,...,Natural Resources Canada
+cd7d518e0b86d4b87e0b9110e5eedb70,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cdfdda9d78636b1e3f54ae8113fb3ddf,railways,track,Tc01,...,...,Natural Resources Canada

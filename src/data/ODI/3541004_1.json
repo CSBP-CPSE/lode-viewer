@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Elora Street,BRIDGES AND TUNNELS,Footbridges
-Hillcrest Street East,BRIDGES AND TUNNELS,Footbridges
-Sideroad 30,BRIDGES AND TUNNELS,Footbridges
-Sideroad 15 North,BRIDGES AND TUNNELS,Footbridges
-Sideroad 20a,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Concession C,BRIDGES AND TUNNELS,Footbridges
-Sideroad 25,BRIDGES AND TUNNELS,Footbridges
-CULVERT - OTTER CREEK,BRIDGES AND TUNNELS,..
-OTTER CREEK (NORTH) BRIDGE,BRIDGES AND TUNNELS,..
-OTTER CREEK (SOUTH) BRIDGE,BRIDGES AND TUNNELS,..
-Sideroad 25 North,BRIDGES AND TUNNELS,Footbridges
-Bruce Road 6 East,BRIDGES AND TUNNELS,Footbridges
-CULVERT - OTTER CREEK,BRIDGES AND TUNNELS,..
-Concession 12,BRIDGES AND TUNNELS,Footbridges
-Concession 14 West,BRIDGES AND TUNNELS,Footbridges
-Concession 10 East,BRIDGES AND TUNNELS,Footbridges
-Sideroad 18,BRIDGES AND TUNNELS,Footbridges
-Bruce Road 4,BRIDGES AND TUNNELS,Footbridges
-Sideroad 5a,BRIDGES AND TUNNELS,Footbridges
-Concession 2,BRIDGES AND TUNNELS,Footbridges
-CULVERT - CARRICK CREEK,BRIDGES AND TUNNELS,..
-Bruce Road 12,BRIDGES AND TUNNELS,Footbridges
-Concession 14,BRIDGES AND TUNNELS,Footbridges
-Adam Street,BRIDGES AND TUNNELS,Footbridges
-Concession 12 East,BRIDGES AND TUNNELS,Footbridges
-Concession 8,BRIDGES AND TUNNELS,Footbridges
-Concession 4,BRIDGES AND TUNNELS,Footbridges
-Sideroad 30 North,BRIDGES AND TUNNELS,Footbridges
-Sideroad 1a,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Concession 10,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Highway 9,BRIDGES AND TUNNELS,Footbridges
-Bruce Road 6,BRIDGES AND TUNNELS,Footbridges
-Concession 6 East,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+03ee107c6cdb7b7762c084ebcd688902,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0429d57906baeb28604cdc5cedc7c96c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1217134733680206ba7ed5913a5fbdbf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+15b6685944873385e2dd9561b6063b0e,bridges and tunnels,culvert,CULVERT - OTTER CREEK,Culvert,Culvert,Province of Ontario
+1c025e8492c56d2b90a9942684d03aa7,bridges and tunnels,bridge,OTTER CREEK (SOUTH) BRIDGE,Bridge,Bridge,Province of Ontario
+1e87e59bcf06d1695da3ef60bd4330ae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f675390bd4728e5365994e24e1fefdb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+221145c31a6bdc3d0f0368b78ddf7f8e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c7d84bfbc84e02f0dd4c9ff4db1be35,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2d65a0a9d600270a68625ecce6e5193e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2dc9ac764ebef94f7e929123f63143e2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2de4fe65e53f6aba085d31ec144b0b19,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31103c5acae00b2aa8dcabe5997942a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3745bac2862b15c0f53b3360cc751e73,wastewater and storm water,facilities_waste,Teeswater Formosa Wwtp,"Grit Removal, Screening, Sequencing Batch Reactor, Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+3a2c0287022ec4ae1e525bb8d3583b7d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3d2cde09534c985a3cec14a175dd745e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+40c65ef6c8c942eab2961390c10b3d8f,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+41b0c4dc84b8e97f5f0cc0e8f84520cc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4263e3b1470fc0f9b63059a091f49e00,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+43fe4efbfbbbdb63ad0a9700a209c7c2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+483b0db482cbed13f1fd29aa7fb4105a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+48779cb1d52626efdb8c4a53191284a9,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+4c3ab4a5ef67995f37621d56278bd33b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b19f78a7fdf2fd18e64a96fafa8ff8e,telecom,tower,...,...,...,Natural Resources Canada
+5bb8447ef41b8b8b3e1c180ac43e19c3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+617a534ed99439e7acc8ecd5033813f1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+63a58b9a61b9451dfda778c706147ada,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+67401465978cff99b2a1b24608d11655,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6a1b804a061510148d7d53776dd3fa5c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6a9cda67aac4f6ae08541fca090b11f5,bridges and tunnels,culvert,CULVERT - CARRICK CREEK,Culvert,Culvert,Province of Ontario
+6cf3cf82373e408ef1f6033a8a3aeb40,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6ee5f9fc6bafc3185b869898075eab88,airports,...,Teeswater (dent Field) Aerodrome,small_airport,...,OurAirports
+727d889a43ed91061a4d7475ec47a0cc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7389ca83ae2139f18852e5352ebc5f39,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+747066cd875f5345b6d9a109a491388a,bridges and tunnels,bridge,OTTER CREEK (NORTH) BRIDGE,Bridge,Bridge,Province of Ontario
+7c53751c44384b9a27ea6b625cd1c3d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8a53bca4fa6c03553cf33e4962504996,airports,...,Teeswater (thompson Field) Airport,small_airport,...,OurAirports
+8f58a76c40108bea2bf11116a3638b75,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+93b75bf1d565b075aa73f0b8cf558d62,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9914ed1d2290825c65b22029939a3288,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+996fb3b42e2c91a4370a68d0ca5f4998,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9a92577d9d0b4d0cad181cef132341ac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9e262692bae045f195d7055a53358259,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a65dc37286fd1669336a6468011fe127,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+abe27e937590947ef25a6e0119a25dfe,telecom,tower,...,...,...,Natural Resources Canada
+adb420ec0189e54ae7fed0bcca376467,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+addb63cae34602b455493ea8c6b14c61,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+afb0d80020974c393417dd90bac8ff6b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b27d9ee9455008b6fb3dafaa2a0be961,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

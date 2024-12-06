@@ -1,46 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Rue Fournier,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard de York Est,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Briand,BRIDGES AND TUNNELS,Footbridges
-Rue du Banc,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue McAuley,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Montée de Corte-Real,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue Gaul,BRIDGES AND TUNNELS,Footbridges
-Boulevard Renard Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard de Forillon,BRIDGES AND TUNNELS,Footbridges
-Rue des Loisirs,BRIDGES AND TUNNELS,Footbridges
-Montée de Wakeham,BRIDGES AND TUNNELS,Footbridges
-Boulevard du Griffon,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+3e736f68f1667639bb1ccab8d3b848c2,telecom,tower,...,...,...,Natural Resources Canada
+3ee97a7fd5424e581366d1da7886e8c1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3f40261a3364000fcfcb69795f3e9cdf,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+3f85a79de9e5335beb5484aa147eb305,ports and marinas,mixed,L'anse-au-griffon,Non-Core Fishing,...,Fisheries and Oceans Canada
+41b19f241bfc128eaab02dc070df4a70,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+43364477e64fc8000a7eeeb15a1d7fa2,low carbon,wind,Sneec,...,...,"Government of Canada, Natural Resources Canada"
+43673508b028b5f742272c1b1c0e84a7,railways,track,..,...,...,Natural Resources Canada
+43e4502303460111dd7dc46320b6b356,low carbon,wind,Sneec,...,...,"Government of Canada, Natural Resources Canada"
+44d8205aa127c216e22e6d29a8ff4768,bridges and tunnels,mixed,..,..,..,La Province de Québec
+465d126f1e03b0cf056dd199be2d1e61,ports and marinas,port,Douglastown,..,...,National Geospatial-Intelligence Agency (NGA)
+491ce1aecb23c364377fe46af7a526b3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4a7b92b17c38dcc36ed1bbcf9fc90574,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4cdcf0ce3acc7b5c554af6b2f84db560,low carbon,charging_stations,Brcc - Gaspé - York - Halte,...,...,Government of Quebec
+4edf075fb7ac270af89f84dbad445d57,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+4f3b6da93ed8fbf580c9853f76110f64,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+535e2077dec305d09fa7eac9dec59b93,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+55df31287d3b929638c9aae5c2483673,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+5875f9856e85f766abac8970c96797a4,low carbon,charging_stations,Ville De Gaspé - 6 De L'aréna,...,...,Government of Quebec
+58907580e1c731872e8ae2bcf5387b48,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5c3d8886b5d48df650320d831b10fae8,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+5d11f746e27fb4d3671e0a2cc1ee8481,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5e046147fbf698a973f28e6a704a4f82,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+609508962defa0928074ca11fcc4bc08,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+646af62ded25f44f5ac8e53cb95e7362,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6508b6a70c4e5908b478d79669c99a7e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+69dd2590b0745f1c2033682bb9918bf0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6d1d9d013886be6b93579a0124113ece,railways,track,..,...,...,Natural Resources Canada
+6fa5e7ac0b1e853acae21336072ae173,bridges and tunnels,mixed,..,..,..,La Province de Québec
+70045e16d5205ff6cb13bf187f8b39d4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+704771c4a33551863462555d3e818d75,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+71732016babb164b32a99f6cd18da33e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+71e8da9d0458f54e538c1cac024d95aa,railways,track,..,...,...,Natural Resources Canada
+7348e5661e53bd9da6f6a65e0d161818,bridges and tunnels,mixed,..,..,..,La Province de Québec
+739b11c119ab17d202fe3ca54fcca008,bridges and tunnels,mixed,..,..,..,La Province de Québec
+74d852bbf426c269f9364e1109991709,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+75b8a41c1381869f677abde643cbf789,telecom,tower,...,...,...,Natural Resources Canada
+799fb834baa8da773e1fae0e23796e60,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+79b68331ebebbe0bcdeb57a7c096ee1f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7ae2500b6d2c7894a7228b469c9d0acb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7cf0164f340a36153a56cbe7541c9611,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+7d1ea9283cd9dfda895e858e82837347,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7e0c9589fc0d60c7e7035963491948b2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8750a4681ac2c1e040dd31def697ac7a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+87f494d31ba0e4ac475fdaac7ea5d6cf,low carbon,wind,Site Nordique Corus (sneec),...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+8b105e2d8ba34d24ebb4525183151db8,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+8c3666fbf1787ed6822bb80f77f24c7c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8c78a66ae6a4ad0102c1750cbf6a245b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8d275273b0a1ca1c8ff97c682eaa870e,low carbon,wind,L'anse-à-valleau,...,...,"Government of Canada, Natural Resources Canada"
+8e79f9d4f038be174c8fc680e951495a,bridges and tunnels,mixed,..,..,..,La Province de Québec

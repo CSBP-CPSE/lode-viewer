@@ -1,10 +1,44 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,SOLID WASTE,Active Dump Sites
-..,WASTEWATER STORMWATER,..
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 199,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02964decd57ac684696a86f000c2b994,telecom,tower,...,...,...,Natural Resources Canada
+18f5653086e8fd2ea74c890dd358a984,low carbon,charging_stations,Mairie-municipalité Des Îles-de-la-madeleine,...,...,Government of Quebec
+1dc98d49dc5d6c03b415bba07d82896a,ports and marinas,mixed,Fatima (anse De L'hôpital),Non-Core Fishing,...,Fisheries and Oceans Canada
+24b0e43d72d7e8b4a8e9d6883d2c92f2,ports and marinas,mixed,Ile D'entree (l'ile-d'entree),Core Fishing,...,Fisheries and Oceans Canada
+33609f576c443374482fc5da57a438a7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+34dc3a694d7e6b019f5c6b63b4dfff24,low carbon,charging_stations,Centre Multifonctionnel Du Havre-aubert,...,...,Government of Quebec
+3693eaadb47265e9c52698003c222ecd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3a7347198eb08fccd98546c20ea95a3b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4393d335db96bfc631518a7c9c2c65c4,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Les Îles-de-la-madeleine (fatima),Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+439cde87bd87850109c65be954ab457f,telecom,tower,...,...,...,Natural Resources Canada
+4c408fc8759907fe088e786f68a2a267,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4fc3f1ad4e2076d1dab92834e51fc086,ports and marinas,port,Havre Aubert,..,...,National Geospatial-Intelligence Agency (NGA)
+603af4979144b9c880840f174cb4a729,low carbon,charging_stations,Bibliothèque Jean-lapierre,...,...,Government of Quebec
+6f5cdf955a3325333fabaa59f53f2533,ports and marinas,mixed,Havre-aubert - Installation De Pêche Côtière,Core Fishing,...,Fisheries and Oceans Canada
+73343d9f17d37a8d0eccb387399a187f,telecom,tower,...,...,...,Natural Resources Canada
+7ca1b457e5b158db743af7b3cb31d54b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7e973d0a9372c0b3f50beb96b525724f,ports and marinas,mixed,Pointe-basse,Core Fishing,...,Fisheries and Oceans Canada
+8086c67efdde98d0d2f8c0cb30f55e9b,low carbon,charging_stations,Brcc - Cap-aux-meules,...,...,Government of Quebec
+852b3d6ef46219a83f71274acf1507bc,telecom,tower,...,...,...,Natural Resources Canada
+93d728d1f174d9ac66cdfb8e80eb5b8e,low carbon,charging_stations,Centre Multisport Desjardins,...,...,Government of Quebec
+97b887458272b8ce0325831d20fec1af,ports and marinas,mixed,Millerand,Core Fishing,...,Fisheries and Oceans Canada
+9fc783e37a169e6cbd7899ba43afff7e,telecom,tower,...,...,...,Natural Resources Canada
+a1205a5a514535dbc92ee8b41dcfa72d,telecom,tower,...,...,...,Natural Resources Canada
+a42e7d45b050e5c30c4b3179720757f7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a8f1045dbd2d59d9318a6c1d6101879a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a980430e9a41205b35f7942bce8220af,ports and marinas,port,Ile Du Cap Aux Meules,..,...,National Geospatial-Intelligence Agency (NGA)
+aa21e35169aa38a69e91e8e75dbd1895,airports,...,Îles-de-la-madeleine Airport,medium_airport,...,OurAirports
+b1e7ada567385df2c1278de3b311e59e,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées Les Îles (cap-aux-meules),Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+b72790771006d05522cdf3fe0ac64d13,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c4a6e37f2d3aacc71dc733dc10e838a5,airports,...,L'île D'entrée Airfield,small_airport,...,OurAirports
+ca29b3a43f85d239997a493bce95a07a,ports and marinas,mixed,Cap-aux-meules (port Polyvalent),Core Fishing,...,Fisheries and Oceans Canada
+d1d82244cb8c33c6dcec5cf7f3b85acc,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+dd8eb4c551f5608f8c7236c9bea01e94,low carbon,charging_stations,Hq - Iles-de-la-madeleine,...,...,Government of Quebec
+deb2acf5b7d3c4b0616ab36e57685499,telecom,tower,...,...,...,Natural Resources Canada
+e73ce999a94ca0595eeecbd26fd6fbf6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e861a40dbfde61d1b7d0a5acc34f5928,ports and marinas,mixed,Pointe-aux-loups,Core Fishing,...,Fisheries and Oceans Canada
+eab6d78aa2211a36c33760a3d3c4f158,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+f0172224b9b8f3118003976c4d090f94,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées Les Îles (havre-aux-maisons),Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+f2324c00552d265885aeaf80284ba08e,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées Les Îles (l'étang-du-nord),Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+f2de77c92c345dec246f70d0aef6c8c1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+f5bac5bbd920d10cf8f258db5a941709,ports and marinas,mixed,Etang-du-nord (l'etang-du-nord),Core Fishing,...,Fisheries and Oceans Canada
+fbcba85fa52b3b261420a8262f549de2,airports,...,La Cormorandière Heliport,heliport,...,OurAirports
+fd67965353512fe62f5749f1efdd4349,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

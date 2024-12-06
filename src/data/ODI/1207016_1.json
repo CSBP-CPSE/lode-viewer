@@ -1,34 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Ells Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Old Baxter Mill Road,BRIDGES AND TUNNELS,Footbridges
-Edward Pineo Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-John Doyle Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Gladys Porter  Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Randville Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Card Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Grand Dyke Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Oak Point (Kingsport),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Hillaton Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Steam Mill Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Middle Dyke Road,BRIDGES AND TUNNELS,Footbridges
-Lovett Road,BRIDGES AND TUNNELS,Footbridges
-Newton Cogswell Multiplate,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Canning Abioteau Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lovett Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Sheffield Road,BRIDGES AND TUNNELS,Footbridges
-Highway 358,BRIDGES AND TUNNELS,Footbridges
-Oway River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-North Brook  Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-McGregor Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-Middle Dyke Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Hillaton Road,BRIDGES AND TUNNELS,Footbridges
-Highway 341,BRIDGES AND TUNNELS,Footbridges
-Wellington Dyke Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Upper Dyke Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Old Baxter Mill Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Steadman Road,BRIDGES AND TUNNELS,Footbridges
-Church  Culverts,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Evangeline's Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Huntley Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00c1b2a66e1c5397d3b71ce042d4d575,ports and marinas,mixed,Scots Bay (little Cove),Non-Core Fishing,...,Fisheries and Oceans Canada
+03b7e39e3fdaa70692dd8974da9f8626,bridges and tunnels,bridge,Edward Pineo Bridge,..,..,Province of Nova Scotia
+14116e2b0b0739bea2c07f5fecfcf29e,telecom,tower,...,...,...,Natural Resources Canada
+1524cf8ae2594dff47578d33a38e4ab0,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+182a14ba04636f57afdfa65444d740da,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+18f854533afcdcbe7249592ed9b4047c,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+1945b17cc0b39de21341872a2061fa2a,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+19f6fd7c76d57b0fb12d931f301a7d29,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+1aead74db381ba03e6496f6c97f592b4,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+1b33922c6ddcc70e35d440a99d0dce7e,bridges and tunnels,bridge,John Doyle Bridge,..,..,Province of Nova Scotia
+1cf4c43c3ad11f11217b510ecf04c87c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1f279d2173ae6be25b0e9518a4de0ee0,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+2133386060e2b8180f6b3dd8369e7382,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+218acf1a432da403c1123b8021cf9466,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+22fedc5cae275e8e8e9d9256940db4ed,airports,...,Kentville (valley Regional Hospital) Heliport,heliport,...,OurAirports
+29aa9993bde7afb664b4e3a19c3b982d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2ce6d9758b8f2a77460d3974f4570eb7,bridges and tunnels,bridge,Ells Brook Bridge,..,..,Province of Nova Scotia
+2ea2197825173051c2b88ce0c845349e,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+2f18db0a23652bd959911a73f4bf6720,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31dc5fc500c6cb0ae8400f1e256b7ccc,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+35031e92befb2b73c002e5bd2f4ffefd,telecom,tower,...,...,...,Natural Resources Canada
+38ae117b44422ff1843a5042770c5d35,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+3a094b2cbd7e9cd56138cf258313338c,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+3c8d21d3cb8853dab5ce688e6496277a,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+3e3f3fe2c7509027dfa8d74b371a70d2,wastewater and storm water,facilities_waste,Canning Sewage Treatment Plant,"Lagoons - Aerated, Lagoon - Aerobic, Disinfection",Lagoon,Environment and Climate Change Canada
+3e8bec4b0c05e301b674fe7dfb304a8b,bridges and tunnels,bridge,Oway River Bridge,..,..,Province of Nova Scotia
+3f1a815bb728666160e19d0f5113e4ef,bridges and tunnels,mixed,Church  Culverts,..,..,Province of Nova Scotia
+3f392f856978abe420d354d1f8cdcfa5,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+42489b9ab184a8c9128939f2706a8fc7,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+495ef0c76f4d73c0a2ead06f86c86ec9,airports,...,Kentville (camp Aldershot) Heliport,heliport,...,OurAirports
+4c735249bd20fbd3bf6e7fb265f9a62b,bridges and tunnels,bridge,Canning Abioteau Bridge,..,..,Province of Nova Scotia
+4cd47eea20a663141ae21def1fa58735,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+53a7965b4b3b6755061728b48a66dffa,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+664fc8049170252018811b45177ccad0,ports and marinas,mixed,Halls Harbour,Core Fishing,...,Fisheries and Oceans Canada
+67e97b4d86d22d7433ad1274e120de47,bridges and tunnels,bridge,Old Baxter Mill Bridge,..,..,Province of Nova Scotia
+6a45bd58f7c889437fd02301b8763d91,telecom,tower,...,...,...,Natural Resources Canada
+6f43f1dc1036b00ffd7dd0e0444f620a,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+6f6dc042aa96940d17252527bde9e9c6,bridges and tunnels,bridge,McGregor Bridge,..,..,Province of Nova Scotia
+73a27dac055bb43b2c88c0cd4f3d332d,ports and marinas,mixed,Pereaux (delhaven),Core Fishing,...,Fisheries and Oceans Canada
+7892c995043e58dcd1e5d9c02845fb04,bridges and tunnels,bridge,Grand Dyke Bridge,..,..,Province of Nova Scotia
+7bca8ad0c06152011f87abec0895e95a,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7df0cfacc04b791d5607e91131a41d62,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+837f0d87845d52dcda770a20aa5b5581,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+884b7db41979ff84ad874af5c96c808d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8b887a7489bb7582313497bc4a4a4437,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+8f863d4f81dd97a852e0c2c7d8636e04,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8fc7be2cc1ebdcea1be0a0e081f997f1,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+90ab91ded4b920a2899abb0905cf5885,bridges and tunnels,bridge,Hillaton Bridge,..,..,Province of Nova Scotia
+90df3615551b5800ee2484c42ba3cd8c,telecom,tower,...,...,...,Natural Resources Canada

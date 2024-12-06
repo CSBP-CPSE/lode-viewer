@@ -1,31 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Tantalus at Cheakamus,..,..
-Squamish General Hospital,..,..
-Chieftain Centre,..,..
-Highlands Way N at Pentland (SB),..,..
-Walmart (NB),..,..
-Ross at Depot (SB),..,..
-Braemar at Argyll (NB),..,..
-The Boulevard at Kintyre (EB),..,..
-Braemar at Ayr (NB),..,..
-Guilford at Maple (EB),..,..
-Westway at Juniper (WB),..,..
-Government at No Name (EB),..,..
-Discovery at Industrial (NB),..,..
-Diamond Head at Garibaldi (NB),..,..
-Judd at Government (WB),..,..
-Vista at Northridge (WB),..,..
-Tantalus 40775 block (SB),..,..
-Diamond Head at Kalodon (SB),..,..
-Mamquam at Diamond Head (WB),..,..
-Depot at Peterson (WB),..,..
-Tantalus at Newport Ridge (SB),..,..
-Cottonwood at Judd (NB),..,..
-Perth at Thunderbird (NB),..,..
-Axen at Government (EB),..,..
-Brennan Park,..,..
-Government at Eagle Run (NB),..,..
-Spruce at Chestnut (NB),..,..
-Government at Dryden (SB),..,..
-Highlands Way S at Read (SB),..,..
-Thunderbird at Glacier View (EB),..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+7a1bdc414806ec9d02861c3e453b0540,railways,track,Cheakamus Siding,...,...,Natural Resources Canada
+7a3d2f51cc20e69a61aac87c78eaa190,railways,track,..,...,...,Natural Resources Canada
+7a98904159baa2b1a4dbb7cd91072252,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+7ae407e72b494a6b616b41b477cb6980,railways,track,..,...,...,Natural Resources Canada
+7cdef1d8d6cbfc1e152b4c4e7fcaca86,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+7ea6799058c497d22a526759e33d1a53,railways,track,..,...,...,Natural Resources Canada
+7fd5eddc6578838950ce5cab1515869a,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+820c20a183a7ef14a76f4ab9ec52e36b,railways,track,Switching Led Canoxy,...,...,Natural Resources Canada
+820d307715b758f9cb1aad10824ea65f,railways,track,..,...,...,Natural Resources Canada
+83f42cdf302feb504db30d6fbb64fca3,railways,track,Crb Logging Co.,...,...,Natural Resources Canada
+8490fac07b82f92eea8182047073aa59,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+860278d0d6ad905b3acf64cb14d73b81,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+87c41aa5f6de116b0fa3b3f20a04ca89,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+888ee098ed967236d711f375a1cc54c8,railways,track,..,...,...,Natural Resources Canada
+8985dbcd3db8cacc9b3a8e18ed615c4c,railways,track,Crb Logging Co.,...,...,Natural Resources Canada
+8b1c280c107968726cf8249cfcfd0cab,railways,track,..,...,...,Natural Resources Canada
+8c0d8d7b27c15038438aa29aceb41903,railways,track,..,...,...,Natural Resources Canada
+8d8ed9c12e6d8ca5b7f9ecccc3816647,railways,track,..,...,...,Natural Resources Canada
+8e4ac86b98952db971f142948a65cb45,railways,track,..,...,...,Natural Resources Canada
+901ef3575381efc488d7eb8a794885d0,railways,track,..,...,...,Natural Resources Canada
+90ab0445bda6765fe03942532f7b8cf5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+92e4e04f168b05a6568a7c33b851d879,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+93d185cfa1598fa674a75748538add81,railways,track,Station Siding,...,...,Natural Resources Canada
+944670b3efda3cf64e00f6baa564b5c5,railways,track,..,...,...,Natural Resources Canada
+9aa7b64eb958729d703522f321a1abc6,railways,track,..,...,...,Natural Resources Canada
+9b5ce286c5aab159c74717404a224bee,railways,track,..,...,...,Natural Resources Canada
+9b6bc9dceba4b08e309c275127b5ba5b,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+9ea0e5899a2f708e24daa0638be61532,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9f8a592c9f1e2792e7c12629f5ad586f,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+a1f35db49ec079eb26c461b23b2c0dbd,wastewater and storm water,facilities_waste,Mamquam Wastewater Treatmant Plant,"Grit Removal, Screening, Activated Sludge",Unclassified,Environment and Climate Change Canada
+a218702d3927c76f6d7749f4c84cb91a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a270bcc3b76ad7a4f366159ba780b4d6,railways,track,..,...,...,Natural Resources Canada
+a288cd42ac9dc04af25dd7981656a061,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+a2bf5dbb20bd5d6d026978dd78748f22,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a3f70f794d0dff346748c77932099d84,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+a41293e07c2c679c7ca88f0a200e50b1,railways,track,..,...,...,Natural Resources Canada
+a87225f4b00e99800040ef7555447129,railways,track,..,...,...,Natural Resources Canada
+a8cfa1eadb562bcaf6de2bef25da3b2b,railways,track,..,...,...,Natural Resources Canada
+a8ea98697248f74dc7428af10ce7ffb3,railways,track,Switching Led Canoxy,...,...,Natural Resources Canada
+a92c23f40909195e823ba060327d0eb6,railways,track,..,...,...,Natural Resources Canada
+aa2eb9ff469f76cc2cabd3900926d60d,telecom,tower,...,...,...,Natural Resources Canada
+aa59f979cfad8d053feff23fc45d506c,railways,track,..,...,...,Natural Resources Canada
+aaa03bb6afb67c4fc8da5f436c594078,railways,track,Crb Logging Co.,...,...,Natural Resources Canada
+aafa38ef79e0f3726f1c7862d2db89d0,railways,track,..,...,...,Natural Resources Canada
+ab9960d06430ae21eb7a9308d6953e8f,railways,track,..,...,...,Natural Resources Canada
+ac7054b4786f24f1918dcf290f3ebfb3,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+ad15711ca484a23543974c742806e471,airports,...,Squamish Airport,small_airport,...,OurAirports
+ade64e9923c6736699297bdf0f267411,railways,track,..,...,...,Natural Resources Canada
+aea8b07572ff87c7488e3147820fa744,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator

@@ -1,12 +1,23 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Tamarack Road,BRIDGES AND TUNNELS,Footbridges
-Bear Creek Bridge,BRIDGES AND TUNNELS,..
-PEEVERS CREEK CULVERT,BRIDGES AND TUNNELS,..
-South River Bridge At Nipissing Village,BRIDGES AND TUNNELS,..
-Old Nipissing Road North,BRIDGES AND TUNNELS,Footbridges
-Highway 534,BRIDGES AND TUNNELS,Footbridges
-Highway 654,BRIDGES AND TUNNELS,Footbridges
-COMMANDA CREEK BRIDGE,BRIDGES AND TUNNELS,..
-Highway 522,BRIDGES AND TUNNELS,Footbridges
-PEEVERS CREEK CULVERT,BRIDGES AND TUNNELS,..
-BEATTY CREEK,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0ba5156bad0839967fec12d80f6e7c90,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+130d69c238614cdd4a62304379021d2a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+41e259cd50038536dd56897187547c61,bridges and tunnels,bridge,Bear Creek Bridge,Bridge,Bridge,Province of Ontario
+47d7f6163afca8205b0f28a45575dfcd,bridges and tunnels,culvert,PEEVERS CREEK CULVERT,Culvert,Culvert,Province of Ontario
+49564c6bae2440d32a5acd0120db039e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+496306873febe0356bf4700003e3aae0,bridges and tunnels,bridge,South River Bridge At Nipissing Village,Bridge,Bridge,Province of Ontario
+4e648c964aac35fbedc38fff65a113f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5811379ac0f4cd6d85f9dd9b0cfb2211,telecom,tower,...,...,...,Natural Resources Canada
+7c0b348044c63ad7c86673efdd4e5f24,bridges and tunnels,bridge,BEATTY CREEK,Bridge,Bridge,Province of Ontario
+8650a9963845d199a8eadab6ad4d95e8,solid waste,mixed,Nipissing Township,Dump,Dump,Province of Ontario
+8729fbb2bfeb61f27173ea88b244c140,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a1f99c0f2a3626d773bd96649541d2c6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a5ad310c78dea1caecce7cca0868e5ab,telecom,tower,...,...,...,Natural Resources Canada
+a8d09e512983c0c331ff99038e4ad138,low carbon,hydro,Nipissing,...,...,World Resources Institute
+b31f9672438cbd764a8fbf7e667c2944,telecom,tower,...,...,...,Natural Resources Canada
+b7ab26d23f195e8d647660349df44d34,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c056ca257c60ca0cba29669fd50c9777,bridges and tunnels,bridge,COMMANDA CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+c102c0fd80f98fc5396047fea7bc97b1,solid waste,mixed,Nipissing,Dump,Dump,Province of Ontario
+e501391950120d729e510ef1d0349fd5,bridges and tunnels,culvert,PEEVERS CREEK CULVERT,Culvert,Culvert,Province of Ontario
+ef1639177162a4179325f89658f0c36e,electric grid,power_plants,..,...,...,Natural Resources Canada
+fbfecf4e6f4d2c25f1caea947e672b31,ports and marinas,mixed,Wade's Landing,Recreational,...,Fisheries and Oceans Canada
+fda04939e2dd66b718395a9ede529e28,telecom,tower,...,...,...,Natural Resources Canada

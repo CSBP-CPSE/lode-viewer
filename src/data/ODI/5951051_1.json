@@ -1,16 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Highway 16 West,BRIDGES AND TUNNELS,Footbridges
-Driftwood Road,BRIDGES AND TUNNELS,Footbridges
-Telkwa High Road,BRIDGES AND TUNNELS,Footbridges
-Snake Road,BRIDGES AND TUNNELS,Footbridges
-Tatlow Road,BRIDGES AND TUNNELS,Footbridges
-Aveling Coalmine Road,BRIDGES AND TUNNELS,Footbridges
-Telkwa River Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Deep Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Quick Station Road,BRIDGES AND TUNNELS,Footbridges
-Babine Lake Road,BRIDGES AND TUNNELS,Footbridges
-Old Babine Lake Road,BRIDGES AND TUNNELS,Footbridges
-Highway 16 East,BRIDGES AND TUNNELS,Footbridges
-Telkwa Coalmine Road,BRIDGES AND TUNNELS,Footbridges
-7600 Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+029acffa2219374699143eca0527fd94,bridges and tunnels,bridge,CAMP,BRIDGE,Bridge,Province of British Columbia
+040b1738c89f47a1a90ca96f1bbeec94,bridges and tunnels,bridge,LUND AVE,BRIDGE,Bridge,Province of British Columbia
+04f75663206ce5805a2c8a0ff26ca001,railways,track,West Fraser,...,...,Natural Resources Canada
+0ec8a5bc48389a4b8484b18a6cc21e49,bridges and tunnels,bridge,WALCOTT,BRIDGE,Bridge,Province of British Columbia
+121ed219ed41aeec81caad170644daf9,bridges and tunnels,bridge,WALCOTT FTBR,BRIDGE,Bridge,Province of British Columbia
+1386ad1d13cbbb087681f642a8ad0711,telecom,tower,...,...,...,Natural Resources Canada
+15f043151f316938f9182f2239e126c1,bridges and tunnels,bridge,GOATHORN CREEK,BRIDGE,Bridge,Province of British Columbia
+17d6406abb3d7c0780b278243176ad9b,railways,track,West Fraser,...,...,Natural Resources Canada
+1957981045fb4b207783779310c079a8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1b08645c693bdeb3428afbe8abd05b2d,bridges and tunnels,bridge,TROUT CREEK,BRIDGE,Bridge,Province of British Columbia
+1d1c4b490de3368975181ea4abb7d2fb,bridges and tunnels,bridge,CANYON CREEK NO3,BRIDGE,Bridge,Province of British Columbia
+1d485d1434ef2508238036795dbf9826,oil and gas,pipelines,..,..,...,Natural Resources Canada
+1d9b1a5dddb7744d735ec5f2fc01dd84,railways,station,Lake Kathlyn,...,...,Natural Resources Canada
+20d519720581fd8eb916d77a6fd9b3aa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2475e8a89438dc29cec25ae9588135de,bridges and tunnels,bridge,FAREWELL,BRIDGE,Bridge,Province of British Columbia
+26cfe049ed3f20b3dd2a6c92db6f5162,railways,track,..,...,...,Natural Resources Canada
+2c8796890f876fcbaabc7de0d8395c71,bridges and tunnels,bridge,QUICK,BRIDGE,Bridge,Province of British Columbia
+2dc4c18e8de478ef60d2085d840a0d15,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+2dc9104eb39d6e11fa839ddfd570de36,railways,track,West Fraser,...,...,Natural Resources Canada
+30546bd777682f996b514bc663e86a15,bridges and tunnels,bridge,ROBIN CREEK,BRIDGE,Bridge,Province of British Columbia
+33d0f781cc0b6f127a972af54431a601,bridges and tunnels,bridge,EVELYN,BRIDGE,Bridge,Province of British Columbia
+35726aefebbac865cf9fb26544a8a881,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+361967e3f3a6314030ee96fd2f68e81c,railways,track,Huntington Siding,...,...,Natural Resources Canada
+3bde0bc40da3cd2f1ce536fc366f1eb7,oil and gas,pipelines,..,..,...,Natural Resources Canada
+3c4380aefb2175f7737c4a8ef7443b2f,bridges and tunnels,bridge,BEAVER MEADOW,BRIDGE,Bridge,Province of British Columbia
+3f38f9833b028f75b13c8053ff801483,bridges and tunnels,bridge,WALCOTT FTBR E SPAN,BRIDGE,Bridge,Province of British Columbia
+42cc26802b1eddb7cff50398781c5620,bridges and tunnels,bridge,SMITHERS,BRIDGE,Bridge,Province of British Columbia
+4331574132304f5e7308ea129aecd6d7,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+4708faffeff3705779b588d588f490d9,bridges and tunnels,bridge,FOSS,BRIDGE,Bridge,Province of British Columbia
+4f680eaa059529938103eb1c40177123,bridges and tunnels,bridge,WAKEFIELD,BRIDGE,Bridge,Province of British Columbia
+532b4d193a40c8a642baace260cb4f53,bridges and tunnels,bridge,TWOBRIDGE,BRIDGE,Bridge,Province of British Columbia
+54214fd91a50d620f608d271a4353f98,bridges and tunnels,bridge,DRIFTWOOD CR NO2,BRIDGE,Bridge,Province of British Columbia
+54ef0babeaff46d59815064d1276d710,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+5582f1d339c6b9ec709304c6debaa22a,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+55a25926bc6e1eee08c5ca2d89208a91,railways,station,Doughty,...,...,Natural Resources Canada
+56310917eb1cb843e00e2743e1831349,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+600f374b708319b729c97a617b82fc74,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+64a39020dcc557d3e180b81ce05cfe98,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+662ee8e7550c066bfdf36bd63e7acd0c,railways,track,..,...,...,Natural Resources Canada
+668336d7037a769f0b65fd1361eb39f3,railways,track,..,...,...,Natural Resources Canada
+6740401c0455cf47b47ce1c2e2b03dcc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6909905d508c8e9d9c849f1a5725ed6a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6aca7e695d10b0b9fb8c10ce7e191661,railways,track,..,...,...,Natural Resources Canada
+6eb9f8abb0a25913186e658031a1b32b,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+6f297ccf9d1dadebb933a92ff7e6828b,railways,station,Roberts Creek,...,...,Natural Resources Canada
+7215e052adb83d253fdc37d7a0708a5f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+756147178cad0d8005609be37336cfa5,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+759f90b6a92606a45affadb1ba69a81b,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+75bb1ba43ee2cc851984c9d42ff72da2,railways,track,..,...,...,Natural Resources Canada

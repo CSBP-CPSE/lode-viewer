@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-MacMILLAN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Louisdale Connection,BRIDGES AND TUNNELS,Footbridges
-LENNOX PASSAGE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MORRISONS BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Steeles Brook Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-STRACHANS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FALSE BAY BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ROSS DONALD BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-West Bay Road,BRIDGES AND TUNNELS,Footbridges
-PT TUPPER CNR O/P ON A504 #2,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CHURCH POINT BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-STEELES CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LINDEN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Church Point Road,BRIDGES AND TUNNELS,Footbridges
-PRINGLE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Grandique Ferry Road,BRIDGES AND TUNNELS,Footbridges
-LOUISDALE Rt. 320 O/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BIG MILL BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Grenville Street,BRIDGES AND TUNNELS,Footbridges
-LOUISDALE CONNECTOR U/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Cameron Mountain Road,BRIDGES AND TUNNELS,Footbridges
-Maple Drive,BRIDGES AND TUNNELS,Footbridges
-MacLEODS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MOULON CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MILL BROOK #1 CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-KYTES BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LOUISDALE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Port Malcolm Road,BRIDGES AND TUNNELS,Footbridges
-Walkerville Road,BRIDGES AND TUNNELS,"Bridges, Culverts"
-PT TUPPER U/P CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacRAES BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-NSPC PIPE U/P,BRIDGES AND TUNNELS,"Bridges, Culverts"
-RAE COVE CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacPHERSONS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CAMERON MOUNTAIN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-GRAND GULLY BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ST PETER'S CNR O/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ANGUS R BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LITTLE RIVER #2 CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Richards Pond Road,BRIDGES AND TUNNELS,Footbridges
-Morrison Road,BRIDGES AND TUNNELS,Footbridges
-Black River Road,BRIDGES AND TUNNELS,Footbridges
-CLEVELAND CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacLEANS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LITTLE HARBOUR BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FALSE BAY BROOK CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BALLAMS CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+033a72644d01ff06d8d102c4044c2844,railways,track,..,...,...,Natural Resources Canada
+05eaad09fdc157e8df16d105a14d182e,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+067b658be573f0be881a0b53ee55bac0,railways,track,Point Tupper,...,...,Natural Resources Canada
+07b2e5045671d1cdc3c1071d10de2230,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+0944318c1b5ebe89dc83c50d204785fb,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0a54e5b87e27a4ebf5c15d17f9b3679a,bridges and tunnels,culvert,PT TUPPER U/P CULVERT,..,..,Province of Nova Scotia
+0ecdf5ea1b0067aaeae3a7c703a83469,railways,track,Nova Scotia Power,...,...,Natural Resources Canada
+0fc2b2514663e886c2e57fac91ad5eb5,low carbon,wind,Point Tupper,...,...,"Government of Canada, Natural Resources Canada"
+0ff14ecdd0dd841bdfe3a405f69351bd,bridges and tunnels,bridge,CHURCH POINT BRIDGE,..,..,Province of Nova Scotia
+10188c6c4e685a9af58331c1c856b821,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1071a3153b2912ad7cfbe1ea82b23d4c,bridges and tunnels,bridge,GRAND GULLY BRIDGE,..,..,Province of Nova Scotia
+12e13a802117d9866c3531a425aae330,railways,track,..,...,...,Natural Resources Canada
+13037f187953fe5f425b9505c5404b6c,bridges and tunnels,bridge,LITTLE RIVER BRIDGE,..,..,Province of Nova Scotia
+1626b1ca048944fbb44d8a511ba8ac27,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1700e6d573381dbd096cf6d88671b03d,bridges and tunnels,culvert,CLEVELAND CULVERT,..,..,Province of Nova Scotia
+17e148ef034cb52f118ba2e9f2904400,railways,track,Point Tupper,...,...,Natural Resources Canada
+1c8a1646881df4a2d04afbecd42e8a32,bridges and tunnels,bridge,ANGUS R BRIDGE,..,..,Province of Nova Scotia
+1d1005636fd7343e8ffc623bfe8d6fd0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d29271a4c1400773146ab7cf54ee882,railways,track,..,...,...,Natural Resources Canada
+208e7b4ea31f2bdfa8b39e7eaf5c5d5a,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+2145ecd82376cc9e9b463de84565afaa,bridges and tunnels,bridge,LINDEN BRIDGE,..,..,Province of Nova Scotia
+2308f51da35bc57d29930ff187ec447f,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+2466f4c3993a4d148d003e732622dfc7,bridges and tunnels,bridge,PRINGLE BRIDGE,..,..,Province of Nova Scotia
+28bbe0eea90d442c37391a21c32c4019,railways,track,Nova Scotia Pulp Private,...,...,Natural Resources Canada
+2a79debed6d1384bc06812f4653022b7,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+2c22128bf9b8797b02048825c31fe479,bridges and tunnels,bridge,RICHARDS POND BRIDGE,..,..,Province of Nova Scotia
+2d3787cf71d88f48e07d273f36bd77f6,bridges and tunnels,culvert,STEELES CULVERT,..,..,Province of Nova Scotia
+2d9aa0c2efdd050f031326c232e76ee5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2e900080f7399d33b35bcad2e040c596,railways,track,..,...,...,Natural Resources Canada
+3009f23bc30f5b800be198d3955f8077,oil and gas,pipelines,..,..,...,Natural Resources Canada
+311033c7b39ecfc7ff1f064a333f9468,railways,track,..,...,...,Natural Resources Canada
+3146742b77c6e060bff42c118ebff356,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+33b48d9e1c7f334cf25402c851357bf8,bridges and tunnels,bridge,KYTES BRIDGE,..,..,Province of Nova Scotia
+34e41d5707c86518a0790ac7a18f6777,bridges and tunnels,bridge,MacLEANS BRIDGE,..,..,Province of Nova Scotia
+35a3441dd7e0d04d76e9b5bde07cf838,bridges and tunnels,culvert,O'MELIAS CULVERT,..,..,Province of Nova Scotia
+36e33e0cbc81e30303d3cf76e6919d89,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+36ef7bb1bd995bd6bed4024f508dd40c,bridges and tunnels,culvert,MORRISONS BROOK CULVERT,..,..,Province of Nova Scotia
+386e83f1e29532c3bf14e9b08655d44f,telecom,tower,...,...,...,Natural Resources Canada
+39e98b8b7829a06c8ff6de7ca281d7d1,bridges and tunnels,bridge,MacPHERSONS BRIDGE,..,..,Province of Nova Scotia
+3ace0e948b4b8fd9a66dd24fd9fa97d4,telecom,tower,...,...,...,Natural Resources Canada
+3d7a4135118e171b34fe9ab6d8ad6855,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3d873eb03a518e980e15262d75e8bd44,bridges and tunnels,culvert,PT TUPPER DS CULVERT,..,..,Province of Nova Scotia
+3dd3e4590352d922b2f5bad164075616,railways,track,..,...,...,Natural Resources Canada
+3e6ae45222880204e78c3a9c37fb2988,bridges and tunnels,culvert,LITTLE RIVER #2 CULVERT,..,..,Province of Nova Scotia
+3e925d77a7e757ff85508b345a6a4eca,low carbon,wind,Point Tupper,...,...,"Government of Canada, Natural Resources Canada"
+4103a92bc9d8ffa3b8f50cd256bf5898,wastewater and storm water,facilities_waste,Louisdale Sewage Treatment Plant,"Grit Removal, Screening, Primary Sedimentation/Clarification, Lagoons - Aerated, Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+4469dc933b52e250b2a486bbf2b5b307,low carbon,wind,Point Tupper,...,...,"Government of Canada, Natural Resources Canada"
+466fdad13fb1588139f1c10b9e0ca8c4,railways,track,..,...,...,Natural Resources Canada
+46c28c236b07e8c9ab3524e3b7bc7ebc,electric grid,power_plants,..,...,...,Natural Resources Canada

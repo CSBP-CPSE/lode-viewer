@@ -1,26 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Dowling Road,BRIDGES AND TUNNELS,Footbridges
-Chilko-Newton Road,BRIDGES AND TUNNELS,Footbridges
-Vedan-Elkin Lake Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Nimpo Lake Road North,BRIDGES AND TUNNELS,Footbridges
-Christensen Road,BRIDGES AND TUNNELS,Footbridges
-Bluff Lake Road,BRIDGES AND TUNNELS,Footbridges
-Tuzcha Lake Road,BRIDGES AND TUNNELS,Footbridges
-Tsuniah Lake Road,BRIDGES AND TUNNELS,Footbridges
-Marten Road,BRIDGES AND TUNNELS,Footbridges
-Nemaiah Valley Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Nimpo Creek Road,BRIDGES AND TUNNELS,Footbridges
-Dean River Place,BRIDGES AND TUNNELS,Footbridges
-Lehman Road,BRIDGES AND TUNNELS,Footbridges
-Thomson Bridge,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Nimpo Lake Road South,BRIDGES AND TUNNELS,Footbridges
-Highway 20,BRIDGES AND TUNNELS,Footbridges
-Tatlayoko Road,BRIDGES AND TUNNELS,Footbridges
-Chilko Lake Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Chilcotin River Bridge,BRIDGES AND TUNNELS,Footbridges
-Bearhead Road,BRIDGES AND TUNNELS,Footbridges
-Dean River Road,BRIDGES AND TUNNELS,Footbridges
-Morrison Meadow Road,BRIDGES AND TUNNELS,Footbridges
-Newton Whitewater Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02fba628387d48c008de9262f65f136c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+077c088f5da9997ec23f6df6adbc17f7,bridges and tunnels,bridge,HOLT,BRIDGE,Bridge,Province of British Columbia
+0a99ad94a371c801fdfe4200aba2dc8d,bridges and tunnels,bridge,CRAZY CR,BRIDGE,Bridge,Province of British Columbia
+0bfc235ee7c35562b2754d2f4d7413a3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0c32ee6177dce3209ffed38c249968d1,telecom,tower,...,...,...,Natural Resources Canada
+0cc8fe96c96bedc7a6b9ca1d9eb78f85,bridges and tunnels,bridge,SHAW CR.,BRIDGE,Bridge,Province of British Columbia
+119a4f9f2b10f699c9fcef553b64cf58,bridges and tunnels,bridge,CHRISTENSEN CR. / CLESS PCKT,BRIDGE,Bridge,Province of British Columbia
+125b1d509c208bcc7a5d0240dcc35c18,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+16264e222e8c036c08cdbe82dd6b2a28,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+193e23f77bed5ca1ece597503c521749,airports,...,Tsetzi Lake (pan Phillips) Airport,small_airport,...,OurAirports
+1dd9e645618c2431384b5864cad15a7f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1f35320caefd65380204d95e624d80ee,airports,...,Anahim Lake Airport,medium_airport,...,OurAirports
+23459f73810f5e7838e47d87ed91513c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+26bd5435752e906c03300387ba780718,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+281fb8413f153c70fdf449ee6aabae41,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b237eaa562b094b63e23695e4294862,airports,...,Puntzi Mountain Airport,small_airport,...,OurAirports
+2fe6484ecc39ffb2217b373c35b1b6f3,bridges and tunnels,bridge,LINGFIELD CR.,BRIDGE,Bridge,Province of British Columbia
+33157d0947b365aa44d9cf8010f71334,bridges and tunnels,bridge,MCCLINCHY R.,BRIDGE,Bridge,Province of British Columbia
+346ef8b39e39ff4ccf2a1a800842c760,bridges and tunnels,bridge,CHILANKO,BRIDGE,Bridge,Province of British Columbia
+34e82ccbf6ee31d5fd5392d8080a86ad,telecom,tower,...,...,...,Natural Resources Canada
+3e0e7009c1e466ecb2f30a48e4e7a413,bridges and tunnels,bridge,NATSADALIA CR.,BRIDGE,Bridge,Province of British Columbia
+42311635ec555f9928f8f3f055003220,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+54fbe523d142f4955dee1968adbe6492,bridges and tunnels,bridge,ELKINS,BRIDGE,Bridge,Province of British Columbia
+583f3265e1c931c1637f862d69b23efb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+587a4a6d0c19df99aa776fe58e77f856,wastewater and storm water,facilities_waste,Ulkatcho Lagoon,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+5dab76390b644f839acae0035f695443,bridges and tunnels,bridge,PUNTZI CR.,BRIDGE,Bridge,Province of British Columbia
+62a3a918bd02830e6881a7700760f994,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6529136b2c2fcf8ef432843537bbb828,bridges and tunnels,bridge,DEAN R.,BRIDGE,Bridge,Province of British Columbia
+6595aa6d5498f4aee7756ac623df0417,airports,...,Chilko Lake (tsylos Park Lodge) Airport,small_airport,...,OurAirports
+679288d6e39039f3a8a32839a66669c1,bridges and tunnels,bridge,TATLOW CR. / NEMAIA,BRIDGE,Bridge,Province of British Columbia
+67b82e9329e7ecaa281b454676748e65,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6b6493b8d16dc303ebbb6bf11784fe22,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7177c6167ace6a7b578321be27e75448,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7a1c86ba466459af93f2c7bea257624e,airports,...,Elkin Creek Guest Ranch Airport,small_airport,...,OurAirports
+7a1e8f95e233370ef950393da322eb20,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7ae654c2c11566f70708aace8f51164b,bridges and tunnels,bridge,GREEN R.,BRIDGE,Bridge,Province of British Columbia
+7e8e45a02741b48e1d72b85cd88aa989,airports,...,White Saddle Ranch Heliport,heliport,...,OurAirports
+830971faa63905c45c071e5dce72c1f0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8382342f89ca96573b2f27be591570b7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8587e0c2d6e9d5d307a3d3c87518f3ab,airports,...,Nimpo Lake Seaplane Base,seaplane_base,...,OurAirports
+86537112c8053271cf67b439550fb816,bridges and tunnels,bridge,BUTLER,BRIDGE,Bridge,Province of British Columbia
+86ce2754df9bb1d68cbc6a1385479f3d,bridges and tunnels,bridge,KLINAKLINI R. TATLA,BRIDGE,Bridge,Province of British Columbia
+918baa1e08f9004a0f4cf385e56d2c39,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+92d0b4141e052ed13677660000e879e2,bridges and tunnels,bridge,MOSLEY CR.,BRIDGE,Bridge,Province of British Columbia
+94edfa5887939fb014f1794f7c799561,bridges and tunnels,bridge,ELKINS CR.,BRIDGE,Bridge,Province of British Columbia
+98e9caa9415c0841c97367704406eb2f,airports,...,Chilanko Lodge,small_airport,...,OurAirports
+9a09433af98335691acf4b0f5ee55f5e,bridges and tunnels,bridge,LOUIE CREEK,BRIDGE,Bridge,Province of British Columbia
+9aed2ab4132474c1027291b39486a52a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9c8a1f59ec82ef25d44b634fe22ee83d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

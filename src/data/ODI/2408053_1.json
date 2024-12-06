@@ -1,35 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 132,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue du Phare Est,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue du Phare Ouest,BRIDGES AND TUNNELS,Footbridges
-Route du Grand-Détour,BRIDGES AND TUNNELS,Footbridges
-Route Samuel-Harrisson,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue du Parc-Industriel,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Grève,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route du Centre-de-Ski,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Chemin de la Forge,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang 5e Est,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Rue du Bon-Pasteur,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+002a30a82ac32907823d2c97ef97f74c,low carbon,wind,Le Nordais (matane),...,...,"Government of Canada, Natural Resources Canada"
+005263fb7ace626f2c1cbcbf5fa2539b,railways,track,..,...,...,Natural Resources Canada
+0201fd68cf5fb4f5b56e39d68ebcb0b9,low carbon,wind,Le Nordais (matane),...,...,"Government of Canada, Natural Resources Canada"
+0b271fb9d467fe481be6ca2e48170405,railways,track,..,...,...,Natural Resources Canada
+0e6968651764eaa56a1089d07934db8a,railways,track,..,...,...,Natural Resources Canada
+0ea188ce53a98db282a0e08f154945e4,railways,track,Matane Wharf,...,...,Natural Resources Canada
+0f98104cc3c2b0efd93e78aa19d8e12b,bridges and tunnels,mixed,..,..,..,La Province de Québec
+14731364af0cd8e4b55c8e85dec13361,bridges and tunnels,mixed,..,..,..,La Province de Québec
+15fd666e14657456ea43b67eb71f5ef1,railways,station,Matane,...,...,Natural Resources Canada
+1af11495571e1cbf9bb14e625e94a634,railways,track,Matane Wharf,...,...,Natural Resources Canada
+1f0b8311c754f7c74b81562c7fc8298b,railways,track,Cg56,...,...,Natural Resources Canada
+20ecd8e67840dff91b025883c2b4dc96,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2be6fae8de7117ba60b6cb68fea77547,railways,track,..,...,...,Natural Resources Canada
+2d6c454d67fdccd5ffda3f801c4f199f,railways,track,..,...,...,Natural Resources Canada
+2fce8f849e1c1e82ef8f017f9dbd72a7,ports and marinas,mixed,Matane (havre) - Face Sud Du Quai Éperon,Non-Core Fishing,...,Fisheries and Oceans Canada
+369bbd763d1f2621a189cfb465136728,low carbon,wind,Le Nordais (matane),...,...,"Government of Canada, Natural Resources Canada"
+3d0645f80ea991a8d2fca1486b879247,railways,track,..,...,...,Natural Resources Canada
+3e0f4572f08e0e8aa97a8faf8e38f6ad,railways,track,Cg56,...,...,Natural Resources Canada
+3ee4e67e1cecbe5f03dbd68b6faa89f2,bridges and tunnels,mixed,..,..,..,La Province de Québec
+43c8b5df2283ff987fcfeff2b944ab03,low carbon,charging_stations,Desjardins - La Matanie,...,...,Government of Quebec
+44375a4d6fe44494925e039c5762ac7b,railways,track,..,...,...,Natural Resources Canada
+4493e7b5796cc9823a42ce2684f04059,railways,track,..,...,...,Natural Resources Canada
+4602b7187a69da5663efd40ab8c0a508,telecom,tower,...,...,...,Natural Resources Canada
+46e432704c8bff23c2b07bb16bf6b69d,railways,track,..,...,...,Natural Resources Canada
+4910def83f218ee4a3f378cad1ef7599,railways,track,Matane Wharf,...,...,Natural Resources Canada
+4b0b02c6bf013098c241aad9d1831ad4,low carbon,charging_stations,Colisée Béton-provincial,...,...,Government of Quebec
+4bf62266edadecd61589cbab7d323571,bridges and tunnels,mixed,..,..,..,La Province de Québec
+53d08f9c590faf8351885c88d952b8f0,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5498223f84ce11a49857a200c9d1bc88,low carbon,charging_stations,Brcc - Matane - Couche Tard Du Phare Ouest,...,...,Government of Quebec
+5713fea10de5feb72ee994ebdcc42005,low carbon,wind,Le Nordais (matane),...,...,"Government of Canada, Natural Resources Canada"
+58b7579355cd0a26da4e210fa9a5c434,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+597e4ae066e6c615dc31d789840407b9,railways,track,..,...,...,Natural Resources Canada
+5993c5363cc39890ea0e4ef0e1eb8bf7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a2e384f0da0ded7382ad8c459658dfd,ports and marinas,mixed,Matane (nouveau Havre)-quai Des Pêcheurs,Core Fishing,...,Fisheries and Oceans Canada
+5abfb56d34dcfa4f960724a949bd7fb0,low carbon,wind,Le Nordais (matane),...,...,"Government of Canada, Natural Resources Canada"
+5b50cd87b53b5cc9330b061226a4561a,railways,track,..,...,...,Natural Resources Canada
+5d6804b24b499c4d5e06fdeaab29d66b,railways,track,..,...,...,Natural Resources Canada
+5da6db40b922c8468a54b22788e37da0,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5da9fbf5a45d18f2cc2cae3b79a29705,railways,track,..,...,...,Natural Resources Canada
+6027bbc16fdfdced5862e64cb0fc19da,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+6237cda6edbce4b57f295ce4b0eebfc7,railways,track,..,...,...,Natural Resources Canada
+68b0eea8c8e3350eab6e221b24cc0fdb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70dd4cc0d0ca4ca2ce0926d470b327c5,railways,track,Matane Wharf,...,...,Natural Resources Canada
+76b61c8450a13c472c19e19099ad604e,railways,track,..,...,...,Natural Resources Canada
+771197bd79bc66535a04056c5e4ea2a9,railways,track,..,...,...,Natural Resources Canada
+78eb3c3d5bd5eb5df7c73a2822b0300f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+79b06aa08d54b49f521fc5da3ae47008,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+79eac424415543cdf8d707004a3bf541,railways,track,Matane Wharf,...,...,Natural Resources Canada
+79f2a63d1383baa0524b1b020e44857b,railways,track,..,...,...,Natural Resources Canada

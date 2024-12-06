@@ -1,29 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang 6e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Double,BRIDGES AND TUNNELS,Footbridges
-Boulevard du Sacré-Coeur,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang de la Rivière-aux-Saumons,BRIDGES AND TUNNELS,Footbridges
-Route de l'Église,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 169,BRIDGES AND TUNNELS,Footbridges
-Rang Simple,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Principale,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+011c1ffa92ca33243906c89d534e090f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+028e6241e16801d655cb573d8f1dcc4d,railways,track,..,...,...,Natural Resources Canada
+08d4ff20518e4ea2c96882ad143a5101,railways,track,..,...,...,Natural Resources Canada
+098c00463682df30d64f19f52c2c93f8,railways,track,..,...,...,Natural Resources Canada
+0bd05c46062ca5d1bf25abe10f7c5b85,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0d1d848baa77b7137232806bb296dbad,railways,track,..,...,...,Natural Resources Canada
+10d33483993e4f47611fea99fb3be3c5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+130441c0b1bfbbe2b22eb37d45d7d445,low carbon,charging_stations,St-félicien - Hôtel De Ville,...,...,Government of Quebec
+193eb6bb941aec9c9b57192596f2a69e,railways,track,..,...,...,Natural Resources Canada
+19a60a53652fe04fc749fc466d1a3c29,low carbon,charging_stations,Brcc - Saint-félicien - Caisse Desjardins,...,...,Government of Quebec
+230c8f3bbfba7754958fb3f946455376,bridges and tunnels,mixed,..,..,..,La Province de Québec
+249addefa7b8f4caed53a2b38fccd0ec,railways,track,..,...,...,Natural Resources Canada
+2b97281ccbe55b730148d3be67409b00,railways,track,..,...,...,Natural Resources Canada
+2e22fbaf443be07f4643115ba17a873b,electric grid,power_plants,..,...,...,Natural Resources Canada
+2ec4003c0d70db8eec8e53b1dbcb75e7,bridges and tunnels,mixed,..,..,..,La Province de Québec
+30a54a7754367485757ca135c3cf6ea5,railways,track,..,...,...,Natural Resources Canada
+36e34df913c59e7edadc1f38215dc071,railways,track,..,...,...,Natural Resources Canada
+39055a3f93af3a29f58288fc1d634da4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+39360c139f71b2437837c024e7faf358,wastewater and storm water,facilities_waste,Étangs Eaux Usées St-méthode,"Lagoons - Aerated, No treatment",Lagoon,Environment and Climate Change Canada
+394086647e5a7fbec2a07655c7818de0,railways,track,..,...,...,Natural Resources Canada
+3a39ee89be1ba57b62f082015e6c3eea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3c822f2633a9f73454d08b3370486589,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4080065df6d192395b6c2514eaae59df,railways,track,..,...,...,Natural Resources Canada
+4092a2a4bb3615456193fd06abaabc55,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4241bd7dda1b0eb2e54e0f5e5eca2b76,railways,track,..,...,...,Natural Resources Canada
+4c8bbc9356201e09bcdfee18b6f45e7d,railways,track,..,...,...,Natural Resources Canada
+4e787bdb420ca25a65d22096d59a2c26,railways,track,..,...,...,Natural Resources Canada
+51f24f5ee2aac0f987801703cd330840,railways,track,..,...,...,Natural Resources Canada
+52393525f629b4961a45692bc36e11de,railways,track,..,...,...,Natural Resources Canada
+53dc81330e6e6561d27305da6e9ce2ab,railways,track,..,...,...,Natural Resources Canada
+53e9dcb39a99842408120a5acd164277,railways,track,..,...,...,Natural Resources Canada
+54df1b0f6407f1ff7cbccace492199d7,railways,station,Triquet,...,...,Natural Resources Canada
+5ce07aed9a5fc21ff6f4b2d69e60c7e1,railways,track,..,...,...,Natural Resources Canada
+6ce0a8bd0ad393657c7557e82114dd97,railways,track,..,...,...,Natural Resources Canada
+7b42862e734ffcf22ce2b96caa364b61,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7bfdf4ae99cc9d59274f2cd59e0630e6,railways,track,..,...,...,Natural Resources Canada
+7c9149f7d970ab8936c1c623985f5fe5,railways,track,..,...,...,Natural Resources Canada
+80734748361c114b01ca7706dfed1004,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8161e69c0464b50ac571ffb7fd1003c3,low carbon,biomass,Société De Cogénération Saint-félicien,...,...,World Resources Institute
+8190808b1b2a2618061380bc0ed28221,railways,track,..,...,...,Natural Resources Canada
+823211e180a4b77577c9af8d187055a0,bridges and tunnels,mixed,..,..,..,La Province de Québec
+87841cb115d5b6d51b429720c8133dcd,railways,track,..,...,...,Natural Resources Canada
+8ef808846a80178f839998f19f89514c,railways,track,..,...,...,Natural Resources Canada
+96fae4f23fca2e9b172ad7be5a3c8d9c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9997ebb93f802057e7faf256d04443ce,low carbon,charging_stations,Zoo Sauvage De Saint-félicien,...,...,Government of Quebec
+9ad4430af809793720a476fed020dcc5,railways,track,..,...,...,Natural Resources Canada
+9b2d02664735e4fb87a015412d899320,railways,track,..,...,...,Natural Resources Canada
+9c3af02185db5fc47c147f31b9c95e6a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a43d78dcd00e2952a9fc4548472ecaa3,railways,track,..,...,...,Natural Resources Canada

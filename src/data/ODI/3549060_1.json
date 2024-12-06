@@ -1,36 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-McGillvery Creek Tributary Northbound Lane Culvert,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-MCGILLVERY CREEK NORTH BRIDGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-HIGHWAY 522 UNDERPASS,BRIDGES AND TUNNELS,..
-Trout Creek Bridge,BRIDGES AND TUNNELS,..
-Highway 522B,BRIDGES AND TUNNELS,Footbridges
-CREEK CULVERT SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Snowmobile Culvert Powassan South Entrance,BRIDGES AND TUNNELS,..
-GENESEE CREEK CULVERT (SOUTHBOUND LANE),BRIDGES AND TUNNELS,..
-Highway 522,BRIDGES AND TUNNELS,Footbridges
-MCGILLVERY TRIBUTORY SOUTH CULVERT (SOUTHBOUND LANE),BRIDGES AND TUNNELS,..
-Maple Hill Road,BRIDGES AND TUNNELS,Footbridges
-TROUT CREEK BRIDGE NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-MCCARTHY STREET UNDERPASS,BRIDGES AND TUNNELS,..
-HWY 11 AND 534 INTERCHANGE,BRIDGES AND TUNNELS,..
-Highway 11,BRIDGES AND TUNNELS,Footbridges
-Butterfield Road,BRIDGES AND TUNNELS,Footbridges
-Snowmobile Culvert Powassan South Entrance,BRIDGES AND TUNNELS,..
-TROUT CREEK BRIDGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-MCGILLVERY CREEK NORTH BRIDGE NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-BEAR CREEK CULVERT NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-SOUTH RIVER BRIDGE,BRIDGES AND TUNNELS,..
-CREEK CULVERT NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-Highway 534,BRIDGES AND TUNNELS,Footbridges
-MCGILLVERY TRIBUTORY CULVERT SOUTHHBOUND LANE CULVERT,BRIDGES AND TUNNELS,..
-MCGILLVERY TRIBUTORY SOUTH CULVERT (NORTHBOUND LANE),BRIDGES AND TUNNELS,..
-Main Street,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-BEAR CREEK CULVERT SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-McFadden Line,BRIDGES AND TUNNELS,Footbridges
-SOUTH RIVER BRIDGE,BRIDGES AND TUNNELS,..
-GENESSEE CREEK CULVERT (NORTHBOUND LANE),BRIDGES AND TUNNELS,..
-MCGILLVERY CREEK NORTH CULVERT (SOUTHBOUND LANE),BRIDGES AND TUNNELS,..
-Balsam Road,BRIDGES AND TUNNELS,Footbridges
-MCGILLVERY CREEK NORTH CULVERT (NORTHBOUND LANE),BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0066f3cbcbce1f832ffa90619d107eeb,bridges and tunnels,culvert,CREEK CULVERT SOUTHBOUND LANE,Culvert,Culvert,Province of Ontario
+02b52b00907ed871b0eed3ce85d5f7c5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+080adf063a5abb81c295f37ebf3062ef,bridges and tunnels,bridge,TROUT CREEK BRIDGE NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+0ad286ef28b555a1e15b1d153cf2f700,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0ec4210d3af22976d5c6cfb7322de0df,bridges and tunnels,culvert,McGillvery Creek Tributary Northbound Lane Culvert,Culvert,Culvert,Province of Ontario
+0fb2f35f36de7e43825ea5ca7e8e586f,bridges and tunnels,culvert,GENESEE CREEK CULVERT (SOUTHBOUND LANE),Culvert,Culvert,Province of Ontario
+1320f5779f54ed2648845fecdc6c3266,railways,track,..,...,...,Natural Resources Canada
+1794c95c3b76b677909983d32c515823,bridges and tunnels,bridge,TROUT CREEK BRIDGE SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+19828c9d3d893838d3ad9eb8da06106b,railways,station,Trout Creek,...,...,Natural Resources Canada
+26ddcfdfe59528f75da5a5aba4d0814a,railways,track,..,...,...,Natural Resources Canada
+2c9c4c5594d927d2d955688f50a93b4b,railways,track,..,...,...,Natural Resources Canada
+305fb8253c33c90a88ef4fe02c5f2eb4,bridges and tunnels,bridge,HIGHWAY 522/MCFADDEN LINE UNDERPASS,Bridge,Bridge,Province of Ontario
+326c060ce5ff1fcccfa3aaec62ec1913,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+348a95f8224fcaeed04ee61662e0c50b,bridges and tunnels,bridge,HWY 11 AND 534 INTERCHANGE,Bridge,Bridge,Province of Ontario
+37466bae102907db56551e2405c886c9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b3010b0731ebb7bb9f530d313e6c1c0,bridges and tunnels,bridge,HIGHWAY 522 UNDERPASS,Bridge,Bridge,Province of Ontario
+3e843d25ebfd6b0f765ccb9739a47e51,oil and gas,pipelines,..,..,...,Natural Resources Canada
+3e9ed2026dedd9c686f88831ba94c2b5,bridges and tunnels,culvert,MCGILLVERY CREEK NORTH CULVERT (NORTHBOUND LANE),Culvert,Culvert,Province of Ontario
+41eaa7e4049a93ac5c133eae2edb86fa,bridges and tunnels,bridge,MCCARTHY STREET UNDERPASS,Bridge,Bridge,Province of Ontario
+4ac2a30cea383c4f2267e0c143fd3870,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4ad7fb886f219a31861f811b5c19ee72,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4bfdd4f705bc8790963c99b7312647f9,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+4c69ab55b4f740058ca590fa6c97633a,telecom,tower,...,...,...,Natural Resources Canada
+4fdb6076e2c0a489047682782ca19d7f,electric grid,power_plants,..,...,...,Natural Resources Canada
+52fd17d350c9292f552b127a81ce64ea,bridges and tunnels,culvert,MCGILLVERY TRIBUTORY SOUTH CULVERT (NORTHBOUND LANE),Culvert,Culvert,Province of Ontario
+547a2f408ea91e4e2bdae936147a0cd2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a701b59bc14988b5b2293913af1e811,bridges and tunnels,bridge,SOUTH RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+67e147a254d8a7f171e8103ddeffbe65,bridges and tunnels,culvert,MCGILLVERY TRIBUTORY CULVERT SOUTHHBOUND LANE CULVERT,Culvert,Culvert,Province of Ontario
+6ac5cedc8ed3719b1de2eade38581cb3,solid waste,mixed,Powassan,Landfill,Engineered landfill,Province of Ontario
+6c1765287983c842c2be07b87b787723,bridges and tunnels,culvert,GENESSEE CREEK CULVERT (NORTHBOUND LANE),Culvert,Culvert,Province of Ontario
+7bbcfd013a793288cbe7401a88160eba,railways,track,..,...,...,Natural Resources Canada
+86589412188319bd7ce2212baa70cf39,electric grid,power_plants,..,...,...,Natural Resources Canada
+8a5c967c5f8ba47cb3a29204b987313b,railways,track,..,...,...,Natural Resources Canada
+8b394dd09bc5addad9984faf473f65c3,bridges and tunnels,bridge,MCGILLVERY CREEK NORTH BRIDGE NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+8e26e4d35830fd6accab35c7639ddcce,railways,track,..,...,...,Natural Resources Canada
+8e9d632cfb700674ed68d17080d9d1f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+97d765465c39e8187f8de516aba9b5f0,low carbon,hydro,Bingham Chute,...,...,World Resources Institute
+9a2f6f42625b55a207727e2b8ed4b6c2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9bc51646b1c4845038901264a6a59269,wastewater and storm water,facilities_waste,Powassan Wastewater Treatment Lagoon,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+9dad7c6e57c89ba2f2b2a10d54a6e1d8,bridges and tunnels,culvert,MCGILLVERY TRIBUTORY SOUTH CULVERT (SOUTHBOUND LANE),Culvert,Culvert,Province of Ontario
+a0604e4a4463dc6bb691b6f976184060,bridges and tunnels,culvert,MCGILLVERY CREEK NORTH CULVERT (SOUTHBOUND LANE),Culvert,Culvert,Province of Ontario
+a1499b2dc6dae48c78bbe7d63bddb4f1,bridges and tunnels,culvert,Snowmobile Culvert Powassan South Entrance,Culvert,Culvert,Province of Ontario
+a3bcedfccb863979b5786914a54e625a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a7403745b0e9872b5cdb4a2a544b390a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a788ecfd9c2eb21c2c8856ecd99a010b,low carbon,hydro,Gitzler Falls,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+b30fedcfea6ae0fad2b091d8ba3846b3,bridges and tunnels,culvert,Snowmobile Culvert Powassan South Entrance,Culvert,Culvert,Province of Ontario
+b45eaae671b9c90d73a0c4b3d03ff33f,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+b92158f696a91683ddf2585914fc88c1,low carbon,hydro,Geisler Falls / Corkery Falls,...,...,World Resources Institute
+bab89fd9a634276851695383cfc14b15,electric grid,power_plants,..,...,...,Natural Resources Canada

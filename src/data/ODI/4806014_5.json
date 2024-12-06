@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-101 Street Southwest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-797 Highway,BRIDGES AND TUNNELS,Footbridges
-8 Highway,BRIDGES AND TUNNELS,Footbridges
-Range Road 13,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 282,BRIDGES AND TUNNELS,Footbridges
-Range Road 271,BRIDGES AND TUNNELS,Footbridges
-Bracken Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Horse Creek Road,BRIDGES AND TUNNELS,Footbridges
-Range Road 34,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 272A,BRIDGES AND TUNNELS,Footbridges
-567 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Range Road 53,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Township Road 283,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0c583e34be10ad211fbc5116ba5ed62f,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0c5fbed1bbf3102b13aa3c3bc27dac43,potable water,pipe,..,..,Pipe main,City of Calgary
+0c60f065515fa45fffd38bd89067868e,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0c6c6c7360b515d79a9947cd5fff6314,oil and gas,facilities,Trigas Pcp Irricana 8-13-28,..,...,Alberta Energy Regulator
+0c82d689a33211948cda0e01cfc643b1,oil and gas,facilities,Gayford 100/12-35-026-25w4/00,..,...,Alberta Energy Regulator
+0c936ae7d38fb6cdc39af40c82134d0c,oil and gas,wells,..,..,...,Natural Resources Canada
+0ca3fe824657eeeba999091383a8a90d,oil and gas,wells,..,..,...,Natural Resources Canada
+0ca6fca37b9a642680b79fb32fcc33e6,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0cbb9ec073aacc226d28900b137268b4,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+0cc158db82bd9c1d3192669f2017bdd7,potable water,pipe,..,..,Pipe main,City of Calgary
+0cc7e2e27292181ebcacb65eb5fbd2c7,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+0cd42002e34bbf2ac087ca8febdd090d,railways,track,..,...,...,Natural Resources Canada
+0cd81e8bb2b86caab106b49c6bc89344,potable water,pipe,..,..,Pipe main,City of Calgary
+0cfd1c5248dfe58e35318d1937e00607,potable water,pipe,..,..,Pipe main,City of Calgary
+0cfdc6e7e196f61a230bb9583efa0953,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0d0c3b5dca89c701dc2921adfb803e82,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0d10f1b2852dd78d3dd79e35f023ffe1,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+0d14ea97ab42360374a3ddd471f4fafa,oil and gas,wells,..,..,...,Natural Resources Canada
+0d2523a6b5eff82b4b71a52b8ece9597,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0d4b1e1216d4b90d43adb2dfc542a7eb,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0d83141f8e59bac24777a4f31257c83f,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0d9f9cbd8f462baa574e9ae3d6eecc3e,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0da57651cad05d465cc8b83597d20db6,oil and gas,wells,..,..,...,Natural Resources Canada
+0dba262c9ebcb136a9e4b5eff41e288e,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0dbbc2492c598b0b35720f34d03ab91d,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+0dbd9fdf3309c8bbd4ec9307436e1c0e,oil and gas,wells,..,..,...,Natural Resources Canada
+0dc24e984e57f9aeeee56f0ad966c4e1,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0dd3b7cc91e3ef215fbadc06af3645cc,oil and gas,wells,..,..,...,Natural Resources Canada
+0dd5467565e3a74ca8344b3778477773,oil and gas,wells,..,..,...,Natural Resources Canada
+0ded742ce97b245ea02675c635a8947e,oil and gas,wells,..,..,...,Natural Resources Canada
+0e0485e7c7187d23c732a9f984e69e88,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0e173161c255c1078f9affe4de1d782e,oil and gas,wells,..,..,...,Natural Resources Canada
+0e391dcaa8c261d3bb37ccdcc2a89510,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0e3c1213be87cabcbbb07254678ec083,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0e3c9e1beff90e6eb6a030c3742605ca,oil and gas,wells,..,..,...,Natural Resources Canada
+0e6db80de30d476cc38b377a3ca388a5,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0e76f590985a60a2ddccd8cdd09ab4cd,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0e922190a0e596324035f654bdb1c8b7,telecom,tower,...,...,...,Natural Resources Canada
+0ea3961045589740721f17e2ee844e6d,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0eaa259e360a20ee0de9a15a1d67d967,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0ebef748d47b69e406cc1eb2b8ac21e1,railways,track,East Crossfield,...,...,Natural Resources Canada
+0ecb745965d9e02831cf33e8d5cb86fe,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0ee4b82cd073551e9108e16b767517d1,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0ef163bfef9ea7b815ef41e1ed1f498d,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0eff81940e2b2c61bafe5ab356dabb9f,potable water,pipe,..,..,Pipe main,City of Calgary
+0f16b7ddb19a9113899d2b8eb61891c1,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0f1ba08ca1efcd021c7818ccbfb43e21,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+0f1f4d1db724b9f731dbb89c2938e90a,oil and gas,facilities,Shiningbank Lochend,..,...,Alberta Energy Regulator
+0f397175b6551bf2340f6edea83a2801,oil and gas,pipelines,..,..,...,Alberta Energy Regulator

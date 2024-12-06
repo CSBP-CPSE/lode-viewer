@@ -1,46 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Chemin de Gaspé,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Pierre-Laporte,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue d'Adamsville,BRIDGES AND TUNNELS,Footbridges
-Chemin de L'Assomption,BRIDGES AND TUNNELS,Footbridges
-Boulevard de Bromont,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Autoroute des Cantons-de-l'Est,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Bergeron,BRIDGES AND TUNNELS,Footbridges
-Rue Patenaude,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de Granby,BRIDGES AND TUNNELS,Footbridges
-Chemin Compton,BRIDGES AND TUNNELS,Footbridges
-Rue Shefford,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Sanborn,BRIDGES AND TUNNELS,Footbridges
-Rue de Soulanges,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Miltimore,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 139,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+016ce72e75a088f0c626ac8937b01ab0,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+074e913b5a1912acfdfb92d33ba7dc15,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0830a28fcf9891d7b82e6429543f98fa,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0b61cc3278f73b7e0fec685019b4a9ca,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+11b20c8befc169591763ca289da13580,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1213e1afaa317d2d2f4e301c878316ce,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+193ad1d639542b6237248c0b84b5d556,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1b4d2efd49f936c1cdf71d9b1f0a33c3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1bd4d88abcd562097f71363762ba741b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1bef880cd4b0192651e0c80ad01d6b5a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1f54d20d76792e677c6b3ee545ddc398,railways,track,..,...,...,Natural Resources Canada
+212f0e5f6362a8054a2c9a570de45ca1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2bb9efd3894d6e906554881283be36dc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32cc842267d1450486715c63731e0cbc,airports,...,Bromont (roland Désourdy) Airport,medium_airport,...,OurAirports
+42854e23650708e60401c8ae1fdca155,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+430134606cc8188f5cafbc98b5c47081,bridges and tunnels,mixed,..,..,..,La Province de Québec
+54792cea8c60c388d3216c814473ceb0,low carbon,charging_stations,Bureau D'information Touristique | 15 Boul De Bromont Bromont Qc J2l 2k4,...,...,Government of Quebec
+547c1ee847e580b79f6248ddcd29fcf4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+556b2c00cc58c40df26f33ffd9210bee,bridges and tunnels,mixed,..,..,..,La Province de Québec
+57b56fac7493ebbb47ca95e7b7a35747,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+59f6c7341d0e88ec2a4770e58f6885f7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f8fbc05701511bb7e5af6893a70cac4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6304736c0d2ca5934135ce161c4f3c5f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+64173f5b76f5ad2ac8eca98b41995a88,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+65f15c364a4c2f92956782d592efbe4b,low carbon,charging_stations,Bromont - Stationnement Compton,...,...,Government of Quebec
+6f4d7897761aaf9ec115417b649b4b74,bridges and tunnels,mixed,..,..,..,La Province de Québec
+717e675f9f7e0f4e8b07733473a8e061,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+74562d1c5edeadcaf4523edd42e9bd85,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7a2e4dbfeec44ca2ac00a3537ca6f197,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b0425024a3390557546cee2c29a6684,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7be000e8e90226b60724132483cc6ac5,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+7e6346a84020de7c72d8ea94b41fd219,oil and gas,pipelines,..,..,...,Natural Resources Canada
+805fab1660be5cbf09f6474871c4b417,bridges and tunnels,mixed,..,..,..,La Province de Québec
+836be1ea3176d4c11fc87dd34041fb95,low carbon,charging_stations,Centre Culturel St-john - Bromont,...,...,Government of Quebec
+8dd90f013acc651abc3a860337cbbb8b,railways,track,..,...,...,Natural Resources Canada
+9216c4b1cf630e9d8946a12242157c21,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9268a04bd8826a06f97aae0f3a45911c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9c4984c8bb344f8aef9ece228ee01959,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9db5ea80c7fed70223ead982a638e20d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b65b34b28c5175f3c752aff5dac355ec,oil and gas,facilities,..,..,...,Natural Resources Canada
+b665274e8269899f0da7aa046c73a131,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bc5d3bb148d9c222f85d96a17fe16af7,bridges and tunnels,mixed,..,..,..,La Province de Québec
+c217fd2d44a0e54a4dbf6408c869d31c,railways,track,..,...,...,Natural Resources Canada
+c2d78a695297e76bb411f49fbf45ce91,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c3823d345c2a8570140dffb409e3626e,low carbon,charging_stations,Bromont - 197 D'adamsville,...,...,Government of Quebec
+c603355a389bdb091b5e4df738df2ceb,low carbon,charging_stations,Uds - Centre De Collaboration Miqro Innovation,...,...,Government of Quebec
+cbf3e9934d521506b25405d254f8c9b2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d03f64809b009268193980cbf7c61bf5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d1108ff462099298091d505268ba131d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

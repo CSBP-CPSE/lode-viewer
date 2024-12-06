@@ -1,17 +1,47 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Maple Creek Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-304 Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,SOLID WASTE,Materials recovery facility
-..,SOLID WASTE,Active Dump Sites
-..,SOLID WASTE,Active Dump Sites
-..,SOLID WASTE,Materials recovery facility
-Louis Dufour Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-313 Road,BRIDGES AND TUNNELS,Footbridges
-315 Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-..,BRIDGES AND TUNNELS,Footbridges
-Provincial Trunk 11 Highway,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+050b27e6f54b892b60e4c4a258865549,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+08cc841a6c654c2d3fd60f87c776fb93,telecom,tower,...,...,...,Natural Resources Canada
+132f3a74786e819bcf4d409187ab8b85,electric grid,power_plants,..,...,...,Natural Resources Canada
+17e10431c4c96b6d5638556ef59800b7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+18454955395c5e4859a81c64f5655d40,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1ba883a7fd44ff0e57cb1cc79cad2895,telecom,tower,...,...,...,Natural Resources Canada
+2363b9899ba3763210a059180eb7a7ac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+25e23089bff7b22603b89fe0cbb6b6bc,telecom,tower,...,...,...,Natural Resources Canada
+270e10d9ed5fb976abd94466b313010d,telecom,tower,...,...,...,Natural Resources Canada
+2a6d9289031a713f5b31d2f29c919fe2,low carbon,hydro,Pine Falls,...,...,World Resources Institute
+3c34d7b75a94bd14ac86dcf1d4c20c5e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3c3b4d820a7431399f1ade92a3e86ffd,telecom,tower,...,...,...,Natural Resources Canada
+40348df8e7d304fa96565d2bbea56923,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+51f69a6538c488553f8e6679ae86a629,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+53c60938f3a4d0167c09bf350685e025,airports,...,Silver Falls Seaplane Base,seaplane_base,...,OurAirports
+547a3a74ced199aba17e798ebb6ac684,solid waste,recycling,Traverse Bay Waste Disposal Ground,..,Material recovery,Province of Manitoba
+58efe6ef049b4dc7db6a2bda4d3168fa,airports,...,Bird River (lac Du Bonnet) Airport,small_airport,...,OurAirports
+594ceb0d6cb4d6557585198dc359e47f,solid waste,recycling,C. Drabyk Mechanical Service,..,Material recovery,Province of Manitoba
+6083d7fb76bb3a37c6ec6962d42b1cfc,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+643e648fa05268941b32fe86ab5a5553,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+64c898f326a45e04c3b95f8cefc42cc8,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6eba102c15a3ee6de02a63b958fe1783,electric grid,power_plants,..,...,...,Natural Resources Canada
+6f0da5b9a512c09d34dc21802a3f47a5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6f5b5da8ed0c1cfa7cc7e26d86d748c0,electric grid,power_plants,..,...,...,Natural Resources Canada
+8caeb2b0a4ea99753512bd9fdc9c8f9d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9695c6e2352d4d90932868a92ef3587f,low carbon,hydro,Great Falls,...,...,World Resources Institute
+a179b9b6943fd6fe410379495eb74581,telecom,tower,...,...,...,Natural Resources Canada
+a1d31ce8a70e3c35e222a1ecb8658ef1,solid waste,landfill,Grand Beach Provincial Park Waste Transfer Station,Waste Transfer Station,Transfer station,Province of Manitoba
+a387c5602b4ab7f0d8b3bb4f2e8efab2,wastewater and storm water,facilities_waste,Powerview Lagoons,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+a61916fcbfe4e1aa8f827bb9d3e0c2c4,telecom,tower,...,...,...,Natural Resources Canada
+bdd2a8aea37b6f36ac64103386b9891f,airports,...,Bird River Seaplane Base,seaplane_base,...,OurAirports
+bdedd80e0c2c44bb526c587d5f46e924,solid waste,recycling,Traverse Bay Auto Service Ltd,..,Material recovery,Province of Manitoba
+c0297933ca0f617842bca4d880c9a662,airports,...,Silver Falls Airport,small_airport,...,OurAirports
+c3a93282c698ea0584e23aa86e6436cb,low carbon,hydro,Mcarthur,...,...,World Resources Institute
+cb32b6016c9c13c7e1767cb3bb2d6bf3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d630052b511408d7f67f236d66f2ccf2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dcda31c4818b2020c4efcac7956a2fb7,solid waste,landfill,Bird River (coca Cola Falls) Waste Disposal Ground,Landfill,Engineered landfill,Province of Manitoba
+dda35fd2556b07ed0f4d2417ff8a695e,telecom,tower,...,...,...,Natural Resources Canada
+ddcf8d539efcc259e1c3756152b39b45,solid waste,recycling,St. Georges Waste Disposal Ground,..,Material recovery,Province of Manitoba
+e02802905f5e2ae5c69e1497915d39f8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e192eace09ab32a8e47ae2b7f5e81dc7,solid waste,recycling,St Georges Wdg,..,Material recovery,Province of Manitoba
+e4d50ec8c4cf521fb6e5419eb61f008f,solid waste,recycling,Yves Normandin Trucking,..,Material recovery,Province of Manitoba
+e91d95c004756b809856546f9e67c388,solid waste,recycling,Hillside Power Products (2008),..,Material recovery,Province of Manitoba
+ebf2d78881de4722423b282d3a64735b,solid waste,recycling,Thalberg Farm Equipment,..,Material recovery,Province of Manitoba
+f15fbe8abfaf6f58cca6ffd7dd1ef671,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fff2c8e3de301814165e346e4fecf339,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

@@ -1,45 +1,15 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route Saint-Marc Ouest,BRIDGES AND TUNNELS,Footbridges
-Léon / ch. Volair,..,..
-Chemin Benjamin,BRIDGES AND TUNNELS,Footbridges
-boul. Martel / Gagnon,..,..
-Martel / Ébénisterie 4000,..,..
-Léon / Lac Joli,..,..
-Route des Sillons,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Madoc / ch. Ruisseaux,..,..
-boul. Martel / Robertson,..,..
-Aéroport St-Honoré CQFA,..,..
-boul. Martel / St-Marc,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-boul. Martel / Laprise,..,..
-Aéroport/Villeneuve,..,..
-Chemin des Ruisseaux,BRIDGES AND TUNNELS,Footbridges
-Rue de l'Hôtel-de-Ville,BRIDGES AND TUNNELS,Footbridges
-Léon / Lac Joli,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-boul. Martel / Aéroport,..,..
-Madoc / ch. Ruisseaux,..,..
-ch. des Ruisseaux / Bon-Air,..,..
-Chemin Simard,BRIDGES AND TUNNELS,Footbridges
-boul. Martel / Laprise,..,..
-Boulevard Martel,BRIDGES AND TUNNELS,Footbridges
-boul. Martel (no. 3291),..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Léon / ch. Volair,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-ch. du Cap (no 2001),..,..
-boul. Martel / Artisans,..,..
-boul. Martel / Artisans,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-boul. Martel / Loisirs,..,..
-boul. Martel (no. 3291),..,..
-Ruisseaux / Bon-Air,..,..
-boul. Martel / St-Marc,..,..
-Chemin Saint-Marc Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-boul. Martel / Robertson,..,..
-boul. Martel / Loisirs,..,..
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+07329c57f85e3d4e56990ace89cbcfd4,telecom,tower,...,...,...,Natural Resources Canada
+07dc8cee30bae1cae6376cd258487fe2,telecom,tower,...,...,...,Natural Resources Canada
+1a26889c14a29423d72fde54cb7029c5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+30255f9971632c6ef71c9462316b33f3,low carbon,charging_stations,Mrc Du Fjord-du-saguenay - Saint-honoré,...,...,Government of Quebec
+33dad2d150377fccd2fd9742f915c57d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4d8e71deaed5af841d2c6740abdc508f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+532c0d8d1b5c9c8338c54a8bb99bd30d,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+59d66ae6527d025b9904a0f1bc507ac6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+65a9b446dce21c8c765bf2b5cbdc2380,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9fd0a54c7dceea645429c47ee2cc0a91,wastewater and storm water,facilities_waste,Saint-honoré (tremblay),Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+a9c4baaaa43dfbb24c8c1f0a9679f57b,oil and gas,pipelines,..,..,...,Natural Resources Canada
+d733b56a0afbc0936902d8dc03544a21,wastewater and storm water,facilities_waste,Saint-honoré,"Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Lagoon,Environment and Climate Change Canada
+f47ca340b2c3a7899fd7128c7418aa6d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fc0551377fce59801e628c5bd80c49a6,airports,...,Chicoutimi St Honoré Airport,small_airport,...,OurAirports

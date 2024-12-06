@@ -1,5 +1,11 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-St George Street,BRIDGES AND TUNNELS,Footbridges
-Allain Creek Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Prince Albert Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0f745bb75d6d5c1515b9def5fc6db70f,wastewater and storm water,facilities_waste,Wastewater - Annapolis Royal,"Lagoons - Aerated, Polishing Ponds , Disinfection",Lagoon,Environment and Climate Change Canada
+11184b3cda8cbcb699fd82642cbbad67,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+277d4e31bcecc0cb0088e85d3971fd97,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+41c65d302c365f21080f58622a777e08,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+8af1e152696da301a6dc2a14a8d812ae,low carbon,tidal,Annapolis Tidal,...,...,World Resources Institute
+8f89c47f9d01b00385d97b60e52fd71f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b408292738308642ef5e3b27f774024e,electric grid,power_plants,..,...,...,Natural Resources Canada
+b58723a8d05c79b6c1cac078ee5a0514,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+c0662ecd6044e930b09477c6ab6b41e5,bridges and tunnels,bridge,Allain Creek Bridge,..,..,Province of Nova Scotia
+e3a5418d477006a2a5c743871ada2cef,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia

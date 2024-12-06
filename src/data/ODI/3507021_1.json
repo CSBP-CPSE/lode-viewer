@@ -1,51 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-La Rue Mills Road,BRIDGES AND TUNNELS,Footbridges
-LEGGES CREEK CULVERT 1000,BRIDGES AND TUNNELS,..
-Jonas Street,BRIDGES AND TUNNELS,Footbridges
-Lyndhurst Road,BRIDGES AND TUNNELS,Footbridges
-Culvert (0.37km West of Cliffe Rd.),BRIDGES AND TUNNELS,..
-Culvert (Private residence entrance),BRIDGES AND TUNNELS,..
-Reynolds Road,BRIDGES AND TUNNELS,Footbridges
-Chisamore's Culvert,BRIDGES AND TUNNELS,..
-Russell Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Red Horse Lake Road,BRIDGES AND TUNNELS,Footbridges
-County Road 32,BRIDGES AND TUNNELS,Footbridges
-Stone Street North,BRIDGES AND TUNNELS,Footbridges
-Culvert (1.1km East of Reynolds Rd.),BRIDGES AND TUNNELS,..
-Culvert WBL (100m west of Escott-Rockport Rd),BRIDGES AND TUNNELS,..
-KNIGHTS CREEK CULVERT HWY 401,BRIDGES AND TUNNELS,..
-Highway 137,BRIDGES AND TUNNELS,Footbridges
-Cliffe Road,BRIDGES AND TUNNELS,Footbridges
-CLIFF  ROAD  UNDERPASS,BRIDGES AND TUNNELS,..
-Marble Rock Road,BRIDGES AND TUNNELS,Footbridges
-DONOVAN CREEK BRIDGE (EBL),BRIDGES AND TUNNELS,..
-East Buells Point Culvert,BRIDGES AND TUNNELS,..
-LA RUE MILLS ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-COUNTY RD 2 UNDERPASS.,BRIDGES AND TUNNELS,..
-KNIGHTS CREEK CULVERT HWY 1000,BRIDGES AND TUNNELS,..
-Highway 137,BRIDGES AND TUNNELS,Footbridges
-HIGHWAY #137 OVERPASS     (WBL),BRIDGES AND TUNNELS,..
-ROCKPORT ROAD OVERPASS  W.B.L,BRIDGES AND TUNNELS,..
-County Road 2,BRIDGES AND TUNNELS,Footbridges
-Outlet Road,BRIDGES AND TUNNELS,Footbridges
-HIGHWAY #2 OVERPASS,BRIDGES AND TUNNELS,..
-REYNOLDS ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-1000 Islands Parkway,BRIDGES AND TUNNELS,Footbridges
-Sand Bay Road,BRIDGES AND TUNNELS,Footbridges
-CULVERT 1.3 KM SW OF ROCKPORT ROAD,BRIDGES AND TUNNELS,..
-Escott Rockport Road,BRIDGES AND TUNNELS,Footbridges
-Kidd Road North,BRIDGES AND TUNNELS,Footbridges
-LANDON'S BAY BRIDGE NORTH,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-1000 ISLAND PARKWAY UNDERPASS,BRIDGES AND TUNNELS,..
-HIGHWAY 137 OVERPASS   (EBL),BRIDGES AND TUNNELS,..
-COUNTY RD 32 UNDERPASS,BRIDGES AND TUNNELS,..
-Culvert EBL (100m west of Escott-Rockport Rd),BRIDGES AND TUNNELS,..
-LEGGES CREEK CULVERT HWY 401,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-"LANDON'S BAY BRIDGE SOUTH
-",BRIDGES AND TUNNELS,..
-Hutchison Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0462bfde2a30eb59fd5b4f44a0069826,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0c2d5423928d44024272c1782d9cccaa,bridges and tunnels,bridge,CLIFF  ROAD  UNDERPASS,Bridge,Bridge,Province of Ontario
+1198f09fc777c1f3eb7ff70025699a24,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+11a9a9eb4d20c08c2471cfc26c53abd1,railways,track,..,...,...,Natural Resources Canada
+15652098d55d4266b3672052a8c87fcf,ports and marinas,mixed,Seeleys Bay,Recreational,...,Fisheries and Oceans Canada
+17dc12267af9d1f37d6acdc3891c15da,telecom,line,...,...,...,Natural Resources Canada
+1a7546626f7e2770c09ac233b184814d,wastewater and storm water,facilities_waste,Leeds And Lansdowne Wastewater Treatment Lagoon,"Chemical Flocculation, Lagoon - Facultative",Unclassified,Environment and Climate Change Canada
+1b76fa28bc3640d044266100c79b9078,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+1cfcb00d084bc2e7faa270c1c2654b4a,bridges and tunnels,bridge,COUNTY RD 2 UNDERPASS.,Bridge,Bridge,Province of Ontario
+1f96b85258c767aa00fba13ab784d666,bridges and tunnels,bridge,DONOVAN CREEK BRIDGE (WBL),Bridge,Bridge,Province of Ontario
+22c393daf0fdd0665a668fb2dad022a7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+288ea7a37fe2e5490c09055d8cc537a3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+297d625306d0c2670ddf498515d6e4ae,telecom,tower,...,...,...,Natural Resources Canada
+29811e7ac277424e081466380981c0ae,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2b9e5b5b75dacda2edc58fa7b4a7747e,railways,station,Leeds,...,...,Natural Resources Canada
+2c744bd2bbe923678307aa37186af1ca,bridges and tunnels,culvert,LEGGES CREEK CULVERT 1000,Culvert,Culvert,Province of Ontario
+2fa852d08407669a8713052f00307a29,railways,track,..,...,...,Natural Resources Canada
+342b95f931b2f6e83440583c738f40cd,bridges and tunnels,culvert,Chisamore's Culvert,Culvert,Culvert,Province of Ontario
+35820d33f7737569d9be3488fc5d994d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b6373a422202e5c674b1485f0640a7f,oil and gas,facilities,..,..,...,Natural Resources Canada
+3bba5696dd92c1e4af94443a453856d3,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+400b23ec73232431bd86fc642278b388,bridges and tunnels,culvert,Culvert (1.1km East of Reynolds Rd.),Culvert,Culvert,Province of Ontario
+432f19d77de61fb4b04ecef5f4e2e608,ports and marinas,port,Rockport,..,...,National Geospatial-Intelligence Agency (NGA)
+4392e5d12fbadf2ce604362e854cabdf,telecom,tower,...,...,...,Natural Resources Canada
+43a66e7f8e9d640841eafbeebea1bf80,telecom,tower,...,...,...,Natural Resources Canada
+456c3cc290e8b0fb8a84f41b70a3814f,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+45f262d0fd5ce10ae6348333ca2242ce,bridges and tunnels,bridge,ROCKPORT ROAD OVERPASS  W.B.L,Bridge,Bridge,Province of Ontario
+47d59ccb7782f6aeed1d3f459f95b7e6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+47e81fcd2c91f0b3e9edd15f2a76f657,railways,track,..,...,...,Natural Resources Canada
+48a6d9635e4b5a08edffa855b70e96a7,bridges and tunnels,culvert,Culvert (Private residence entrance),Culvert,Culvert,Province of Ontario
+49aec4ba00ed27f68d0ace0d57515aea,bridges and tunnels,culvert,CULVERT 1.3 KM SW OF ROCKPORT ROAD,Culvert,Culvert,Province of Ontario
+4b766dde5959519e19790b27a7663139,bridges and tunnels,bridge,ROCKPORT RD. O/P -EBL.,Bridge,Bridge,Province of Ontario
+510d7d51109030da7fba5b5c38f06682,telecom,line,...,...,...,Natural Resources Canada
+536b63645120e4c8a6999a213a86a2f6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5d37c265ad7c1fa15c32cc41e9e7b4cb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5e29f3ce75d7811013d838e34cd5743b,bridges and tunnels,bridge,HIGHWAY #2 OVERPASS,Bridge,Bridge,Province of Ontario
+5ef3aabee3a593c3de041ad280824bf1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+680b0a877eb55c667edddf35ef83242e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6938eba0059a8c4d99b1accc2aa49ca1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6f8e5e7d7b332ed95142ba214b7b181d,oil and gas,pipelines,..,..,...,Natural Resources Canada
+6facd3ddaf25837aea0dda212d985265,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6fd4162195048aeeb9787e986d4a9001,oil and gas,facilities,..,..,...,Natural Resources Canada
+712eb8abcbbce7b3a4cc619e95fc6011,bridges and tunnels,culvert,KNIGHTS CREEK CULVERT HWY 401,Culvert,Culvert,Province of Ontario
+71423e9e080d78bd8271e69667669096,railways,track,..,...,...,Natural Resources Canada
+736e67df5ef600dd39395181c3bc1e5e,bridges and tunnels,bridge,1000 ISLAND PARKWAY UNDERPASS,Bridge,Bridge,Province of Ontario
+76d991590f264ed94f4eefecaa636735,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+7899cc636189deefbc23a741b3b6fc13,oil and gas,pipelines,..,..,...,Natural Resources Canada
+792911c681411a4b4d5922284f32144c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7930dc5fb2f71f37e56de061fbfec425,telecom,line,...,...,...,Natural Resources Canada

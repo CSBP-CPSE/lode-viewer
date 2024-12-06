@@ -1,31 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-33rd Line,BRIDGES AND TUNNELS,Footbridges
-29th Line,BRIDGES AND TUNNELS,Footbridges
-Meatherall Line,BRIDGES AND TUNNELS,Footbridges
-37th Line,BRIDGES AND TUNNELS,Footbridges
-Road 92,BRIDGES AND TUNNELS,Footbridges
-Road 88,BRIDGES AND TUNNELS,Footbridges
-45th Line,BRIDGES AND TUNNELS,Footbridges
-Road 74,BRIDGES AND TUNNELS,Footbridges
-Putnam Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Dundas Street East,BRIDGES AND TUNNELS,Footbridges
-23rd Line,BRIDGES AND TUNNELS,Footbridges
-43rd Line,BRIDGES AND TUNNELS,Footbridges
-31st Line,BRIDGES AND TUNNELS,Footbridges
-Road 96,BRIDGES AND TUNNELS,Footbridges
-Perth Oxford Road,BRIDGES AND TUNNELS,Footbridges
-Road 80,BRIDGES AND TUNNELS,Footbridges
-35th Line,BRIDGES AND TUNNELS,Footbridges
-Road 60,BRIDGES AND TUNNELS,Footbridges
-Road 78,BRIDGES AND TUNNELS,Footbridges
-27th Line,BRIDGES AND TUNNELS,Footbridges
-Zorra & East Zorra Tavistock Line,BRIDGES AND TUNNELS,Footbridges
-Road 62,BRIDGES AND TUNNELS,Footbridges
-25th Line,BRIDGES AND TUNNELS,Footbridges
-Road 64,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-41st Line,BRIDGES AND TUNNELS,Footbridges
-17th Line,BRIDGES AND TUNNELS,Footbridges
-Road 84,BRIDGES AND TUNNELS,Footbridges
-Cobble Hills Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00ce20995542a103e60e6b8eec8c5f43,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+01a07efe8905862cc6f18f86e150dbad,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+01b2af31b0c2d3628efbbaae1407c770,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+07d33fbf2dabeae59ab21ec3586b7939,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+08a88adfa19c98df1730345cf195cffd,oil and gas,facilities,..,..,...,Natural Resources Canada
+0a5781773015e66a07ec7aab1752a76a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0d2e4e0d1b3dbb362a3875180bde3951,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0dfb3754bcc96a71f7fb4666ab6c2baf,railways,track,..,...,...,Natural Resources Canada
+10aa792b85e899372e586e540e264e72,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+115f246d3387f19e03d8839644806055,railways,track,..,...,...,Natural Resources Canada
+19bc8c6d49975ed3b338d3c3729b65fc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d6184d6e3c7d6db05b292d6af9a6bc8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+251a4749ab7c964fe984be82e185f946,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+257f82f4da283e7e0dc5b3e28dd77eaf,railways,track,..,...,...,Natural Resources Canada
+26807bf45a19d13cbb67cbbde8d2ffc5,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+26c99acbd1d0875f85a2c293a16f277b,railways,track,..,...,...,Natural Resources Canada
+270c2a2b7fc396a0f072b72b2b1dc531,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2dcd0dadccadd597790c6472185f075e,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2e6af666e6e61dbf8f12a14df19d3c71,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2eb1cc1e08f55777287d20c24fe4a78d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3078ef60d5aa3c04b638e80114d17284,railways,station,Lihou,...,...,Natural Resources Canada
+364444ddd25324f6dfa2a0b74bd8869d,railways,track,..,...,...,Natural Resources Canada
+3810404e4c39677b6ea33e63762dbafe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+398a142fce1bc6ec9268e35812110ef5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3bfc9c9d388c0f07da1883c45321bbe6,railways,track,..,...,...,Natural Resources Canada
+3d54cd0845eae9be652cbb7ad98edc65,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3f8871f3404120b71f8fe4af3e22fb90,oil and gas,pipelines,..,..,...,Natural Resources Canada
+456105d9c5bb2de2f127ec4c0986d977,railways,track,..,...,...,Natural Resources Canada
+46129ae80bbe5df0f297d4021d0226d1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+466979208c2cc59f958018fa25f96c12,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4a832beb7e0d16e1ed2af0b178fff3f9,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4be0718e0b2f2557d7c41497af09e4b6,oil and gas,facilities,..,..,...,Natural Resources Canada
+53c5bf192bce9e60f775c74b0d3cfd6f,railways,track,..,...,...,Natural Resources Canada
+54031f2493b8ac6feb564d0a58c19842,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+56adbca3221c37f3ff5c341c122b541a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+5704f3670701d5c6279049342ae341a2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+57382302c7e0dbe1088adffada16e8ca,telecom,tower,...,...,...,Natural Resources Canada
+57a149936f9b49a33e676ce0b46ed718,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+590d097d479b0fcb6c8c4eb1aa26f230,electric grid,power_plants,..,...,...,Natural Resources Canada
+592679d490226121e061cacb12532790,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+59b44fd2e339ef0e4d13d4d8b35c19b0,telecom,tower,...,...,...,Natural Resources Canada
+5bd5d1153a7d3ab5d654cc5378f1563c,railways,track,..,...,...,Natural Resources Canada
+62489086cb69898c151d0891ff677399,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+629c07fc04654a4aa1e1a6f272a054c9,railways,track,..,...,...,Natural Resources Canada
+62de05764bac871ac4ad0592c4d9f65c,oil and gas,pipelines,..,..,...,Natural Resources Canada
+634e1e900baadaf25bce95dcc236dc7e,railways,track,..,...,...,Natural Resources Canada
+65422daa66775214c11e5169b6c6de4b,railways,track,..,...,...,Natural Resources Canada
+66dddd6440a5841b56c2e1fefcf53c55,oil and gas,pipelines,..,..,...,Natural Resources Canada
+676c7e038e999e8bd102d1b7752bdcbd,railways,track,..,...,...,Natural Resources Canada

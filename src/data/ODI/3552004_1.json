@@ -1,9 +1,17 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Highway 535,BRIDGES AND TUNNELS,Footbridges
-MACPHERSON CREEK CULVERT,BRIDGES AND TUNNELS,..
-Cloutier Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-SOUTHWEST ARM OF LAKE NIPISSING BRIDGE,BRIDGES AND TUNNELS,..
-Bedard Road,BRIDGES AND TUNNELS,Footbridges
-NEPEWASSI RIVER BRIDGE,BRIDGES AND TUNNELS,..
-NORTHWEST ARM OF LAKE NIPISSING BRIDGE,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+08a9ea9d8a80a443bb2a6954ae65696c,telecom,tower,...,...,...,Natural Resources Canada
+1427b586e5c09ce15ca6769b32f950df,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+603e0996a0fe9bcb7df3a60f8a7d2350,wastewater and storm water,facilities_waste,St. Charles Sewage Lagoon,Lagoon - Non-aerated,Lagoon,Environment and Climate Change Canada
+6ab4059880febdb5b2182097dc74b7b6,oil and gas,pipelines,..,..,...,Natural Resources Canada
+806e27d510d0bc978b222cb9627ba993,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8480fed3fffda6881825e64baaf8a155,bridges and tunnels,culvert,MACPHERSON CREEK CULVERT,Culvert,Culvert,Province of Ontario
+9efa7ca8b6da4e995b0e057489ed1002,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9fc6a6b32ee8a624b0d006373d4cb0e4,oil and gas,facilities,..,..,...,Natural Resources Canada
+a4f37429d79b90c7b16978bd42f0c856,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a6c312f51d1984e58d610262705e798c,bridges and tunnels,bridge,NORTHWEST ARM OF LAKE NIPISSING BRIDGE,Bridge,Bridge,Province of Ontario
+bf1b1287e214d624c8bd382d36db6bb2,bridges and tunnels,bridge,SOUTHWEST ARM OF LAKE NIPISSING BRIDGE,Bridge,Bridge,Province of Ontario
+cb9ba59ef2ff8f989a643e7994f759d5,solid waste,mixed,..,Landfill,Engineered landfill,Province of Ontario
+eef14755a970f1983551f58825458d1d,oil and gas,pipelines,..,..,...,Natural Resources Canada
+f55a174d0574924ed65797e390a24f04,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fbdaf112afdeaf66aa32e9521592d583,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fef6704552792d8fb330429bcbb89688,bridges and tunnels,bridge,NEPEWASSI RIVER BRIDGE,Bridge,Bridge,Province of Ontario

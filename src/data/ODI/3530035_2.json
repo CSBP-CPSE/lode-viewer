@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Northfield Drive East,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Martin Grove Road,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Farmers Market Rd. / St Jacobs Market,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Arthur / Howard,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Sandy Hills Drive,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Peel Street,BRIDGES AND TUNNELS,Footbridges
-King / Lobsinger,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
-..,POTABLE WATER,Transmission Pipes (>416mm)
-King / Lobsinger,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-King / Henry,..,..
-Arthur / Earl Martin,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Line 86,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Floradale Road,BRIDGES AND TUNNELS,Footbridges
-Woolwich Street South,BRIDGES AND TUNNELS,Footbridges
-728 Arthur St. S.,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Snyder / South,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,POTABLE WATER,Local Water Pipes (<416mm)
-Arthur Street North,BRIDGES AND TUNNELS,Footbridges
-Arthur / Scotch Line,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Arthur Street South,BRIDGES AND TUNNELS,Footbridges
-Hawkesville Road,BRIDGES AND TUNNELS,Footbridges
-Katherine Street North,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Arthur / South Parkwood,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Arthur / Gerrat,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+5d57b889a1caae98b764441a2b1aebec,railways,track,Waterloo Spur,...,...,Natural Resources Canada
+5e16343b89a92983b257897a9a3980bc,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+5e304340111aa1828985266d3a30b6cd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+60250adcd8f6dd92a05388c889312291,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+61f1b14c4a2ee0b9076d7a5d9b06eb42,railways,track,Waterloo Spur,...,...,Natural Resources Canada
+627411e4907f7c21bd401218430dc6f8,bridges and tunnels,bridge,Hopewell Creek Bridge,Bridge,Bridge,Province of Ontario
+631fb4509a065311b620190da495d4ab,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+6322fe38cacd81b73a100df45075cc68,low carbon,biomass,Woolwich Bio-en,...,...,World Resources Institute
+639dae2da0c03e60229723788ae55ec8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6483a9fbd71fa193e0d7eb62f16064d2,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+6a190ae3a836e5f44be3c1550e501551,railways,track,Waterloo Spur,...,...,Natural Resources Canada
+6ba08a410fd3cffbebe6da9c959d0f8f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+723b2d36c000f31a813a142a4aad086d,railways,track,Waterloo Spur,...,...,Natural Resources Canada
+7250b3da11972a1a59130f46c01967d6,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+7b88f08fe09fb5b15c9a327961eb6bc0,telecom,tower,...,...,...,Natural Resources Canada
+7ca33f36b9a0952f5243347f027ebfa4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8190109c1f4d48954a438817ed47ab89,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+835fc30ba45172664685158d4ef20ae7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+849a9edcd0959bcff07c19b7c5bb13fe,railways,track,Waterloo Spur,...,...,Natural Resources Canada
+86f41df63e4440f6cc7737bf330eebb4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8a54df4be7107c8f7ab5e8d8671b1063,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,City of Kitchener
+8bad175620f6798db8f251f832da225b,telecom,tower,...,...,...,Natural Resources Canada
+8cad725b6a4f36497362f4f060199862,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+8eff7aa5bb057281d40850af2b80f75e,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+9209c9c67347c607247f02d84fe9a582,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9b066340faa75c3058bf52b46e2f34b2,potable water,pipe,..,..,Pipe main,City of Kitchener
+9ef705803c8313ef68e4359ccc7e88fa,potable water,pipe,..,..,Pipe main,City of Waterloo
+a1bd3ef1ce131c356305aed15fd7e89d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a407492c6d9a976651ed3d4a75cfe085,railways,station,Breslau,...,...,Natural Resources Canada
+a5d350682c79c238c9012fc96f33d7ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a6132749f764190253011c70da5c1711,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aa7298a460b4a3741cfc67bf1b953551,railways,track,Waterloo Spur,...,...,Natural Resources Canada
+ab17b676a04bfc763dd20cd78e1a92e9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ab3c04799271e4ed1be9edb1e11fde38,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ae300c744d79474cc6c973942ed046f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b1e799696b5340d096380a596250b11b,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+b2ca8b16533b9b4d77ae8820d4b5cc89,railways,track,Waterloo Spur,...,...,Natural Resources Canada
+b6dd59d5a312d5a65ceddb310063ffe1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b749c770e39d6086dabf278f8ad6f560,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b7d19812e0418958434c730964fbb59b,potable water,pipe,..,..,Pipe lateral,City of Kitchener
+b80f51c350010ef4e0cd553f8a489dad,potable water,pipe,..,..,Pipe main,City of Waterloo
+b81cfe0bcb22426cd661648056d36714,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ba8e35dbb893cc90a66d2cb1b7c7dd1e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bcd03fe80cff73764093669a4ada7851,railways,track,Waterloo Spur,...,...,Natural Resources Canada
+bdbc1e610e9b0e05c5fe0016320a10a8,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Kitchener
+bf04c69be379074bac8881395156afc4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c01eeeb69c7a87e4320ec4785dfed83b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c0e905dbc4cea55738f660840245bfe0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c147d2bdaedbf34c279c05137521e766,potable water,pipe,..,..,Pipe main,City of Kitchener

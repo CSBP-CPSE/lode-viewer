@@ -1,50 +1,33 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Mission City Station @ Bay 1,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Fennell at Mitchell,..,..
-Horne On Street,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-3rd Ave at Horne,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-11th Ave at Dunsmuir,..,..
-..,POTABLE WATER,Transmission Pipes (>416mm)
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+eea63667d9a5e53ca8511ab55a5a54ba,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f0c0205e852739afed6fc0f061631d1c,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f106f61940b13ecd1e3c72c8a7e8bece,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f1280d5d773ccfced25990260adec09e,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f16868831d1b2ab2bbaeccbc952cd507,railways,station,Mission,...,...,Natural Resources Canada
+f1bcd512ac2968594e6c275d97855d84,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f22c1eb04e4344ebf5d29412f46f200a,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f2b0b323e1328c91b5d61902f22d9d5b,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f356fc9496f5b0cffe2059daff39a7da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f35cc89faa6ba771ef0ab84f76cdd267,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f386c6ad1b69042cf5bcf0e3a2e76d8a,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f3c2d4ac21946e5e2dc1f6f5488edde8,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f57cd645792d59797a3b0cc67b616e57,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f59d81cab2025dbac14637cd6d7ba57e,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f5ebe424bf3ff0dfb54897e83973453b,railways,station,Hatzic,...,...,Natural Resources Canada
+f623e73197db71f515f0365b5eb5de37,bridges and tunnels,bridge,MURRAY ST CPR O/H,BRIDGE,Bridge,Province of British Columbia
+f630ac44823e641e864e8f94f87b4326,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f6b5102d39dc8441433bf4ff3ec5dbfa,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f6eede9c50d5f0c3c0812ac11761296c,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f78a5f03069de2596a05e648608b9603,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f82ff4865987e298efc951d84dd7d42f,railways,track,..,...,...,Natural Resources Canada
+f8511487529df5aad19e8e673b5366d9,potable water,pipe,..,..,Pipe main,City of Abbotsford
+f8cb8fa41592a0952afea96ffcad83a2,potable water,pipe,..,..,Pipe main,City of Abbotsford
+fb0ad4ec94c433c6671c6857138b8918,potable water,pipe,..,..,Pipe main,City of Abbotsford
+fb8b703ed18e3aa9d599caedb9b76bf8,potable water,facility,..,..,Water reservoir,City of Abbotsford
+fbb755bb643e1eaafffb4c80f68f4d08,potable water,pipe,..,..,Pipe main,City of Abbotsford
+fbbea359e92577bb3512ac1da35e33c9,railways,track,..,...,...,Natural Resources Canada
+fbfb63249e864634b233fd73da50aa86,railways,track,..,...,...,Natural Resources Canada
+fc5a3c3159f136d41a9dfc77b46064f1,potable water,pipe,..,..,Pipe main,City of Abbotsford
+fcc3d5ab7d21dc46b2a406c39aaa6edd,potable water,pipe,..,..,Pipe main,City of Abbotsford
+fe603f96f0f951d1288e07b448c5e1ab,potable water,pipe,..,..,Pipe main,City of Abbotsford
+ff234612b64e1f03e30d4fea8e52e868,potable water,pipe,..,..,Pipe main,City of Abbotsford

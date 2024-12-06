@@ -1,12 +1,14 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Boulevard des Forges,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue Ringuette,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-Chemin des Dalles,BRIDGES AND TUNNELS,Footbridges
-Le Petit-Saint-Étienne,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+290b9816afc26ee576c39d7712f31cef,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+492b69976923f195503bb7d8a70fee1c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4efb7947e0dc3ae27f4ed8744b519fa4,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+550c88c99c9d834003b90e9072fffa14,bridges and tunnels,mixed,..,..,..,La Province de Québec
+64eb22aaf9c9a7c01a6f0a33ed77aedc,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Saint-étienne-des-grès,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+68e22102fdfbba83bae9d46bf6ada9a4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+70f1e06dc46dfb1c5c3213bdffcfb0e7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8c64be9305f85cbdd2e91c21c0f7ba11,airports,...,Hydravion Aventure Water Aerodrome,seaplane_base,...,OurAirports
+9267a9c2e2bf962be1eb43bb4a83f888,low carbon,charging_stations,Municipalité De Saint-étienne-des-grès,...,...,Government of Quebec
+ba1d4a8f4c3bf813e6a789610ecbf5e9,solid waste,mixed,Lieu D'enfouissement Technique,562990,Facility mixed,Environment and Climate Change Canada
+bb1940e5bd660cff6a0a05a45e1d44c8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c6bbb4097ca5ee32aa08a6b4ebccdd30,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ea8f864aaf6ec60a0f65177cd71b44e2,low carbon,charging_stations,Parc St-thomas,...,...,Government of Quebec

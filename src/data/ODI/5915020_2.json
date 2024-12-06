@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Southbound Wesbrook Mall @ Triumf Centre,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Northbound Wesbrook Mall @ Agronomy Rd,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Eastbound University Blvd @ Acadia Rd,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,biking
-Blanca Loop @ Bay 2,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-UBC Exchange @ Bay 6,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Eastbound W 16 Ave @ Wesbrook Mall,..,..
-Southbound West Mall @ Hawthorn Lane,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,biking
-Westbound Chancellor Blvd @ Hamber Rd,..,..
-Eastbound W 16 Ave @ Pacific Spirit Park,..,..
-Flyin Branch,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Northbound Wesbrook Mall @ 2900 Block,..,..
-Highway 99,BRIDGES AND TUNNELS,Footbridges
-Eastbound Thunderbird Blvd @ Eagles Dr,..,..
-Southbound Wesbrook Mall @ Iona Dr,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Westbound Stadium Rd @ West Mall,..,..
-Southbound Hwy 99 @ Strachan Point Rd,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,PEDESTRIAN AND CYCLING,multi-use
-Eastbound W 16 Ave @ Tolmie St,..,..
-Westbound Ross Dr @ Birney Ave,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Northbound Wesbrook Mall @ Thunderbird Blvd,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+532070b161dfaa56309f2c4c66e528e9,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+5350b6fa4e322680a420bc8e816aa659,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+5642358b95eb94bb3b94622e67f1fabd,potable water,pipe,..,..,Pipe main,City of Vancouver
+575f4fd2635ad8c986bc90f28fbecb17,wastewater and storm water,pipes_combined,..,Combined,Combined pipes,City of Vancouver
+5a31e16b1aefc16182ba0a6fe2882c97,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5ad4a949ed58fcfbac8840b62ff50a4e,bridges and tunnels,bridge,M CREEK BLUFFS,BRIDGE,Bridge,Province of British Columbia
+5dd8c5633aa54f3fedbe3b2606e064ea,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+5e7bff9a7b477bfa380ad7a7a091e68b,potable water,pipe,..,..,Pipe main,City of Vancouver
+612a75683ac0689487fcbb00e8433911,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+65880f404e89483bcecaad5e2bd28315,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+66e1978d868678deca1410635ce76ee1,potable water,pipe,..,..,Pipe main,City of Vancouver
+685c454af0912a1e1dfed664792ca647,potable water,pipe,..,..,Pipe main,City of Vancouver
+689c7efd9e1904eb6186ed6d374caf53,railways,track,Brunswick,...,...,Natural Resources Canada
+69694d30d06c51a084ba9678415196ed,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+69e89d1b34d6aef9f9cbd4a1f1e36c16,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+6da561fcb28a3e4d96979cc5dd4dbbca,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+6dc649ba105d524cff1906c869747db4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e6faff17c02a2f8cdf7eb8418b9d5bf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6f84831bd608a18e7799484ad21a8263,bridges and tunnels,bridge,NEWMAN CR,BRIDGE,Bridge,Province of British Columbia
+6fcfa6c05c12fb45a3f335d7d6276702,potable water,pipe,..,..,Pipe main,City of Vancouver
+70f570e1031239bc64965ae497d2fc91,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+7588949387d7434502c2f3f01c869ba4,potable water,pipe,..,..,Pipe main,City of Vancouver
+780cac64c3ef0141b1aec77682e3019f,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+78188f8d6bee9a58d1acf870a45192e3,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+78fa5a0941008b3a5a2a9f880fa2b833,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+79fdc9262022165d7a04c99e4d9e787c,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+7b3c2340214025be71b2ba80e434ad0b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7e83dc8640c89a414d8be9e414042ee0,potable water,pipe,..,..,Pipe main,City of Vancouver
+7f5b92c9fc6317e9ba76f6381e55f074,potable water,pipe,..,..,Pipe main,City of Vancouver
+80022ae160e273c7dfcdf03ac24b47d3,bridges and tunnels,bridge,LONE TREE CR,BRIDGE,Bridge,Province of British Columbia
+805802607b00c1c65fcce7b1f33cb01e,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+84b97205b3b6143d335e61e76f9eaec7,potable water,pipe,..,..,Pipe main,City of Vancouver
+858093fb029e042aa609567c9ac7e615,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+8741bf6b11972e28bba3ab3e3d4e9849,potable water,pipe,..,..,Pipe lateral,City of Vancouver
+88f8d9f0be4fb6e2a7ced3ff1bcc1b87,wastewater and storm water,pipes_waste,..,Sanitary,Sewer main,City of Vancouver
+898f2159c768e5f735d07a828077a4da,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+8abc97481fda94df22f35ec8e3f429a4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8fca1355032af814976e2e207a9155a5,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+90de6abf6ffa3dd6e38410deb2a4d26a,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+920cba64d16975c6f2a4f5135654b69a,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+92c1e28b125dd40c98df48ae6a90785e,electric grid,power_plants,..,...,...,Natural Resources Canada
+945b61333c45d69df2d0536be9b4f27b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+98ff4f4c90a4cad4370fe67d62fa2687,wastewater and storm water,pipes_mixed,..,Sanitary,Sewer main,City of Vancouver
+996edf21235e7862b7d74181b4c83a49,potable water,pipe,..,..,Pipe main,City of Vancouver
+9a9a7c3c304eb787bc7a241ca7135256,potable water,pipe,..,..,Pipe main,City of Vancouver
+9bdf530906382f25f9f64d9936b50a9a,potable water,pipe,..,..,Pipe main,City of Vancouver
+9cac141c0f7554799a3056276bfec838,wastewater and storm water,pipes_mixed,..,Storm,Storm pipe main,City of Vancouver
+9d863dc6b7fa962ab217eb0abbac2de8,potable water,pipe,..,..,Pipe main,City of Vancouver
+9d9473bf04492095b7270ff03d997c1c,potable water,pipe,..,..,Pipe lateral,City of Vancouver

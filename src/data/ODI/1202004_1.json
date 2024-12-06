@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Highway 103,BRIDGES AND TUNNELS,Footbridges
-Pembrooke Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Mill Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Porter Road,BRIDGES AND TUNNELS,Footbridges
-Greenville Road O/P Bridge on 101,BRIDGES AND TUNNELS,"Bridges, Culverts"
-North Ohio Road,BRIDGES AND TUNNELS,Footbridges
-Brown's Multiplate,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Happy Hollow Road,BRIDGES AND TUNNELS,Footbridges
-Church Lane Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Mood Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Valley Crescent,BRIDGES AND TUNNELS,Footbridges
-Small Gains Road,BRIDGES AND TUNNELS,Footbridges
-Pleasant Valley  #2 Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Greenville Road O/P Bridge on 103,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Raynardton Road,BRIDGES AND TUNNELS,Footbridges
-MacCormack Road,BRIDGES AND TUNNELS,Footbridges
-Carleton Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Wilson Falls Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Wyman Road,BRIDGES AND TUNNELS,Footbridges
-Highway 203,BRIDGES AND TUNNELS,Footbridges
-Brooklyn Road Underpass,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Government Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Brooklyn Road,BRIDGES AND TUNNELS,Footbridges
-Richmond Road O/P Bridge on 101,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Main Shore Road,BRIDGES AND TUNNELS,Footbridges
-County Line Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-K and L Annis Rd West,BRIDGES AND TUNNELS,Footbridges
-Dayton Road,BRIDGES AND TUNNELS,Footbridges
-Perry Road,BRIDGES AND TUNNELS,Footbridges
-Cape Forchu Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Port Maitland Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Crosby Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lake Annis Road,BRIDGES AND TUNNELS,Footbridges
-Durkee Road,BRIDGES AND TUNNELS,Footbridges
-Lake Annis Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Regent Street,BRIDGES AND TUNNELS,Footbridges
-Robicheau Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Haleys Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Saunders Road,BRIDGES AND TUNNELS,Footbridges
-Durkee Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Brooklyn Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Alders Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Churchill's Mill Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Sunday Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-East Canaan Road,BRIDGES AND TUNNELS,Footbridges
-Mill Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 340,BRIDGES AND TUNNELS,Footbridges
-Dayton Narrows Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+04e1f70f5691ae6818e33132b1d25458,bridges and tunnels,bridge,Gang Mill Bridge,..,..,Province of Nova Scotia
+054fd287fb00a85236760043022dadc9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+05f6e235c9fe6babd6d4b8db14397058,ports and marinas,mixed,Chegoggin Point,Core Fishing,...,Fisheries and Oceans Canada
+090e107cbe25e3b848240291b960ad84,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0d584cff68f99bc50fc9156d8d90d467,electric grid,power_plants,..,...,...,Natural Resources Canada
+0e534c538a42f9c6d19898b66c95038f,telecom,tower,...,...,...,Natural Resources Canada
+0e80cbb1e0ac0ab1b7a1527f234b1a0f,telecom,tower,...,...,...,Natural Resources Canada
+0f3e12251775cd76f336d9bad137e922,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+114ad9c3dbcb3d141d27224d97dce5d4,bridges and tunnels,bridge,Raynardton Bridge,..,..,Province of Nova Scotia
+13ec3c2457ad3678ab9c8c7141d7cba3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+17cf77bad4054c30a78f0aa501c6b0a2,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+1a2f771723ace3fad4bcc57c46a8ed9a,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+1ae30d1aaf521a91e6c3dc03c956250c,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+1b5e68862bf953719556dc87e0eb2d22,airports,...,Doctor’s Lake East Water Aerodrome,seaplane_base,...,OurAirports
+1cb21a9bb296f39a9d2ce44e138b5218,bridges and tunnels,mixed,Brown's Multiplate,..,..,Province of Nova Scotia
+20598d27bb123a9c072bd72f1cc33614,bridges and tunnels,mixed,Greenville Road O/P Bridge on 103,..,..,Province of Nova Scotia
+23046a0979312dc5e2b9564c893f9a00,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+235da8c9ebacf567bacce0f4d646a451,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+27498ed7fd06d018b6157bf3c2c61028,telecom,tower,...,...,...,Natural Resources Canada
+2ba61bfe301de5b5aceda2735fce5233,ports and marinas,mixed,Chebogue (town Point Hill),Core Fishing,...,Fisheries and Oceans Canada
+3248a6eb178aec06d77f3d002578b872,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+333c8a187fdeaf3a96a5cbfd61a92fd3,bridges and tunnels,bridge,Joel Crowell Bridge,..,..,Province of Nova Scotia
+339f57c4214faffecc9485abe9a62e5c,bridges and tunnels,bridge,Lake Annis Bridge,..,..,Province of Nova Scotia
+3619da9f6a550b0e055b6ed0f990bc6e,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+3a9ee24f6d38494eb5a53f77cf13bdc1,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+3f5b8e0c4cecc40ecc436f47ba1d3e14,bridges and tunnels,bridge,Churchill's Mill Bridge,..,..,Province of Nova Scotia
+3f62ad490c6278a6f99228f8f2ed0299,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+40c5226904a4a9d7ac14481ad7926566,airports,...,Yarmouth Airport,medium_airport,...,OurAirports
+495e3b6d547000fe93769d6ffab98dfb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+49e0e072270c6d1afb4e088c07f12ab8,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+4d97050f721ab91098fc204c6c880277,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4dbe30bbd7df82fb9b4668756ac33845,bridges and tunnels,bridge,Cape Forchu Bridge,..,..,Province of Nova Scotia
+4fb7b0e548d2c3a0e221aa7bf992117c,bridges and tunnels,bridge,County Line Bridge,..,..,Province of Nova Scotia
+50784f3d7cfc2c36464661629073d670,bridges and tunnels,bridge,Mill Bridge,..,..,Province of Nova Scotia
+50c729eb138a5c2ef24db81b87945341,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+50d4ffb91a5e34e6aa44138bc5ef725e,telecom,tower,...,...,...,Natural Resources Canada
+523385b4adbc3e081692ddc112201c69,bridges and tunnels,bridge,Ohio River Bridge,..,..,Province of Nova Scotia
+530e9734cddccdd9bafe2e9e96e353ce,telecom,tower,...,...,...,Natural Resources Canada
+54d8ca594e303deaff76edea73679b62,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+562d2689ef929a2f631b5d44ba25e741,electric grid,power_plants,..,...,...,Natural Resources Canada
+56b7740fee8dcf5126092d39b1ca22a3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+56c811c812d3ae75e5219c370c769eba,airports,...,Mink Lake Water Aerodrome,seaplane_base,...,OurAirports
+573b027dae43ce6f247f6b38d499ec2a,bridges and tunnels,bridge,North Ohio Road Bridge,..,..,Province of Nova Scotia
+5bae83eadc5c3d5e14887af964b038e2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5e0c58f0f7936a4feaf3673c1f495344,bridges and tunnels,bridge,Pleasant Valley  #2 Bridge,..,..,Province of Nova Scotia
+5f0651ffa46695f56c1c9689a8d9f324,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+605df51554059c7118beecbe4bc9c5f0,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+60f25d044a832598c43ded62dbade245,bridges and tunnels,bridge,Crosby Bridge,..,..,Province of Nova Scotia
+612cb0e82600ed394d1202c6551782db,bridges and tunnels,bridge,Dayton Narrows Bridge,..,..,Province of Nova Scotia

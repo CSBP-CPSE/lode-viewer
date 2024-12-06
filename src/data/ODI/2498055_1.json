@@ -1,29 +1,42 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Rue des Sarcelles,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Jacques-Cartier,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Lieu habité Rivière-aux-Graines,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01e804cae4e7ec91cba3830b77d8bd99,telecom,tower,...,...,...,Natural Resources Canada
+052c1c6140583977a0d8d0c3aac84205,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0e534e51992ff146b6cc768362e194cf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1016bf7d27077cdecc5cc2bd5ba25e8e,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+11e1b71ba5b15fa13ecad0a455b2dd2a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+16464ec87a85382134ff74a401f94524,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+18cb6d3cac2e4674dcbb6abf5152324f,low carbon,hydro,Centrale De La Courbe Du Sault,...,...,World Resources Institute
+22f932c2829da389b0e3ddf1cac7cb9c,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Rivière-au-tonnerre,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+288033aa4e7b3f7ddfd4f943f79dff71,telecom,tower,...,...,...,Natural Resources Canada
+2a17eff04d104eeb7390350bac120ebe,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+2f4fe066db4aa5bcae45192b613899b8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+3d0d5843da5ae7be838075d99beafc1a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+517efca4f0c4a06180bec9ed87b083fd,bridges and tunnels,mixed,..,..,..,La Province de Québec
+52a3908172ea3f0afcde6f37b64c931b,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+5b3c8cde6bf0c4711e4f539b088324e7,ports and marinas,mixed,Rivière Au Tonnerre (rivière),Core Fishing,...,Fisheries and Oceans Canada
+5e47009755c4ddb04520dbff8f263984,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5ef4340243f4b8a6e8296c7b83a199b2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+65470c4f2e09a3f1f7d22c9b6a503389,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6fc261b861587fef7ae08534b5e5809b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+74fe782c96f93e073e58fd930d2b86e4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7ac8dd4444ad0b470b794bebe82fcadf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7e5e61e1b241e19713c45a9c3b3b80df,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7f89c8a9e5291755c8ad3023994e418f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+84cb2f6ed7b531877ca0aa4d4cf40f96,low carbon,hydro,Courbe Du Sault (rivière Sheldrake),...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+887710d7e1650c9f9bea9149c2c742fa,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8912838f1613132c642d3c3e3af1b15e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9cdf9ae14bc38a322f039a02cdc8e038,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9ec13d8d5fe76605996911750377d0b7,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a772e01ba8bec3e44e800174d3ee0c6c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a9e111460a966a053cfd8b7cebb94e3e,electric grid,power_plants,..,...,...,Natural Resources Canada
+b06ad279cfe5954e6836271ed0fedfcc,bridges and tunnels,mixed,..,..,..,La Province de Québec
+b2c301453d10f7ec5f5778fba4f69a23,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bc1e84f8118db80bd0139f72c187118a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bec26c1a954626086042dc925a561f22,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bee3e4ca66b28099126e36e98e1cd7c2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+cb5ba734461d8fe2d9a71b3fc39031d3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d1b9584b347ffdd76abaea6066b7e590,telecom,tower,...,...,...,Natural Resources Canada
+d8bf3c05419de5eef0a6f507f0247649,airports,...,Rivière-au-tonnerre Airport,small_airport,...,OurAirports
+e34df1cf824877aaf7655c8c7c0f5c80,bridges and tunnels,mixed,..,..,..,La Province de Québec
+eda34fa6ccd959fdb2233bc5f137db6e,low carbon,charging_stations,Brcc - Rivière-au-tonnerre - Hôtel De Ville,...,...,Government of Quebec
+ff8ee3c434737861dbf7aa8c4f017dc4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

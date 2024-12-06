@@ -1,24 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Furry Creek Drive,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,Footbridges
-Porteau Cove Road,BRIDGES AND TUNNELS,Footbridges
-Highway 99,BRIDGES AND TUNNELS,Footbridges
-Copper Drive,BRIDGES AND TUNNELS,Footbridges
-Chance Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Cheakamus River Bridge,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Elaho Mainline,BRIDGES AND TUNNELS,Footbridges
-Garibaldi Park Road,BRIDGES AND TUNNELS,Footbridges
-Cloudburst Crescent,BRIDGES AND TUNNELS,Footbridges
-Squamish Valley Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Sea to Sky Highway,BRIDGES AND TUNNELS,Footbridges
-Ashlu Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Roe Creek Bridge,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00f29732a3f7a91a23d207bc046a875f,bridges and tunnels,bridge,DEEKS CR,BRIDGE,Bridge,Province of British Columbia
+017b07aa9028b98084431c9bc8e86e96,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+01dbd68015ae38856ae5a9908e04d65c,bridges and tunnels,bridge,RUBBLE CR NB,BRIDGE,Bridge,Province of British Columbia
+01e480c4ac115a351c4652231aeb892b,electric grid,power_plants,..,...,...,Natural Resources Canada
+063cff83c70affbf50b71ef6bfdfc322,railways,track,..,...,...,Natural Resources Canada
+06ad13d36b263f5b297997e6c30b671b,electric grid,power_plants,..,...,...,Natural Resources Canada
+08988f904684979eb4d232f79544bc65,railways,track,Garibaldi Siding,...,...,Natural Resources Canada
+091623a6cf59e92cc3a4526f3607a9d8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0c9a53fbfa1d3c51d426d69d5412ad5d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+126012d871211c11aaadae9c8aec274c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1318d39f9262c83dbfd5f671b7f66bd6,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+135189c1baff2f41e10212efde67f003,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+13c97b1d789e3bae28c8bc5c44d90e06,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+14a47c3e2f11cc0de7dcc5b1c837b30d,low carbon,hydro,Ashlu Creek,...,...,World Resources Institute
+14f68efdbc6a9ca729403c421bc3af9f,electric grid,power_plants,..,...,...,Natural Resources Canada
+1ae4f09409bbbd877847a2622a18481d,bridges and tunnels,bridge,BRUNSWICK NORTH HALF STR 1205,BRIDGE,Bridge,Province of British Columbia
+1b720913c5a30d201cde6a1960cc6814,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1dc716069dc5d3419a630b3bac9fcaaf,railways,track,Porteau Siding,...,...,Natural Resources Canada
+2498629d6a32f34a2c11b0349f2dd0b3,electric grid,power_plants,..,...,...,Natural Resources Canada
+2566b223651dd02470c989ecf5ecfe24,railways,station,Britannia,...,...,Natural Resources Canada
+2b826460412c27de6f17c93391e3b76a,bridges and tunnels,bridge,CULLITON CR NB,BRIDGE,Bridge,Province of British Columbia
+3022e7a1af15fe83c749704808bcf5e8,electric grid,power_plants,..,...,...,Natural Resources Canada
+31a46990730ecf8173829e749984fe27,bridges and tunnels,bridge,BRITANNIA CR UPPER,BRIDGE,Bridge,Province of British Columbia
+3441213cfc28f224610ded64c7c2046b,bridges and tunnels,bridge,PILLCHUCK CR UPPER,BRIDGE,Bridge,Province of British Columbia
+34b2d2a1a50e89cdb078de653c94a675,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+35daf1b45fa9b2c5c2da0985bb5b377f,bridges and tunnels,bridge,LOGGERS CR,BRIDGE,Bridge,Province of British Columbia
+36300ee1959cccbe186e83b1fbd4a1b0,wastewater and storm water,facilities_waste,Britannia Beach Wwtp,"Grit Removal, Screening, Chemical Flocculation, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Sequencing Batch Reactor, Disinfection",Unclassified,Environment and Climate Change Canada
+36d12348daa13c9eb423b703a6441529,railways,track,..,...,...,Natural Resources Canada
+36fdbe6fc65ec535f9f11a29c1a6cfc2,railways,station,Garibaldi,...,...,Natural Resources Canada
+375c56e73c1f563e35d6443e52ca162e,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+38e4227b1fdbb9d1793db21b8d5678db,wastewater and storm water,facilities_waste,Furry Creek Wwtp,"Grit Removal, Screening, Skimming, Activated Sludge, Sequencing Batch Reactor",Unclassified,Environment and Climate Change Canada
+39a5c6328a0e659a7f06b802f99d3643,electric grid,power_plants,..,...,...,Natural Resources Canada
+3a350598fe8b73c9fdf0064df412e620,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+3a535cc678b3a83ce2299d87838ed425,low carbon,hydro,Furry Creek,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+3d2676e111d4639e06e02354d25ce4d9,railways,track,..,...,...,Natural Resources Canada
+4465a28d3424d28d742e870a8cf272b6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4a1fe1c9fcef6d2b6ef6ad51a23b71d5,bridges and tunnels,bridge,MINERAL CR,BRIDGE,Bridge,Province of British Columbia
+4aa5f241118edc3869ae3a3b8ce5afee,railways,track,Garibaldi Siding,...,...,Natural Resources Canada
+4b5fd45155f551b0b76883f44b022423,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4b83244f6edd9012c14a429ea0bc01fe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4c1958a0d622f1665a9f5f0bce56273a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4cc1345fb873c062173caa0d41ac562d,bridges and tunnels,bridge,TUNNEL PT HEIGHTS 1149,BRIDGE,Bridge,Province of British Columbia
+4fe4540389f09412310a096100457368,bridges and tunnels,bridge,FURRY CR COLLECT OP,BRIDGE,Bridge,Province of British Columbia
+51146266474ad93f3dd2dc830239c3b7,railways,track,..,...,...,Natural Resources Canada
+580ed857f7d4a2eeb8f5d596df1dc89c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+591553c9fec314aaed21219c4b0e8709,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a032b2d7f74702c3e9b5c56c6b4f420,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a0c19455dc88971935b426a89b8fb34,railways,station,Porteau,...,...,Natural Resources Canada
+5be877aedb726de5e4bd4f39f92e5c73,low carbon,hydro,Culliton Creek,...,...,World Resources Institute

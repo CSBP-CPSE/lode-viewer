@@ -1,6 +1,10 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Bridge Street,BRIDGES AND TUNNELS,Footbridges
-Marshall Street,BRIDGES AND TUNNELS,Footbridges
-Main Street,BRIDGES AND TUNNELS,Footbridges
-Highway 10,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+3a4375ce251b89d60df7cc80cb7062a3,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+7083568accdd8174fac6efd89c384a3c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77ce7a7c356dc04bc63410689927f360,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7d4a7ae2d208a3814d93f5616448a951,wastewater and storm water,facilities_waste,Middleton Wastewater Treatment Facility,"Grit Removal, Lagoons - Aerated, Polishing Ponds , Disinfection",Unclassified,Environment and Climate Change Canada
+82405fa12fb0a07b88d0adf8b7992fc6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9f63edc066112282b1c4c900c7066636,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+a3152058fae925a444eb491cb08e7024,airports,...,Middleton (soldiers Memorial Hospital) Heliport,heliport,...,OurAirports
+e47dbc9bba8b5ef2f864235c25f8db54,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+e493294b2b22d3661d0f84a4ddcd7de9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

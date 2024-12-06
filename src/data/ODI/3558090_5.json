@@ -1,21 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-CEDAR CREEK BRIDGE,BRIDGES AND TUNNELS,..
-WEST WHITE RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Alpha Road,BRIDGES AND TUNNELS,Footbridges
-NORTH PAGWACHUAN RIVER BRIDGE,BRIDGES AND TUNNELS,..
-CHOWDER CREEK EAST CULVERT,BRIDGES AND TUNNELS,..
-MAKI CREEK CULVERT,BRIDGES AND TUNNELS,..
-Goldfield Road,BRIDGES AND TUNNELS,Footbridges
-GRAVEL RIVER BRIDGE,BRIDGES AND TUNNELS,..
-INDIAN BAY CULVERT,BRIDGES AND TUNNELS,..
-KEEMLE LAKE CULVERT,BRIDGES AND TUNNELS,..
-LITTLE FIRESTEEL RIVER BRIDGE,BRIDGES AND TUNNELS,..
-SANDLINK CREEK CULVERT Hwy. 625,BRIDGES AND TUNNELS,..
-WHITEFISH RIVER TRIB. CULVERT,BRIDGES AND TUNNELS,..
-ARROW RIVER MODULAR BRIDGE,BRIDGES AND TUNNELS,..
-Shabaqua Corners,BRIDGES AND TUNNELS,Footbridges
-Route Lake Road,BRIDGES AND TUNNELS,Footbridges
-Renaud Road,BRIDGES AND TUNNELS,Footbridges
-ENGLISH R. TRIBUTARY CULVERT,BRIDGES AND TUNNELS,..
-Onion Lake Road,BRIDGES AND TUNNELS,Footbridges
-LITTLE PASHKOKOGAN RIVER CULVERT,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+2e106b721225f01ceee025cb0ab5c157,telecom,tower,...,...,...,Natural Resources Canada
+2e58b54232afcea8321df51be53e439a,railways,track,..,...,...,Natural Resources Canada
+2e63eddd12f92f46ae621988af827dba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2e6cb981a7adb8741bc1c0aa1f2042ca,solid waste,mixed,Devon,Dump,Dump,Province of Ontario
+2e7f5411fb15f87854445a7c874c3472,railways,track,..,...,...,Natural Resources Canada
+2e85b388c3f8309547ebad5132aca1c2,railways,track,..,...,...,Natural Resources Canada
+2ea9235f51c73774ec02a161a86b33ac,bridges and tunnels,bridge,NORTH PAGWACHUAN RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+2ee3dcb57754a556d57ce6a9d6eb2d64,oil and gas,facilities,..,..,...,Natural Resources Canada
+2ef87e954f710aa4d7a10ff23666109c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f436e7d4f9b1d4f2c24426a50eccb24,airports,...,Armstrong Heliport,heliport,...,OurAirports
+2f4b934f67176227baa86052f6f83532,railways,track,..,...,...,Natural Resources Canada
+2f9cabc9f139371fd3d811901020f4a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2fe80abc4d7f668588b0387dda986940,telecom,tower,...,...,...,Natural Resources Canada
+2fe9641ba1269a601b447c1fda6f316f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+302117fd4b7718a4daaf696b6d62ca2b,bridges and tunnels,culvert,LITTLE PASHKOKOGAN RIVER CULVERT,Culvert,Culvert,Province of Ontario
+30507e97e32c3736587777848501e45c,railways,track,..,...,...,Natural Resources Canada
+305c14f5eb6880001485e7eb8a90b07c,railways,track,..,...,...,Natural Resources Canada
+313663f0b8abfd880bdc85de7b66beb0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31ad7867c9b295c9ff607e954bc85238,railways,track,..,...,...,Natural Resources Canada
+31d4e14d0b4bdb8dbd3271124c6b533a,solid waste,mixed,Seine River Resort Garbage Dump,Landfill,Engineered landfill,Province of Ontario
+31e3efab20c7d80910cf9c19666cfe9c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+31fb743995180a3383362c5181c5712c,bridges and tunnels,culvert,GULL RIVER CULVERTS,Culvert,Culvert,Province of Ontario
+32067220a3bb8eb2465abce9ced3a53e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+320bbdb7a7b56cd64b4c40c9d62dde77,railways,track,..,...,...,Natural Resources Canada
+32cdac07d05546fe4453c151cf73de47,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+332c50247b602230e10fceb1558da83f,telecom,tower,...,...,...,Natural Resources Canada
+338ed8fd8f977bd9cf8887850cba86da,bridges and tunnels,bridge,STEEL RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+340485aa051d93537e91bb063535989d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+342ab13a1707fbe7c9fbfffab8414022,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+34311f7c501e6f62294fdb319eacfad7,bridges and tunnels,tunnel,..,Tunnel,Tunnel,Natural Resources Canada
+34a9def2008a23be2d5b166fa687c9b8,oil and gas,pipelines,..,..,...,Natural Resources Canada
+3507e8795d2b8c39dc845cd8474b83a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+356d34f747dc33d227cd72e438994b7e,bridges and tunnels,bridge,PRAIRIE RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+358ff0bc9851c67e1c7d51fe263c55f1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+35b3bebfce58f76269008ea402159e81,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+368de1cb4ceccccc6ddb16b467ccbdf5,oil and gas,pipelines,..,..,...,Natural Resources Canada
+3690ace3c7f3981eeadc0d216fcf49b9,bridges and tunnels,bridge,BIG FIRESTEEL RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+36c10031b1444fa20be13a8717b46b91,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+36da471127e893538424a000056932f2,railways,track,..,...,...,Natural Resources Canada
+36e1e1b969055c3fe614a365b95d689a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3706c6c0d66cb0720f0bdeb886f7a226,airports,...,Two Island Lake Water Aerodrome,seaplane_base,...,OurAirports
+370b240032ee4e5a6f0acd670b7c020f,railways,track,..,...,...,Natural Resources Canada
+3711da7058f66d499a3a8707cc171284,bridges and tunnels,bridge,STRAWBERRY CREEK BRIDGE NO. 3,Bridge,Bridge,Province of Ontario
+3741c2effb2134fef39f6030bd8c034b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+374c646a3caf7399507afa1b61c632dd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+375d15804dc6eee9791560ee70e72460,bridges and tunnels,bridge,Sibley Creek Bridge,Bridge,Bridge,Province of Ontario
+3774e00bf3393aa2489042b116d3100c,telecom,tower,...,...,...,Natural Resources Canada
+37d4930c8e6bf0efe4eac28692b10bd6,railways,track,..,...,...,Natural Resources Canada
+37d6051b31765382b848fc977e36632e,bridges and tunnels,culvert,RUBY CREEK CULVERT,Culvert,Culvert,Province of Ontario

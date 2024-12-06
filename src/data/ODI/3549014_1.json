@@ -1,34 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-RECREATIONAL OVERPASS SOUTH OF SCOTIA ROAD,BRIDGES AND TUNNELS,..
-MAGNETAWAN RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Highway 518,BRIDGES AND TUNNELS,Footbridges
-CULVERT NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-LITTLE EAST RIVER BRIDGE NO. 4,BRIDGES AND TUNNELS,..
-SNOWMOBILE CROSSING CULVERT (NORTHBOUND LANE),BRIDGES AND TUNNELS,..
-Sunset Pass Road,BRIDGES AND TUNNELS,Footbridges
-"CNR OVERHEAD SOUTHBOUND LANE, AT NOVAR",BRIDGES AND TUNNELS,..
-C.N.R OVERHEAD BRIDGE,BRIDGES AND TUNNELS,..
-SNOWMOBILE CROSSING CULVERT (SOUTHBOUND LANE),BRIDGES AND TUNNELS,..
-Culvert (Southbound Lane),BRIDGES AND TUNNELS,..
-P3 TRIBUTARY NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-STAR LAKE ROAD OVERPASS SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Culvert (Northbound Lane),BRIDGES AND TUNNELS,..
-Highway 592,BRIDGES AND TUNNELS,Footbridges
-LITTLE EAST RIVER BRIDGE NO. 2,BRIDGES AND TUNNELS,..
-CULVERT SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Fern Glen Road,BRIDGES AND TUNNELS,Footbridges
-STAR LAKE ROAD OVERPASS NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-RAGGED CREEK BRIDGE,BRIDGES AND TUNNELS,..
-LITTLE EAST RIVER BRIDGE NO. 1,BRIDGES AND TUNNELS,..
-P3 TRIBUTARY SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-"CNR OVERHEAD NORTHBOUND LANE, HWY 11",BRIDGES AND TUNNELS,..
-FERN GLEN ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-HWY 592/SUNSET PASS DRIVE UNDERPASS,BRIDGES AND TUNNELS,..
-DEER LAKE HWY 518 INTERCHANGE UNDERPASS,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-CULVERT SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Culvert,BRIDGES AND TUNNELS,..
-CULVERT NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-LITTLE EAST RIVER BRIDGE NO. 3,BRIDGES AND TUNNELS,..
-Highway 11,BRIDGES AND TUNNELS,Footbridges
-Deer Lake Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00da1b10c20b38841121b1ac1b848f20,bridges and tunnels,culvert,SNOWMOBILE CROSSING CULVERT (NORTHBOUND LANE),Culvert,Culvert,Province of Ontario
+01904b8355aed8e2287e5af00b17fabb,telecom,tower,...,...,...,Natural Resources Canada
+01d39ef23e67789d575959d473ff0afb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+056159f350857696984089ac1bbe31f3,bridges and tunnels,bridge,"CNR OVERHEAD NORTHBOUND LANE, HWY 11",Bridge,Bridge,Province of Ontario
+08fe47f93c40186ab340a32008c457e3,bridges and tunnels,bridge,"CNR OVERHEAD SOUTHBOUND LANE, AT NOVAR",Bridge,Bridge,Province of Ontario
+0aa7f471012d25a3a4f672d65513c43c,bridges and tunnels,culvert,CULVERT NORTHBOUND LANE,Culvert,Culvert,Province of Ontario
+0cb59a56ad6fd524af6156854885129e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1637f5ca24650db6b7440b9215f42997,oil and gas,pipelines,..,..,...,Natural Resources Canada
+1691422bd0344330c4836ce19ab42429,airports,...,Emsdale Airport,small_airport,...,OurAirports
+1eabc6661b3bfaa100be2ef5ed660361,railways,track,..,...,...,Natural Resources Canada
+29699c0a280ad46c560d4c89aee6f019,bridges and tunnels,bridge,RAGGED CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+2ababa90d60c2ada2c187fcd89de1332,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b6962863d36c07b1b8f4f26800b29a0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+33b2d94af241ea2bc1c4a6e4057ad7a4,bridges and tunnels,culvert,Culvert (Southbound Lane),Culvert,Culvert,Province of Ontario
+33cb65e8416cfbd29133f050ff8b6735,bridges and tunnels,bridge,LITTLE EAST RIVER BRIDGE NO. 1,Bridge,Bridge,Province of Ontario
+38b66fa0d69ef582f781ade06707dbd9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+452f6d4762c93ecb59f4f38b07dd1b6e,bridges and tunnels,bridge,FERN GLEN ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+46200fe9269e5567b3d40a7517090fb3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4941357ee21b1b6779d92ac4b2bc0927,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4f64c816d68b130e0a1c447020b11966,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+532bd60d28892239847731c6ba85df37,bridges and tunnels,culvert,Culvert (Northbound Lane),Culvert,Culvert,Province of Ontario
+53b39d897354e616be87f906857a8178,bridges and tunnels,bridge,DEER LAKE HWY 518 INTERCHANGE UNDERPASS,Bridge,Bridge,Province of Ontario
+63c58a16f423a2459a4ad7aee7901c15,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+654b76eed2fe573849d56521aa72f696,bridges and tunnels,culvert,RECREATIONAL OVERPASS SOUTH OF SCOTIA ROAD,Culvert,Culvert,Province of Ontario
+7090d32d3e388b7e3d12c757d97de825,bridges and tunnels,bridge,LITTLE EAST RIVER BRIDGE NO. 2,Bridge,Bridge,Province of Ontario
+790bc8569ca55fdbea7543fa950e3807,oil and gas,pipelines,..,..,...,Natural Resources Canada
+7a3b04ce507615658f69d4de3704dc2d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+81a475336c84339dd54eb2e224f11572,bridges and tunnels,culvert,SNOWMOBILE CROSSING CULVERT (SOUTHBOUND LANE),Culvert,Culvert,Province of Ontario
+8fbf32e7e7c978dd18256aca777b808b,bridges and tunnels,culvert,CULVERT SOUTHBOUND LANE,Culvert,Culvert,Province of Ontario
+9323bac94ec7701eb12d78dcad66cdeb,bridges and tunnels,bridge,LITTLE EAST RIVER BRIDGE NO. 3,Bridge,Bridge,Province of Ontario
+975f69b73d0435d51e897266d6cc4c45,telecom,tower,...,...,...,Natural Resources Canada
+a6b7b026ba6dfaf537001fc1594c69f5,bridges and tunnels,bridge,STAR LAKE ROAD OVERPASS NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+a93e9c4c1fbcb3c2b2c09c86dab20fb0,bridges and tunnels,bridge,HWY 592/SUNSET PASS DRIVE UNDERPASS,Bridge,Bridge,Province of Ontario
+aaffa94efb87a55831ca92fe68914287,bridges and tunnels,bridge,MAGNETAWAN RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+ad8fd0d39a4d7fa7b34a448739f0c7bc,bridges and tunnels,bridge,P3 TRIBUTARY NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+b12bf421bdb34681a3c1d634ef60dbe8,bridges and tunnels,culvert,CULVERT NORTHBOUND LANE,Culvert,Culvert,Province of Ontario
+b81a6cfbd8eb037c1a8cc50a0f05dbff,bridges and tunnels,culvert,Culvert,Culvert,Culvert,Province of Ontario
+be5e998126a7252c519f784751d4d22a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ca07a91a2b96f4442182c0e18ffd2ae2,oil and gas,facilities,..,..,...,Natural Resources Canada
+cd4a024dd9cdd0fc37523d132593fe52,bridges and tunnels,bridge,STAR LAKE ROAD OVERPASS SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+d7ddb7dcf4ae0e1e7482042c22b50bb0,oil and gas,pipelines,..,..,...,Natural Resources Canada
+d9521a7b01da1d31c856fcac1adb4a93,bridges and tunnels,bridge,LITTLE EAST RIVER BRIDGE NO. 4,Bridge,Bridge,Province of Ontario
+db9f709a886d76f55c2f11a861d4f4d4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dd98d0897364e12c8a0977adc1347d56,bridges and tunnels,culvert,CULVERT SOUTHBOUND LANE,Culvert,Culvert,Province of Ontario
+e07d1a5b57b76a292b612e9eee0e53eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e4c1a60481f7de3b7d276bd2ca7de3ba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eda919b92ccea810bb9600f92fc26517,bridges and tunnels,bridge,P3 TRIBUTARY SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+ef007dbf2e13be6187ddf29ce8acbe27,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f1de92080ae188b00dd89ae4a3fc32a0,telecom,tower,...,...,...,Natural Resources Canada

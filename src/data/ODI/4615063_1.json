@@ -1,17 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,SOLID WASTE,Materials recovery facility
-..,SOLID WASTE,Active Dump Sites
-..,SOLID WASTE,Active Dump Sites
-..,WASTEWATER STORMWATER,..
-45 Highway,BRIDGES AND TUNNELS,Footbridges
-354 Highway,BRIDGES AND TUNNELS,Footbridges
-7th Avenue,BRIDGES AND TUNNELS,Footbridges
-The Drive,BRIDGES AND TUNNELS,Footbridges
-North Railway Street,BRIDGES AND TUNNELS,Footbridges
-21 Highway,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-..,SOLID WASTE,Materials recovery facility
-..,WASTEWATER STORMWATER,..
-..,SOLID WASTE,Materials recovery facility
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+003657b063e38be255fb9ed8cdd271dd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+05907abe8792e24505606de8d7c8410a,railways,track,..,...,...,Natural Resources Canada
+087056b31f0d068f121774d4fb19a47d,railways,track,..,...,...,Natural Resources Canada
+0fbf75b1b938c98cc802ffcbc8abbadf,railways,track,..,...,...,Natural Resources Canada
+12525aba6a9b15e0d8da7b4c39e7976c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+12f7ce1baca4b50aeb6b9f4df9d97cc4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1532361284f7269b2344098c93de939c,solid waste,recycling,Shoal Lake Recycling Center,..,Material recovery,Province of Manitoba
+284c57c5ffc0e91ffd67b826262c6866,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2a914908b9999fcaee177b210b35b1fc,railways,track,..,...,...,Natural Resources Canada
+2fad471262e493dee03c80390bcd007b,railways,track,..,...,...,Natural Resources Canada
+3186e76a18878d45cdb4094913b3ff39,solid waste,recycling,Co-op,..,Material recovery,Province of Manitoba
+31b9b5de09d8de8b2fe7cc53b4f4a403,airports,...,Strathclair Airport,small_airport,...,OurAirports
+33734ba2c85b1ab2ffb063eb6b7ed0fa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+363f6702c9d3e883ec670be9bdef8a4e,railways,track,..,...,...,Natural Resources Canada
+38274e1b6baf904f59f0d7545a14e877,telecom,tower,...,...,...,Natural Resources Canada
+3f73267167ce5b84b35e06fceef21d4c,railways,track,..,...,...,Natural Resources Canada
+40784aac7640c7b8dcb7fee69e0b5aec,railways,track,..,...,...,Natural Resources Canada
+477490798e874d10e98c396d2d413f58,solid waste,recycling,Shoal Lake Waste Disposal Ground,..,Material recovery,Province of Manitoba
+4dca4944731ce91d5664a11bf5b896fd,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4f08d0872179e41b6c2857171f06358e,railways,track,..,...,...,Natural Resources Canada
+512e2b927e207d33d5626b84c4df5056,railways,track,..,...,...,Natural Resources Canada
+53cab44852bebfb5cab144c66b215ac5,railways,track,..,...,...,Natural Resources Canada
+54c86dc808063df619a669190b424132,telecom,tower,...,...,...,Natural Resources Canada
+5caecb314bfc442f47a0d678cd3bd7f1,railways,track,..,...,...,Natural Resources Canada
+5e58d72bf636db4419701850ec01fd91,railways,track,..,...,...,Natural Resources Canada
+60da44ddb22b7d2c446f1af0fe6ac806,railways,track,..,...,...,Natural Resources Canada
+633fec4ff1aaea9e750bd6b449317a51,railways,track,..,...,...,Natural Resources Canada
+66de42817ecd0d27b6f75e8663c9b697,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e044e732421d60f852206e94a89b906,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7540ccc096aa8d346dcc4ddf2d8268d2,railways,track,..,...,...,Natural Resources Canada
+7612accc8a05ae373ef170c1c4b91289,airports,...,Shoal Lake Airport,small_airport,...,OurAirports
+77c4d910a08c982750fc084ce9e86d20,solid waste,recycling,Southpark Service,..,Material recovery,Province of Manitoba
+7c428491ab910b6622a5a140fa777f50,solid waste,recycling,Shoal Lake Pharmacy,..,Material recovery,Province of Manitoba
+7c4c68ec22698be5afa38e252c4defe6,railways,track,..,...,...,Natural Resources Canada
+7d7449c7c9869d480f4fe23729d3dd50,railways,track,..,...,...,Natural Resources Canada
+7f02f6b3b51a2899c96f563ae598f673,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+822314af4b9046058aedf37799ae5d54,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+852e545177c7859c14057a126cec6cc4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8f22c1bed2f1bdb2d3138dae554aa27f,airports,...,Shoal Lake Seaplane Base,seaplane_base,...,OurAirports
+93f9c6b7a3079fe8373d2102273d00e7,solid waste,recycling,Woodworth Dodge Chrysler Jeep,..,Material recovery,Province of Manitoba
+958a7c263369f81088c21334cf3cf5b4,railways,track,..,...,...,Natural Resources Canada
+97a03e6280810717ebd0154ec3271a08,railways,track,..,...,...,Natural Resources Canada
+aae9f14f071d27e641b7bd2722b558c1,telecom,tower,...,...,...,Natural Resources Canada
+ada3d5673874e772b582eb6d6e217b46,solid waste,recycling,Strathclair Landfill Site,..,Material recovery,Province of Manitoba
+adaf2576f0338d55b9bde874dfca9a3b,solid waste,recycling,Shoal Lake Farm Equipment,..,Material recovery,Province of Manitoba
+af0aac96e6a39ff6b3b8bbd5f54a1bc5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+af59b054a091128e0c817a1b3605e05a,railways,track,..,...,...,Natural Resources Canada
+b7fdceecba3b144773f44cbda6fa5810,solid waste,recycling,Shepherd Implements,..,Material recovery,Province of Manitoba
+bd89473677b8debd6127bab1a0cf51b6,railways,track,..,...,...,Natural Resources Canada

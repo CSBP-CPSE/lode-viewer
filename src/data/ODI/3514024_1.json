@@ -1,36 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Lyle Street North,BRIDGES AND TUNNELS,Footbridges
-County Road 2,BRIDGES AND TUNNELS,Footbridges
-LYLE ST U'PASS,BRIDGES AND TUNNELS,..
-Northumberland Culvert,BRIDGES AND TUNNELS,..
-Massey Road,BRIDGES AND TUNNELS,Footbridges
-Townline Road,BRIDGES AND TUNNELS,Footbridges
-Broomfield Road,BRIDGES AND TUNNELS,Footbridges
-Culvert (1km west of Gully Rd U/P),BRIDGES AND TUNNELS,..
-Benlock Road,BRIDGES AND TUNNELS,Footbridges
-Telephone Road,BRIDGES AND TUNNELS,Footbridges
-Beauchamp Road,BRIDGES AND TUNNELS,Footbridges
-VERNONVILLE ROAD / HALDIMAND TWP. BR. #17 O/P,BRIDGES AND TUNNELS,..
-Culvert (1.8km west of Lyle St U/P),BRIDGES AND TUNNELS,..
-GULLY ROAD U/PASS,BRIDGES AND TUNNELS,..
-SHELTER VALLEY CREEK,BRIDGES AND TUNNELS,..
-BOYCES ROAD CULVERT AT INTG 493,BRIDGES AND TUNNELS,..
-King Road,BRIDGES AND TUNNELS,Footbridges
-County Road 23,BRIDGES AND TUNNELS,Footbridges
-McDonald Road,BRIDGES AND TUNNELS,Footbridges
-DANFORTH ROAD / HALDIMAND TWP BR #4 U/P,BRIDGES AND TUNNELS,..
-Archer Road,BRIDGES AND TUNNELS,Footbridges
-Shelter Valley Road,BRIDGES AND TUNNELS,Footbridges
-GRAFTON CREEK CULVERT,BRIDGES AND TUNNELS,..
-Ferguson Road,BRIDGES AND TUNNELS,Footbridges
-Culvert - enter on N side (inlet) off Northumberland Heights,BRIDGES AND TUNNELS,..
-County Road 29,BRIDGES AND TUNNELS,Footbridges
-Gully Road,BRIDGES AND TUNNELS,Footbridges
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-Danforth Road,BRIDGES AND TUNNELS,Footbridges
-HALDIMAND TWP. BR. #15,BRIDGES AND TUNNELS,..
-Bull Road,BRIDGES AND TUNNELS,Footbridges
-BOYCE'S ROAD OVERPASS / HALDIMAND TWP. BR. #20.,BRIDGES AND TUNNELS,..
-Whitney Road,BRIDGES AND TUNNELS,Footbridges
-County Road 24,BRIDGES AND TUNNELS,Footbridges
-Orchard Grove Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00b5907b9fe08eeb1ce023b4fd3faa15,telecom,tower,...,...,...,Natural Resources Canada
+04c11fedcd38b1698de798e6b75e6240,oil and gas,facilities,..,..,...,Natural Resources Canada
+04fe1e2dabb1290dfe475a0b4981d126,railways,track,..,...,...,Natural Resources Canada
+06a02f5aaa00aa30237dfe7e73517213,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0ae1aac3c0aa6d05057c9261fad4eeff,telecom,tower,...,...,...,Natural Resources Canada
+0dba5d04ec211601c6021fd973601eb3,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+14e38479ebe734c387fc74e2b6bca111,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+160350491dda00af991259f38554f223,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19453bdf77e957c6b62b6e5e0d9f41e9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2434b667c43ce29b8db468cb368eac14,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2590f54b184e1dbab33940c39ed21045,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+28493ee8b3217947d79e2c7605388f0b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2acf907c54d19a2b5ac93b7316aa07f6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+315e7970de281fd531bba28c47e63d1b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+343f31d34d9f82a0894d337a02f2384e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+36004816460e6daabf138e8c03fb52b2,railways,station,Grafton,...,...,Natural Resources Canada
+384742662eceea659aefa9109701b443,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3bde569359f61d236d26b5cdd3454a52,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+465b1289d3f7c4369fbe5580f5855834,bridges and tunnels,culvert,Culvert - enter on N side (inlet) off Northumberland Heights,Culvert,Culvert,Province of Ontario
+470799851faa284d184690c4a737212c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4ddb0a0b7beee5add692f27c48f7ee3d,telecom,tower,...,...,...,Natural Resources Canada
+529686fae101491fe77fa90117be53d6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5314e5737d7097bd8f7eaede1504297a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+54c4ea9b04220e8ecbe38ef4d1fd6e9e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+598806cc8868b1f037c6d1fecdec1145,bridges and tunnels,bridge,BOYCE'S ROAD OVERPASS / HALDIMAND TWP. BR. #20.,Bridge,Bridge,Province of Ontario
+5fbf445c0eede0b0ef38dd78080b48ab,electric grid,power_plants,..,...,...,Natural Resources Canada
+6024a0f37b80f8a335819971c142f9a6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+643782e4575cbba0ad19b0850340c558,bridges and tunnels,culvert,Northumberland Culvert,Culvert,Culvert,Province of Ontario
+64c12aa6e49f42eecbf28f49c5acc154,bridges and tunnels,bridge,LYLE ST U'PASS,Bridge,Bridge,Province of Ontario
+65581c86d6b521ac18f35eb18323d1bf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+668674623d813b9bb4404d85dc96b91d,telecom,tower,...,...,...,Natural Resources Canada
+68f97cb0fe45f585b0f822f09efc21ff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6961f2d717b6ccaa3c27ec2fd46afaed,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6c51d226897620bc80ef8c42c70a9bd6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6f8443a670234189007359adf474a34a,bridges and tunnels,culvert,SHELTER VALLEY CREEK,Culvert,Culvert,Province of Ontario
+73ceab60c5157a76403b36123d217f47,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+75da9d11e654422d91bd7acf324d27d0,railways,track,..,...,...,Natural Resources Canada
+7768e5ba4d5e71584894a1fc39574fe8,bridges and tunnels,bridge,DANFORTH ROAD / HALDIMAND TWP BR #4 U/P,Bridge,Bridge,Province of Ontario
+7f5488ef03bf73856e7892fedbb71658,bridges and tunnels,culvert,GRAFTON CREEK CULVERT,Culvert,Culvert,Province of Ontario
+83bfa816fc253e0ace5557d94b8e587e,railways,track,..,...,...,Natural Resources Canada
+8451ef67d38cd3b91fc2ff3d355ed897,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+85a45f63909f05708d38953de7da0716,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+869e6389f19d106b4b64a85361784528,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9356c15e7773b9c095f410ee1ba285c1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+970cadb27bb296b9a1c2ade50328175b,oil and gas,pipelines,..,..,...,Natural Resources Canada
+a1add69702fb92c059502e7b0a1a55a4,oil and gas,pipelines,..,..,...,Natural Resources Canada
+a2fb562ecea38e975ef420fd3a30dca9,oil and gas,pipelines,..,..,...,Natural Resources Canada
+a40babb7f39e86761f9438afaea38329,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a5b166f5dde5962f4e11670206279e37,bridges and tunnels,culvert,HALDIMAND TWP. BR. #15,Culvert,Culvert,Province of Ontario

@@ -1,33 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Doyle Road,BRIDGES AND TUNNELS,Footbridges
-Sharpe Road,BRIDGES AND TUNNELS,Footbridges
-Fairfield Boulevard (north side of Amherst),..,..
-Kildare Avenue (west side of Manitou),..,..
-CULVERT 2.7 KM EAST OF BRANDON CREEK BRIDGE,BRIDGES AND TUNNELS,..
-Violet Road,BRIDGES AND TUNNELS,Footbridges
-Pittsfield Street (north side of Amherst),..,..
-286 Amherst Drive (south side),..,..
-Loyalist Avenue (west side of Fairfield),..,..
-Sherwood Avenue (south side of Manitou),..,..
-Millhaven Road,BRIDGES AND TUNNELS,Footbridges
-Old Wilton Road,BRIDGES AND TUNNELS,Footbridges
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-Davey Crescent (south side of Kidd),..,..
-Ham Road,BRIDGES AND TUNNELS,Footbridges
-Briscoe Street (east side of Sherwood),..,..
-The Moorings (south side of Bath),..,..
-..,WASTEWATER STORMWATER,..
-County Road 22,BRIDGES AND TUNNELS,Footbridges
-Loyalist Plaza (south side of Manitou),..,..
-Coronation Boulevard (north side of Bath),..,..
-Spring Creek Culvert WB,BRIDGES AND TUNNELS,..
-Henry Crescent (east side of Loyalist),..,..
-Amherst Drive (west side of Manitou),..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-"MILLHAVEN CREEK BRIDGE, E.B.L.",BRIDGES AND TUNNELS,..
-BATH ROAD CULVERT,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-Jordyn's Court (south side of Kidd),..,..
-..,WASTEWATER STORMWATER,..
-Highway 33,BRIDGES AND TUNNELS,Footbridges
-Taylor Kidd Boulevard,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+414cc07ad0312e3c0822f8a3873a45ec,railways,track,..,...,...,Natural Resources Canada
+444f68b8b2e6927faf573819b00f5faf,railways,track,Millhaven,...,...,Natural Resources Canada
+445389524abb196e51bb036258c961ac,railways,track,Bath,...,...,Natural Resources Canada
+446722367dac2ee225221933f39f474a,bridges and tunnels,bridge,WILTON CREEK BRIDGE (EBL),Bridge,Bridge,Province of Ontario
+455a099ac1e9aa45bf424dc8ed305831,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+45e43bcce417badcf3f15888e178de5a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+462a29f24f38d424e01ba6c0afd59d0f,bridges and tunnels,culvert,Spring Creek Culvert EB,Culvert,Culvert,Province of Ontario
+4b22a02c80971198256c956c49feb4e6,railways,track,..,...,...,Natural Resources Canada
+4b75b2f50f61f6e233b0ab12107bc475,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4bf05ff863beec79aebfe86adfe3c5a7,ports and marinas,port,Millhaven,..,...,National Geospatial-Intelligence Agency (NGA)
+4cffb9b30d709d6c31c2b7cdc8a70903,railways,track,..,...,...,Natural Resources Canada
+4d5e4730e97557e02897aec3cd439836,oil and gas,pipelines,..,..,...,Natural Resources Canada
+4e1eef950769b52e66b624d1df1bef7e,railways,track,..,...,...,Natural Resources Canada
+507614e3d4e633b27c9db5b0f44c18ce,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+522d4fff153a5b9db238de38db73edbd,railways,track,Bath,...,...,Natural Resources Canada
+525ebff2ff2d7c49040282514f414ee2,railways,track,..,...,...,Natural Resources Canada
+552c2d0ddb3d4345f74be672d3fa72a9,railways,track,..,...,...,Natural Resources Canada
+5855f424603d7efb9e76a6306243b640,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+5bd5aa20a8bfe5255c9b85a67ba6cfb1,railways,track,..,...,...,Natural Resources Canada
+5dd8ef65d1ac75943b77939be10ebf79,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+600a94ac83223e622aba910a30426374,railways,track,Bath,...,...,Natural Resources Canada
+644f8546ff6f43a742490286c7207fee,low carbon,wind,Ernestown,...,...,"Government of Canada, Natural Resources Canada"
+649b336e4a837bff0a86e5b75179d582,railways,track,Bath,...,...,Natural Resources Canada
+64e707735a42da1550479c0b65029804,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+6893f6fbf73913dfa4f34c18266d4316,oil and gas,pipelines,..,..,...,Natural Resources Canada
+68dd8a8420ea7f74a1e381a65501c1ff,railways,track,..,...,...,Natural Resources Canada
+6a491cee0cc21f27760ce7ace220c748,railways,track,..,...,...,Natural Resources Canada
+6a7b0f0a8342ef86ec6e856aa5bc10eb,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+6ac9afd8af2b92a7a3d96bd35b063c7f,airports,...,Camden East Airstrip,small_airport,...,OurAirports
+6cd59906cf1c5cfa7559f4ce9fa9622f,railways,track,..,...,...,Natural Resources Canada
+6e9b72ab7d0f139c6c933732a4f97bbc,railways,track,..,...,...,Natural Resources Canada
+6efeb96fbe9a7dbe30422ec7848471d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6f3f8694aab41a5d888ad87eeb3db46f,railways,track,..,...,...,Natural Resources Canada
+6fc87932aaae27a2f22d45c0debc7db5,railways,track,Bath,...,...,Natural Resources Canada
+7658675b2711610fd95bbc37b78ad677,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+7676564bf466b16cad957524198e7031,railways,track,Bath,...,...,Natural Resources Canada
+77bdcb85f3710b7480aa46c2b1e32015,telecom,tower,...,...,...,Natural Resources Canada
+7884cff405f3664f3963bbfc71ab066a,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+78bf1d17da32a310aa33c59995702f95,railways,track,..,...,...,Natural Resources Canada
+790d859dd351b069ac40a24100936827,low carbon,wind,Ernestown,...,...,"Government of Canada, Natural Resources Canada"
+797a54f4b505f4cee1ca2b6a44409c16,electric grid,power_plants,..,...,...,Natural Resources Canada
+7ebbc471ad062d6aa3ee190faec629d1,railways,track,Bath,...,...,Natural Resources Canada
+80a26cd4b3be0d9c7f3f4962558558a2,railways,track,Millhaven,...,...,Natural Resources Canada
+80cee600337e172cdce80aa2282f04c3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8288d78daa5cd9a90f2c2121bc318ab3,railways,track,Bath,...,...,Natural Resources Canada
+83f4c4be740f75a7fb4e3f6d542ff151,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+84c34376518729590f2eda8686af48b8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+84fb6b44dcfe249e0666d4d543fe84e9,low carbon,wind,Amherst Island Wind Project,...,...,"Government of Canada, Natural Resources Canada"
+862fb22e144180aaa35d5bb745106afa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

@@ -1,14 +1,13 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-RIVER PHILLIP (WESTBOUND),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Water Street,BRIDGES AND TUNNELS,Footbridges
-Highway 104,BRIDGES AND TUNNELS,Footbridges
-RIVER PHILLIP,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BLACK RIVER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ROUTE 321 U/P,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Oxford Trail Crossing,BRIDGES AND TUNNELS,"Bridges, Culverts"
-OXFORD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lower Main Street,BRIDGES AND TUNNELS,Footbridges
-Main Street,BRIDGES AND TUNNELS,Footbridges
-OXFORD LITTLE RIVER #1,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0d9abb36e82e398421ee8773f83ad8e7,bridges and tunnels,mixed,OXFORD,..,..,Province of Nova Scotia
+43a304b8066a8261272e3897112d831f,bridges and tunnels,mixed,OXFORD LITTLE RIVER #1,..,..,Province of Nova Scotia
+5175e9d66ebb4a1655f3fa3c3a6e9423,bridges and tunnels,mixed,Oxford Trail Crossing,..,..,Province of Nova Scotia
+5763bb7c51a16a7f9f194ad96aa1b238,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+66b40d68e4fb25526242b85a63f70a0b,bridges and tunnels,mixed,RIVER PHILLIP (WESTBOUND),..,..,Province of Nova Scotia
+72165a693805504efd6a11103878a9d3,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+91016733ae260f77f2573a9e961a59be,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+9c78a6b9c02a16bbe9d9ef7075da5040,bridges and tunnels,mixed,BLACK RIVER,..,..,Province of Nova Scotia
+d095996e35897dd3812acf60f4c7db95,bridges and tunnels,mixed,RIVER PHILLIP,..,..,Province of Nova Scotia
+dd59513621f04b24a4528a72f304d257,wastewater and storm water,facilities_waste,Oxford Ns Lagoons,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+dd8238bdda34377c84f3cb8492c92909,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+ea15d5912f9a408a20e1d439cc1bfd43,bridges and tunnels,mixed,ROUTE 321 U/P,..,..,Province of Nova Scotia

@@ -1,47 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Boulevard Raymond-Mailloux,BRIDGES AND TUNNELS,Footbridges
-Boulevard Monseigneur-De Laval,BRIDGES AND TUNNELS,Footbridges
-Rang Saint-Antoine Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Côte de Pérou,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Saint-Jean-Baptiste,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Leclerc,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Trait-Carré Saint-Jean,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Pointe,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Vieux-Quai,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Saint-Jérôme,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang de la Martine,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Saint-Édouard,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang de Saint-Placide Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+03022796e07c08a806453b2a0aae332e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+05e4db149cf8f2e648a80a0f14a894ad,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+10c7f966b8a0dab659cd12d15274f1f6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+11c820491fa18e1c8d86d73e7e546d7e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+14d9d5851e62ff804a3b724ff9c5f9bc,low carbon,charging_stations,Brcc - Baie-st-paul-couche-tard,...,...,Government of Quebec
+161c59a3e6f9aa30a6c17257c7119f25,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+198866282f45487edcc491bdff6011ce,telecom,tower,...,...,...,Natural Resources Canada
+19e4281097c4f6febf9b9267114d1f26,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1a93c1d80249c521b5fb9c980a7fd773,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1b876330cbdb60c15b1776ad288f53c6,airports,...,Baie-st-paul Heliport,heliport,...,OurAirports
+23af5b7fe86635fb0c19ac5a0b5261e5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+25e7ceabca2c976c6f1e9df49846e630,low carbon,hydro,Baie-saint-paul,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+299e9ae7adf58c69062b6fcbe451dcce,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c1306483b7e5e3c4853305db2e08dac,low carbon,charging_stations,Desjardins - Fleuve Et Des Montagnes (charlevoix),...,...,Government of Quebec
+368e781830722b7d94e1f1e83a1af037,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3917b9f697e7a8ab8e78b2600fe3bda8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3cc28e7f89aff2c0c764a9ad42db4e6b,railways,track,..,...,...,Natural Resources Canada
+3f2d79cca007610c6ab092bbaedf1290,bridges and tunnels,mixed,..,..,..,La Province de Québec
+40083cc67a4e14efe52d0c694c9467d7,bridges and tunnels,mixed,..,..,..,La Province de Québec
+45306836478f2923420e8d64066353af,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4b5599a63f44b3c470d557dcff4ecf5d,railways,track,..,...,...,Natural Resources Canada
+4c6f47938f26cd5d8dfe63a6792ce5da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6260fae31d7cdfc50ef5868df682288e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6afb06ebcb0da1f896275042f5f3ed65,low carbon,charging_stations,Brcc - Baie-saint-paul - Aréna,...,...,Government of Quebec
+6d9ab2b1109441fdc183a45d8fbfe2eb,low carbon,biomass,Laiterie Charlevoix,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+6d9bc60a7ea371bd34deabfebecf6184,telecom,tower,...,...,...,Natural Resources Canada
+8c80516b674d0e4a99dc7bfb8c135d73,bridges and tunnels,mixed,..,..,..,La Province de Québec
+943abdf377c8a1900af572e41c2e3c36,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9534ab3f6614139f3a706a729fab7123,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+976374af611957df42197fd214c64916,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+992f07f088bb529834372ae847fe24a2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9a1dd72838f73b1c51ea508ce73cfd63,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Baie-saint-paul (riv.du-gouffre),Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+9f462103847acd2b7ff9f0a4edca18c4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a21a8e07abf8f42bbe6cf79973715522,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ada79a21c4892b8f356957057aa3e634,low carbon,charging_stations,Brcc - Mrc Charlevoix - Baie St-paul,...,...,Government of Quebec
+b11440258aded11d3ca0fbead09dbc7b,low carbon,charging_stations,Desjardins - Fleuve Et Des Montagnes,...,...,Government of Quebec
+b795cf67965ff3be5418eb27311c70be,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+beb77ebfce69a2a182542fcff835b0a9,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c02a21d24384c981325fef9fed3bcfee,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c05d7ead38771c9c3730c8db74930a87,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c289814a6a834ec14526b4911ed78c86,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c3a76685fc3b455ac3b0764bc1b5a4bd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c93149b659870d70a90d51059ce1fa31,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ced08448a08a21d0992a29408de50c5a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+d893b47cebcf040a1a0cb465108d79a1,railways,track,..,...,...,Natural Resources Canada
+da12f71c4c40167af43024d1b1cb32aa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dc4233475a195ab3609d32b3a7a048d3,bridges and tunnels,mixed,..,..,..,La Province de Québec
+dc6d435267042928ec1fe1f7bbac48ab,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+e7e833d2a6cc3dba6db10991df0e7cf2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Eastbound Michaud Cres @ 200 St,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Southbound 200 St @ 45A Ave,..,..
-Southbound 204 St @ 54 Ave,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Eastbound Grade Cres @ 207B St,..,..
-Northbound 200 St @ 56 Ave,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Northbound 200 St @ 48 Ave,..,..
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-203 Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Southbound 200 St @ 48 Ave,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Southbound 203 St @ 54 Ave,..,..
-Northbound 208 St Causeway @ Fraser Hwy,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Eastbound Grade Cres @ 203 St,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Langley Centre @ Bay 4,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Southbound 200 St @ 50 Ave,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,PEDESTRIAN AND CYCLING,multi-use
-Southbound 200 St @ Fraser Hwy,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Northbound 200 St @ 45A Ave,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00129dac7cc0b1517292b751a982aca5,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+01b6fd904d640b8fea3575a1830db066,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+039d3603987e009216a3374c349692f3,railways,track,..,...,...,Natural Resources Canada
+03a9c9d16cc8d1d63746db5af89728cb,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+03b9b84c7dfed3a19cf0675ec3623d5f,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Surrey
+0417fce4bc8d1549b3e957d1dd694a3a,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+0490df34efea427b8e86a16deaeb07e7,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Surrey
+04ff6072cf3214fa83070b6fea0ea3ba,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+052ec7cfdbdfef827df38633aa7fe058,railways,track,..,...,...,Natural Resources Canada
+05a358c9ce2406036825f8fae275ce0d,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+05c6f42c68aefc1e24875de8e0cf78ef,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+08b24d50cf33069f5f8d101095aa995d,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Surrey
+08d57e4b302d912fc234c65d9a1895e6,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+0946df0693f939bb6342eda5e89a6260,potable water,pipe,..,..,Pipe main,Township of Langley
+0a94d259d2a49d693d9b6b2275cc63c4,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+0aaf79ba4c52e08703c745ce7f60bf74,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Surrey
+0ad52abb77d6180d9635d6c5f1edd42d,bridges and tunnels,bridge,196TH ST U/P - LANGLEY,BRIDGE,Bridge,Province of British Columbia
+0b951ef8f186362f5c6e5a9387a2a90c,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+0cb908b0535852066f3685cb466beb88,railways,track,Head Block Mile 20.80,...,...,Natural Resources Canada
+0d3f247513ec5e90b8ba65abbc012b6c,railways,track,..,...,...,Natural Resources Canada
+0dc2fb12f0800732fa01118384d20a96,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Surrey
+0efc5592e470ea906b5217aab9726ae9,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+0fc19166d614b20e4953c78ec14a631b,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Surrey
+11e37d37c6980a6c16ad9c462f761f5d,railways,track,..,...,...,Natural Resources Canada
+120d607cf6df3ed654f35387bc472c94,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Surrey
+12aa0d8f145ad76468bcfd9d80e768ef,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Surrey
+12d47924b6c7d137878e013a082087a1,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Surrey
+1422dc3930b4e0fcd1c2873b3f4f1069,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+14580a4ec034b2233ceca0c5ba13a9cb,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+17cd4917e9e41a2f4fc1ab04c271d87a,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+1953d864357fe4c6333fdf05d455e7e8,potable water,pipe,..,..,Pipe main,Township of Langley
+1b1ca9a55cda7c57fcfcdad81b2d1555,wastewater and storm water,facilities_storm,..,..,Culvert,Township of Langley
+1dcf68df326734492131c24e9b67b506,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Surrey
+1eb761647842bc1f2c1693d00aa28ed6,potable water,pipe,..,..,Pipe main,Township of Langley
+20cda7eb2544480d762d2431b447c27b,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+21621ca56552bf778ab8b6396197571d,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+2195b7e472714a3c8bc339ec71cab4ae,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+224430bf4fdfd415537be4b6edc39cc4,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Surrey
+24c809788a7f721f11d04ec8cbc66a0b,wastewater and storm water,pipes_waste,..,..,Sewer lateral,City of Surrey
+2551decb5c645d512a37f3e18d17f09b,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+26d089c76e45ba9447888bf165dfc5d9,wastewater and storm water,facilities_storm,..,..,Culvert,Township of Langley
+271e199dc83538f3c3e8ee76c2516b4a,wastewater and storm water,pipes_storm,..,..,Storm pipe unknown,Township of Langley
+2a784f58704a5f51c28ba7a28d2effa9,railways,track,..,...,...,Natural Resources Canada
+2bf213c0ad0501a50bb98a93f0a6ca37,railways,track,..,...,...,Natural Resources Canada
+2ca458fb8f3caf50f8d0ccbb27747898,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Surrey
+2db961dc1ee8afdc05d7cc5303acf642,railways,track,..,...,...,Natural Resources Canada
+2df0c3124fbd8c57bbe8573fea60fb6b,railways,track,..,...,...,Natural Resources Canada
+2e3997e1950da0c8288e0cb5c2b56fc7,wastewater and storm water,pipes_waste,..,..,Sewer unknown,Township of Langley
+2f025bda76eea82af526e96757c5ecad,wastewater and storm water,pipes_storm,..,..,Storm pipe lateral,City of Surrey

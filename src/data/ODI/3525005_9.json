@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-UPPER JAMES at CHRISTOPHER,..,..
-..,PEDESTRIAN AND CYCLING,biking
-RYMAL at GRAYROCKS,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-UPPER GAGE at CROCKETT,..,..
-..,PEDESTRIAN AND CYCLING,biking
-RYMAL at UPPER GAGE,..,..
-MARTINDALE opposite NEVILLE,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-BARTON at AGNES,..,..
-PARAMOUNT opposite MISTYWOOD,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,SOLID WASTE,..
-..,PEDESTRIAN AND CYCLING,biking
-AEROPARK at DICKENSON,..,..
-MOHAWK at UPPER GAGE,..,..
-VICTORIA at FERRIE,..,..
-BAY at KING,..,..
-YORK AT DUNDURN,..,..
-GARTH at GARROW,..,..
-..,PEDESTRIAN AND CYCLING,biking
-QUEENSDALE at EAST 22ND,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-UPPER WENTWORTH at CONCESSION,..,..
-Wilson Street West,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,biking
-BEACH opposite DIEPPE MEMORIAL,..,..
-JAMES at CANNON,..,..
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-..,PEDESTRIAN AND CYCLING,biking
-STINSON at EMERALD,..,..
-..,PEDESTRIAN AND CYCLING,biking
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+33e1f96bbc133bc954d362bd93ae1e77,low carbon,charging_stations,Mains St E,...,...,City of Hamilton
+33f770a58890274f4bae51215cf5ced6,low carbon,charging_stations,Flo - Canadian Tire - Hamilton Mountain,...,...,City of Hamilton
+3413463e28d37bdfc5817460ea946512,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+343c73a97c41f66c99fa856382052689,railways,track,Lakeshore West,...,...,Natural Resources Canada
+344617f6b1cb905ae33c046bb0a5afbb,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+34532c98d9c3d436b4979e00f3155697,railways,track,..,...,...,Natural Resources Canada
+3468b6692500d2c8ac0ea31d904ac7f3,bridges and tunnels,bridge,SUNNYRIDGE ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+34891d8c0fec8ea679ae971826d22025,bridges and tunnels,bridge,"Hwy 403 Inter with Linc Alek Prkway, ramp N-E over Hwy 403",Bridge,Bridge,Province of Ontario
+349c779450d8cfb6e0aab74f4b4a0525,railways,track,Kinnear,...,...,Natural Resources Canada
+34a4f4ae312ef45bf74e40fa3f48f94b,bridges and tunnels,bridge,WINONA RD U/P ON QEW,Bridge,Bridge,Province of Ontario
+34b2ff8a39e3d85b8e9f59c03a4938e7,oil and gas,pipelines,..,..,...,Natural Resources Canada
+34d41f748a67e45c833f76e7a348e9eb,railways,track,Aberdeen,...,...,Natural Resources Canada
+352f9f303d78035a9e3ff4b76c70f547,railways,track,Parkdale,...,...,Natural Resources Canada
+3533821b2b8d012a6274e2690a04fba9,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+353773ba6852e1dde2f2968cba10c389,solid waste,landfill,Kenora Transfer Station,Community Recycling Centre,Material recovery,City of Hamilton
+35527609ab35ce563837b7dd18df418f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+359efa7f63894e42eee261db9ecf3d2e,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+35b35b3e438ccd26cc70577f0429ae84,railways,track,N & Nw,...,...,Natural Resources Canada
+35d23fc4dc32e24df62a108fff797290,wastewater and storm water,pipes_combined,..,CBLEAD,Combined pipes,City of Burlington
+35f8f9cf3e674dcf9792af7b5b8d4ce4,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+360b3c776612b375358710ee52ead172,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+362f656e7afb27bbcf5873bf8d6b79d5,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+365ce8bb6060518c42371097bd45539b,railways,track,Parkdale,...,...,Natural Resources Canada
+367828956e6806e8fb69557ca1b3ff05,bridges and tunnels,culvert,QEW - Ramp S-W @ Centennial Pkwy Culvert,Culvert,Culvert,Province of Ontario
+36854aa82a19b3bb779679c34f7ea23c,railways,track,Parkdale,...,...,Natural Resources Canada
+3688820e740fb8f26ab52a3724861446,railways,track,..,...,...,Natural Resources Canada
+371a1e0ab906c9cbecddbfddb4fff49a,railways,track,..,...,...,Natural Resources Canada
+37274fd0c03bcc9beeab27dd7b490a5c,railways,track,Parkdale,...,...,Natural Resources Canada
+372ef87eb011d1688742c6e365c7db31,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+3734e299838298e96a48f986febf6ddc,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+3751302efb78c9c6b72194df8ac2905c,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+37632bd14b9ed6451603f15361da00e8,railways,track,Belt Line,...,...,Natural Resources Canada
+37639099523312cc5d9d4dbc74fd44e1,low carbon,charging_stations,Indigo Parking - Hamilton Jackson Square - Tesla Destination,...,...,City of Hamilton
+378fc76a8b277ef69c939794e58a5816,railways,track,Kinnear,...,...,Natural Resources Canada
+37d55e0f3652670f02563d9c1c385949,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+38102ef2c1064ef93db27b59250e396e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+384e3709e8c6a7ebd2e74a4381ba9163,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+38712f58731a79c64d8797ef2f136c6b,railways,track,Parkdale,...,...,Natural Resources Canada
+38928e435b5e9677ae41fbc4a6dd4d2b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3895cca8877c141cc9b38aba7ff2a545,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+38a22f6f95512a1bcca19b581b05b934,railways,track,Parkdale,...,...,Natural Resources Canada
+38fab80bbe80a7bea233a9c08db957fd,bridges and tunnels,culvert,..,Culvert,Culvert,City of Hamilton
+392f6e158b638b3916025e9002bb30c0,railways,track,Parkdale,...,...,Natural Resources Canada
+3947bcb9f928eb640008465884253b49,bridges and tunnels,bridge,..,Bridge,Bridge,City of Hamilton
+394cdd023dea7b8076a3106430c098b5,oil and gas,facilities,..,Oil and Gas Field,...,Natural Resources Canada
+39598b1f3c2ac99c7625f3958fe3264a,railways,track,N & Nw,...,...,Natural Resources Canada
+395ab3c9e7b54814b6f6072ffa0c90f7,railways,track,Firestone Lead,...,...,Natural Resources Canada
+396754802b381853a21c6675125c27fe,railways,track,..,...,...,Natural Resources Canada
+39718f17ead46c7764da30fa99558acb,railways,track,Stuart Street,...,...,Natural Resources Canada

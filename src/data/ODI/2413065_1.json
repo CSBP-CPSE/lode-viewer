@@ -1,16 +1,13 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Route 232 Est,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 232,BRIDGES AND TUNNELS,Footbridges
-Rue Saint-Marc,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Petit-5e Rang Est,BRIDGES AND TUNNELS,Footbridges
-Route 232 Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Saint-Joseph,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0a8af30d63054e6a7c74a4f24cadf9d6,bridges and tunnels,mixed,..,..,..,La Province de Québec
+3011529e0a2295c6320f50574374f3cc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+43b00a2b3d0ba8dc03da4a191a68039c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+4aaa279f333ef4ac7c509681f8e4f6b2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4fa7022ea09f7647d29d113e0d099efd,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+55454b69c68a6af08593a0c887e70e92,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Saint-michel-du-squatec,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+9b0fdc267cdeee3c8154664ae89f3df7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a170a3854852e3399d8396179ce99220,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a8ba034606f57e3f85c6dd569dc2701e,low carbon,charging_stations,Sépaq - Parc National Du Lac-témiscouata,...,...,Government of Quebec
+b990eac873ecc4e1d360acb5e53622e5,bridges and tunnels,mixed,..,..,..,La Province de Québec
+beb271b908388ffa32a0fff665d8e6f0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e71c5b383c9671706e0a1741b4007646,low carbon,charging_stations,Municipalité De Saint-michel-du-squatec,...,...,Government of Quebec

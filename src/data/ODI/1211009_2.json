@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Highway 366,BRIDGES AND TUNNELS,Footbridges
-Green Bay Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-THOMAS DICKSON,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Fenwick Road,BRIDGES AND TUNNELS,Footbridges
-MacDonald Road,BRIDGES AND TUNNELS,Footbridges
-CHARLES CASEY,BRIDGES AND TUNNELS,"Bridges, Culverts"
-EEL CREEK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Southampton Road,BRIDGES AND TUNNELS,Footbridges
-EAST FANNY'S ELBOW,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Nappan Road,BRIDGES AND TUNNELS,Footbridges
-LOWER EEL CREEK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Jungle Road,BRIDGES AND TUNNELS,Footbridges
-New Road,BRIDGES AND TUNNELS,Footbridges
-LOWER NAPPAN ABOITEAU,BRIDGES AND TUNNELS,"Bridges, Culverts"
-TR SMITH,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CLIFTON,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Amherst Scale Outbound,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HASTINGS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FORT LAWRENCE RD U/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MUD CREEK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Reid Settlement Road,BRIDGES AND TUNNELS,Footbridges
-Klondike Road,BRIDGES AND TUNNELS,Footbridges
-Fort Lawrence Road,BRIDGES AND TUNNELS,Footbridges
-Highway 6,BRIDGES AND TUNNELS,Footbridges
-VICTORIA RD U/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Shinimicas Road,BRIDGES AND TUNNELS,Footbridges
-BURNS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LOGAN,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Mount Pleasant Road,BRIDGES AND TUNNELS,Footbridges
-GEORGE O SMITH,BRIDGES AND TUNNELS,"Bridges, Culverts"
-NAPPAN RIVER ON TCH 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MISSIGUASH,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Bird Loop,BRIDGES AND TUNNELS,Footbridges
-NAPPAN RIVER,BRIDGES AND TUNNELS,"Bridges, Culverts"
-NAPPAN RD U/P ON 104,BRIDGES AND TUNNELS,"Bridges, Culverts"
-JOHN R CHAPPELL,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+45044c6954e5f4537e6d6011ba072273,low carbon,wind,Amherst I Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+453d8c61245c83ecb4d38d31f6f12803,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+456e6af81a596d14ffa8b6e2eafd1a25,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4702880cbabee35084ee82a98a87d5a5,bridges and tunnels,mixed,CLIFTON,..,..,Province of Nova Scotia
+4894de8df793a611385b2af25ae7d0f6,bridges and tunnels,mixed,GORDON CREEK,..,..,Province of Nova Scotia
+4a14c7ec134fdab5e61cfdcdc1e4e0df,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+4c0575d8fc478efd1ebb4b3ff7049206,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+4eff3edb1f0dc7e20fb14d10f7e3b44a,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (6-15m diameter) point,Lagoon,Government of Nova Scotia
+4ff1f7bacc73b95763ea4729d96ae783,bridges and tunnels,mixed,BLACK RIVER CULV #2,..,..,Province of Nova Scotia
+5021a8e1bf53c0b03ee9ab43fbc89051,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+544bbbd62c7f3bee86b2f62a295852d8,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+57032650b9312afcc667731c27a90912,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+59fd771a6f5f22e5864615c6d4ed7040,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+5a5875e1bc877eb88086d47195f89349,bridges and tunnels,mixed,HASTINGS,..,..,Province of Nova Scotia
+5c62bb3974f690eadd135b8ba401dcae,bridges and tunnels,mixed,MCLELLAN'S BROOK,..,..,Province of Nova Scotia
+5ccf7cdb3f060524ae107840ba91f4f2,bridges and tunnels,mixed,LOWER NAPPAN ABOITEAU,..,..,Province of Nova Scotia
+5eea30c66ede80678aae658e9a4f5436,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+61b63584d9c0b12b8a03467658da4673,electric grid,substations,SUBSTATION (transformer) point,...,...,Government of Nova Scotia
+6383c41b91699bbd3733b479d385b9f1,bridges and tunnels,mixed,SHINIMICAS,..,..,Province of Nova Scotia
+65ae894314bf5c6c06564651288d27fb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+65eda28945c82d3a3cea18066e25a297,electric grid,power_plants,..,...,...,Natural Resources Canada
+664ae5a01c23811b2d2578df01b574d9,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+66bbf83b8b0635906d88c982076f9f64,bridges and tunnels,mixed,EAST FANNY'S ELBOW,..,..,Province of Nova Scotia
+675d1f23b051b1b3ff621ebb079f3ed3,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+681c7afe8c25a6a71322abaf8a55b68b,low carbon,wind,Amherst I Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+685f594cb63ea8623af3e2602039c135,bridges and tunnels,mixed,LAPLANCHE (EASTBOUND),..,..,Province of Nova Scotia
+68e6436551d05ac77baac6335eda89a5,telecom,tower,...,...,...,Natural Resources Canada
+6bc554a83e1905b55fde634fb067e7e7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6c483162b21a566a0739df4538469928,bridges and tunnels,mixed,DOYLE'S MILL,..,..,Province of Nova Scotia
+6ed4a0f1679dbea88cd22301b1f45d30,low carbon,wind,Amherst I Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+6fb8475bbea3a67285e1a4dc53d8691a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70b9222fec81671de58c338b651850b2,bridges and tunnels,bridge,Larry Brander Bridge,..,..,Province of Nova Scotia
+734f43e0964f27b66c314e6e7f792dec,low carbon,wind,Amherst I,...,...,World Resources Institute
+756ad51a2af4e869ed584038a45f0dd3,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (6-15m diameter) point,Lagoon,Government of Nova Scotia
+7763d136f7d7fbf2592a2c22a9db3068,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7878885c6853dd7c182a2fa1a3c0a4c1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+788098fa0c772f1abd53421e6f5a3802,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+78b3cadaab5cedb9876f4d6a02688670,low carbon,wind,Amherst I Wind Farm,...,...,"Government of Canada, Natural Resources Canada"
+78fa656d17e8b404c42bef6300a9a3f7,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+78fad5a9806b363a86218c55230de4b6,railways,track,..,...,...,Natural Resources Canada
+7a6a76da8cc90bd29555d975c41ee199,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7bd80fdf71f921633439d3cb81b7754e,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7c4b017ef5d24f32d687b6625c4841f0,bridges and tunnels,mixed,MUD CREEK,..,..,Province of Nova Scotia
+8014861a64ec562a97e642662fb56247,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+807204a5884d5edb75bc57b413fcd8a5,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (6-15m diameter) point,Lagoon,Government of Nova Scotia
+82cf87d794cc4a268c048c17589e1960,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+83984353c3a8ecbf0d1ac3462c9d57df,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+8689996caf2fe3219fffacd52219d6f9,bridges and tunnels,mixed,FORT LAWRENCE RD U/P ON 104,..,..,Province of Nova Scotia
+88685cea596f3206a78e9a4c6318e300,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia

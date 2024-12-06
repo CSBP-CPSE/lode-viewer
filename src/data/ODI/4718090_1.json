@@ -1,41 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Wapawekka Lake Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-Elaine Lake Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-..,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,WASTEWATER STORMWATER,..
-Mihigan Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,WASTEWATER STORMWATER,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
-..,SOLID WASTE,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0028d369ca88596cf145a383e80b66d7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+021bf2132f8d560b212ea29813d131d8,ports and marinas,mixed,Jan Lake,Recreational,...,Fisheries and Oceans Canada
+02b29bfdd146130fbd7eb80a7f1b8ebd,ports and marinas,mixed,Kinoosao,Core Fishing,...,Fisheries and Oceans Canada
+0413c3e5ffbd033610aaff4add53ade6,oil and gas,wells,..,..,...,Natural Resources Canada
+06b70c7d89e34f4e7f08f20afbd6a5e2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+077403d026f9a326c5aa04bd6969286b,oil and gas,pipelines,Bow River Primrose Lake 5-12-67-26,..,...,Saskatchewan Ministry of Energy and Resources
+08672e140743f953bb107f0195fb634f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0a0491c6744b684ac61f223cadbd3320,electric grid,power_plants,..,...,...,Natural Resources Canada
+0beb9540ba3b02785ca26eb0238a5feb,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0c038300eb981c31c371732b2589d303,airports,...,Dore Lake Airport,small_airport,...,OurAirports
+0faf099d5b2b1420752eb9fbc755a64a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+104ac267aa4547e55d715faf2ded2488,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+10b29b2f8c661b6b78b7c02f456e76f2,airports,...,Otter Lake Airport,small_airport,...,OurAirports
+122c4c278eed5fd4f0631c51bc0feb9f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+127bf66ed1def3ebd774e990418b6d08,airports,...,Uranium City Airport,medium_airport,...,OurAirports
+12b83666ef4a7f66a8cec4969d32379e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+14939b0617d6c03fdc3adcc138e6ac56,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1650ef28870a92f8d6bac7e6932e331c,oil and gas,pipelines,Martineau River 5-26 Pipeline,..,...,Saskatchewan Ministry of Energy and Resources
+166301dd0eb9f40ff75ad721d6f6c18a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+166df4a9c421d0083d5259656f1b6adc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+17da053ab41c05510ac1300aaa70acc8,airports,...,Mcarthur River Airport,small_airport,...,OurAirports
+184cab5097df074c88504ffa1405807f,oil and gas,pipelines,Bow River Primrose Lake 11-8-67-25,..,...,Saskatchewan Ministry of Energy and Resources
+1a3b9cf813f7cf074b6400e79614f59c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1b483b573eac156f0da496c70541208d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1c4e838c388050cb03756175bf4d738a,airports,...,Nekweaga Bay Airport,small_airport,...,OurAirports
+1cce8ec0e1afbfe7643b88605269f512,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f6d9a2aced2b3a3bb32dbfd4ed0dbd8,oil and gas,pipelines,Bow River Primrose Lake E 12-6-68-22,..,...,Saskatchewan Ministry of Energy and Resources
+1fe219907f4fae2da0455e477a6a5bd5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+202c886accf4c983d7ec1e1dc51b430d,telecom,tower,...,...,...,Natural Resources Canada
+2113c0a66fab07fc1c02b8b336dbea66,airports,...,Pelican Narrows Airport,small_airport,...,OurAirports
+211c0b605346cae7ff8896ed7e0bfafe,oil and gas,pipelines,Husky Primrose Lake 3-27-66-22,..,...,Saskatchewan Ministry of Energy and Resources
+2166effcd7ceca4e44d58499d6b4b77a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2182a314881886e3bafb58534e31aaff,telecom,tower,...,...,...,Natural Resources Canada
+221b6fc8253ac837c178cb51ac3a697f,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+229198726c2f25eabaa994370ad72669,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2551184bfcfe960d01c7867bb47ce7d1,airports,...,Hatchet Lake Seaplane Base,seaplane_base,...,OurAirports
+25f5cc0f69e4e082c1460c03100a34df,low carbon,hydro,Charlot River,...,...,World Resources Institute
+268535b1a3e3c8ff5706a66d9d4aa439,telecom,tower,...,...,...,Natural Resources Canada
+269d60b30f601860d936511b10c26858,airports,...,La Ronge Seaplane Base,seaplane_base,...,OurAirports
+2771fe111cefb4fec65e887fed526fed,oil and gas,pipelines,Bow River Cold Lake 10-8-66-25,..,...,Saskatchewan Ministry of Energy and Resources
+2963ee781ad15b2bd161ec1356f4e3ea,telecom,tower,...,...,...,Natural Resources Canada
+2ad2233a2c1a837f2dccb03becdd5e81,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b8d4941aa279f7fd8a6984089aafbcc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2be114821bde13f6aec3017c45bd2964,oil and gas,pipelines,Martineau River 7-6 Pipeline,..,...,Saskatchewan Ministry of Energy and Resources
+2c6b7890c09df49c68ea031dc4061cdb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c706ee6e9f1c4511415e35f4a850791,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2cdc709f4996d36cc973e51a4d9f9c03,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3040054317a951ef3679a6f4629e0c82,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+30c2795e9eb017e18c5b6bae2c1851b0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

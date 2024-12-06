@@ -1,10 +1,14 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-Storm Flow Multiplate Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Berwick Storm Flow Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Berwick Overpass on Highway 101,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Cornwallis River Culvert Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-Commercial Street,BRIDGES AND TUNNELS,Footbridges
-Willow Avenue,BRIDGES AND TUNNELS,Footbridges
-Highway 360,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+26c4b6cbf09462d28d4d25a892935650,bridges and tunnels,bridge,Cornwallis River Culvert Bridge,..,..,Province of Nova Scotia
+2d1e2b2bd7b8f20f32261c3b5aa2018e,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+3691e897b907016d1540de1c4c45537f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3e1e29023490f0bbe9ab0c693028a2c4,bridges and tunnels,bridge,Berwick Storm Flow Bridge,..,..,Province of Nova Scotia
+56b018c34d12ccda4349f0db7238f122,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+60dc9892867bcf7010db42ff727dfabc,wastewater and storm water,facilities_waste,Aldershot Sewage Treatment Plant,"Lagoons - Aerated, Lagoon - Aerobic, Disinfection",Lagoon,Environment and Climate Change Canada
+681b4a488e4912478919cd9d58a32476,wastewater and storm water,facilities_waste,Berwick Wastewater Treatment Plant,"Screening, Lagoons - Aerated, Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+742905b9848708d93d18019921453262,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+b1af0f9e435de30bff955398395b4778,bridges and tunnels,mixed,Berwick Overpass on Highway 101,..,..,Province of Nova Scotia
+bdf01dad97bed99766065fa9ab8c700e,bridges and tunnels,bridge,Storm Flow Multiplate Bridge,..,..,Province of Nova Scotia
+c27be37530348e170f04fcbadd9dceb7,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+e318c27e7ec4f4d9135088ad260575b1,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+f4a6117f48d51ccea701566b3dc6b01e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

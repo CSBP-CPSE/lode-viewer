@@ -1,50 +1,15 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-McMillan at Mila,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Culverts (diameter less than 3 metres)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Local Water Pipes (<416mm)
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+ffe824b6a48f67c6881edf308be4cb4e,potable water,pipe,..,..,Pipe lateral,City of Abbotsford
+ffea4d22eeb6f559f8c06487d700312a,wastewater and storm water,facilities_storm,..,..,Culvert,City of Abbotsford
+ffeb77e9016383622c32185f79743b6f,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+ffebd67328b2c62debfa8e49ad3a3d78,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+ffed32c698620a5b9dfb23ed71f94001,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+ffed8437f73ee572ffa1c8fff5c13c44,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+ffef8c18c06341923fced85c4cf53c4a,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+fff1daa564bcbad3b55e3223733e8f0f,potable water,pipe,..,..,Pipe main,City of Abbotsford
+fff30cfc9bc0fa1575886e4661b3a298,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford
+fff6f69b6cc390ebd4fd80b131936235,potable water,pipe,..,..,Pipe main,City of Abbotsford
+fffb6ee68e845466703bac6eafd6a38b,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+fffe17d1f18eb096e8986cd8a1f27bac,wastewater and storm water,pipes_waste,..,..,Sewer unknown,City of Abbotsford
+fffed872005260e13d57bc784369ed05,potable water,pipe,..,..,Pipe main,City of Abbotsford
+ffff58b5e6b632251339d8f24c7e0cfe,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Abbotsford

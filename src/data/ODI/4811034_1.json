@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-31 Highway,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,walking
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-22 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,PEDESTRIAN AND CYCLING,walking
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,multi-use
-266 Street & 114 Avenue Acheson,..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Township Road 530A,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,PEDESTRIAN AND CYCLING,walking
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,PEDESTRIAN AND CYCLING,multi-use
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-16 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,PEDESTRIAN AND CYCLING,walking
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,PEDESTRIAN AND CYCLING,walking
-..,PEDESTRIAN AND CYCLING,multi-use
-627 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+002a0d75bdc46796aa8de82712ac72dc,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+004d750b77b094d80fd6f728ef92683e,oil and gas,wells,..,..,...,Natural Resources Canada
+006083f1ecc0ea789aa855224c81c3ca,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+007918cce3a3f2c3af1cad55118c2b16,oil and gas,wells,..,..,...,Natural Resources Canada
+00e172d6ddff0b5d54a31cfc6295089b,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+00e848af2f354b75a1e6099521f9c041,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+00ed9d738c550b3f8a91441277f5433f,oil and gas,facilities,Probe Exploration Inc,..,...,Alberta Energy Regulator
+00f49bdfb7a59be4e578a2edc1861e80,oil and gas,wells,..,..,...,Natural Resources Canada
+012a88d20c793ae5a4d21acb7f988f2e,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+01595a812e460123c0ba8da1bfba4b9e,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+018f2bd98bb02641d7359ccc1ac73a39,oil and gas,wells,..,..,...,Natural Resources Canada
+01dbcafbbbdf569901ad94db3600dc5b,oil and gas,wells,..,..,...,Natural Resources Canada
+0212a4887aaf1981ef4a1718abf1e49e,oil and gas,facilities,New Star Highvale 10-4,..,...,Alberta Energy Regulator
+024b13ffd61c7b89214c39a9eb237a18,oil and gas,wells,..,..,...,Natural Resources Canada
+025319e154f770b0636801c6bbdf7995,oil and gas,wells,..,..,...,Natural Resources Canada
+0259596637b3f63c5bf8f69f46b44304,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+02666d75cdae85fc788d64f25723b11c,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+027026767abb74e5c221d70414af7582,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+02bb28db8831acf502828bb6712c2f87,oil and gas,wells,..,..,...,Natural Resources Canada
+02da41c3d5ce2437d2bab6419b7562c7,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+031d778fa499d3734947c2ab004e2687,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0321b62826f67bd7b178af8e4ec9c421,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+033d7248eac01fd42bbef6875e6d5c3a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0350fdd2cd685c8f88f49e7818bd10a0,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+0356e3143e317a1f17f5eedfd659d944,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+035921ccd54347924a21ce65dece45dd,oil and gas,wells,..,..,...,Natural Resources Canada
+035eb930a1c95ccbc8b7e5637a2a3fc3,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+0376a9e1f2216266939558fe3ab3f7eb,oil and gas,wells,..,..,...,Natural Resources Canada
+0388686e29bf6cbbdd2c1289490a7420,railways,track,..,...,...,Natural Resources Canada
+039ece25cf9360ede0f985c51563f616,oil and gas,wells,..,..,...,Natural Resources Canada
+03d7b678c1ccdad8d2acb352e713a7d4,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+03e1e8277bf780c43ddbe2b48b4e8121,oil and gas,wells,..,..,...,Natural Resources Canada
+03f4e0c2afb205dfb780b270fb4e5663,oil and gas,wells,..,..,...,Natural Resources Canada
+03fbfabbf0cfb98ca0d5e9b5ecfa209c,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+04134351d043ae8cd12873de28e1d810,railways,track,..,...,...,Natural Resources Canada
+04330c5a1188f0317db351ae62a53e9d,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0454a9e1c7b3063ab69f23ead41336b2,oil and gas,wells,..,..,...,Natural Resources Canada
+048827bb36a993fbdeb37fd4750e0920,oil and gas,facilities,Thorsby 16-11-051-02w5,..,...,Alberta Energy Regulator
+048d44dbedf3ea0891985711e582da21,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+04c8f4284cfb46860906499c87b4c208,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+04d0e769c075b7a590187336995e6155,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+04ed4b05d1f0e207f82fb0467215b5e3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+05041817dc26734ab6e94ba5a164ed49,oil and gas,wells,..,..,...,Natural Resources Canada
+0514be15f965777c1be8765b044969e8,railways,track,..,...,...,Natural Resources Canada
+05204cfe868b790ae2dd6ec80b7f448a,oil and gas,facilities,Amoco Et Al D-3 Bigoray 6-14-51-8,..,...,Alberta Energy Regulator
+053f0b3848472ac2b450f1e7e6850496,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+054719cdba4062f1f146ca38186f29be,oil and gas,facilities,New Star Energy Ltd.,..,...,Alberta Energy Regulator
+055c0ede3921ba7313421e12609090cc,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+0570aabf68f95f2e16adc9ab0ca2289f,oil and gas,wells,..,..,...,Natural Resources Canada

@@ -1,40 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Rue 74e,BRIDGES AND TUNNELS,Footbridges
-Avenue 40e Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Lacroix,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue 30e Nord,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue 90e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Promenade Redmond,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-1e avenue Sartigan,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Autoroute Robert-Cliche,BRIDGES AND TUNNELS,Footbridges
-Avenue 6e Nord,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Rue 16e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue 1e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+129af7dfdc477c93b4b9b6eb9b83e8e8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+17cdb757bb39f918a0cd70f5fb00a26d,telecom,tower,...,...,...,Natural Resources Canada
+2d53ba05cd03d7ee2e34ec19682cb6b4,telecom,tower,...,...,...,Natural Resources Canada
+2e3d299ae2c307f1aac1040f02bb1b65,railways,track,..,...,...,Natural Resources Canada
+325f1fe184838ecefad85a2721ecf29c,bridges and tunnels,mixed,..,..,..,La Province de Québec
+34ab9165b82b18f4c3d0fee56e2ab3b9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+370ccbe4a5190805608e9f4a78f96915,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3dc2fd1f605c21a2492bf16f7372c60d,railways,track,..,...,...,Natural Resources Canada
+3e1be4ea662fae9abb0d07501c7bdb2f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3f43e2d28ff8548a904d0c9a357677f8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+403f1c0550d74fac3c36e68af8ce05fd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+48a89ccccb84d0f1e728fe497cbbe18c,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+4cf46cca945c2457ba321569772e8ef4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+540995561f27762aba307415e312d34c,railways,track,..,...,...,Natural Resources Canada
+548f5528c19205c65562c398569ec442,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5a60df4fb14951b3a8e325fe6ebc3e18,low carbon,charging_stations,Brcc - Les Pères Nature,...,...,Government of Quebec
+5df53da6af64cb9bcbb416a694e935a1,low carbon,charging_stations,St-hubert - St-georges,...,...,Government of Quebec
+5dff6e700c81577c4d028fb112ded55c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+672aa8ff5592a5d9e049da1e40c5948a,telecom,tower,...,...,...,Natural Resources Canada
+6ec349aa6fdea58639c1f71c4925acdf,low carbon,charging_stations,Ville De Saint-georges - Stationnement De La Promenade,...,...,Government of Quebec
+71124d509d19bd2f813e3d95d5500d18,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+72f3e2b4b280de6f2b58c852a1d79eab,telecom,tower,...,...,...,Natural Resources Canada
+738a82ed62b3b3d2604125b6be7374d1,low carbon,charging_stations,Centre Sportif Lacroix-dutil,...,...,Government of Quebec
+78584896bc94efd3ccf0a2cbf3a97832,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+79eef2d2726a663a8411e36d7aead51d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7bc1821da3d312eed9c7677332049378,low carbon,charging_stations,Ville De St-georges - Centre Culturel Marie Fitzback,...,...,Government of Quebec
+8824dd954e365f4f0119823e834c4ddb,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8960d9f4a5a59dfd4d0f475e00223872,railways,track,..,...,...,Natural Resources Canada
+8b1876af0e50ea07384f9accc09ae7a8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8e03a2c75e982a6ec1ce3947f5ce2870,airports,...,Saint-georges Airport,medium_airport,...,OurAirports
+90c3378c05c98a6a33d6ccb5f75f8505,low carbon,charging_stations,Ville De Saint-georges - Centre Sportif,...,...,Government of Quebec
+9408763505cd4b770b2c3e05c8b4f079,wastewater and storm water,facilities_waste,Usine D'épuration,"Grit Removal, Screening, Storage Ponds, Sequencing Batch Reactor, Biological Nitrogen Removal - Nitrification and Denitrification, Biological Phosphorus Removal, Biological Nutrient Removal (Nitrogen and Phosphorus), Chemical Precipitation (Phosphorus), Polishing Ponds, Other Treatment Type, Disinfection",Unclassified,Environment and Climate Change Canada
+95224365ac58bbd36a77aabc46dc579e,low carbon,charging_stations,Parc Carpe Diem,...,...,Government of Quebec
+982a887ebe272316983261e39f6675ff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+98e4bacd850412867f6e86e537e5ca8e,low carbon,charging_stations,Ville De Saint-georges - Polyvalente St-georges (complexe Multi-sport),...,...,Government of Quebec
+9b3202b8930c45b025c2458925eee2ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a4b67d6753f7ed3d14428c8ef9639333,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a5c4146a93c2cdc280d136373637e98a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a8c3fc50663edc64f1aebfc00aa7c966,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a90a3caa9d7992ef31a65d5eb81f6978,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aca7df83b5b9af184918ccdb50c4ae57,telecom,tower,...,...,...,Natural Resources Canada
+ba5fb4782043f0e2ca7f196ec325e3cb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c00ed7c50dbcb4d10cc4e04a865a9830,bridges and tunnels,mixed,..,..,..,La Province de Québec
+c0391c5c0a031bf73ddaabf924d0f7e7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cb5d0272e95d3279f72ac3cee94685bb,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ccddb5f32a82b7284c505014ae3dd6e2,bridges and tunnels,mixed,..,..,..,La Province de Québec
+cdf3a6f74dec82c0f3cc5842e6dd442b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d0352d7af68dd3b05c654a6d97b4fa08,low carbon,charging_stations,Parc Des Sept Chutes,...,...,Government of Quebec
+d061e6c2c55a0b5ab536101e2730bf9b,bridges and tunnels,mixed,..,..,..,La Province de Québec

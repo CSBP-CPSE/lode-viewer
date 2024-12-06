@@ -1,14 +1,28 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-CPR  SUBWAY AT HWY 538,BRIDGES AND TUNNELS,..
-SERPENT RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Highway 17,BRIDGES AND TUNNELS,Footbridges
-LAUZON CREEK BRIDGE,BRIDGES AND TUNNELS,..
-LAUZON CREEK CULVERT,BRIDGES AND TUNNELS,..
-MARCELLIUS CREEK CULVERT,BRIDGES AND TUNNELS,..
-Old Hydro Road,BRIDGES AND TUNNELS,Footbridges
-Highway 538,BRIDGES AND TUNNELS,Footbridges
-BLACK CREEK CULVERT,BRIDGES AND TUNNELS,..
-SERPENT LAKE TRIB. CULVERT,BRIDGES AND TUNNELS,..
-SPRAGGE CREEK CULVERT,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-Power House Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02d2f1c2601624070c3cec72839724d4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0b046d91a2c92deb9ba1345ed35d6cda,electric grid,power_plants,..,...,...,Natural Resources Canada
+3c7f154c563cac28bf8b82661b862505,airports,...,Algoma Mills Seaplane Base,seaplane_base,...,OurAirports
+3e9b6181c0e92e4add51fbc01f28a4f9,bridges and tunnels,culvert,SPRAGGE CREEK CULVERT,Culvert,Culvert,Province of Ontario
+4042ad5f6381c67e65f32c63e6c66f87,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+42cacaada487c181786f456ba6506c34,telecom,tower,...,...,...,Natural Resources Canada
+4602be7c7be323aa775bf917932f19ee,railways,track,..,...,...,Natural Resources Canada
+498fda65004edabb76b7176d9d0e81d7,low carbon,hydro,Lizard Creek,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+52436a471038fb1f84fd2370667c8a62,bridges and tunnels,culvert,SERPENT LAKE TRIB. CULVERT,Culvert,Culvert,Province of Ontario
+5fbc119792a6b27d635a1ac773fae166,oil and gas,pipelines,..,..,...,Natural Resources Canada
+6bd13e2a48a4fc1f31ba610079199c7c,bridges and tunnels,bridge,SERPENT RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+887cfc668875888ae3ec51c443f0f2b7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+94dc6b2e99fa05e9ea61f6a6559a4195,bridges and tunnels,culvert,MARCELLIUS CREEK CULVERT,Culvert,Culvert,Province of Ontario
+a7682a962c26df5990f51143ecf4890e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aa5977864003946a09dcca779b8b8c3d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+accfaac9548d2488cb9b4cbe680787e1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b2dc192d0423bc2fb532778128501efb,low carbon,hydro,Serpent,...,...,World Resources Institute
+bcb5570a379228828fc7d077f87b4d1e,bridges and tunnels,bridge,CPR  SUBWAY AT HWY 538,Bridge,Bridge,Province of Ontario
+c22408a7d51a28d6a6f38bb60462c4ca,railways,track,..,...,...,Natural Resources Canada
+ccf114cdfb46b0a2b2c3c618a218f8aa,bridges and tunnels,culvert,LAUZON CREEK CULVERT,Culvert,Culvert,Province of Ontario
+d792ff9eed56ffb0ceca246f194df85d,railways,track,..,...,...,Natural Resources Canada
+dc791bbb13c24d504c936e966b61d53d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e105ddeb04a16b119a0f0f5274759778,telecom,tower,...,...,...,Natural Resources Canada
+e5ab06fa731e9d674566ad30243b548b,bridges and tunnels,culvert,BLACK CREEK CULVERT,Culvert,Culvert,Province of Ontario
+f1d05da4ce95676e3c71251da77543ea,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+fd31b35c32a9f1a284a3675fdcc06c61,bridges and tunnels,bridge,LAUZON CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+fd92388dc6b9db03feafd102fb25926f,railways,track,..,...,...,Natural Resources Canada

@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-HALFWAY RIVER #1,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HANTSPORT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ST CROIX VILLAGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Upper Water St. Railroad O/P,BRIDGES AND TUNNELS,"Bridges, Culverts"
-VAUGHAN,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-HUTCHINS BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-"HALFWAY RIVER, Hwy 101, eastbound @ exit 8",BRIDGES AND TUNNELS,"Bridges, Culverts"
-SHIPYARD (Cheverie),BRIDGES AND TUNNELS,"Bridges, Culverts"
-Smeltzer Brook Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SOUTH ACCESS ROAD 101- #3 sta. 3+440,BRIDGES AND TUNNELS,"Bridges, Culverts"
-"ST CROIX RIVER , Highway 101 WB",BRIDGES AND TUNNELS,"Bridges, Culverts"
-Clayton Mckay Road,BRIDGES AND TUNNELS,Footbridges
-Payzant Bog Road,BRIDGES AND TUNNELS,Footbridges
-BROOKLYN HARDWARE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MCKAYS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-"Windsor Railroad O/P, Highway 101",BRIDGES AND TUNNELS,"Bridges, Culverts"
-COCHRANE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SANGSTERS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Panuke Road,BRIDGES AND TUNNELS,Footbridges
-NEW ROSS ROAD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Tom Riley Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lakeview Crescent,BRIDGES AND TUNNELS,Footbridges
-MOUNTAIN ROAD,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Woodville Road,BRIDGES AND TUNNELS,Footbridges
-Falmouth Dyke Road,BRIDGES AND TUNNELS,Footbridges
-Sangster Bridge Road,BRIDGES AND TUNNELS,Footbridges
-"NEWPORT STATION O/P, Highway 101 EB",BRIDGES AND TUNNELS,"Bridges, Culverts"
-SHAW (Allen Brook #1),BRIDGES AND TUNNELS,"Bridges, Culverts"
-SOUTH ACCESS ROAD 101- #5 sta. 4+760,BRIDGES AND TUNNELS,"Bridges, Culverts"
-THUMB HILL,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Grey Mountain Road,BRIDGES AND TUNNELS,Footbridges
-Mines Road Branch,BRIDGES AND TUNNELS,Footbridges
-BASS BROOK,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SOUTH ACCESS ROAD 101- #2 sta. 3+025,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 101 EB Exit 4 On Ramp,BRIDGES AND TUNNELS,Footbridges
-PANUKE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MONTAGUE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Colonial Road,BRIDGES AND TUNNELS,Footbridges
-UPPER COGMAGUN,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Mines Road,BRIDGES AND TUNNELS,Footbridges
-"TRUNK 14 O/P, Highway 101 Eastbound",BRIDGES AND TUNNELS,"Bridges, Culverts"
-Avondale Road,BRIDGES AND TUNNELS,Footbridges
-"Wentworth Rd O/P, Highway 101 Westbound",BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 101 WB Exit 6 Off Ramp,BRIDGES AND TUNNELS,Footbridges
-PARKERS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-ALLEN BROOK #3,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+3cf1707f13bd44c87b700678206ec7e5,electric grid,power_plants,..,...,...,Natural Resources Canada
+3d3aa7b059163532a3855e31ab1c4308,bridges and tunnels,mixed,WEIR BROOK,..,..,Province of Nova Scotia
+3db68b786d50ab03b42dc3f1e8f01dc6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4038104b24458be11bc1105ae3f5866b,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+403e2de715b35a45770bb9183f1b4c6e,electric grid,power_plants,..,...,...,Natural Resources Canada
+4061d41150f7b45064d7578f6e3bf4dc,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (6-15m diameter) point,Lagoon,Government of Nova Scotia
+4337eb2103854b3ea1b9b76f9666c38c,low carbon,wind,Ellershouse,...,...,"Government of Canada, Natural Resources Canada"
+4473f249e2f0cfcdca848201615ada86,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+4717c5d1f373b507fda1bbece36ed0be,solid waste,landfill,Gfl Environmental Inc.,Waste Treatment and Disposal,Waste Treatment and Disposal,Environment and Climate Change Canada
+4897db921b1bc18e4b5123627614da80,bridges and tunnels,mixed,"HALFWAY RIVER #2 @ Exit 8, Highway 101",..,..,Province of Nova Scotia
+494958102f0e02ceb8c7a5d82672894c,low carbon,wind,Ellershouse,...,...,"Government of Canada, Natural Resources Canada"
+49a7b7e06b159c7aa506bd4d214361ce,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+49e93836ec6d926c8778043023906ec2,bridges and tunnels,bridge,SCOTCH VILLAGE BRIDGE,..,..,Province of Nova Scotia
+4a94f78f2ab643f373f76a23cc051318,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+4ad874103c1bace52f09af04ea5b3f50,electric grid,power_plants,..,...,...,Natural Resources Canada
+4b5495b16643d664b4fd80981903c926,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+4ba857c06bee21d399eb66f00c2af086,telecom,tower,...,...,...,Natural Resources Canada
+4bb39bfb97d8a93e52035cd2a9f0a3fd,bridges and tunnels,mixed,KENNETCOOK RIVER,..,..,Province of Nova Scotia
+4cb52aa8cb98ee0e61aee1d12285a8b1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4e6e042e4120bdaa9cb1dd0c3f4ca047,low carbon,wind,Martock Ridge,...,...,"Government of Canada, Natural Resources Canada"
+4f2bc1d887980621f1641d90974f3a6d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+506a675d68f227ba1c98b9e7f29baa04,railways,station,Millers Creek,...,...,Natural Resources Canada
+5166607e34b4cb02f496d0c2ab207d83,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+51c813d6de4add347b9c4c7a807938e5,bridges and tunnels,mixed,"Falmouth Railroad O/P, Highway 101",..,..,Province of Nova Scotia
+521db94804138df5222a7debd204a97d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+524381345cbae350d1910cbaf368c088,bridges and tunnels,mixed,LITTLE MEANDER,..,..,Province of Nova Scotia
+532197209c8647976f23664deb68a36f,bridges and tunnels,mixed,MANGANESE,..,..,Province of Nova Scotia
+53d457879cf911b758f43808bc526f0e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5492eba446cae216a44d19b185a5a423,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+567d3e8e631bdef321299f279ebb87f1,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+56c94b48e52075f453befc54cecf21a2,bridges and tunnels,mixed,"ST CROIX O/P, Highway 101 @ Exit 4 EB",..,..,Province of Nova Scotia
+575206115c48f487acf3780ecb73470f,bridges and tunnels,mixed,HUTCHINS BROOK,..,..,Province of Nova Scotia
+5892a9172aefe956f0f58fd355c486f5,bridges and tunnels,mixed,UPPER COGMAGUN,..,..,Province of Nova Scotia
+5b0272a1d533dab9703773d04b852195,bridges and tunnels,mixed,PANUKE,..,..,Province of Nova Scotia
+5cb45cefd213cc185f6502f8fcbf6f05,bridges and tunnels,mixed,BROOKLYN DYKE,..,..,Province of Nova Scotia
+60e60d184fac19b4300b148a50fb0e2e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+610043ab61f4244429b835270e964c38,telecom,tower,...,...,...,Natural Resources Canada
+6215396283a6dad37b81a1a0c5785410,bridges and tunnels,mixed,LOWER BROOKLYN DYKE,..,..,Province of Nova Scotia
+6237b307164b43d62a26794a3dfe2bfb,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+623bdecdd8a24763a4f71ee1af728c13,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+62e1db629451d510f3c0d97bad717079,bridges and tunnels,mixed,GREY MOUNTAIN ROAD (Town Road Ext.),..,..,Province of Nova Scotia
+631ee76b3960e36efd1994e63145ad3e,bridges and tunnels,culvert,TEN MILE BROOK CULVERT,..,..,Province of Nova Scotia
+632a30839630664b17beff7e4094b498,bridges and tunnels,culvert,BLACK BROOK CULVERT,..,..,Province of Nova Scotia
+64c6a57b67980cabd1d98b5e5710bec2,electric grid,power_plants,..,...,...,Natural Resources Canada
+65211816feda7d9b4e3d7d866d735109,bridges and tunnels,mixed,Upper Water St. Railroad O/P,..,..,Province of Nova Scotia
+652f708b6dc01898896858c1a96d53a3,bridges and tunnels,mixed,HANTSPORT,..,..,Province of Nova Scotia
+668d60719a000e29cdd1439ca2f01727,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+67eca40008a121438f8a2fa96f9de43c,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+6862270f366759840aba027958ef04dd,bridges and tunnels,mixed,"BOG ROAD U/P, Highway 101",..,..,Province of Nova Scotia

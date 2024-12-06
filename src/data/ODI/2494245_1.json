@@ -1,15 +1,22 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route du Valinouët,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Lac-Brochet,BRIDGES AND TUNNELS,Footbridges
-Rang 2e Est,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Panoramique,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0490830d13361474ab80f1342b7e7e24,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+18ac98fd0456c25e98def2a9742fa740,electric grid,power_plants,..,...,...,Natural Resources Canada
+19d13e30ac853c137b25fe40ad850a9a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1c76409e2fea7f86631fdd23c2385c0d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+28e5c391ee2ae46a2978445b8fcad794,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ef03678fe2715608aa70744e222af1a,low carbon,hydro,Adam-cunningham,...,...,World Resources Institute
+458fa7b3a0c965f5a14b915e376242b0,airports,...,Lac Lamothe Water Aerodrome,seaplane_base,...,OurAirports
+5054479e3ceb397e5947ac721bdd4dd2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7005dce0e42ee3dac16ba323f0bf051f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+71c9eb5df97feb05f1f2183150cd9f50,airports,...,Lac Sébastien Seaplane Base,seaplane_base,...,OurAirports
+73afb15da4aaeb521a545b7ff3d59cfc,low carbon,charging_stations,Bibliothèque - Saint-david-de-falardeau,...,...,Government of Quebec
+7bcce1307effaa045da1701f0e38f2ab,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7fc44c39e2eee2b7b70f819cad71f8b3,electric grid,power_plants,..,...,...,Natural Resources Canada
+865ea1e7bf2de8cba78008aa2580529e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+91339d42a9a56367c3f6be379629099d,low carbon,hydro,Chute-aux-galets,...,...,World Resources Institute
+a50e6fd30d04cd9e3f694117857c9ad5,electric grid,power_plants,..,...,...,Natural Resources Canada
+a621dca3cafdbb8f25a86614ace6227e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ab1981037d62789db11774e9af96acac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b91db1c9ba3fe7b0e6636f1aca757ebf,low carbon,hydro,Jim-gray,...,...,World Resources Institute
+d6eba7996400df29b290a6dd969475c3,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Saint-david-de-falardeau (valinouët),Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+e2bb145fcc90abbfc23339577fb373d4,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Saint-david-de-falardeau,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada

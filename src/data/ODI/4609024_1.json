@@ -1,22 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-North School Road,BRIDGES AND TUNNELS,Footbridges
-71 Road North,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-Yellow Quill Trail,BRIDGES AND TUNNELS,Footbridges
-Mile 22 Road West,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-430 Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-Provincial Trunk 13 Highway,BRIDGES AND TUNNELS,Footbridges
-227 Road,BRIDGES AND TUNNELS,Footbridges
-Hackberry Avenue,BRIDGES AND TUNNELS,Footbridges
-Yellowhead Highway,BRIDGES AND TUNNELS,Footbridges
-Mile 23 Road West,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Trans Canada Highway By-pass,BRIDGES AND TUNNELS,Footbridges
-240 Road,BRIDGES AND TUNNELS,Footbridges
-338 Road,BRIDGES AND TUNNELS,Footbridges
-242 Highway,BRIDGES AND TUNNELS,Footbridges
-Trans Canada Highway,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00c4b27c179a1412da7b9c12b1e9ec7c,railways,track,..,...,...,Natural Resources Canada
+0112858ab658d959ef32302fc952adfc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0247198645c4cc750149333dabcdf0de,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0255ec722df987650adf0082100d80e5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+034f165b37d5ffaeb245e278a2b43506,telecom,tower,...,...,...,Natural Resources Canada
+04153cdb46cd01b329cf4ee8ab29aad9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+053ff62b43ae7bd04ea2a7f80c7d45f4,railways,track,..,...,...,Natural Resources Canada
+076935a7b24df6d8dc9138f2895ca9a5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+081d691d82c51e5d5b3d0c3dbfb88a69,railways,track,..,...,...,Natural Resources Canada
+0a17243787bd125fecfeaeef3ceffb97,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0cb7919204aa80a96faa06e2b1317f34,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0f5818119ab8473bea0b5de408be73f9,railways,track,Bloom,...,...,Natural Resources Canada
+0f6d806516069ae10dc2da710457d33e,railways,track,..,...,...,Natural Resources Canada
+1212805365426a24c7aa160256ac81ff,airports,...,Portage-la-prairie / Southport Airport,medium_airport,...,OurAirports
+15c7f0ca43850357469c8b8fb5f71e8e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+15dd448bd544aaa7bf7eb4d71db00f93,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+17d7d273cbda2a79c5de2aaa30bb04e3,railways,track,..,...,...,Natural Resources Canada
+17edb6be6ca72128068cba54cd2f605d,railways,track,Bloom,...,...,Natural Resources Canada
+182189e5bf24cc2b6d76babea87fa4cd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19220d2510f9ef0695a6657426edd765,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+19c54c4bc3661ed17a9b2b9fba4eb8d4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1ac4d7cc2757acd692f20809decf4f1d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1d769c4a323afbc25d42ca28cef28ab7,railways,track,..,...,...,Natural Resources Canada
+1dd93182b4b1ee620d38f9d3dbfac3ff,railways,track,Rignold,...,...,Natural Resources Canada
+1de744e71a4a4a2578b2419c1ae66797,railways,track,Rignold,...,...,Natural Resources Canada
+1e37c25caa567658d67a99fa031fea8d,railways,track,..,...,...,Natural Resources Canada
+1f110cbceb285458927039b87b0d84a6,telecom,tower,...,...,...,Natural Resources Canada
+1f1e4a03af64d1a959f4e46dddc95136,railways,track,..,...,...,Natural Resources Canada
+1f90cde89078e4c0ad28822b37ab4805,railways,track,..,...,...,Natural Resources Canada
+1fe6deb48e37895d28ab575d629880d3,railways,track,..,...,...,Natural Resources Canada
+20437649b6340afd6d8bdbfa284a1718,railways,track,..,...,...,Natural Resources Canada
+23224d0629f96381688418c1d2e6b902,solid waste,recycling,Westward Ford Sales,..,Material recovery,Province of Manitoba
+254376f90dcc70acc18a22e28ee8416c,solid waste,recycling,Ag West Equipment Ltd,..,Material recovery,Province of Manitoba
+25fd8b866d9817d93d446d5098f9ef3a,railways,track,..,...,...,Natural Resources Canada
+278220b01a33ed84a2ba6e93af2ab4d3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2a4d09c6d4ea1e599f87f3fb94dd530a,railways,track,..,...,...,Natural Resources Canada
+2ab63525e5b57f27a6b5e35e97a9187a,railways,track,..,...,...,Natural Resources Canada
+2e81219f643eb46c087f4e22584b473a,railways,track,..,...,...,Natural Resources Canada
+31627afbf840842b7e4f75b18a6cbed7,railways,station,Bloom,...,...,Natural Resources Canada
+359a2a095f51f831bd26320e934f9d82,solid waste,recycling,Portage La Prairie Regional Landfill,..,Material recovery,Province of Manitoba
+364485b588a805b351407887f227e477,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3659bcad3a26b4b5e1939b9bab4d2a14,wastewater and storm water,facilities_waste,Oakville Wastewater System,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+369295849de3578304086e077c2a8be5,oil and gas,facilities,..,..,...,Natural Resources Canada
+377fdd37f7267883d366b52b76a8f772,telecom,tower,...,...,...,Natural Resources Canada
+383fbaf2d6fe32fc4794647eec3348e9,oil and gas,facilities,..,..,...,Natural Resources Canada
+3a90809f245bdafe85c548bb0816da61,telecom,tower,...,...,...,Natural Resources Canada
+3b4bbc7e181c983a40b6731c9955ca41,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b503b1a442e8c5f7d05b88e39e518b9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3e867865ff2e4b39e889769d978e6570,railways,track,..,...,...,Natural Resources Canada

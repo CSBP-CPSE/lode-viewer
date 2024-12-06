@@ -1,10 +1,10 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Morissette,BRIDGES AND TUNNELS,Footbridges
-Route Bégin,BRIDGES AND TUNNELS,Footbridges
-Chemin Saint-Jacques,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+061daa6ee9bdf996ae0b7965145387a8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1d6e67a162ea50b2107e5a724385a6da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+398a651a56e0a9520f1d0c9cd9be8d64,bridges and tunnels,mixed,..,..,..,La Province de Québec
+81386ca3a0184f8d22d18557e48be1f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bcf29eae80070344aec3e9d2b9541cc3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c1ee3a305ade5d73b79f51e385840eb3,airports,...,St-anselme Airport,small_airport,...,OurAirports
+de21dda111ec28f6dedaf9d47943fa43,wastewater and storm water,facilities_waste,Station Épuration Sainte-anne,"Lagoons - Aerated, No treatment",Lagoon,Environment and Climate Change Canada
+fcada811e0bd36e05bc1a7594606f60e,wastewater and storm water,facilities_waste,Usine D'épuration De Sainte-claire,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+ff73143c5ce2604977665b812e81f352,telecom,tower,...,...,...,Natural Resources Canada

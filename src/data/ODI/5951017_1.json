@@ -1,14 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Dahlgren Road,BRIDGES AND TUNNELS,Footbridges
-Kenney Dam Road,BRIDGES AND TUNNELS,Footbridges
-Holy Cross Cabin Lake Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Highway 16 East,BRIDGES AND TUNNELS,Footbridges
-Holy Cross-Binta Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Yellowhead Highway,BRIDGES AND TUNNELS,Footbridges
-Highway 16 West,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Endako Mine Road,BRIDGES AND TUNNELS,Footbridges
-Southerland Trout Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Dog Creek Road,BRIDGES AND TUNNELS,Footbridges
-Kluskus Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Francois Lake Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+07a0a998261fb7fc66599a5038f8a42d,bridges and tunnels,bridge,TATIN CR,BRIDGE,Bridge,Province of British Columbia
+0ecc3c3fc1b58afc1448ff468e7f390a,railways,track,..,...,...,Natural Resources Canada
+0fee31d8260b58845b2ceb447f3212da,railways,track,..,...,...,Natural Resources Canada
+102cfff1128b24a70eaf167268399338,railways,track,..,...,...,Natural Resources Canada
+18828fa2abe7ed63143fe515983017e1,railways,station,Lejac,...,...,Natural Resources Canada
+1b876b40dd55da66d419708721d6f309,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+1ede9d9fc5daca0056fbb73b30e254e7,bridges and tunnels,bridge,STERN CREEK,BRIDGE,Bridge,Province of British Columbia
+1f7927cbafdc4c620bdbe03de9390d5e,bridges and tunnels,bridge,DOG CREEK,BRIDGE,Bridge,Province of British Columbia
+272d68a0a9bce0d5028b410dd79ebb71,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2e1cf1c0ed5642db149881e2b81387b4,bridges and tunnels,bridge,ENDAKO MINES,BRIDGE,Bridge,Province of British Columbia
+36cc7a751b7e845001ea1658275177e0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+36dff5bd01c81fcf6b3d563442f3e52f,railways,track,..,...,...,Natural Resources Canada
+39c0625596e29e4ccbd2bb435f76e9c4,railways,track,..,...,...,Natural Resources Canada
+3b75023a574a8b66c730ea28bf30b570,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3efa6da127b4f685710fcabef8face56,railways,track,..,...,...,Natural Resources Canada
+3fca66678cb45a303cf6dbd2cde985f8,bridges and tunnels,bridge,NECHAKO AT FT FRASER,BRIDGE,Bridge,Province of British Columbia
+43ef515db2b8dd02e09c827ba06cae13,airports,...,Fraser Lake Airport,small_airport,...,OurAirports
+4662fb3a27b2b4c1f5c6d96d6b971a4d,bridges and tunnels,bridge,FAWCETT,BRIDGE,Bridge,Province of British Columbia
+471c797a6558e4ff21b5d7b67a45c30a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4b7a120c14b373051451278e20b2ec17,railways,track,..,...,...,Natural Resources Canada
+4bf7a53b09fafdfe1c41e3e322b2d87a,telecom,tower,...,...,...,Natural Resources Canada
+55966d43ebdca9668ae38f107bf9a62d,bridges and tunnels,bridge,STELLAKO RIVER,BRIDGE,Bridge,Province of British Columbia
+588167a3d33777ecb9f57c524f077020,bridges and tunnels,bridge,NITHI RIVER,BRIDGE,Bridge,Province of British Columbia
+59048e7c175d083ec155d62fe2099083,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+59597a61791ae203199e9272dac2d4cc,railways,track,..,...,...,Natural Resources Canada
+5d3bccddf76083058929650d915c15f0,telecom,tower,...,...,...,Natural Resources Canada
+62be551de60c7a4e7e7f1a72f59bd4b2,railways,track,..,...,...,Natural Resources Canada
+6359b84f02b61be72d211685760cbe85,airports,...,Fraser Lake Seaplane Base,seaplane_base,...,OurAirports
+65ec5e3af7464f8c13209b9898c5dad8,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+66efa005cfb5c74e65d573d3a7bdb106,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6a0053d683b72c89fb9d3fc3ee4a228b,railways,track,..,...,...,Natural Resources Canada
+6b28e9210fa59bb548d0bce2c91c030b,railways,station,Encombe,...,...,Natural Resources Canada
+6c44b2df18922d7dd1013a6b5436fecb,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+71ade8acd4d2171937fb0efe1d8e92e7,bridges and tunnels,bridge,STELLAKO/FRANCOIS LK,BRIDGE,Bridge,Province of British Columbia
+72bae6be6a9446dda1299850e35a3dd4,oil and gas,pipelines,..,..,...,Natural Resources Canada
+733f7e44c1f0754b69d70bbcd54b049b,railways,track,..,...,...,Natural Resources Canada
+74ea1e9d51432cf562bafeae80cdb0c5,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7790b75743bf1c3a0aba0255b7f8f5c3,railways,track,..,...,...,Natural Resources Canada
+7d178a8b21c549c54d32bc63c6c563cb,railways,track,..,...,...,Natural Resources Canada
+7dafee6a1cf95973eab7b0232ad8e2e0,wastewater and storm water,facilities_waste,Fort Fraser Sewage Facility,"Lagoons - Aerated, Lagoon - Facultative, Polishing Ponds",Unclassified,Environment and Climate Change Canada
+7fa671b6b00cf853c622c5ef3efccbee,bridges and tunnels,bridge,BURNS CREEK,BRIDGE,Bridge,Province of British Columbia
+808d328060308aedd5745c0ed345f95d,railways,track,..,...,...,Natural Resources Canada
+80c61919c76ee085062c073dd5517c50,railways,track,..,...,...,Natural Resources Canada
+8259a671fb56015f905be268079c2212,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+87610d80b2dad3de80c26f27fc1891d1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+88968942087c796e8513f82848098cfb,telecom,tower,...,...,...,Natural Resources Canada
+88d3cc0a3df0801143f52804d90db3b3,railways,track,..,...,...,Natural Resources Canada
+8d19719a2d2d09e11bb0d08e5547a484,oil and gas,pipelines,..,..,...,Natural Resources Canada
+926ff4afc6e012f4028410c61dc776fa,bridges and tunnels,bridge,FORT FRASER O/H,BRIDGE,Bridge,Province of British Columbia

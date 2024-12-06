@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-des Écluses / des Marguerites,..,..
-des Merisiers / Croissant des Cèdres,..,..
-Marie-Victorin / Jogues,..,..
-Brébeuf / des Colibris,..,..
-Saint-Laurent / Promenade du Collège,..,..
-Garnier / Hébert,..,..
-Marie-Victorin / des Écluses,..,..
-des Ormes / des Marronniers,..,..
-des Orioles / des Hérons,..,..
-Saint-Laurent / des Éperviers,..,..
-Saint-Laurent / Bédard,..,..
-des Ormes / des Saules,..,..
-..,SOLID WASTE,Active Dump Sites
-Saint-Laurent / Boulet,..,..
-Saint-Jean / Bédard,..,..
-des Écluses / Saint-Laurent,..,..
-Jogues / Saint-Laurent,..,..
-Saint-Laurent / des Écluses,..,..
-Jogues / de l'Acadia,..,..
-des Outardes / des Carouges,..,..
-Autoroute 730,BRIDGES AND TUNNELS,Footbridges
-Saint-Laurent / Boulet,..,..
-des Ormes / Brébeuf,..,..
-des Merisiers / des Ormes,..,..
-Marie-Victorin / Place Charles-Lemoyne,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard des Écluses,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Marie-Victorin / des Récifs,..,..
-..,WASTEWATER STORMWATER,..
-Saint-Laurent / Union,..,..
-Jogues / du Blizzard,..,..
-des Écluses / des Marins,..,..
-des Écluses / Colomb,..,..
-du Chalutier / Saint-Laurent,..,..
-Marie-Victorin / Brébeuf,..,..
-Hébert / 1re Avenue,..,..
-Garnier / Hébert,..,..
-Saint-Laurent / des Faucons,..,..
-des Éperviers / des Harfangs,..,..
-des Ormes / des Saules,..,..
-Centrale / devant le #1724,..,..
-Rue Brébeuf,BRIDGES AND TUNNELS,Footbridges
-Saint-Laurent / Jogues,..,..
-Centrale / Saint-Laurent,..,..
-des Écluses / devant le Domaine Le Roussillon,..,..
-Bédard / Saint-Laurent,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Saint-Laurent / Léo,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+05ea93d14c949c443d0a89d51b3dae84,telecom,tower,...,...,...,Natural Resources Canada
+0f907917cab176116af29ace84ea3822,railways,track,Hb 1.56,...,...,Natural Resources Canada
+11930f8021115e55895ec39eef801c37,railways,track,..,...,...,Natural Resources Canada
+1668ba5d767eb42cf69fa40377352fe4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1a82749883a92c788035dc7f3e230cad,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+20cab47cb91d922465833c20abba011e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+25948ebadcb6a6069d7999ccfe2ed525,railways,track,Hb 1.43,...,...,Natural Resources Canada
+26d8994d30b031a35873753290bf0efe,railways,track,Seaway,...,...,Natural Resources Canada
+2831594d21e51dc584cc3ecfe26f05bb,railways,track,..,...,...,Natural Resources Canada
+33d29886acc50727365bea498c0c21b7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+35664013002a336013c726c8a46be020,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+37f8fb9266de7a4b7304578516d26295,low carbon,charging_stations,Hôtel De Ville - Sainte-catherine,...,...,Government of Quebec
+39150a33b61fe4a4eaf139c75115d79b,railways,track,Seaway,...,...,Natural Resources Canada
+39eadf37ee269641c0bdd315370c08b5,railways,track,Seaway,...,...,Natural Resources Canada
+3e874b572d6deea2841f881a61fe6a4e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+49d095b8229c1b84c697fc6e2ba5253b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+50433d1aa6942ecda2fc5706b94a1b39,railways,track,Seaway,...,...,Natural Resources Canada
+56ec7cb79d3ba1e913d2c6dd0acf4ec0,railways,track,Hb 1.93,...,...,Natural Resources Canada
+5b3c34225668c47ea34b88f6f76e2600,railways,track,Hb 1.95,...,...,Natural Resources Canada
+5b9c77f03033056ebda844e4502c7d87,low carbon,charging_stations,Parc Francis-xavier-fontaine - Sainte-catherine,...,...,Government of Quebec
+6109696e1d338fa57902bfa89c48a6b6,railways,track,Seaway,...,...,Natural Resources Canada
+65e5558135eb9f442ef758822d3bb8c5,railways,track,Hb 1.56,...,...,Natural Resources Canada
+678f9f513d8513c22d65ca5487aa13a1,railways,track,..,...,...,Natural Resources Canada
+682c421ec5baf2c3e308bf349c4f866e,railways,track,Seaway,...,...,Natural Resources Canada
+6c776678df13412ab92bfc317e78d382,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e8206a0db73c997718c374fd40e57dd,railways,track,Seaway,...,...,Natural Resources Canada
+705e09ea0d30837b335c2c30e8317c7c,electric grid,power_plants,..,...,...,Natural Resources Canada
+73249801290cbc8ebe894af83ba9a5c1,railways,track,..,...,...,Natural Resources Canada
+78b1fbe34df8ea30444ded63a2f44665,solid waste,mixed,"Clean Harbors Québec, Llc.",562990,Facility mixed,Environment and Climate Change Canada
+7b180188abcf555da90e1e696b0e1932,low carbon,charging_stations,Brcc - Sainte-catherine-des-écluses - Burger King,...,...,Government of Quebec
+7e4909ac5b2d39bfdabf015e56490439,railways,track,..,...,...,Natural Resources Canada
+7e768711e14ad91b82644d03e9327114,railways,track,Hb 1.93,...,...,Natural Resources Canada
+7ffa145c68aeed7568fccd93b92195d2,low carbon,hydro,Côte-sainte-catherine-1-2-3,...,...,World Resources Institute
+82b688fcec8fe2bb503e8471d1d59889,railways,track,Seaway,...,...,Natural Resources Canada
+8a11ee6926e1c1502b894203395e2e5b,railways,track,Seaway,...,...,Natural Resources Canada
+98284417d75ff72d5b0575d05d4153aa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9b993d0cfb78f83d8b41b07304224552,railways,track,Hb 1.93,...,...,Natural Resources Canada
+a1e248b71210bec565d6120491f827b2,railways,track,Hb 1.43,...,...,Natural Resources Canada
+a3998779842f4585ecb1bd7ccd67ca57,railways,track,Seaway,...,...,Natural Resources Canada
+a4e1966ea53a20632c10fa0ea43af77e,railways,track,Seaway,...,...,Natural Resources Canada
+a988c4a4e2252d1ad45c1e1812c8b383,low carbon,charging_stations,Récréoparc - Pavillon D'accueil,...,...,Government of Quebec
+b50d956835ecf582088f5c16c6f46719,railways,track,Hb 1.56,...,...,Natural Resources Canada
+c75c5bd312dab35226f55fc98c688cb7,railways,track,Seaway,...,...,Natural Resources Canada
+c95bf8586698acc1dcc2af1c36323d7c,railways,track,Seaway,...,...,Natural Resources Canada
+cc9b38f802a5ff8e7476c2c775328be8,railways,track,Hb 1.43,...,...,Natural Resources Canada
+dfc1d698867334a0f02ee78fb8c1468f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+e3f6af7eff356fd0fd507b37c189f3f6,railways,track,Seaway,...,...,Natural Resources Canada
+e4bde7d8d11587beb5454d14f9ce3e25,wastewater and storm water,facilities_waste,Régie D'assainissement Des Eaux Du Bassin De Laprairie,..,Waste treatment plant,Environment and Climate Change Canada
+e582391dfc57743bd24986dbfaf04319,low carbon,charging_stations,Centre Municipal Aimé-guérin,...,...,Government of Quebec

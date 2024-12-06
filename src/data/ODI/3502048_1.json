@@ -1,19 +1,42 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Wade Road,BRIDGES AND TUNNELS,Footbridges
-MacDonald Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-South Russell Road,BRIDGES AND TUNNELS,Footbridges
-Marionville Road,BRIDGES AND TUNNELS,Footbridges
-CULVERT 1.5 KM WEST OF LIMOGES ROAD (HWY 417 EBL),BRIDGES AND TUNNELS,..
-VARS PARK AND RIDE,..,..
-St Andre Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Indian Creek Culvert,BRIDGES AND TUNNELS,..
-Route 400,BRIDGES AND TUNNELS,Footbridges
-Notre Dame Street,BRIDGES AND TUNNELS,Footbridges
-Route 500,BRIDGES AND TUNNELS,Footbridges
-St Joseph Road,BRIDGES AND TUNNELS,Footbridges
-Ste Marie Road,BRIDGES AND TUNNELS,Footbridges
-Concession Street,BRIDGES AND TUNNELS,Footbridges
-CULVERT 1.5 KM WEST OF LIMOGES ROAD (HWY 417 WBL),BRIDGES AND TUNNELS,..
-St Jacques Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+018e685e6e74a45f37f2e8bdf225798b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+04047466631708ef1b9ec20e87c6b09a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+079927fc86e73c94900e00eabdffcca6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0a6b7ba52156cde00c8da5b076e2eca6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0b40b39c431a225baec20fcdbcb4e6a1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+10e94caa50d7f692fb79556d573e78df,bridges and tunnels,culvert,CULVERT 1.5 KM WEST OF LIMOGES ROAD (HWY 417 EBL),Culvert,Culvert,Province of Ontario
+1487169a6e4269c60e3384ccd1cce8f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c268c4624841be81b96477322bd3604,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+394835d57a6f581239abb762cacb3876,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3fc65abf825d7fecbc510032bab2d150,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+3fd631b3ba8058f4eee3100219d35a7b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4765e78b470826268f23a31a2e02409a,bridges and tunnels,culvert,CULVERT 1.5 KM WEST OF LIMOGES ROAD (HWY 417 WBL),Culvert,Culvert,Province of Ontario
+49dcb72c6032b82f04eca03d02a7c48b,bridges and tunnels,culvert,Indian Creek Culvert,Culvert,Culvert,Province of Ontario
+4f48c9218f361543e3c445d11cd1c175,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b74a2adedabf88b293a5aa683f9ab12,airports,...,Ottawa / Embrun Airport,small_airport,...,OurAirports
+5b8e2068f765c3ec6b1d5ca3296e92ae,telecom,tower,...,...,...,Natural Resources Canada
+63961226d043ca79baf24e098d92f837,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+65cac47e093d4e51917cadc03ad2c75a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6ec9770f20a65c16d8b46b80d4c22506,railways,track,..,...,...,Natural Resources Canada
+708654f9c07a000ad78e9cebddc3c057,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7c4379d461256ab5090fcdac01549047,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+81b520f9f76bddb9e410f2591319068e,telecom,tower,...,...,...,Natural Resources Canada
+86d7a29cb537e6e6af6d68a8104319fd,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+92109cec2d2aa8f4d652018d1eec4fbf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+93a67699e9cc91750b3f6b8a50d1b3ad,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9aa6354fe99fb07c37935f1f7e4b9593,telecom,tower,...,...,...,Natural Resources Canada
+9cbcbe954c7ebca4e19cf5b5e47455e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a71a8ebf4ef90ce5d34a78459efc130d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a7ca3d710d5edba7c9ebe8ad33728651,wastewater and storm water,facilities_waste,Embrun Sewage Lagoon,"Chemical Flocculation, Lagoons - Aerated, Lagoon - Aerobic, Storage Ponds",Unclassified,Environment and Climate Change Canada
+a7ff718318ea8498f73e18fa301662c4,wastewater and storm water,facilities_waste,Russell Sewage Lagoon,"Chemical Flocculation, Lagoons - Aerated, Lagoon - Aerobic, Storage Ponds",Unclassified,Environment and Climate Change Canada
+abbb8f23dc0c11d993cce8659f28d7ad,bridges and tunnels,bridge,COUNTY RD#5 INTERCH. U'PASS,Bridge,Bridge,Province of Ontario
+b54487d5bb3af0282ce25645894f2b1b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b5e15b5090e27135d41a5693465d63e2,telecom,tower,...,...,...,Natural Resources Canada
+baddefc466b3a106f8592fef0f41f12f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c1b03e376e72081fc104be18e5007b26,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d537b7a69334bb7a040e8ac862077e4c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e035cead679cd48698d56ab57f34c03a,railways,track,..,...,...,Natural Resources Canada
+e09e56c7ad86760388f508e433f1cf03,low carbon,charging_stations,Desjardins - Nouvel-horizon,...,...,Government of Quebec
+e2c42f47e6def46742ea74878c8a8394,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+efd2c5f5db5b60007b785772d35c64ad,railways,track,..,...,...,Natural Resources Canada
+f59fac8ce17c8b8db395f6a03d068c13,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

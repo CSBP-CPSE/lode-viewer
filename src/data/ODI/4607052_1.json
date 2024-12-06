@@ -1,16 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,SOLID WASTE,Materials recovery facility
-348 Highway,BRIDGES AND TUNNELS,Footbridges
-454 Highway,BRIDGES AND TUNNELS,Footbridges
-Seventh Avenue West,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-21 Highway,BRIDGES AND TUNNELS,Footbridges
-347 Highway,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Brindle Avenue East,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-347 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-First Street South,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+06c74fc355471ae89931a6f3f63c8928,wastewater and storm water,facilities_waste,Souris Waste Water Plant,"Primary Sedimentation/Clarification, Activated Sludge, Extended Aeration Activated Sludge, Disinfection",Unclassified,Environment and Climate Change Canada
+06d4e2d8fab0cd77336c947fcaba1c27,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0933da4f5e6d1c980ef8eca4d57b6731,railways,track,..,...,...,Natural Resources Canada
+0a4cb62f76780d2365d1983c42c4a691,railways,track,..,...,...,Natural Resources Canada
+0a57aec5229dd2558afd4f3d216d43a8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0b0aac5cd6f678868500e39ad7a282cb,railways,track,..,...,...,Natural Resources Canada
+0c5d14a9875883e3520959e9ebc092f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0d62ed76b3af2a621c384335a111c93d,railways,track,..,...,...,Natural Resources Canada
+1885dedf642341e451087ed570021bc7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+188a3edcd42303ae2ff025fe9e03a381,railways,track,..,...,...,Natural Resources Canada
+1b45b2fcb3707329588e303dfa6f96dd,railways,track,..,...,...,Natural Resources Canada
+1ba7c46d638bf130123c0e9b707849e1,railways,track,..,...,...,Natural Resources Canada
+1dc1eb4edeec3168ed9b24f3e65f97be,railways,track,..,...,...,Natural Resources Canada
+21c249e19e6b0e00196c485bba8ba3c3,railways,track,..,...,...,Natural Resources Canada
+270d2b16c47861d03aa5a61abe069406,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2759525eaff18aeb490e30f8d39cb053,railways,track,..,...,...,Natural Resources Canada
+27dfc67c8671021711bf72c2ab2f711b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+296e88e32011f9f49cf166be1a45be81,railways,track,..,...,...,Natural Resources Canada
+316edc59cde4e55341ef8f2e9dedd367,airports,...,Souris Glenwood Industrial Air Park,small_airport,...,OurAirports
+390718b11e7861b3b68d77f664131108,railways,track,..,...,...,Natural Resources Canada
+48bcb890cb7f8004036619e85a9567e0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4a76f4060c3cf48e2a58dc885f4fd606,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4b0dca9f1fc1a58aff8c606823181738,oil and gas,facilities,..,..,...,Natural Resources Canada
+52e373b1da0bacc45be2e16051bcf058,railways,track,..,...,...,Natural Resources Canada
+54bf1bd9802f8bef6fd7dc9fe072a042,railways,track,..,...,...,Natural Resources Canada
+54c51dc1bfe2a77ed5d3b4db5c8e4cd6,railways,track,..,...,...,Natural Resources Canada
+56845f6024d01cdc848674e22c8816e7,railways,track,..,...,...,Natural Resources Canada
+5a503d090016084a1dbe4874fec628e3,railways,track,..,...,...,Natural Resources Canada
+5b28c4e17a3ca60a14cbca7661cc8a46,railways,track,..,...,...,Natural Resources Canada
+5e2db8c6dfd97e0ccf96da9d1815ad22,railways,track,..,...,...,Natural Resources Canada
+5fde49baa6d077c6c66027ab989b6ad1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+686514022b844d7440874ef6fe51788b,railways,track,..,...,...,Natural Resources Canada
+6dca9e857758ab5ab8985214ae94d4ad,railways,track,..,...,...,Natural Resources Canada
+6f8b223d3be3c084cfe603643d30eb60,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+705e2cd4e662e5e3493a2aa3dd3842fe,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+70ccda5cebee46c411371bf109b7bd3b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7418606dbcbbdd3375da33987cc88807,railways,track,..,...,...,Natural Resources Canada
+74729aac5a6cfbac76c052d410ad6f68,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+77412309974f9634e3bfa895e9269cad,railways,track,..,...,...,Natural Resources Canada
+7bc07540028ec42e77a2a7471711aa19,railways,track,..,...,...,Natural Resources Canada
+7d56df1b17901a4e6aee00ccd216e8f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+84041c0bee4218d5f6df9adcd4a5e9e4,solid waste,recycling,Souris Recycling Depot,..,Material recovery,Province of Manitoba
+843259f2247ca7164dc5dcfdef272ba6,telecom,tower,...,...,...,Natural Resources Canada
+8534c0f8f110e89209641e44c08e1731,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+88b04155f4555148b6f156454e5c8084,railways,track,..,...,...,Natural Resources Canada
+88de6f78b8fb962dd27a344304c3f4e3,solid waste,landfill,Souris-glenwood Waste Transfer Station (municipal Waste Management),Waste Transfer Station,Transfer station,Province of Manitoba
+9068ac98fde3af26157cfa3f91cdb772,solid waste,recycling,Whitfield Drugs,..,Material recovery,Province of Manitoba
+9aa0ba30dc436cb4d634b40e06836faa,railways,track,..,...,...,Natural Resources Canada
+9d209e960ed8c5b8be5f4d71268fb65a,railways,track,..,...,...,Natural Resources Canada

@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Barrington St Before Young St (6095),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Morris Lake North Bridge,BRIDGES AND TUNNELS,"Bridges, Footbridges, Culverts"
-..,PEDESTRIAN AND CYCLING,multi-use
-Robie St Before Cunard St (8206),..,..
-Larry Uteck Blvd At Civic 630 (8878),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Pleasant St After Old Ferry Rd (8006),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-SCOTT'S BRANCH,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Kearney Lake Rd Before Castle Hill Dr (7024),..,..
-Old Sackville Rd After Peter Buckley Dr (2081),..,..
-Edgehill Rd After Quarry Rd (8816),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Coburg Rd Before Lemarchant St (6449),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Pleasant St Before Mt Hope Ave (8017),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Hwy 207 Before Keating Dr (8547),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Beaver Bank Rd At Civic 136 (2184),..,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+007bd889d9d29cc108df8e6450528955,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+00e44819953dd4eb1d5abb67c5ab28c3,railways,station,Sandy Cove,...,...,Natural Resources Canada
+010487707ca481f8a93c4ed6843d0b90,bridges and tunnels,bridge,..,PDB,Footbridge,Halifax Regional Municipality
+0127faff52ed8289fb4f524c7d3c6877,railways,track,..,...,...,Natural Resources Canada
+014669f5794087687d2a61622fc6c511,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+014b37daa8db955d1b3f2e65793cebd0,bridges and tunnels,bridge,Montaque at Forest Hill Parkwa,VHB,Vehicle Bridge,Halifax Regional Municipality
+015414b0de7022666ee1eca81f0db0a0,bridges and tunnels,mixed,BEDFORD-BY-PASS MAGAZINE HILL,..,..,Province of Nova Scotia
+019fe0adb89d544bb7d10a0c841b0e77,bridges and tunnels,bridge,Rocky Run Bridge,PDB,Footbridge,Halifax Regional Municipality
+01c0fcbc6756a3a160d875f8945964b3,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+01f3ed9d3c3b21022239c46087dc28bb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+02736c336e3149259c2b13151a96aaae,bridges and tunnels,bridge,Rockwood Hills Drive,VHB,Vehicle Bridge,Halifax Regional Municipality
+02a0447613085d46c4a1d18db3314775,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+02bcd5aa76261f26ba8a992c549e12da,railways,track,..,...,...,Natural Resources Canada
+02bdfd0ddd0a6ee0ba849918986505d7,railways,track,..,...,...,Natural Resources Canada
+02d68824e485792cdb03d124a71b0a3e,railways,track,..,...,...,Natural Resources Canada
+0398f67cfb0dcb0248b8f81d886e0579,railways,track,Rockingham,...,...,Natural Resources Canada
+03af871e013c10b4d0c22ce54d12d84b,railways,track,Auto Port,...,...,Natural Resources Canada
+03c0ced08311bb7ca8032eb6f77da766,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+04163c9834afaf91f5f155d4ccf1e6cd,railways,track,..,...,...,Natural Resources Canada
+049359e828163063ced189840140d146,bridges and tunnels,bridge,Sherwood Park #1,PDB,Footbridge,Halifax Regional Municipality
+04c162e0def88f534325cc5737fd45e3,railways,track,Sandy Cover,...,...,Natural Resources Canada
+05359aa96e04fb67e86fb463e6f8da26,railways,track,..,...,...,Natural Resources Canada
+055c3e1f4e459e7200cf2caa77f8fddb,telecom,tower,...,...,...,Natural Resources Canada
+0563f856c4e368caf67e689f8d58fb04,bridges and tunnels,bridge,Kimberley Crescent Pedway,PDB,Footbridge,Halifax Regional Municipality
+05bed771b0bd65f601c43a4b22aa2f93,bridges and tunnels,mixed,PEGGY'S COVE SOI,..,..,Province of Nova Scotia
+05d7db7c8b5296b1385ce160c1f7f6ca,railways,track,..,...,...,Natural Resources Canada
+0656da9fb9bd54c2c2dd50b7cfa2e9e8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0657f3f4133915bd0ddadb5dbde8797f,bridges and tunnels,mixed,MCGRATH LAKE (Brookside Road),..,..,Province of Nova Scotia
+0668b5ad75b7877e9743cbe0b8abffc3,railways,track,..,...,...,Natural Resources Canada
+0691f101101efd1696dd24ad6c15e6fc,railways,station,Tufts Cove,...,...,Natural Resources Canada
+069b0d8cc9ff5ce43596cdfd5d74697f,bridges and tunnels,mixed,Grassy Brook Dartmouth Crossing,..,..,Province of Nova Scotia
+06b4376b660d3445f18b2bb07012eef2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+06ca3cc983ef1ab63af3d2be0df184b9,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+0730decc6c14df989ed0dc6ab53da423,bridges and tunnels,bridge,Buckingham Drive Park,PDB,Footbridge,Halifax Regional Municipality
+07406aa64d025fd7b91f61056a453df6,bridges and tunnels,culvert,Lake Major Road Culvert,BRCUL,Culvert,Halifax Regional Municipality
+074d4cd6d869fdd1c0ef9720b5fbf7e7,bridges and tunnels,mixed,"YANKEETOWN ROAD U/P, Highway 103",..,..,Province of Nova Scotia
+075923b20affbe837aed3ca208180496,bridges and tunnels,bridge,HARVEY BROOK BRIDGE,PDB,Footbridge,Halifax Regional Municipality
+076756dc3824e7129463fcecda46812f,bridges and tunnels,bridge,Chebucto Road,VHB,Vehicle Bridge,Halifax Regional Municipality
+0785b0baba09d5eaa3c5b9add69e0b19,bridges and tunnels,mixed,"LAKEVIEW ROAD O/P, Highway 102 NB",..,..,Province of Nova Scotia
+0789f30eec9fc46a2b510a9fe12de8aa,railways,track,Rockingham,...,...,Natural Resources Canada
+079ba1b8d49e0fcd52b2f608b9c561b2,railways,track,..,...,...,Natural Resources Canada
+07b57f41cd289ecd0b3c9c568405e1ed,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0804e88a8dc826d4182b5d853de302b5,bridges and tunnels,mixed,MCCAFFREY,..,..,Province of Nova Scotia
+082d0cb7f5c748419f7d49df2642dc44,railways,track,Auto Port,...,...,Natural Resources Canada
+083f1ea761bd5ae92e048f4bd605f2e8,oil and gas,pipelines,..,..,...,Natural Resources Canada
+08502c9bdbcf53faa02a2054dd56b4c8,ports and marinas,mixed,Lake Banook Regional Park Boat Dock,BDK,...,Halifax Regional Municipality
+085bb37e56318ab7e990ff3183a3ed72,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+086fc37f31d9ce738911976ce0b27531,bridges and tunnels,bridge,Dingle Park Sea Wall,PDB,Footbridge,Halifax Regional Municipality
+0875e9c19285aefae5b54987630f695a,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia

@@ -1,34 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,SOLID WASTE,Materials recovery facility
-Mile 79 Road North,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-Boundary Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-Mile 32 Road East,BRIDGES AND TUNNELS,Footbridges
-Provincial Trunk 44 Highway,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,SOLID WASTE,Materials recovery facility
-Old Henderson Highway,BRIDGES AND TUNNELS,Footbridges
-C.i.l. Road,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-Mile 40 Road East,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-89 Road North,BRIDGES AND TUNNELS,Footbridges
-Provincial Trunk 59 Highway,BRIDGES AND TUNNELS,Footbridges
-Provincial Trunk 4 Highway,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-43 Road East,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,SOLID WASTE,Materials recovery facility
-..,SOLID WASTE,Active Dump Sites
-Colville Road,BRIDGES AND TUNNELS,Footbridges
-Mile 81 Road North,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,Footbridges
-St. Peters Road,BRIDGES AND TUNNELS,Footbridges
-Provincial Trunk 12 Highway,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-Mile 78 Road North,BRIDGES AND TUNNELS,Footbridges
-Mile 80 Road North,BRIDGES AND TUNNELS,Footbridges
-Ludwick Road,BRIDGES AND TUNNELS,Footbridges
-44 Road East,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0018b55015502db03936e6a57204c7ba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+022bc85c1db96a8e4edf7f6cefa285b4,railways,track,..,...,...,Natural Resources Canada
+0672fd2707d39eddb2197e27add2764a,railways,track,..,...,...,Natural Resources Canada
+06ce163ed07e05833738df43f03c3e34,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0771367de6fac85758c9f4b2505e5168,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+12a697b17806524944d53c3f2781ccbb,railways,track,..,...,...,Natural Resources Canada
+136bead0ed53f3613e72aba4b83b3bd7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1370437e9130aeb77ab60b0b99ab873b,railways,track,..,...,...,Natural Resources Canada
+147edc445705ad50258a937ab7c0f955,telecom,tower,...,...,...,Natural Resources Canada
+166295f061bcb15ec9167b14d4fdf5b8,railways,track,..,...,...,Natural Resources Canada
+18167714f6c9aa62a6ee8453c941b672,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1819c8ac7a752c04ed2beffd76b112e2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1cbff1c837686a3aa539def2133aa386,railways,track,..,...,...,Natural Resources Canada
+208ed9c11a023ae430d18af65b9fe2de,railways,track,..,...,...,Natural Resources Canada
+214a07b221df8422fde7d18bf2b5138f,solid waste,recycling,Greenwald Colony Farms Ltd.,..,Material recovery,Province of Manitoba
+23cc658d2b0d46c7ed685c70850a74be,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2d46f7f1e61cf89a30334fac6c5de6da,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2df191c1721cc226431f64691ebf4761,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32efcfe0d5fbb365ad2f1bc148c9113f,railways,track,..,...,...,Natural Resources Canada
+35f132d1f632b15fa29002d00a239410,railways,track,..,...,...,Natural Resources Canada
+4076ae00b9c321053a62bbb023367430,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4099c65c937f8ac03beaa98de0f39605,solid waste,recycling,59er Esso,..,Material recovery,Province of Manitoba
+4707ad3b3147011b963d894872d3e3a4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+47710f7e08e4a648f79212fc5dede3c0,solid waste,recycling,Lad Enterprises,..,Material recovery,Province of Manitoba
+4b106b4c58ba72013bf286d83c2f17cc,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4b9b7fe7e2be8d9635d07b86887a0e2b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4df2b546e0d777f4efe34551c30339aa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4e5231c37966d934bdc57991e2b9229d,solid waste,recycling,Gull Lake Waste Transfer Station,..,Material recovery,Province of Manitoba
+4e536156b4914a616a42efc468748363,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4e76421b14e04fcc11f0830c1370af23,railways,track,..,...,...,Natural Resources Canada
+5262241b122e4947581edb689d93d572,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+54bd6f9d93d2bc4eb422ff9d49a73c86,solid waste,recycling,Dunning Road Waste Transfer Station,..,Material recovery,Province of Manitoba
+5e4b5339ca45dd1143b8a7bb248f4cb4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5ef43866655b3c5c598dba54dd2b2483,railways,track,..,...,...,Natural Resources Canada
+66c13fb59e11a1b0adf1a3fbcf6685d9,solid waste,recycling,Grand Marais Waste Transfer Station,..,Material recovery,Province of Manitoba
+671c91eeb42210bf68533c0b8835fb90,solid waste,recycling,East Selkirk Recreation,..,Material recovery,Province of Manitoba
+68a21361ef4f2b6da60a0564d35a9182,railways,track,..,...,...,Natural Resources Canada
+699da23de85fecdd723180129c6e5153,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70661ca480b76c5fcfa4239cd0fcda97,railways,track,..,...,...,Natural Resources Canada
+720e9bb88dff2d81f98409faf8abacda,railways,track,..,...,...,Natural Resources Canada
+72f0f9798b09a2bb2388e660296088ba,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7338b490df1070456ef8d34dd7085290,wastewater and storm water,facilities_waste,Grand Beach Wastewater Lagoon,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+75e8245750496d8b94494dad7b89653e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+778188fca5e724e1123b7e8aed6dee21,solid waste,recycling,Red River Yamaha,..,Material recovery,Province of Manitoba
+7d01369d2c95b0f559b1737d864d13e0,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7f8984c9ab3c01bbfedb3a54be0e522e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8162fbbd196ab5f56a5c7050069c2ab9,solid waste,recycling,Rennie's Sales & Service (domo),..,Material recovery,Province of Manitoba
+8223be0e592f4e4a2e8db7861b07cd12,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8344a2b809f88cd873c02cd5e7cbf33c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

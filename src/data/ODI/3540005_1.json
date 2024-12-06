@@ -1,46 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-B Line,BRIDGES AND TUNNELS,Footbridges
-Pebble Beach Parkway,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,Footbridges
-Elimville Line,BRIDGES AND TUNNELS,Footbridges
-Hurondale Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,POTABLE WATER,Water Treatment Plant
-Huron Street,BRIDGES AND TUNNELS,Footbridges
-Plugtown Line,BRIDGES AND TUNNELS,Footbridges
-FISH CREEK BRIDGE #4,BRIDGES AND TUNNELS,..
-Crediton Road,BRIDGES AND TUNNELS,Footbridges
-Union Line,BRIDGES AND TUNNELS,Footbridges
-CULVERT- ,BRIDGES AND TUNNELS,..
-CULVERT - TURNBULL DRAIN,BRIDGES AND TUNNELS,..
-Park Road,BRIDGES AND TUNNELS,Footbridges
-Airport Line,BRIDGES AND TUNNELS,Footbridges
-Whalen Line,BRIDGES AND TUNNELS,Footbridges
-MacDonald Road,BRIDGES AND TUNNELS,Footbridges
-Main Street North,BRIDGES AND TUNNELS,Footbridges
-South Road,BRIDGES AND TUNNELS,Footbridges
-Blackbush Line,BRIDGES AND TUNNELS,Footbridges
-Kirkton Road,BRIDGES AND TUNNELS,Footbridges
-CULVERT - RATZ DRAIN,BRIDGES AND TUNNELS,..
-FISH CREEK BRIDGE NO. 2,BRIDGES AND TUNNELS,..
-Bronson Line,BRIDGES AND TUNNELS,Footbridges
-Morrison Line,BRIDGES AND TUNNELS,Footbridges
-CULVERT - WALKER DRAIN,BRIDGES AND TUNNELS,..
-CULVERT - MAPLE GROVE BRANCH DRAIN,BRIDGES AND TUNNELS,..
-Rodgerville Road,BRIDGES AND TUNNELS,Footbridges
-Mount Carmel Drive,BRIDGES AND TUNNELS,Footbridges
-FISH CREEK BRIDGE #3,BRIDGES AND TUNNELS,..
-Ausable Line,BRIDGES AND TUNNELS,Footbridges
-Thames Road,BRIDGES AND TUNNELS,Footbridges
-Shipka Line,BRIDGES AND TUNNELS,Footbridges
-Dashwood Road,BRIDGES AND TUNNELS,Footbridges
-Dump Road,BRIDGES AND TUNNELS,Footbridges
-McTaggart Line,BRIDGES AND TUNNELS,Footbridges
-Corbett Line,BRIDGES AND TUNNELS,Footbridges
-Goshen Line,BRIDGES AND TUNNELS,Footbridges
-"CULVERT 373
-",BRIDGES AND TUNNELS,..
-Mollard Line,BRIDGES AND TUNNELS,Footbridges
-Highway 23,BRIDGES AND TUNNELS,Footbridges
-Line 17,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+03a935fa867f1b725e392ad4da591980,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+04124ac5f87959cae249ba139d528c89,low carbon,wind,Goshen Wind Energy,...,...,"Government of Canada, Natural Resources Canada"
+042cf9eddb048b22c3aac899a1e7d069,low carbon,wind,..,...,...,County of Huron
+045c05d59ce10690938e67ec128f37b0,low carbon,wind,Goshen Wind Energy,...,...,"Government of Canada, Natural Resources Canada"
+05814e81718f8cbeff69d6d75da82ac5,low carbon,wind,Goshen Wind Energy,...,...,"Government of Canada, Natural Resources Canada"
+05b03e710f668f5959755bc76cb9dbcc,railways,track,..,...,...,Natural Resources Canada
+065df2f210bf2734b37eb3c5cdfa0401,low carbon,wind,..,...,...,County of Huron
+069d97632cc1962185a7b569f3add16c,low carbon,wind,..,...,...,County of Huron
+06f4b23221e50741bc9e2a2189a1343f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+08a6be8cec618fe1d03b2fcde48b4b3c,low carbon,wind,..,...,...,County of Huron
+091a33d7697ebd9524e2d592c3a8986f,low carbon,wind,..,...,...,County of Huron
+0abca4f048d5f631caa2b84cfc457d5b,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+0bb4fced989db7e918acfd630477e0e1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+0bbbc9a0a852ab6f6c3c8431a96ace42,railways,track,..,...,...,Natural Resources Canada
+0cf798e0e558e3429edf877f4bbc16f6,low carbon,wind,..,...,...,County of Huron
+0d5549ee54b24a82e22778d308e7aa91,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0df1f6543273b3d143b74e38a0972e3b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0ea9347fed7f87bd37368df07ff49148,low carbon,wind,..,...,...,County of Huron
+108cd3770b21da6acaa473921e5a4d1c,low carbon,wind,..,...,...,County of Huron
+136d772699c5108137f82d0d70f50da4,low carbon,wind,..,...,...,County of Huron
+1422132172382390c0ea8392aaa71c8b,low carbon,wind,Goshen Wind Energy,...,...,"Government of Canada, Natural Resources Canada"
+14ef42f1b40bea92101d6597e847b52f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+155a81f79930b80f55722fcfc6f06d32,low carbon,wind,..,...,...,County of Huron
+162a513c0ec70c01ac7fedc99a9d0217,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+16ad195723985e74694c141d92959ef1,low carbon,wind,..,...,...,County of Huron
+16ced833127f3492df53a643ca50b4dd,low carbon,wind,Goshen Wind Energy,...,...,"Government of Canada, Natural Resources Canada"
+18f2a1077755c17565c7ba6ee05530b5,low carbon,wind,..,...,...,County of Huron
+19127d4514439b9e7994fd1bc6fd054f,telecom,tower,...,...,...,Natural Resources Canada
+191c116ba395d5e0ee925c7bdee8c0cc,low carbon,wind,Goshen Wind Energy,...,...,"Government of Canada, Natural Resources Canada"
+19e88c98adcdb17c25bd75ad9e7191a1,airports,...,Grand Bend Airport,small_airport,...,OurAirports
+19f339c224e1f2d95efd47dc4a340d9a,low carbon,wind,Goshen Wind Energy,...,...,"Government of Canada, Natural Resources Canada"
+19f76123d888e32e624dfab700fddf9c,low carbon,wind,..,...,...,County of Huron
+1ac1352784d78d6538e83681dcb36e77,low carbon,wind,..,...,...,County of Huron
+1b1642738d51659cba2b3cfde78a191d,low carbon,wind,..,...,...,County of Huron
+1be1459a0e31767a4da18f4874c71285,low carbon,wind,Goshen Wind Energy,...,...,"Government of Canada, Natural Resources Canada"
+1c63fe5a22a61f69d79aa5a2e1e8fe5a,low carbon,wind,..,...,...,County of Huron
+1c920994a1d662970ebde332b87ef662,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1dcdf93618524abeec6c13e87404e416,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1e3e04e592519f25e7f5ff8812dabb34,low carbon,wind,..,...,...,County of Huron
+1e4b8220888b44198fb45aafe67aa08a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1ea15cf59dc02d338735031064137d7b,low carbon,wind,..,...,...,County of Huron
+1f008a0d633682676f5b8def55690c38,low carbon,wind,Goshen Wind Energy,...,...,"Government of Canada, Natural Resources Canada"
+1f24ce508d4cc47afe9399230f0d344a,low carbon,wind,..,...,...,County of Huron
+1f4ded8f770da74a7e9c09c805d3538a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+20070f0895b899c0bbb54dff2ae7c625,low carbon,wind,Goshen Wind Energy,...,...,"Government of Canada, Natural Resources Canada"
+20b73a676e660337e702fa65939a2aa4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+22eb48a374da1b391346f58b793a48a4,low carbon,wind,Goshen Wind Energy,...,...,"Government of Canada, Natural Resources Canada"
+230d068aaf9f28ac80d6ad28c5874a66,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2370dbba864d869fcc9c4607118bdac4,low carbon,wind,..,...,...,County of Huron

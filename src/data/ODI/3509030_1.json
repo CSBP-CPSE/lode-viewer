@@ -1,25 +1,41 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-MCCREARYS CREEK CULVERT,BRIDGES AND TUNNELS,..
-Kinburn Sideroad,BRIDGES AND TUNNELS,Footbridges
-Main Street West,BRIDGES AND TUNNELS,Footbridges
-North Pakenham 12th Concession,BRIDGES AND TUNNELS,Footbridges
-Main Street East,BRIDGES AND TUNNELS,Footbridges
-North Pakenham 11th Concession,BRIDGES AND TUNNELS,Footbridges
-South Pakenham 9th Concession,BRIDGES AND TUNNELS,Footbridges
-CULVERT 430 M SW OF RAMSAY CONCESSION 5A,BRIDGES AND TUNNELS,..
-Clayton Road,BRIDGES AND TUNNELS,Footbridges
-Ramsay Concession 7b,BRIDGES AND TUNNELS,Footbridges
-North Pakenham 8th Concession,BRIDGES AND TUNNELS,Footbridges
-Sugar Bush Road,BRIDGES AND TUNNELS,Footbridges
-Wilson Street,BRIDGES AND TUNNELS,Footbridges
-South Pakenham 8th Concession,BRIDGES AND TUNNELS,Footbridges
-Ramsay Concession 8,BRIDGES AND TUNNELS,Footbridges
-Glen Isle Road,BRIDGES AND TUNNELS,Footbridges
-Almonte Street,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-Ramsay Concession 6d,BRIDGES AND TUNNELS,Footbridges
-Strathburn Street,BRIDGES AND TUNNELS,Footbridges
-Blakeney Road,BRIDGES AND TUNNELS,Footbridges
-County Road 29,BRIDGES AND TUNNELS,Footbridges
-Tatlock Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+1b67efc677a556113c048be83d5c06af,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1b7237108134f34ef3f804028c2c9fae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1dea0bc86bc2f4369cb7a8f591d837fb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2699b7e56c33ea7538cc03ac51a4d905,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2af7cc8be394520d9370fecbd626a85e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+383d6f9d3fdfdebd768734f75aead249,telecom,tower,...,...,...,Natural Resources Canada
+4545ab103a5cf9fa5b1ceaca2afae827,low carbon,solar,Mississippi Mills,...,...,World Resources Institute
+463ef34d1b54b06649526b61d7a9881f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+48920d0d98c650b5e699eaaf3a65d527,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4abd98c0feb505e7b14b389dfffafe34,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+504b484a15aaa5c44b3559e7cbf5a79b,wastewater and storm water,facilities_waste,Mississippi Mills Wastewater Treatment Plant,"Grit Removal, Screening, Extended Aeration Activated Sludge, Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+581788b76d22f5ee407e5ca3ab0c7bc2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5f9b8cb8cc5875492fc9c32ccc0fdb03,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6927034b2508b4bab14ac6a767a0ca67,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6c42d8872528d41b9ab180c67110bbae,low carbon,hydro,Almonte,...,...,World Resources Institute
+6c77689747a15874c833e9a81836f7f7,electric grid,power_plants,..,...,...,Natural Resources Canada
+6da115e3b90d2e07cd896d9781cd288c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7936e143bb62fa2b45cebe24403cc140,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7a9d26839c4af7658f892277e6001e82,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7c82e4d946c241fee9a62de2874ff2a1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7d5fbbe7554ef85bac038ad8c1c63f6d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7d6102684bfa5aa2b2cf3f24893627c3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7e59ec14ce851b042f1441034c2661b5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8fbe373074126172d6be730bfb39a8e9,telecom,tower,...,...,...,Natural Resources Canada
+9267b0a89abf1f592412562e9cc384a6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+92eb3f9ecc869b63e9097d07d2a48b0c,telecom,tower,...,...,...,Natural Resources Canada
+97e1dc24977e05af3d610fda043517fa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a73174b7c9c6cddb5bf9e417345854e7,telecom,tower,...,...,...,Natural Resources Canada
+a8610515298b6aa0810434becad4dc3e,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b444d569e9ca135b15305b8568dea1b8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bdaec42413703718eadc2af7d7019371,low carbon,hydro,Appleton,...,...,World Resources Institute
+bf0c671bfe33ae267a7e7813b68a1d1b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c19c0d54242cb0575ccb0c19734ede8c,electric grid,power_plants,..,...,...,Natural Resources Canada
+c6bcf5fc4c7e074f621376608f2ce4fc,electric grid,power_plants,..,...,...,Natural Resources Canada
+ce5844e311e145d5ad0b031f6be7e114,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d0e71c2384df874bf64e9923d8e50e16,bridges and tunnels,culvert,MCCREARYS CREEK CULVERT,Culvert,Culvert,Province of Ontario
+d1870cad9e2c0c190640a7da865e18cd,bridges and tunnels,culvert,CULVERT 430 M SW OF RAMSAY CONCESSION 5A,Culvert,Culvert,Province of Ontario
+e4af4948d0ff8eb4138ad83a4244dcae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e65f59a9d6bca5e81458bdc61ea25242,oil and gas,pipelines,..,..,...,Natural Resources Canada
+e902b4557eda9d2dfda8e62cc38e2761,airports,...,Almonte (general Hospital),heliport,...,OurAirports

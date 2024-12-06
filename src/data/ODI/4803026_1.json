@@ -1,4 +1,6 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,WASTEWATER STORMWATER,..
-19 Avenue,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00ee52cf78e83968bb3bbcdf625ffcc7,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+48fd48ab36d53961ced92b5d41fb38ad,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+58851ea5215a443ac6f4c3c2ca05edb0,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+70397b58d9338ac88c050eeec17d1026,wastewater and storm water,facilities_waste,Town Of Nanton Wastewater Treatment Plant,"Screening, Activated Sludge, Biological Nitrogen Removal - Nitrification and Denitrification, Chemical Precipitation (Phosphorus), Filtration",Unclassified,Environment and Climate Change Canada
+fd319ebfcfaa9c8770f6539071165664,telecom,tower,...,...,...,Natural Resources Canada

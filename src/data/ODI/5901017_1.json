@@ -1,27 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-Crowsnest Highway,BRIDGES AND TUNNELS,Footbridges
-Morrissey Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Corbin Road,BRIDGES AND TUNNELS,Footbridges
-Fording Highway,BRIDGES AND TUNNELS,Footbridges
-Coal-Leach Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Alexander Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Elk Valley Tunnel,BRIDGES AND TUNNELS,Footbridges
-Elk River Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Fording Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Kishinea Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Lwr Elk Vly - Whispering Winds,..,..
-Flathead Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Flathead-Sage Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Commerce Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Morrissey Road,BRIDGES AND TUNNELS,Footbridges
-Cabin Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Highway 3,BRIDGES AND TUNNELS,Footbridges
-Coal Creek Road,BRIDGES AND TUNNELS,Footbridges
-Lwr Elk Vly - Little Acres,..,..
-Loop Bridge,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,Footbridges
-McLatchie Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Lwr Elk Vly - Whispering Winds,..,..
-Lwr Elk Vly - Little Acres,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00704b4df83b27e5e2af89e8e6339c96,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+018ea399110c23e3ca55c613b7e8acac,railways,track,..,...,...,Natural Resources Canada
+05a93f892a48b0dac836c8ba786eafb6,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+05eae144091c6ded9eef2d3cb4f94e36,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+0731aa1a25ae9104ff5c216ac76b6195,railways,track,..,...,...,Natural Resources Canada
+0784b29c10a4b1797e44df3b9ae5d3e8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+07ec6ef049e2d326c9b1cae47604d11c,railways,track,..,...,...,Natural Resources Canada
+097ff7da2ab15874af66f94f08c658ec,airports,...,Sparwood Elk Valley Airport,small_airport,...,OurAirports
+0aba5d52c1aeb57b56d24e712327bccc,railways,track,..,...,...,Natural Resources Canada
+0b9e755c68006cf30785497a4d036187,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f5217235fa69c567113f3877d43e4d6,oil and gas,pipelines,..,..,...,Natural Resources Canada
+0fd2e17a3e64cf50422796944c405efe,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+109e54036cba01027d16074ed10eb2c3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+154d9835cbdb2026f6602414a7dbfc04,telecom,tower,...,...,...,Natural Resources Canada
+1d3a92e67b31a1cddf68785e7d04d6bb,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+2062f0589f92e3edc390ab72eba7f7c8,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+20c94b0fcc53f663023bc596da2474e1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+24da7f6759bae311e808f2506b017e15,oil and gas,pipelines,..,..,...,Natural Resources Canada
+27216438d5a4c820fb03b45048083fe0,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+27b4a2cc882a90b71e3b9d46d2b18bf7,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+27cb58e1f6553342a31f0d01cfa96e28,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b11548287a429a470171da0249b8c53,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2ca0332ba6e6c7dac7a9559ab2cf5356,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+31132e53c6ae02b767f2e25664a42b4a,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+315e576767fe4a143299c0f231042b92,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+318f7cc16dfec04dfa29b7844caec466,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+32d261952bdc3bfaaa412a1513b9e489,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+342222af436aa45d52f2813e23d219a1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+36764893fb9d574f37f0b2fe1ab1601e,railways,track,..,...,...,Natural Resources Canada
+375e67cd9ab32c1b2ed340b1f005a780,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3821d7adf0a28b44c29be13ffb749c03,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+3928715e2b6cb98f4a30daa5ceb1dee4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3aaa4fab96115125dac1135fb0352cb4,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+3cfd64efe8f4dd9fa6f3f6f6f51bec78,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+426048bc0923edb96707fbabcbb29dd2,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+440b3cba80e9a3504b376c7171a170c0,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+45d032122029926ad071d0b1f7bb1f7b,bridges and tunnels,bridge,WEST FERNIE,BRIDGE,Bridge,Province of British Columbia
+464f94ddb0c7bf4d042c31b59cf74718,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+47a2d920cbbeb03477d55bd556319be4,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+4a9057d7ae6391496395b221b1eda516,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+4af7ae5bb9abda3d37d22605148f34a5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4d5f2bdb7f28616ccd445a247c8ae9fc,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+4f5e656edf7b74ed59e0a8ad1ad7db1b,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+54a30a4fd4f2ef4ae78ff43078589f26,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+54e51984c52ebc52d205bfed7eae4ada,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+54ed45ce8f53c5b7b3efee839173b586,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+56d2a3bea9bec5cde2ad23d70c4d0876,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+572f756a542cc0598fdad0faccdf056f,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+57700f2ea5e2f166c4289ef4d281d27a,railways,track,..,...,...,Natural Resources Canada

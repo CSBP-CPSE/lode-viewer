@@ -1,26 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard des Bois-Francs Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route de la Grande-Ligne,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-Rue de l'Académie,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue Pie-X,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Gamache,BRIDGES AND TUNNELS,Footbridges
-Route Pouliot,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Garand,BRIDGES AND TUNNELS,Footbridges
-Rue Girouard,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Arthabaska Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0032e112370a8ba7f9586fcd7a0ae6a9,telecom,tower,...,...,...,Natural Resources Canada
+0b7e46962b1bb9a68c3a43105a75ce0b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+16a93bf4a01cb06c9c38e6ea7ad1baf4,low carbon,charging_stations,Desjardins - Bois-francs,...,...,Government of Quebec
+1a5de196f5cb270627e0630777c73a4d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+243ec12de0938140f1e74d949b12154e,low carbon,charging_stations,Victoriaville - Bibliothèque Alcide-fleury,...,...,Government of Quebec
+2a0b3c6e0a5844f7a73d6fde1ec75f52,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2f4a13c573e9223254a7d12ae392efbf,low carbon,charging_stations,Caisse Desjardins Des Bois-francs - Forfait Hôte,...,...,Government of Quebec
+318764ef19ac49134dfb0d6ac01cccab,telecom,tower,...,...,...,Natural Resources Canada
+32c407b42a38c39478b12c6b39184b0f,wastewater and storm water,facilities_waste,Usine D'épuration Achille-gagnon,"Grit Removal, Screening, Extended Aeration Activated Sludge, Biological Ammonia Removal – Nitrification Only , Chemical Precipitation (Phosphorus), Filtration, No treatment",Unclassified,Environment and Climate Change Canada
+3cdff6537d4fda21ef8ed4a516522cb8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ff5f85453e52acd894f4846fe4480ac,telecom,tower,...,...,...,Natural Resources Canada
+42f391eb80e465f265c3cc75dba0b7ee,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+43f01a39ab9467236212af28e82cbc92,low carbon,charging_stations,Colisée De Victoriaville,...,...,Government of Quebec
+5146055c99a002a3be5d33850c347cb0,telecom,tower,...,...,...,Natural Resources Canada
+5409d43ca5651d60ac1e588c3ed4bc09,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+5e97160b94865c35d356bf3842fe4954,low carbon,charging_stations,Victoriaville - Stationnement Du Réservoir Beaudet,...,...,Government of Quebec
+62ad11855c861211b5e0e10747dc71ac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+649bb921a010cf510e179fb7b192b0ee,bridges and tunnels,mixed,..,..,..,La Province de Québec
+6a8067d01a631b5148db6e6b5034e005,airports,...,Victoriaville Airport,small_airport,...,OurAirports
+6c60181588d65cd588ef46605080a54a,telecom,tower,...,...,...,Natural Resources Canada
+704f264f2f4852695bcbc7c6ddf0fe26,low carbon,charging_stations,Victoriaville - Piscine Édouard Dubord,...,...,Government of Quebec
+7334bc58223b641351abee332f69c763,bridges and tunnels,mixed,..,..,..,La Province de Québec
+76de9583f9666768c028452a267035b5,low carbon,charging_stations,Victoriaville - Complexe Sportif Sani-marc,...,...,Government of Quebec
+7c8fd1a1dbb9f5c7af89746da3619f5c,low carbon,charging_stations,Desjardins Entreprises Centre Du Québec - Forfait Hôte,...,...,Government of Quebec
+7ec2f17830c39e0e805f716c6b25d701,low carbon,charging_stations,Brcc - Victoriaville - Shell,...,...,Government of Quebec
+816e7f80e097dc7d51bb4a1bfa40fbe9,low carbon,charging_stations,Victoriaville - Stationnement Thomas-grégoire - Évasion,...,...,Government of Quebec
+889d4c11968accd4e3e77f55bbfca92d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+957ee9534e0c4b53f35ce8faf4934919,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+95e1c4c4589892ae263c1da24e86ffdb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+99d08602f89539dc5db0edfbd129edba,wastewater and storm water,facilities_waste,Usine D'épuration Achille-gagnon,..,Waste treatment plant,Environment and Climate Change Canada
+9b15298483876415b545d00cf5a23a20,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9c207e2664e8e4024151788e039f124b,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+9f701cbbd113f702e93e07ba54301cff,bridges and tunnels,mixed,..,..,..,La Province de Québec
+a16c2e38f4ad97dc78f08551eb45143b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a1e1cfaac490d8759f4da38f864de29f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a59484a00bdd724281bfa639a6776842,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ac565dadd14f63e19741bf8f7f128555,low carbon,charging_stations,St-hubert - Arthabaska,...,...,Government of Quebec
+b57e0d6960f23ae4ada9747353a7d30f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+bc400fd755f59efb7b83d054785f142d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+c3aec60d031bd014a5a1de86aa2af7bb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d01d1ec90894bd1e6621159de5ed0493,telecom,tower,...,...,...,Natural Resources Canada
+d651d703ef6c3a150c5b92fd36a7c6ec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dae564e19f7bb0d8d3a981432adbcfa7,low carbon,charging_stations,Brcc - Ville De Victoriaville,...,...,Government of Quebec
+dec9a94b3056b56b02e82474c8024566,low carbon,charging_stations,Brcc - Victoriaville - Stationnement Pierre-laporte,...,...,Government of Quebec
+df78eff912081f3e85edda361b2b3a20,low carbon,charging_stations,Victoriaville - Aéroport Régional André-fortin,...,...,Government of Quebec
+e89e94123f344eb2664942fc6a9ad293,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f3f4d270039f7056aec2c360551c25f0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fbb63a2b92d2c54364a324de5932b96d,low carbon,charging_stations,Victoriaville - Pavillon Mont Arthabaska,...,...,Government of Quebec
+fe6d5769c7b30c3d25d3c7b68c25c4e8,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada

@@ -1,28 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Pierre-Ouellet,BRIDGES AND TUNNELS,Footbridges
-Boulevard Laflèche,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin du Mont-Tibasse,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 138,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue De Maisonneuve,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-Route Trans-Québec--Labrador,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+05c410d9a13923ec427c3f3931cd1b6c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0639684f62622dddeef4605dcabb9015,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0806c9937a875238f6c70af255fdcd2f,ports and marinas,mixed,Baie Comeau (havre Polyvalent),Core Fishing,...,Fisheries and Oceans Canada
+0a31b35933803d42d8a845fb5e3bbb66,low carbon,hydro,Jean-lesage (manic-2),...,...,World Resources Institute
+0d4b1b7c615f5a3e171dbe52e5744d94,railways,track,..,...,...,Natural Resources Canada
+0d618a7eb764fa22804a6330c1d00499,railways,track,..,...,...,Natural Resources Canada
+0f0c5879c06b57b4a36f431a4794005a,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0f64321c2176fa18997b6b5804907f5c,railways,track,..,...,...,Natural Resources Canada
+104c7656ed4275fdd4e61f5fb7cabc37,railways,track,..,...,...,Natural Resources Canada
+14171bf2cad8b143ca9b6d280cf398bc,railways,track,..,...,...,Natural Resources Canada
+174346507652e4e4881d7eeb88d01b3f,railways,track,..,...,...,Natural Resources Canada
+190a2417a446241bdc2439a2df694b3e,low carbon,hydro,Manic-1,...,...,World Resources Institute
+19c2715bea01f21a2ad7fa40e645ccfb,railways,track,..,...,...,Natural Resources Canada
+1ae3296d7dd07751f2bc8aeac7966439,railways,track,..,...,...,Natural Resources Canada
+1aeacc15a4446bfb5c534ac135ea924d,railways,track,..,...,...,Natural Resources Canada
+1b3699286c2c063b2b56cc5fbf761dcd,railways,track,..,...,...,Natural Resources Canada
+1d66fe1297ee62d6f712ffbba201361c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+20becfb8c622c7d46c3250fe12da6ac0,railways,track,..,...,...,Natural Resources Canada
+221454bcc2d3d3548d4cbe84f0c3ed85,telecom,tower,...,...,...,Natural Resources Canada
+22da08a58920e49a7612fbde6e177e2c,electric grid,power_plants,..,...,...,Natural Resources Canada
+23098c08bf93df67cad143ad98d416d5,railways,track,..,...,...,Natural Resources Canada
+243b3d67b99a14c9c6d2973262b38f30,railways,track,..,...,...,Natural Resources Canada
+2889542b99007aa44392a0948e9e85ae,railways,track,..,...,...,Natural Resources Canada
+295c642ee4edb94a150283a7a19d9318,railways,track,..,...,...,Natural Resources Canada
+29fc39c9231b1431185c5a577652af87,railways,track,..,...,...,Natural Resources Canada
+2aea96967fd2cc0e7eacdb451d1852cb,telecom,tower,...,...,...,Natural Resources Canada
+32b310bbf35b40da204b3755e26c7f5d,railways,track,..,...,...,Natural Resources Canada
+349da4c4cae493df56ae671e81c50e8f,railways,track,..,...,...,Natural Resources Canada
+35619ac7d8b7e65a1fce7b2117594270,railways,track,..,...,...,Natural Resources Canada
+35bd45e4a567065be7256aa81ec79b0d,railways,track,..,...,...,Natural Resources Canada
+36809ed5ddc0e4475e0db23ac156ac8f,low carbon,charging_stations,Brcc - Baie-comeau - A&w,...,...,Government of Quebec
+386e9861424a97bdc6f36abb154af775,wastewater and storm water,facilities_waste,Étangs Marquette,"Grit Removal, Screening, Lagoons - Aerated",Lagoon,Environment and Climate Change Canada
+393103be9c28576a0490198c87df1c31,railways,track,..,...,...,Natural Resources Canada
+39c4b7b9466aa2216e80a42da3c88195,telecom,tower,...,...,...,Natural Resources Canada
+3a10288886e366586154e1e6d18b2742,low carbon,hydro,Manic-2,...,...,Hydro Quebec
+3c91953221b25833b4f208fafd4c7fcc,railways,track,..,...,...,Natural Resources Canada
+414082eb4e960ab0304b9a32197833a0,railways,track,..,...,...,Natural Resources Canada
+4200ff81e02363e05653013a32bd2212,railways,track,..,...,...,Natural Resources Canada
+421ae4566c401d97421edb12626e819a,railways,track,..,...,...,Natural Resources Canada
+423b1de243c463d14d2c465ad91c47bb,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+425cef3f76787e78ee43878ad7d7c1d6,railways,track,..,...,...,Natural Resources Canada
+46f0ba64ac1d158b48e7a475eff2c020,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+46f689000534d0f86bfcae61fa2fc293,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4a0f03eb5858a005a9dcce8f67c910e3,railways,track,..,...,...,Natural Resources Canada
+4d4caedc0abad8deb6fdfaa67a2ba3f5,railways,track,..,...,...,Natural Resources Canada
+523945d0afcd76cfcc7c0d6e31b99453,railways,track,..,...,...,Natural Resources Canada
+547210a3838f41b99e46f821abe88645,railways,track,..,...,...,Natural Resources Canada
+57811cc2011c8155a1b38b10544415ba,low carbon,charging_stations,Brcc - Baie-comeau-stationnement Av. Chapais,...,...,Government of Quebec
+57a961a18848f17f554419e5dfd74761,low carbon,hydro,Manic-1,...,...,Hydro Quebec

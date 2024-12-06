@@ -1,7 +1,27 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-TROUT RIVER BRIDGE,BRIDGES AND TUNNELS,..
-ENGLISH RIVER BRIDGE @ EAR FALLS,BRIDGES AND TUNNELS,..
-Highway 105,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,Footbridges
-Sandy Creek Culverts,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+09ffebe6bec07223e9fa51629da9414c,electric grid,power_plants,..,...,...,Natural Resources Canada
+16873c1e769d6575fb8c572e780cafb1,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+24d372a8c9bfdc5094b9e6fbd55b8aaf,bridges and tunnels,bridge,ENGLISH RIVER BRIDGE @ EAR FALLS,Bridge,Bridge,Province of Ontario
+2d8c4230b0377d977485977e3f5c1da5,bridges and tunnels,culvert,Sandy Creek Culverts,Culvert,Culvert,Province of Ontario
+31e6654d29380f26c22df041dd1533dd,telecom,tower,...,...,...,Natural Resources Canada
+3556bc53b185b2aa0e42c0323ca4357d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4c7047978a70c2826e8aeac699fa3d16,telecom,tower,...,...,...,Natural Resources Canada
+547269b4b3600fd34576fda73b7d50c9,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+5f52c67e3b6d80f4a0c38c1957777076,oil and gas,pipelines,..,..,...,Natural Resources Canada
+619809b3a3f934b54c13e79444b766ae,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8653929164b7fda0b4eb967b264bb339,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8ab31bffccb4dd99c44abd477e2b4699,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+90d32adbc73b1f24359b979789b5b330,solid waste,mixed,Site 'a',Other or Mixed,Facility mixed,Province of Ontario
+95c78552cff6529eeff0253f65adae21,telecom,tower,...,...,...,Natural Resources Canada
+972354c59365904fb1ed8e7939ca2892,oil and gas,pipelines,..,..,...,Natural Resources Canada
+9ecc4a0ece877b3c17238d20211e1b98,airports,...,Ear Falls Seaplane Base,seaplane_base,...,OurAirports
+9f5e1193e22327aef94f27b2614738f2,telecom,tower,...,...,...,Natural Resources Canada
+ae33a30b42355a31e87a34d166e81d75,telecom,tower,...,...,...,Natural Resources Canada
+b22491622fe8c648e6606257eb476e55,low carbon,hydro,Lac Seul / Ear Falls,...,...,World Resources Institute
+ba101ce2313db384a3c2a2e30a2d480b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bd04eb805d29e9539c6ad4cb1c14826d,bridges and tunnels,bridge,TROUT RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+c0f6cadcb4213345531698589a0c4096,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dc1d5da054547a6b821d3633d0ca689d,oil and gas,facilities,..,..,...,Natural Resources Canada
+e059059e7c2edf65c8ea0f562d12352f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f415398dc9b4c6076184f3112f131db8,telecom,tower,...,...,...,Natural Resources Canada
+f6bc0978546e6e285aceff4c7f1bbf69,airports,...,Ear Falls Airport,small_airport,...,OurAirports

@@ -1,21 +1,37 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,POTABLE WATER,Local Water Pipes (>416mm)
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Saint-Félix,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Saint-Jean,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Local Water Pipes (>416mm)
-Rue Courteau,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang Saint-Alexis,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,POTABLE WATER,Local Water Pipes (>416mm)
-Rang Sainte-Marguerite,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Local Water Pipes (>416mm)
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+08f23e7f26e69f0d6c3ab6bb2b43cff3,bridges and tunnels,mixed,..,..,..,La Province de Québec
+111c2ed15a9751cbddff2467329cb35c,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+14575a5e840265b4b5c9df4c45f1c466,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1a99515acd42430e9665ffec6a892fee,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1c0b2004db8e47ffd2aa13f1a08f0dbd,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+2076aa0648d33d9eeb12c0e95d756fc1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+29b1bf1f49cebc3041008a6ef8cd766f,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+2f329caebe0fd37af60d8de60bce8881,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+3815b1f0f50794312d6adae64ba113fd,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+4192d8c4ef7ce7e71f0b2ec9ab2136a9,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Saint-maurice,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+4992af845d7f3262f329c5d89b33681d,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+4b7b6353206e4e338c4e9a15c6adea0d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+522e3a3e16a7feeaa5f4226a1ce97d6d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+52dc0e5127a74ab34f6a8a12d13ee272,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+52f7b240580d7329eeb91526d7bbbbfc,bridges and tunnels,mixed,..,..,..,La Province de Québec
+572537888b549d48b3fc7eda73c7ad2c,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+638f6422b2634a5e8352bc65fdf79700,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+6e8993a05f9be385260b84673208109d,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+78d29212714f5f7cafcd9b5eb85a3526,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+7907c6ddea69eb091a5b2d079275f147,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+8bc94b9391c5c8a1605cb39f817d08e0,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+972441131f116a7e9b9f239879b3ed19,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+994ff6a9b00c22860c731dc4f4792ba1,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+ac3d693761ef01adaec457ec8ecb4db1,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+c4a699d8930b45720cbb3e6fe7be2217,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+d21ed4da59d23eb5c77a8c17d1b6fc41,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+d62e9e7c40c30363babbd4ef0af46b3e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dc2ab438a728a44c38ac9c6e0383f9af,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+dc6688b1c70fdde0a7682fe35466479d,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+e503f40baa3d638d8f0d47d374a0176b,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+e8268d2d33038be14b2ea971782cc365,low carbon,charging_stations,Salle Municipale - Saint-maurice,...,...,Government of Quebec
+ebb16d7d9a0a43451f21305eeec80a06,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+eff66d43d35ab671e9ff0c88710c5a54,bridges and tunnels,mixed,..,..,..,La Province de Québec
+fb8cb51b45328cf53aeabe7cf1ad3cda,potable water,pipe,..,..,Pipe main,Ville de Trois-Rivières
+fe7cb1f7cc3fedd82b77f7a74aaeb6dc,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+ffa58645b6bc91ebf9afe86de828b5f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

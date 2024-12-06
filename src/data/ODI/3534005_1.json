@@ -1,20 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Clarke Road,BRIDGES AND TUNNELS,Footbridges
-Stewart Road,BRIDGES AND TUNNELS,Footbridges
-Tunnel Line,BRIDGES AND TUNNELS,Footbridges
-Culloden Road,BRIDGES AND TUNNELS,Footbridges
-Eden Line,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Calton Line,BRIDGES AND TUNNELS,Footbridges
-Richmond Road,BRIDGES AND TUNNELS,Footbridges
-Godby Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Light Line,BRIDGES AND TUNNELS,Footbridges
-Plank Road,BRIDGES AND TUNNELS,Footbridges
-JERRY'S CREEK CULVERT,BRIDGES AND TUNNELS,..
-Mitchell Road,BRIDGES AND TUNNELS,Footbridges
-Carson Line,BRIDGES AND TUNNELS,Footbridges
-Bridge Street,BRIDGES AND TUNNELS,Footbridges
-Glen Erie Line,BRIDGES AND TUNNELS,Footbridges
-Edison Drive,BRIDGES AND TUNNELS,Footbridges
-Bayham Drive,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+03753fd9466b50ac0f92b18a87a0a1b2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+056e495f881c4cd1a6448f0958bafb1c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0caee14a22172d9182c2b4415fb1547a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0cee8d2115d841e22cb80e5d49258033,wastewater and storm water,facilities_waste,Port Burwell Wastewater Treatment Plant,"Grit Removal, Screening, Sequencing Batch Reactor",Unclassified,Environment and Climate Change Canada
+125075f2eeebced81f5955f984b4cd99,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+16ff01fa38234c3d8768e6204ceebb50,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f1e549730df1bb8327a6cb3e305042a,airports,...,Skyview Airport,small_airport,...,OurAirports
+239aadad42d93ad8a134ef82ce28836d,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+27e8682e7419e8c156fc4a8b448fac15,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+284108c2d8a0015a554db82732c63113,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+286260843d3e988c9023e518a13de5ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2ae18a260151f133f3930d2f686bbfa4,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+31719b72bc6c59d215eeb4ba94f5360c,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+34488287dc9cec62fd983a3c4b0eb023,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+355ae6a78b5b1ebc34156d34e8cc5fb6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+37e9ddd92489d0948f44fa50b855b775,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b5ee7e39efe862c90c125c708dd73bb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3fc7e37cc6998267d574846752623096,railways,track,..,...,...,Natural Resources Canada
+46b0cbe3367c2707b8a341e59cec5397,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+495e3bb878c738f4acdd81477d732dce,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+4b6160b70f7d2760ba03d090644dcb72,low carbon,wind,Erie Shores,...,...,World Resources Institute
+4e831a4d081f7856059366a4b9b04059,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+4fd08e2338af68d1a53be29903564254,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+50459a711c7be2dbddb62883833b6a89,airports,...,Bushhawk Creek Airport,small_airport,...,OurAirports
+54893ccd646147178d06dbc01db66179,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+5cbe1ed1badbd32ccc34a79bde996ec4,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+6a93571ac78d1805e0a7e79294c9cd07,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+6b6f1c4e819bce247c2ec7e2229ad45b,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+70f954eae30d85f508e56e160f185a7e,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+74ce0213fe3493b77f58fcfff67963e5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+76eb73af56a9d1670c678c5d2c3b6675,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+7818ac9c774c15a353e04bb3ae3e68ae,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+7a1d2bbed5326164574b576add4cc1fe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7c7eb8a7f8eae868813ca0911859863f,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+7dd637d5add086428b1cac325eea94fc,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+8080439f36c36b4fff8bd71b838f3682,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+83137f105ab4b3c04167c341a353ba6c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+843ddb9a69b08703bb89b8cf4ec65453,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+8ac75704d52113f439da8a1eaa60a779,electric grid,power_plants,..,...,...,Natural Resources Canada
+8ac838a428ca66744d97e00b16cd71f2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8cc45035f6c7616f03f1253d90bdcbab,ports and marinas,mixed,Port Burwell,Non-Core Fishing,...,Fisheries and Oceans Canada
+902339cf22f05a4b554bf172cd62970d,railways,track,..,...,...,Natural Resources Canada
+95fb5da4f68ab3ff7c1c28d85135ee58,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+967fbff7e519e3f296acaf018434a240,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+968b7d8d0535fedd50b1c1cf561b9a65,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a3208d6f0ed5c972688c2ab6d069356d,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+a4e73e8b0df893c52c2dae4a535d7b06,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"
+ae82af99c71c85e50d1470beca8ba8eb,bridges and tunnels,culvert,JERRY'S CREEK CULVERT,Culvert,Culvert,Province of Ontario
+aeb096f9e157fef4c5243d34646d04c2,low carbon,wind,Erie Shores,...,...,"Government of Canada, Natural Resources Canada"

@@ -1,31 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,PEDESTRIAN AND CYCLING,multi-use
-OPS TWP CPR O'HEAD,BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-East Street South,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-Culvert (550m west of County Rd 46),BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,multi-use
-Black River Road,BRIDGES AND TUNNELS,Footbridges
-SCUGOG RIVER BRIDGE,BRIDGES AND TUNNELS,..
-CAMERON LAKE BRIDGE,BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,..
-VICTORIA COUNTRY ROAD 32 BRIDGE,BRIDGES AND TUNNELS,..
-Black School Road,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-OPS TWP CNR O'HEAD,BRIDGES AND TUNNELS,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,..
-..,PEDESTRIAN AND CYCLING,multi-use
-..,PEDESTRIAN AND CYCLING,multi-use
-County Road 41,BRIDGES AND TUNNELS,Footbridges
-..,PEDESTRIAN AND CYCLING,multi-use
-Ski Hill Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+801edfae28f55c23e807014f1c41016a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+81867704f3001f09ebdc5bc71492dbda,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+81e864e657e615ad9e730aeb0bcd7c76,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+822c2cd2b61e062984df243e387d456e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+82793fe28fff3841d2ae3d37fb546b08,telecom,tower,...,...,...,Natural Resources Canada
+82bdb51f5a50fd597980457bc3e406a6,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+8355ac93f79af89abe8a3883f03de650,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+84150ccea2335e69b2f335d3741ccfb2,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+843f53139e9f6a5a4edf0d23752a4d72,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+84cfe1f3fe0753e5dbfbd842463cc838,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+852fbc4f8d517d135ba287aa85b3a55b,low carbon,wind,Settlers Landing,...,...,"Government of Canada, Natural Resources Canada"
+858deaed6a0955f3b61bd67f78183206,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+8606f9b632fd45ff6f6dc1bf1a95addd,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+86eb32a8490735136decbe9af3c80027,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8723dcb063bdd92896fdc4ecfce0c917,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8725ba3410c3d5789b2a8987bafb46e5,low carbon,wind,Settlers Landing,...,...,"Government of Canada, Natural Resources Canada"
+88fa824b83dcfa6f7ecbafa2147d64ba,bridges and tunnels,bridge,VICTORIA/DURHAM BOUNDARY ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+89df1c323ff0307318637ae0cf1d07a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8a8d2a08005c9f53ef2a60808ee6a357,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8ab8af449fb5091bfce2d05fcea2d3e7,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+8b5ced945fe3e9c3871162b7584eeb93,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8c038dfc450ccce31b91f875ad18e0e7,electric grid,power_plants,..,...,...,Natural Resources Canada
+8c39f6192982017a511f16b68028f168,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+8d064ead37abd7735689270b08162314,low carbon,solar,Balsam Lake,...,...,World Resources Institute
+8d3f570d9946a3e6ae49ffff155173f4,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+8d726819c5f99a2f6b6a4bb835350365,electric grid,power_plants,..,...,...,Natural Resources Canada
+8e52f31ce3161fcc5012a96a0583a57c,wastewater and storm water,facilities_waste,Lindsay Wpcp,..,Waste treatment plant,Environment and Climate Change Canada
+8e8c532e71788daedecfb1ce1a98d8cd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8ec50057babba841eec60efbe1226e29,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+8ff098e86eb83a6848c64a5245b4600e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+90a6d0fafededc4896820f3fb2855bfa,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+90df29eb1dded0d3908feb6cd3b61323,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+90f294c2eea61a4e86a0bc3a3044bd3a,low carbon,solar,Simcoe Solar Energy Centre Iii,...,...,World Resources Institute
+90f85972c61204de7a5eb5e4b8ae55c6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+910cf057043062d4c7f7819eafe821d4,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+912bcc7e05c62233443a8922ad2e710b,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+926d4b6efe4f50f438bd6272945d7070,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+92fefddfc7697eb66640378132465a6b,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+938157eb1c59b737f9263f4be9b6ce7f,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+93f5df1320450ef2b3b4b1c69086974e,telecom,tower,...,...,...,Natural Resources Canada
+94c93a031e23171d1def4b6160796c31,bridges and tunnels,bridge,TRENT CANAL BR. AT ROSEDALE,Bridge,Bridge,Province of Ontario
+9810158164c602d7f54e61fe4505f37c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9811c0eaef6b4860585b8ec8f5c349a4,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+98181a8148a103d98f293c5f8ac97a95,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+9879f014ee2d813df34c68719cbeec07,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+9885efe1cdc1aefab65c9691a1fcef57,low carbon,wind,Snowy Ridge,...,...,"Government of Canada, Natural Resources Canada"
+991a5e6cca5031e5f6a48623ed2394ba,electric grid,power_plants,..,...,...,Natural Resources Canada
+999021110449388ca6ebc1d5d9d7e39f,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes
+9ab32c8c04680dfd8b88ca14e85a7450,bridges and tunnels,mixed,..,..,..,City of Kawartha Lakes

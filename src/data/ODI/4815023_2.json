@@ -1,33 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Canmore Seniors Lodge East,..,..
-Carey West,..,..
-Legacy Trail,..,..
-Grotto Road,..,..
-Bridge Road,BRIDGES AND TUNNELS,Footbridges
-TransCanada Highway,BRIDGES AND TUNNELS,Footbridges
-Fitzgerald Rise,..,..
-Walker West,..,..
-Prospect Heights East,..,..
-..,POTABLE WATER,Water Treatment Plant
-Stewart Creek,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Boulder Crescent,..,..
-Benchlands Trail,BRIDGES AND TUNNELS,Footbridges
-Three Sisters Parkway at Dyrgas Gate,..,..
-Kananaskis Way,..,..
-8th Avenue,..,..
-Three Sisters Parkway at Fitzgerald Rise,..,..
-Railway Ave West,..,..
-Canmore 9th Street,..,..
-Grotto Way,..,..
-Elevation Place North,..,..
-Summit Cafe East,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Canmore Shopping Area North,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Canmore Shopping Area South,..,..
-Palliser Trail South,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+7465ec0657b1fecaf801fec159bec884,electric grid,power_plants,..,...,...,Natural Resources Canada
+747401b24e97edb8759a4e5bc194009c,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+75311d9611ddf3851c61536c3b4bd781,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+75a4a701cfb4907aa96d82bbf0eb393f,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+75f1ed7c66579aebd10c63716766ee4b,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+770e23ad2810f30854979d8f0e6ec973,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+781bb45c064f53993d6624746fdb9470,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+7a91786c49281447adb4c1a696affb19,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+7adf4d99095efeaa73754c6c6983f69d,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+81026b078a520ff5f9686b1363f8dc1e,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+8367a9857362aad2e8ac7155ece772f7,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+896763b8af7b422a2e523e03a6d73b9c,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+89ed70b4aab751b83760f7b4b02c1e63,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+8b5642c8ea6d370a2cde3e0d9fa08502,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+8c1ef1ed102445a59db45ab22f2d3437,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+8d8633d025d02befda2d42fccd6e184e,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+8e81f47bd829592a69ce984cb5e9915f,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+90e8f0b7359d305b4b9f5eccb682fa02,telecom,tower,...,...,...,Natural Resources Canada
+9154ff6619bc22808dd491714dbebe51,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+9439c3546877ebac20152d42235f4f3d,railways,track,..,...,...,Natural Resources Canada
+95f761bf66e181af9644af6accdb2107,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+965ef0b622590dcdeb421aee4faeac4a,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+98aff40783e135a7b30ad1bab33b20ea,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+9a29617223bfc31335dfc5648da9ffe9,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+9c0760969fe28d06c796e86e778fc579,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+a111714fee929e0d86a49800402df77e,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+a1ccf873b8ca10dc02e93242beaf88b2,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+a28e36dac9f1bc230d050f1e21bd24dc,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+a2de63320422e5198ef3f8ff57287b35,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+a7fca543e5cf5ecf5d5d524655c11ef2,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+acb7aee95783d890bd2cdb9034d02390,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+ae770f57328889a813fc93688e4ebed9,bridges and tunnels,bridge,..,OP-UP-EVENT,Vehicle Bridge,Province of Alberta
+b174afd4ec99e097cf3c68edd5a5e0bf,wastewater and storm water,facilities_waste,Canmore Wastewater Treatment Plant,"Grit Removal, Screening, Chemical Flocculation, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Biofiltration, Chemical Precipitation (Phosphorus), Disinfection",Unclassified,Environment and Climate Change Canada
+b2092fe249c8c292a53545fa80081e50,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+b503d944976868dd2957ab403ae2c4b3,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+b63d5ba8f97f86cd507254603e2e2e13,railways,track,..,...,...,Natural Resources Canada
+b6f94546992db98917bbd619334b44d9,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+b8c3f1d601b47e7d5181731fda3999e9,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+bb7c3d1ad14d09b23e94499df3370f0f,low carbon,hydro,Rundle,...,...,World Resources Institute
+c0964614b8011de00966abf053c7552f,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+c2a2e2153af01a954865028cf9876018,potable water,facility,Canmore Waterworks Pumphouse #2,..,Treatment plant,Environement and Climate Change Canada
+c2e8841e48a47c48c10bdbae4721673e,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+c4d44678b439ea2e38f2b69e086578c4,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+c6cffd4e7ad9befff245f796d5396fd6,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+c6f7ceca99feca20183150536372f09a,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+c9e2a8202b42fd07cb1e1b76f1a8a371,potable water,facility,Canmore Waterworks Pumphouse #1,..,Treatment plant,Environement and Climate Change Canada
+cf384fe8705705ddb831667afc094ab7,railways,track,..,...,...,Natural Resources Canada
+d25d40c707feefb1b1bef1b0dd453d84,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+d2dd12432ab0db1b08b91c054b770720,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta

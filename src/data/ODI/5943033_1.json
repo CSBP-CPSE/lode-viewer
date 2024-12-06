@@ -1,17 +1,45 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Island Highway,BRIDGES AND TUNNELS,Footbridges
-West Woss Road,BRIDGES AND TUNNELS,Footbridges
-Adam Main,BRIDGES AND TUNNELS,Footbridges
-Alder Bay Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Woss General Store,..,..
-Telegraph Cove Road,BRIDGES AND TUNNELS,Footbridges
-Railway Avenue,BRIDGES AND TUNNELS,Footbridges
-Muskeg Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-UA Main,BRIDGES AND TUNNELS,Footbridges
-Beaver Cove Road,BRIDGES AND TUNNELS,Footbridges
-Zeballos Mainline,BRIDGES AND TUNNELS,Footbridges
-Mt Cain Access Road Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Main Line Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-LA Main,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+04d738ad98694aad602e51fb463e4b3c,bridges and tunnels,bridge,LUKWA CREEK,BRIDGE,Bridge,Province of British Columbia
+061374cc3f334d0300ea595060e3eb66,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0fe67de9cdaae112813de1325a979a81,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+14a59d4ad6bbcbd57f378768dd0c31f9,electric grid,power_plants,..,...,...,Natural Resources Canada
+1a1c707e9bdd0639dc818e055584a92a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1b6861967b80570e97bc3bd9bb9692f6,bridges and tunnels,bridge,KETA LAKE U/P,BRIDGE,Bridge,Province of British Columbia
+1bfc530376af031c03a49f768f1d601b,bridges and tunnels,bridge,NIMPKISH RIVER,BRIDGE,Bridge,Province of British Columbia
+1d40392567c367e7c51742808fc0ad78,bridges and tunnels,bridge,THIEMER CR NO1,BRIDGE,Bridge,Province of British Columbia
+1df9b1614a6a7783c821b1cb80c611cf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1ed60c3c120569fd51a375ff888b2782,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c4d505a51be89c6968a6b6090bce8f4,bridges and tunnels,bridge,GOLD CREEK/IS HWY,BRIDGE,Bridge,Province of British Columbia
+2e6980390111dff996c4f645bfd1caa6,oil and gas,pipelines,..,..,...,Natural Resources Canada
+314a069cea4c468a19df8d281404cc69,bridges and tunnels,bridge,GOLD CREEK CFP U/P,BRIDGE,Bridge,Province of British Columbia
+3ddf3c1ede2270bd3a002eacbdf8f432,bridges and tunnels,bridge,THIEMER CR NO2,BRIDGE,Bridge,Province of British Columbia
+463b59d36f4831e368f49858ef61b653,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4a8828dab45bbf48f6f152f6cebc4173,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+521fca05ba515a2231e692635ff34c99,bridges and tunnels,bridge,MILE 48 CFP U/P,BRIDGE,Bridge,Province of British Columbia
+5b035455a3c415e477a72bdd180fba41,bridges and tunnels,bridge,RELOAD CFP U/P NORTH,BRIDGE,Bridge,Province of British Columbia
+632e65a9c6bea475e1e4f746eafd9556,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+67fde69a20ed9f9c025bb4d3070cad9b,bridges and tunnels,bridge,KINMAN CREEK,BRIDGE,Bridge,Province of British Columbia
+6aa56261cda6b60e3fd3ba4d32592874,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7342b219609007399179c7b87b3a485c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77eb1ce64c6583780c6413ce08c010ed,bridges and tunnels,bridge,NIMPKISH CFP U/P,BRIDGE,Bridge,Province of British Columbia
+7d36eab061374eda319d7951828c847b,bridges and tunnels,bridge,NOOMAS CREEK,BRIDGE,Bridge,Province of British Columbia
+80db979196023af6a7e38f3c783405ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+814e53869fa24dbd894e4025039cf484,bridges and tunnels,bridge,ROONEY LAKE U/P,BRIDGE,Bridge,Province of British Columbia
+8472ffe86c61212cc543896440cef95c,ports and marinas,port,Alert Bay,Port,...,Province of British Columbia
+909d17b48a6ef0f6f0de80bcb97cf166,bridges and tunnels,bridge,ALDER BAY,BRIDGE,Bridge,Province of British Columbia
+9aa028ba9b8c458798a35a2df165e36a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a1f5d8fb25c3c2b555e503c11d7f7dba,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a4a67519f546e134a80009905d04a756,bridges and tunnels,bridge,EVE RIVER,BRIDGE,Bridge,Province of British Columbia
+aa682e65cfcd9e0b9d13f5c3425aecd2,bridges and tunnels,bridge,TSITIKA RIVER,BRIDGE,Bridge,Province of British Columbia
+b59c7ab4fdd2bce2fc4a4f30e74481d4,bridges and tunnels,bridge,ANNE CREEK CFP U/P,BRIDGE,Bridge,Province of British Columbia
+b77cac0c2d8bfbbfcf2d20f5c0090325,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c5f6a06d7702d0c034a3bd8095016026,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d348c4c745a0c1fe6e1911fff10ec0b9,bridges and tunnels,bridge,STEELE CREEK,BRIDGE,Bridge,Province of British Columbia
+e904ebba38202653a8304ee1f04fa99d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ef57e5122379ee9efb31f4d2149aa360,bridges and tunnels,bridge,TSULTAN RIVER,BRIDGE,Bridge,Province of British Columbia
+f2b340d0681072375a8129d12c4204fb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f746003f3fe78288475bfb2859df8c3c,bridges and tunnels,bridge,STOREY CREEK,BRIDGE,Bridge,Province of British Columbia
+f895acb78c025d356f1d68fc884fd325,low carbon,hydro,Kokish River,...,...,World Resources Institute
+f976a789cd15a4574b5e000145f4c1f4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+fb86d81794c840f6c41a814ae2d1043a,bridges and tunnels,bridge,ADAM RIVER,BRIDGE,Bridge,Province of British Columbia
+fd9b51607d001809311741537e4f9098,bridges and tunnels,bridge,RELOAD U/P SOUTH,BRIDGE,Bridge,Province of British Columbia

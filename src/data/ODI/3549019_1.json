@@ -1,30 +1,47 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-3 MILE LAKE ROAD OVERPASS NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-W-N RAMP AT MAGNETAWAN RIVER BRIDGE,BRIDGES AND TUNNELS,..
-South Horn Lake Road,BRIDGES AND TUNNELS,Footbridges
-MAGNETAWAN RIVER BRIDGE NORTH OF KATRINE NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-MAGNETAWAN RIVER BRIDGE NBL,BRIDGES AND TUNNELS,..
-3 MILE LAKE ROAD OVERPASS SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Ontario Street,BRIDGES AND TUNNELS,Footbridges
-Katrine Road,BRIDGES AND TUNNELS,Footbridges
-HWY 520 UNDERPASS SOUTH JCT,BRIDGES AND TUNNELS,..
-Oke Drive,BRIDGES AND TUNNELS,Footbridges
-Ferguson Road,BRIDGES AND TUNNELS,Footbridges
-Sterling Creek Road,BRIDGES AND TUNNELS,Footbridges
-TRANS-CANADA PIPELINE O'HEAD (NBL ONLY),BRIDGES AND TUNNELS,..
-ONTARIO STREET OVERPASS SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-PEVENSEY/ STIRLING CREEK ROAD I-C UNDERPASS,BRIDGES AND TUNNELS,..
-MAGNETAWAN RIVER BRIDGE ON SERVICE ROAD,BRIDGES AND TUNNELS,..
-Doe Lake Road,BRIDGES AND TUNNELS,Footbridges
-MUNICIPAL SERVICE ROAD UNDERPASS HWYS 11 & 592,BRIDGES AND TUNNELS,..
-Pickerel & Jack Lake Road,BRIDGES AND TUNNELS,Footbridges
-Magnetawan River Bridge,BRIDGES AND TUNNELS,..
-North Pickerel Lake Road,BRIDGES AND TUNNELS,Footbridges
-Highway 11,BRIDGES AND TUNNELS,Footbridges
-MAGNETAWAN RIVER BRIDGE NORTH OF KATRINE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-ONTARIO STREET OVERPASS NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-PICKEREL AND JACK LAKE ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-MAGNETAWAN RIVER BRIDGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Pevensey Road,BRIDGES AND TUNNELS,Footbridges
-Proudfoot Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+089cb4fa908bf3b0c2135b9009c52e81,bridges and tunnels,bridge,ONTARIO STREET OVERPASS SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+08e3ee025e130c94b9cef9cd87155ccc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0ce7b85b1a53c2210658c42e897676e7,bridges and tunnels,bridge,MAGNETAWAN RIVER BRIDGE NBL,Bridge,Bridge,Province of Ontario
+10070b56352b645aa88548cd456a1c54,bridges and tunnels,bridge,MUNICIPAL SERVICE ROAD UNDERPASS HWYS 11 & 592,Bridge,Bridge,Province of Ontario
+116b7508a3e7d0a5112a5293ef447abe,bridges and tunnels,bridge,PICKEREL AND JACK LAKE ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+129c136aae4c7897fdc4653330793fea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1453b29396bb67ac95e9d375d0d142c3,bridges and tunnels,bridge,Magnetawan River Bridge,Bridge,Bridge,Province of Ontario
+1cb2eecbc99571562a4b8fc18d969ddb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2456e3e983d8173cbce2fda334407be1,electric grid,power_plants,..,...,...,Natural Resources Canada
+2b59a4c9307a73a0e9c9139c71767df7,bridges and tunnels,bridge,3 MILE LAKE ROAD OVERPASS SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+3a5207d9d6ed3c2ac1f2e23439f64136,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b1cfe89f4ea41cc86085a1a0fdd9cd0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3f6a48c4cac1ff10f48e9dee204385e0,bridges and tunnels,bridge,MAGNETAWAN RIVER BRIDGE NORTH OF KATRINE NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+3ff6cf05d96652f1b0cfed06ba7cd285,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4629d7d1157774ed79fa79f68bb9db51,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+480e1f998cb941a108068a0c46e4ec14,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+49713ffb8071cf87604bbb939df011d2,bridges and tunnels,bridge,W-N RAMP AT MAGNETAWAN RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+54e157952ad0ecd5db1d6d20539c1710,bridges and tunnels,bridge,MAGNETAWAN RIVER BRIDGE NORTH OF KATRINE SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario
+584a98261515799557880e5c0a9fa988,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6d496b7ac50468194bcf61e7de197308,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70ddd351a0dc52718e9c28cefaf912d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+711605cb389e7779baec99a2e3c18de0,bridges and tunnels,bridge,MAGNETAWAN RIVER BRIDGE ON SERVICE ROAD,Bridge,Bridge,Province of Ontario
+77e3899cb24590ed555c8a4b9323e962,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+805ce0d06917fb01ceba4bb679bc1d78,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+83027bb14bda815ada2b9f2e005ebfec,telecom,tower,...,...,...,Natural Resources Canada
+830f9935b252d6fdb54f856b19b5d6fa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+85025322e2e7ee6e9965845952d0c437,bridges and tunnels,bridge,PEVENSEY/ STIRLING CREEK ROAD I-C UNDERPASS,Bridge,Bridge,Province of Ontario
+8a9cde6bec09ea01179a05f3a1d069c2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8eb6e03af7abce9b780d7308db5dc8b7,low carbon,solar,Northland Power Burks Falls West,...,...,World Resources Institute
+92d3dbf023ea2e82c955378f87de3192,bridges and tunnels,bridge,TRANS-CANADA PIPELINE O'HEAD (NBL ONLY),Bridge,Bridge,Province of Ontario
+aa6cad12cde1dff46c7bed71125e5dbb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b3e0f16824b5a0de5fe13f89d8d16ff2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bb86d45dfc1e855c6c0e77c24d01c2d0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c2617edb1a2589dc2b3863eb2718f2cd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c8b93fed7f0b11d3255b65e7a8c47ea9,electric grid,power_plants,..,...,...,Natural Resources Canada
+cbc73ea3070fb4fc311a27787729a78f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ce4fe1210f59d05964de8f92474f8b43,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dbb392ab5c3d63dedf5fb4eacda96699,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dbe07497a8c1bfc28f50935372b1102d,bridges and tunnels,bridge,HWY 520 UNDERPASS SOUTH JCT,Bridge,Bridge,Province of Ontario
+e3b601eed62e568b9e89b9de99550bae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ed70380f238b3eced1ed902cbfe170a9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eda50d0f28f6f5833b36523a22329d8f,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+f190a82b0ddcb88f9695dfa3837825fe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f6d8ac384110610dbcb262708a988ef4,bridges and tunnels,bridge,3 MILE LAKE ROAD OVERPASS NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+f92eff176bac66ad3e53d268f6108cbb,low carbon,solar,Northland Power Solar Burks Falls East,...,...,World Resources Institute
+f98cba44acd185103a1220eb587a99e6,bridges and tunnels,bridge,MAGNETAWAN RIVER BRIDGE SOUTHBOUND LANE,Bridge,Bridge,Province of Ontario

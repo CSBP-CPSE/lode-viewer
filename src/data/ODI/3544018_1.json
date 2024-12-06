@@ -1,45 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Taylor Road Interchange,BRIDGES AND TUNNELS,..
-Hwy 11 Culvert At 117 Interchange,BRIDGES AND TUNNELS,..
-SOUTH MUSKOKA RIVER BRIDGE NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-NORTH MUSKOKA RIVER BRIDGE NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-Miriam Drive,BRIDGES AND TUNNELS,Footbridges
-Thompson Road,BRIDGES AND TUNNELS,Footbridges
-Vankoughnet Road Underpass,BRIDGES AND TUNNELS,..
-Tretheweys Falls Road,BRIDGES AND TUNNELS,Footbridges
-Entrance Drive,BRIDGES AND TUNNELS,Footbridges
-Queen Street,BRIDGES AND TUNNELS,Footbridges
-Highway 118,BRIDGES AND TUNNELS,Footbridges
-SOUTH MUSKOKA RIVER BRIDGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-N-E/W Ramp  AT 11 AND M.R. 117 INTERCHANGE,BRIDGES AND TUNNELS,..
-Wellington Street,BRIDGES AND TUNNELS,Footbridges
-SHARPES CREEK CULVERT,BRIDGES AND TUNNELS,..
-Ecclestone Drive,BRIDGES AND TUNNELS,Footbridges
-MUSKOKA ROAD 117,BRIDGES AND TUNNELS,..
-Santas Village Road,BRIDGES AND TUNNELS,Footbridges
-Stephenson Road 1 East,BRIDGES AND TUNNELS,Footbridges
-Hwy 11 and Muskoka Road 117 Underpass,BRIDGES AND TUNNELS,..
-Doe Lake Road,BRIDGES AND TUNNELS,Footbridges
-Balls Drive,BRIDGES AND TUNNELS,Footbridges
-Highway 11,BRIDGES AND TUNNELS,Footbridges
-Taylor Road,BRIDGES AND TUNNELS,Footbridges
-Covered Bridge Trail,BRIDGES AND TUNNELS,Footbridges
-Lambert Road,BRIDGES AND TUNNELS,Footbridges
-NORTH MUSKOKA RIVER BRIDGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-BLACK RIVER BRIDGE,BRIDGES AND TUNNELS,..
-FRASERBURG ROAD AND MUSKOKA ROAD 14,BRIDGES AND TUNNELS,..
-Fraserburg Road,BRIDGES AND TUNNELS,Footbridges
-Beaumont Drive,BRIDGES AND TUNNELS,Footbridges
-Milne Road,BRIDGES AND TUNNELS,Footbridges
-S-E/W RAMP AT HWY 11 & MR 117 INTERCHANGE,BRIDGES AND TUNNELS,..
-Morrow Drive,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Muskoka Road 117,BRIDGES AND TUNNELS,Footbridges
-High Falls Road,BRIDGES AND TUNNELS,Footbridges
-Cedar Lane,BRIDGES AND TUNNELS,Footbridges
-MUSKOKA ROAD 37 UNDERPASS Road,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-Matthiasville Road,BRIDGES AND TUNNELS,Footbridges
-Stoneleigh Road,BRIDGES AND TUNNELS,Footbridges
-Purbrook Road,BRIDGES AND TUNNELS,Footbridges
-HIGH FALLS PICNIC ROAD,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+02556d2bb5fa4309213c8999326992b4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+02aec84ec8b53055d313504542a1267e,low carbon,hydro,Trethewey Falls,...,...,World Resources Institute
+0b7a7e5f88feaeae1aea907402d8f5f8,electric grid,power_plants,..,...,...,Natural Resources Canada
+1123d9aed0593a35c775b8ab4b556901,telecom,tower,...,...,...,Natural Resources Canada
+1231073c6a8d039594c554444f69b9ef,bridges and tunnels,bridge,BLACK RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+125ccca9dd512997402ec70cc22789ff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+12de9c27b3fbe012e7eae26482d8d7db,bridges and tunnels,culvert,MUSKOKA ROAD 117,Culvert,Culvert,Province of Ontario
+1494a627d322d616c5b663f475a15e40,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+16647cdf9526bc769c0fd114db4a7350,railways,track,..,...,...,Natural Resources Canada
+17e237dafaab264570c3dbcd340e3ff1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1aa300b90559e0ebbddec7e577ec21e1,railways,track,..,...,...,Natural Resources Canada
+24c7ea26b46f9fc4ff416a3c0be7faa0,electric grid,power_plants,..,...,...,Natural Resources Canada
+2713107c482308d3d6c51759134de5ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2732664c5d1e6ba13c4cfff0e43bee70,low carbon,hydro,South Falls,...,...,World Resources Institute
+278b19ee25b5de84a0f2766fefa2996e,low carbon,hydro,Wilson's Falls,...,...,World Resources Institute
+280694b7de5bfb29795799fa0722f15b,airports,...,Bracebridge/spirit Bay Water Aerodrome,seaplane_base,...,OurAirports
+2b2ce9b1b722b27076a5f8285950dec9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b7943dff893691e894b3aa75b93f639,low carbon,hydro,Hanna Chute,...,...,World Resources Institute
+2c050be335cd0f6aa8a8f4f6db3c6e4a,railways,track,..,...,...,Natural Resources Canada
+2daabe21aa1170df11a25055edd0ad3d,bridges and tunnels,culvert,SHARPES CREEK CULVERT,Culvert,Culvert,Province of Ontario
+2eb8fe87af1dbf5ce4b50a318c906b40,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+2eccaee022acc6800ac4002725958f98,railways,track,..,...,...,Natural Resources Canada
+34203434c594278ff2684c6e2955a790,bridges and tunnels,bridge,NORTH MUSKOKA RIVER BRIDGE NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+35d9f4afba15ab98b4e41ccabb50a108,bridges and tunnels,bridge,Vankoughnet Road Underpass,Bridge,Bridge,Province of Ontario
+375a8bde64f22dc5015905d303723ff1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3e52b0fae269c201594f9b28d6cf21ff,low carbon,hydro,Bracebridge Falls,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+3fbc1720998a0c10b32a8339b830e156,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+40c7c3b40341527d9caf976419bbda3f,oil and gas,pipelines,..,..,...,Natural Resources Canada
+43ee4def0a288db309fde6651ca77080,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4867aef3c9a467fe9fa9025d31b6e5b9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4a7570492215c9d2d7154c2fb7926294,bridges and tunnels,bridge,SOUTH MUSKOKA RIVER BRIDGE NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+4c7ad8b26c207efbf1f55523ca3cbfed,bridges and tunnels,culvert,N-E/W Ramp  AT 11 AND M.R. 117 INTERCHANGE,Culvert,Culvert,Province of Ontario
+4dc802db401901e3e6ad0fb46bdfb42e,bridges and tunnels,culvert,S-E/W RAMP AT HWY 11 & MR 117 INTERCHANGE,Culvert,Culvert,Province of Ontario
+4ebb2aeaf6026325d9b4a2c0b40ec645,telecom,tower,...,...,...,Natural Resources Canada
+51b500873289cdae9d3471fc5b8dc4fb,low carbon,hydro,Matthias,...,...,World Resources Institute
+59302dc0da56084f86df545a7b188f5b,bridges and tunnels,bridge,..,Covered Bridge,Bridge,Natural Resources Canada
+5955b93c44815a9425e1beb2c0bf1e5c,bridges and tunnels,culvert,HIGH FALLS PICNIC ROAD,Culvert,Culvert,Province of Ontario
+59c6db46208492475e2597d9eb08cf1f,railways,track,..,...,...,Natural Resources Canada
+5a6469ca53a0182333d864f9936a4500,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5caec29db7b41a53e4f25fb013a82686,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+5d47aa366a91e53844d477a304bc2688,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+66d4db07639d2a0c6b26a00b26b29085,telecom,tower,...,...,...,Natural Resources Canada
+6759ccb03eb735f5a7b1c85e10181c2b,railways,station,Falkenburg,...,...,Natural Resources Canada
+69342bbf78f306ff3d086687df8c8996,low carbon,hydro,Bracebridge Falls,...,...,World Resources Institute
+708a2ef9ed2365400c647cd02bc975a0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70b48b5512ba6b79e1ee3f4ea6d770fe,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b81bf18281b7436a040794f03f41f69,bridges and tunnels,bridge,Hwy 11 and Muskoka Road 117 Underpass,Bridge,Bridge,Province of Ontario
+7e05c624166e952a3e3b259fd6cf05cc,railways,track,..,...,...,Natural Resources Canada
+8048ada8cd83f62969f2cbd253691800,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

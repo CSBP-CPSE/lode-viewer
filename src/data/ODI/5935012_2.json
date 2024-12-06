@@ -1,28 +1,35 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-3660 Block Old Vernon,..,..
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-Philpott Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Old Vernon at Teather,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-Old Vernon at Bulman,..,..
-Old Vernon at Black,..,..
-..,POTABLE WATER,Water Reservoir
-Philpott Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,PEDESTRIAN AND CYCLING,multi-use
-..,WASTEWATER STORMWATER,Storm Pipes of Unknown Size
-..,POTABLE WATER,Transmission Pipes (>416mm)
-Schram Road,BRIDGES AND TUNNELS,Footbridges
-Highway 33,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+95ae78351e8e2159fd356f8c33e81c8b,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+95b16968f639ade2366dc781e90073e3,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+96d6649b0eb0ca2fbb8faac1cabe6876,potable water,pipe,..,..,Pipe main,City of Kelowna
+9cc62280b942569610bfecf3a6014744,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+9d5124acfc8fd0e241d8f107ab0bb2f5,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+a6aae5fe011ab6647a233b83cd1f7bf6,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+a80f085178e681a19d6fe630fecfcf23,oil and gas,pipelines,..,..,...,Natural Resources Canada
+a9c0225dd210a5067570428976a0e7ec,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+acf4ce8fea77530119bd1f09eee08a1e,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+b7bde854abde42a8ea7ca737fb2753f0,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+bae8bae7b251945ce3b154cf1cdf9f98,potable water,pipe,..,..,Pipe main,City of Kelowna
+bbd3b1e5b8dee337ca156f739e50ae43,potable water,facility,..,..,Water reservoir,City of Kelowna
+bdfdf5c7ac87350c9ac2fc91f6c21c57,bridges and tunnels,bridge,ECHO CREEK,BRIDGE,Bridge,Province of British Columbia
+be1406dd9291f7dcc519fa596b3c37b0,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+c1f41dbdf681f3af097c71131cc01cb1,potable water,pipe,..,..,Pipe main,City of Kelowna
+c1f4f569b6596d61c93b6220716100be,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+c44bbb3dc284878378ecf163015c8f0c,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+c460eef9d1c954da4222c4cbe09c7422,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+c5b028afb09e7f71fcf8da36de2970ac,potable water,pipe,..,..,Pipe main,City of Kelowna
+c8d0edc27cdd6471165f0a6ac3deffcf,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+c967eb054d5a068ba5ada81be1d3bb65,potable water,pipe,..,..,Pipe main,City of Kelowna
+d095179e76877eee39e69d0e0143bb59,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+d631f318bd3b62a23a9e5686356a16cf,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+d79361c549971adfc026cfee453839b8,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+d9cd680b3b3ec9da3449a86d620cf75a,telecom,tower,...,...,...,Natural Resources Canada
+e31c80fd9dd26b8b873688fd007edf8a,potable water,pipe,..,..,Pipe main,City of Kelowna
+e8aa886ba666c01ac3c08396a0daafa6,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+ed214bad5f586867ca2e4673b34d0417,potable water,pipe,..,..,Pipe main,City of Kelowna
+edb095cc0f035e10a2bade7da7f4c242,potable water,pipe,..,..,Pipe main,City of Kelowna
+f3ba5fdaf51db9a29bfebfaf29187018,potable water,pipe,..,..,Pipe main,City of Kelowna
+f9420651b3ed2eba4e9a19419c83a832,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+fcbd95933f5f957ee657622a3f4b6ef7,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna
+ff457f01054f446edd4ac184cd14df82,wastewater and storm water,pipes_waste,..,..,Sewer main,City of Kelowna
+ff5b9b569760677ac6ab8d69c1426435,wastewater and storm water,pipes_storm,..,..,Storm pipe main,City of Kelowna

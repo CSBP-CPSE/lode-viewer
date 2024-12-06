@@ -1,22 +1,47 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-BIRCH CREEK CULVERT,BRIDGES AND TUNNELS,..
-BLACK CREEK CULVERT,BRIDGES AND TUNNELS,..
-C.P.R. OVERHEAD,BRIDGES AND TUNNELS,..
-CPR OVERHEAD AT WEBBWOOD,BRIDGES AND TUNNELS,..
-Crossover Road,BRIDGES AND TUNNELS,Footbridges
-Lee Valley Road,BRIDGES AND TUNNELS,Footbridges
-AUX SAUBLES RIVER SNOWMOBILE TRAIL BRIDGE AT MASSEY,BRIDGES AND TUNNELS,..
-Emiry Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-River Road West,BRIDGES AND TUNNELS,Footbridges
-Highway 17,BRIDGES AND TUNNELS,Footbridges
-LOWES CREEK CULVERT,BRIDGES AND TUNNELS,..
-SPANISH RIVER BRIDGE,BRIDGES AND TUNNELS,..
-AUX SABLES RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Government Road,BRIDGES AND TUNNELS,Footbridges
-CULVERT,BRIDGES AND TUNNELS,..
-HEFLER CREEK CULVERT,BRIDGES AND TUNNELS,..
-BIRCH CREEK BRIDGE,BRIDGES AND TUNNELS,..
-Firehall Road,BRIDGES AND TUNNELS,Footbridges
-River Road East,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01999fcaa9e99263e683dec3f4dfd987,wastewater and storm water,facilities_waste,Webbwood Wastewater Treatment Lagoon,"Lagoon - Facultative, Other Treatment",Lagoon,Environment and Climate Change Canada
+04faed8749d7d4e0892c5fa866b98b30,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+05af162e21ea8937224b2a5525bca3fb,bridges and tunnels,culvert,BLACK CREEK CULVERT,Culvert,Culvert,Province of Ontario
+0e712dd768d23cfffd3c7be517ba877b,bridges and tunnels,culvert,CULVERT,Culvert,Culvert,Province of Ontario
+102d1c6ac3d9ef241aee34c102d2eff5,railways,track,..,...,...,Natural Resources Canada
+1195a1cf10bc159c7f07da6e6895d1e0,telecom,tower,...,...,...,Natural Resources Canada
+20245159c3073bf3db6ca5cea6dbc6d9,railways,track,..,...,...,Natural Resources Canada
+28a689f5c4ca8f932c1c8b7cfec8eabf,bridges and tunnels,bridge,C.P.R. OVERHEAD,Bridge,Bridge,Province of Ontario
+29ef363b9eb23750b7f1cf55ab0a975d,telecom,tower,...,...,...,Natural Resources Canada
+3e1b920117bf6247ba13799b53c0305a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+462f13ec48460cc1febfd918d865000b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+47201c885d4029f61a591b8bd0256787,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4f0d6d2d82acf1ef7c9d927a1adb8530,railways,track,..,...,...,Natural Resources Canada
+50cc9d0d6548c451847f0652fe853daa,bridges and tunnels,culvert,HEFLER CREEK CULVERT,Culvert,Culvert,Province of Ontario
+5c7831e6fb6d32e5662797f6701c45d6,railways,track,..,...,...,Natural Resources Canada
+66f3197c84585f6ab76eb31828551f29,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+68586e7cbfb87954ac403550acc48687,bridges and tunnels,culvert,BIRCH CREEK CULVERT,Culvert,Culvert,Province of Ontario
+715c6220f1c375fde01375412827d5c3,telecom,tower,...,...,...,Natural Resources Canada
+778d46d72c9580176eafcd1c07a2d36b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+79ffd992beb29698928c510306b0d172,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+812e8b232b00201177a57ec65bad9415,telecom,tower,...,...,...,Natural Resources Canada
+8e64b75d1aef72069b871ee017d36c54,telecom,tower,...,...,...,Natural Resources Canada
+935517fd82691414b71ea497131b7971,bridges and tunnels,bridge,AUX SABLES RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+9bb62731cbcdd7400c1175b65a225816,telecom,tower,...,...,...,Natural Resources Canada
+a46c27a20213f42b5a5335c0de4a4381,bridges and tunnels,bridge,CPR OVERHEAD AT WEBBWOOD,Bridge,Bridge,Province of Ontario
+a6d3ff551f183cb50f6db5af099a28e8,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+a9f20418f33e456676b7e812b27ae7ff,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+accc9488ae8613b82e23869832e7200e,low carbon,hydro,Cameron Falls,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+ad54ac8d37a4baab52c1662802984289,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ba4858b95a04e2a07de29ce2a4a0fa09,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d1db23b2910856f01bafe301d32d5e0d,bridges and tunnels,bridge,AUX SAUBLES RIVER SNOWMOBILE TRAIL BRIDGE AT MASSEY,Bridge,Bridge,Province of Ontario
+d2f63ec886bee4da9b7741595165e312,bridges and tunnels,bridge,BIRCH CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+d815c8da764796ce1c6917daf9d4104f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+daad6ecb8d60fe807c67d26464bd054e,low carbon,hydro,Cameron Falls - Brp,...,...,World Resources Institute
+dcfdca8ddaf6f93322f8db124297968d,bridges and tunnels,bridge,SPANISH RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+e0d4dccd5696755e51311d09208cdcca,railways,track,..,...,...,Natural Resources Canada
+e3a7968c92d110fe7f27718b3fcefe23,railways,track,..,...,...,Natural Resources Canada
+e43bfce024770482230c172f610834dc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e58444c5ef06fa94eca5a2f17f86c3f4,bridges and tunnels,culvert,LOWES CREEK CULVERT,Culvert,Culvert,Province of Ontario
+f434e94d088f63166b2aa41e952d7940,electric grid,power_plants,..,...,...,Natural Resources Canada
+f4f2af856e50c35cd69737877fd4f906,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+f757974f4a9de5e1016cc0102d566adf,railways,track,..,...,...,Natural Resources Canada
+fa93d4c1cac77445011d8c86d1bf3018,railways,track,..,...,...,Natural Resources Canada
+fd2d05515b0c346628d860519411644b,railways,track,..,...,...,Natural Resources Canada
+fd73ab6b76b4bd8b9c8f14b69a0bc025,railways,track,..,...,...,Natural Resources Canada
+fe7db7b3f74b5d5ef7f6c5603e8b4de4,railways,track,..,...,...,Natural Resources Canada

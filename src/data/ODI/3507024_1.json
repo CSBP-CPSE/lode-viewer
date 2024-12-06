@@ -1,10 +1,14 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-King Street East,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Water Street West,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-MacHar Street,BRIDGES AND TUNNELS,Footbridges
-Water Street East,BRIDGES AND TUNNELS,Footbridges
-1000 ISLAND PARKWAY UNDERPASS,BRIDGES AND TUNNELS,..
-CNR/GANANOQUE RIVER BRIDGE,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+17f35ad3b6381661677429fa1b992691,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+40f890b7795d82c6c31e2435a6cd2c24,wastewater and storm water,facilities_waste,Gananoque Sewage Lagoons,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+448c5f042f414083ba1e6e130429f925,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4775aa147781570c39fc23c8fa572d93,telecom,tower,...,...,...,Natural Resources Canada
+4f57c5b96e7bc3d3560a29e1fd0cdc89,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5457791f4144ba6f6c14e89c6467c2ad,telecom,tower,...,...,...,Natural Resources Canada
+9ab9a64c217ace14b90350a99e06225d,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+9b2530d3bd3273475ed4b6a8ac4c3214,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c8297f7c1d32f85a98a3a3cdbb1df5d8,ports and marinas,port,Gananoque,..,...,National Geospatial-Intelligence Agency (NGA)
+d3e2c58af8a0db97dc65f54a7857a159,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+e3566d2bcf26e2f75c8dba0b8adeb667,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f1ac3b6d029ffdcc34c54e68939cc054,bridges and tunnels,bridge,1000 ISLAND PARKWAY UNDERPASS,Bridge,Bridge,Province of Ontario
+f7dc88cb7b9204fe05455e49e51ed632,bridges and tunnels,bridge,CNR/GANANOQUE RIVER BRIDGE,Bridge,Bridge,Province of Ontario

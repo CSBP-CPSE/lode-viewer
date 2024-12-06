@@ -1,26 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-391 Highway,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,SOLID WASTE,Active Dump Sites
-..,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-..,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,WASTEWATER STORMWATER,..
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,SOLID WASTE,Materials recovery facility
-280 Highway,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,WASTEWATER STORMWATER,..
-373 Highway,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,SOLID WASTE,Active Dump Sites
-..,SOLID WASTE,Active Dump Sites
-..,SOLID WASTE,Active Dump Sites
-Misson Island Drive,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-..,WASTEWATER STORMWATER,..
-..,SOLID WASTE,Active Dump Sites
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00ec42a7400533bc5f766e552222a53e,airports,...,St. Theresa Point Airport,medium_airport,...,OurAirports
+0255ac1f3fa27f3cc68893ee9f3ace8b,railways,track,..,...,...,Natural Resources Canada
+029f6bad9572ac3a55fd9a4448e23cad,railways,station,La Perouse,...,...,Natural Resources Canada
+04917efd3a793a56901b4605381a6e9d,railways,track,..,...,...,Natural Resources Canada
+054f0ad1b6f454581961ead394336173,telecom,tower,...,...,...,Natural Resources Canada
+0645c294b293c76f20816a82d4eacf5a,solid waste,landfill,Manto Sipi Community Site (site #1),Landfill,Engineered landfill,Province of Manitoba
+06779311d50d45c0d09cebca0703af9c,railways,station,Pipun,...,...,Natural Resources Canada
+084645411616f40419075b02e1ed224d,airports,...,Island Lake Airport,medium_airport,...,OurAirports
+084a169e04606deee33d5776f0d7a4f8,railways,station,Lyddal,...,...,Natural Resources Canada
+08931142407bb1cbcd1c0e19789f526d,telecom,tower,...,...,...,Natural Resources Canada
+0bf08b368598a634d18d78c2f41150c9,railways,track,..,...,...,Natural Resources Canada
+0c503040d5f00050ddb152c1a395b772,railways,track,..,...,...,Natural Resources Canada
+0eccccbac7c7aff5e5ed5bbbfd5eccd3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f14c468558036b31d4340af84f0927b,railways,track,..,...,...,Natural Resources Canada
+0f1fd1079d9afbedec31b260d0243456,airports,...,Knee Lake Seaplane Base,seaplane_base,...,OurAirports
+1025531bc8238e3a2f497cc7620ff7aa,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+11c78ab8c2a521d2f05689768bf6f6cd,airports,...,Pikwitonei Airport,medium_airport,...,OurAirports
+13ffaf2868fe21b078bf69241106406e,railways,track,..,...,...,Natural Resources Canada
+14de33c3d23de9331ed7daf44ffb7069,electric grid,power_plants,..,...,...,Natural Resources Canada
+1529a2359651d8fd98dab4cb5163221b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+157982cd2b5ed80ecc3fb33e3cd1da00,railways,track,..,...,...,Natural Resources Canada
+167f35aad707363fcd6b23a08f954c8c,solid waste,landfill,Thicket Portage Waste Disposal Ground,Landfill,Engineered landfill,Province of Manitoba
+18d16ec7684061a96506bf93c3360f3f,railways,track,..,...,...,Natural Resources Canada
+19035c533c1d00ceec7d102f4057d9fb,railways,station,Thicket Portage,...,...,Natural Resources Canada
+19a5fc3614de1b6d47e715128fac4fb6,wastewater and storm water,facilities_waste,Wabowden Wastewater Lagoon,Lagoon - Facultative,Lagoon,Environment and Climate Change Canada
+1a8edfca74f8ae73314f3079857a1a0e,railways,track,..,...,...,Natural Resources Canada
+1b14d4d30381e1c4275df78a5e8c58a8,railways,track,..,...,...,Natural Resources Canada
+1b349cc7b5702be995d5b10921d413cb,railways,track,..,...,...,Natural Resources Canada
+1b53c7fde7f6c7ceaf0e16db9f413a8f,airports,...,Gods Lake Airport,small_airport,...,OurAirports
+1bfb3c90b860af1dcf986938c98d9ef3,railways,track,..,...,...,Natural Resources Canada
+1c49cbf33895b826dda15787bb867040,railways,track,..,...,...,Natural Resources Canada
+1da27b223b6bcec8c2b7328857a0a9ac,railways,track,..,...,...,Natural Resources Canada
+1dc13ec929266046cf3227430e5c6373,telecom,tower,...,...,...,Natural Resources Canada
+20e47b569d22243cc80cb93c6dc08a63,railways,station,Wabowden,...,...,Natural Resources Canada
+20e81932639c1a85bcb6eeed3a06b4b4,railways,station,Mile 278.6,...,...,Natural Resources Canada
+22bf184bd75c6fd3bcb45297aeb47e72,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2485f83695895d8191b8c6e6fbb81801,railways,track,..,...,...,Natural Resources Canada
+26d0819afe1c1997a6984d7dbefb8596,solid waste,landfill,Pikwitonei Waste Disposal Ground,Landfill,Engineered landfill,Province of Manitoba
+276dda04ada0ac02e77d39755cacfd27,railways,track,..,...,...,Natural Resources Canada
+27b4a4e569ac6d5e549af2f2a7bd2921,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+286d0f3a04a339ee3853e18d1251e313,railways,station,Nonsuch,...,...,Natural Resources Canada
+2a546e04d79aef0ad31d6ab910337dcd,railways,track,..,...,...,Natural Resources Canada
+2dcca52a29ad28d413d5c73e88fba203,railways,station,Wilde,...,...,Natural Resources Canada
+30a1b77938008c7943d681d6a01ed1a3,railways,track,..,...,...,Natural Resources Canada
+316e5af82c7ac07423e2b9f10450b937,airports,...,Gods Lake Narrows Airport,medium_airport,...,OurAirports
+340dee00763afb115abb0b3411048f9e,railways,track,..,...,...,Natural Resources Canada
+340df869a37d37e969097c3485d38a76,railways,track,..,...,...,Natural Resources Canada
+35bf3e95de91af70b6d3d0a90dc8d627,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+396029a1b36a7e2e88f0c3c2adc06cb7,railways,track,..,...,...,Natural Resources Canada

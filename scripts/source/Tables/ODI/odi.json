@@ -1,6 +1,6 @@
 {
     "id" : "ODI",
-	"source" : "./source/Tables/ODI/ODI_v1.csv",
+	"source" : "./source/Tables/ODI/ODI_v2.csv",
 	"title": {
         "en": "Detailed table of Infrastructure in {0}",
         "fr": "Tableau détaillé des infrastructures {0}"
@@ -11,20 +11,41 @@
     },
     "fields": [
         {
-            "id": "NAME",
-            "en": "Name",
-            "fr": "Nom",
-	        "type": "text"
-        }, {
-            "id": "INFRASTRUCTURE_TYPE",
+            "id": "id",
+            "en": "ID",
+            "fr": "ID",
+           "type": "text"
+        }, 
+        {
+            "id": "infrastructure_type",
             "en": "Type",
             "fr": "Type",
 	        "type": "text"
         }, {
-            "id": "INFR_SUB_TYPE",
+            "id": "sub_type",
             "en": "Sub-Type",
             "fr": "Sous-type",
 	        "type": "text"
+        }, {
+            "id": "name",
+            "en": "Name",
+            "fr": "Nom",
+	        "type": "text"
+        }, {
+            "id": "source_class",
+            "en": "Source Class",
+            "fr": "Classe de source",
+            "type": "text"
+        }, {
+            "id": "ccpi_class",
+            "en": "CCPI Class",
+            "fr": "Classe de l'IPEC",
+            "type": "text"
+        }, {
+            "id": "provider",
+            "en": "Provider",
+            "fr": "Fournisseur",
+            "type": "text"
         }
     ]
 }

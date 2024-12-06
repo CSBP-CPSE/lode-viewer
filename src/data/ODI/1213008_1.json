@@ -1,11 +1,17 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-WYLDES BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Main Street,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Donkin Street,BRIDGES AND TUNNELS,Footbridges
-NO.2 (MURRAY BROOK) BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Mill Street,BRIDGES AND TUNNELS,Footbridges
-Murray Street,BRIDGES AND TUNNELS,Footbridges
-NO.3 (MURRAY BROOK) BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MURRAY BROOK #4,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+18be969ce3caf572d022b22e06899144,electric grid,power_plants,..,...,...,Natural Resources Canada
+366aa8e11b0c11d66d3df3c2c673edf3,bridges and tunnels,mixed,MURRAY BROOK #4,..,..,Province of Nova Scotia
+36a62c70601bc3bfd58e20277503d837,wastewater and storm water,facilities_waste,Main St Waste Treatment,"Grit Removal, Primary Sedimentation/Clarification, No treatment",Unclassified,Environment and Climate Change Canada
+56440897dc0a906b726dea9265c1ad96,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+5a5eb74bb7a9d4f66a89f6ee4c4d2085,telecom,tower,...,...,...,Natural Resources Canada
+6bea932a9ef29d71904ce108af89fe9b,bridges and tunnels,bridge,NO.3 (MURRAY BROOK) BRIDGE,..,..,Province of Nova Scotia
+8ca531af77487ca3bcd61c7bbdbfc405,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+95b56d91053d609729a25115e619edbb,telecom,tower,...,...,...,Natural Resources Canada
+9949abffa16f21ff7f8ffe681a93234c,wastewater and storm water,facilities_waste,68 Loggie St Waste Treatment,"Grit Removal, Screening, Primary Sedimentation/Clarification, Sequencing Batch Reactor, Disinfection",Unclassified,Environment and Climate Change Canada
+a606bbc60bb38cd5c30e34906fb9312d,low carbon,wind,Mulgrave,...,...,"Government of Canada, Natural Resources Canada"
+b88ee49ccfc020a4e9495656778d60d9,bridges and tunnels,bridge,NO.2 (MURRAY BROOK) BRIDGE,..,..,Province of Nova Scotia
+b9d0a745433d15e4a6c69508a0309fc4,bridges and tunnels,bridge,WYLDES BRIDGE,..,..,Province of Nova Scotia
+c3836f79ef5535d28af3ba5702a898e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c82f2828466395f360b8668e16821227,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+eaabd3f34b38846390961b6fb6f91e5e,telecom,tower,...,...,...,Natural Resources Canada
+f996aeedbd2f28e2a751706ddfbfcb96,low carbon,wind,Mulgrave,...,...,World Resources Institute

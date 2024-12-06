@@ -1,6 +1,8 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route Marie-Victorin,BRIDGES AND TUNNELS,Footbridges
-Route 265,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+040f74ce77b12b9fead18383b834b436,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+46da8249f6d2e63fec916d8f6946542d,ports and marinas,mixed,Deschaillons,Recreational,...,Fisheries and Oceans Canada
+4df86d703c7925933ad30f4c2033abd9,low carbon,charging_stations,Relais Des Navigateurs (esso),...,...,Government of Quebec
+7f2d2a4b3efd770f68d1ebd9e9631775,low carbon,charging_stations,Brcc - Desjardins - Cds Deschaillons-sur-st-laurent,...,...,Government of Quebec
+c469935d2638d0c49827e8762e74a3a2,telecom,tower,...,...,...,Natural Resources Canada
+e0849413712ba0e30fcdf0181ef7144c,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Deschaillons-sur-saint-laurent,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+f1f86ba4b33bc925d7ade9f469885ac7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

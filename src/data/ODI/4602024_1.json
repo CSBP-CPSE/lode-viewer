@@ -1,16 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Hunter Street,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Materials recovery facility
-Curran Street,BRIDGES AND TUNNELS,Footbridges
-218 Road,BRIDGES AND TUNNELS,Footbridges
-217 Road,BRIDGES AND TUNNELS,Footbridges
-Waddell Avenue,BRIDGES AND TUNNELS,Footbridges
-201 Road,BRIDGES AND TUNNELS,Footbridges
-Prawda School Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,SOLID WASTE,Active Dump Sites
-217+218 Road,BRIDGES AND TUNNELS,Footbridges
-Provincial Trunk 75 Highway,BRIDGES AND TUNNELS,Footbridges
-North Street,BRIDGES AND TUNNELS,Footbridges
-Provincial Trunk 59 Highway,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01719eb3626cdffd85bbe32f4b0190c9,telecom,tower,...,...,...,Natural Resources Canada
+05a3bc8e4a9671e093494841fbaea96d,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+05e62139103bd64a3df2096b9269aa4f,telecom,tower,...,...,...,Natural Resources Canada
+087a9ff9a8c5955e110a4f2c57361cdb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0de20d1c8f14291765336c84cef3f0f5,railways,track,Emerson,...,...,Natural Resources Canada
+0f62c387ba3714dcb215da4d0a5da91a,railways,track,Emerson,...,...,Natural Resources Canada
+116e1361888859117bcbd80dabaab9a9,oil and gas,pipelines,..,..,...,Natural Resources Canada
+1285b189806f09d2354a74f4d5b28a9b,railways,track,..,...,...,Natural Resources Canada
+13e1b760cebc88bfc1d947f03d84e556,railways,track,..,...,...,Natural Resources Canada
+1483d02c0e10a41e833c6d4b9a61e495,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+15b3110f51d904043941496f6789f8b9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+17e54e27da5ed0349efb7d0e3c860ec4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+182d53b4a8026f4752f17760bc54538a,railways,station,Emerson,...,...,Natural Resources Canada
+19bbd678dbf79dd1c8c6492f9ac537b2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+1a66e45e0d17c1860a903756c20b39a0,solid waste,recycling,Riach's Lumber & Hardware,..,Material recovery,Province of Manitoba
+1e261d960921561f1b9464441b201e4e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2180d0d7e2c2c76f6bf62f147fe88738,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2285af53180072422158f10d3877a259,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+23c42c1662195186d61f0ad628a444c8,railways,track,..,...,...,Natural Resources Canada
+24874b6c456d7ccd41ce0a9a6e4f8296,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+268bf79734992f0d8290cc76c6eec7c6,solid waste,recycling,The Tractor People,..,Material recovery,Province of Manitoba
+2c5eb97cbb583d8c6e2995561f26d355,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+2dec06cee5bad25b6aca8e67492b50ae,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2df159b7277134918d5f9b8bd63f9c44,solid waste,recycling,Gilbert Lavallee,..,Material recovery,Province of Manitoba
+32ce96bd78e3705743b5e4f8f230a689,railways,track,..,...,...,Natural Resources Canada
+3a8139ac1b527e5a51f61068d8e0a5f6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3a977f1d85dca8002f9eb313141a0d60,railways,track,Emerson,...,...,Natural Resources Canada
+3c49e3a5781f3a0e328a92cc6849c597,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3cbf38a7c6b653e571b3f206b5a4c961,railways,track,..,...,...,Natural Resources Canada
+3e36686f6f4800ab9df23a1c3501465a,railways,track,63958 Manitoba Ltd.,...,...,Natural Resources Canada
+3e3773576ad2ddf109f60473dbd5ea04,railways,track,..,...,...,Natural Resources Canada
+3fe2076097824d9d0a7085e37f7711cb,railways,track,..,...,...,Natural Resources Canada
+42ea2b392fb6d1b8126d803cfadd841a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4411c4db4105dfac4be1fcaeda9757ea,railways,track,..,...,...,Natural Resources Canada
+44ec8066ac1374bd200a902e37647da0,railways,track,..,...,...,Natural Resources Canada
+464b97b326d15eef1a814b5275a5a6e1,railways,track,Emerson,...,...,Natural Resources Canada
+475431eb30a8447f69ef2f32c05fe370,solid waste,landfill,Emerson-franklin Waste Transfer Station,Waste Transfer Station,Transfer station,Province of Manitoba
+4b16a2af7f82cf2a20e4a69f6e4e5ddf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4fdfe9c89f4f2b7113fe93e43913c812,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+517be41b96d3c1c7c3330f1d4c23d03c,railways,track,Emerson,...,...,Natural Resources Canada
+5773c01d5d623d4225419eeb0f249544,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+58b7238cc9f7c08b86615d20f88803c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5eb94e27646a8d490e468a265f7a9f34,solid waste,recycling,Emerson-franklin Waste Transfer Station,..,Material recovery,Province of Manitoba
+6120f3f0825210c6cff798cc7b000318,railways,track,Emerson,...,...,Natural Resources Canada
+69ed9330f954f642d53b620e28161777,railways,track,..,...,...,Natural Resources Canada
+6b9ab80013c0a14056ae0daf1d16c424,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6daae192ecf3083eb8730a4834419c1c,railways,track,Emerson,...,...,Natural Resources Canada
+704d63c9ad68709e73dbee7278b1a324,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70641ef5c192ffa14ccdca39d3bd841e,oil and gas,pipelines,..,..,...,Natural Resources Canada

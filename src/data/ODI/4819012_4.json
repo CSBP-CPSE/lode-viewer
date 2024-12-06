@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-100 Ave-100 St,..,..
-105 St-125 Ave,..,..
-Pinnacle St-68 Ave,..,..
-100 St-85 Ave,..,..
-Lakeland Dr-119 Ave,..,..
-100 Ave-96 St,..,..
-99 Ave-97 St,..,..
-102 St-102 Ave,..,..
-Muskoseepi Park,..,..
-108 St-Royal Oaks Dr,..,..
-..,BRIDGES AND TUNNELS,Footbridges
-92 Ave-98 St,..,..
-Mission Heights Dr-Kateri Dr,..,..
-Royal Oaks Dr-108 St,..,..
-90 St-105 Ave,..,..
-106 St-101 Ave,..,..
-Towne Centre Mall (North Side),..,..
-108 Ave-97 St,..,..
-Poplar Dr-73 Ave,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-93 St-101 Ave,..,..
-Holy Cross School,..,..
-104 St-128 Ave,..,..
-104 Ave-111 St,..,..
-96 St-114 Ave,..,..
-102 St-107 Ave,..,..
-88A St-65 Ave,..,..
-Poplar Dr-79 Ave,..,..
-..,WASTEWATER STORMWATER,..
-111 Ave-90 St,..,..
-106 St-100 Ave,..,..
-Chandelier Park,..,..
-100 Avenue,BRIDGES AND TUNNELS,Footbridges
-Mission Heights Dr-83 Ave,..,..
-100 St-70 Ave,..,..
-108 Ave-96A St,..,..
-99 St-67 Ave,..,..
-Pinnacle St-Pinnacle Dr,..,..
-96 St-108 Ave,..,..
-Crystal Ridge Rd-119A Ave,..,..
-102 St-103 Ave,..,..
-89 Ave-110 St,..,..
-109 St-97 Ave,..,..
-93 St-105 Ave,..,..
-98 Ave-114 St,..,..
-112 St-104 Ave,..,..
-97 St-119 Ave,..,..
-Towne Centre Mall (West Side),..,..
-109 St-87 Ave,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+97acc6d1c94be7534d65c8f1cd368a59,wastewater and storm water,facilities_waste,Aquatera Grande Prairie Wastewater Facility,"Grit Removal, Screening, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Rotating Biological Contactor, Biological Nutrient Removal (Nitrogen and Phosphorus), Polishing Ponds",Unclassified,Environment and Climate Change Canada
+97d96eed5881598ec7754f672be0d730,railways,track,Grande Cache North,...,...,Natural Resources Canada
+9988147a84626c4bc57a91264f13a356,bridges and tunnels,..,..,STANDARD BRIDGE,Collector Bridge,Government of Alberta
+9b08a3561b2c963efe86320aaf401c9d,railways,track,Grande Cache North,...,...,Natural Resources Canada
+9c61de273d10f3fbe72688c44a3a789e,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+9c69bbee919847632082197c672a009d,railways,track,Grande Cache North,...,...,Natural Resources Canada
+9d29363f37aafdf945cf5ed37390cc64,railways,track,Grande Cache North,...,...,Natural Resources Canada
+9de763abe3b57af01dd9743242b0cf93,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+a031d4a51e8d989245769b305eee9cce,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+a0526be85dc6c8e82cdecd4eacacf5b9,railways,track,Grande Prairie North,...,...,Natural Resources Canada
+a27829fb377d5d407d3ff8bc175ef309,railways,track,Grande Cache North,...,...,Natural Resources Canada
+a492ae81b99cc05cd655147e3ba4ead5,bridges and tunnels,bridge,..,Driving Bridge,Vehicle Bridge,City of Grand Prairie
+a4b9c2670b1066c1e6ea7f9c8e334651,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+a5e4e852070f55d40e8415b1fbe22a27,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+a67d43ad067333556e899f1ada9dc86f,railways,track,Grande Cache North,...,...,Natural Resources Canada
+a819b1846edf975d648d1df0da47c99e,oil and gas,facilities,Hermit Lake No 2 Sales,..,...,Alberta Energy Regulator
+abe1598ccad43e837e2a5326243b3d64,solid waste,landfill,Grande Prairie/wmf/municipal Landfill,Class II - Approval,Engineered landfill,Alberta Environment and Protected Areas
+acf642498e40df740d378abce5d83bb0,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+b02edb456e233b23c199955240fc6439,oil and gas,facilities,Fresh Water Gp,..,...,Alberta Energy Regulator
+b03d129489d220bab10d1211e52c8f03,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+b0739ccc45d9763fcdd4ac35cb99b75a,railways,track,Grande Cache North,...,...,Natural Resources Canada
+b097df7ae090fb857b26b5b6cf2cb047,railways,track,Grande Cache North,...,...,Natural Resources Canada
+b1f4c875030e12e565d05add91069f25,bridges and tunnels,bridge,..,Pedestrian Bridge,Footbridge,City of Grand Prairie
+b1f648bc302b1e88188a91cdcf433b11,bridges and tunnels,bridge,..,Pedestrian Bridge,Footbridge,City of Grand Prairie
+b1fb812d87205c1e5ed2abae6ca02849,railways,track,Grande Cache North,...,...,Natural Resources Canada
+b31bca094bf98befa61a0dba93850956,railways,track,Grande Cache North,...,...,Natural Resources Canada
+b50fd112dc37083ce75523d7b83b29c3,railways,track,..,...,...,Natural Resources Canada
+b54c1ff24a91f10146a16560bb2af5f6,bridges and tunnels,bridge,..,Pedestrian Bridge,Footbridge,City of Grand Prairie
+b58bcddce57915035e2700a0a2cd8574,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+b7f6d867e123460aeecbcd26dc0cf5e0,railways,track,Industrial Lead,...,...,Natural Resources Canada
+b88da72a0fdce7d4aca5d337079bfd8c,bridges and tunnels,culvert,..,Culvert Bridge,Culvert,City of Grand Prairie
+bb438f58b7dcac913bc093913b934cce,bridges and tunnels,bridge,..,Pedestrian Bridge,Footbridge,City of Grand Prairie
+bbe63d23d4edb81013a774c33d78878d,bridges and tunnels,bridge,..,Driving Bridge,Vehicle Bridge,City of Grand Prairie
+bc2f72b5ef4c97b5c6667224388cfb20,railways,track,Grande Cache North,...,...,Natural Resources Canada
+bdeaa2f2e39a013ba33d24b3e8e89e5b,railways,track,Grande Cache North,...,...,Natural Resources Canada
+bf925459fbb7594f15b91daf3527fb12,bridges and tunnels,culvert,..,Culvert Bridge,Culvert,City of Grand Prairie
+c1043625e51d3a5186767584777f5377,railways,track,Grande Cache North,...,...,Natural Resources Canada
+c10c0193434a7c3c354cc64f13913eac,wastewater and storm water,facilities_waste,Aquatera Airport Wastewater Lagoon,"Lagoon - Anaerobic, Lagoon - Facultative, Storage Ponds",Lagoon,Environment and Climate Change Canada
+c219b41fa789dfd31cd35050c24bb8d2,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+c2f6fdb1d5a4faac26da213b78703e97,electric grid,power_plants,..,...,...,Natural Resources Canada
+c5d597548a57c4fbb37754fba11b7e1b,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+c639b6c97bb6c90b78041ce1249ac709,bridges and tunnels,bridge,..,Pedestrian Bridge,Footbridge,City of Grand Prairie
+c6c8ccf63270da81ee3259b11a34a8e5,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+c7052479d6fa3e911fa266b898f09ab6,airports,...,Queen Elizabeth Ii Hospital Helipad,heliport,...,OurAirports
+c71ba70db3eb4ac287030e4f124c7e80,bridges and tunnels,..,..,MAJOR BRIDGE,Arterial Bridge,Government of Alberta
+c7dfbfcd669707aed76306b30d54cd82,bridges and tunnels,culvert,..,BRIDGE CULV,Culvert,Government of Alberta
+c8bc0e5f4c90d8b220d0b213bcd5b84e,railways,track,..,...,...,Natural Resources Canada
+c98d5ac2d4dccd08d029804e18c307a2,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+cba131c8bd69c4f71d3bdc87b880acae,telecom,tower,...,...,...,Natural Resources Canada

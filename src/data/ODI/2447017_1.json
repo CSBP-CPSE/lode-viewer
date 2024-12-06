@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Rue Ostiguy,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rang 11e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Saint-Charles Sud,BRIDGES AND TUNNELS,Footbridges
-Chemin Milton,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Mountain,BRIDGES AND TUNNELS,Footbridges
-Rang 10e Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Robinson Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Pierre-Laporte,BRIDGES AND TUNNELS,Footbridges
-Rue de la Gare,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Rue Simonds Sud,BRIDGES AND TUNNELS,Footbridges
-Boulevard David-Bouchard Sud,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+004e755c56e27c63dc63a88e040e0be4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+03fb4190d590f9c5572fce9aa8c661f2,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+0aabfde41ef496e05b9c10868417e66a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0dd10dba02b9136c740646873ebad6c0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0e1dbe0e1655a6cb8dcfa69a3b1bef38,low carbon,charging_stations,Granby - Stationnement De La Place Johnson,...,...,Government of Quebec
+15b1bf3f3ee0ec005b6b20bebaf0b52b,telecom,tower,...,...,...,Natural Resources Canada
+17fa8148dcb841a5b3b9e094aaa83fe0,bridges and tunnels,mixed,..,..,..,La Province de Québec
+1871c18b3b56a3a3a9920eeb63a5c66e,airports,...,Artopex Plus Heliport,heliport,...,OurAirports
+1bd1d778186b3901ffd9d45201522ff3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f6121788519f20dc934eb3a5e4c14d4,telecom,tower,...,...,...,Natural Resources Canada
+21e54fdfeb89cd310800dde89256ca85,low carbon,charging_stations,Granby - Stationnement Cinlb,...,...,Government of Quebec
+24808a1fe9d0c890792fe459c47fe54a,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+281391bcf52eeb0e0571af68e1ff0cd5,low carbon,charging_stations,Granby - Rue Victoria,...,...,Government of Quebec
+31eae4e283b5c96f878325c0e7303aed,low carbon,charging_stations,St-hubert - Granby,...,...,Government of Quebec
+33c66d0fbb3bef961880dd0bb089b6af,bridges and tunnels,mixed,..,..,..,La Province de Québec
+36b3abfa3470c701ff11bd3f79ba2a5d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+3aa1db9737dc6dee3fa6125c14a18219,bridges and tunnels,mixed,..,..,..,La Province de Québec
+42bb25b29871dae2e72bdb6d38e4f4fa,bridges and tunnels,mixed,..,..,..,La Province de Québec
+47e0cecd76fe1ba37024e33d24cf6be8,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+490d51f070a5455117b21d4b9c6bccd7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4b673dc113448ce03f375c08a585fefd,low carbon,charging_stations,Granby - Centre Aquatique,...,...,Government of Quebec
+4f9ea4f2e88b29e3a59a0359dccb719f,low carbon,charging_stations,Hershey Canada - Granby,...,...,Government of Quebec
+5740ad456acf64d7e6c25b6dba91fc2f,low carbon,charging_stations,Granby - Rue Lafontaine,...,...,Government of Quebec
+5c1f14aa057d740795bc2ab1c4c24652,bridges and tunnels,mixed,..,..,..,La Province de Québec
+5c2f561248565b536ff464d1fd5fa223,low carbon,charging_stations,Brcc - Granby - Couche-tard,...,...,Government of Quebec
+636375ad826f14d01cc53bcda3ee65de,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6383d6fa169cff5b3f9d3217799f8fe5,low carbon,charging_stations,Granby - Rue Racine,...,...,Government of Quebec
+6569f1c9c1ae5acd4977cd3be6c760de,low carbon,charging_stations,Mrc La Haute-yamaska,...,...,Government of Quebec
+6efe3403308ab673246d9cad2e156c07,low carbon,charging_stations,Cégep De Granby,...,...,Government of Quebec
+7019884f5c7ca93676f3c86ace339e48,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7399953e7d83a3de4ca27fe121b621d2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77617c78caa25f617f0a27d440090144,low carbon,charging_stations,Granby - Rue Saint-joseph,...,...,Government of Quebec
+78de14b5bae7afbffb2e2e1623863e6c,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+7c4f150c173a0b42c4c6daab1e79abb9,bridges and tunnels,mixed,..,..,..,La Province de Québec
+7fd2b5c11f2c067203a37b14a15d2eaa,low carbon,charging_stations,Granby - Rue Swett,...,...,Government of Quebec
+85a74d1b9a5410a81cd317bdc19a2bc1,wastewater and storm water,facilities_waste,Station D'épuration Des Eaux Usées De Granby,..,Waste treatment plant,Environment and Climate Change Canada
+8802b3263c8c4ea191f40800f5b94398,bridges and tunnels,mixed,..,..,..,La Province de Québec
+8a192671a41dffbbbb9b5c20b866b63b,low carbon,charging_stations,Desjardins - Granby-haute-yamaska,...,...,Government of Quebec
+9223afad68bbdf5c401c129fa363aca0,bridges and tunnels,mixed,..,..,..,La Province de Québec
+92d412442eca7afe9a907839aa3682a1,oil and gas,pipelines,..,..,...,Natural Resources Canada
+954c1f86aac6a2ed458fea8b93b694d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+976d28f9114a25640a92c28b020a3547,low carbon,charging_stations,Ville De Granby - Ferme Héritage Miner,...,...,Government of Quebec
+9cb4021bb1676d3ac2b2fb97f7deae65,oil and gas,facilities,..,..,...,Natural Resources Canada
+a3be3af0efef59e4f1812d87a0331cdb,oil and gas,facilities,..,..,...,Natural Resources Canada
+a8525ca9a023b3cf536bd10f25db47af,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+a8c461e1efbeacf9ed140cdae2315684,low carbon,charging_stations,Granby - Stationnement Dubuc,...,...,Government of Quebec
+aa7f36442bcdf8a6374c3fbc284c7535,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+af114208c49cb7a9c021d1820c4e414e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c0a86b14c11f0745ef4ce98b931c5113,telecom,tower,...,...,...,Natural Resources Canada

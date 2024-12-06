@@ -1,45 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Cherry Hill Road,BRIDGES AND TUNNELS,Footbridges
-Wyton Drive,BRIDGES AND TUNNELS,Footbridges
-Rebecca Road,BRIDGES AND TUNNELS,Footbridges
-Thorndale Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Bridges
-Highway 7,BRIDGES AND TUNNELS,Footbridges
-Westchester Bourne,BRIDGES AND TUNNELS,Footbridges
-Dorchester Road,BRIDGES AND TUNNELS,Footbridges
-DORCHESTER ROAD UNDERPASS,BRIDGES AND TUNNELS,..
-King Street,BRIDGES AND TUNNELS,Footbridges
-REYNOLD'S CREEK CULVERT,BRIDGES AND TUNNELS,..
-Putnam Road,BRIDGES AND TUNNELS,Footbridges
-WESTCHESTER BOURNE (HWY#74) UNDERPASS,BRIDGES AND TUNNELS,..
-Purple Hill Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Fairview Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Gladstone Drive,BRIDGES AND TUNNELS,Footbridges
-Elgin Road,BRIDGES AND TUNNELS,Footbridges
-Dundas Street,BRIDGES AND TUNNELS,Footbridges
-Highway 401,BRIDGES AND TUNNELS,Footbridges
-Wellburn Road,BRIDGES AND TUNNELS,Footbridges
-Cromarty Drive,BRIDGES AND TUNNELS,Footbridges
-THAMES RIVER BRIDGE (ST. MARY'S),BRIDGES AND TUNNELS,..
-Marion Street,BRIDGES AND TUNNELS,Footbridges
-Plover Mills Road,BRIDGES AND TUNNELS,Footbridges
-PUTNAM ROAD & CNR OVERPASS,BRIDGES AND TUNNELS,..
-Heritage Road,BRIDGES AND TUNNELS,Footbridges
-Mossley Drive,BRIDGES AND TUNNELS,Footbridges
-Oliver Drive,BRIDGES AND TUNNELS,Footbridges
-Catherine Street,BRIDGES AND TUNNELS,Footbridges
-Gregory Drive,BRIDGES AND TUNNELS,Footbridges
-Doan Drive,BRIDGES AND TUNNELS,Footbridges
-Bridge Street,BRIDGES AND TUNNELS,Footbridges
-ELGIN ROAD (HWY #73) UNDERPASS,BRIDGES AND TUNNELS,..
- C.N.R. OVERHEAD (ST.MARY'S),BRIDGES AND TUNNELS,..
-C ton Drive,BRIDGES AND TUNNELS,Footbridges
-Evelyn Drive,BRIDGES AND TUNNELS,Footbridges
-Gore Road,BRIDGES AND TUNNELS,Footbridges
-Breen Road,BRIDGES AND TUNNELS,Footbridges
-Culvert- Dykes Drain,BRIDGES AND TUNNELS,..
-Nissouri Road,BRIDGES AND TUNNELS,Footbridges
-Hamilton Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00ea25ae8c98834a7b16517728c36b15,railways,track,..,...,...,Natural Resources Canada
+020fc8f891697d5ade083bcb6196055a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+05ed7554fd5809ebed04fb3e66d7033a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+09a85c98d100dce58061a6ee8dd87ed2,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+0b3d02095f6ca016a4d734d49c360997,bridges and tunnels,bridge,DORCHESTER ROAD UNDERPASS,Bridge,Bridge,Province of Ontario
+0c8a85287faa2dfeba810650b457a9ea,railways,track,..,...,...,Natural Resources Canada
+12953aef406fc632f056a6de841199a6,electric grid,power_plants,..,...,...,Natural Resources Canada
+13bbe713d175c70bbf0270b4345284f7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+144ee32afb5798c5107ff9eb27eee7eb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+14e19a3ad0b1acd1c8c97d889b76b16e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+17b09c79ecad9ab90be74ff80848abff,wastewater and storm water,facilities_waste,Thorndale Wastewater Treatment Plant,"Grit Removal, Sequencing Batch Reactor, Chemical Precipitation (Phosphorus), Disinfection",Unclassified,Environment and Climate Change Canada
+19646819ee8bb9cf068861c722b16707,railways,track,..,...,...,Natural Resources Canada
+1bbcb0315b26a9e93d42ea65e7543b99,railways,track,..,...,...,Natural Resources Canada
+2262241eaee1725dc9aa590ea2c0d218,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+24f7bbcc92827b261944d3c4ceec295b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+255944457c105824c8e48a5a880cbd37,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+277c079cd7c74fc80d05aa5a53261bc9,telecom,tower,...,...,...,Natural Resources Canada
+2abe92a6f598a2dde2399f2da6e6bef9,railways,station,Nissouri,...,...,Natural Resources Canada
+2d4b8376d4a6ded704ac723b171c85d4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+32f1b12751a6ebd1aa5b4a84ca78257b,railways,track,..,...,...,Natural Resources Canada
+330c4d7fa5b3f451f333412d61cc0b71,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+37f28436cfd418b5f63380c8e832d117,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+39fb74712864ae892faee42537dd1528,telecom,tower,...,...,...,Natural Resources Canada
+3a2987fd49a5f1bc31f04cdd06504047,railways,track,..,...,...,Natural Resources Canada
+432ed1af1e53c79941739da07f32e238,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+462125b3e033f5098e7410a2cd82d544,railways,track,..,...,...,Natural Resources Canada
+4a7cac2386fd6a636f415d15b13bc848,bridges and tunnels,bridge,C.N.R. OVERHEAD (ST.MARY'S),Bridge,Bridge,Province of Ontario
+4b6ce6a855de849caac833780658f81e,oil and gas,pipelines,..,..,...,Natural Resources Canada
+50b64e0aa6638e4a24f19ec6aafe3325,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+51292b5018bc6ac3b96bfb0c6550a609,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+54a48ebad0c192fada6841d2ad936d16,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+55bb4bfdb45c2d1bab91fa95d032c514,railways,track,..,...,...,Natural Resources Canada
+576769d5f143b4f4ccce2908aaa4ea3e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a44d976dc52d510bc81814b166d0223,railways,track,..,...,...,Natural Resources Canada
+5f94d9d4a79b854c3e102b94c787f11b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+61233a63040092306a246a44df7ec137,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+62ab403504129bb02d943f56d5ac31ee,electric grid,power_plants,..,...,...,Natural Resources Canada
+63ce38b3506708fec7e05d51afa5e5d4,railways,track,..,...,...,Natural Resources Canada
+6412f10eb26f88b79e3cfd0fd0b51944,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+693ac0a8dd107748bd70306292a77917,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6a09e405ca46f61432e5bacb436bcb1e,oil and gas,pipelines,..,..,...,Natural Resources Canada
+6ab4f69629b7853e4473a347e4637f90,oil and gas,facilities,..,..,...,Natural Resources Canada
+6b83c85a8e6c0d1569a94b0c66402e04,railways,track,..,...,...,Natural Resources Canada
+6c6dc02e5609b56425e8bf269fe27a3f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+70901e105bd86874388f0ddf13ea19f5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+717e2e8ceb9f0a2d42b284275d17eef9,railways,station,Kelly's,...,...,Natural Resources Canada
+71c9e620a35505261050baf821cbf90a,railways,track,..,...,...,Natural Resources Canada
+74e331016c5260499f44853ac746cad8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+74eb211ec9f97723e8f8babe4c342f99,railways,track,..,...,...,Natural Resources Canada

@@ -1,46 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Bear Lakes Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Mispouch Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Argyle CNR U/P Bridge on 103,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Tusket Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Tusket River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Welchards Brook  Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Parkin's Pipes,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Three Mile Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Head of Moses Lake Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Argyle Head #1 Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Eel Lake Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-East Kemptville Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Gavel Road,BRIDGES AND TUNNELS,Footbridges
-Mae's Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Frotten Road,BRIDGES AND TUNNELS,Footbridges
-Argyle Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Gang Mill Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Frautten Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-North Kemptville Road,BRIDGES AND TUNNELS,Footbridges
-Eel Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-John Gavel Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Lake Vaughan Road,BRIDGES AND TUNNELS,Footbridges
-Brady's Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Salmon River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Tusket CNR U/P  Bridge on 103,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-Coldstream Road,BRIDGES AND TUNNELS,Footbridges
-Highway 308,BRIDGES AND TUNNELS,Footbridges
-Highway 203,BRIDGES AND TUNNELS,Footbridges
-Spar Ridge Road,BRIDGES AND TUNNELS,Footbridges
-Abrams River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Barton Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-East Branch Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Belleville South Road,BRIDGES AND TUNNELS,Footbridges
-Back River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Shunacadie Road,BRIDGES AND TUNNELS,Footbridges
-Slough Brook Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Chemin Nazaire Muise Road,BRIDGES AND TUNNELS,Footbridges
-Indian Sluice Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Oak Park Road,BRIDGES AND TUNNELS,Footbridges
-Clyde River Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Pottier's Mill Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,WASTEWATER STORMWATER,..
-Quanin Causeway Bridge,BRIDGES AND TUNNELS,"Bridges, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+4566570d61b54f8adc8310178f1706e1,bridges and tunnels,bridge,Eel Lake Bridge,..,..,Province of Nova Scotia
+4697ccb1d154f9c403b98ac9b1be3b43,bridges and tunnels,bridge,Bad Falls Bridge,..,..,Province of Nova Scotia
+46ad4380fafe2232e50acc0421f24609,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4851d6412e41d8ff47c873caa6f0fcb2,bridges and tunnels,bridge,Mispouch Bridge,..,..,Province of Nova Scotia
+49bcc2315b399e0ef2e56f8e8135c9d7,bridges and tunnels,mixed,Morris Island,..,..,Province of Nova Scotia
+4a39cb7c96814da9d33b4ce1ad8f417b,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+4d1096a956b776a2f05d61f2f308c8fc,bridges and tunnels,bridge,Frautten Bridge,..,..,Province of Nova Scotia
+4e770fd3103a3ef6af18fa9fef40f395,bridges and tunnels,bridge,John Gavel Bridge,..,..,Province of Nova Scotia
+4ee3e1addb8cbd15dcb2a18629c476a0,low carbon,wind,Pubnico Point,...,...,"Government of Canada, Natural Resources Canada"
+4fccf1e7edbfbb1e08d2cccf0912faa4,bridges and tunnels,bridge,Morton Bridge,..,..,Province of Nova Scotia
+52af169e0df7f22d4b5f262ca410cb49,bridges and tunnels,bridge,Three Mile Bridge,..,..,Province of Nova Scotia
+52f880a43cf2e9673963c385eb236853,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+55944501bcab9322bda0ddb7ce911da2,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+5602e9942ed12a5084cc3751519f4ef0,telecom,tower,...,...,...,Natural Resources Canada
+57b9fe4fb45558702086a99e45906e1b,ports and marinas,mixed,Ledge Harbour,Core Fishing,...,Fisheries and Oceans Canada
+59cb30d9a6f5f001842fc204d46ecc9e,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+5b1b93ab8560f881171dc707e6a37a53,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5b5d64a0f7cbfe207655801ebcf103d7,bridges and tunnels,bridge,Mae's Bridge,..,..,Province of Nova Scotia
+5bd018a537c93553545f7f2b0263c3e0,bridges and tunnels,bridge,Welchards Brook  Bridge,..,..,Province of Nova Scotia
+5bf4a0da80b357b9b1d769d50b78f05d,bridges and tunnels,bridge,Barton Brook Bridge,..,..,Province of Nova Scotia
+5de2178e6efbee6ccff70c428ac33054,ports and marinas,mixed,Little River Harbour,Core Fishing,...,Fisheries and Oceans Canada
+5f1fdeb83d7112cd61a36742ea003d26,bridges and tunnels,bridge,Shunacadie Bridge,..,..,Province of Nova Scotia
+5f408e2a7d572108af6fc223839f7c6f,ports and marinas,mixed,Camp Cove (lower Argyle),Core Fishing,...,Fisheries and Oceans Canada
+5fc13a57568e8421ac3e2def6bd7e35e,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+6429e046bd2618d0e88d100b587735e4,ports and marinas,mixed,Abbotts Harbour,Core Fishing,...,Fisheries and Oceans Canada
+6439abe066ff13dbec237c015005fb50,telecom,tower,...,...,...,Natural Resources Canada
+65759b4a3dd596c81220a26debebcce1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6598fd6b6afb3c318b279735c931fbef,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+66101204fbd399f4e860cf2493b52dbf,bridges and tunnels,bridge,Salmon River Bridge,..,..,Province of Nova Scotia
+69b52eaebb401fe238e9ca73d3ba6ca3,bridges and tunnels,bridge,Rankin Bridge,..,..,Province of Nova Scotia
+6c8529eb5284e54400e11613975a9a01,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e63792ae294a8dfa3013e5af978cdd4,bridges and tunnels,bridge,Cold Stream Bridge,..,..,Province of Nova Scotia
+7086b80089ddbcbc629be9cd12b28622,bridges and tunnels,bridge,Wine Brook Bridge,..,..,Province of Nova Scotia
+720641034685a157e0f817c97af5dfd8,bridges and tunnels,bridge,Dead Horse Brook Bridge,..,..,Province of Nova Scotia
+738c6e43d40b46687484243c6e58dac6,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+779896b35647493d4f699cba6e942406,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7995cf7fae4588793df71dd4d4afa0ce,bridges and tunnels,bridge,Indian Sluice Bridge,..,..,Province of Nova Scotia
+79ddfff5a535089b8979b61d699cd743,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+79f03c24830ef04532895cecda0b8575,low carbon,wind,Pubnico Point,...,...,"Government of Canada, Natural Resources Canada"
+7c3199fe074360798ee81cdf372c545e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7c52876324a0761a1e1ae4597bc5e2cd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7cbac0f4c2dd4cfc9613ca32b0c470f7,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+7d6894970d1554e3702a2aa2f2ed3e4e,bridges and tunnels,mixed,Gavel Road O/P  Bridge on 103,..,..,Province of Nova Scotia
+80b16b59756c6e22d69ff25f9ed43647,low carbon,wind,Pubnico Point 1 / 2,...,...,World Resources Institute
+81b4c7a631289751cd425ef1d7974bb0,bridges and tunnels,bridge,Eli Doucette Bridge,..,..,Province of Nova Scotia
+832573d981ea40281bdfaeefac9df8f0,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+832bf559a06e3178dcde5c71fccc28ac,bridges and tunnels,bridge,Wine Brook #2 Bridge,..,..,Province of Nova Scotia
+881a26858464dc9fa2d77afdaa42d715,low carbon,wind,Pubnico Point,...,...,"Government of Canada, Natural Resources Canada"
+88236686d63bdff9ed494c072d0d2a6c,bridges and tunnels,bridge,Willett's Bridge,..,..,Province of Nova Scotia

@@ -1,12 +1,26 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 385,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 138 Est,BRIDGES AND TUNNELS,Footbridges
-Route 138 Ouest,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+17e04a3d2b8a528623b99474c0bf3e8f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1b0280f9083d801e8e91ce46dd0b5d02,telecom,line,...,...,...,Natural Resources Canada
+2cca7a6dbf1b70b60ebb914c1d001883,low carbon,hydro,Rsp-1,...,...,Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector
+2d5b6baa8ffb351b3cd0b0057fd13330,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+35183b97b7fe6d2a680eb0e6cebb6bc8,airports,...,Forestville Airport,medium_airport,...,OurAirports
+42399747d6b6439386384f3660d9ddf4,low carbon,charging_stations,Brcc - Forestville - Bureau Touristique,...,...,Government of Quebec
+45697bd4db9f33c4a56efe5d0113cf06,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+6fa0690868b0ea68e2e65fb34420e33e,low carbon,hydro,Rsp-2,...,...,World Resources Institute
+72822f8cea5edd0f56b199af7e184168,low carbon,charging_stations,Forestville - Bureau Touristique,...,...,Government of Quebec
+8ca9786e76dc777882664a7a8c4bf2e9,low carbon,hydro,Rsp-3,...,...,World Resources Institute
+973ffe33772ed2745af09cdf58dad3c1,telecom,line,...,...,...,Natural Resources Canada
+97a8d74605bdc88a2e8e7bed212ff43f,telecom,tower,...,...,...,Natural Resources Canada
+ab1cff6dfefc65ce64ff02b6dae0881e,low carbon,charging_stations,Brcc - Forestville - Le Centre Forestville,...,...,Government of Quebec
+ac1305c551ed7590277c3117b07720d2,electric grid,power_plants,..,...,...,Natural Resources Canada
+b4ac08b97caded4be72e1f688bb14c5f,electric grid,power_plants,..,...,...,Natural Resources Canada
+c6885eb29f2197fad5e1a74b1eb5d10b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c80a0518c34c87f1277350fc989b219e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+caf9c3110ef7932eb93e5e680fb79f79,bridges and tunnels,mixed,..,..,..,La Province de Québec
+cb3cdb9753924d1618edf45bfb3cc710,low carbon,charging_stations,"Ville De Forestville - 39 Rte 138 Est, Forestville-1",...,...,Government of Quebec
+dcada1fae85ccf50a4b87927093991c9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e02c02589db69adc9ba4799b865434b4,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e4eb033c67722af248ae3d0508ad9582,bridges and tunnels,mixed,..,..,..,La Province de Québec
+e7855b56ec1b3d4befbe7d78303299ce,telecom,line,...,...,...,Natural Resources Canada
+f62b745ed81038db6be4fd6587589242,wastewater and storm water,facilities_waste,Station De Traitement Des Eaux Usées,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+fd49bfc7df0ed12e0c0f69300aac72bb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

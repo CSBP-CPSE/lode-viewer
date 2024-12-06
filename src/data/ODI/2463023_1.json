@@ -1,7 +1,5 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Petite Ligne,BRIDGES AND TUNNELS,Footbridges
-Chemin Dupuis,BRIDGES AND TUNNELS,Footbridges
-Route 158,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+aab9c3db3dc3e7f37e3325f9145af9f0,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+b822c73d5128ec4eccef36fe385a59ac,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c8dc137072d55dba95a989e3c3b310c7,wastewater and storm water,facilities_waste,Étangs Aérés St-alexis,"Primary Sedimentation/Clarification, Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Unclassified,Environment and Climate Change Canada
+eadc14f2eb7a78e36ab6ce3f0dfd7984,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

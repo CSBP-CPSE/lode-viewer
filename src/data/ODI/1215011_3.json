@@ -1,43 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-BROAD COVE RIVER BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-NELSON BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-WIDOW LORDS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BIG BROOK NORTH #1 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-MARSH BROOK ROAD TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-POCKY #1 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-KING ROSS #2 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HINKLEY GLEN #3 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HINKLEY GLEN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-RUISSEAU DU LAC #2 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-LEVIS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-FRENCH CHAPEL TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-SECOND CHAPEL BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MACGARRY ROAD #1 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-EGYPT BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MacDONNELL BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CHEVARIE CULVERT,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HEAD LAKE BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-HINKLEY GLEN #2 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-MARGAREE HARBOUR BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-DOUGLAS HARRIS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CHETICAMP RIVER BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Victoria Road,BRIDGES AND TUNNELS,Footbridges
-Pleasant Bay Loop,BRIDGES AND TUNNELS,Footbridges
-Red River Road,BRIDGES AND TUNNELS,Footbridges
-INGRAHAM TRUSS,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Strathlorne-Scotsville Road,BRIDGES AND TUNNELS,Footbridges
-CAPTAIN ALLAN BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-BIG BROOK NORTH #2 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-CRANTON BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Cabot Trail,BRIDGES AND TUNNELS,Footbridges
-BLACK ANGUS BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-GALLANT BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Highway 395,BRIDGES AND TUNNELS,Footbridges
-East Margaree Cross Road,BRIDGES AND TUNNELS,Footbridges
-Lakeview Drive,BRIDGES AND TUNNELS,Footbridges
-Broad Cove Marsh Culvert,BRIDGES AND TUNNELS,"Bridges, Culverts"
-West Big Intervale Road,BRIDGES AND TUNNELS,Footbridges
-MacLEOD #2 BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-COOPER BROOK BRIDGE,BRIDGES AND TUNNELS,"Bridges, Culverts"
-Egypt Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+91dd01a244b1bc001bc5106dd3cde4df,low carbon,wind,Saint Rose,...,...,"Government of Canada, Natural Resources Canada"
+937fc7dbf30b6f35ee236e50b70da648,bridges and tunnels,bridge,EGYPT BRIDGE,..,..,Province of Nova Scotia
+9603265f47ce4088b9ac39b30d0b2288,bridges and tunnels,bridge,NELSON BRIDGE,..,..,Province of Nova Scotia
+970fa557336f8b982a5392fa23603ae9,bridges and tunnels,bridge,LAPRAIRIE BRIDGE,..,..,Province of Nova Scotia
+97538b977bb327cc59edc326a79662bd,bridges and tunnels,bridge,CAPTAIN ALLAN BRIDGE,..,..,Province of Nova Scotia
+978819e9cead714b05cabdf588aa86cf,bridges and tunnels,bridge,ISLAND #1 BRIDGE,..,..,Province of Nova Scotia
+9aa26997e2ec03b2139125c61e4bfd81,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9b9f6a417f15c4015eaf77d41c07058c,telecom,tower,...,...,...,Natural Resources Canada
+9db5142328e674fb4b190906a9056034,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a238e9d2597c58f6da24456fc7330c2c,bridges and tunnels,bridge,LOCH SLOY BRIDGE,..,..,Province of Nova Scotia
+a710834f5b980a093b7ef102b8562b6d,bridges and tunnels,mixed,INGRAHAM TRUSS,..,..,Province of Nova Scotia
+a839288100053f7c8fcc16cc14c40e6e,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+aaa23e6368ea23ed2cce99f90e989a98,bridges and tunnels,bridge,SALT BROOK BRIDGE,..,..,Province of Nova Scotia
+aaa3723cda75f08f4c0b82a85f7aec1b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ab0863e22a628dece8b92a639f632b30,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+ab63a51356431f856a134790c37d89f2,bridges and tunnels,bridge,GRAND ETANG BRIDGE,..,..,Province of Nova Scotia
+ac283a87ee6f88646cec580b4e9c37ec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+acd51b85a99afb124064501ee78df997,bridges and tunnels,bridge,ANDREWS BRIDGE,..,..,Province of Nova Scotia
+afafffde3b98f759b1fbe20ba00b2bb7,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+afef9b0457321de848dac3d9efdc78db,bridges and tunnels,bridge,HEAD LAKE BRIDGE,..,..,Province of Nova Scotia
+b16f3232591a5a93f1bd7653962db206,bridges and tunnels,bridge,GILLANDERS MOUNTAIN ROAD #1 BRIDGE,..,..,Province of Nova Scotia
+b2dff3eb856fd58864036d1789bbd929,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b53de5a50cee8a797884b265a530d30d,bridges and tunnels,bridge,GALLANT BRIDGE,..,..,Province of Nova Scotia
+b79ba4f30ba5ca5a67d757479a6a9a8e,low carbon,wind,Cheticamp,...,...,"Government of Canada, Natural Resources Canada"
+ba1dce307c82871318a20a0da93b109f,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+bda32c6a0165bfc10aad0ec6292aea81,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+bec2a4d841b2f8f67b0b9e9dec47df72,bridges and tunnels,bridge,TIMMONS BRIDGE,..,..,Province of Nova Scotia
+bf6be98418b2a2f812c5cdb8c68f8d23,low carbon,wind,Saint Rose,...,...,World Resources Institute
+c0191fd22387d32b5d96b393e59c2c00,bridges and tunnels,bridge,MILL VALLEY BROOK #1 BRIDGE,..,..,Province of Nova Scotia
+c21c40beb5ae1fe4fbf4bd938b18b029,bridges and tunnels,bridge,DRAKE BRIDGE,..,..,Province of Nova Scotia
+c28711b5ded6f51e6d88d9b6d7b74ba3,bridges and tunnels,bridge,MacLEOD #2 BRIDGE,..,..,Province of Nova Scotia
+c3b030c459caae0c2fd2119ac9326f23,bridges and tunnels,culvert,DOUCETT CULVERT,..,..,Province of Nova Scotia
+c47c2e8eb31b9b80931fb31bdc886227,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c58ef8b163da75b38361c9800f083209,bridges and tunnels,bridge,TWIN ROCK BRIDGE,..,..,Province of Nova Scotia
+c62b878e8be0ca33a80c073ca2d0cf4e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c730c8c4faac9dd2ef227e774589f23d,bridges and tunnels,bridge,MILL VALLEY BROOK #2 BRIDGE,..,..,Province of Nova Scotia
+cdb908908ef1f88144723b8f9ff20c93,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cf353148f48174a6194ede2a9f9994c9,telecom,tower,...,...,...,Natural Resources Canada
+cf58ebda9f3f4fd0e613b2d5e0e169b3,bridges and tunnels,culvert,Cameron's Brook Culvert,..,..,Province of Nova Scotia
+d392f5af4a903af10d7663796494eff9,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+d575ae4ddc7f59ad00b6967880e76674,bridges and tunnels,mixed,PLATEAU (PORTREE) TRUSS,..,..,Province of Nova Scotia
+d85d180f53c838201e56d939cb8b7346,bridges and tunnels,bridge,MacKENZIE BRIDGE,..,..,Province of Nova Scotia
+d88b0cc7374b3807e7b27f98023d2467,bridges and tunnels,bridge,MACGARRY ROAD #1 BRIDGE,..,..,Province of Nova Scotia
+db29ec83640b998712d9e3e5e32232c7,bridges and tunnels,bridge,COOPER BROOK BRIDGE,..,..,Province of Nova Scotia
+dc24bab2b289d8c55bafb942219b5e9c,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia
+dc3e72248872179d92cab12ca1baf8c0,bridges and tunnels,bridge,DOYLES BRIDGE,..,..,Province of Nova Scotia
+dc5ba03bbce263b4f965b3cd1fef29f6,bridges and tunnels,culvert,MEAT COVE CULVERT,..,..,Province of Nova Scotia
+dcf3f6b8d6935c3f62719d9a36aeb23d,bridges and tunnels,bridge,POCKY #1 BRIDGE,..,..,Province of Nova Scotia
+dd952d86ef6715fb4a6d04c3b51c2368,bridges and tunnels,bridge,JOHN MURPHY BRIDGE,..,..,Province of Nova Scotia

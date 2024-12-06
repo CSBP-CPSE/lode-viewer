@@ -1,21 +1,36 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-ECHO BAY CREEK CULVERT WESTBOUND,BRIDGES AND TUNNELS,..
-Watson Road East,BRIDGES AND TUNNELS,Footbridges
-BAR RIVER BRIDGE #3 (SYLVAN VALLEY BR. #3),BRIDGES AND TUNNELS,..
-McCarrel Lake Road,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-Highway 17,BRIDGES AND TUNNELS,Footbridges
-BAR RIVER BRIDGE #2 (SYLVAN VALLEY BR. #2),BRIDGES AND TUNNELS,..
-ECHO BAY CREEK CULVERT EASTBOUND,BRIDGES AND TUNNELS,..
-HURON CENTRAL RAIL OVERHEAD WESTBOUND,BRIDGES AND TUNNELS,..
-Echo Lake Road,BRIDGES AND TUNNELS,Footbridges
-ECHO BAY BRIDGE,BRIDGES AND TUNNELS,..
-ECHO BAY CREEK CULVERT - HWY 17/638,BRIDGES AND TUNNELS,..
-Highway 17b,BRIDGES AND TUNNELS,Footbridges
-SNOWMOBILE CULVERT,BRIDGES AND TUNNELS,..
-Highway 638,BRIDGES AND TUNNELS,Footbridges
-Cemetery Road,BRIDGES AND TUNNELS,Footbridges
-LOWER ECHO RIVER BRIDGE EASTBOUND LANE,BRIDGES AND TUNNELS,..
-BAR RIVER BRIDGE #1 (SYLVAN VALLEY BR. #1),BRIDGES AND TUNNELS,..
-LOWER ECHO RIVER BRIDGE WESTBOUND LANE,BRIDGES AND TUNNELS,..
-HURON CENTRAL RAIL OVERHEAD EASTBOUND,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00d0d7cd97a0b75ac4b2ac82b6e524f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+01a44db990b3acc7c1c5a28309c5c832,wastewater and storm water,facilities_waste,Echo Bay Environmental Centre,"Grit Removal, Screening, Primary Sedimentation/Clarification, Skimming, Rotating Biological Contactor",Unclassified,Environment and Climate Change Canada
+0c087bfafb99752637a36d1f791e107a,railways,track,..,...,...,Natural Resources Canada
+0e67674fd7c5b845748bcc75af08ed3c,bridges and tunnels,bridge,BAR RIVER BRIDGE #3 (SYLVAN VALLEY BR. #3),Bridge,Bridge,Province of Ontario
+1e3175f457ef5c1c831571ee840b9535,bridges and tunnels,culvert,SNOWMOBILE CULVERT,Culvert,Culvert,Province of Ontario
+1f7b03b07edabe2587e17d174460f33f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2232c3f30ad82ceb79f5765fc8a8156e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2df472831cfa88e7259a3b30dd9920fc,bridges and tunnels,bridge,HURON CENTRAL RAIL OVERHEAD WESTBOUND,Bridge,Bridge,Province of Ontario
+316818d4e24235be8d29c2d6dad5798f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3ba0558fdcdc3c9b169c75a1738516d3,oil and gas,pipelines,..,..,...,Natural Resources Canada
+5c47c18e127faf85d4c6e2ea463cf75c,bridges and tunnels,culvert,ECHO BAY CREEK CULVERT - HWY 17/638,Culvert,Culvert,Province of Ontario
+641ce1db73b045c8e48fb4416fb82ba4,bridges and tunnels,bridge,ECHO BAY BRIDGE,Bridge,Bridge,Province of Ontario
+66c5a5bb976d63abf9c9f524ea6a0ccd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+82c077d86cf8ce4182c631eb5c135a0f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+865dd76c23adb3bf10822debd053b99a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8b809dfab24b14ed080f53cbfd0b3c23,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8d6be945d2b033420765f2d1217a226e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8e323e97ed216a67211dce97cdd17b4f,railways,track,..,...,...,Natural Resources Canada
+9348adc536408676c639aac0b11777a1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+98fd8384d685f1f9c77f36aaefc45c1b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9ce5f85c119e757d44c5b1dc4f6e6362,bridges and tunnels,culvert,ECHO BAY CREEK CULVERT WESTBOUND,Culvert,Culvert,Province of Ontario
+a6e2adba0fd53a8045f1a8fa5130623b,telecom,tower,...,...,...,Natural Resources Canada
+ad9ad8a3a94f86655cfa81e278a9dae9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+adda07d5dda1080cbf237edbf0b7a4f2,bridges and tunnels,culvert,ECHO BAY CREEK CULVERT EASTBOUND,Culvert,Culvert,Province of Ontario
+b63aa83b33afd381a9f9314215fea58d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+bd974db299511bc8b8913da721cd47f8,bridges and tunnels,bridge,BAR RIVER BRIDGE #1 (SYLVAN VALLEY BR. #1),Bridge,Bridge,Province of Ontario
+c5b03c83ee26739359fae29ee645b147,telecom,tower,...,...,...,Natural Resources Canada
+cfce122d471586066d61990ba0aeab15,bridges and tunnels,bridge,HURON CENTRAL RAIL OVERHEAD EASTBOUND,Bridge,Bridge,Province of Ontario
+d6646f80cd7ab1f7d8f35952ad0a9679,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+de59748d92d79449f935e9ea5de87974,bridges and tunnels,bridge,BAR RIVER BRIDGE #2 (SYLVAN VALLEY BR. #2),Bridge,Bridge,Province of Ontario
+e2d126b5c1b0da717ab0e34ab37b7945,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+e6886c61ab5d1b2aa0a91ca80b061390,bridges and tunnels,bridge,LOWER ECHO RIVER BRIDGE WESTBOUND LANE,Bridge,Bridge,Province of Ontario
+e9ba686b3b34deb627d59fb89565c5e9,bridges and tunnels,bridge,LOWER ECHO RIVER BRIDGE EASTBOUND LANE,Bridge,Bridge,Province of Ontario
+eb6f3a24a9dff1c000c0fa3e5fe78531,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ec5ce78031ad0b679c94ec1449994c5d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

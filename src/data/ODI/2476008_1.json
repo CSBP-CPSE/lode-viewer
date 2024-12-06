@@ -1,22 +1,29 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Montée du CNR,BRIDGES AND TUNNELS,Footbridges
-Chemin de la Rivière-Rouge Sud,BRIDGES AND TUNNELS,Footbridges
-Autoroute 50,BRIDGES AND TUNNELS,Footbridges
-Rue du Pont,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Traverse,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route du Long-Sault,BRIDGES AND TUNNELS,Footbridges
-Chemin Marineau,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Terrasse Robillard,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+041e4d5f301b2ca0c7478b3ce91884e5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0f48a83f10fb337c5214008be613ff61,ports and marinas,port,St Andrews East,..,...,National Geospatial-Intelligence Agency (NGA)
+15b38a57be53de4e1692cc219be00f27,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+18dd13b2196da0ed44b54970e2e28b43,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1bef65737c2e57a052ff937313190f79,electric grid,power_plants,..,...,...,Natural Resources Canada
+1bf703f53564e6c9f6b49cf2984eff97,telecom,tower,...,...,...,Natural Resources Canada
+397d251e95a89d7a4c1fa8b577f19a61,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Saint-andré-d'argenteuil (est),Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+399f2c91d66c570cf9c9d0d927b2902b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4d751ea7af539460a378c69efbe1358e,low carbon,hydro,Carillon,...,...,Hydro Quebec
+52f0e16eb164e6821c390df430775062,ports and marinas,port,Carillon,..,...,National Geospatial-Intelligence Agency (NGA)
+59112b3b22feca138b4e7e3a431b8f41,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5dfb2a6c91654ff4d4b12cee90ea2b4d,oil and gas,facilities,..,..,...,Natural Resources Canada
+627f30b453e8051958dd3b294e2cd1b1,oil and gas,facilities,..,..,...,Natural Resources Canada
+70f1550cfe9e719326512029c98a7385,oil and gas,pipelines,..,..,...,Natural Resources Canada
+74cd9b756a4af0502ccca5a6e6ae7af3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+83689e7bfb0de0a639d8210b51cfc449,oil and gas,pipelines,..,..,...,Natural Resources Canada
+8e26a66b44792079bc70161089f16e40,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+96d372c615d47c93b94d090705bfa999,low carbon,charging_stations,Saint-andré-d'argenteuil - Mairie,...,...,Government of Quebec
+a1a85e8214fc4f0517b26fac9a6b89ff,low carbon,hydro,Carillon,...,...,World Resources Institute
+a2d173f967c0da92c76d22b6d1f896b1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ae687b5e4f1c237aa8ead0c046b621b7,telecom,tower,...,...,...,Natural Resources Canada
+b2c0b7284cc457d4c1a863ccc3ed6715,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+ba4c1b8314395b3389518777745c53b3,bridges and tunnels,mixed,..,..,..,La Province de Québec
+bf92094399bcd9c1358193945956974b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ca6f11daf2227176c784684d6dd0f066,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d0c88f20da2de95ae4f3f9c865da3d22,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+db3f06179310c68103a7cf7b2f66a04c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+de6fc252812c13d0f759f2c22e02b104,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Saint-andré-d'argenteuil (carillon),Other Treatment,Lagoon,Environment and Climate Change Canada

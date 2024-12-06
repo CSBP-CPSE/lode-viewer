@@ -1,50 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-William / Rivière,..,..
-St-Dominique / St-Damase,..,..
-Élie / boul. Ste-Geneviève,..,..
-boul. Ste-Geneviève (no. 1053),..,..
-Sainte-Anne / Jacques-Cartier,..,..
-ch. du Plateau (no. 2642),..,..
-Tremblay / Godin,..,..
-Quai d'escale,..,..
-St-Jean-Baptiste / Loire,..,..
-Terminus La Baie,..,..
-Route Mathias,BRIDGES AND TUNNELS,Footbridges
-Place du Saguenay (Bach),..,..
-ch. St-Isidore (no. 4525),..,..
-Pins (no. 4224),..,..
-boul. Tadoussac (no. 900),..,..
-St-Philippe / St-Émilie,..,..
-Alsace / Nantes,..,..
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-boul. Royaume (no. 545),..,..
-ch. du Plateau (no. 2953),..,..
-Notre-Dame / St-Hubert,..,..
-École secondaire de l'Odyssé Dominique-Racine,..,..
-St-Dominique (no. 3339),..,..
-Hôpital de Chicoutimi (Saint-Vallier),..,..
-ch. de la Baie / Arthur Daniel,..,..
-Vallières / Éric,..,..
-Perche / Aunis,..,..
-Chapleau / Ste-Catherine,..,..
-St-Dominique / Ste-Cécile,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-boul. Saguenay / Daniel,..,..
-boul. Grande Baie N (no. 2955),..,..
-boul. Grande Baie N / Bagot,..,..
-Chabanel / Pierre Laure,..,..
-Guy / Ste-Famille,..,..
-Bagot / Onésime-Côté,..,..
-boul. Royaume (no. 1744),..,..
-Station UQAC,..,..
-boul. Barrette passerelle J.Paul Sartre,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Mathias / Brassard,..,..
-Chabanel / Félix Antoine Savard,..,..
-Saint-Paul / Saint-Gabriel,..,..
-Docteur Desgagné / Rond-Point,..,..
-boul. René-Lévesque / Roi-Georges,..,..
-..,WASTEWATER STORMWATER,..
-Lafontaine / boul. Saguenay,..,..
-Chabanel / Scott,..,..
-Jacques-Cartier / Labrecque,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+221277b20cbed3660493a8a81cf77a52,bridges and tunnels,mixed,..,..,..,La Province de Québec
+22756e817d330700fc7dd68868931a18,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+22ab4a02f0cae3595f54620714b92316,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+22b598dafde5e3f001b573a5b27f0f3a,railways,track,..,...,...,Natural Resources Canada
+22cc0da2c64720297ee2690b8a0c24ed,railways,track,..,...,...,Natural Resources Canada
+2341698bb975e584e2cb01e460d27b6b,railways,track,..,...,...,Natural Resources Canada
+238fa84876220c7034f78b66209749d0,telecom,tower,...,...,...,Natural Resources Canada
+23ea50ef323ae91553e79ede021feef2,railways,track,..,...,...,Natural Resources Canada
+23fcf11400c45595742a787a12369987,railways,track,..,...,...,Natural Resources Canada
+2414418daf145215e997038d39bcfe74,railways,track,..,...,...,Natural Resources Canada
+24894de387ed82931b8b56731c386768,railways,track,..,...,...,Natural Resources Canada
+24e00aa49b7ac9ecd39c05ce2560e8bb,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+25cd4cda83df5ed84ecc6f78b7219978,railways,track,..,...,...,Natural Resources Canada
+260363f9f10e7a85eb90d5e273e1b796,railways,track,..,...,...,Natural Resources Canada
+2656dbbebbfcb72b59da92d2a6c8c694,railways,track,..,...,...,Natural Resources Canada
+2659446699b3bcb3d95dbf3a007fcfc6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+26d7640eef8c0de59f273ebca487bb34,railways,track,..,...,...,Natural Resources Canada
+270d422b5aec318cb13bbbd5dd79dbed,railways,track,..,...,...,Natural Resources Canada
+274519e2e73e70e8ba8b1c3a605bf02e,bridges and tunnels,mixed,..,..,..,La Province de Québec
+27a0c399f8740435d920df8e8323a20e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+27b63c3a287a8b55e54d1f4d30211daf,railways,track,Price Company,...,...,Natural Resources Canada
+280adeb084471deaee460a96e8ae83a7,low carbon,charging_stations,Ville De Saguenay - Aréna Marina Larouche,...,...,Government of Quebec
+2897542d739bcf28eab5e6b70da802c8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+28b350c56005c267d9ed2428080903b1,railways,track,..,...,...,Natural Resources Canada
+28c8656bdfead570a63e302101d7aad4,railways,track,..,...,...,Natural Resources Canada
+292cfc1c96ce6d6024f550e0b634f57e,low carbon,charging_stations,Ville De Saguenay - Aréna De Kénogami,...,...,Government of Quebec
+2945dcabb029685d49e2c8663b43a68a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+29ac70c3d407c0d98daf32a0516c9105,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2a3afb3af69d52f3c07a88b5979dc37d,wastewater and storm water,facilities_waste,Étangs Aérées Saint-jean-baptiste,"Lagoons - Aerated, Chemical Precipitation (Phosphorus)",Lagoon,Environment and Climate Change Canada
+2a83b832777c22542a57d0e2d5b52b98,railways,track,..,...,...,Natural Resources Canada
+2ac4cddc07cb86638f900406f84618f0,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2ad87fdcd0d85f4a7f4869c241e88a90,telecom,tower,...,...,...,Natural Resources Canada
+2b0aed4f82efbadb015598a17b739ab3,railways,track,..,...,...,Natural Resources Canada
+2bfb1e4aea54cf0161eaf1d487a8ef14,railways,track,..,...,...,Natural Resources Canada
+2c08382c22892a18fd747c2e750c6fe2,railways,track,..,...,...,Natural Resources Canada
+2c4bd3821f41a9fde208ae403990f638,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c6e4ec7a0e75fd119acd7859e48d6ab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2c7b19e0af2dff4f3d344863a468417f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2ca9751ca985ad7e885a58b9a077efd1,railways,track,..,...,...,Natural Resources Canada
+2cc6288359e8f959f86167c51fc0d852,railways,track,..,...,...,Natural Resources Canada
+2d1e13c7b7cde6199e469c587bd74733,railways,track,..,...,...,Natural Resources Canada
+2d9134a015d14dac4acd32430bcc24a9,railways,track,..,...,...,Natural Resources Canada
+2e07765afa2ea108aec796251d30d999,low carbon,charging_stations,Ville De Saguenay - Bibliothèque De Jonquière,...,...,Government of Quebec
+2eb3a43951a43b6613851bad6aceb80f,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2f5bf2c25500bd7fcddc1419548c80d9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2f5cccce7e065037ddb57c18355e21bf,telecom,tower,...,...,...,Natural Resources Canada
+2f7fcbc7b025ffb12406e188b5913a7b,railways,track,..,...,...,Natural Resources Canada
+2fbf2a1282ea46b7a50d73fe04f82e14,electric grid,power_plants,..,...,...,Natural Resources Canada
+2fd5d8db94efa8b4f612f845b8fac18d,railways,track,..,...,...,Natural Resources Canada

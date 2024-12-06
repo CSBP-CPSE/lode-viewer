@@ -1,34 +1,48 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue Saint-Georges,BRIDGES AND TUNNELS,Footbridges
-Chemin Louis-Gatineau,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Boulevard Duchesne,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,POTABLE WATER,Local Water Pipes (>416mm)
-Route Sainte-Anne Est,BRIDGES AND TUNNELS,Footbridges
-..,POTABLE WATER,Local Water Pipes (>416mm)
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,Footbridges
-Chemin Desaulniers,BRIDGES AND TUNNELS,Footbridges
-Rue Bellemare,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Autoroute Félix-Leclerc,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin Charles-Lesieur,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+013b8389ae1329b7825088ea7e59ac79,bridges and tunnels,mixed,..,..,..,La Province de Québec
+01dd5de8d338522eb13715bb71e8bd5d,railways,track,..,...,...,Natural Resources Canada
+026d0216ff92fbe48752fbe9dad888d8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0c36a97a965a5c2a52eeaec8dc5645e2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+134c4178e7c3550acdb123a3a0ad5e39,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+167e49895062125c2bc30178c4d63282,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1ffdc0c460ddc13ed1d30930ee003cfd,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2a9a490c5b4d314cb88d7b2d05498386,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2b03f1c769e3bd9b5e6f03d36206df7c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2b84ce48bd24491022155da7c3dc7889,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+351d7bd255cd0b8b7f96f276bdb63b81,bridges and tunnels,mixed,..,..,..,La Province de Québec
+3aa5157481b6f0fd04eb406ee109b6d7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+407b5ecb5616e4af1715fd562990f756,railways,track,..,...,...,Natural Resources Canada
+43df29dfc6878d5ca16c138bc9e40e0c,railways,track,..,...,...,Natural Resources Canada
+4d6be0451d6ff861ad0b29a41d87dfcf,railways,track,..,...,...,Natural Resources Canada
+4e58e16337fee2f66b979605145559cc,low carbon,charging_stations,Brcc - Yamachiche - Porte De La Mauricie I,...,...,Government of Quebec
+4eeac4e7be4b70459b4afe41a0f07f84,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5469151e1be8e64e621060b1f31578e7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+57abc13c7de32062041240a48192ad4a,oil and gas,pipelines,..,..,...,Natural Resources Canada
+58e16898d5d80732ffc3facbdd6c82b6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a3bfd750a2f56a59ff9ba98e5a22a1c,railways,track,..,...,...,Natural Resources Canada
+61a2c999e62fd78fc17f58ac36ff4e20,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6298b99c1d8d278cbf3cac019228ff30,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+66489193475e8ffe6b8714cc31347411,oil and gas,pipelines,..,..,...,Natural Resources Canada
+6b76307df4e3e4651a227e2244e98899,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6e3e5c9e3100037197e0c96f3321fc70,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+77424782e8c5a2957186fa4d43deb729,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7b3bbc221a79249ad23ca5c78684500c,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+7cda3028e5a4501b3e0e351fa6e8aa98,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Yamachiche,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+819bba6f64d32236ef89b1745f0551ca,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8cbcdcfddc5bb49257f4e6e335434985,railways,track,..,...,...,Natural Resources Canada
+913155d8f6c10114e547aeed0906d1b0,bridges and tunnels,mixed,..,..,..,La Province de Québec
+96694b34099f4fcc56adc183978ea9fc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9e585d06e3ff9f81cff94b30fb460eb1,bridges and tunnels,mixed,..,..,..,La Province de Québec
+ae331325136b81a96c7cd4d609c651af,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c00ed879287ea37c671d3406698ef320,railways,track,..,...,...,Natural Resources Canada
+c356dba6d8a8974d69c7cc72f01ca9c6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+c4c7c482ac77b2344aa3a8222d9b99dc,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+cc92ebf279161f990d649bf2de6364d3,bridges and tunnels,mixed,..,..,..,La Province de Québec
+d74750a6aa52623a0ae88a76d1e9dba4,railways,track,..,...,...,Natural Resources Canada
+dd56933e89a370aab730c0481033c2b7,railways,track,..,...,...,Natural Resources Canada
+dfcb15bc40d4058b37ea435fe163a322,oil and gas,facilities,..,..,...,Natural Resources Canada
+dfed2d7c80819ad85a7252ef07b4c8b0,low carbon,charging_stations,Brcc - Yamachiche - Porte De La Mauricie Ii,...,...,Government of Quebec
+e47907476281d3d345c291e08c779642,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f0731d03c4a38f2e88ba8626a0ad4637,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f1fdfcfef21ef54bf56cc8991d6639d5,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f7c942216ee5140917e10919949f9e68,bridges and tunnels,mixed,..,..,..,La Province de Québec

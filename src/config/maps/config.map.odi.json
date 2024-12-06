@@ -1,34 +1,50 @@
 {
 	"id": "odi",
-	"style": "mapbox://styles/deil-leid/clhi08c4300re01p6clv5660s",
+	"style": "mapbox://styles/deil-leid/cm250xf8k00jg01qk0f6j2cd9",
 	"table": "config/tables/config.table.odi.json",
 	"layers": [
 		{
-			"id": "odi-bridges-and-tunnels-points",
+			"id": "odi-airports-points",
 			"click" : true
 		},
 		{
-			"id": "odi-bridges-and-tunnels-other-points",
+			"id": "odi-bridges-tunnels-points",
 			"click" : true
 		},
 		{
-			"id": "odi-bridges-and-tunnels-lines",
+			"id": "odi-bridges-tunnels-lines",
 			"click" : true
 		},
 		{
-			"id": "odi-pedestrian-and-cycling-points",
+			"id": "odi-bridges-tunnels-lines-as-points",
 			"click" : true
 		},
 		{
-			"id": "odi-pedestrian-and-cycling-other-points",
+			"id": "odi-electric-grid-points",
 			"click" : true
 		},
 		{
-			"id": "odi-pedestrian-and-cycling-lines",
+			"id": "odi-electric-grid-lines",
 			"click" : true
 		},
 		{
-			"id": "odi-pedestrian-and-cycling-polygons",
+			"id": "odi-low-carbon-points",
+			"click" : true
+		},
+		{
+			"id": "odi-oil-gas-points",
+			"click" : true
+		},
+		{
+			"id": "odi-oil-gas-lines-as-points",
+			"click" : true
+		},
+		{
+			"id": "odi-oil-gas-lines",
+			"click" : true
+		},
+		{
+			"id": "odi-ports-marinas-points",
 			"click" : true
 		},
 		{
@@ -36,7 +52,7 @@
 			"click" : true
 		},
 		{
-			"id": "odi-potable-water-other-points",
+			"id": "odi-potable-water-lines-as-points",
 			"click" : true
 		},
 		{
@@ -44,7 +60,11 @@
 			"click" : true
 		},
 		{
-			"id": "odi-public-transit-stops-gtfs-points",
+			"id": "odi-railways-points",
+			"click" : true
+		},
+		{
+			"id": "odi-railways-lines",
 			"click" : true
 		},
 		{
@@ -52,19 +72,23 @@
 			"click" : true
 		},
 		{
+			"id": "odi-telecom-points",
+			"click" : true
+		},
+		{
+			"id": "odi-telecom-lines",
+			"click" : true
+		},
+		{
 			"id": "odi-wastewater-stormwater-points",
 			"click" : true
 		},
 		{
-			"id": "odi-wastewater-stormwater-other-points",
+			"id": "odi-wastewater-stormwater-lines-as-points",
 			"click" : true
 		},
 		{
 			"id": "odi-wastewater-stormwater-lines",
-			"click" : true
-		},
-		{
-			"id": "odi-wastewater-stormwater-polygons",
 			"click" : true
 		},
 		{
@@ -176,58 +200,103 @@
 	},
 	"legend": [
 		{
-        	"color": [217,95,2],
+			"color": [89,71,201],
+			"opacity": 1,
+			"label": {
+				"en": "Airports",
+				"fr": "Aeroports"
+			},
+			"value": ["all", ["any", ["==", ["get", "infrastructure_type"], "airports"]]]
+		},
+		{
+        	"color": [179,0,0],
 			"opacity": 1,
 			"label": {
 				"en": "Bridges and Tunnels",
 				"fr": "Ponts et tunnels"
 			},
-			"value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "BRIDGES AND TUNNELS"]]]
+			"value": ["all", ["any", ["==", ["get", "infrastructure_type"], "bridges and tunnels"]]]
 		},
 		{
-			"color": [50, 128, 229],
+			"color": [0,104,55],
 			"opacity": 1,
 			"label": {
-				"en": "Public Transit Stops",
-				"fr": "Arrêts de transport en commun"
+				"en": "Electric Grid",
+				"fr": "Reseau electrique"
 			},
-			"value": ["all", ["any", ["has", "stop_id"]]]
+			"value": ["all", ["any", ["==", ["get", "infrastructure_type"], "electric grid"]]]
 		},
 		{
 			"color": [93,166,51],
 			"opacity": 1,
 			"label": {
-				"en": "Pedestrian and Cycling",
-				"fr": "Pistes cyclables et voies piétonnes"
+				"en": "Low Carbon",
+				"fr": "Faible carbone"
 			},
-			"value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "PEDESTRIAN AND CYCLING"]]]
+			"value": ["all", ["any", ["==", ["get", "infrastructure_type"], "low carbon"]]]
+		},
+		{
+			"color": [82,82,82],
+			"opacity": 1,
+			"label": {
+				"en": "Oil and Gas",
+				"fr": "Petrole et gaz"
+			},
+			"value": ["all", ["any", ["==", ["get", "infrastructure_type"], "oil and gas"]]]
 		},
 		{
 			"color": [217,17,213],
 			"opacity": 1,
 			"label": {
+				"en": "Ports and Marinas",
+				"fr": "Ports et marinas"
+			},
+			"value": ["all", ["any", ["==", ["get", "infrastructure_type"], "ports and marinas"]]]
+		},
+		{
+			"color": [50,128,229],
+			"opacity": 1,
+			"label": {
 				"en": "Potable Water",
 				"fr": "Eau potable"
 			},
-			"value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "POTABLE WATER"]]]
+			"value": ["all", ["any", ["==", ["get", "infrastructure_type"], "potable water"]]]
 		},
 		{
-			"color": [166,118,29],
+			"color": [254,153,41],
+			"opacity": 1,
+			"label": {
+				"en": "Railways",
+				"fr": "Chemins de fer"
+			},
+			"value": ["all", ["any", ["==", ["get", "infrastructure_type"], "railways"]]]
+		},
+		{
+			"color": [122,1,119],
 			"opacity": 1,
 			"label": {
 				"en": "Solid Waste",
 				"fr": "Déchets solides"
 			},
-			"value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "SOLID WASTE"]]]
+			"value": ["all", ["any", ["==", ["get", "infrastructure_type"], "solid waste"]]]
 		},
 		{
-			"color": [87,66,245],
+			"color": [166,118,29],
 			"opacity": 1,
 			"label": {
-				"en": "Wastewater / Storm water",
+				"en": "Telecom",
+				"fr": "Telecommunications"
+			},
+			"value": ["all", ["any", ["==", ["get", "infrastructure_type"], "telecom"]]]
+		},
+		{
+			"color": [37,52,148],
+			"opacity": 1,
+			"label": {
+				"en": "Wastewater and Storm water",
 				"fr": "Eaux usées et eaux pluviales"
 			},
-			"value": ["all", ["any", ["==", ["get", "INFRASTRUCTURE_TYPE"], "WASTEWATER STORMWATER"]]]
+			"value": ["all", ["any", ["==", ["get", "infrastructure_type"], "wastewater and storm water"]]]
 		},
 		{
 			"comment": "The legend must include one item without a value property used as the last item (default style) in the mapbox style class expression",

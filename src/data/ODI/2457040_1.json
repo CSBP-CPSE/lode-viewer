@@ -1,50 +1,27 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Saint-Jean-Baptiste / Dupré,..,..
-Larose / André-Labadie,..,..
-Sir-Wilfrid-Laurier / devant le Mail Montenach,..,..
-Jeannotte / Laurier,..,..
-Sir-Wilfrid-Laurier / Choquette,..,..
-Sir-Wilfrid-Laurier / Jean-Talon,..,..
-Louis-Marchand / Joseph-Parent,..,..
-André-Labadie / Larose,..,..
-Dupré / Saint-Jean-Baptiste,..,..
-Sir-Wilfrid-Laurier / Bernard-Pilon,..,..
-Autoroute Jean-Lesage,BRIDGES AND TUNNELS,Footbridges
-Bernard-Pilon / Yvon-L'Heureux Nord,..,..
-Yvon-L'Heureux Nord / Choquette,..,..
-André-Labadie / Gagnon,..,..
-Lechasseur / Yvon-L'Heureux Nord,..,..
-Lechasseur / Mail Montenach (entrée #6),..,..
-Yvon-L'Heureux Nord / Lechasseur,..,..
-Laurier / Jeannotte,..,..
-Lechasseur / Radisson,..,..
-Laurier / Brunelle,..,..
-Stationnement Beloeil (ch. de l'Industrie),..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Sir-Wilfrid-Laurier / Lechasseur,..,..
-Sir-Wilfrid-Laurier / La Fontaine,..,..
-Yvon-L'Heureux Nord / Goulet,..,..
-Yvon-L'Heureux Nord / Marcotte,..,..
-Sir-Wilfrid-Laurier / Laurier,..,..
-Vinet / Bourgeois,..,..
-de l'Industrie / des Forges,..,..
-Sir-Wilfrid-Laurier / Choquette,..,..
-Boulevard Sir-Wilfrid-Laurier,BRIDGES AND TUNNELS,Footbridges
-Bernard / Laurier,..,..
-André-Labadie / Carmen-Bienvenu,..,..
-André-Labadie / Gagnon,..,..
-Yvon-L'Heureux Nord / Dumas,..,..
-Lechasseur / Dupré,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Sir-Wilfrid-Laurier / Jean-Talon,..,..
-Dupré / Bernard,..,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Lechasseur / Radisson,..,..
-Lechasseur / Dupré,..,..
-Vinet / Riviera,..,..
-Sir-Wilfrid-Laurier / Hertel,..,..
-Sir-Wilfrid-Laurier / face au Mail Montenach,..,..
-Louis-Marchand / Pierre-Louis-Le Tourneux,..,..
-Saint-Jean-Baptiste / Vinet,..,..
-Dupré / Bernard,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0478238b99dfd6f82d982988b99c157d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0bb962a65ecc40da1e1a7f96e7f83832,low carbon,charging_stations,Ville De Beloeil - Aréna André St-laurent,...,...,Government of Quebec
+1074487575ab02b258f26fd52b192e0b,low carbon,charging_stations,Ville De Beloeil - Centre Culturel,...,...,Government of Quebec
+299c45e7e7f6ab6dcb2526b5b6ce4741,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2df9aa4a7cbcba6bea0df305ee40868b,low carbon,charging_stations,Desjardins - Beloeil-mont St-hilaire,...,...,Government of Quebec
+2fd9a9c533197478c581937dbb4a9e00,low carbon,charging_stations,Ville De Beloeil - Centre Aquatique,...,...,Government of Quebec
+4b4724dddfed30274cc5bcc2d7798df8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a74a8e19abe96971804e60ce89aef27,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5e364801c972ced0ae5fdc3ed91c190a,low carbon,charging_stations,Ville De Beloeil - Centre Des Loisirs,...,...,Government of Quebec
+7393b6f445bde2d8e9d5e24af1c4aaae,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+796b8d71fedc21053c4cf80ac8cc186a,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+9069ef6d98888d290087ff2cb81ea6b8,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9284e558aeb8bf146184d3651fa05e72,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+969bb2c017a8edfbcfb9ca84821562a5,bridges and tunnels,mixed,..,..,..,La Province de Québec
+9c7b9c0d9befed9811e4a5c49d1dc1c5,telecom,tower,...,...,...,Natural Resources Canada
+9fb4ec7ab0be8e19ad87aa0f274f3324,low carbon,charging_stations,900 Mgr Laval,...,...,Government of Quebec
+a305504cbcbb415f3cab1215fee046d8,railways,station,Beloeil,...,...,Natural Resources Canada
+b063c51a7f6814728387c5f4b60b9c93,low carbon,charging_stations,Ville De Beloeil - Rue Ste-maria-goretti,...,...,Government of Quebec
+ba8bac3b507056e4f0ba36c07458a7a4,low carbon,charging_stations,St-hubert Express - Beloeil,...,...,Government of Quebec
+d5a2d85f5fb3630eb31c89ac2ed038c8,low carbon,charging_stations,Ville De Beloeil - Eglise St-mathieu,...,...,Government of Quebec
+e8dc646687ccafe25f9905c15326ff5a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ef08eebafd9d31602d25f4eabc4d6e6d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+f4460032ccc32a7609f6d5d036ea2571,low carbon,charging_stations,Brcc - Super Station – Ultramar – Beloeil,...,...,Government of Quebec
+f687388f42fada2fb314fc9eedb05a95,low carbon,charging_stations,Rona - Beloeil,...,...,Government of Quebec
+f6b416df0be4292ffd184ddd8ebbc210,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f6f542ed4446240bbe954261873587a3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada

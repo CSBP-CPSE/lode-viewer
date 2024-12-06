@@ -1,21 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-WICKLOW RIVER,BRIDGES AND TUNNELS,..
-Nahma Road,BRIDGES AND TUNNELS,Footbridges
-GILLES CREEK BRIDGE,BRIDGES AND TUNNELS,..
-BRULE CREEK BRIDGE,BRIDGES AND TUNNELS,..
-UNKNOWN CREEK CULVERT,BRIDGES AND TUNNELS,..
-..,WASTEWATER STORMWATER,..
-FREDERICKHOUSE RIVER BRIDGE,BRIDGES AND TUNNELS,..
-Hanna Road,BRIDGES AND TUNNELS,Footbridges
-Unknown Creek Culvert #1,BRIDGES AND TUNNELS,..
-Concession 12 & 1,BRIDGES AND TUNNELS,Footbridges
-Menard Lake Road,BRIDGES AND TUNNELS,Footbridges
-Glackmeyer Concession 2 & 3,BRIDGES AND TUNNELS,Footbridges
-Highway 579,BRIDGES AND TUNNELS,Footbridges
-Glackmeyer Concession 10 & 11,BRIDGES AND TUNNELS,Footbridges
-MONDOR CREEK CULVERT,BRIDGES AND TUNNELS,..
-..,BRIDGES AND TUNNELS,Footbridges
-Unknown Creek Culvert #2,BRIDGES AND TUNNELS,..
-Highway 652,BRIDGES AND TUNNELS,Footbridges
-Glackmeyer Concession 4 & 5,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01fe27f0144b81731be83ce32ab631a8,telecom,tower,...,...,...,Natural Resources Canada
+05e4f22717836b3026b5a3d7e78874dc,railways,track,..,...,...,Natural Resources Canada
+06cade516c64259cb72b97f18f1ff29e,railways,track,..,...,...,Natural Resources Canada
+07bd784f4b702b6e63e4266d687fc846,railways,track,..,...,...,Natural Resources Canada
+0a2eff498d7762dfdaca73febda41d5b,railways,track,..,...,...,Natural Resources Canada
+0bc5534cb8778c29b6a91aab56bdfaf9,railways,track,..,...,...,Natural Resources Canada
+10066fb58f0ffcd5232e9f589e705309,railways,track,..,...,...,Natural Resources Canada
+11a0593858e615c8ba7110f9765c51ad,railways,track,..,...,...,Natural Resources Canada
+164cc48b8f54f2db04b95ff7dee9c79b,railways,track,..,...,...,Natural Resources Canada
+17fbc4dda15d29f03dffcce916179764,railways,track,..,...,...,Natural Resources Canada
+19ad266c34cb9d65c74048d6f1287c26,railways,track,..,...,...,Natural Resources Canada
+1c10f83499358116882e162c6307814e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1c249100b81e3ebbd8d49bb636225e1d,railways,track,..,...,...,Natural Resources Canada
+1d41d755515a32580f31ae7f94c8974f,low carbon,solar,Northland Power Solar Abitibi,...,...,World Resources Institute
+27ea337ce12af7afc5c7e2451c6223b8,railways,track,..,...,...,Natural Resources Canada
+28593a4643f389f42d1ec238d7fd54ba,railways,track,..,...,...,Natural Resources Canada
+2a82b048bdc528a944837911b16cd6cf,railways,track,..,...,...,Natural Resources Canada
+2c9317fcbbdc2bd68d67ff55847696db,bridges and tunnels,culvert,UNKNOWN CREEK CULVERT,Culvert,Culvert,Province of Ontario
+2e3044fc633a7b61f4d7e04112d58b6d,electric grid,power_plants,..,...,...,Natural Resources Canada
+310986073cf66d951579a273a73364ec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+34416e3439c8ee35e25abd891754e128,railways,track,..,...,...,Natural Resources Canada
+358c74770e10aa2feada894dbce2118e,low carbon,hydro,Long Sault Rapids,...,...,World Resources Institute
+37067e85739bc8719060a287043dfe7d,bridges and tunnels,bridge,BRULE CREEK BRIDGE,Bridge,Bridge,Province of Ontario
+38fec96035a701a6aa22e4501a912d3c,railways,track,..,...,...,Natural Resources Canada
+3ae45fc4c4729948c53439aa80a8d199,railways,track,..,...,...,Natural Resources Canada
+3cd487698367ae3a83a2048f46a91516,railways,track,..,...,...,Natural Resources Canada
+3d76fe2a88a2e3eefe90d79a9b757b16,airports,...,Cochrane Seaplane Base,seaplane_base,...,OurAirports
+3d9dad264a099b97aa57bca04cd43c4b,railways,track,..,...,...,Natural Resources Canada
+3e2d4b293f2c6f7b062360fa44064fe3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+411c141da0add1bdc87ae88395aa4d2c,railways,track,..,...,...,Natural Resources Canada
+41e517484e125e3a838f030ba2cddfe0,railways,track,..,...,...,Natural Resources Canada
+42fb977b72dbf85aa8b3a07767d2abcb,railways,track,..,...,...,Natural Resources Canada
+46f82728ee9b618cddf4d14709f5b67f,railways,track,..,...,...,Natural Resources Canada
+4a4d4a42194f892bb658f1b78332b056,oil and gas,pipelines,..,..,...,Governmnt of Ontario
+4f2f8930f1f457eca6cd67d47f79735e,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+50508e1844f3b8e2b68bdb3e7f0f1107,railways,track,..,...,...,Natural Resources Canada
+51c043f4d2d504692eadab07036e359f,railways,track,..,...,...,Natural Resources Canada
+520344b0e1821a11440806329ea4f6be,bridges and tunnels,bridge,WICKLOW RIVER,Bridge,Bridge,Province of Ontario
+520494ebd276cf49b538481e1e580622,railways,track,..,...,...,Natural Resources Canada
+5710083881d5f0810c32d6084bbb48d6,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+588f97233efd75edab539f37954c36c4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+58aab579a0bb2166adbf656c755bb468,bridges and tunnels,culvert,Unknown Creek Culvert #2,Culvert,Culvert,Province of Ontario
+5936d7578d39d4a93ca747e601df8d8a,railways,track,..,...,...,Natural Resources Canada
+5bd126271e41b2bddad0c3f7e67b89ba,bridges and tunnels,bridge,FREDERICKHOUSE RIVER BRIDGE,Bridge,Bridge,Province of Ontario
+5d925b23355a96ab610060608e06e497,airports,...,Sky Wrench Field,small_airport,...,OurAirports
+602baba6da7ce97fd406b32965100ee7,railways,track,..,...,...,Natural Resources Canada
+61b0dba98554e23aef871efec93ef0c4,railways,track,..,...,...,Natural Resources Canada
+630c72c36bd2440dd6dda6a9e355248d,railways,track,..,...,...,Natural Resources Canada
+632c5c9d47f914403809d65ee5aac90e,railways,track,..,...,...,Natural Resources Canada

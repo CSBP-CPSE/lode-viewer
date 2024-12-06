@@ -1,3 +1,7 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0e6dc70aa2d752f6f73d58f0e1303fbf,wastewater and storm water,facilities_waste,..,SEWAGE SETTLING POND  (over 15m diameter) polygon,Lagoon,Government of Nova Scotia
+1d05af0ce8de6ef6c8c9543f60d3da5b,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+290303d6a643126012be9b8f0ddb853d,ports and marinas,port,Lockeport Harbor,..,...,National Geospatial-Intelligence Agency (NGA)
+52f4cb191cebb8b0be041e54687bc8b6,electric grid,substations,SUBSTATION (transformer) polygon,...,...,Government of Nova Scotia
+8418f42b691a7e47989495e6c5e758de,wastewater and storm water,facilities_waste,Lockeport Wastewater Treatment,"Grit Removal, Primary Sedimentation/Clarification, Oxidation Ditch",Unclassified,Environment and Climate Change Canada
+b9b62849289aec9ed91e6f56b8d49bbb,electric grid,power_lines,TRANSMISSION LINE (electrical) line,...,...,Government of Nova Scotia

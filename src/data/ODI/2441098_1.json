@@ -1,32 +1,31 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de Fontainebleau,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue 6e,BRIDGES AND TUNNELS,Footbridges
-Chemin Magnan,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Rue du Barrage,BRIDGES AND TUNNELS,Footbridges
-Avenue 9e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Chemin de la Rivière-au-Saumon,BRIDGES AND TUNNELS,Footbridges
-Rang 4e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue 7e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Avenue 3e,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels, Culverts"
-Route 112 Est,BRIDGES AND TUNNELS,Footbridges
-Avenue 5e,BRIDGES AND TUNNELS,Footbridges
-Route 257 Sud,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+0475ff67be9a4e465e6cb3f8a27e18d0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+093519cc0e232b1c059846013b5191ed,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0b181518c768382ea0ebb26b1fe19ec8,bridges and tunnels,mixed,..,..,..,La Province de Québec
+0be5b1009eb3c894dd7c9b24060b5e74,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1352eef64cb0de0e82efc4165ad41972,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1f5db3b11879d8a72a37d43a942ba6a0,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Weedon (saint-gérard),Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+2a29df6c83d280dba4ce741b0b58beff,electric grid,power_plants,..,...,...,Natural Resources Canada
+2a53e8cb1d9fcf9fc45240df4ef3eef7,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+2d1c2521c0a64494bbabb5e55d208e0d,bridges and tunnels,mixed,..,..,..,La Province de Québec
+2f89ccfabc336a274f9630bef7a37b5e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3b7ea1d3080a060cbe4a370da205ec28,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3eae8e8f684426d9d96e0d8429705d84,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+48aa588e3dba22d691c71823b9616a96,bridges and tunnels,mixed,..,..,..,La Province de Québec
+522a75faea815ba6aa173d5c892a30ec,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+577e87b657eed172018823eee8eb588e,telecom,tower,...,...,...,Natural Resources Canada
+5831160a2657ba2a514cf9793f2bdfc2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5a58c1f630013030553a8a974a47eb61,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5fc7dc96543eaad64350e62febc9fe9d,low carbon,hydro,Weedon,...,...,World Resources Institute
+6032434d556393ed33885b75accb1118,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+65003c22da0d99174cc1a19d77e11561,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+71c2f2ac9be18efb404a04d587cc60fa,low carbon,charging_stations,Brcc - Weedon - Halte De Weedon,...,...,Government of Quebec
+76f0456ca5a73e9f10da979d3088a1b6,low carbon,charging_stations,Desjardins - Cds Weedon,...,...,Government of Quebec
+7d40b8822387f1daa1ec756bbac22a8a,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+85d7ea41d04357b589a12d78f14c6ac7,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+d48745582cf0ba2f54b021737ff3de7f,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+dc744409e245594d55efe3312b130347,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+de0bcdd6135c116434bfd43c7390a7c2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+e8c68928f29bfa85eab85e28a6f7bb1a,wastewater and storm water,facilities_waste,Ouvrage Municipal D'assainissement Des Eaux Usées De Weedon,Lagoons - Aerated,Lagoon,Environment and Climate Change Canada
+ef24e4f757d4f0be12016d4b787eeefb,bridges and tunnels,mixed,..,..,..,La Province de Québec
+fc4d060325371ddc805e6b6df25c24b5,low carbon,charging_stations,Municipalité De Weedon,...,...,Government of Quebec

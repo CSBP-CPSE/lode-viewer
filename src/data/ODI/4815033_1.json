@@ -1,31 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-Maligne Lake Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,WASTEWATER STORMWATER,..
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-93 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-93A Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
-16 Highway,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,"Bridges, Tunnels"
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+00833e34e685abfca89f68dd0818067d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+00e9824703b66f6a85935130cd78c37f,railways,track,..,...,...,Natural Resources Canada
+01a9068aefe735fa1d6985713c75ce6a,railways,track,..,...,...,Natural Resources Canada
+068312e999beb9d343ee65ace368b9bd,railways,track,..,...,...,Natural Resources Canada
+080ea6560050eb701bc9d48e1fdb0165,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+082c60198a42a8aedcfab80c320e8a2a,railways,station,Wynd,...,...,Natural Resources Canada
+083ef8007d9dd2dd1b3b5346b0a31281,railways,station,Geikie,...,...,Natural Resources Canada
+0a6c52d8bd1e07c84de4e5c7225699c5,oil and gas,facilities,..,..,...,Natural Resources Canada
+0b9be893003460d2fbff73555df23807,railways,track,..,...,...,Natural Resources Canada
+0d4f39fd3ed0e1ec478ccfd0f16ce6f7,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+0e5ed5032b66d46bd499a46f9c10e330,railways,track,..,...,...,Natural Resources Canada
+0e76543755e731f4e74a47321b240262,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+0f01c75e103dbdcf40a0e562eff18625,railways,track,..,...,...,Natural Resources Canada
+0f524587d5c6c30d81c6a779c0742915,railways,track,..,...,...,Natural Resources Canada
+0f7c30753b0586537d736f6916cd9421,railways,track,..,...,...,Natural Resources Canada
+107ed4ffae7c914e6c9884322dc5d4da,wastewater and storm water,facilities_waste,Jasper Wastewater Treatment Plant,"Grit Removal, Screening, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Biological Nitrogen Removal - Nitrification and Denitrification, Biological Phosphorus Removal, Chemical Precipitation (Phosphorus), Disinfection",Unclassified,Environment and Climate Change Canada
+11c8ff06f5405c7ddca00adccf1faae7,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+130e64378ead2ebb52a316019c44d273,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+133bb4757dce1253917b9a198491f748,railways,station,Jasper,...,...,Natural Resources Canada
+138b0a0954fc061471d16e8b086e36ee,railways,track,..,...,...,Natural Resources Canada
+13aabb6b3b219eac7ebdb8358d22c8e3,railways,track,..,...,...,Natural Resources Canada
+1447eb73a9fd28cac7ded944ef86968b,railways,track,..,...,...,Natural Resources Canada
+1575fb4e6c7dfd1da6afd018d8f4ca4a,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+16686ee43b77ed943f4987ffc421c5d6,railways,track,..,...,...,Natural Resources Canada
+176c8ae459036d39f49e19744afb1e6e,railways,track,..,...,...,Natural Resources Canada
+190a498885f8d06e0849824f03ad1d56,railways,track,..,...,...,Natural Resources Canada
+19870eb16653f9d8804d0e2633f90592,railways,track,..,...,...,Natural Resources Canada
+1aaf3895ce28ad0b46ddd660aace9d1b,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+1ce631e794a2324048634601448425ca,oil and gas,pipelines,..,..,...,Natural Resources Canada
+1f715e2007d2ac08f2cfb978ab6e6941,railways,track,..,...,...,Natural Resources Canada
+2194abd88bf55a5d5dc639125e29e29a,railways,track,..,...,...,Natural Resources Canada
+26df9fa2fb6cecc8f164b2be8e650e59,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+2721e5f59179874a411041f66779700d,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+2723456b5657f8a308a6751877bc8bc1,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+278a817b2f916bb201ececcceb5fb85b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2bdd4a5930dac868db3ea0a786fa2575,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2c876a4b24d12ca3d65c6d8fd4b85b43,electric grid,power_lines,..,...,...,Goverrnment of Alberta
+2c8cfc5a0cb5e5709513d1be4cf75e85,railways,track,..,...,...,Natural Resources Canada
+2ed3259cfc6f1c28224ba34855f9668a,railways,station,English,...,...,Natural Resources Canada
+2feaaf6cd97d339882cc7681c749496b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+30abc2719406d3f394b1cfe36e616d42,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+30d987edf3ca5960d2abb0d4ee6dc611,railways,track,..,...,...,Natural Resources Canada
+32e92c1adb7cbd4f950364d31958e91e,oil and gas,pipelines,..,..,...,Alberta Energy Regulator
+346b6bf4c3d0756e59738b3cd25e09e0,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+35a7630e45364a2011f3ef00006a1aeb,railways,track,..,...,...,Natural Resources Canada
+37637e631b6068d4a8bb015e3bebfbcb,bridges and tunnels,bridge,..,BRIDGE,Bridge,Province of Alberta
+39cb186cfc9e73894975a109969a12ab,railways,track,..,...,...,Natural Resources Canada
+3a5f8d62f426ca996f564815667ba5f2,railways,track,..,...,...,Natural Resources Canada
+3a70665b80f03f55286cd9e94452b59a,railways,track,..,...,...,Natural Resources Canada

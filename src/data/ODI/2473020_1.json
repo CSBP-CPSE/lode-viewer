@@ -1,50 +1,29 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Roland-Durand / des Prés,..,..
-de la Grande-Côte / Roland-Durand,..,..
-Montée Lesage / Pineridge,..,..
-Roland-Durand / du Champagne,..,..
-de la Grande-Côte / Corona,..,..
-de Rosemère / de Normandie,..,..
-de la Grande-Côte / Hertel,..,..
-des Vignobles / du Sauvignon,..,..
-Labelle / devant la Place Rosemère,..,..
-de la Grande-Côte / Labonté,..,..
-de la Grande-Côte / Maria,..,..
-Lacas / Highland,..,..
-Corona / de la Grande-Côte,..,..
-Bouthillier / devant le Canadian Tire,..,..
-Montée Lesage / Lefrançois,..,..
-Gare Rosemère,..,..
-de la Grande-Côte / devant la bibliothèque Hemens,..,..
-de la Grande-Côte / du Pinot,..,..
-Lefrançois / des Vignobles (1),..,..
-Northcote / de Lorraine,..,..
-..,WASTEWATER STORMWATER,Wastewater Treament Plant
-Northcote / Bertrand,..,..
-Roland-Durand / Jeanne-Mance,..,..
-Northcote / de Lorraine,..,..
-Montée Sanche / Provencher,..,..
-Autoroute 640,BRIDGES AND TUNNELS,Footbridges
-Northcote / Linden,..,..
-des Vignobles / du Champagne,..,..
-de Rosemère / Westward,..,..
-de la Grande-Côte / Labelle,..,..
-Florian / Chapleau,..,..
-Roland-Durand / des Prés,..,..
-..,WASTEWATER STORMWATER,Sewer Pipes of Unknown Size
-de la Grande-Côte / Roland-Durand,..,..
-Willowtree / Forestwood,..,..
-des Vignobles / du Saint-Émilion,..,..
-Northcote / Cedar,..,..
-des Vignobles / du Saint-Émilion,..,..
-Gare Rosemère,..,..
-Roland-Durand / des Roitelets,..,..
-des Vignobles / du Champagne,..,..
-de la Grande-Côte / Hertel,..,..
-Roland-Durand / du Colibri,..,..
-de la Grande-Côte / face à la gare Rosemère,..,..
-Northcote / Orchard,..,..
-de la Clairière / du Parc,..,..
-Cedar / Pine,..,..
-de la Grande-Côte / Remembrance,..,..
-de la Grande-Côte / Cadieux,..,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+1a899839114dd04000774daeaafc58db,wastewater and storm water,pipes_combined,..,..,Sewer unknown,Ville de Blainville
+1b02e248c7edc5311ae57a97ff86ea34,low carbon,charging_stations,Rosemère - Aréna,...,...,Government of Quebec
+1c77b6bd9a61a270c0c7bff15d2767ed,wastewater and storm water,pipes_combined,..,..,Sewer unknown,Ville de Blainville
+1fc461a7c44dcf754a60f31d17489ab2,bridges and tunnels,mixed,..,..,..,La Province de Québec
+285891cf8d18aac4c50ee5029a559c74,low carbon,charging_stations,Rosemère - Hôtel De Ville,...,...,Government of Quebec
+36f760a5a316c8609a8beb06ff9e60fa,low carbon,charging_stations,Rosemère - Bibliothèque,...,...,Government of Quebec
+3bdd429455da1e9b6738e90767da431d,wastewater and storm water,facilities_waste,Station D'épuration Des Eaux Usées,..,Waste treatment plant,Environment and Climate Change Canada
+42bc4c2dad3541fa408cae0d0e45293a,wastewater and storm water,pipes_combined,..,..,Sewer unknown,Ville de Blainville
+63ba5eb15e721593fe0901b6b2dad9ca,wastewater and storm water,pipes_combined,..,..,Sewer unknown,Ville de Blainville
+63ce8e720c25e159d3c4f00835abbceb,wastewater and storm water,pipes_combined,..,..,Sewer unknown,Ville de Blainville
+6b2f5f7caf890dcfa2b4dd2b0ed7ad33,low carbon,charging_stations,Rosemère - Bibliothèque Municipale,...,...,Government of Quebec
+6c9a177f8de5003ef45c393348c0d98c,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6df87199678f0d02efa18dd5450a682f,wastewater and storm water,pipes_combined,..,..,Sewer unknown,Ville de Blainville
+736f2907a6423023faa53626e7c7a599,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+7600b928df39b27794dd7b549a42ba07,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8aa1e5136e1868faee0e7bf7353cf919,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+ad05b49a9efe7d3e7d3c0ba312628a85,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+aedc02a8ac6874c9873f106529b7e916,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+b9b1d41cf890d7b0777419d22a63ce9c,low carbon,charging_stations,Rosemère - Gare,...,...,Government of Quebec
+c0ac7f243868e7f1442142a2650281b6,wastewater and storm water,pipes_combined,..,..,Sewer unknown,Ville de Blainville
+c4df5e5b53a2c6dcb9c1b84966b240b0,wastewater and storm water,pipes_combined,..,..,Sewer unknown,Ville de Blainville
+d0b554cad1e7b6a9aca44379d1afea4f,low carbon,charging_stations,Hôtel De Ville De Rosemère,...,...,Government of Quebec
+d5cd7718c8b62fabe3bd927c6f93ca5c,wastewater and storm water,pipes_combined,..,..,Sewer unknown,Ville de Blainville
+edc2b32ef88f23ef726b66f030a07f26,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f4cff17f6451b3c4e40ca9da3145a5fc,railways,station,Rosemère,...,...,Natural Resources Canada
+f53751bb403d206d006dffe989eb9ccd,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+f61cf7d4baa4d593f2f782acb892fbd1,wastewater and storm water,pipes_combined,..,..,Sewer unknown,Ville de Blainville
+fab6984f80ad3f9e086a13ad8f9e64c7,low carbon,charging_stations,Rosemère - Centre Communautaire,...,...,Government of Quebec

@@ -1,37 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Muskoka Road 169 Underpass,BRIDGES AND TUNNELS,..
-Sparrow Lake Route D,BRIDGES AND TUNNELS,Footbridges
-Severn River Bridge,BRIDGES AND TUNNELS,..
-GULL LAKE BRIDGE NORTHBOUND LANE,BRIDGES AND TUNNELS,..
-Southwood Road,BRIDGES AND TUNNELS,Footbridges
-Jones Road,BRIDGES AND TUNNELS,Footbridges
-Kashe River Culvert,BRIDGES AND TUNNELS,..
-Campbells Road,BRIDGES AND TUNNELS,Footbridges
-Fire Route A1,BRIDGES AND TUNNELS,Footbridges
-GULL LAKE BRIDGE SOUTHBOUND LANE,BRIDGES AND TUNNELS,..
-Muskoka Beach Road,BRIDGES AND TUNNELS,Footbridges
-North Shore Drive,BRIDGES AND TUNNELS,Footbridges
-Narrows Road,BRIDGES AND TUNNELS,Footbridges
-BEAVER CREEK CULVERT,BRIDGES AND TUNNELS,..
-Muskoka District Road 49,BRIDGES AND TUNNELS,Footbridges
-Road 1700,BRIDGES AND TUNNELS,Footbridges
-MUSKOKA ROAD 13 INTERCHANGE,BRIDGES AND TUNNELS,..
-HAWK ROCK CREEK CULVERT,BRIDGES AND TUNNELS,..
-Seehaver Road,BRIDGES AND TUNNELS,Footbridges
-KASHE RIVER CULVERT,BRIDGES AND TUNNELS,..
-Highway 11,BRIDGES AND TUNNELS,Footbridges
-Sniders Bay Road,BRIDGES AND TUNNELS,Footbridges
-SEDORE ROAD INTERCHANGE,BRIDGES AND TUNNELS,..
-Doe Lake Road,BRIDGES AND TUNNELS,Footbridges
-Cooks Road,BRIDGES AND TUNNELS,Footbridges
-Canning Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Rainbow Circle,BRIDGES AND TUNNELS,Footbridges
-Pinetree Road S1,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-..,WASTEWATER STORMWATER,..
-South Kahshe Lake Road,BRIDGES AND TUNNELS,Footbridges
-Houseys Rapids Road,BRIDGES AND TUNNELS,Footbridges
-MUSKOKA ROAD 6 & 41 INTERCHANGE (DOE LAKE ROAD),BRIDGES AND TUNNELS,..
-SPARROW LAKE ROAD 'D',BRIDGES AND TUNNELS,..
-KILLWORTHY AND SOUTH KASHE LAKE ROAD,BRIDGES AND TUNNELS,..
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+04d12fe0e789d26a0ce2a6fc2e369bb6,wastewater and storm water,facilities_waste,Muskoka Beach Wwtp,"Grit Removal, Screening, Chemical Flocculation, Primary Sedimentation/Clarification, Skimming, Activated Sludge, Chemical Precipitation (Phosphorus), Filtration, Disinfection",Unclassified,Environment and Climate Change Canada
+04f1eebaf9ea157548f20a595ecc8c48,airports,...,Morrison Lake Seaplane Base,seaplane_base,...,OurAirports
+06cfb44c1e9cce62e3c7ffb611850d48,railways,station,Gravenhurst,...,...,Natural Resources Canada
+1018ef31d3206145b623f0976a66f78b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+12cfe7eb17644cb7cebdd2d692c10b7e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+13e907a077fcac32619ee23ac63a1140,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+153649524856afb693bf6ed2923bd2ad,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1a7a0c6bd4033569a4cf6ca7bc857402,airports,...,Rankin Island Water Aerodrome,seaplane_base,...,OurAirports
+1ae8e9ac0613d57dc84d5f41c926ccd0,airports,...,Miller Island Seaplane Base,seaplane_base,...,OurAirports
+1bcc75299ef4e591656d3bde25658e82,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+1bf6754cb9a928d5a344166f1e658aab,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+1e8a9f7cf72b739fd5d311d0578748aa,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+211e652ea3ae037b3a5f1fd91d7ab3f3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+21da5c83e57e2146b678095ed9b6fa66,bridges and tunnels,culvert,BEAVER CREEK CULVERT,Culvert,Culvert,Province of Ontario
+271941813df986450447c0bb4199f3e8,bridges and tunnels,culvert,Kashe River Culvert,Culvert,Culvert,Province of Ontario
+27eda5c365a76abc1b769ec78775f527,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+2d98d49dc299b66a382fd8867442b108,bridges and tunnels,culvert,KASHE RIVER CULVERT,Culvert,Culvert,Province of Ontario
+2f844a7b891ca6ac23c83016fea63f5d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+360a2e02480abc4d1670ce57f75fc04b,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+37319eb14f5f50e15c43ea56603155a7,bridges and tunnels,culvert,HAWK ROCK CREEK CULVERT,Culvert,Culvert,Province of Ontario
+3aec9335e94001a24ca3ef9b4359e933,bridges and tunnels,bridge,MUSKOKA ROAD 13 INTERCHANGE,Bridge,Bridge,Province of Ontario
+3b56193951598d7e51ad435f10bb2a80,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+3bac3c9d5eadaee2eb47d63e427758db,bridges and tunnels,mixed,..,..,..,Natural Resources Canada
+3bc7f65336a66326e90bc9a7c3017c77,bridges and tunnels,bridge,KILLWORTHY AND SOUTH KASHE LAKE ROAD,Bridge,Bridge,Province of Ontario
+3f2c05cd67d86b7efc5520fc765f01c4,telecom,tower,...,...,...,Natural Resources Canada
+43bf523d5f9b62c61cb4850f50bdfb91,telecom,tower,...,...,...,Natural Resources Canada
+4639467b0ea431686144a4469304500c,bridges and tunnels,bridge,GULL LAKE BRIDGE NORTHBOUND LANE,Bridge,Bridge,Province of Ontario
+48893116b6d07422be1951c801d2c9d3,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+4d38dddea62d3c4cd57212138f8e1235,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+57fb1975b2069514591b28a5a5369cea,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+59c0f6d7e30f19128aad549c872bb459,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5c562838856601205f4506c3530410c2,telecom,tower,...,...,...,Natural Resources Canada
+66cfd1608dca7fc71ce3a1aaea12a69d,railways,track,..,...,...,Natural Resources Canada
+699b36a0b9210f9d6e90c473fb566230,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+708916b022410292568435066c6a6b8a,airports,...,Clearwater Lake Seaplane Base,seaplane_base,...,OurAirports
+80afefea17019ba44c7b5e705d58011f,airports,...,Gravenhurst/muskoka Bay Seaplane Base,seaplane_base,...,OurAirports
+821d3cb2fda4499364b340750a35c209,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+828e3525f8eedc316901eb593182753d,bridges and tunnels,bridge,SEDORE ROAD INTERCHANGE,Bridge,Bridge,Province of Ontario
+8a6805bbe8ca4cc29643b5f4286b6272,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+8d4d70c3b6eeaf75c2a8a1637287b3ae,oil and gas,facilities,..,Oil and Gas Facility,...,Natural Resources Canada
+925915d6e4810e4c5acf69e4e582d5a2,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+94c03fd4e6917f803af97a06796893f2,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9b06080268e41b1a34954c428eaee9ec,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9eec65363c5daf82cc0bee736c3f5b16,railways,track,..,...,...,Natural Resources Canada
+a25b430e3dc372491ac4d7a7b52671bf,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a5367e7f40bc576dbfe7fc1453357b23,telecom,tower,...,...,...,Natural Resources Canada
+a5e4642d0a5c793d461e233e55c3bb6e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+a9e02beee3fab8fa4b961842cc8b86c4,bridges and tunnels,bridge,MUSKOKA ROAD 6 & 41 INTERCHANGE (DOE LAKE ROAD),Bridge,Bridge,Province of Ontario
+abcc8601a510f83aa3c4efee82d49072,bridges and tunnels,mixed,..,..,..,Natural Resources Canada

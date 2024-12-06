@@ -1,30 +1,50 @@
-NAME,INFRASTRUCTURE_TYPE,INFR_SUB_TYPE
-Kettle River Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Ingram Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Okanagan Falls Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Roylance Road,BRIDGES AND TUNNELS,Footbridges
-Beaverdell Station Road,BRIDGES AND TUNNELS,Footbridges
-West Kettle River Bridge,BRIDGES AND TUNNELS,Footbridges
-Tuzo Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Lost Horse Creek Road,BRIDGES AND TUNNELS,Footbridges
-Wallace Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Trapping Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-..,BRIDGES AND TUNNELS,Footbridges
-Norwegian Creek Road,BRIDGES AND TUNNELS,Footbridges
-Rendell Creek Road,BRIDGES AND TUNNELS,Footbridges
-Goodeve Road,BRIDGES AND TUNNELS,Footbridges
-Canyon Road,BRIDGES AND TUNNELS,Footbridges
-Boundary Smelter Road,BRIDGES AND TUNNELS,Footbridges
-Crouse Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Bombini Road,BRIDGES AND TUNNELS,Footbridges
-Highway 3,BRIDGES AND TUNNELS,Footbridges
-Blythe-Rhone Road,BRIDGES AND TUNNELS,Footbridges
-Fiva Creek Road,BRIDGES AND TUNNELS,Footbridges
-Boundary Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Beaverdell-State Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
-Highway 33,BRIDGES AND TUNNELS,Footbridges
-Wallace Creek Road,BRIDGES AND TUNNELS,Footbridges
-Kettle River Bridge,BRIDGES AND TUNNELS,Footbridges
-Kettle Valley South Road,BRIDGES AND TUNNELS,Footbridges
-Big White Road,BRIDGES AND TUNNELS,Footbridges
-Grano Creek Forest Service Road,BRIDGES AND TUNNELS,Footbridges
+id,infrastructure_type,sub_type,name,source_class,ccpi_class,provider
+01810a768d00dc63827505c1b0554359,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+040b444efe6319313571f7d1bec63ab4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+0c21b4661e08d4350e94871ed2098724,bridges and tunnels,bridge,WEST KETTLE,BRIDGE,Bridge,Province of British Columbia
+0c5b02dcabdc5132e4cc86fecce9bb51,bridges and tunnels,bridge,BOUNDARY CR FALLS,BRIDGE,Bridge,Province of British Columbia
+1809d927c62a3301b1e0875a253b2249,bridges and tunnels,bridge,HARPUR,BRIDGE,Bridge,Province of British Columbia
+180a8b2d0cf365146018dcc362aefa11,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+189630a41ac5521d7d2d87943f10c967,bridges and tunnels,bridge,ROCK CREEK CANYON,BRIDGE,Bridge,Province of British Columbia
+21aab7bc16f2ed6e093ece5d4b448706,bridges and tunnels,bridge,CUDWORTH,BRIDGE,Bridge,Province of British Columbia
+24ea0572acb6f661ef5e74f33292a7e6,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+261ec098e32885bb764b761e4e48a4a7,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+270dc6a6b3f1794fb6aa5f7cf7e7a0ec,bridges and tunnels,bridge,FIVA CREEK,BRIDGE,Bridge,Province of British Columbia
+28ac52cf3c84387cbb542b22187bf1a1,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+29d0e563c172bc960486af5df9d084a8,oil and gas,pipelines,..,..,...,Natural Resources Canada
+2d563763f7d6ce4ffe5013046d9579c0,bridges and tunnels,bridge,WHITE CABIN,BRIDGE,Bridge,Province of British Columbia
+347fe0c4d254187739cdfe4228776181,bridges and tunnels,bridge,OKANAGAN LAKE,BRIDGE,Bridge,Province of British Columbia
+356d7413216fda168557b23447592fd4,bridges and tunnels,bridge,JOLLY JACK,BRIDGE,Bridge,Province of British Columbia
+38b676c7390d80441b9f3decf9ed1fd0,bridges and tunnels,bridge,INGRAM,BRIDGE,Bridge,Province of British Columbia
+3eb90633e24d2f15a0e048ae9f51c95f,bridges and tunnels,bridge,KETTLE VALLEY,BRIDGE,Bridge,Province of British Columbia
+42f92ad076ddd5850c63c42fa64d5cd2,telecom,tower,...,...,...,Natural Resources Canada
+4ac9f494ad3a5baba3c281745d75e4e0,bridges and tunnels,bridge,WILKINSON CREEK,BRIDGE,Bridge,Province of British Columbia
+4db5116c4b4557d5272a842a30b791ea,bridges and tunnels,bridge,BEAVERDELL,BRIDGE,Bridge,Province of British Columbia
+4e29e5dbb49231c94a872e86c8a6d035,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+4e30dd51bb9e62a23cf222caeb9b6e6a,bridges and tunnels,bridge,WESTBRIDGE,BRIDGE,Bridge,Province of British Columbia
+51ec6f6b24c3629819b2b201a90de4e1,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+549842115e1d71bf748136963c28c0cf,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+562d923d30ff23dceff5bd4990a0f7d9,telecom,tower,...,...,...,Natural Resources Canada
+5a06632f9ce3b019eb31956b5eb10be5,bridges and tunnels,bridge,ROYLANCE,BRIDGE,Bridge,Province of British Columbia
+5a47d2b6780afcea76b3df64425928e1,bridges and tunnels,bridge,KETTLE RIVER,BRIDGE,Bridge,Province of British Columbia
+5b8fa9cc6f50dbb62b7830c1a1dbae0e,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+5ba7cc3c67dda9d9a6159d85a4e43ee3,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+5bc2e007a58bafa603730f89adc19c3d,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+6051ff10711bf7f7198ed3a5e70ce09e,bridges and tunnels,bridge,CARMI,BRIDGE,Bridge,Province of British Columbia
+637867c912b763cf93b9cb8800f5ffcf,oil and gas,pipelines,..,Valve,...,British Columbia Energy Regulator
+6517d88be8728dbca4809692990df8a6,oil and gas,pipelines,..,Riser,...,British Columbia Energy Regulator
+69f90fac47db9ba7e5ca874d77a46309,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+6add3ef90b0cb3f2171b71c27c31e20d,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+704b7d6a8120d687a196c906ae2c04c9,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+712f52687150ca0771010e0d22d7e738,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+759e4c39f2f3fe5ed2e55244773b5594,bridges and tunnels,bridge,BOUNDARY SMELTER,BRIDGE,Bridge,Province of British Columbia
+783932caf5e70d969c2ac90aa89945c2,telecom,tower,...,...,...,Natural Resources Canada
+7fd73a68aea701f481b7aef7922e7925,bridges and tunnels,bridge,COPPER KETTLE,BRIDGE,Bridge,Province of British Columbia
+82936fdba30bc3f51647e547c102fd98,bridges and tunnels,bridge,WILIAMSON UPPER,BRIDGE,Bridge,Province of British Columbia
+83556abf3f83fad0d163c60f8077fe19,bridges and tunnels,bridge,ROCK CREEK NORTH,BRIDGE,Bridge,Province of British Columbia
+84b3b31dbb6442cf03b20f2b1f16b624,oil and gas,pipelines,..,Transmission,...,British Columbia Energy Regulator
+868a6d76ebb09efe7240fdaeafa89e79,telecom,line,...,...,...,Natural Resources Canada
+89ed62f5488ac522cad638f016f01ea7,oil and gas,pipelines,..,Farm Taps,...,British Columbia Energy Regulator
+8f3ce1bf2a9fe9ae8cbc7f3896dea0ba,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
+9083d46ff14169b7672ee5efc2c479e4,bridges and tunnels,bridge,..,Bridge,Bridge,Natural Resources Canada
+9910d01874f8f3b74d18094b23a154d5,solid waste,mixed,..,..,Facility mixed,Natural Resources Canada
