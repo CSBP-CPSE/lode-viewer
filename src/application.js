@@ -19,7 +19,7 @@ export default class LodeApp extends Templated {
 
 		// Update local storage with lode-viewer app specific default value for lode-map:
 		if (!window.localStorage.getItem("lode-map")) {
-			window.localStorage.setItem("lode-map", "odi");
+			window.localStorage.setItem("lode-map", "odef");
 		}
 
 		this.config = config;
