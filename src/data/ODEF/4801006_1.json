@@ -1,46 +1,49 @@
-Index,Facility_Name,Facility_Type,Street_No,Street_Name,City,Prov_Terr,Postal_Code
-0100cd4275267b4869b1,St. Michael's School,Separate,865,black boulevard nw,Medicine Hat,AB,T1A7B5
-06dbcd50c899ed1de2ab,Medicine Hat School District No.76 Summer School,Public,200,7 street sw,Medicine Hat,AB,T1A4K1
-07e208003857a00cbf85,Crestwood School,Public,2300,19 avenue se,Medicine Hat,AB,T1A3X5
-0c305b34808290ee6f47,Alexandra Middle School,Public,477,6 street se,Medicine Hat,AB,T1A1H4
-0ebce8f4e1a6538f6aaf,Central High School,Public,1310,kingsway avenue se,Medicine Hat,AB,T1A2Y4
-0fb30c9c7eacf6fd1dd6,PAS,Public,631,prospect dr se,Medicine Hat,AB,T1A4C2
-1a5434172f7fa03546c8,St. Francis Xavier School,Separate,318,8 street ne,Medicine Hat,AB,T1A5R6
-1a6102bbfb695b424531,St. Mary's School,Separate,155,11 street sw,Medicine Hat,AB,T1A4S2
-21dcb217c354e44d4d16,River Heights Elementary,Public,301,6 avenue sw,Medicine Hat,AB,T1A5A8
-298daa300f3308043583,Medicine Hat College,Provincial,299,college drive se,Medicine Hat,AB,T1A3Y6
-2eb22b331cdce662da66,Cypress College - Culinary Campus,Private Institution,1051,ross glen drive se,Medicine Hat,AB,T1B3T8
-31abf36ef0a252bd61ce,Ross Glen School,Public,48,ross glen road se,Medicine Hat,AB,T1B3A8
-3cf716eac4d5b11ca18a,Connaught School,Public,101,8 street sw,Medicine Hat,AB,T1A4L5
-5ce6179cb4afddc066aa,Vincent Massey School,Public,901,hargrave way nw,Medicine Hat,AB,T1A6Y8
-5faad40a852212d8e549,Monsignor McCoy High School,Separate,202,8 street ne,Medicine Hat,AB,T1A5R6
-68a388dfffa2b5eab981,Young Moms' School,Public,1707,7 avenue ne,Medicine Hat,AB,T1C1P5
-6eaf754d510b2c1c526d,One Beauty Academy - Medicine Hat,Private Institution,634,2 street se,Medicine Hat,AB,T1A0C9
-733819c5e5e0ec3644bd,Cypress College - Medicine Hat,Private Institution,,3-7th street se,Medicine Hat,AB,T1A1J2
-7462d70ae94d6671d87e,École Les Cypres,Francophone,945,1st avenue se,Medicine Hat,AB,T1A2K6
-7678e18c0a75902cbb77,Saamis REAL Outreach,Public,770,1 street se,Medicine Hat,AB,T1A0B4
-7d9a0e64737516d7552d,Herald School,Public,301,5 street sw,Medicine Hat,AB,T1A4G5
-7dddccf24406575cac28,Dr. Ken Sauer School,Public,20,terrace dr ne,Medicine Hat,AB,T1C1Z8
-7f73b80c0addc19f343d,Super T Aviation Academy,Private Institution,49,viscount ave sw,Medicine Hat,AB,T1A5G4
-84b05d5448f1c5fcfa2f,REAL McMan,Public,770,1 street se,Medicine Hat,AB,T1A0B4
-84ed25addd2e9126a6eb,Medicine Hat College,Junior College,299,college dr se,Medicine Hat,AB,T1A3Y6
-86f09e4d5d3cc60546cb,St. Louis School,Separate,861,4 street se,Medicine Hat,AB,T1A0L5
-87dc7fce42745f6bae3a,George Davison Elementary School,Public,155,sprague way se,Medicine Hat,AB,T1B3L5
-8974befeaac77fb4f998,Community Early Learning Program,Public,601,1 avenue sw,Medicine Hat,AB,T1A4Y7
-8e6216c9158bbd2b757a,Webster Niblock School,Public,909,4 avenue ne,Medicine Hat,AB,T1A6B6
-8fb83b12c37f3628972c,Crescent Heights High School,Public,1201,division avenue ne,Medicine Hat,AB,T1A5Y8
-94ca2877ba2c619e7751,Centre for Academic and Personal Excellence,Charter,201,5 street sw,Medicine Hat,AB,T1A4G7
-9730d3f0957051bc0de5,Southview Community School,Public,,477-6th street se,Medicine Hat,AB,T1A1H4
-9c3798fddbc174b00142,Beyond Walls Outreach School,Public,1008,allowance avenue se,Medicine Hat,AB,T1A3G8
-a39bc759a8b66f256660,Rural Futures,Public,1008,allowance ave se medcine,Medcine Hat,AB,T1A3G8
-b41b418ab31092c5523e,Dr. Roy Wilson Learning Centre,Public,751,strachan road se,Medicine Hat,AB,T1B0P1
-bda9d0f4c3925681461a,Mother Teresa School,Separate,235,cameron road se,Medicine Hat,AB,T1B2Z2
-c87d99853f6aab1dd76f,Notre Dame Academy,Separate,646,spruce way,Medicine Hat,AB,T1B4L4
-cc163f6010e35770c38a,Southern Alberta Institute of Massage-Medicine Hat,Private Institution,340,maple avenue se,Medicine Hat,AB,T1A7L5
-d8cb69bc1a63fb002064,Prairie Mennonite Alternative School,Public,1970,19 avenue se,Medicine Hat,AB,T1A3X1
-db6e024ee46eed32a20f,YMCA Stay in School Career High School,Public,770,1 street se,Medicine Hat,AB,T1A0B4
-e022895d612ea46a24e3,Academy of Learning-Medicine Hat,Private Institution,115,3030 13 ave se,Medicine Hat,AB,T1B1E3
-e283679326f7e5097f61,Elm Street School,Public,1001,elm street se,Medicine Hat,AB,T1A1C2
-ee51055f468b8d72b649,Medicine Hat Christian School,Public,68,rice drive se,Medicine Hat,AB,T1B3X2
-ee64dbffb0e25f869953,St. Patrick's School,Separate,241,stratton way se,Medicine Hat,AB,T1B3Z2
-f26fc48487206bd26658,Medicine Hat High School,Public,200,7 street sw,Medicine Hat,AB,T1A4K1
+unique_id,facility_name,full_address,province_code,authority_name
+0100cd4275267b4869b1,St. Michael's School,"865 Black Boulevard N.W., Medicine Hat T1A7B5",AB,The Medicine Hat Roman Catholic Separate School Division
+04ed0314824dff08b7ca,École St. John Paul II School,"4802 Southlands Drive SE, Medicine Hat T1B0L6",AB,The Medicine Hat Roman Catholic Separate School Division
+06dbcd50c899ed1de2ab,Medicine Hat School District No.76 Summer School,"200 - 7 Street S.W., Medicine Hat T1A4K1",AB,The Medicine Hat School Division
+07e208003857a00cbf85,Crestwood School,"2300 - 19 Avenue S.E., Medicine Hat T1A3X5",AB,The Medicine Hat School Division
+0c305b34808290ee6f47,Alexandra Middle School,"477 - 6 Street S.E., Medicine Hat T1A1H4",AB,The Medicine Hat School Division
+0ebce8f4e1a6538f6aaf,Central High School,"299 College Drive SE, Medicine Hat T1A3Y6",AB,The Medicine Hat School Division
+0fb30c9c7eacf6fd1dd6,PAS,"631 Prospect Dr. S.E., Medicine Hat T1A4C2",AB,The Medicine Hat School Division
+1a5434172f7fa03546c8,St. Francis Xavier School,"318 - 8 Street N.E., Medicine Hat T1A5R6",AB,The Medicine Hat Roman Catholic Separate School Division
+1a6102bbfb695b424531,St. Mary's School,"155 - 11 Street S.W., Medicine Hat T1A4S2",AB,The Medicine Hat Roman Catholic Separate School Division
+21dcb217c354e44d4d16,River Heights Elementary,"301 - 6 Avenue S.W., Medicine Hat T1A5A8",AB,The Medicine Hat School Division
+22f61c8ab18499b9cadf,South Alberta Collegiate (South Alberta Flight Academy),"1351 - 30 Street SW, Medicine Hat T1B3N4",AB,The Prairie Rose School Division
+298daa300f3308043583,Medicine Hat College,"299 College Drive S.E., Medicine Hat T1A3Y6",AB,Medicine Hat College
+2eb22b331cdce662da66,Cypress College - Culinary Campus,"1100 Redcliff Drive SW, Medicine Hat",AB,..
+31abf36ef0a252bd61ce,Ross Glen School,"48 Ross Glen Road S.E., Medicine Hat T1B3A8",AB,The Medicine Hat School Division
+3cf716eac4d5b11ca18a,Connaught School,"101 - 8 Street S.W., Medicine Hat T1A4L5",AB,The Medicine Hat School Division
+5ce6179cb4afddc066aa,Vincent Massey School,"901 Hargrave Way N.W., Medicine Hat T1A6Y8",AB,The Medicine Hat School Division
+5faad40a852212d8e549,Monsignor McCoy High School,"202 - 8 Street N.E., Medicine Hat T1A5R6",AB,The Medicine Hat Roman Catholic Separate School Division
+68a388dfffa2b5eab981,Young Moms' School,"578 South Railway St SE, Medicine Hat T1B1E8",AB,The Medicine Hat School Division
+6eaf754d510b2c1c526d,One Beauty Academy - Medicine Hat,"634 2 Street SE, Medicine Hat",AB,..
+733819c5e5e0ec3644bd,Cypress College - Medicine Hat,"3-7th Street, Medicine Hat",AB,..
+7462d70ae94d6671d87e,École Les Cyprès,"20 Saamis Rotary Way SW, Medicine Hat T1B4N5",AB,The Southern Francophone Education Region
+7d9a0e64737516d7552d,Herald School,"301 - 5 Street S.W., Medicine Hat T1A4G5",AB,The Medicine Hat School Division
+7dddccf24406575cac28,Dr. Ken Sauer School,"20 Terrace Dr NE, Medicine Hat T1C1Z8",AB,The Medicine Hat School Division
+7f73b80c0addc19f343d,Super T Aviation Academy,"Hangar #7,Medicine Hat Airport, Medicine Hat",AB,..
+84ed25addd2e9126a6eb,Medicine Hat College,"299 College Dr. S.E., Medicine Hat",AB,..
+86f09e4d5d3cc60546cb,St. Louis School,"861 - 4 Street S.E., Medicine Hat T1A0L5",AB,The Medicine Hat Roman Catholic Separate School Division
+87dc7fce42745f6bae3a,George Davison Elementary School,"155 Sprague Way S.E., Medicine Hat T1B3L5",AB,The Medicine Hat School Division
+8974befeaac77fb4f998,Community Early Learning Program,"601   1 Avenue SW, Medicine Hat T1A4Y7",AB,The Medicine Hat School Division
+8e6216c9158bbd2b757a,Webster Niblock School,"909 - 4 Avenue N.E., Medicine Hat T1A6B6",AB,The Medicine Hat School Division
+8fb83b12c37f3628972c,Crescent Heights High School,"1201 Division Avenue N.E., Medicine Hat T1A5Y8",AB,The Medicine Hat School Division
+94ca2877ba2c619e7751,Centre for Academic and Personal Excellence,"201 5 Street SW, Medicine Hat T1A4G7",AB,CAPE - Centre for Academic and Personal Excellence Institute
+9730d3f0957051bc0de5,Southview Community School,"2425 Southview Dr. SE,, Medicine Hat T1B1E8",AB,The Medicine Hat School Division
+9c3798fddbc174b00142,Coulee Collegiate,"299 College Drive SE, Medicine Hat T1A3Y6",AB,The Prairie Rose School Division
+a39bc759a8b66f256660,South Alberta High School,"918 - 2nd Avenue, Dunmore T1B0K3",AB,The Prairie Rose School Division
+b41b418ab31092c5523e,Dr. Roy Wilson Learning Centre,"751 Strachan Road SE, Medicine Hat T1B0P1",AB,The Medicine Hat School Division
+b62ddac992bcc9bae07e,Hutterian Brethren Church School of Elkwater,"918 2nd Ave, Medicine Hat T1B0K3",AB,The Prairie Rose School Division
+bda9d0f4c3925681461a,Mother Teresa School,"235 Cameron Road S.E., Medicine Hat T1B2Z2",AB,The Medicine Hat Roman Catholic Separate School Division
+c87d99853f6aab1dd76f,Notre Dame Academy,"646 Spruce Way, Medicine Hat T1B4L4",AB,The Medicine Hat Roman Catholic Separate School Division
+cc163f6010e35770c38a,Southern Alberta Institute of Massage-Medicine Hat,"340 Maple Avenue SE, Medicine Hat",AB,..
+d02667ffc1c75520f785,St. Joseph’s Education Centre,"202  8th Street NE, Medicine Hat T1A5R6",AB,The Medicine Hat Roman Catholic Separate School Division
+d8cb69bc1a63fb002064,Prairie Mennonite Alternative School,"1970 19 Avenue SE, Medicine Hat T1A3X1",AB,The Prairie Rose School Division
+db6e024ee46eed32a20f,Pathways School,"578 South Railway St SE, Medicine Hat T1B1E8",AB,The Medicine Hat School Division
+e022895d612ea46a24e3,Academy of Learning-Medicine Hat,"115 3030 13 Ave., Medicine Hat",AB,..
+e283679326f7e5097f61,Elm Street School,"1001 Elm Street S.E., Medicine Hat T1A1C2",AB,The Medicine Hat School Division
+ee51055f468b8d72b649,Medicine Hat Christian School,"68 Rice Drive SE, Medicine Hat T1B3X2",AB,The Medicine Hat School Division
+ee64dbffb0e25f869953,St. Patrick's School,"241 Stratton Way S.E., Medicine Hat T1B3Z2",AB,The Medicine Hat Roman Catholic Separate School Division
+f26fc48487206bd26658,Medicine Hat High School,"200 - 7 Street S.W., Medicine Hat T1A4K1",AB,The Medicine Hat School Division
+f78ee4ee8c7b3bba96b9,The Hub: Online Community School,"578 South Railway St SE, Medicine Hat T1B1E8",AB,The Medicine Hat School Division

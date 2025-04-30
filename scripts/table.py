@@ -9,14 +9,45 @@ from pathlib import Path, PurePath
 # Column field name variables
 # Before running this script, update the variables with the strings matching
 # the names in the dataset for csduid column, index, lat, and long columns.
-TABLECONFIG = "./source/Tables/ODI/odi.json"
-CSDUID = "csduid"
-INDEX = "id"
+TABLECONFIG = "./source/Tables/ODEF/odef.json"
+CSDUID = None
+DGUID = "dguid"
+INDEX = "unique_id"
 LAT = None
 LONG = None
 
 
-def BuildDf(iFile):
+def dguid_to_csduid(dguid):
+    """
+    Convert StatCan DGUID to CSDUID is possible
+
+    Structure of DGUID:
+    [VVVV][T][SSSS][GGGGGGGGGGGG]
+    v = vintage, t = type, s = schema, G = geographic unique id (1-12 digits)
+
+    CSDs have a type of 'A' (administration), and a schema of '0005'.
+
+    :param dguid: String representing the Dissemination Geographic Unique ID
+    :return: Census Subdivision unique ID
+    """
+
+    # placeholder CSDUID value
+    csduid = None
+
+    # Extract vintage, type, schema, and geographic unique identifier
+    vintage = dguid[0:4]
+    type = dguid[4:5]
+    schema = dguid[5:9]
+    guid = dguid[9:]
+
+    # Confirm DGUID represents a CSD
+    if (type == 'A') and (schema == "0005") and (len(guid) == 7):
+        csduid = guid
+
+    return csduid
+
+
+def build_df(iFile):
     """
     Build a Data Frame with the provided dataset
     :param iFile {string} - Path to input dataset
@@ -31,7 +62,7 @@ def BuildDf(iFile):
     return df
 
 
-def UpdateDFColOrder(df, config_cols):
+def update_df_col_order(df, config_cols):
     """
     Update the column order of the data frame to match the order of the columns listed in the config
     :param df: Pandas dataframe
@@ -60,7 +91,7 @@ def UpdateDFColOrder(df, config_cols):
     return df
 
 
-def CreateTableConfig(path, config):
+def create_table_config(path, config):
     """
     Create the table config file and stores it in ./output/config/tables directory
     :param path {string} -
@@ -80,7 +111,7 @@ def CreateTableConfig(path, config):
     u.DumpJSON(cPath.joinpath(file), config)
 
 
-def CreateTableFiles(df, path, drop, config):
+def create_table_files(df, path, drop, config):
     """
     Create table files from data, and also the associated table config file
     :param df {dataframe} - dataframe containing input data
@@ -123,10 +154,10 @@ def CreateTableFiles(df, path, drop, config):
             u.DumpCSV(tPath.joinpath(oFile), s_50)
 
     # Create a table config file
-    CreateTableConfig(path, config)
+    create_table_config(path, config)
 
 
-def CreateShapefile(df, oFile, drop):
+def create_shapefile(df, oFile, drop):
     sPath = PurePath("./output", "./shp")
 
     Path(sPath).mkdir(parents=True, exist_ok=True)
@@ -142,20 +173,29 @@ def CreateShapefile(df, oFile, drop):
 config = u.ReadJSON(TABLECONFIG)
 
 # Create a dataframe based on data source URL provided in the config file
-df = BuildDf(config["source"])
+df = build_df(config["source"])
+
+# Check if CSDUID exists, and if not, try to generate it from DGUID value if available
+if CSDUID is None and DGUID is not None:
+    CSDUID = 'csduid'
+    print("Generating CSDUID values from available DGUID values ...")
+    df[CSDUID] = df.apply(lambda x: dguid_to_csduid(x[DGUID]), axis=1)
+
+# Drop records with no corresponding CSDUID values
+df = df.dropna(subset=['csduid'])
 
 # Ensure CSDUID column is of type integer
 csduid_df = df[CSDUID]
-csduid_df = pd.to_numeric(csduid_df, downcast='integer')
+csduid_df = pd.to_numeric(csduid_df, downcast='unsigned')
 df[CSDUID] = csduid_df
 
 # Update column order of df to match fields order in config
-df = UpdateDFColOrder(df, config["fields"])
+df = update_df_col_order(df, config["fields"])
 
 # Create a list of dropped fields not listed in the table config file
 drop = u.GetDropFields(df, config["fields"])
 
 # Create table files for data based on boundary locations
-CreateTableFiles(df, config["id"], drop, config)
+create_table_files(df, config["id"], drop, config)
 
-# CreateShapefile(df, config["id"] + ".shp", drop)
+# create_shapefile(df, config["id"] + ".shp", drop)
